@@ -32,111 +32,97 @@ argo draw n_star tamadalab/argo
   <img width="275" alt="スクリーンショット 2021-06-21 21 04 52" src="https://user-images.githubusercontent.com/69036517/122758916-5374df00-d2d4-11eb-90ec-da32cc536810.png">
 
 # 入出力仕様
-## CLI
-### 基本的な操作
- ```sh
-argo <COMMAND> <METRICS> [OPTIONS] <REPOSITORY...>
+## Usage
 
-COMMAND
-    draw         Draw a graph. (Default)
-    get          Get the original data for graph drawing.
-    help         Print this message.
-
-METRICS     
-    N_STAR       ユーザー数　　　     
-    N_RIS        残イシュー数
-    R_RIS        残イシュー率
-    LT_CIS       イシュー生存率
-    R_MGPR       マージされたプルリクエスト数
-    LT_PR        プルリクエスト生存時間
-    R_PRLP       参加者が欠けているプルリクエスト率
-
-OPTIONS (grobal)
-    -h,--help    Explain the specified command
-    
-REPOSITORY
-    （userID | organizationID /repository name）
-```
-<br>
-
-
-### それぞれのコマンド操作
-#### draw
 ```sh
-SYNOPSIS
-    argo draw [<options>] <repository...>    
-    
-DESCRIPITION
-    Draw a graph. (If multiple repositories are specified, a compared graph will be output.)
-    
+argo [GLOBAL_OPTIONS] <COMMAND> [<ARGS>]
+GLOBAL_OPTIONS
+    -c, --config <CONFIG>    specify configuration file path.
+    -h, --help               print this message.
+COMMANDs
+    help          print help message.
+    fetch         fetch data from GitHub.
+    draw          draw line chart from fetched data.
+    list          list available queries and metrics.
+    fetch-draw    fetch data and draw line chart.
+```
+
+### `argo fetch`
+
+```sh
+argo fetch [OPTIONS] <ARGS...>
 OPTIONS
-    -t, --type <type>
-        Specify the type of graph to output.
-        he default is stargazers.
-        Valid values are n_star, n-code, n-ris (remaing issue), r-ris, lt_is, n-mgpr (marge pullrequst), lt_pr, r_prlt.
-        
-    -c, --cache-dir <cache_dir>
-        Specify the cache directory.
-        The default is `~/.config/argo/caches`.
-        
-    -o, --output <output>
-        Specify the graph data of the output destination.
+    -q, --query <QUERY>           specify the query. This option is mandatory.
+
+    -c, --cache-dir <DIR>         specify the cache directory path.
+        --ignore-cache            ignore the stored cache data.
+        --no-cache                no cache the fetched data.
+    -Q, --queries-dir <DIR>       specify the directory contains GraphQL queries.
+ARGS
+    specify GitHub repository by owner/name format.
 ```
 
-#### get
+### `argo draw`
+
 ```sh
-SYNOPSIS
-    argo get [<options>] <repository...>    
-    
-DESCRIPITION
-    Get the original data for graph drawing.
-    
-OPTIONS 
-    -c, --cache-dir <cache_dir>
-        Specify the cache directory.
-        The default is `~/.config/argo/caches`.
-        
-    -o, --output <output>
-        Specify the graph data of the output destination.
+argo draw [OPTIONS] <ARGS...>
+    -m, --metric <METRIC>      specify the metric (chart script). This option is mandatory.
+
+    -c, --cache-dir <DIR>      specify the cache directory path.
+        --ignore-cache         ignore the stored cache data.
+        --no-cache             no cache the fetched data.
+    -d, --write-data <DEST>    set file name of graph data destination. if this option is absent, argo outputs no graph data.
+    -f, --format <FORMAT>      specify the output image format. available: pdf, svg, and png. default: svg.
+    -M, --metrics-dir <DIR>    specify the directory contains chart scripts.
+    -u, --unit <UNIT>          specify the unit time. Default is 1M.
+                               Available: nD, nW, nM, and nY. n is the integer number,
+                                          D, W, M, Y means day, week, month, and year, respectively.
+ARGS
+    specify GitHub repository by owner/name format.
 ```
 
-### summary
+### `argo list`
+
 ```sh
-SYNOPSIS
-    argo summary [<options>] <repository...>    
-    
-DESCRIPITION
-    Extract summary data.
-    The output is the project name, the number of stars, the number of commits, 
-    the number of issues, the number of pull requests, and the creation date and time.
-    
-OPTIONS 
-    -c, --cache-dir <cache_dir>
-        Specify the cache directory.
-        The default is `~/.config/argo/caches`.
-        
-    -o, --output <output>
-        Specify the graph data of the output destination.
+argo list
+    -M, --metrics-dir <DIR>    specify the directory contains chart scripts.
+    -Q, --queries-dir <DIR>    specify the directory contains GraphQL queries.
 ```
 
-#### help
-```sh
-SYNOPSIS
-    argo help [-a|--all [--verbose]]    
-    
-DESCRIPITION
-    With no options and no COMMAND or GUIDE given,
-    the synopsis of the argo command and a list of the most commonly used Git commands are printed on the standard output.
 
-    
-OPTIONS 
-    -a, --all
-        Prints all the available commands on the standard output. 
-        This option overrides any given command or guide name.
-    
-    --verbose
-        When used with --all print description for all recognized commands.
-        This is the default.
+### structure of `~/.config/argo` directories.
+
+```sh
+.config/argo
+├── caches
+│   ├── microsoft
+│   │   └── vscode
+│   │       ├── issues
+│   │       ├── pullrequests
+│   │       └── stargazers
+│   └── ruby
+│       └── ruby
+├── config
+│   └── default.json
+├── metrics
+│   ├── microsoft
+│   │   └── vscode
+│   │       ├── N-STAR
+│   │       └── R-RIS
+│   └── ruby
+│       └── ruby
+├── scripts
+│   ├── LT-CIS.awk
+│   ├── LT-RP.py
+│   ├── N-RIS.rb
+│   ├── N-STAR.py
+│   ├── R-MGPR.py
+│   ├── R-PRLP.py
+│   └── R-RIS.py
+└── queries
+    ├── issues.graphql
+    ├── pullrequests.graphql
+    └── stargazers.graphql
 ```
 
 ### 出力
