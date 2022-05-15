@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOHaU62w=="
+                },
+                "nodes": [
+                    {
+                        "title": "debt - use utility for diagnostics IPC and introduce real workbench diagnostics service",
+                        "closedAt": "2020-09-17T05:36:26Z",
+                        "createdAt": "2020-09-16T07:38:39Z",
+                        "publishedAt": "2020-09-16T07:38:39Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-17T05:36:26Z"
+                    },
+                    {
+                        "title": "Don't update title area for filterview",
+                        "closedAt": "2020-09-16T13:19:09Z",
+                        "createdAt": "2020-09-16T11:28:58Z",
+                        "publishedAt": "2020-09-16T11:28:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-16T13:19:09Z"
+                    },
+                    {
+                        "title": "Support for resolving code actions",
+                        "closedAt": "2020-09-18T08:31:39Z",
+                        "createdAt": "2020-09-16T11:53:45Z",
+                        "publishedAt": "2020-09-16T11:53:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-18T08:31:39Z"
+                    },
+                    {
+                        "title": "Fix composition logic for Firefox",
+                        "closedAt": "2020-11-06T19:38:03Z",
+                        "createdAt": "2020-09-16T16:37:21Z",
+                        "publishedAt": "2020-09-16T16:37:21Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-06T19:38:03Z"
+                    },
+                    {
+                        "title": "hover info should not be broken within word",
+                        "closedAt": "2020-11-07T23:01:45Z",
+                        "createdAt": "2020-09-16T19:13:56Z",
+                        "publishedAt": "2020-09-16T19:13:56Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-07T23:01:45Z"
+                    },
+                    {
+                        "title": "Allow updating the title of a composite even if it is not active",
+                        "closedAt": "2020-09-18T21:49:56Z",
+                        "createdAt": "2020-09-16T22:12:38Z",
+                        "publishedAt": "2020-09-16T22:12:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-18T21:49:55Z"
+                    },
+                    {
+                        "title": "Bump version",
+                        "closedAt": "2020-09-16T22:42:07Z",
+                        "createdAt": "2020-09-16T22:29:31Z",
+                        "publishedAt": "2020-09-16T22:29:31Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-16T22:42:06Z"
+                    },
+                    {
+                        "title": "Simplify settings sync quick pick UI",
+                        "closedAt": "2020-09-17T19:15:49Z",
+                        "createdAt": "2020-09-16T23:02:51Z",
+                        "publishedAt": "2020-09-16T23:02:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-17T19:15:49Z"
+                    },
+                    {
+                        "title": "Add caching to Rich Navigation step to reuse node_modules",
+                        "closedAt": "2020-09-17T08:52:34Z",
+                        "createdAt": "2020-09-16T23:52:24Z",
+                        "publishedAt": "2020-09-16T23:52:24Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-17T08:52:34Z"
+                    },
+                    {
+                        "title": "Move tas-client to umd version and adopt in web",
+                        "closedAt": "2020-09-18T17:00:40Z",
+                        "createdAt": "2020-09-17T01:52:00Z",
+                        "publishedAt": "2020-09-17T01:52:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-18T17:00:39Z"
+                    },
+                    {
+                        "title": "Merge pull request #1 from microsoft/master",
+                        "closedAt": "2020-09-17T09:05:50Z",
+                        "createdAt": "2020-09-17T05:21:31Z",
+                        "publishedAt": "2020-09-17T05:21:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes typescript/js language-defined auto-closing brackets incorrectly treat template strings like whitespace",
+                        "closedAt": "2020-09-17T16:00:45Z",
+                        "createdAt": "2020-09-17T06:27:07Z",
+                        "publishedAt": "2020-09-17T06:27:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add selecting settings sync service in turn on flow",
+                        "closedAt": "2020-09-17T18:25:04Z",
+                        "createdAt": "2020-09-17T18:22:30Z",
+                        "publishedAt": "2020-09-17T18:22:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-17T18:25:04Z"
+                    },
+                    {
+                        "title": "Add panel maximization setting for #94930",
+                        "closedAt": "2020-09-21T18:09:06Z",
+                        "createdAt": "2020-09-17T22:03:30Z",
+                        "publishedAt": "2020-09-17T22:03:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-21T18:09:03Z"
+                    },
+                    {
+                        "title": "fix splitview bug",
+                        "closedAt": "2020-09-24T08:53:06Z",
+                        "createdAt": "2020-09-18T10:48:38Z",
+                        "publishedAt": "2020-09-18T10:48:38Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Translation of README.md",
+                        "closedAt": "2020-09-21T13:48:10Z",
+                        "createdAt": "2020-09-18T18:20:38Z",
+                        "publishedAt": "2020-09-18T18:20:38Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "switch to node libs",
+                        "closedAt": "2020-09-18T21:40:51Z",
+                        "createdAt": "2020-09-18T18:55:42Z",
+                        "publishedAt": "2020-09-18T18:55:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-18T21:40:51Z"
+                    },
+                    {
+                        "title": "Show filtered stats",
+                        "closedAt": "2020-09-22T14:30:21Z",
+                        "createdAt": "2020-09-19T15:14:19Z",
+                        "publishedAt": "2020-09-19T15:14:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-22T14:30:20Z"
+                    },
+                    {
+                        "title": "Fix two spelling mistakes",
+                        "closedAt": "2020-09-21T15:40:49Z",
+                        "createdAt": "2020-09-19T18:51:48Z",
+                        "publishedAt": "2020-09-19T18:51:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-21T15:40:49Z"
+                    },
+                    {
+                        "title": "feat: detect default stash message microsoft#106907",
+                        "closedAt": "2020-11-10T10:42:14Z",
+                        "createdAt": "2020-09-19T18:52:40Z",
+                        "publishedAt": "2020-09-19T18:52:40Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-10T10:42:14Z"
+                    },
+                    {
+                        "title": "Fix custom tree view to allow getting all root children",
+                        "closedAt": "2020-09-21T09:02:06Z",
+                        "createdAt": "2020-09-19T19:41:32Z",
+                        "publishedAt": "2020-09-19T19:41:32Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-21T09:02:06Z"
+                    },
+                    {
+                        "title": "Adds an option to view extensions in select language mode",
+                        "closedAt": "2020-10-03T15:57:50Z",
+                        "createdAt": "2020-09-20T03:32:37Z",
+                        "publishedAt": "2020-09-20T03:32:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "merge pull",
+                        "closedAt": "2020-09-21T12:53:48Z",
+                        "createdAt": "2020-09-20T04:48:36Z",
+                        "publishedAt": "2020-09-20T04:48:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Pr/34997",
+                        "closedAt": null,
+                        "createdAt": "2020-09-20T12:05:26Z",
+                        "publishedAt": "2020-09-20T12:05:26Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add atomic tabs option",
+                        "closedAt": "2020-11-21T00:10:51Z",
+                        "createdAt": "2020-09-20T21:25:42Z",
+                        "publishedAt": "2020-09-20T21:25:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-21T00:10:51Z"
+                    },
+                    {
+                        "title": "Add chart color tokens",
+                        "closedAt": "2020-09-23T21:11:39Z",
+                        "createdAt": "2020-09-22T05:24:22Z",
+                        "publishedAt": "2020-09-22T05:24:22Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-23T21:11:39Z"
+                    },
+                    {
+                        "title": "groups for viewsWelcome",
+                        "closedAt": "2020-09-28T21:10:07Z",
+                        "createdAt": "2020-09-22T10:08:50Z",
+                        "publishedAt": "2020-09-22T10:08:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T21:10:07Z"
+                    },
+                    {
+                        "title": "Toggle window minwidth depending on panel #89721",
+                        "closedAt": "2020-09-25T20:26:59Z",
+                        "createdAt": "2020-09-22T19:56:38Z",
+                        "publishedAt": "2020-09-22T19:56:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-25T20:26:59Z"
+                    },
+                    {
+                        "title": "saves SCM widget input on window reload",
+                        "closedAt": "2020-09-25T23:38:38Z",
+                        "createdAt": "2020-09-22T21:56:19Z",
+                        "publishedAt": "2020-09-22T21:56:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-25T23:38:37Z"
+                    },
+                    {
+                        "title": "Update dropdown styles",
+                        "closedAt": "2020-09-23T05:15:34Z",
+                        "createdAt": "2020-09-22T22:43:55Z",
+                        "publishedAt": "2020-09-22T22:43:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-23T05:15:34Z"
+                    },
+                    {
+                        "title": "Update version",
+                        "closedAt": "2020-09-22T23:09:42Z",
+                        "createdAt": "2020-09-22T23:09:04Z",
+                        "publishedAt": "2020-09-22T23:09:04Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update version",
+                        "closedAt": "2020-09-22T23:24:25Z",
+                        "createdAt": "2020-09-22T23:10:32Z",
+                        "publishedAt": "2020-09-22T23:10:32Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-22T23:24:25Z"
+                    },
+                    {
+                        "title": "Adding copy/paste provider API proposal",
+                        "closedAt": null,
+                        "createdAt": "2020-09-23T07:56:35Z",
+                        "publishedAt": "2020-09-23T07:56:35Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "sandbox - move keytar into native host service",
+                        "closedAt": "2020-09-24T06:43:38Z",
+                        "createdAt": "2020-09-23T12:08:30Z",
+                        "publishedAt": "2020-09-23T12:08:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-24T06:43:38Z"
+                    },
+                    {
+                        "title": "Fix README.md detection in welcome page",
+                        "closedAt": "2020-09-24T08:24:24Z",
+                        "createdAt": "2020-09-23T18:11:30Z",
+                        "publishedAt": "2020-09-23T18:11:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-24T08:24:23Z"
+                    },
+                    {
+                        "title": "Added additional colour options for differing git staging statuses",
+                        "closedAt": "2020-09-28T14:34:01Z",
+                        "createdAt": "2020-09-23T18:44:50Z",
+                        "publishedAt": "2020-09-23T18:44:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T14:34:01Z"
+                    },
+                    {
+                        "title": "Make editorGroupToViewColumn return 0 instead of throwing error",
+                        "closedAt": "2020-12-01T01:43:33Z",
+                        "createdAt": "2020-09-23T20:13:17Z",
+                        "publishedAt": "2020-09-23T20:13:17Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes outline: shift + tab needs to be pressed twice for focus to go to title actions",
+                        "closedAt": "2020-09-24T07:11:48Z",
+                        "createdAt": "2020-09-24T06:35:33Z",
+                        "publishedAt": "2020-09-24T06:35:33Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-24T07:11:48Z"
+                    },
+                    {
+                        "title": "Fixes SnippetString.appendChoice does not escape commas in choices",
+                        "closedAt": "2020-09-24T11:52:29Z",
+                        "createdAt": "2020-09-24T09:20:58Z",
+                        "publishedAt": "2020-09-24T09:20:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-24T11:52:29Z"
+                    },
+                    {
+                        "title": "ci: consume new electron 9.2.1 builds",
+                        "closedAt": "2020-09-24T15:53:04Z",
+                        "createdAt": "2020-09-24T15:45:36Z",
+                        "publishedAt": "2020-09-24T15:45:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-24T15:53:04Z"
+                    },
+                    {
+                        "title": "Adds cancellation to children fetch to avoid timing issue on refresh",
+                        "closedAt": "2020-09-28T15:08:11Z",
+                        "createdAt": "2020-09-25T04:26:51Z",
+                        "publishedAt": "2020-09-25T04:26:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T15:08:11Z"
+                    },
+                    {
+                        "title": "Return a types.MarkdownString instace to extensions",
+                        "closedAt": "2020-09-25T18:11:29Z",
+                        "createdAt": "2020-09-25T06:29:50Z",
+                        "publishedAt": "2020-09-25T06:29:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-25T18:11:29Z"
+                    },
+                    {
+                        "title": "proposal for NotebookCellOutput",
+                        "closedAt": "2020-09-28T13:29:28Z",
+                        "createdAt": "2020-09-25T09:45:34Z",
+                        "publishedAt": "2020-09-25T09:45:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T13:29:28Z"
+                    },
+                    {
+                        "title": "Implement vscode-file:// support and drop node.js for window loading",
+                        "closedAt": "2021-01-06T14:33:25Z",
+                        "createdAt": "2020-09-25T12:39:45Z",
+                        "publishedAt": "2020-09-25T12:39:45Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add bottom margin to spans in hovers",
+                        "closedAt": "2020-09-28T09:35:24Z",
+                        "createdAt": "2020-09-25T13:25:13Z",
+                        "publishedAt": "2020-09-25T13:25:13Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T09:35:24Z"
+                    },
+                    {
+                        "title": "Fixes [Terminal: Clear] command",
+                        "closedAt": "2021-06-09T22:33:27Z",
+                        "createdAt": "2020-09-25T15:42:51Z",
+                        "publishedAt": "2020-09-25T15:42:51Z",
+                        "merged": true,
+                        "mergedAt": "2021-06-09T22:33:27Z"
+                    },
+                    {
+                        "title": "support to delete remote tag from command palette.",
+                        "closedAt": null,
+                        "createdAt": "2020-09-25T19:27:38Z",
+                        "publishedAt": "2020-09-25T19:27:38Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add escape key (ESC) action for exiting fullscreen mode",
+                        "closedAt": "2020-10-06T05:28:42Z",
+                        "createdAt": "2020-09-27T07:14:25Z",
+                        "publishedAt": "2020-09-27T07:14:25Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update Remote-Containers command name in .devcontainer/README.md",
+                        "closedAt": "2020-09-28T14:17:16Z",
+                        "createdAt": "2020-09-27T09:31:02Z",
+                        "publishedAt": "2020-09-27T09:31:02Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T14:17:16Z"
+                    },
+                    {
+                        "title": "Add optional parameter to showOptions called newEditorGroup",
+                        "closedAt": "2020-10-14T23:19:12Z",
+                        "createdAt": "2020-09-27T18:57:15Z",
+                        "publishedAt": "2020-09-27T18:57:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Remove abstract key-val fsp and make indexedDB fsp operate on Uint8Arrs",
+                        "closedAt": "2020-09-28T14:04:44Z",
+                        "createdAt": "2020-09-28T13:48:23Z",
+                        "publishedAt": "2020-09-28T13:48:23Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T14:04:44Z"
+                    },
+                    {
+                        "title": "Add keybinding shortcut for \"Preserve case\" replace option",
+                        "closedAt": "2020-10-06T00:20:13Z",
+                        "createdAt": "2020-09-28T14:56:16Z",
+                        "publishedAt": "2020-09-28T14:56:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-06T00:20:13Z"
+                    },
+                    {
+                        "title": "Update tags for Playwright packages",
+                        "closedAt": "2020-09-28T19:44:39Z",
+                        "createdAt": "2020-09-28T16:31:19Z",
+                        "publishedAt": "2020-09-28T16:31:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-28T19:44:39Z"
+                    },
+                    {
+                        "title": "Merge pull request #1 from microsoft/master",
+                        "closedAt": "2020-09-28T16:51:12Z",
+                        "createdAt": "2020-09-28T16:49:49Z",
+                        "publishedAt": "2020-09-28T16:49:49Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update deps to include libgbm",
+                        "closedAt": "2020-10-19T18:47:08Z",
+                        "createdAt": "2020-09-28T18:22:14Z",
+                        "publishedAt": "2020-09-28T18:22:14Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-19T18:47:08Z"
+                    },
+                    {
+                        "title": "SCM: Support past commit message navigation",
+                        "closedAt": "2020-10-20T08:04:34Z",
+                        "createdAt": "2020-09-28T21:38:30Z",
+                        "publishedAt": "2020-09-28T21:38:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-20T08:04:34Z"
+                    },
+                    {
+                        "title": "Migrate off of require.toUrl",
+                        "closedAt": "2020-10-16T23:34:27Z",
+                        "createdAt": "2020-09-28T22:26:51Z",
+                        "publishedAt": "2020-09-28T22:26:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-16T23:34:26Z"
+                    },
+                    {
+                        "title": "Adds a vscode.hideView command",
+                        "closedAt": "2022-04-08T11:40:52Z",
+                        "createdAt": "2020-09-29T06:05:56Z",
+                        "publishedAt": "2020-09-29T06:05:56Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix #106487 implement 'enablement' clause for viewsWelcome contribution's buttons",
+                        "closedAt": "2020-11-23T10:51:02Z",
+                        "createdAt": "2020-09-29T14:31:37Z",
+                        "publishedAt": "2020-09-29T14:31:37Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-23T10:51:02Z"
+                    },
+                    {
+                        "title": "Create READMETEST.md",
+                        "closedAt": "2020-09-30T06:10:28Z",
+                        "createdAt": "2020-09-29T22:59:39Z",
+                        "publishedAt": "2020-09-29T22:59:39Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Search In Open Editors",
+                        "closedAt": "2021-01-22T00:59:08Z",
+                        "createdAt": "2020-09-29T23:02:37Z",
+                        "publishedAt": "2020-09-29T23:02:37Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-22T00:59:08Z"
+                    },
+                    {
+                        "title": "Switch to a image for the microsoft/vscode dev container",
+                        "closedAt": "2020-10-01T15:26:30Z",
+                        "createdAt": "2020-09-30T02:29:47Z",
+                        "publishedAt": "2020-09-30T02:29:47Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T15:26:30Z"
+                    },
+                    {
+                        "title": "Fix crash in JSON/HTML LSP servers when initializationOptions are not provided",
+                        "closedAt": "2020-09-30T10:53:50Z",
+                        "createdAt": "2020-09-30T07:05:20Z",
+                        "publishedAt": "2020-09-30T07:05:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-09-30T10:53:50Z"
+                    },
+                    {
+                        "title": "Clarify the proprietary distribution in the README",
+                        "closedAt": "2020-10-21T03:55:39Z",
+                        "createdAt": "2020-09-30T10:34:46Z",
+                        "publishedAt": "2020-09-30T10:34:46Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add support for opaque AAD access tokens",
+                        "closedAt": "2020-10-01T19:01:30Z",
+                        "createdAt": "2020-09-30T20:28:39Z",
+                        "publishedAt": "2020-09-30T20:28:39Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T19:01:30Z"
+                    },
+                    {
+                        "title": "Switches the 'Fix all' quick fix provider to use resolveCodeAction",
+                        "closedAt": "2020-11-10T02:00:47Z",
+                        "createdAt": "2020-09-30T22:38:58Z",
+                        "publishedAt": "2020-09-30T22:38:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-10T02:00:47Z"
+                    },
+                    {
+                        "title": "Add Rust source code file association",
+                        "closedAt": "2020-10-02T07:44:04Z",
+                        "createdAt": "2020-10-01T01:13:12Z",
+                        "publishedAt": "2020-10-01T01:13:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "force .exe, .dll as binary to fix CRLF/LF problems",
+                        "closedAt": "2020-10-01T08:17:50Z",
+                        "createdAt": "2020-10-01T02:43:11Z",
+                        "publishedAt": "2020-10-01T02:43:11Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T08:17:50Z"
+                    },
+                    {
+                        "title": "option to create empty editor splits instead of duplicating",
+                        "closedAt": "2020-10-04T15:45:18Z",
+                        "createdAt": "2020-10-01T03:08:04Z",
+                        "publishedAt": "2020-10-01T03:08:04Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "product: add serverDataFolderName to product.json",
+                        "closedAt": "2020-10-01T17:49:32Z",
+                        "createdAt": "2020-10-01T08:59:58Z",
+                        "publishedAt": "2020-10-01T08:59:58Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "OS color schemes: report hc and light/dark",
+                        "closedAt": "2020-10-01T17:51:55Z",
+                        "createdAt": "2020-10-01T11:58:19Z",
+                        "publishedAt": "2020-10-01T11:58:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T17:51:55Z"
+                    },
+                    {
+                        "title": "Fix typos in vscode.d.ts / API documentation",
+                        "closedAt": "2020-10-01T13:37:09Z",
+                        "createdAt": "2020-10-01T13:05:02Z",
+                        "publishedAt": "2020-10-01T13:05:02Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T13:37:09Z"
+                    },
+                    {
+                        "title": "Listener leak when scrolling PULL REQUESTS view",
+                        "closedAt": "2020-10-01T16:50:06Z",
+                        "createdAt": "2020-10-01T13:45:45Z",
+                        "publishedAt": "2020-10-01T13:45:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-01T16:50:06Z"
+                    },
+                    {
+                        "title": "added preserve case and excluse setting in FindInFile interface",
+                        "closedAt": "2020-10-03T21:49:29Z",
+                        "createdAt": "2020-10-01T17:36:03Z",
+                        "publishedAt": "2020-10-01T17:36:03Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-03T21:49:29Z"
+                    },
+                    {
+                        "title": "scmViewPane: do not render whitespace in commit message input field",
+                        "closedAt": "2020-11-10T08:50:14Z",
+                        "createdAt": "2020-10-01T17:52:34Z",
+                        "publishedAt": "2020-10-01T17:52:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-10T08:50:14Z"
+                    },
+                    {
+                        "title": "Adding a quick tip in debug hover mode",
+                        "closedAt": "2020-11-13T09:04:02Z",
+                        "createdAt": "2020-10-01T19:47:19Z",
+                        "publishedAt": "2020-10-01T19:47:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "106907-When-stashing-use-commit-message",
+                        "closedAt": "2020-11-10T10:49:32Z",
+                        "createdAt": "2020-10-01T20:36:55Z",
+                        "publishedAt": "2020-10-01T20:36:55Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Quiet Light theme diff syntax highlighting",
+                        "closedAt": "2020-11-27T16:25:53Z",
+                        "createdAt": "2020-10-01T20:42:04Z",
+                        "publishedAt": "2020-10-01T20:42:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-27T16:25:53Z"
+                    },
+                    {
+                        "title": "Using global-scope isWorkspaceShellAllowed with folderUri",
+                        "closedAt": "2021-05-04T17:50:54Z",
+                        "createdAt": "2020-10-01T21:49:15Z",
+                        "publishedAt": "2020-10-01T21:49:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Replace panel: allow to validate using keyboard any time, not only when replace string is active",
+                        "closedAt": null,
+                        "createdAt": "2020-10-01T23:42:12Z",
+                        "publishedAt": "2020-10-01T23:42:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "test",
+                        "closedAt": "2020-10-01T23:50:32Z",
+                        "createdAt": "2020-10-01T23:49:12Z",
+                        "publishedAt": "2020-10-01T23:49:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Allows for filtering by file extension in Change Language Mode",
+                        "closedAt": "2020-11-23T07:27:27Z",
+                        "createdAt": "2020-10-01T23:54:36Z",
+                        "publishedAt": "2020-10-01T23:54:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Replace panel: allow to validate using keyboard any time, not only when replace string is active",
+                        "closedAt": "2020-10-08T16:56:58Z",
+                        "createdAt": "2020-10-02T01:20:16Z",
+                        "publishedAt": "2020-10-02T01:20:16Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Honour opt-out for crash reporting",
+                        "closedAt": "2020-10-27T10:09:14Z",
+                        "createdAt": "2020-10-02T04:15:04Z",
+                        "publishedAt": "2020-10-02T04:15:04Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix a bypass for CVE-2020-16881",
+                        "closedAt": "2020-10-02T15:14:52Z",
+                        "createdAt": "2020-10-02T07:33:02Z",
+                        "publishedAt": "2020-10-02T07:33:02Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-02T15:14:52Z"
+                    },
+                    {
+                        "title": "Create empty commit with changed files #107753",
+                        "closedAt": "2020-11-10T11:02:24Z",
+                        "createdAt": "2020-10-02T08:41:12Z",
+                        "publishedAt": "2020-10-02T08:41:12Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-10T11:02:24Z"
+                    },
+                    {
+                        "title": "Fix typo extensions/search-result/README.md",
+                        "closedAt": "2020-10-02T14:42:48Z",
+                        "createdAt": "2020-10-02T09:53:05Z",
+                        "publishedAt": "2020-10-02T09:53:05Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-02T14:42:48Z"
+                    },
+                    {
+                        "title": "Backport #107952 to 1.49",
+                        "closedAt": "2020-10-02T16:07:00Z",
+                        "createdAt": "2020-10-02T15:28:10Z",
+                        "publishedAt": "2020-10-02T15:28:10Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-02T16:07:00Z"
+                    },
+                    {
+                        "title": "Update code.bat",
+                        "closedAt": "2020-10-02T17:08:16Z",
+                        "createdAt": "2020-10-02T16:32:20Z",
+                        "publishedAt": "2020-10-02T16:32:20Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Bump distro, add notebook worker to web build",
+                        "closedAt": "2020-10-05T16:12:59Z",
+                        "createdAt": "2020-10-02T22:04:43Z",
+                        "publishedAt": "2020-10-02T22:04:43Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-05T16:12:59Z"
+                    },
+                    {
+                        "title": "option to have --no-edit when amending commits",
+                        "closedAt": "2020-11-10T12:56:29Z",
+                        "createdAt": "2020-10-03T00:04:15Z",
+                        "publishedAt": "2020-10-03T00:04:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "feat(searchView): added preserveCase and excludeIgnoredFiles to setSearchParameters",
+                        "closedAt": "2020-10-03T21:26:38Z",
+                        "createdAt": "2020-10-03T00:40:31Z",
+                        "publishedAt": "2020-10-03T00:40:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Markdown reference links starting with ^ should not be clickable",
+                        "closedAt": "2020-10-08T06:38:20Z",
+                        "createdAt": "2020-10-03T03:16:30Z",
+                        "publishedAt": "2020-10-03T03:16:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-08T06:38:17Z"
+                    },
+                    {
+                        "title": "Backport #107952 to 1.50",
+                        "closedAt": "2020-10-03T13:44:41Z",
+                        "createdAt": "2020-10-03T13:17:06Z",
+                        "publishedAt": "2020-10-03T13:17:06Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-03T13:44:41Z"
+                    },
+                    {
+                        "title": "Fixes outline view element overflow",
+                        "closedAt": "2020-10-05T07:14:33Z",
+                        "createdAt": "2020-10-03T14:50:26Z",
+                        "publishedAt": "2020-10-03T14:50:26Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-05T07:14:32Z"
+                    },
+                    {
+                        "title": "fix: Remove extra whitespace in the untitled editor label",
+                        "closedAt": "2020-10-06T06:38:31Z",
+                        "createdAt": "2020-10-03T15:02:24Z",
+                        "publishedAt": "2020-10-03T15:02:24Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-06T06:38:30Z"
+                    },
+                    {
+                        "title": "feat(search): added breakpoint all action",
+                        "closedAt": "2020-10-03T21:12:48Z",
+                        "createdAt": "2020-10-03T15:45:50Z",
+                        "publishedAt": "2020-10-03T15:45:50Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update test.css",
+                        "closedAt": "2020-10-03T21:41:05Z",
+                        "createdAt": "2020-10-03T21:39:10Z",
+                        "publishedAt": "2020-10-03T21:39:10Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update test.css",
+                        "closedAt": "2020-10-12T11:56:51Z",
+                        "createdAt": "2020-10-03T21:41:20Z",
+                        "publishedAt": "2020-10-03T21:41:20Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Read file contents as stream in ChangeEncodingAction",
+                        "closedAt": "2020-10-05T10:27:53Z",
+                        "createdAt": "2020-10-04T03:05:32Z",
+                        "publishedAt": "2020-10-04T03:05:32Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-05T10:27:53Z"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOCbiBew=="
+                },
+                "nodes": [
+                    {
+                        "title": "Fix #40011: Tweak overflow behaviour when setting tab is narrow",
+                        "closedAt": "2017-12-21T14:56:01Z",
+                        "createdAt": "2017-12-18T22:43:19Z",
+                        "publishedAt": "2017-12-18T22:43:19Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-21T14:56:01Z"
+                    },
+                    {
+                        "title": "Use case-insensitive environment vars on Windows",
+                        "closedAt": "2017-12-22T16:22:37Z",
+                        "createdAt": "2017-12-19T00:59:57Z",
+                        "publishedAt": "2017-12-19T00:59:57Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-22T16:22:36Z"
+                    },
+                    {
+                        "title": "Fix circular/infinite dispose Fixes: #40465",
+                        "closedAt": "2017-12-19T05:47:40Z",
+                        "createdAt": "2017-12-19T01:19:42Z",
+                        "publishedAt": "2017-12-19T01:19:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-19T05:47:39Z"
+                    },
+                    {
+                        "title": "SelectBox select on mouseup only Fixes: #40438",
+                        "closedAt": "2017-12-19T05:46:15Z",
+                        "createdAt": "2017-12-19T04:18:50Z",
+                        "publishedAt": "2017-12-19T04:18:50Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-19T05:46:14Z"
+                    },
+                    {
+                        "title": "Automatically select type in generated snippet",
+                        "closedAt": "2018-01-03T18:07:38Z",
+                        "createdAt": "2017-12-20T03:07:58Z",
+                        "publishedAt": "2017-12-20T03:07:58Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix backspace in IME composition on iOS Safari",
+                        "closedAt": "2018-05-02T23:42:08Z",
+                        "createdAt": "2017-12-20T03:42:07Z",
+                        "publishedAt": "2017-12-20T03:42:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-05-02T23:42:07Z"
+                    },
+                    {
+                        "title": "SelectBox toggle select on 2nd click Fixes: #40513",
+                        "closedAt": "2017-12-20T04:28:38Z",
+                        "createdAt": "2017-12-20T04:05:38Z",
+                        "publishedAt": "2017-12-20T04:05:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-20T04:28:37Z"
+                    },
+                    {
+                        "title": "Focus xterm on first startup. fix #40416",
+                        "closedAt": "2018-01-22T18:54:55Z",
+                        "createdAt": "2017-12-20T06:37:36Z",
+                        "publishedAt": "2017-12-20T06:37:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "issue: #40373 default setting for panel location",
+                        "closedAt": "2017-12-22T18:27:22Z",
+                        "createdAt": "2017-12-20T08:18:12Z",
+                        "publishedAt": "2017-12-20T08:18:12Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-22T18:27:22Z"
+                    },
+                    {
+                        "title": "Buffer improvements",
+                        "closedAt": "2018-01-03T15:56:18Z",
+                        "createdAt": "2017-12-20T09:08:34Z",
+                        "publishedAt": "2017-12-20T09:08:34Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-03T15:56:18Z"
+                    },
+                    {
+                        "title": "Add tooltip on links in markdown preview #30201",
+                        "closedAt": "2017-12-21T03:10:33Z",
+                        "createdAt": "2017-12-20T11:09:35Z",
+                        "publishedAt": "2017-12-20T11:09:35Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-21T03:10:33Z"
+                    },
+                    {
+                        "title": "Windows: improved saving as admin",
+                        "closedAt": "2017-12-20T11:45:21Z",
+                        "createdAt": "2017-12-20T11:10:46Z",
+                        "publishedAt": "2017-12-20T11:10:46Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-20T11:45:21Z"
+                    },
+                    {
+                        "title": "SelectBox - Return focus to select after mouse selection.  Fixes: #40596",
+                        "closedAt": "2017-12-20T20:53:07Z",
+                        "createdAt": "2017-12-20T20:47:18Z",
+                        "publishedAt": "2017-12-20T20:47:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-20T20:53:07Z"
+                    },
+                    {
+                        "title": "SelectBox: Trigger custom not native select with Alt-Up. Fixes: #40595",
+                        "closedAt": "2017-12-21T02:26:08Z",
+                        "createdAt": "2017-12-21T02:25:11Z",
+                        "publishedAt": "2017-12-21T02:25:11Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-21T02:26:07Z"
+                    },
+                    {
+                        "title": "workbench: Adds actions for moveEditorToFirstGroup, moveEditorToSecondGroup, moveEditorToThirdGroup",
+                        "closedAt": "2017-12-28T07:52:14Z",
+                        "createdAt": "2017-12-21T10:22:41Z",
+                        "publishedAt": "2017-12-21T10:22:41Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-28T07:52:13Z"
+                    },
+                    {
+                        "title": "[Docs] - VSCODE - README.md - minor tweaks (spelling/grammar)",
+                        "closedAt": "2017-12-22T08:59:50Z",
+                        "createdAt": "2017-12-21T15:43:52Z",
+                        "publishedAt": "2017-12-21T15:43:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Change default shortcut search history navigation",
+                        "closedAt": "2018-06-11T09:52:59Z",
+                        "createdAt": "2017-12-21T21:27:06Z",
+                        "publishedAt": "2017-12-21T21:27:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Option to disable Touch Bar controls and leave control strip (#38333)",
+                        "closedAt": "2017-12-22T13:50:27Z",
+                        "createdAt": "2017-12-22T05:42:01Z",
+                        "publishedAt": "2017-12-22T05:42:01Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-22T13:50:27Z"
+                    },
+                    {
+                        "title": "Switch all schemastore.org URLs to use SSL.",
+                        "closedAt": "2018-01-02T18:36:21Z",
+                        "createdAt": "2017-12-23T00:04:26Z",
+                        "publishedAt": "2017-12-23T00:04:26Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-02T18:36:21Z"
+                    },
+                    {
+                        "title": "workbench: Adds 'Show Code Version' Action",
+                        "closedAt": "2018-02-09T13:27:03Z",
+                        "createdAt": "2017-12-23T06:26:09Z",
+                        "publishedAt": "2017-12-23T06:26:09Z",
+                        "merged": true,
+                        "mergedAt": "2018-02-09T13:27:03Z"
+                    },
+                    {
+                        "title": "Add fixed sized workbench tabs",
+                        "closedAt": "2018-01-18T09:19:42Z",
+                        "createdAt": "2017-12-23T11:24:37Z",
+                        "publishedAt": "2017-12-23T11:24:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "added Center Mode (#15684)",
+                        "closedAt": "2018-02-21T06:36:44Z",
+                        "createdAt": "2017-12-23T15:45:35Z",
+                        "publishedAt": "2017-12-23T15:45:35Z",
+                        "merged": true,
+                        "mergedAt": "2018-02-21T06:36:44Z"
+                    },
+                    {
+                        "title": "Fix capitalization in holiday message",
+                        "closedAt": "2018-01-06T00:17:35Z",
+                        "createdAt": "2017-12-23T22:36:21Z",
+                        "publishedAt": "2017-12-23T22:36:21Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add user stylesheet",
+                        "closedAt": "2018-01-03T13:27:17Z",
+                        "createdAt": "2017-12-23T23:48:03Z",
+                        "publishedAt": "2017-12-23T23:48:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "support next-previous change in editor view #7717",
+                        "closedAt": "2018-02-09T15:02:13Z",
+                        "createdAt": "2017-12-24T06:42:32Z",
+                        "publishedAt": "2017-12-24T06:42:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add when contextKey for scm viewlet Fixes #17722",
+                        "closedAt": "2018-02-09T16:02:38Z",
+                        "createdAt": "2017-12-24T12:56:54Z",
+                        "publishedAt": "2017-12-24T12:56:54Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add an option to display minimap to the left.",
+                        "closedAt": "2018-01-24T16:24:21Z",
+                        "createdAt": "2017-12-24T16:11:02Z",
+                        "publishedAt": "2017-12-24T16:11:02Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-24T16:24:21Z"
+                    },
+                    {
+                        "title": "fix spelling of issues to issue since \"report issues\" can't be found in the command palette",
+                        "closedAt": "2017-12-27T23:37:42Z",
+                        "createdAt": "2017-12-25T12:08:24Z",
+                        "publishedAt": "2017-12-25T12:08:24Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-27T23:37:42Z"
+                    },
+                    {
+                        "title": "reduce padding when close button is left fixes Microsoft/vscode/#39603",
+                        "closedAt": "2018-01-11T10:15:44Z",
+                        "createdAt": "2017-12-26T09:01:28Z",
+                        "publishedAt": "2017-12-26T09:01:28Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Support terminal bell",
+                        "closedAt": "2018-01-02T20:51:10Z",
+                        "createdAt": "2017-12-26T12:20:47Z",
+                        "publishedAt": "2017-12-26T12:20:47Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-02T20:51:10Z"
+                    },
+                    {
+                        "title": "add option to disable terminal exit alert",
+                        "closedAt": "2018-01-02T17:35:44Z",
+                        "createdAt": "2017-12-27T10:04:42Z",
+                        "publishedAt": "2017-12-27T10:04:42Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-02T17:35:44Z"
+                    },
+                    {
+                        "title": ":christmas_tree:  SelectBox: First character navigation. Fixes: #40540",
+                        "closedAt": "2017-12-27T23:09:52Z",
+                        "createdAt": "2017-12-27T22:59:09Z",
+                        "publishedAt": "2017-12-27T22:59:09Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-27T23:09:51Z"
+                    },
+                    {
+                        "title": "Fix DeleteAllLeft when executed from column 1",
+                        "closedAt": "2018-06-19T18:12:44Z",
+                        "createdAt": "2017-12-27T23:26:09Z",
+                        "publishedAt": "2017-12-27T23:26:09Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "SelectBox add PageUp, PageDown, Home, End Nav. Fixes #40599",
+                        "closedAt": "2017-12-28T04:13:49Z",
+                        "createdAt": "2017-12-28T04:04:48Z",
+                        "publishedAt": "2017-12-28T04:04:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-28T04:13:48Z"
+                    },
+                    {
+                        "title": "Monokai Dimmed & Light Themes - Increase foreground, hover contrast. Fixes: #40731, #40732",
+                        "closedAt": "2018-01-03T19:27:14Z",
+                        "createdAt": "2017-12-28T20:04:23Z",
+                        "publishedAt": "2017-12-28T20:04:23Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-03T19:27:13Z"
+                    },
+                    {
+                        "title": "[workbench/fileActions] add focusActiveFileInExplorer action",
+                        "closedAt": "2018-06-13T08:15:53Z",
+                        "createdAt": "2017-12-28T23:53:33Z",
+                        "publishedAt": "2017-12-28T23:53:33Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Allow alt+F4 to close window in integrated terminal on Windows Fixes #35646",
+                        "closedAt": "2018-01-02T18:13:09Z",
+                        "createdAt": "2017-12-29T21:35:44Z",
+                        "publishedAt": "2017-12-29T21:35:44Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-02T18:13:09Z"
+                    },
+                    {
+                        "title": "New settings search UX - #40957",
+                        "closedAt": "2018-01-12T01:44:54Z",
+                        "createdAt": "2017-12-30T00:44:41Z",
+                        "publishedAt": "2017-12-30T00:44:41Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-12T01:44:54Z"
+                    },
+                    {
+                        "title": "SelectBox Custom: Hide Drop-down on Dispose.  Fixes: #40962",
+                        "closedAt": "2017-12-31T01:26:14Z",
+                        "createdAt": "2017-12-31T01:19:34Z",
+                        "publishedAt": "2017-12-31T01:19:34Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-31T01:26:14Z"
+                    },
+                    {
+                        "title": "Update copyright information",
+                        "closedAt": "2018-01-12T10:59:58Z",
+                        "createdAt": "2017-12-31T12:52:35Z",
+                        "publishedAt": "2017-12-31T12:52:35Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Ben/taskmanager",
+                        "closedAt": "2018-01-02T14:11:20Z",
+                        "createdAt": "2018-01-01T18:53:53Z",
+                        "publishedAt": "2018-01-01T18:53:53Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Remove all PTYSHELLARGs from environment",
+                        "closedAt": "2018-01-03T14:22:10Z",
+                        "createdAt": "2018-01-02T22:35:27Z",
+                        "publishedAt": "2018-01-02T22:35:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-03T14:22:10Z"
+                    },
+                    {
+                        "title": "Move new CodeAction Api from proposed to vscode.d.ts",
+                        "closedAt": "2018-01-03T11:03:33Z",
+                        "createdAt": "2018-01-02T23:23:37Z",
+                        "publishedAt": "2018-01-02T23:23:37Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-03T11:03:33Z"
+                    },
+                    {
+                        "title": "fix typo in comment",
+                        "closedAt": "2018-01-16T03:20:30Z",
+                        "createdAt": "2018-01-03T08:56:18Z",
+                        "publishedAt": "2018-01-03T08:56:18Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update copyright year to 2018",
+                        "closedAt": "2018-01-08T09:45:26Z",
+                        "createdAt": "2018-01-03T12:24:50Z",
+                        "publishedAt": "2018-01-03T12:24:50Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-08T09:45:26Z"
+                    },
+                    {
+                        "title": "#40483 Add user snippets line in the cog button",
+                        "closedAt": "2018-01-03T13:28:13Z",
+                        "createdAt": "2018-01-03T13:00:09Z",
+                        "publishedAt": "2018-01-03T13:00:09Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-03T13:28:13Z"
+                    },
+                    {
+                        "title": "Add 'enableScrollWhenVisible' to control scroll when Find widget is visible.[#28390]",
+                        "closedAt": "2018-01-03T14:11:16Z",
+                        "createdAt": "2018-01-03T13:07:29Z",
+                        "publishedAt": "2018-01-03T13:07:29Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Make color picker to follow cursor horizontally Fixes #34205",
+                        "closedAt": "2018-05-24T05:09:54Z",
+                        "createdAt": "2018-01-04T05:52:41Z",
+                        "publishedAt": "2018-01-04T05:52:41Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix typo in MergeDecorator class name",
+                        "closedAt": "2018-01-08T11:09:09Z",
+                        "createdAt": "2018-01-04T06:34:21Z",
+                        "publishedAt": "2018-01-04T06:34:21Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-08T11:09:09Z"
+                    },
+                    {
+                        "title": "Add option to control width of the line cursor ",
+                        "closedAt": "2018-01-10T01:26:33Z",
+                        "createdAt": "2018-01-05T02:52:09Z",
+                        "publishedAt": "2018-01-05T02:52:09Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-10T01:26:33Z"
+                    },
+                    {
+                        "title": "buffer improvement with piece tree",
+                        "closedAt": "2018-01-19T06:09:50Z",
+                        "createdAt": "2018-01-05T06:10:20Z",
+                        "publishedAt": "2018-01-05T06:10:20Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-19T06:09:50Z"
+                    },
+                    {
+                        "title": "Clean up terminal config access",
+                        "closedAt": "2018-01-17T22:12:14Z",
+                        "createdAt": "2018-01-05T22:10:14Z",
+                        "publishedAt": "2018-01-05T22:10:14Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-17T22:12:14Z"
+                    },
+                    {
+                        "title": "WIP make globs case-insensitive by default",
+                        "closedAt": "2019-10-10T21:34:54Z",
+                        "createdAt": "2018-01-06T01:12:14Z",
+                        "publishedAt": "2018-01-06T01:12:14Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Terminal Find: Add Find Next/Previous WIP Fixes: #29661",
+                        "closedAt": "2018-09-18T18:23:27Z",
+                        "createdAt": "2018-01-06T23:32:09Z",
+                        "publishedAt": "2018-01-06T23:32:09Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Save diff editor view state",
+                        "closedAt": "2018-02-05T13:58:08Z",
+                        "createdAt": "2018-01-07T05:12:28Z",
+                        "publishedAt": "2018-01-07T05:12:28Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Added support for multiple selections in Open Link action",
+                        "closedAt": "2018-01-08T23:08:51Z",
+                        "createdAt": "2018-01-07T12:46:27Z",
+                        "publishedAt": "2018-01-07T12:46:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-08T23:08:50Z"
+                    },
+                    {
+                        "title": "o",
+                        "closedAt": "2018-01-09T02:00:33Z",
+                        "createdAt": "2018-01-08T10:04:13Z",
+                        "publishedAt": "2018-01-08T10:04:13Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Adopt list commands for editor's \"Find References\" peek UI",
+                        "closedAt": "2018-01-09T17:11:16Z",
+                        "createdAt": "2018-01-08T10:44:18Z",
+                        "publishedAt": "2018-01-08T10:44:18Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-09T17:11:15Z"
+                    },
+                    {
+                        "title": "Add note to differentiate btw TextDoc & TextEditor",
+                        "closedAt": "2018-01-09T16:27:40Z",
+                        "createdAt": "2018-01-08T19:13:56Z",
+                        "publishedAt": "2018-01-08T19:13:56Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-09T16:27:40Z"
+                    },
+                    {
+                        "title": "Fix some English issues in the interactive playground",
+                        "closedAt": "2018-01-10T08:12:10Z",
+                        "createdAt": "2018-01-08T19:56:09Z",
+                        "publishedAt": "2018-01-08T19:56:09Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-10T08:12:10Z"
+                    },
+                    {
+                        "title": "Fix hr in github issues",
+                        "closedAt": "2018-01-10T06:50:16Z",
+                        "createdAt": "2018-01-08T21:02:24Z",
+                        "publishedAt": "2018-01-08T21:02:24Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-10T06:50:16Z"
+                    },
+                    {
+                        "title": "Clarified documentation for Position functions",
+                        "closedAt": "2018-01-11T17:34:21Z",
+                        "createdAt": "2018-01-08T23:25:25Z",
+                        "publishedAt": "2018-01-08T23:25:25Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-11T17:34:21Z"
+                    },
+                    {
+                        "title": "Add log uploader command line util",
+                        "closedAt": "2018-01-11T06:23:38Z",
+                        "createdAt": "2018-01-08T23:31:33Z",
+                        "publishedAt": "2018-01-08T23:31:33Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-11T06:23:38Z"
+                    },
+                    {
+                        "title": "Fix typo",
+                        "closedAt": "2018-01-11T16:32:05Z",
+                        "createdAt": "2018-01-09T02:34:56Z",
+                        "publishedAt": "2018-01-09T02:34:56Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-11T16:32:05Z"
+                    },
+                    {
+                        "title": "saving commit message in scm for reload/reopen",
+                        "closedAt": "2018-09-12T12:47:17Z",
+                        "createdAt": "2018-01-09T13:35:24Z",
+                        "publishedAt": "2018-01-09T13:35:24Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Explorer: multi select",
+                        "closedAt": "2018-01-11T09:20:45Z",
+                        "createdAt": "2018-01-09T16:00:32Z",
+                        "publishedAt": "2018-01-09T16:00:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Use ASAR",
+                        "closedAt": "2018-01-29T15:21:21Z",
+                        "createdAt": "2018-01-09T16:11:27Z",
+                        "publishedAt": "2018-01-09T16:11:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-29T15:21:21Z"
+                    },
+                    {
+                        "title": "Added find all button to find widget",
+                        "closedAt": "2019-10-24T00:31:40Z",
+                        "createdAt": "2018-01-09T17:27:12Z",
+                        "publishedAt": "2018-01-09T17:27:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Make diff gutter decorators width configurable",
+                        "closedAt": "2018-02-09T17:04:20Z",
+                        "createdAt": "2018-01-09T21:09:03Z",
+                        "publishedAt": "2018-01-09T21:09:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Run hygiene in a dedicated Travis job",
+                        "closedAt": "2018-01-10T16:51:05Z",
+                        "createdAt": "2018-01-09T22:49:18Z",
+                        "publishedAt": "2018-01-09T22:49:18Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-10T16:51:05Z"
+                    },
+                    {
+                        "title": "[ext/yaml] add indentation rules configuration",
+                        "closedAt": "2018-01-11T16:45:00Z",
+                        "createdAt": "2018-01-10T06:41:14Z",
+                        "publishedAt": "2018-01-10T06:41:14Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-11T16:45:00Z"
+                    },
+                    {
+                        "title": "Set the minimum height of the xterm scrollbar thumb to 35px",
+                        "closedAt": "2018-01-14T04:57:16Z",
+                        "createdAt": "2018-01-10T09:43:42Z",
+                        "publishedAt": "2018-01-10T09:43:42Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-14T04:57:15Z"
+                    },
+                    {
+                        "title": "some when condition polish",
+                        "closedAt": "2018-01-10T11:01:39Z",
+                        "createdAt": "2018-01-10T10:53:06Z",
+                        "publishedAt": "2018-01-10T10:53:06Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-10T11:01:39Z"
+                    },
+                    {
+                        "title": "API: Add resourceUri property to TreeItem",
+                        "closedAt": "2018-01-15T09:00:07Z",
+                        "createdAt": "2018-01-10T15:21:30Z",
+                        "publishedAt": "2018-01-10T15:21:30Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-15T09:00:07Z"
+                    },
+                    {
+                        "title": "Add optional id property to the tree item",
+                        "closedAt": "2018-01-16T16:06:23Z",
+                        "createdAt": "2018-01-10T17:46:36Z",
+                        "publishedAt": "2018-01-10T17:46:36Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-16T16:06:23Z"
+                    },
+                    {
+                        "title": "Add option for always visible action buttons in side panels. ",
+                        "closedAt": "2018-02-09T11:30:21Z",
+                        "createdAt": "2018-01-10T18:36:33Z",
+                        "publishedAt": "2018-01-10T18:36:33Z",
+                        "merged": true,
+                        "mergedAt": "2018-02-09T11:30:21Z"
+                    },
+                    {
+                        "title": "Fixed --user-data-dir --help description.",
+                        "closedAt": "2018-01-12T06:26:56Z",
+                        "createdAt": "2018-01-10T21:05:22Z",
+                        "publishedAt": "2018-01-10T21:05:22Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "SelectBox convert to WorkbenchList WIP",
+                        "closedAt": "2018-01-29T05:43:28Z",
+                        "createdAt": "2018-01-11T03:47:04Z",
+                        "publishedAt": "2018-01-11T03:47:04Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Explorer multiple selection",
+                        "closedAt": "2018-01-11T15:42:15Z",
+                        "createdAt": "2018-01-11T09:21:24Z",
+                        "publishedAt": "2018-01-11T09:21:24Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-11T15:42:14Z"
+                    },
+                    {
+                        "title": " _",
+                        "closedAt": "2018-01-11T10:06:55Z",
+                        "createdAt": "2018-01-11T09:55:48Z",
+                        "publishedAt": "2018-01-11T09:55:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: add word boundray to check markdown italic",
+                        "closedAt": "2018-01-24T16:40:26Z",
+                        "createdAt": "2018-01-11T10:47:27Z",
+                        "publishedAt": "2018-01-11T10:47:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-24T16:40:25Z"
+                    },
+                    {
+                        "title": "fix: change default keybinding of cursorColumnSelectUp to ctrl+shift+…",
+                        "closedAt": "2018-03-26T11:45:32Z",
+                        "createdAt": "2018-01-11T13:28:32Z",
+                        "publishedAt": "2018-01-11T13:28:32Z",
+                        "merged": true,
+                        "mergedAt": "2018-03-26T11:45:32Z"
+                    },
+                    {
+                        "title": "pass --no-use flag when sourcing nvm in build script ",
+                        "closedAt": "2018-02-09T16:28:59Z",
+                        "createdAt": "2018-01-11T17:30:59Z",
+                        "publishedAt": "2018-01-11T17:30:59Z",
+                        "merged": true,
+                        "mergedAt": "2018-02-09T16:28:59Z"
+                    },
+                    {
+                        "title": "Remove hard-coded zebra in running extensions Fixes #40432",
+                        "closedAt": "2018-01-16T08:57:31Z",
+                        "createdAt": "2018-01-12T00:39:52Z",
+                        "publishedAt": "2018-01-12T00:39:52Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-16T08:57:31Z"
+                    },
+                    {
+                        "title": "Use HTTPS for npm package.json auto-complete",
+                        "closedAt": "2018-01-12T09:12:26Z",
+                        "createdAt": "2018-01-12T06:43:00Z",
+                        "publishedAt": "2018-01-12T06:43:00Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-12T09:12:26Z"
+                    },
+                    {
+                        "title": "Don't show credential dialog on startup",
+                        "closedAt": "2018-01-18T08:10:56Z",
+                        "createdAt": "2018-01-12T08:50:24Z",
+                        "publishedAt": "2018-01-12T08:50:24Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "find in folder adopt to multi select in explorer",
+                        "closedAt": "2018-01-12T11:52:24Z",
+                        "createdAt": "2018-01-12T11:29:59Z",
+                        "publishedAt": "2018-01-12T11:29:59Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update vs_code_editor_walkthrough.md",
+                        "closedAt": "2018-01-15T11:33:11Z",
+                        "createdAt": "2018-01-12T16:52:03Z",
+                        "publishedAt": "2018-01-12T16:52:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix grammar in walkthrough",
+                        "closedAt": "2018-01-15T11:30:14Z",
+                        "createdAt": "2018-01-12T20:38:12Z",
+                        "publishedAt": "2018-01-12T20:38:12Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-15T11:30:14Z"
+                    },
+                    {
+                        "title": "Allow renaming/creating/deleting files in a workspaced edit",
+                        "closedAt": "2018-01-24T08:28:08Z",
+                        "createdAt": "2018-01-12T22:04:11Z",
+                        "publishedAt": "2018-01-12T22:04:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-24T08:28:08Z"
+                    },
+                    {
+                        "title": "When trigger suggest for incomplete completions, use new kind",
+                        "closedAt": "2018-01-15T18:04:40Z",
+                        "createdAt": "2018-01-13T00:54:58Z",
+                        "publishedAt": "2018-01-13T00:54:58Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-15T18:04:40Z"
+                    },
+                    {
+                        "title": "Add copy command action to keybinding editor context menu",
+                        "closedAt": "2018-01-17T09:54:52Z",
+                        "createdAt": "2018-01-13T09:52:27Z",
+                        "publishedAt": "2018-01-13T09:52:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-17T09:54:52Z"
+                    },
+                    {
+                        "title": "clean up icon path confusion",
+                        "closedAt": "2018-01-23T14:49:43Z",
+                        "createdAt": "2018-01-13T17:24:07Z",
+                        "publishedAt": "2018-01-13T17:24:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-23T14:49:42Z"
+                    },
+                    {
+                        "title": "add \"Open workspace...\" link to welcome page",
+                        "closedAt": "2018-01-31T13:53:14Z",
+                        "createdAt": "2018-01-13T21:20:43Z",
+                        "publishedAt": "2018-01-13T21:20:43Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Make prefill in quick open configurable",
+                        "closedAt": "2018-02-08T05:48:32Z",
+                        "createdAt": "2018-01-14T01:54:08Z",
+                        "publishedAt": "2018-01-14T01:54:08Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "[monaco] fix Microsoft/monaco-editor#642: sync CompletionItemProvider api",
+                        "closedAt": "2018-01-25T11:24:39Z",
+                        "createdAt": "2018-01-14T16:55:22Z",
+                        "publishedAt": "2018-01-14T16:55:22Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-25T11:24:39Z"
+                    },
+                    {
+                        "title": "Add win32x64AppId to product.json",
+                        "closedAt": "2018-01-15T08:15:12Z",
+                        "createdAt": "2018-01-14T20:59:48Z",
+                        "publishedAt": "2018-01-14T20:59:48Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-15T08:15:12Z"
+                    },
+                    {
+                        "title": "fix: #41516 (wrap with abbrevation)",
+                        "closedAt": "2018-01-15T00:52:48Z",
+                        "createdAt": "2018-01-14T23:13:06Z",
+                        "publishedAt": "2018-01-14T23:13:06Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-15T00:52:48Z"
+                    },
+                    {
+                        "title": "Chrisdias/contextkeyglobexpr",
+                        "closedAt": "2018-01-23T09:37:26Z",
+                        "createdAt": "2018-01-16T01:41:09Z",
+                        "publishedAt": "2018-01-16T01:41:09Z",
+                        "merged": true,
+                        "mergedAt": "2018-01-23T09:37:25Z"
+                    },
+                    {
+                        "title": "Get emmet completions from css extension",
+                        "closedAt": "2018-02-13T05:40:11Z",
+                        "createdAt": "2018-01-16T04:15:53Z",
+                        "publishedAt": "2018-01-16T04:15:53Z",
+                        "merged": true,
+                        "mergedAt": "2018-02-13T05:40:11Z"
+                    }
+                ]
+            }
+        }
+    }
+}

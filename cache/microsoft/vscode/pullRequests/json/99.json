@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOKRQ8vQ=="
+                },
+                "nodes": [
+                    {
+                        "title": "`preserveFocus: true` when reopening interactive window",
+                        "closedAt": "2021-06-28T23:52:59Z",
+                        "createdAt": "2021-06-28T23:51:15Z",
+                        "publishedAt": "2021-06-28T23:51:15Z",
+                        "merged": true,
+                        "mergedAt": "2021-06-28T23:52:59Z"
+                    },
+                    {
+                        "title": "Add horizontal scroll to extension details",
+                        "closedAt": null,
+                        "createdAt": "2021-06-29T02:16:36Z",
+                        "publishedAt": "2021-06-29T02:16:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Implement an experimental SVG preview",
+                        "closedAt": "2021-06-29T17:25:00Z",
+                        "createdAt": "2021-06-29T02:29:45Z",
+                        "publishedAt": "2021-06-29T02:29:45Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Expose inlay hints api for monaco",
+                        "closedAt": "2021-07-05T12:22:56Z",
+                        "createdAt": "2021-06-29T05:17:31Z",
+                        "publishedAt": "2021-06-29T05:17:31Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-05T12:22:56Z"
+                    },
+                    {
+                        "title": "Replaces filterSortedByKey with faster ArrayQueue.",
+                        "closedAt": "2021-07-01T15:50:14Z",
+                        "createdAt": "2021-06-29T09:06:30Z",
+                        "publishedAt": "2021-06-29T09:06:30Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T15:50:14Z"
+                    },
+                    {
+                        "title": "domLineBreaksComputer needs to allow for injected text when there is no wrapping",
+                        "closedAt": "2021-07-02T06:59:02Z",
+                        "createdAt": "2021-06-29T09:32:57Z",
+                        "publishedAt": "2021-06-29T09:32:57Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-02T06:59:02Z"
+                    },
+                    {
+                        "title": "Fixes rich hover focus outline shows under status bar hovers",
+                        "closedAt": "2021-06-30T12:07:19Z",
+                        "createdAt": "2021-06-30T05:51:43Z",
+                        "publishedAt": "2021-06-30T05:51:43Z",
+                        "merged": true,
+                        "mergedAt": "2021-06-30T12:07:19Z"
+                    },
+                    {
+                        "title": "Add setting to control hover position",
+                        "closedAt": "2021-10-27T14:51:55Z",
+                        "createdAt": "2021-06-30T07:53:04Z",
+                        "publishedAt": "2021-06-30T07:53:04Z",
+                        "merged": true,
+                        "mergedAt": "2021-10-27T14:51:55Z"
+                    },
+                    {
+                        "title": "Adds tests for injected text events & fixes caching bug.",
+                        "closedAt": "2021-07-01T09:22:43Z",
+                        "createdAt": "2021-06-30T12:36:02Z",
+                        "publishedAt": "2021-06-30T12:36:02Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T09:22:42Z"
+                    },
+                    {
+                        "title": "support iconPath for terminalProfile icon",
+                        "closedAt": "2021-07-01T17:24:24Z",
+                        "createdAt": "2021-06-30T15:14:25Z",
+                        "publishedAt": "2021-06-30T15:14:25Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Focus explicitly when creating terminals",
+                        "closedAt": "2021-06-30T16:28:01Z",
+                        "createdAt": "2021-06-30T16:14:34Z",
+                        "publishedAt": "2021-06-30T16:14:34Z",
+                        "merged": true,
+                        "mergedAt": "2021-06-30T16:28:01Z"
+                    },
+                    {
+                        "title": "[typescript-language-features] Add suggest.allowIncompleteCompletions and pass trigger kind to TS Server",
+                        "closedAt": "2021-07-06T23:10:20Z",
+                        "createdAt": "2021-06-30T16:16:13Z",
+                        "publishedAt": "2021-06-30T16:16:13Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T23:10:20Z"
+                    },
+                    {
+                        "title": "[Git watcher] ignore watchman cookies",
+                        "closedAt": "2022-04-07T13:34:27Z",
+                        "createdAt": "2021-06-30T19:50:32Z",
+                        "publishedAt": "2021-06-30T19:50:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update getting started artwork",
+                        "closedAt": "2021-07-01T01:24:57Z",
+                        "createdAt": "2021-06-30T21:37:10Z",
+                        "publishedAt": "2021-06-30T21:37:10Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T01:24:57Z"
+                    },
+                    {
+                        "title": "Use `NotebookEditorWidget` from run context to put up kernel picker",
+                        "closedAt": "2021-07-01T03:40:46Z",
+                        "createdAt": "2021-07-01T03:15:56Z",
+                        "publishedAt": "2021-07-01T03:15:56Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T03:40:45Z"
+                    },
+                    {
+                        "title": "Caches ghost text to improve performance.",
+                        "closedAt": "2021-07-01T10:13:39Z",
+                        "createdAt": "2021-07-01T08:43:40Z",
+                        "publishedAt": "2021-07-01T08:43:40Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T10:13:38Z"
+                    },
+                    {
+                        "title": "New notebook from the command line issues",
+                        "closedAt": "2021-08-06T06:50:50Z",
+                        "createdAt": "2021-07-01T10:18:19Z",
+                        "publishedAt": "2021-07-01T10:18:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Adding more auto-closing comments to other languages",
+                        "closedAt": "2021-07-19T13:15:25Z",
+                        "createdAt": "2021-07-01T13:49:32Z",
+                        "publishedAt": "2021-07-01T13:49:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Editors: revisit need for `populateEditorId` and `doResolveEditor`",
+                        "closedAt": "2021-07-07T09:38:04Z",
+                        "createdAt": "2021-07-01T14:10:35Z",
+                        "publishedAt": "2021-07-01T14:10:35Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T09:38:03Z"
+                    },
+                    {
+                        "title": "Expose editor scrollbar options and react to them being updated",
+                        "closedAt": "2021-07-01T14:30:10Z",
+                        "createdAt": "2021-07-01T14:14:49Z",
+                        "publishedAt": "2021-07-01T14:14:49Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-01T14:30:08Z"
+                    },
+                    {
+                        "title": "smoke tests - automatically test against stable build",
+                        "closedAt": "2021-07-12T12:44:50Z",
+                        "createdAt": "2021-07-01T16:35:05Z",
+                        "publishedAt": "2021-07-01T16:35:05Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T12:44:50Z"
+                    },
+                    {
+                        "title": "Build VS Code using TS 4.4",
+                        "closedAt": "2021-07-08T21:27:39Z",
+                        "createdAt": "2021-07-01T20:57:07Z",
+                        "publishedAt": "2021-07-01T20:57:07Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T21:27:39Z"
+                    },
+                    {
+                        "title": "Don't activate interactive window editor group on open",
+                        "closedAt": "2021-07-08T02:47:41Z",
+                        "createdAt": "2021-07-02T01:28:55Z",
+                        "publishedAt": "2021-07-02T01:28:55Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "make dropdown arrow larger to meet accessibility requirement",
+                        "closedAt": "2021-07-12T16:38:24Z",
+                        "createdAt": "2021-07-02T03:05:37Z",
+                        "publishedAt": "2021-07-02T03:05:37Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T16:38:24Z"
+                    },
+                    {
+                        "title": "Changed spelling of Focussed to Focused",
+                        "closedAt": "2021-07-02T15:45:07Z",
+                        "createdAt": "2021-07-02T04:52:22Z",
+                        "publishedAt": "2021-07-02T04:52:22Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Commit message",
+                        "closedAt": "2021-07-14T12:23:59Z",
+                        "createdAt": "2021-07-02T06:19:23Z",
+                        "publishedAt": "2021-07-02T06:19:23Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-14T12:23:55Z"
+                    },
+                    {
+                        "title": "Increase max file size for file comparison",
+                        "closedAt": "2021-09-14T13:31:25Z",
+                        "createdAt": "2021-07-02T08:32:47Z",
+                        "publishedAt": "2021-07-02T08:32:47Z",
+                        "merged": true,
+                        "mergedAt": "2021-09-14T13:31:25Z"
+                    },
+                    {
+                        "title": "editors - make the check functions more robust (#124222)",
+                        "closedAt": "2021-07-02T14:21:30Z",
+                        "createdAt": "2021-07-02T10:31:45Z",
+                        "publishedAt": "2021-07-02T10:31:45Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-02T14:21:30Z"
+                    },
+                    {
+                        "title": "Adopt webpack@5",
+                        "closedAt": "2021-07-05T07:10:45Z",
+                        "createdAt": "2021-07-02T12:08:56Z",
+                        "publishedAt": "2021-07-02T12:08:56Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-05T07:10:45Z"
+                    },
+                    {
+                        "title": "stable -> editors - make the check functions more robust (#124222)",
+                        "closedAt": "2021-07-05T11:40:55Z",
+                        "createdAt": "2021-07-02T12:21:37Z",
+                        "publishedAt": "2021-07-02T12:21:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Restrict allowed schemas for \"Open Workspace\"",
+                        "closedAt": "2021-07-02T14:11:19Z",
+                        "createdAt": "2021-07-02T12:22:31Z",
+                        "publishedAt": "2021-07-02T12:22:31Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-02T14:11:19Z"
+                    },
+                    {
+                        "title": "Workaround for terminal editor bug related to detaching from the element",
+                        "closedAt": "2021-07-02T19:21:23Z",
+                        "createdAt": "2021-07-02T16:00:06Z",
+                        "publishedAt": "2021-07-02T16:00:06Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-02T19:21:23Z"
+                    },
+                    {
+                        "title": "typo in welcomePage.contribution.ts",
+                        "closedAt": "2021-07-06T17:44:36Z",
+                        "createdAt": "2021-07-02T17:22:21Z",
+                        "publishedAt": "2021-07-02T17:22:21Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T17:44:36Z"
+                    },
+                    {
+                        "title": "fixes #127620",
+                        "closedAt": "2021-07-02T20:39:21Z",
+                        "createdAt": "2021-07-02T20:24:54Z",
+                        "publishedAt": "2021-07-02T20:24:54Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-02T20:39:21Z"
+                    },
+                    {
+                        "title": "Create dolet.txt",
+                        "closedAt": "2021-07-08T15:29:57Z",
+                        "createdAt": "2021-07-03T10:57:09Z",
+                        "publishedAt": "2021-07-03T10:57:09Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix notebook diff editor dispose",
+                        "closedAt": "2021-07-04T04:42:16Z",
+                        "createdAt": "2021-07-04T01:34:08Z",
+                        "publishedAt": "2021-07-04T01:34:08Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-04T04:42:16Z"
+                    },
+                    {
+                        "title": "Add `.ixx` as a possible C++ extension",
+                        "closedAt": "2021-07-05T16:42:42Z",
+                        "createdAt": "2021-07-04T17:18:50Z",
+                        "publishedAt": "2021-07-04T17:18:50Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-05T16:42:42Z"
+                    },
+                    {
+                        "title": "fix terminal editor bugs",
+                        "closedAt": "2021-07-06T15:17:19Z",
+                        "createdAt": "2021-07-04T18:06:29Z",
+                        "publishedAt": "2021-07-04T18:06:29Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T15:17:19Z"
+                    },
+                    {
+                        "title": "update distro",
+                        "closedAt": "2021-07-05T08:45:26Z",
+                        "createdAt": "2021-07-05T08:30:15Z",
+                        "publishedAt": "2021-07-05T08:30:15Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-05T08:45:26Z"
+                    },
+                    {
+                        "title": "aeschli/127597",
+                        "closedAt": "2021-07-07T13:04:11Z",
+                        "createdAt": "2021-07-05T08:39:33Z",
+                        "publishedAt": "2021-07-05T08:39:33Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "more isolated fix",
+                        "closedAt": "2021-07-06T09:22:28Z",
+                        "createdAt": "2021-07-05T11:40:36Z",
+                        "publishedAt": "2021-07-05T11:40:36Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T09:22:28Z"
+                    },
+                    {
+                        "title": "A run & debug dropdown with default button",
+                        "closedAt": "2021-07-06T09:56:17Z",
+                        "createdAt": "2021-07-05T22:21:00Z",
+                        "publishedAt": "2021-07-05T22:21:00Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T09:56:16Z"
+                    },
+                    {
+                        "title": "Add fast cleanup schedule for inlay hints",
+                        "closedAt": "2021-10-15T15:27:27Z",
+                        "createdAt": "2021-07-06T06:45:00Z",
+                        "publishedAt": "2021-07-06T06:45:00Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "WIP: Improve linkifier",
+                        "closedAt": "2021-10-19T14:51:51Z",
+                        "createdAt": "2021-07-06T13:13:08Z",
+                        "publishedAt": "2021-07-06T13:13:08Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update playwright to 1.12.x and enable tracing for smoke tests",
+                        "closedAt": "2021-07-07T11:23:11Z",
+                        "createdAt": "2021-07-06T15:27:25Z",
+                        "publishedAt": "2021-07-06T15:27:25Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T11:23:11Z"
+                    },
+                    {
+                        "title": "share openContextMenu",
+                        "closedAt": "2021-07-06T16:37:30Z",
+                        "createdAt": "2021-07-06T16:36:11Z",
+                        "publishedAt": "2021-07-06T16:36:11Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T16:37:30Z"
+                    },
+                    {
+                        "title": "use const enums for terminal context keys",
+                        "closedAt": "2021-07-06T16:59:47Z",
+                        "createdAt": "2021-07-06T16:54:14Z",
+                        "publishedAt": "2021-07-06T16:54:14Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T16:59:47Z"
+                    },
+                    {
+                        "title": "rename terminal events to match API standards",
+                        "closedAt": "2021-07-06T17:14:47Z",
+                        "createdAt": "2021-07-06T17:13:54Z",
+                        "publishedAt": "2021-07-06T17:13:54Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-06T17:14:47Z"
+                    },
+                    {
+                        "title": "Create big PR [DO NOT MERGE]",
+                        "closedAt": "2021-07-06T23:11:46Z",
+                        "createdAt": "2021-07-06T22:56:07Z",
+                        "publishedAt": "2021-07-06T22:56:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update input decoration on keybinding update",
+                        "closedAt": "2021-07-07T15:04:31Z",
+                        "createdAt": "2021-07-07T07:16:52Z",
+                        "publishedAt": "2021-07-07T07:16:52Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T15:04:30Z"
+                    },
+                    {
+                        "title": "fix #127792",
+                        "closedAt": "2021-07-07T11:07:48Z",
+                        "createdAt": "2021-07-07T07:22:24Z",
+                        "publishedAt": "2021-07-07T07:22:24Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T11:07:48Z"
+                    },
+                    {
+                        "title": "Bulk install event for python extensions",
+                        "closedAt": "2021-07-07T11:18:26Z",
+                        "createdAt": "2021-07-07T10:23:48Z",
+                        "publishedAt": "2021-07-07T10:23:48Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T11:18:26Z"
+                    },
+                    {
+                        "title": "Fix typo in github spaces link",
+                        "closedAt": "2021-07-08T15:29:37Z",
+                        "createdAt": "2021-07-07T12:03:40Z",
+                        "publishedAt": "2021-07-07T12:03:40Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T15:29:37Z"
+                    },
+                    {
+                        "title": "webview - remove more traces",
+                        "closedAt": "2021-07-07T16:28:53Z",
+                        "createdAt": "2021-07-07T13:56:08Z",
+                        "publishedAt": "2021-07-07T13:56:08Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T16:28:53Z"
+                    },
+                    {
+                        "title": "Dispose of emitters on terminal instance",
+                        "closedAt": "2021-07-07T15:04:49Z",
+                        "createdAt": "2021-07-07T14:05:49Z",
+                        "publishedAt": "2021-07-07T14:05:49Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T15:04:49Z"
+                    },
+                    {
+                        "title": "Makes mouse/left/right navigation skip injected text. Also fixes bracket decoration bug.",
+                        "closedAt": "2021-07-08T14:47:58Z",
+                        "createdAt": "2021-07-07T15:54:59Z",
+                        "publishedAt": "2021-07-07T15:54:59Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T14:47:58Z"
+                    },
+                    {
+                        "title": "set findWidgetVisible for find using regex ",
+                        "closedAt": "2021-07-08T18:27:16Z",
+                        "createdAt": "2021-07-07T16:29:46Z",
+                        "publishedAt": "2021-07-07T16:29:46Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T18:27:16Z"
+                    },
+                    {
+                        "title": "Tune welcome walkthrough artwork sizes",
+                        "closedAt": "2021-07-07T22:43:33Z",
+                        "createdAt": "2021-07-07T21:47:17Z",
+                        "publishedAt": "2021-07-07T21:47:17Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-07T22:43:33Z"
+                    },
+                    {
+                        "title": "Ensure no disposables are leaked in inline completion tests.",
+                        "closedAt": "2021-07-08T07:38:44Z",
+                        "createdAt": "2021-07-07T22:23:08Z",
+                        "publishedAt": "2021-07-07T22:23:08Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T07:38:44Z"
+                    },
+                    {
+                        "title": "Fix webviewFindWidget focus steal, fixes #127456",
+                        "closedAt": "2021-07-08T15:27:49Z",
+                        "createdAt": "2021-07-08T00:17:51Z",
+                        "publishedAt": "2021-07-08T00:17:51Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Inlay hints uses editor.fontFamily by defaults",
+                        "closedAt": "2021-07-08T07:24:51Z",
+                        "createdAt": "2021-07-08T04:17:23Z",
+                        "publishedAt": "2021-07-08T04:17:23Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T07:24:51Z"
+                    },
+                    {
+                        "title": "Introduce a new color to indicate warning conditions in status items",
+                        "closedAt": "2021-07-20T08:18:33Z",
+                        "createdAt": "2021-07-08T12:46:30Z",
+                        "publishedAt": "2021-07-08T12:46:30Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-20T08:18:32Z"
+                    },
+                    {
+                        "title": "subword smart",
+                        "closedAt": "2021-07-08T15:16:18Z",
+                        "createdAt": "2021-07-08T13:49:09Z",
+                        "publishedAt": "2021-07-08T13:49:09Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T15:16:18Z"
+                    },
+                    {
+                        "title": "Add \"Open in Visual Studio Code\" button to README",
+                        "closedAt": "2021-07-08T18:00:46Z",
+                        "createdAt": "2021-07-08T16:32:23Z",
+                        "publishedAt": "2021-07-08T16:32:23Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T18:00:46Z"
+                    },
+                    {
+                        "title": "Enable automated smoketests on Windows",
+                        "closedAt": "2021-07-08T17:10:26Z",
+                        "createdAt": "2021-07-08T17:10:14Z",
+                        "publishedAt": "2021-07-08T17:10:14Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-08T17:10:26Z"
+                    },
+                    {
+                        "title": "Sets mightBeForeignElement to true when mouse is on injected text.",
+                        "closedAt": "2021-07-09T12:35:02Z",
+                        "createdAt": "2021-07-08T19:55:34Z",
+                        "publishedAt": "2021-07-08T19:55:34Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T12:35:02Z"
+                    },
+                    {
+                        "title": "[codespaces] Allow readme to be displayed if defaultValue is set on workbench initialization",
+                        "closedAt": "2021-07-12T16:06:00Z",
+                        "createdAt": "2021-07-08T20:01:13Z",
+                        "publishedAt": "2021-07-08T20:01:13Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T16:06:00Z"
+                    },
+                    {
+                        "title": "When converting an empty model range to a view range, it should prefer left view positions.",
+                        "closedAt": "2021-07-09T16:26:43Z",
+                        "createdAt": "2021-07-08T20:04:46Z",
+                        "publishedAt": "2021-07-08T20:04:46Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T16:26:43Z"
+                    },
+                    {
+                        "title": "Add markdown task lists support",
+                        "closedAt": "2021-07-09T08:24:53Z",
+                        "createdAt": "2021-07-08T22:32:06Z",
+                        "publishedAt": "2021-07-08T22:32:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add scopes property to login telemetry",
+                        "closedAt": "2021-07-09T04:48:44Z",
+                        "createdAt": "2021-07-08T23:16:19Z",
+                        "publishedAt": "2021-07-08T23:16:19Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T04:48:44Z"
+                    },
+                    {
+                        "title": "Allow extension to control whether interactive window editor group is activated via options",
+                        "closedAt": "2021-07-09T04:26:55Z",
+                        "createdAt": "2021-07-09T03:34:53Z",
+                        "publishedAt": "2021-07-09T03:34:53Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T04:26:55Z"
+                    },
+                    {
+                        "title": "Increment verison for recovery release",
+                        "closedAt": "2021-07-09T21:16:49Z",
+                        "createdAt": "2021-07-09T06:59:41Z",
+                        "publishedAt": "2021-07-09T06:59:41Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T21:16:49Z"
+                    },
+                    {
+                        "title": "Fixes keyboard multi-select not working in 'Open Editors' and 'Source Control' views",
+                        "closedAt": "2021-07-09T08:27:37Z",
+                        "createdAt": "2021-07-09T07:13:01Z",
+                        "publishedAt": "2021-07-09T07:13:01Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T08:27:37Z"
+                    },
+                    {
+                        "title": "User/hesun/default task api",
+                        "closedAt": "2021-07-26T09:28:27Z",
+                        "createdAt": "2021-07-09T08:08:32Z",
+                        "publishedAt": "2021-07-09T08:08:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes #128302.",
+                        "closedAt": "2021-07-09T12:15:43Z",
+                        "createdAt": "2021-07-09T10:11:09Z",
+                        "publishedAt": "2021-07-09T10:11:09Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T12:15:43Z"
+                    },
+                    {
+                        "title": "Implements render helper.",
+                        "closedAt": "2021-07-09T16:45:37Z",
+                        "createdAt": "2021-07-09T10:18:15Z",
+                        "publishedAt": "2021-07-09T10:18:15Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-09T16:45:37Z"
+                    },
+                    {
+                        "title": "Adopt injected text for ghost text",
+                        "closedAt": "2021-07-10T18:31:57Z",
+                        "createdAt": "2021-07-09T16:54:30Z",
+                        "publishedAt": "2021-07-09T16:54:30Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-10T18:31:56Z"
+                    },
+                    {
+                        "title": "Workspace trust - fix timing issue with workspace trust requests",
+                        "closedAt": "2021-07-12T16:34:40Z",
+                        "createdAt": "2021-07-09T18:13:37Z",
+                        "publishedAt": "2021-07-09T18:13:37Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T16:34:40Z"
+                    },
+                    {
+                        "title": "Use platform specific default value for separator",
+                        "closedAt": "2021-08-02T14:29:58Z",
+                        "createdAt": "2021-07-09T19:08:11Z",
+                        "publishedAt": "2021-07-09T19:08:11Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Font picker prototype",
+                        "closedAt": "2021-10-19T19:55:16Z",
+                        "createdAt": "2021-07-09T22:38:08Z",
+                        "publishedAt": "2021-07-09T22:38:08Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Hide activity bar hover while typing",
+                        "closedAt": "2021-07-13T19:12:47Z",
+                        "createdAt": "2021-07-10T04:16:09Z",
+                        "publishedAt": "2021-07-10T04:16:09Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T19:12:43Z"
+                    },
+                    {
+                        "title": "Allow extension to set focus to selections in notebook editor",
+                        "closedAt": "2021-07-15T16:42:46Z",
+                        "createdAt": "2021-07-10T08:24:36Z",
+                        "publishedAt": "2021-07-10T08:24:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Implements custom time travel scheduler that provides more debug information.",
+                        "closedAt": "2021-07-13T12:03:33Z",
+                        "createdAt": "2021-07-10T18:39:28Z",
+                        "publishedAt": "2021-07-10T18:39:28Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T12:03:32Z"
+                    },
+                    {
+                        "title": "Allow extensions to scroll to interactive cell output",
+                        "closedAt": "2021-07-29T01:46:34Z",
+                        "createdAt": "2021-07-11T01:58:22Z",
+                        "publishedAt": "2021-07-11T01:58:22Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix dragging a folder from the explorer tree to terminal no longer copies folder path",
+                        "closedAt": "2021-07-26T17:17:19Z",
+                        "createdAt": "2021-07-11T09:53:35Z",
+                        "publishedAt": "2021-07-11T09:53:35Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-26T17:17:19Z"
+                    },
+                    {
+                        "title": "Add Fold Jumping (Parent and Next/Previous at Same Level)",
+                        "closedAt": "2021-07-19T13:39:45Z",
+                        "createdAt": "2021-07-12T02:12:22Z",
+                        "publishedAt": "2021-07-12T02:12:22Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-19T13:39:44Z"
+                    },
+                    {
+                        "title": "Fix support for builtin renderers",
+                        "closedAt": "2021-07-20T23:53:45Z",
+                        "createdAt": "2021-07-12T04:40:24Z",
+                        "publishedAt": "2021-07-12T04:40:24Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-20T23:53:45Z"
+                    },
+                    {
+                        "title": "Adds inlineClassNameAffectsLetterSpacing to injected text options.",
+                        "closedAt": "2021-07-12T09:12:00Z",
+                        "createdAt": "2021-07-12T07:44:25Z",
+                        "publishedAt": "2021-07-12T07:44:25Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T09:12:00Z"
+                    },
+                    {
+                        "title": "Fixes error after moving terminal editor to panel",
+                        "closedAt": "2021-07-13T14:01:20Z",
+                        "createdAt": "2021-07-12T11:29:17Z",
+                        "publishedAt": "2021-07-12T11:29:17Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T14:01:20Z"
+                    },
+                    {
+                        "title": "Do not disable dependent if its dependency is disabled by extension kind",
+                        "closedAt": "2021-07-14T07:46:19Z",
+                        "createdAt": "2021-07-12T12:43:43Z",
+                        "publishedAt": "2021-07-12T12:43:43Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-14T07:46:19Z"
+                    },
+                    {
+                        "title": "Revert \"Fix#122454: Truncate the long terminal title\"",
+                        "closedAt": "2021-07-12T15:20:55Z",
+                        "createdAt": "2021-07-12T15:20:03Z",
+                        "publishedAt": "2021-07-12T15:20:03Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-12T15:20:55Z"
+                    },
+                    {
+                        "title": "sanitize process env for external terminals on linux/mac",
+                        "closedAt": "2021-07-13T13:59:09Z",
+                        "createdAt": "2021-07-12T18:48:52Z",
+                        "publishedAt": "2021-07-12T18:48:52Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T13:59:09Z"
+                    },
+                    {
+                        "title": "drag and drop terminals tabs between windows",
+                        "closedAt": "2021-07-15T16:44:55Z",
+                        "createdAt": "2021-07-12T20:29:58Z",
+                        "publishedAt": "2021-07-12T20:29:58Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-15T16:44:55Z"
+                    },
+                    {
+                        "title": "Update distro hash",
+                        "closedAt": "2021-07-13T06:04:54Z",
+                        "createdAt": "2021-07-13T05:42:59Z",
+                        "publishedAt": "2021-07-13T05:42:59Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T06:04:54Z"
+                    },
+                    {
+                        "title": "chore: enable browser-sandbox for snap",
+                        "closedAt": null,
+                        "createdAt": "2021-07-13T05:47:12Z",
+                        "publishedAt": "2021-07-13T05:47:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update package.json",
+                        "closedAt": "2021-07-14T13:53:22Z",
+                        "createdAt": "2021-07-13T08:32:07Z",
+                        "publishedAt": "2021-07-13T08:32:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Run localizations cache update as extension management participants",
+                        "closedAt": "2021-07-13T11:51:40Z",
+                        "createdAt": "2021-07-13T11:51:31Z",
+                        "publishedAt": "2021-07-13T11:51:31Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-13T11:51:39Z"
+                    },
+                    {
+                        "title": "Skip acquiring workspace storage locks on the local nodejs extension host",
+                        "closedAt": "2021-07-14T08:56:07Z",
+                        "createdAt": "2021-07-13T13:57:28Z",
+                        "publishedAt": "2021-07-13T13:57:28Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-14T08:56:07Z"
+                    },
+                    {
+                        "title": "Adopt webpack 5 ",
+                        "closedAt": "2021-07-14T20:32:54Z",
+                        "createdAt": "2021-07-13T15:14:24Z",
+                        "publishedAt": "2021-07-13T15:14:24Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-14T20:32:54Z"
+                    },
+                    {
+                        "title": "Improve defaults for dockercompose language",
+                        "closedAt": "2021-07-14T09:19:13Z",
+                        "createdAt": "2021-07-13T15:58:49Z",
+                        "publishedAt": "2021-07-13T15:58:49Z",
+                        "merged": true,
+                        "mergedAt": "2021-07-14T09:19:13Z"
+                    }
+                ]
+            }
+        }
+    }
+}

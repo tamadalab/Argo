@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOGVpXUA=="
+                },
+                "nodes": [
+                    {
+                        "title": "Pinned Release Notes tab is blank (looks weird) (fix #97218)",
+                        "closedAt": "2020-05-11T16:14:13Z",
+                        "createdAt": "2020-05-11T07:07:54Z",
+                        "publishedAt": "2020-05-11T07:07:54Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-11T16:14:12Z"
+                    },
+                    {
+                        "title": "Add rename by git context menu",
+                        "closedAt": "2020-11-09T13:46:52Z",
+                        "createdAt": "2020-05-11T11:02:55Z",
+                        "publishedAt": "2020-05-11T11:02:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-09T13:46:51Z"
+                    },
+                    {
+                        "title": "Fix proxy auth dialog for release",
+                        "closedAt": "2020-05-11T12:53:58Z",
+                        "createdAt": "2020-05-11T11:10:20Z",
+                        "publishedAt": "2020-05-11T11:10:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-11T12:53:58Z"
+                    },
+                    {
+                        "title": "Fixes editor has wrong height when toggling tabs with breadcrumbs visible",
+                        "closedAt": "2020-05-12T14:27:45Z",
+                        "createdAt": "2020-05-11T13:13:57Z",
+                        "publishedAt": "2020-05-11T13:13:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-12T14:27:45Z"
+                    },
+                    {
+                        "title": "Improvements to the SCM input font family setting",
+                        "closedAt": "2020-05-11T15:16:47Z",
+                        "createdAt": "2020-05-11T13:58:50Z",
+                        "publishedAt": "2020-05-11T13:58:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-11T15:16:47Z"
+                    },
+                    {
+                        "title": "Fetch and apply additional text edits async",
+                        "closedAt": "2020-05-12T14:32:53Z",
+                        "createdAt": "2020-05-11T15:04:30Z",
+                        "publishedAt": "2020-05-11T15:04:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-12T14:32:52Z"
+                    },
+                    {
+                        "title": "Add force checkout and smart checkout",
+                        "closedAt": "2020-11-09T14:21:03Z",
+                        "createdAt": "2020-05-11T16:41:05Z",
+                        "publishedAt": "2020-05-11T16:41:05Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-09T14:21:02Z"
+                    },
+                    {
+                        "title": "Add \"\" around $0 in Linux starting script",
+                        "closedAt": "2020-06-11T11:46:47Z",
+                        "createdAt": "2020-05-11T17:04:14Z",
+                        "publishedAt": "2020-05-11T17:04:14Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-11T11:46:47Z"
+                    },
+                    {
+                        "title": "build: update gulp-atom-electron@1.23.0",
+                        "closedAt": "2020-09-07T23:47:42Z",
+                        "createdAt": "2020-05-11T18:01:13Z",
+                        "publishedAt": "2020-05-11T18:01:13Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "retained notebook editor",
+                        "closedAt": "2020-05-11T20:09:03Z",
+                        "createdAt": "2020-05-11T19:17:36Z",
+                        "publishedAt": "2020-05-11T19:17:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-11T20:09:03Z"
+                    },
+                    {
+                        "title": "fix: gpu helper entitlements",
+                        "closedAt": "2020-05-11T21:04:11Z",
+                        "createdAt": "2020-05-11T19:36:26Z",
+                        "publishedAt": "2020-05-11T19:36:26Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-11T21:04:11Z"
+                    },
+                    {
+                        "title": "fix: use electron-osx-sign instead of manual code signing",
+                        "closedAt": "2020-05-18T15:43:31Z",
+                        "createdAt": "2020-05-12T07:59:59Z",
+                        "publishedAt": "2020-05-12T07:59:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-18T15:43:31Z"
+                    },
+                    {
+                        "title": "cpp built-in extension: add gcc problem matcher",
+                        "closedAt": "2020-05-12T13:04:26Z",
+                        "createdAt": "2020-05-12T10:14:43Z",
+                        "publishedAt": "2020-05-12T10:14:43Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes #97602: LinkedMap got modified during iteration",
+                        "closedAt": "2020-05-12T14:04:21Z",
+                        "createdAt": "2020-05-12T11:34:48Z",
+                        "publishedAt": "2020-05-12T11:34:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-12T14:04:20Z"
+                    },
+                    {
+                        "title": "Disable askpass, terminal and github auth when git is disabled",
+                        "closedAt": "2020-05-12T12:30:10Z",
+                        "createdAt": "2020-05-12T11:38:31Z",
+                        "publishedAt": "2020-05-12T11:38:31Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-12T12:30:10Z"
+                    },
+                    {
+                        "title": "Fix #97526",
+                        "closedAt": "2020-06-24T14:47:29Z",
+                        "createdAt": "2020-05-12T13:07:46Z",
+                        "publishedAt": "2020-05-12T13:07:46Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-24T14:47:28Z"
+                    },
+                    {
+                        "title": "Add next/prev conflicts",
+                        "closedAt": "2021-03-31T08:45:21Z",
+                        "createdAt": "2020-05-12T13:21:54Z",
+                        "publishedAt": "2020-05-12T13:21:54Z",
+                        "merged": true,
+                        "mergedAt": "2021-03-31T08:45:21Z"
+                    },
+                    {
+                        "title": "Add git extension API for branches",
+                        "closedAt": "2020-05-14T10:26:51Z",
+                        "createdAt": "2020-05-12T16:02:12Z",
+                        "publishedAt": "2020-05-12T16:02:12Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T10:26:51Z"
+                    },
+                    {
+                        "title": "CLI - Add a 1 second timeout for flushing the telemetry",
+                        "closedAt": "2020-05-13T08:56:29Z",
+                        "createdAt": "2020-05-12T16:27:53Z",
+                        "publishedAt": "2020-05-12T16:27:53Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T08:56:29Z"
+                    },
+                    {
+                        "title": "fix list view default translate3d",
+                        "closedAt": "2020-05-12T17:12:19Z",
+                        "createdAt": "2020-05-12T17:11:42Z",
+                        "publishedAt": "2020-05-12T17:11:42Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "debug: filter exceptions from DAP telemetry on web",
+                        "closedAt": "2020-05-12T20:17:02Z",
+                        "createdAt": "2020-05-12T17:13:52Z",
+                        "publishedAt": "2020-05-12T17:13:52Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-12T20:17:02Z"
+                    },
+                    {
+                        "title": "Fix #97498. Fallback to default value for translate3d",
+                        "closedAt": "2020-05-13T17:35:14Z",
+                        "createdAt": "2020-05-12T17:25:57Z",
+                        "publishedAt": "2020-05-12T17:25:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T17:35:14Z"
+                    },
+                    {
+                        "title": "Make folder icons work as twisties",
+                        "closedAt": "2020-07-01T07:29:52Z",
+                        "createdAt": "2020-05-12T20:13:38Z",
+                        "publishedAt": "2020-05-12T20:13:38Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add #97640: Added options to enable codelens for diff editors",
+                        "closedAt": "2020-07-10T09:24:46Z",
+                        "createdAt": "2020-05-12T21:39:48Z",
+                        "publishedAt": "2020-05-12T21:39:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T09:24:46Z"
+                    },
+                    {
+                        "title": "Support more shell script file extensions",
+                        "closedAt": "2020-05-13T08:04:20Z",
+                        "createdAt": "2020-05-12T22:02:03Z",
+                        "publishedAt": "2020-05-12T22:02:03Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T08:04:19Z"
+                    },
+                    {
+                        "title": "chore: add verbose logging for errors in perf script",
+                        "closedAt": "2020-05-13T09:00:49Z",
+                        "createdAt": "2020-05-12T23:11:06Z",
+                        "publishedAt": "2020-05-12T23:11:06Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T09:00:49Z"
+                    },
+                    {
+                        "title": "Don't show errors for shell provided tasks",
+                        "closedAt": "2020-05-13T08:51:45Z",
+                        "createdAt": "2020-05-13T07:58:30Z",
+                        "publishedAt": "2020-05-13T07:58:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T08:51:45Z"
+                    },
+                    {
+                        "title": "Add path to LogOptions",
+                        "closedAt": "2020-05-13T14:04:29Z",
+                        "createdAt": "2020-05-13T09:23:50Z",
+                        "publishedAt": "2020-05-13T09:23:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T14:04:29Z"
+                    },
+                    {
+                        "title": "Right trim in simple file dialog",
+                        "closedAt": "2020-05-13T09:52:40Z",
+                        "createdAt": "2020-05-13T09:51:10Z",
+                        "publishedAt": "2020-05-13T09:51:10Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T09:52:40Z"
+                    },
+                    {
+                        "title": "Extensions - Fixed regression with views dnd",
+                        "closedAt": "2020-05-13T15:49:34Z",
+                        "createdAt": "2020-05-13T15:03:04Z",
+                        "publishedAt": "2020-05-13T15:03:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T15:49:34Z"
+                    },
+                    {
+                        "title": "Add ts/js deprecated support",
+                        "closedAt": "2020-06-22T21:01:38Z",
+                        "createdAt": "2020-05-13T18:03:52Z",
+                        "publishedAt": "2020-05-13T18:03:52Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-22T21:01:38Z"
+                    },
+                    {
+                        "title": "Update version for 1.45.1",
+                        "closedAt": "2020-05-13T22:23:46Z",
+                        "createdAt": "2020-05-13T22:18:56Z",
+                        "publishedAt": "2020-05-13T22:18:56Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-13T22:23:46Z"
+                    },
+                    {
+                        "title": "feat: implement colour contributions for debug REPL",
+                        "closedAt": "2020-05-18T10:12:02Z",
+                        "createdAt": "2020-05-13T23:27:05Z",
+                        "publishedAt": "2020-05-13T23:27:05Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-18T10:12:02Z"
+                    },
+                    {
+                        "title": "fix: use node and yarn even if cache is present",
+                        "closedAt": "2020-05-14T03:30:48Z",
+                        "createdAt": "2020-05-14T02:35:46Z",
+                        "publishedAt": "2020-05-14T02:35:46Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T03:30:48Z"
+                    },
+                    {
+                        "title": "Add vscode-webview-resource protocol",
+                        "closedAt": "2020-05-15T18:34:10Z",
+                        "createdAt": "2020-05-14T02:45:07Z",
+                        "publishedAt": "2020-05-14T02:45:07Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-15T18:34:09Z"
+                    },
+                    {
+                        "title": "fix 97484",
+                        "closedAt": "2020-05-14T07:28:06Z",
+                        "createdAt": "2020-05-14T05:50:50Z",
+                        "publishedAt": "2020-05-14T05:50:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T07:28:06Z"
+                    },
+                    {
+                        "title": ":up: playwright",
+                        "closedAt": "2020-05-14T07:59:12Z",
+                        "createdAt": "2020-05-14T07:51:55Z",
+                        "publishedAt": "2020-05-14T07:51:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T07:59:12Z"
+                    },
+                    {
+                        "title": "Allow style in span in markdown",
+                        "closedAt": "2020-05-29T07:54:34Z",
+                        "createdAt": "2020-05-14T09:04:34Z",
+                        "publishedAt": "2020-05-14T09:04:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-29T07:54:34Z"
+                    },
+                    {
+                        "title": "Fix indentation and typo of json-language server readme",
+                        "closedAt": "2020-05-15T08:37:17Z",
+                        "createdAt": "2020-05-14T13:44:22Z",
+                        "publishedAt": "2020-05-14T13:44:22Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-15T08:37:17Z"
+                    },
+                    {
+                        "title": "vscode api: introduce accessibilityInformation",
+                        "closedAt": "2020-05-15T14:41:35Z",
+                        "createdAt": "2020-05-14T15:33:46Z",
+                        "publishedAt": "2020-05-14T15:33:46Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-15T14:41:35Z"
+                    },
+                    {
+                        "title": "Move common parts of editor and terminal hover widget into base ui",
+                        "closedAt": "2020-05-14T19:54:26Z",
+                        "createdAt": "2020-05-14T18:03:20Z",
+                        "publishedAt": "2020-05-14T18:03:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T19:54:26Z"
+                    },
+                    {
+                        "title": "add breakpointMargin property to cell metadata",
+                        "closedAt": "2020-05-14T23:10:19Z",
+                        "createdAt": "2020-05-14T22:04:35Z",
+                        "publishedAt": "2020-05-14T22:04:35Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-14T23:10:19Z"
+                    },
+                    {
+                        "title": "Focus notification area if empty",
+                        "closedAt": "2020-05-27T09:37:53Z",
+                        "createdAt": "2020-05-14T23:39:11Z",
+                        "publishedAt": "2020-05-14T23:39:11Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Rename github-authentication to github",
+                        "closedAt": "2020-05-18T08:32:55Z",
+                        "createdAt": "2020-05-15T08:56:43Z",
+                        "publishedAt": "2020-05-15T08:56:43Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "editor: introduce anchor selection",
+                        "closedAt": "2020-05-18T13:24:36Z",
+                        "createdAt": "2020-05-15T13:13:17Z",
+                        "publishedAt": "2020-05-15T13:13:17Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-18T13:24:36Z"
+                    },
+                    {
+                        "title": "Add property default show context value proeprty",
+                        "closedAt": "2020-05-27T19:53:56Z",
+                        "createdAt": "2020-05-15T14:05:55Z",
+                        "publishedAt": "2020-05-15T14:05:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T19:53:56Z"
+                    },
+                    {
+                        "title": "Use a fixed position context view as a child of the anchor element",
+                        "closedAt": "2020-05-27T18:18:27Z",
+                        "createdAt": "2020-05-16T02:30:59Z",
+                        "publishedAt": "2020-05-16T02:30:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T18:18:27Z"
+                    },
+                    {
+                        "title": "Fixes terminal Env Variables Icon Not Updating Position",
+                        "closedAt": "2020-06-11T12:21:43Z",
+                        "createdAt": "2020-05-17T06:05:27Z",
+                        "publishedAt": "2020-05-17T06:05:27Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-11T12:21:43Z"
+                    },
+                    {
+                        "title": "Quick input multiline",
+                        "closedAt": "2020-05-18T07:53:49Z",
+                        "createdAt": "2020-05-17T21:13:03Z",
+                        "publishedAt": "2020-05-17T21:13:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes dragging activity icon above hamburger menu drops it to the end",
+                        "closedAt": "2020-06-11T23:56:17Z",
+                        "createdAt": "2020-05-18T03:17:29Z",
+                        "publishedAt": "2020-05-18T03:17:29Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-11T23:56:16Z"
+                    },
+                    {
+                        "title": "repair show thumbnail && thumbnail opacity generated current-line oveflow",
+                        "closedAt": "2020-06-05T08:23:26Z",
+                        "createdAt": "2020-05-18T09:18:38Z",
+                        "publishedAt": "2020-05-18T09:18:38Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "chore: bump electron@8.2.5",
+                        "closedAt": "2020-05-18T19:51:22Z",
+                        "createdAt": "2020-05-18T19:03:04Z",
+                        "publishedAt": "2020-05-18T19:03:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-18T19:51:22Z"
+                    },
+                    {
+                        "title": "registerTextEditorCommand async documentation",
+                        "closedAt": "2020-09-01T09:52:56Z",
+                        "createdAt": "2020-05-18T21:10:19Z",
+                        "publishedAt": "2020-05-18T21:10:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Separate notebook document and editor events.",
+                        "closedAt": "2020-05-19T22:09:53Z",
+                        "createdAt": "2020-05-19T01:06:38Z",
+                        "publishedAt": "2020-05-19T01:06:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-19T22:09:53Z"
+                    },
+                    {
+                        "title": "fix #98102",
+                        "closedAt": "2020-05-19T06:38:35Z",
+                        "createdAt": "2020-05-19T02:28:00Z",
+                        "publishedAt": "2020-05-19T02:28:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-19T06:38:35Z"
+                    },
+                    {
+                        "title": "Expose theme name in webviews",
+                        "closedAt": "2020-05-20T21:32:28Z",
+                        "createdAt": "2020-05-19T03:35:59Z",
+                        "publishedAt": "2020-05-19T03:35:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T21:32:27Z"
+                    },
+                    {
+                        "title": "Move webview's use of setIgnoreMenuShortcuts to main process",
+                        "closedAt": "2020-05-27T20:01:21Z",
+                        "createdAt": "2020-05-19T05:37:06Z",
+                        "publishedAt": "2020-05-19T05:37:06Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T20:01:21Z"
+                    },
+                    {
+                        "title": "A branch",
+                        "closedAt": "2020-05-20T00:33:15Z",
+                        "createdAt": "2020-05-19T06:04:47Z",
+                        "publishedAt": "2020-05-19T06:04:47Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: use electron-osx-sign instead of manual code signing",
+                        "closedAt": "2020-05-20T08:06:16Z",
+                        "createdAt": "2020-05-19T08:09:39Z",
+                        "publishedAt": "2020-05-19T08:09:39Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T08:06:16Z"
+                    },
+                    {
+                        "title": "Dangling text file models of deleted files hanging around in memory",
+                        "closedAt": "2020-05-26T14:29:13Z",
+                        "createdAt": "2020-05-19T09:36:48Z",
+                        "publishedAt": "2020-05-19T09:36:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T14:29:12Z"
+                    },
+                    {
+                        "title": "editor use contenteditable instead of textarea",
+                        "closedAt": null,
+                        "createdAt": "2020-05-19T14:28:56Z",
+                        "publishedAt": "2020-05-19T14:28:56Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "php-language-features: Add html indent rule",
+                        "closedAt": "2020-05-27T01:39:45Z",
+                        "createdAt": "2020-05-19T14:58:06Z",
+                        "publishedAt": "2020-05-19T14:58:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Remove terminal link matchers",
+                        "closedAt": "2020-05-20T14:24:42Z",
+                        "createdAt": "2020-05-19T15:07:59Z",
+                        "publishedAt": "2020-05-19T15:07:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T14:24:42Z"
+                    },
+                    {
+                        "title": "fix: add an option to stopAll in compound launch configs",
+                        "closedAt": "2020-05-20T16:38:49Z",
+                        "createdAt": "2020-05-19T19:58:15Z",
+                        "publishedAt": "2020-05-19T19:58:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T16:38:48Z"
+                    },
+                    {
+                        "title": "Update meaning of order for composite bar",
+                        "closedAt": "2020-05-20T16:45:51Z",
+                        "createdAt": "2020-05-19T21:05:34Z",
+                        "publishedAt": "2020-05-19T21:05:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T16:45:50Z"
+                    },
+                    {
+                        "title": "Fix potential focus infinite loop",
+                        "closedAt": "2020-05-20T01:21:55Z",
+                        "createdAt": "2020-05-20T01:00:58Z",
+                        "publishedAt": "2020-05-20T01:00:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T01:21:55Z"
+                    },
+                    {
+                        "title": "SCM - Add support for filteting on the file path",
+                        "closedAt": "2020-05-20T16:01:09Z",
+                        "createdAt": "2020-05-20T10:41:18Z",
+                        "publishedAt": "2020-05-20T10:41:18Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T16:01:09Z"
+                    },
+                    {
+                        "title": "editor: conoslidte computing of editor aria labels ",
+                        "closedAt": "2020-05-20T14:01:16Z",
+                        "createdAt": "2020-05-20T11:15:02Z",
+                        "publishedAt": "2020-05-20T11:15:02Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T14:01:16Z"
+                    },
+                    {
+                        "title": "allow linking via workspace://<project-name>/path/to/file and project://path/to/file",
+                        "closedAt": "2020-05-27T18:30:51Z",
+                        "createdAt": "2020-05-20T11:26:19Z",
+                        "publishedAt": "2020-05-20T11:26:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Create FileReadableStream class to stream large files for d&d uploads and add progress notification",
+                        "closedAt": "2020-05-29T06:16:33Z",
+                        "createdAt": "2020-05-20T14:32:11Z",
+                        "publishedAt": "2020-05-20T14:32:11Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "chore: bump electron@8.3.0",
+                        "closedAt": "2020-05-20T20:32:03Z",
+                        "createdAt": "2020-05-20T20:05:00Z",
+                        "publishedAt": "2020-05-20T20:05:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-20T20:32:03Z"
+                    },
+                    {
+                        "title": "Make Neo keyboard layout (layer 4) arrow keys work in explorer view",
+                        "closedAt": "2020-05-29T09:04:35Z",
+                        "createdAt": "2020-05-20T20:45:28Z",
+                        "publishedAt": "2020-05-20T20:45:28Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-29T09:04:35Z"
+                    },
+                    {
+                        "title": "fix: window focus for second instance on macOS",
+                        "closedAt": "2020-07-21T07:38:42Z",
+                        "createdAt": "2020-05-20T23:13:00Z",
+                        "publishedAt": "2020-05-20T23:13:00Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Let core command such as  undo/redo be overridden by webviews and notebooks",
+                        "closedAt": "2020-06-19T23:54:23Z",
+                        "createdAt": "2020-05-21T00:51:00Z",
+                        "publishedAt": "2020-05-21T00:51:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-19T23:54:23Z"
+                    },
+                    {
+                        "title": "fix: allow storing crash reports for insiders and stable build",
+                        "closedAt": "2020-05-27T12:08:58Z",
+                        "createdAt": "2020-05-21T01:12:33Z",
+                        "publishedAt": "2020-05-21T01:12:33Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add terminal colors to Monokai Dimmed theme",
+                        "closedAt": "2020-05-26T21:01:00Z",
+                        "createdAt": "2020-05-21T13:24:16Z",
+                        "publishedAt": "2020-05-21T13:24:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T21:01:00Z"
+                    },
+                    {
+                        "title": "Proposal: Allow TS Server to be spawned with --inspect-brk",
+                        "closedAt": "2020-05-26T18:57:03Z",
+                        "createdAt": "2020-05-21T17:25:52Z",
+                        "publishedAt": "2020-05-21T17:25:52Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T18:57:03Z"
+                    },
+                    {
+                        "title": "Fix spelling in snippets.contribution.ts",
+                        "closedAt": "2020-05-26T06:48:53Z",
+                        "createdAt": "2020-05-22T20:24:47Z",
+                        "publishedAt": "2020-05-22T20:24:47Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T06:48:53Z"
+                    },
+                    {
+                        "title": "Treat *.ts.map files as JSON",
+                        "closedAt": "2020-05-26T18:59:29Z",
+                        "createdAt": "2020-05-23T00:11:55Z",
+                        "publishedAt": "2020-05-23T00:11:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T18:59:28Z"
+                    },
+                    {
+                        "title": "Support for Unicode-aware regular expressions in Monaco Monarch language definitions",
+                        "closedAt": "2020-06-01T16:03:37Z",
+                        "createdAt": "2020-05-23T23:10:25Z",
+                        "publishedAt": "2020-05-23T23:10:25Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-01T16:03:36Z"
+                    },
+                    {
+                        "title": "use ^H to delete word left in cmd.exe",
+                        "closedAt": "2020-07-13T13:31:33Z",
+                        "createdAt": "2020-05-25T05:56:00Z",
+                        "publishedAt": "2020-05-25T05:56:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T13:31:33Z"
+                    },
+                    {
+                        "title": "Update typescript.code-snippets",
+                        "closedAt": "2020-05-27T18:41:24Z",
+                        "createdAt": "2020-05-25T14:23:23Z",
+                        "publishedAt": "2020-05-25T14:23:23Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T18:41:24Z"
+                    },
+                    {
+                        "title": "Update markdown.code-snippets",
+                        "closedAt": "2020-05-28T20:22:35Z",
+                        "createdAt": "2020-05-25T14:34:40Z",
+                        "publishedAt": "2020-05-25T14:34:40Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "showCandidate should have a better name",
+                        "closedAt": "2020-05-28T08:04:13Z",
+                        "createdAt": "2020-05-26T09:09:53Z",
+                        "publishedAt": "2020-05-26T09:09:53Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-28T08:04:12Z"
+                    },
+                    {
+                        "title": "Update seti-ui theme",
+                        "closedAt": "2020-05-26T18:29:55Z",
+                        "createdAt": "2020-05-26T15:51:53Z",
+                        "publishedAt": "2020-05-26T15:51:53Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-26T18:29:54Z"
+                    },
+                    {
+                        "title": "differentiate notebook moving to new group and splitting",
+                        "closedAt": "2020-05-29T17:15:56Z",
+                        "createdAt": "2020-05-26T20:50:44Z",
+                        "publishedAt": "2020-05-26T20:50:44Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-29T17:15:56Z"
+                    },
+                    {
+                        "title": "created richnav yml tasks",
+                        "closedAt": "2020-06-02T09:43:18Z",
+                        "createdAt": "2020-05-26T21:40:37Z",
+                        "publishedAt": "2020-05-26T21:40:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Introduce electron-sandbox",
+                        "closedAt": "2020-05-27T05:48:01Z",
+                        "createdAt": "2020-05-27T05:02:25Z",
+                        "publishedAt": "2020-05-27T05:02:25Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T05:48:01Z"
+                    },
+                    {
+                        "title": "Initial state persistence API",
+                        "closedAt": "2020-06-01T23:31:09Z",
+                        "createdAt": "2020-05-27T21:23:50Z",
+                        "publishedAt": "2020-05-27T21:23:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-01T23:31:08Z"
+                    },
+                    {
+                        "title": "Support downloading blob URLs and data URLs when clicked in a notebook webview",
+                        "closedAt": "2020-05-31T18:21:42Z",
+                        "createdAt": "2020-05-27T22:52:23Z",
+                        "publishedAt": "2020-05-27T22:52:23Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-31T18:21:42Z"
+                    },
+                    {
+                        "title": "load custom renderers when reloading from backup.",
+                        "closedAt": "2020-05-27T23:28:17Z",
+                        "createdAt": "2020-05-27T23:04:51Z",
+                        "publishedAt": "2020-05-27T23:04:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-27T23:28:17Z"
+                    },
+                    {
+                        "title": "Fix typo in vscode.d.ts",
+                        "closedAt": "2020-05-28T17:04:04Z",
+                        "createdAt": "2020-05-27T23:10:33Z",
+                        "publishedAt": "2020-05-27T23:10:33Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-28T17:04:03Z"
+                    },
+                    {
+                        "title": "Fix debug icon. Use Codicons instead of text",
+                        "closedAt": "2020-05-28T13:56:27Z",
+                        "createdAt": "2020-05-28T10:21:29Z",
+                        "publishedAt": "2020-05-28T10:21:29Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-28T13:56:27Z"
+                    },
+                    {
+                        "title": "css language server for web",
+                        "closedAt": "2020-05-28T20:56:58Z",
+                        "createdAt": "2020-05-28T20:56:04Z",
+                        "publishedAt": "2020-05-28T20:56:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-28T20:56:58Z"
+                    },
+                    {
+                        "title": "editors - use canonical URIs when creating editor inputs (#93368)",
+                        "closedAt": "2020-05-29T14:39:55Z",
+                        "createdAt": "2020-05-29T08:40:04Z",
+                        "publishedAt": "2020-05-29T08:40:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-05-29T14:39:55Z"
+                    },
+                    {
+                        "title": "Keybinding - Do not push an empty string to the result",
+                        "closedAt": "2020-06-01T09:14:56Z",
+                        "createdAt": "2020-05-29T15:21:15Z",
+                        "publishedAt": "2020-05-29T15:21:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-01T09:14:54Z"
+                    },
+                    {
+                        "title": "explorer: support for dnd remote resources",
+                        "closedAt": "2021-08-18T12:32:27Z",
+                        "createdAt": "2020-05-29T15:33:08Z",
+                        "publishedAt": "2020-05-29T15:33:08Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Notebook failing test troubleshoot",
+                        "closedAt": "2020-10-08T17:22:31Z",
+                        "createdAt": "2020-05-29T18:26:45Z",
+                        "publishedAt": "2020-05-29T18:26:45Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Clean up notebook cell styles",
+                        "closedAt": "2020-06-01T21:22:12Z",
+                        "createdAt": "2020-05-29T19:18:20Z",
+                        "publishedAt": "2020-05-29T19:18:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-06-01T21:22:12Z"
+                    },
+                    {
+                        "title": "makes 'noUpdatesAvailable' info dialogs non-modal and less intrusive",
+                        "closedAt": "2020-07-28T07:11:54Z",
+                        "createdAt": "2020-05-29T21:57:31Z",
+                        "publishedAt": "2020-05-29T21:57:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOBmcu9Q=="
+                },
+                "nodes": [
+                    {
+                        "title": "Added command for selecting ts version",
+                        "closedAt": "2017-01-31T22:27:25Z",
+                        "createdAt": "2017-01-31T20:50:18Z",
+                        "publishedAt": "2017-01-31T20:50:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-01-31T22:27:25Z"
+                    },
+                    {
+                        "title": "Fix Detected Link Style For Links With Underscores",
+                        "closedAt": "2017-02-01T20:47:11Z",
+                        "createdAt": "2017-01-31T22:29:26Z",
+                        "publishedAt": "2017-01-31T22:29:26Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T20:47:11Z"
+                    },
+                    {
+                        "title": "Remove unneeded d.ts files from extensions",
+                        "closedAt": "2017-02-01T20:34:51Z",
+                        "createdAt": "2017-02-01T01:03:42Z",
+                        "publishedAt": "2017-02-01T01:03:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T20:34:51Z"
+                    },
+                    {
+                        "title": "Use patched emmet to support svg and orphaned quote bug",
+                        "closedAt": "2017-02-07T16:54:55Z",
+                        "createdAt": "2017-02-01T01:32:54Z",
+                        "publishedAt": "2017-02-01T01:32:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T16:54:55Z"
+                    },
+                    {
+                        "title": "Flag errors in TSconfig.json",
+                        "closedAt": "2017-02-01T20:37:10Z",
+                        "createdAt": "2017-02-01T01:56:49Z",
+                        "publishedAt": "2017-02-01T01:56:49Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T20:37:10Z"
+                    },
+                    {
+                        "title": "Bump bundled extension TS version to 2.1.5",
+                        "closedAt": "2017-02-01T20:35:13Z",
+                        "createdAt": "2017-02-01T02:13:34Z",
+                        "publishedAt": "2017-02-01T02:13:34Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T20:35:12Z"
+                    },
+                    {
+                        "title": "Use important for vs-whitespace",
+                        "closedAt": "2017-02-01T09:02:43Z",
+                        "createdAt": "2017-02-01T05:37:23Z",
+                        "publishedAt": "2017-02-01T05:37:23Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T09:02:43Z"
+                    },
+                    {
+                        "title": "Fix explorer selection state when drag ends",
+                        "closedAt": "2017-02-06T10:45:44Z",
+                        "createdAt": "2017-02-01T13:19:14Z",
+                        "publishedAt": "2017-02-01T13:19:14Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T10:45:44Z"
+                    },
+                    {
+                        "title": "Use @types/node in extensions for node typings",
+                        "closedAt": "2017-02-01T23:20:18Z",
+                        "createdAt": "2017-02-01T21:30:35Z",
+                        "publishedAt": "2017-02-01T21:30:35Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-01T23:20:18Z"
+                    },
+                    {
+                        "title": "Don't start ts server with enable telemetry if user has disabled telemetry",
+                        "closedAt": "2017-02-01T23:10:50Z",
+                        "createdAt": "2017-02-01T22:08:45Z",
+                        "publishedAt": "2017-02-01T22:08:45Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add Type Definition Provider API",
+                        "closedAt": "2017-02-02T22:01:24Z",
+                        "createdAt": "2017-02-01T23:19:10Z",
+                        "publishedAt": "2017-02-01T23:19:10Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-02T22:01:24Z"
+                    },
+                    {
+                        "title": "Implement modal message API",
+                        "closedAt": "2017-02-03T10:19:56Z",
+                        "createdAt": "2017-02-02T15:15:33Z",
+                        "publishedAt": "2017-02-02T15:15:33Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-03T10:19:56Z"
+                    },
+                    {
+                        "title": "#19719 - fixed typos in TypeScript extension settings keyword descriptions",
+                        "closedAt": "2017-02-02T18:59:57Z",
+                        "createdAt": "2017-02-02T15:46:46Z",
+                        "publishedAt": "2017-02-02T15:46:46Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-02T18:59:57Z"
+                    },
+                    {
+                        "title": "Use NPM chokidar.",
+                        "closedAt": "2017-02-28T05:51:18Z",
+                        "createdAt": "2017-02-02T19:23:31Z",
+                        "publishedAt": "2017-02-02T19:23:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "make renderMarkedString properly handle language='markdown'",
+                        "closedAt": "2017-02-07T20:01:24Z",
+                        "createdAt": "2017-02-03T00:09:07Z",
+                        "publishedAt": "2017-02-03T00:09:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix #19769 - adopt typescript's noUnusedLocals",
+                        "closedAt": "2017-04-19T02:20:18Z",
+                        "createdAt": "2017-02-03T01:14:27Z",
+                        "publishedAt": "2017-02-03T01:14:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Allow MarkedString in CompletionItem details and documentation",
+                        "closedAt": "2017-02-06T11:27:07Z",
+                        "createdAt": "2017-02-03T02:28:29Z",
+                        "publishedAt": "2017-02-03T02:28:29Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update from Original",
+                        "closedAt": "2017-02-03T06:26:43Z",
+                        "createdAt": "2017-02-03T04:08:53Z",
+                        "publishedAt": "2017-02-03T04:08:53Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: dispose the this.documentListener",
+                        "closedAt": "2017-08-27T16:36:54Z",
+                        "createdAt": "2017-02-03T20:07:20Z",
+                        "publishedAt": "2017-02-03T20:07:20Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-27T16:36:54Z"
+                    },
+                    {
+                        "title": "Add ellipsis to path in quick open",
+                        "closedAt": "2017-04-25T10:01:39Z",
+                        "createdAt": "2017-02-03T21:39:49Z",
+                        "publishedAt": "2017-02-03T21:39:49Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix flexbox height issue for parameter hint on IE and Safari",
+                        "closedAt": "2017-02-10T15:24:52Z",
+                        "createdAt": "2017-02-03T23:21:00Z",
+                        "publishedAt": "2017-02-03T23:21:00Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-10T15:24:52Z"
+                    },
+                    {
+                        "title": "Add extra check to tsdk path when getting version",
+                        "closedAt": "2017-02-03T23:34:43Z",
+                        "createdAt": "2017-02-03T23:23:47Z",
+                        "publishedAt": "2017-02-03T23:23:47Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-03T23:34:43Z"
+                    },
+                    {
+                        "title": "Copy `code-icon.svg` to near where it is used",
+                        "closedAt": "2017-02-07T15:59:56Z",
+                        "createdAt": "2017-02-04T00:27:22Z",
+                        "publishedAt": "2017-02-04T00:27:22Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T15:59:56Z"
+                    },
+                    {
+                        "title": "Fix Slow  Markdown Front matter stripping regexp",
+                        "closedAt": "2017-02-04T01:56:53Z",
+                        "createdAt": "2017-02-04T01:40:28Z",
+                        "publishedAt": "2017-02-04T01:40:28Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-04T01:56:53Z"
+                    },
+                    {
+                        "title": "Mac: file events are not reported when using workspace path with different casing (fixes #1426)",
+                        "closedAt": "2017-02-06T08:06:14Z",
+                        "createdAt": "2017-02-04T09:30:22Z",
+                        "publishedAt": "2017-02-04T09:30:22Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T08:06:14Z"
+                    },
+                    {
+                        "title": "Some typo fixes",
+                        "closedAt": "2017-02-06T08:46:52Z",
+                        "createdAt": "2017-02-04T12:52:26Z",
+                        "publishedAt": "2017-02-04T12:52:26Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T08:46:52Z"
+                    },
+                    {
+                        "title": "Allow to configure title bar information (fixes #1723)",
+                        "closedAt": "2017-02-06T08:50:28Z",
+                        "createdAt": "2017-02-04T14:39:41Z",
+                        "publishedAt": "2017-02-04T14:39:41Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T08:50:28Z"
+                    },
+                    {
+                        "title": "git clone nvm with --depth 1, to make clone faster",
+                        "closedAt": "2017-02-06T11:05:31Z",
+                        "createdAt": "2017-02-05T10:53:01Z",
+                        "publishedAt": "2017-02-05T10:53:01Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T11:05:31Z"
+                    },
+                    {
+                        "title": "Fuzzy Search in Cmd palette should rank results with closer search terms higher (fixes #14727)",
+                        "closedAt": "2017-02-06T08:01:27Z",
+                        "createdAt": "2017-02-05T11:18:11Z",
+                        "publishedAt": "2017-02-05T11:18:11Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T08:01:27Z"
+                    },
+                    {
+                        "title": "Resizes the tab size when dirty file state changes, fixes #15364",
+                        "closedAt": "2017-02-08T07:14:19Z",
+                        "createdAt": "2017-02-05T13:24:18Z",
+                        "publishedAt": "2017-02-05T13:24:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-08T07:14:19Z"
+                    },
+                    {
+                        "title": "Fixes #16424 - Added option to toggle matching brackets highlighter",
+                        "closedAt": "2017-02-20T10:24:22Z",
+                        "createdAt": "2017-02-05T14:40:00Z",
+                        "publishedAt": "2017-02-05T14:40:00Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T10:24:22Z"
+                    },
+                    {
+                        "title": "[WIP] Inline all decorations",
+                        "closedAt": "2017-04-13T14:01:01Z",
+                        "createdAt": "2017-02-06T13:49:57Z",
+                        "publishedAt": "2017-02-06T13:49:57Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Chord keybindings do not show up in menus (fixes #14622)",
+                        "closedAt": "2017-02-06T17:04:20Z",
+                        "createdAt": "2017-02-06T16:35:33Z",
+                        "publishedAt": "2017-02-06T16:35:33Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T17:04:20Z"
+                    },
+                    {
+                        "title": "Don't open Untitled file when Welcome page is opened",
+                        "closedAt": "2017-02-06T16:58:15Z",
+                        "createdAt": "2017-02-06T16:50:06Z",
+                        "publishedAt": "2017-02-06T16:50:06Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T16:58:15Z"
+                    },
+                    {
+                        "title": "Fix Markdown Scroll Sync For Windows Path Casing",
+                        "closedAt": "2017-02-06T18:19:46Z",
+                        "createdAt": "2017-02-06T17:36:06Z",
+                        "publishedAt": "2017-02-06T17:36:06Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T18:19:45Z"
+                    },
+                    {
+                        "title": "Enable Markdown Scroll Syncronization for Untitled Files",
+                        "closedAt": "2017-02-06T19:20:37Z",
+                        "createdAt": "2017-02-06T19:20:04Z",
+                        "publishedAt": "2017-02-06T19:20:04Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T19:20:37Z"
+                    },
+                    {
+                        "title": "Fix error markers and problems links in untitled js and ts files",
+                        "closedAt": "2017-02-06T19:29:13Z",
+                        "createdAt": "2017-02-06T19:28:49Z",
+                        "publishedAt": "2017-02-06T19:28:49Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-06T19:29:12Z"
+                    },
+                    {
+                        "title": "Stop TS From Spamming Crash Messages",
+                        "closedAt": "2017-02-07T19:05:05Z",
+                        "createdAt": "2017-02-06T21:12:25Z",
+                        "publishedAt": "2017-02-06T21:12:25Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T19:05:05Z"
+                    },
+                    {
+                        "title": "Open containing window",
+                        "closedAt": "2017-02-07T16:35:20Z",
+                        "createdAt": "2017-02-07T00:25:07Z",
+                        "publishedAt": "2017-02-07T00:25:07Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T16:35:20Z"
+                    },
+                    {
+                        "title": "Improve Markdown Preview Code Block Styling",
+                        "closedAt": "2017-02-07T06:20:00Z",
+                        "createdAt": "2017-02-07T01:22:15Z",
+                        "publishedAt": "2017-02-07T01:22:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T06:20:00Z"
+                    },
+                    {
+                        "title": "Disable Paren Commit Item When useCodeSnippetsOnMethodSuggest is Enabled",
+                        "closedAt": "2017-02-07T19:06:46Z",
+                        "createdAt": "2017-02-07T01:43:52Z",
+                        "publishedAt": "2017-02-07T01:43:52Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-07T19:06:46Z"
+                    },
+                    {
+                        "title": "Implement HLSL syntax highlighting, and use HLSL grammar to highlight Cg blocks in ShaderLab files",
+                        "closedAt": "2017-02-20T10:04:23Z",
+                        "createdAt": "2017-02-07T15:46:59Z",
+                        "publishedAt": "2017-02-07T15:46:59Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T10:04:23Z"
+                    },
+                    {
+                        "title": "Handle root, network path or disk drive letter",
+                        "closedAt": "2017-02-20T08:37:09Z",
+                        "createdAt": "2017-02-07T22:49:42Z",
+                        "publishedAt": "2017-02-07T22:49:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T08:37:09Z"
+                    },
+                    {
+                        "title": "Added support for home/end key in IntelliSense",
+                        "closedAt": "2017-04-11T13:23:11Z",
+                        "createdAt": "2017-02-08T00:40:12Z",
+                        "publishedAt": "2017-02-08T00:40:12Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-11T13:23:11Z"
+                    },
+                    {
+                        "title": "Use @types for a few d.ts files in src",
+                        "closedAt": "2017-02-08T01:12:48Z",
+                        "createdAt": "2017-02-08T00:43:27Z",
+                        "publishedAt": "2017-02-08T00:43:27Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-08T01:12:48Z"
+                    },
+                    {
+                        "title": "Use @types a few more places",
+                        "closedAt": "2017-02-08T02:16:20Z",
+                        "createdAt": "2017-02-08T01:47:51Z",
+                        "publishedAt": "2017-02-08T01:47:51Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-08T02:16:20Z"
+                    },
+                    {
+                        "title": "Copy formatted code to clipboard",
+                        "closedAt": "2017-02-16T18:45:14Z",
+                        "createdAt": "2017-02-09T01:07:25Z",
+                        "publishedAt": "2017-02-09T01:07:25Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-16T18:45:14Z"
+                    },
+                    {
+                        "title": "fix: remove unnecessary spacing in German i18n menu",
+                        "closedAt": "2017-02-09T15:35:01Z",
+                        "createdAt": "2017-02-09T06:37:25Z",
+                        "publishedAt": "2017-02-09T06:37:25Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add error handling for when emmet cannot be loaded and update commit hash for emmet",
+                        "closedAt": "2017-02-09T10:04:23Z",
+                        "createdAt": "2017-02-09T09:29:42Z",
+                        "publishedAt": "2017-02-09T09:29:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-09T10:04:23Z"
+                    },
+                    {
+                        "title": "Design View",
+                        "closedAt": "2017-02-09T17:36:54Z",
+                        "createdAt": "2017-02-09T16:13:11Z",
+                        "publishedAt": "2017-02-09T16:13:11Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Implement reference streaming",
+                        "closedAt": "2017-06-01T21:46:51Z",
+                        "createdAt": "2017-02-09T19:26:54Z",
+                        "publishedAt": "2017-02-09T19:26:54Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Send Script Kind based on languageId for js and ts files",
+                        "closedAt": "2017-02-09T21:37:47Z",
+                        "createdAt": "2017-02-09T20:53:05Z",
+                        "publishedAt": "2017-02-09T20:53:05Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-09T21:37:47Z"
+                    },
+                    {
+                        "title": "Add comments (#20349)",
+                        "closedAt": "2017-03-30T15:59:48Z",
+                        "createdAt": "2017-02-10T00:07:01Z",
+                        "publishedAt": "2017-02-10T00:07:01Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add Command to Go To / Create project configuration for an active js or ts file",
+                        "closedAt": "2017-02-13T20:58:40Z",
+                        "createdAt": "2017-02-10T00:21:51Z",
+                        "publishedAt": "2017-02-10T00:21:51Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-13T20:58:40Z"
+                    },
+                    {
+                        "title": "Pick up TS 2.2 2/9 insiders build",
+                        "closedAt": "2017-02-10T00:26:46Z",
+                        "createdAt": "2017-02-10T00:26:22Z",
+                        "publishedAt": "2017-02-10T00:26:22Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-10T00:26:46Z"
+                    },
+                    {
+                        "title": "Wize module baseline",
+                        "closedAt": "2017-02-10T12:20:41Z",
+                        "createdAt": "2017-02-10T12:20:06Z",
+                        "publishedAt": "2017-02-10T12:20:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Open vscode://file/path/to/project/ URLs properly on Windows - fixes #20290",
+                        "closedAt": "2017-04-12T10:35:03Z",
+                        "createdAt": "2017-02-11T07:48:21Z",
+                        "publishedAt": "2017-02-11T07:48:21Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-12T10:35:03Z"
+                    },
+                    {
+                        "title": "Drag and drop selection in editor",
+                        "closedAt": "2017-02-21T15:04:25Z",
+                        "createdAt": "2017-02-13T22:12:06Z",
+                        "publishedAt": "2017-02-13T22:12:06Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T15:04:24Z"
+                    },
+                    {
+                        "title": "Add Status Bar Item for JSConfig/TSConfig",
+                        "closedAt": "2017-02-15T21:26:33Z",
+                        "createdAt": "2017-02-14T01:01:48Z",
+                        "publishedAt": "2017-02-14T01:01:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-15T21:26:33Z"
+                    },
+                    {
+                        "title": "Uplevel node-pty@0.6.2",
+                        "closedAt": "2017-02-14T05:25:03Z",
+                        "createdAt": "2017-02-14T04:27:18Z",
+                        "publishedAt": "2017-02-14T04:27:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-14T05:25:03Z"
+                    },
+                    {
+                        "title": "Terminal links",
+                        "closedAt": "2017-02-14T19:09:26Z",
+                        "createdAt": "2017-02-14T05:24:44Z",
+                        "publishedAt": "2017-02-14T05:24:44Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-14T19:09:25Z"
+                    },
+                    {
+                        "title": "Colour for column selection in debugging mode added to high contrast …",
+                        "closedAt": "2017-02-15T15:00:12Z",
+                        "createdAt": "2017-02-14T09:54:58Z",
+                        "publishedAt": "2017-02-14T09:54:58Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-15T15:00:12Z"
+                    },
+                    {
+                        "title": "correct boundary for embedded languages in HTML",
+                        "closedAt": "2017-02-20T16:22:03Z",
+                        "createdAt": "2017-02-14T18:57:30Z",
+                        "publishedAt": "2017-02-14T18:57:30Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T16:22:03Z"
+                    },
+                    {
+                        "title": "Autofill for JSDocs",
+                        "closedAt": "2017-02-15T22:04:37Z",
+                        "createdAt": "2017-02-15T00:23:24Z",
+                        "publishedAt": "2017-02-15T00:23:24Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-15T22:04:37Z"
+                    },
+                    {
+                        "title": "markdown-it-named-header custom slugify for non-latin characters",
+                        "closedAt": "2017-02-15T00:50:21Z",
+                        "createdAt": "2017-02-15T00:36:28Z",
+                        "publishedAt": "2017-02-15T00:36:28Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-15T00:50:21Z"
+                    },
+                    {
+                        "title": "Line number configuration fixes #12714",
+                        "closedAt": "2017-02-15T16:30:52Z",
+                        "createdAt": "2017-02-15T15:05:07Z",
+                        "publishedAt": "2017-02-15T15:05:07Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-15T16:30:52Z"
+                    },
+                    {
+                        "title": "Fixes #20137 - Unicode not rendering in decorators",
+                        "closedAt": "2017-02-20T15:18:15Z",
+                        "createdAt": "2017-02-15T15:09:27Z",
+                        "publishedAt": "2017-02-15T15:09:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add minimap",
+                        "closedAt": "2017-02-16T22:33:02Z",
+                        "createdAt": "2017-02-15T15:16:34Z",
+                        "publishedAt": "2017-02-15T15:16:34Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-16T22:33:02Z"
+                    },
+                    {
+                        "title": "typo in chs translation",
+                        "closedAt": "2017-02-21T14:27:23Z",
+                        "createdAt": "2017-02-16T04:53:02Z",
+                        "publishedAt": "2017-02-16T04:53:02Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "run tests in renderer",
+                        "closedAt": "2017-03-09T13:32:12Z",
+                        "createdAt": "2017-02-16T14:13:41Z",
+                        "publishedAt": "2017-02-16T14:13:41Z",
+                        "merged": true,
+                        "mergedAt": "2017-03-09T13:32:12Z"
+                    },
+                    {
+                        "title": "Revert \"Add Status Bar Item for JSConfig/TSConfig\"",
+                        "closedAt": "2017-02-16T18:51:21Z",
+                        "createdAt": "2017-02-16T18:51:07Z",
+                        "publishedAt": "2017-02-16T18:51:07Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-16T18:51:21Z"
+                    },
+                    {
+                        "title": "Handle Some Disposable Registrations in TS Extension",
+                        "closedAt": "2017-02-17T19:41:33Z",
+                        "createdAt": "2017-02-17T01:17:20Z",
+                        "publishedAt": "2017-02-17T01:17:20Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-17T19:41:33Z"
+                    },
+                    {
+                        "title": "Prototype of Implementations Code Lens Provider for TypeScript",
+                        "closedAt": "2017-03-01T01:12:17Z",
+                        "createdAt": "2017-02-17T07:13:10Z",
+                        "publishedAt": "2017-02-17T07:13:10Z",
+                        "merged": true,
+                        "mergedAt": "2017-03-01T01:12:16Z"
+                    },
+                    {
+                        "title": "Fixes #16860: Improving exception experience",
+                        "closedAt": "2017-02-21T13:45:31Z",
+                        "createdAt": "2017-02-17T14:10:08Z",
+                        "publishedAt": "2017-02-17T14:10:08Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T13:45:31Z"
+                    },
+                    {
+                        "title": "Allow to collapse a tree recursively ",
+                        "closedAt": "2017-08-14T15:32:57Z",
+                        "createdAt": "2017-02-17T18:00:52Z",
+                        "publishedAt": "2017-02-17T18:00:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update to latest C# TextMate grammar",
+                        "closedAt": "2017-02-20T14:11:07Z",
+                        "createdAt": "2017-02-17T21:12:48Z",
+                        "publishedAt": "2017-02-17T21:12:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T14:11:06Z"
+                    },
+                    {
+                        "title": "Suggestion widget: Fix overflowing text problem (fixes #20679)",
+                        "closedAt": "2017-04-11T14:02:25Z",
+                        "createdAt": "2017-02-18T11:45:44Z",
+                        "publishedAt": "2017-02-18T11:45:44Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-11T14:02:25Z"
+                    },
+                    {
+                        "title": "Add 'Focus to terminal X' action",
+                        "closedAt": "2017-02-21T21:41:55Z",
+                        "createdAt": "2017-02-18T16:58:13Z",
+                        "publishedAt": "2017-02-18T16:58:13Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T21:41:55Z"
+                    },
+                    {
+                        "title": "Implement #12910",
+                        "closedAt": "2017-04-11T13:32:00Z",
+                        "createdAt": "2017-02-19T09:29:02Z",
+                        "publishedAt": "2017-02-19T09:29:02Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-11T13:32:00Z"
+                    },
+                    {
+                        "title": "Use official solarized themes",
+                        "closedAt": "2017-02-20T10:55:42Z",
+                        "createdAt": "2017-02-19T23:46:07Z",
+                        "publishedAt": "2017-02-19T23:46:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add negated inDebugMode context to fullscreen keybinding",
+                        "closedAt": "2017-02-20T09:28:49Z",
+                        "createdAt": "2017-02-20T00:03:24Z",
+                        "publishedAt": "2017-02-20T00:03:24Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix #20897",
+                        "closedAt": "2017-02-20T07:28:06Z",
+                        "createdAt": "2017-02-20T00:10:26Z",
+                        "publishedAt": "2017-02-20T00:10:26Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T07:28:06Z"
+                    },
+                    {
+                        "title": "Terminal encoding problem related to issue #14586",
+                        "closedAt": "2017-02-20T21:11:55Z",
+                        "createdAt": "2017-02-20T14:17:50Z",
+                        "publishedAt": "2017-02-20T14:17:50Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-20T21:11:55Z"
+                    },
+                    {
+                        "title": "Hot Exit: Opens the same file twice in two separate windows",
+                        "closedAt": "2017-02-21T06:44:18Z",
+                        "createdAt": "2017-02-20T15:36:38Z",
+                        "publishedAt": "2017-02-20T15:36:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T06:44:18Z"
+                    },
+                    {
+                        "title": "Remove dependency on window.event in ListView",
+                        "closedAt": "2017-02-21T08:14:30Z",
+                        "createdAt": "2017-02-21T02:18:45Z",
+                        "publishedAt": "2017-02-21T02:18:45Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T08:14:30Z"
+                    },
+                    {
+                        "title": "Callback parameter for TestEditorService() is optional",
+                        "closedAt": "2017-02-21T10:34:07Z",
+                        "createdAt": "2017-02-21T02:49:38Z",
+                        "publishedAt": "2017-02-21T02:49:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T10:34:07Z"
+                    },
+                    {
+                        "title": "upgrade telemetry package used by git extension",
+                        "closedAt": "2017-02-21T08:15:12Z",
+                        "createdAt": "2017-02-21T04:22:55Z",
+                        "publishedAt": "2017-02-21T04:22:55Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T08:15:12Z"
+                    },
+                    {
+                        "title": "upgrade telemetry package used by json and html extensions",
+                        "closedAt": "2017-02-21T08:13:58Z",
+                        "createdAt": "2017-02-21T04:26:18Z",
+                        "publishedAt": "2017-02-21T04:26:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T08:13:58Z"
+                    },
+                    {
+                        "title": "Upgrade telemetry package used by TS and markdown extensions.",
+                        "closedAt": "2017-02-21T23:26:31Z",
+                        "createdAt": "2017-02-21T04:27:31Z",
+                        "publishedAt": "2017-02-21T04:27:31Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T23:26:31Z"
+                    },
+                    {
+                        "title": "Ability to select and launch debug configuration",
+                        "closedAt": "2017-02-21T11:21:39Z",
+                        "createdAt": "2017-02-21T09:44:24Z",
+                        "publishedAt": "2017-02-21T09:44:24Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T11:21:39Z"
+                    },
+                    {
+                        "title": "Select box debug configuration listener",
+                        "closedAt": "2017-02-21T13:34:56Z",
+                        "createdAt": "2017-02-21T11:34:42Z",
+                        "publishedAt": "2017-02-21T11:34:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T13:34:56Z"
+                    },
+                    {
+                        "title": "Add gnupg and apt to depends",
+                        "closedAt": "2017-02-27T23:09:09Z",
+                        "createdAt": "2017-02-21T12:54:03Z",
+                        "publishedAt": "2017-02-21T12:54:03Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-27T23:09:09Z"
+                    },
+                    {
+                        "title": "Exception widget styling",
+                        "closedAt": "2017-02-21T16:48:04Z",
+                        "createdAt": "2017-02-21T16:42:00Z",
+                        "publishedAt": "2017-02-21T16:42:00Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-21T16:48:04Z"
+                    },
+                    {
+                        "title": "Escape paths in npm.sh to fix #20907",
+                        "closedAt": "2017-04-11T13:36:10Z",
+                        "createdAt": "2017-02-21T18:53:38Z",
+                        "publishedAt": "2017-02-21T18:53:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-11T13:36:10Z"
+                    },
+                    {
+                        "title": "Escape paths in code.sh",
+                        "closedAt": "2017-04-11T14:05:02Z",
+                        "createdAt": "2017-02-21T20:25:40Z",
+                        "publishedAt": "2017-02-21T20:25:40Z",
+                        "merged": true,
+                        "mergedAt": "2017-04-11T14:05:02Z"
+                    },
+                    {
+                        "title": "native-keymap@0.4.0",
+                        "closedAt": "2017-02-23T20:07:46Z",
+                        "createdAt": "2017-02-21T22:01:13Z",
+                        "publishedAt": "2017-02-21T22:01:13Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-23T20:07:46Z"
+                    },
+                    {
+                        "title": "Use CompletionItem for JsDoc Auto Complete",
+                        "closedAt": "2017-02-22T00:02:54Z",
+                        "createdAt": "2017-02-21T23:00:51Z",
+                        "publishedAt": "2017-02-21T23:00:51Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-22T00:02:54Z"
+                    },
+                    {
+                        "title": "Exception widget styling amends",
+                        "closedAt": "2017-02-22T08:21:55Z",
+                        "createdAt": "2017-02-22T08:03:26Z",
+                        "publishedAt": "2017-02-22T08:03:26Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-22T08:21:55Z"
+                    },
+                    {
+                        "title": "Update Quick Fix Lightbulb once a Fix has been Applied",
+                        "closedAt": "2017-02-24T10:50:48Z",
+                        "createdAt": "2017-02-22T09:31:37Z",
+                        "publishedAt": "2017-02-22T09:31:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Debug quick open menu to be pulled with import",
+                        "closedAt": "2017-02-23T08:46:25Z",
+                        "createdAt": "2017-02-22T15:01:58Z",
+                        "publishedAt": "2017-02-22T15:01:58Z",
+                        "merged": true,
+                        "mergedAt": "2017-02-23T08:46:25Z"
+                    }
+                ]
+            }
+        }
+    }
+}

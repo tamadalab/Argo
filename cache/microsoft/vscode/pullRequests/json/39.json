@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHODSfFlQ=="
+                },
+                "nodes": [
+                    {
+                        "title": "Changed terminal split warn to info",
+                        "closedAt": "2018-09-26T01:26:27Z",
+                        "createdAt": "2018-09-25T23:56:54Z",
+                        "publishedAt": "2018-09-25T23:56:54Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-26T01:26:27Z"
+                    },
+                    {
+                        "title": "Don't skip children with script source attached",
+                        "closedAt": null,
+                        "createdAt": "2018-09-26T00:16:52Z",
+                        "publishedAt": "2018-09-26T00:16:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update output channel when visible",
+                        "closedAt": "2018-09-26T13:37:16Z",
+                        "createdAt": "2018-09-26T13:05:27Z",
+                        "publishedAt": "2018-09-26T13:05:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-26T13:37:16Z"
+                    },
+                    {
+                        "title": "debug: clean up activation events",
+                        "closedAt": "2018-10-01T09:33:53Z",
+                        "createdAt": "2018-09-26T13:10:59Z",
+                        "publishedAt": "2018-09-26T13:10:59Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T09:33:53Z"
+                    },
+                    {
+                        "title": "QuickPick events",
+                        "closedAt": "2018-10-04T08:42:22Z",
+                        "createdAt": "2018-09-27T07:39:15Z",
+                        "publishedAt": "2018-09-27T07:39:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add leading whitespace offset to lookup offset",
+                        "closedAt": "2018-09-27T11:01:26Z",
+                        "createdAt": "2018-09-27T10:57:01Z",
+                        "publishedAt": "2018-09-27T10:57:01Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-27T11:01:25Z"
+                    },
+                    {
+                        "title": "Un test",
+                        "closedAt": "2018-09-28T00:10:27Z",
+                        "createdAt": "2018-09-27T13:02:12Z",
+                        "publishedAt": "2018-09-27T13:02:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Support odd indentation sizes (fixes #17639)",
+                        "closedAt": "2018-10-09T06:49:43Z",
+                        "createdAt": "2018-09-27T17:24:58Z",
+                        "publishedAt": "2018-09-27T17:24:58Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-09T06:49:43Z"
+                    },
+                    {
+                        "title": "Open Workspace button in .code-workspace files, fixes #59305",
+                        "closedAt": "2018-09-28T12:45:00Z",
+                        "createdAt": "2018-09-28T01:22:48Z",
+                        "publishedAt": "2018-09-28T01:22:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix for #59538",
+                        "closedAt": "2018-09-28T09:29:17Z",
+                        "createdAt": "2018-09-28T08:35:17Z",
+                        "publishedAt": "2018-09-28T08:35:17Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-28T09:29:17Z"
+                    },
+                    {
+                        "title": "Activity action should have a name 'activity'",
+                        "closedAt": "2018-10-01T09:33:14Z",
+                        "createdAt": "2018-09-28T09:31:27Z",
+                        "publishedAt": "2018-09-28T09:31:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T09:33:14Z"
+                    },
+                    {
+                        "title": "Update doc",
+                        "closedAt": "2018-09-28T10:05:46Z",
+                        "createdAt": "2018-09-28T10:02:23Z",
+                        "publishedAt": "2018-09-28T10:02:23Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-28T10:05:46Z"
+                    },
+                    {
+                        "title": "Isidorn/debug start",
+                        "closedAt": "2018-10-01T09:32:12Z",
+                        "createdAt": "2018-09-28T13:08:51Z",
+                        "publishedAt": "2018-09-28T13:08:51Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T09:32:12Z"
+                    },
+                    {
+                        "title": "Panel: remove the \"toggle location\" action in the panel header and move to menu",
+                        "closedAt": "2018-10-01T09:31:23Z",
+                        "createdAt": "2018-09-28T13:48:11Z",
+                        "publishedAt": "2018-09-28T13:48:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T09:31:23Z"
+                    },
+                    {
+                        "title": "Only detect shell for the current OS",
+                        "closedAt": "2018-10-01T13:04:09Z",
+                        "createdAt": "2018-09-28T14:45:10Z",
+                        "publishedAt": "2018-09-28T14:45:10Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T13:04:09Z"
+                    },
+                    {
+                        "title": "Add missing return type",
+                        "closedAt": "2018-10-01T13:04:20Z",
+                        "createdAt": "2018-09-28T15:31:07Z",
+                        "publishedAt": "2018-09-28T15:31:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T13:04:20Z"
+                    },
+                    {
+                        "title": "Create game",
+                        "closedAt": "2018-09-28T16:41:45Z",
+                        "createdAt": "2018-09-28T15:41:03Z",
+                        "publishedAt": "2018-09-28T15:41:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix typo in processTaskSystem.ts",
+                        "closedAt": "2018-10-01T07:23:18Z",
+                        "createdAt": "2018-09-28T17:08:06Z",
+                        "publishedAt": "2018-09-28T17:08:06Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T07:23:18Z"
+                    },
+                    {
+                        "title": "Fix typo in jsonSchema_v2.ts",
+                        "closedAt": "2018-10-01T07:22:56Z",
+                        "createdAt": "2018-09-28T17:21:16Z",
+                        "publishedAt": "2018-09-28T17:21:16Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T07:22:56Z"
+                    },
+                    {
+                        "title": "Use textmate/swift.tmbundle for Swift syntax.",
+                        "closedAt": "2018-10-01T13:25:41Z",
+                        "createdAt": "2018-09-28T17:35:08Z",
+                        "publishedAt": "2018-09-28T17:35:08Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T13:25:41Z"
+                    },
+                    {
+                        "title": "node-pty@0.7.8",
+                        "closedAt": "2018-09-28T18:49:45Z",
+                        "createdAt": "2018-09-28T18:08:55Z",
+                        "publishedAt": "2018-09-28T18:08:55Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-28T18:49:45Z"
+                    },
+                    {
+                        "title": "Remove duplicate switch case",
+                        "closedAt": "2018-10-15T23:51:36Z",
+                        "createdAt": "2018-09-29T18:32:41Z",
+                        "publishedAt": "2018-09-29T18:32:41Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-15T23:51:36Z"
+                    },
+                    {
+                        "title": "Update bug_report.md",
+                        "closedAt": "2018-10-01T05:29:43Z",
+                        "createdAt": "2018-09-30T14:39:24Z",
+                        "publishedAt": "2018-09-30T14:39:24Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Persist settings search when reloaded",
+                        "closedAt": "2018-10-03T22:14:36Z",
+                        "createdAt": "2018-09-30T21:06:18Z",
+                        "publishedAt": "2018-09-30T21:06:18Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T22:14:36Z"
+                    },
+                    {
+                        "title": "October changes",
+                        "closedAt": "2018-10-01T05:52:49Z",
+                        "createdAt": "2018-10-01T05:52:22Z",
+                        "publishedAt": "2018-10-01T05:52:22Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T05:52:49Z"
+                    },
+                    {
+                        "title": "[StandaloneEditor] Initialize static field 'SCHEME'",
+                        "closedAt": "2018-10-01T21:03:57Z",
+                        "createdAt": "2018-10-01T06:23:10Z",
+                        "publishedAt": "2018-10-01T06:23:10Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T21:03:57Z"
+                    },
+                    {
+                        "title": "Displaying a prompt when user clones repository that exists locally",
+                        "closedAt": "2019-05-24T10:36:36Z",
+                        "createdAt": "2018-10-01T06:53:18Z",
+                        "publishedAt": "2018-10-01T06:53:18Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix #59364 : Respect global .gitignore when searching",
+                        "closedAt": "2018-10-04T18:40:24Z",
+                        "createdAt": "2018-10-01T08:05:31Z",
+                        "publishedAt": "2018-10-01T08:05:31Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T18:40:24Z"
+                    },
+                    {
+                        "title": "Added Angular logo",
+                        "closedAt": "2018-10-01T08:48:39Z",
+                        "createdAt": "2018-10-01T08:36:15Z",
+                        "publishedAt": "2018-10-01T08:36:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix59675",
+                        "closedAt": "2018-10-01T09:18:41Z",
+                        "createdAt": "2018-10-01T09:18:27Z",
+                        "publishedAt": "2018-10-01T09:18:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Use hosted build agents for Linux builds",
+                        "closedAt": "2018-10-01T09:38:04Z",
+                        "createdAt": "2018-10-01T09:28:08Z",
+                        "publishedAt": "2018-10-01T09:28:08Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T09:38:04Z"
+                    },
+                    {
+                        "title": "Add Git:Fetch (prune)",
+                        "closedAt": "2018-11-20T08:58:50Z",
+                        "createdAt": "2018-10-01T11:14:27Z",
+                        "publishedAt": "2018-10-01T11:14:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-11-20T08:58:50Z"
+                    },
+                    {
+                        "title": "Removed duplicate \"the\" from documentation.",
+                        "closedAt": "2018-10-02T00:30:07Z",
+                        "createdAt": "2018-10-01T11:50:04Z",
+                        "publishedAt": "2018-10-01T11:50:04Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T00:30:07Z"
+                    },
+                    {
+                        "title": "linux build: limit yarn child concurrency",
+                        "closedAt": "2018-10-01T13:11:10Z",
+                        "createdAt": "2018-10-01T13:01:47Z",
+                        "publishedAt": "2018-10-01T13:01:47Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T13:11:10Z"
+                    },
+                    {
+                        "title": "Added actions from #57321 to the 'No Settings Found'-message",
+                        "closedAt": "2018-10-05T16:29:42Z",
+                        "createdAt": "2018-10-01T13:39:04Z",
+                        "publishedAt": "2018-10-01T13:39:04Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T16:29:42Z"
+                    },
+                    {
+                        "title": "feat: enable mojave dark mode support",
+                        "closedAt": "2018-10-01T16:25:16Z",
+                        "createdAt": "2018-10-01T14:14:30Z",
+                        "publishedAt": "2018-10-01T14:14:30Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T16:25:16Z"
+                    },
+                    {
+                        "title": "Add doc for onReady() function",
+                        "closedAt": "2018-10-01T20:51:03Z",
+                        "createdAt": "2018-10-01T15:50:52Z",
+                        "publishedAt": "2018-10-01T15:50:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update CONTRIBUTING.md",
+                        "closedAt": "2018-10-01T18:28:50Z",
+                        "createdAt": "2018-10-01T16:03:43Z",
+                        "publishedAt": "2018-10-01T16:03:43Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Adjust phrasing to sound more natural",
+                        "closedAt": "2018-10-01T17:39:29Z",
+                        "createdAt": "2018-10-01T16:36:16Z",
+                        "publishedAt": "2018-10-01T16:36:16Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T17:39:29Z"
+                    },
+                    {
+                        "title": "Remove TPromise usage in terminal and execution parts",
+                        "closedAt": "2018-10-03T03:27:33Z",
+                        "createdAt": "2018-10-01T17:13:07Z",
+                        "publishedAt": "2018-10-01T17:13:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T03:27:33Z"
+                    },
+                    {
+                        "title": "Adding Pascal case to snippet format options",
+                        "closedAt": "2018-10-02T08:26:41Z",
+                        "createdAt": "2018-10-01T17:44:44Z",
+                        "publishedAt": "2018-10-01T17:44:44Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T08:26:40Z"
+                    },
+                    {
+                        "title": "Add border for dirty tabs",
+                        "closedAt": "2018-10-08T08:27:01Z",
+                        "createdAt": "2018-10-01T17:48:52Z",
+                        "publishedAt": "2018-10-01T17:48:52Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-08T08:27:01Z"
+                    },
+                    {
+                        "title": "Simplify terminal ID retry mechanism",
+                        "closedAt": "2018-10-01T20:45:30Z",
+                        "createdAt": "2018-10-01T18:37:20Z",
+                        "publishedAt": "2018-10-01T18:37:20Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T20:45:30Z"
+                    },
+                    {
+                        "title": "Remove built-in toml basic language support (release/1.28)",
+                        "closedAt": "2018-10-01T23:30:27Z",
+                        "createdAt": "2018-10-01T19:03:58Z",
+                        "publishedAt": "2018-10-01T19:03:58Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T23:30:27Z"
+                    },
+                    {
+                        "title": "Added JSON5 syntax",
+                        "closedAt": "2018-10-02T09:24:48Z",
+                        "createdAt": "2018-10-01T20:06:00Z",
+                        "publishedAt": "2018-10-01T20:06:00Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Allow buttons to show outline on keyboard focus",
+                        "closedAt": "2018-10-03T18:54:33Z",
+                        "createdAt": "2018-10-01T20:31:37Z",
+                        "publishedAt": "2018-10-01T20:31:37Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T18:54:33Z"
+                    },
+                    {
+                        "title": "fix for issue #59452",
+                        "closedAt": "2018-11-20T08:40:57Z",
+                        "createdAt": "2018-10-01T20:55:52Z",
+                        "publishedAt": "2018-10-01T20:55:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Ctrl/cmd + f in terminal find widget should be a no-op",
+                        "closedAt": "2018-10-11T11:12:51Z",
+                        "createdAt": "2018-10-01T21:03:57Z",
+                        "publishedAt": "2018-10-01T21:03:57Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-11T11:12:50Z"
+                    },
+                    {
+                        "title": "remove extra margins on completion hovers with markdown",
+                        "closedAt": "2018-10-15T17:52:00Z",
+                        "createdAt": "2018-10-01T21:22:31Z",
+                        "publishedAt": "2018-10-01T21:22:31Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-15T17:52:00Z"
+                    },
+                    {
+                        "title": "stop duplicating actions for tabs management when using macOS native tabs",
+                        "closedAt": "2018-10-02T05:09:17Z",
+                        "createdAt": "2018-10-01T23:23:02Z",
+                        "publishedAt": "2018-10-01T23:23:02Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T05:09:17Z"
+                    },
+                    {
+                        "title": "Fixes for 58176: Middle clicking files in breadcrumbs explorer opens …",
+                        "closedAt": "2018-10-05T08:29:37Z",
+                        "createdAt": "2018-10-02T01:03:31Z",
+                        "publishedAt": "2018-10-02T01:03:31Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T08:29:37Z"
+                    },
+                    {
+                        "title": "Update README.md",
+                        "closedAt": "2018-10-02T16:05:12Z",
+                        "createdAt": "2018-10-02T01:26:54Z",
+                        "publishedAt": "2018-10-02T01:26:54Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update.ts Updated Accordingly",
+                        "closedAt": "2018-10-03T15:15:10Z",
+                        "createdAt": "2018-10-02T02:55:37Z",
+                        "publishedAt": "2018-10-02T02:55:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add unknown argument checking",
+                        "closedAt": "2018-10-03T10:33:15Z",
+                        "createdAt": "2018-10-02T03:32:11Z",
+                        "publishedAt": "2018-10-02T03:32:11Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "debug: restart shuold also resolve configuration by providers when changed",
+                        "closedAt": "2018-10-02T10:43:33Z",
+                        "createdAt": "2018-10-02T09:16:31Z",
+                        "publishedAt": "2018-10-02T09:16:31Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T10:43:33Z"
+                    },
+                    {
+                        "title": "Git: Support fetch prune, closes #59693",
+                        "closedAt": "2018-10-02T14:09:18Z",
+                        "createdAt": "2018-10-02T13:46:06Z",
+                        "publishedAt": "2018-10-02T13:46:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: items in split view are not draggable without separator-border",
+                        "closedAt": "2018-10-04T08:36:18Z",
+                        "createdAt": "2018-10-02T14:41:41Z",
+                        "publishedAt": "2018-10-02T14:41:41Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Release/1.28",
+                        "closedAt": "2018-10-02T18:29:10Z",
+                        "createdAt": "2018-10-02T17:40:40Z",
+                        "publishedAt": "2018-10-02T17:40:40Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Don't force update webview content when retainContextWhenHidden is set and contents have not changed",
+                        "closedAt": "2018-10-02T18:23:30Z",
+                        "createdAt": "2018-10-02T18:13:11Z",
+                        "publishedAt": "2018-10-02T18:13:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T18:23:30Z"
+                    },
+                    {
+                        "title": "Add option to automatically stash changes before performing `git pull`",
+                        "closedAt": "2019-01-04T13:59:41Z",
+                        "createdAt": "2018-10-02T20:40:56Z",
+                        "publishedAt": "2018-10-02T20:40:56Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-04T13:59:41Z"
+                    },
+                    {
+                        "title": "Adding macOS touchbar buttons",
+                        "closedAt": "2018-10-10T07:56:17Z",
+                        "createdAt": "2018-10-02T21:18:31Z",
+                        "publishedAt": "2018-10-02T21:18:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "return of the dynamic menu",
+                        "closedAt": "2018-10-03T17:10:15Z",
+                        "createdAt": "2018-10-02T21:38:19Z",
+                        "publishedAt": "2018-10-02T21:38:19Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T17:10:15Z"
+                    },
+                    {
+                        "title": "Track experiment id",
+                        "closedAt": "2018-10-02T22:06:16Z",
+                        "createdAt": "2018-10-02T21:53:27Z",
+                        "publishedAt": "2018-10-02T21:53:27Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T22:06:16Z"
+                    },
+                    {
+                        "title": "Don't include extension actions in tab order until focused",
+                        "closedAt": "2018-10-16T18:02:54Z",
+                        "createdAt": "2018-10-02T22:30:49Z",
+                        "publishedAt": "2018-10-02T22:30:49Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-16T18:02:54Z"
+                    },
+                    {
+                        "title": "Update README.md",
+                        "closedAt": "2018-10-03T15:14:48Z",
+                        "createdAt": "2018-10-02T23:47:34Z",
+                        "publishedAt": "2018-10-02T23:47:34Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Showing how good of an editor it is in one commit",
+                        "closedAt": "2018-10-03T17:27:27Z",
+                        "createdAt": "2018-10-03T01:57:19Z",
+                        "publishedAt": "2018-10-03T01:57:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix issues wrapping links/emails using Emmet command",
+                        "closedAt": "2020-11-16T17:23:31Z",
+                        "createdAt": "2018-10-03T02:50:55Z",
+                        "publishedAt": "2018-10-03T02:50:55Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Native word operations first cut.",
+                        "closedAt": "2018-10-03T15:17:31Z",
+                        "createdAt": "2018-10-03T04:42:40Z",
+                        "publishedAt": "2018-10-03T04:42:40Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "[CSS fix] Settings tab alignment",
+                        "closedAt": "2018-10-05T06:03:10Z",
+                        "createdAt": "2018-10-03T09:21:54Z",
+                        "publishedAt": "2018-10-03T09:21:54Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T06:03:09Z"
+                    },
+                    {
+                        "title": "Added link directly to main wiki",
+                        "closedAt": "2018-10-03T23:36:57Z",
+                        "createdAt": "2018-10-03T09:31:00Z",
+                        "publishedAt": "2018-10-03T09:31:00Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T23:36:57Z"
+                    },
+                    {
+                        "title": "Allow extensions to contribute custom icons for webview panels",
+                        "closedAt": "2018-10-03T18:23:37Z",
+                        "createdAt": "2018-10-03T10:41:07Z",
+                        "publishedAt": "2018-10-03T10:41:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "only have the n second timeout for prelaunch tasks that do not send active",
+                        "closedAt": "2018-10-03T12:24:14Z",
+                        "createdAt": "2018-10-03T10:56:40Z",
+                        "publishedAt": "2018-10-03T10:56:40Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T12:24:14Z"
+                    },
+                    {
+                        "title": "Add option to only show Welcome page in empty workbench",
+                        "closedAt": "2018-10-04T07:18:30Z",
+                        "createdAt": "2018-10-03T11:10:39Z",
+                        "publishedAt": "2018-10-03T11:10:39Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T07:18:30Z"
+                    },
+                    {
+                        "title": "Fix R icon size",
+                        "closedAt": "2018-10-04T08:13:25Z",
+                        "createdAt": "2018-10-03T11:33:31Z",
+                        "publishedAt": "2018-10-03T11:33:31Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T08:13:25Z"
+                    },
+                    {
+                        "title": "Removed duplicate \"the\" from documentation.",
+                        "closedAt": "2018-10-03T14:19:47Z",
+                        "createdAt": "2018-10-03T13:18:21Z",
+                        "publishedAt": "2018-10-03T13:18:21Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-03T14:19:47Z"
+                    },
+                    {
+                        "title": "Change in writing a good issue",
+                        "closedAt": "2018-10-03T15:16:15Z",
+                        "createdAt": "2018-10-03T15:05:32Z",
+                        "publishedAt": "2018-10-03T15:05:32Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add project tagging for new project types.",
+                        "closedAt": "2018-10-18T21:26:29Z",
+                        "createdAt": "2018-10-03T15:16:48Z",
+                        "publishedAt": "2018-10-03T15:16:48Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-18T21:26:29Z"
+                    },
+                    {
+                        "title": "Add args to keybinding",
+                        "closedAt": "2018-12-18T16:18:00Z",
+                        "createdAt": "2018-10-03T16:28:37Z",
+                        "publishedAt": "2018-10-03T16:28:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update status bar when opening a binary file as text",
+                        "closedAt": "2018-10-08T09:07:56Z",
+                        "createdAt": "2018-10-03T17:00:14Z",
+                        "publishedAt": "2018-10-03T17:00:14Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-08T09:07:56Z"
+                    },
+                    {
+                        "title": "Add wiki link to README.MD",
+                        "closedAt": "2018-10-04T16:40:05Z",
+                        "createdAt": "2018-10-03T22:04:27Z",
+                        "publishedAt": "2018-10-03T22:04:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "enable dynamic menu on linux/windows",
+                        "closedAt": "2018-10-04T17:41:41Z",
+                        "createdAt": "2018-10-03T22:31:23Z",
+                        "publishedAt": "2018-10-03T22:31:23Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T17:41:41Z"
+                    },
+                    {
+                        "title": "Select Pasted Text After Paste Action",
+                        "closedAt": "2019-10-24T00:36:31Z",
+                        "createdAt": "2018-10-04T03:53:48Z",
+                        "publishedAt": "2018-10-04T03:53:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Added link to wiki.",
+                        "closedAt": "2018-10-04T16:39:47Z",
+                        "createdAt": "2018-10-04T04:52:39Z",
+                        "publishedAt": "2018-10-04T04:52:39Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Split 'breakpointHasCondition' into two localized strings",
+                        "closedAt": "2018-10-04T13:41:23Z",
+                        "createdAt": "2018-10-04T10:43:40Z",
+                        "publishedAt": "2018-10-04T10:43:40Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T13:41:21Z"
+                    },
+                    {
+                        "title": "Add support for prune on git fetch",
+                        "closedAt": "2018-11-20T09:58:52Z",
+                        "createdAt": "2018-10-04T11:59:17Z",
+                        "publishedAt": "2018-10-04T11:59:17Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add wiki link on CONTRIBUTING",
+                        "closedAt": "2018-10-04T16:36:22Z",
+                        "createdAt": "2018-10-04T14:42:15Z",
+                        "publishedAt": "2018-10-04T14:42:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Stage empty last line removal when using stage line cmd",
+                        "closedAt": "2019-01-04T15:25:20Z",
+                        "createdAt": "2018-10-04T14:55:19Z",
+                        "publishedAt": "2018-10-04T14:55:19Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-04T15:25:20Z"
+                    },
+                    {
+                        "title": "Adopt new tree in Problems panel",
+                        "closedAt": "2018-10-12T14:55:22Z",
+                        "createdAt": "2018-10-04T15:35:30Z",
+                        "publishedAt": "2018-10-04T15:35:30Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-12T14:55:22Z"
+                    },
+                    {
+                        "title": "add php try catch snippet",
+                        "closedAt": "2018-10-04T17:47:12Z",
+                        "createdAt": "2018-10-04T16:12:07Z",
+                        "publishedAt": "2018-10-04T16:12:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-04T17:47:12Z"
+                    },
+                    {
+                        "title": "Fix heading read out as list",
+                        "closedAt": "2018-10-05T01:21:21Z",
+                        "createdAt": "2018-10-04T18:05:31Z",
+                        "publishedAt": "2018-10-04T18:05:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix #57910 - Add setting for auto fetch timeout",
+                        "closedAt": "2019-01-04T15:38:52Z",
+                        "createdAt": "2018-10-04T18:24:09Z",
+                        "publishedAt": "2018-10-04T18:24:09Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-04T15:38:52Z"
+                    },
+                    {
+                        "title": "Reducing menubar cache verbosity",
+                        "closedAt": "2018-10-09T17:00:59Z",
+                        "createdAt": "2018-10-04T20:41:52Z",
+                        "publishedAt": "2018-10-04T20:41:52Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-09T17:00:59Z"
+                    },
+                    {
+                        "title": "Fixed grammatical error",
+                        "closedAt": "2018-10-05T01:18:32Z",
+                        "createdAt": "2018-10-04T21:59:26Z",
+                        "publishedAt": "2018-10-04T21:59:26Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "make actionbar support different trigger keys",
+                        "closedAt": "2018-10-05T20:04:04Z",
+                        "createdAt": "2018-10-04T22:30:23Z",
+                        "publishedAt": "2018-10-04T22:30:23Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T20:04:04Z"
+                    },
+                    {
+                        "title": "adding ability to set checked state for menu item at registration",
+                        "closedAt": "2018-10-08T17:55:36Z",
+                        "createdAt": "2018-10-05T00:31:14Z",
+                        "publishedAt": "2018-10-05T00:31:14Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-08T17:55:35Z"
+                    },
+                    {
+                        "title": "Add throwable to php try/catch block snippet",
+                        "closedAt": "2018-10-09T16:14:31Z",
+                        "createdAt": "2018-10-05T08:52:46Z",
+                        "publishedAt": "2018-10-05T08:52:46Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-09T16:14:31Z"
+                    },
+                    {
+                        "title": "Multiple repls per debug session",
+                        "closedAt": "2018-10-05T15:35:39Z",
+                        "createdAt": "2018-10-05T09:55:29Z",
+                        "publishedAt": "2018-10-05T09:55:29Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T15:35:38Z"
+                    },
+                    {
+                        "title": "Improvements to README",
+                        "closedAt": "2018-10-17T13:03:24Z",
+                        "createdAt": "2018-10-05T12:43:28Z",
+                        "publishedAt": "2018-10-05T12:43:28Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Removing dead code from 'build/monaco/api.ts'",
+                        "closedAt": "2018-10-08T07:55:56Z",
+                        "createdAt": "2018-10-05T13:25:29Z",
+                        "publishedAt": "2018-10-05T13:25:29Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-08T07:55:56Z"
+                    },
+                    {
+                        "title": "include reference to the usefulness of the built-in reporting tool",
+                        "closedAt": "2018-10-09T11:58:18Z",
+                        "createdAt": "2018-10-05T13:54:45Z",
+                        "publishedAt": "2018-10-05T13:54:45Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-09T11:58:18Z"
+                    }
+                ]
+            }
+        }
+    }
+}

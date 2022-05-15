@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHODwkkzw=="
+                },
+                "nodes": [
+                    {
+                        "title": "Move ext host to where it is used",
+                        "closedAt": "2019-01-25T17:28:35Z",
+                        "createdAt": "2019-01-25T17:28:28Z",
+                        "publishedAt": "2019-01-25T17:28:28Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-25T17:28:35Z"
+                    },
+                    {
+                        "title": "Fix settings centering issue",
+                        "closedAt": "2019-01-29T05:16:48Z",
+                        "createdAt": "2019-01-25T18:50:07Z",
+                        "publishedAt": "2019-01-25T18:50:07Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-29T05:16:48Z"
+                    },
+                    {
+                        "title": "Fix the \"tsc watch\" task when references are used",
+                        "closedAt": "2019-01-28T23:32:22Z",
+                        "createdAt": "2019-01-26T01:36:25Z",
+                        "publishedAt": "2019-01-26T01:36:25Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T23:32:22Z"
+                    },
+                    {
+                        "title": "Fixing Intelisense verbosity with screen readers",
+                        "closedAt": "2019-03-05T10:31:08Z",
+                        "createdAt": "2019-01-26T10:38:34Z",
+                        "publishedAt": "2019-01-26T10:38:34Z",
+                        "merged": true,
+                        "mergedAt": "2019-03-05T10:31:08Z"
+                    },
+                    {
+                        "title": "Move cursor inside braces",
+                        "closedAt": "2019-01-28T11:39:26Z",
+                        "createdAt": "2019-01-26T23:13:26Z",
+                        "publishedAt": "2019-01-26T23:13:26Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T11:39:26Z"
+                    },
+                    {
+                        "title": "Changed keybinding to select current line -issue 59003",
+                        "closedAt": "2019-02-14T10:21:55Z",
+                        "createdAt": "2019-01-27T14:16:37Z",
+                        "publishedAt": "2019-01-27T14:16:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-14T10:21:55Z"
+                    },
+                    {
+                        "title": "Resolve vars in text for sendSequence to Terminal",
+                        "closedAt": "2019-02-03T06:38:49Z",
+                        "createdAt": "2019-01-27T17:57:50Z",
+                        "publishedAt": "2019-01-27T17:57:50Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-03T06:38:49Z"
+                    },
+                    {
+                        "title": "Update nvmrc to node 8",
+                        "closedAt": "2019-01-28T07:18:33Z",
+                        "createdAt": "2019-01-27T17:58:55Z",
+                        "publishedAt": "2019-01-27T17:58:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T07:18:33Z"
+                    },
+                    {
+                        "title": "reaction api",
+                        "closedAt": "2019-01-27T23:46:32Z",
+                        "createdAt": "2019-01-27T23:06:48Z",
+                        "publishedAt": "2019-01-27T23:06:48Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-27T23:46:32Z"
+                    },
+                    {
+                        "title": "Applied shellcheck fixes to shell scripts in scripts",
+                        "closedAt": "2019-01-28T07:17:39Z",
+                        "createdAt": "2019-01-28T00:26:36Z",
+                        "publishedAt": "2019-01-28T00:26:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Delay extension host until workspace is completely initialised",
+                        "closedAt": "2019-02-11T09:44:50Z",
+                        "createdAt": "2019-01-28T09:56:08Z",
+                        "publishedAt": "2019-01-28T09:56:08Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T09:44:50Z"
+                    },
+                    {
+                        "title": "Add a task lifecycle event for when a depends on task is started",
+                        "closedAt": "2019-01-28T11:11:54Z",
+                        "createdAt": "2019-01-28T10:34:13Z",
+                        "publishedAt": "2019-01-28T10:34:13Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T11:11:54Z"
+                    },
+                    {
+                        "title": "[json] semantic selection",
+                        "closedAt": "2019-01-28T18:13:50Z",
+                        "createdAt": "2019-01-28T17:25:00Z",
+                        "publishedAt": "2019-01-28T17:25:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T18:13:50Z"
+                    },
+                    {
+                        "title": "Added event for use in better workspace tagging",
+                        "closedAt": "2019-02-07T00:46:39Z",
+                        "createdAt": "2019-01-28T19:01:26Z",
+                        "publishedAt": "2019-01-28T19:01:26Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T00:46:39Z"
+                    },
+                    {
+                        "title": "Fixed #64679 - Delete Lines now works with multiple selections on multiple lines",
+                        "closedAt": "2019-02-19T15:49:58Z",
+                        "createdAt": "2019-01-28T21:30:10Z",
+                        "publishedAt": "2019-01-28T21:30:10Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-19T15:49:58Z"
+                    },
+                    {
+                        "title": "Use hideable views for workbench parts",
+                        "closedAt": "2019-01-28T22:30:46Z",
+                        "createdAt": "2019-01-28T22:29:40Z",
+                        "publishedAt": "2019-01-28T22:29:40Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-28T22:30:46Z"
+                    },
+                    {
+                        "title": "comments",
+                        "closedAt": "2019-01-29T11:34:03Z",
+                        "createdAt": "2019-01-29T11:23:49Z",
+                        "publishedAt": "2019-01-29T11:23:49Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add canAddExtension & canRemoveExtension methods to IExtensionService",
+                        "closedAt": "2019-01-29T21:10:47Z",
+                        "createdAt": "2019-01-29T16:32:00Z",
+                        "publishedAt": "2019-01-29T16:32:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-29T21:10:47Z"
+                    },
+                    {
+                        "title": "Fix jSDocCompletion deprecation message",
+                        "closedAt": "2019-01-29T19:48:16Z",
+                        "createdAt": "2019-01-29T18:52:41Z",
+                        "publishedAt": "2019-01-29T18:52:41Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-29T19:48:16Z"
+                    },
+                    {
+                        "title": "Update filter icons",
+                        "closedAt": "2019-01-30T06:33:47Z",
+                        "createdAt": "2019-01-29T22:31:46Z",
+                        "publishedAt": "2019-01-29T22:31:46Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-30T06:33:47Z"
+                    },
+                    {
+                        "title": "debugger console recognizes italic ansi code",
+                        "closedAt": "2019-03-04T15:46:37Z",
+                        "createdAt": "2019-01-30T00:26:06Z",
+                        "publishedAt": "2019-01-30T00:26:06Z",
+                        "merged": true,
+                        "mergedAt": "2019-03-04T15:46:37Z"
+                    },
+                    {
+                        "title": "Treat .swcrc file as json",
+                        "closedAt": "2019-02-13T15:41:01Z",
+                        "createdAt": "2019-01-30T05:27:51Z",
+                        "publishedAt": "2019-01-30T05:27:51Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-13T15:41:01Z"
+                    },
+                    {
+                        "title": "adding back serialization",
+                        "closedAt": "2019-08-06T17:37:56Z",
+                        "createdAt": "2019-01-30T07:15:50Z",
+                        "publishedAt": "2019-01-30T07:15:50Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add git.pullTags setting",
+                        "closedAt": "2019-05-23T09:28:30Z",
+                        "createdAt": "2019-01-30T08:40:59Z",
+                        "publishedAt": "2019-01-30T08:40:59Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-23T09:28:29Z"
+                    },
+                    {
+                        "title": "Use jsonc.parse instead of JSON.parse when parsing tsconfig.json, fixing bug where `-b` flag is not activated when tsconfig.json contains comments.",
+                        "closedAt": "2019-01-30T19:50:36Z",
+                        "createdAt": "2019-01-30T10:49:52Z",
+                        "publishedAt": "2019-01-30T10:49:52Z",
+                        "merged": true,
+                        "mergedAt": "2019-01-30T19:50:36Z"
+                    },
+                    {
+                        "title": "fix #65585",
+                        "closedAt": "2019-01-31T07:49:21Z",
+                        "createdAt": "2019-01-30T14:00:05Z",
+                        "publishedAt": "2019-01-30T14:00:05Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "set screencast to display 15 characters",
+                        "closedAt": "2019-08-07T13:12:10Z",
+                        "createdAt": "2019-01-31T07:16:24Z",
+                        "publishedAt": "2019-01-31T07:16:24Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-07T13:12:09Z"
+                    },
+                    {
+                        "title": "rejected promise not handled verbose message",
+                        "closedAt": "2019-02-04T14:18:18Z",
+                        "createdAt": "2019-01-31T10:47:27Z",
+                        "publishedAt": "2019-01-31T10:47:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T14:18:18Z"
+                    },
+                    {
+                        "title": "[Screencast] Add border for keys",
+                        "closedAt": "2019-08-07T13:31:59Z",
+                        "createdAt": "2019-01-31T11:50:20Z",
+                        "publishedAt": "2019-01-31T11:50:20Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-07T13:31:58Z"
+                    },
+                    {
+                        "title": "Fix #67687",
+                        "closedAt": "2019-02-01T09:52:56Z",
+                        "createdAt": "2019-02-01T08:33:53Z",
+                        "publishedAt": "2019-02-01T08:33:53Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-01T09:52:55Z"
+                    },
+                    {
+                        "title": "files - let copy/move of same file path be a no-op",
+                        "closedAt": "2019-02-01T13:50:26Z",
+                        "createdAt": "2019-02-01T13:13:36Z",
+                        "publishedAt": "2019-02-01T13:13:36Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-01T13:50:26Z"
+                    },
+                    {
+                        "title": "Increase spacing between keybinding keys",
+                        "closedAt": "2019-02-05T11:06:41Z",
+                        "createdAt": "2019-02-01T18:32:33Z",
+                        "publishedAt": "2019-02-01T18:32:33Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-05T11:06:41Z"
+                    },
+                    {
+                        "title": "Remove stray log",
+                        "closedAt": "2019-02-02T00:27:33Z",
+                        "createdAt": "2019-02-01T22:49:20Z",
+                        "publishedAt": "2019-02-01T22:49:20Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-02T00:27:33Z"
+                    },
+                    {
+                        "title": "Fix infinite relayout of comment widget.",
+                        "closedAt": "2019-02-02T17:45:25Z",
+                        "createdAt": "2019-02-02T17:02:15Z",
+                        "publishedAt": "2019-02-02T17:02:15Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-02T17:45:25Z"
+                    },
+                    {
+                        "title": "Prevent Explorer from refreshing nodes which were never resolved",
+                        "closedAt": "2019-02-04T10:17:32Z",
+                        "createdAt": "2019-02-03T15:44:55Z",
+                        "publishedAt": "2019-02-03T15:44:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T10:17:32Z"
+                    },
+                    {
+                        "title": "Fix wrong hover on empty when column",
+                        "closedAt": "2019-02-05T11:15:13Z",
+                        "createdAt": "2019-02-03T20:06:30Z",
+                        "publishedAt": "2019-02-03T20:06:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-05T11:15:13Z"
+                    },
+                    {
+                        "title": "Show extension origin in `source` column of keybindings GUI",
+                        "closedAt": "2019-03-05T07:48:49Z",
+                        "createdAt": "2019-02-03T21:07:26Z",
+                        "publishedAt": "2019-02-03T21:07:26Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "[Screencast] Smooth showing/hiding of marker",
+                        "closedAt": "2019-08-07T13:16:42Z",
+                        "createdAt": "2019-02-03T22:14:35Z",
+                        "publishedAt": "2019-02-03T22:14:35Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-07T13:16:42Z"
+                    },
+                    {
+                        "title": "Add git diff terminal link handler",
+                        "closedAt": "2019-02-04T16:02:23Z",
+                        "createdAt": "2019-02-04T07:24:03Z",
+                        "publishedAt": "2019-02-04T07:24:03Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T16:02:23Z"
+                    },
+                    {
+                        "title": "Remove \"Experimental setting\" from proxy support setting",
+                        "closedAt": "2019-02-04T09:44:43Z",
+                        "createdAt": "2019-02-04T08:35:10Z",
+                        "publishedAt": "2019-02-04T08:35:10Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T09:44:43Z"
+                    },
+                    {
+                        "title": "Glob: * does not match empty string",
+                        "closedAt": "2019-02-04T12:49:31Z",
+                        "createdAt": "2019-02-04T09:19:25Z",
+                        "publishedAt": "2019-02-04T09:19:25Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T12:49:31Z"
+                    },
+                    {
+                        "title": "debt - cleanup storage leftovers",
+                        "closedAt": "2019-02-04T09:32:10Z",
+                        "createdAt": "2019-02-04T09:30:59Z",
+                        "publishedAt": "2019-02-04T09:30:59Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T09:32:10Z"
+                    },
+                    {
+                        "title": "Remove \"Experimental setting\" from proxy support setting",
+                        "closedAt": "2019-02-04T09:56:23Z",
+                        "createdAt": "2019-02-04T09:45:33Z",
+                        "publishedAt": "2019-02-04T09:45:33Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T09:56:22Z"
+                    },
+                    {
+                        "title": "Update distro commit",
+                        "closedAt": "2019-02-04T14:05:31Z",
+                        "createdAt": "2019-02-04T13:09:33Z",
+                        "publishedAt": "2019-02-04T13:09:33Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T14:05:31Z"
+                    },
+                    {
+                        "title": "properly initialise rendering data for multi-thread case",
+                        "closedAt": "2019-02-04T14:09:25Z",
+                        "createdAt": "2019-02-04T13:53:59Z",
+                        "publishedAt": "2019-02-04T13:53:59Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "properly initialise rendering data for multi-thread case",
+                        "closedAt": "2019-02-04T14:25:06Z",
+                        "createdAt": "2019-02-04T14:07:21Z",
+                        "publishedAt": "2019-02-04T14:07:21Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T14:25:06Z"
+                    },
+                    {
+                        "title": "Treat Composer lock files as JSON by default",
+                        "closedAt": "2019-02-05T07:46:06Z",
+                        "createdAt": "2019-02-04T14:46:38Z",
+                        "publishedAt": "2019-02-04T14:46:38Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-05T07:46:06Z"
+                    },
+                    {
+                        "title": "Fixes #67860",
+                        "closedAt": "2019-02-04T15:04:52Z",
+                        "createdAt": "2019-02-04T15:01:29Z",
+                        "publishedAt": "2019-02-04T15:01:29Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-04T15:04:52Z"
+                    },
+                    {
+                        "title": "Fix explorer DND regression",
+                        "closedAt": "2019-02-05T09:55:47Z",
+                        "createdAt": "2019-02-05T08:47:13Z",
+                        "publishedAt": "2019-02-05T08:47:13Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-05T09:55:47Z"
+                    },
+                    {
+                        "title": "Add Terminal.dimensions and window.onDidChangeTerminalDimensions proposed APIs",
+                        "closedAt": "2019-02-05T13:06:32Z",
+                        "createdAt": "2019-02-05T12:47:00Z",
+                        "publishedAt": "2019-02-05T12:47:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-05T13:06:32Z"
+                    },
+                    {
+                        "title": "Makefile colorizing tests - handling variable expansion in a variable name",
+                        "closedAt": "2019-02-06T14:54:55Z",
+                        "createdAt": "2019-02-05T13:02:57Z",
+                        "publishedAt": "2019-02-05T13:02:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-06T14:54:55Z"
+                    },
+                    {
+                        "title": "Move terminal renderer API to stable",
+                        "closedAt": "2019-03-22T18:48:58Z",
+                        "createdAt": "2019-02-05T13:14:22Z",
+                        "publishedAt": "2019-02-05T13:14:22Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "remove duplicate font declarations for menu",
+                        "closedAt": "2019-02-06T16:42:11Z",
+                        "createdAt": "2019-02-05T20:17:38Z",
+                        "publishedAt": "2019-02-05T20:17:38Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-06T16:42:11Z"
+                    },
+                    {
+                        "title": "Upgrade to gulp4",
+                        "closedAt": "2019-02-07T10:43:02Z",
+                        "createdAt": "2019-02-05T22:11:56Z",
+                        "publishedAt": "2019-02-05T22:11:56Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T10:43:02Z"
+                    },
+                    {
+                        "title": "Git prompt save only on staged",
+                        "closedAt": "2019-08-08T09:32:59Z",
+                        "createdAt": "2019-02-05T23:36:07Z",
+                        "publishedAt": "2019-02-05T23:36:07Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-08T09:32:58Z"
+                    },
+                    {
+                        "title": "adding telemtetry to detect machine id guids",
+                        "closedAt": "2019-02-06T01:03:29Z",
+                        "createdAt": "2019-02-06T00:28:13Z",
+                        "publishedAt": "2019-02-06T00:28:13Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-06T01:03:29Z"
+                    },
+                    {
+                        "title": "adding telemetry to detect machine id guids (#67955)",
+                        "closedAt": "2019-02-06T01:18:16Z",
+                        "createdAt": "2019-02-06T01:06:49Z",
+                        "publishedAt": "2019-02-06T01:06:49Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-06T01:18:16Z"
+                    },
+                    {
+                        "title": "unit test fix",
+                        "closedAt": "2019-02-06T16:40:06Z",
+                        "createdAt": "2019-02-06T02:56:28Z",
+                        "publishedAt": "2019-02-06T02:56:28Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-06T16:40:06Z"
+                    },
+                    {
+                        "title": "Explore the use typescript projects",
+                        "closedAt": "2019-02-14T11:58:05Z",
+                        "createdAt": "2019-02-06T16:07:48Z",
+                        "publishedAt": "2019-02-06T16:07:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Ctrl+Click - Either open in Peek or go to definition, not BOTH!",
+                        "closedAt": "2019-02-08T09:24:03Z",
+                        "createdAt": "2019-02-07T02:26:34Z",
+                        "publishedAt": "2019-02-07T02:26:34Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T09:24:03Z"
+                    },
+                    {
+                        "title": "Change `ITheme.getColor` to returned `Color | undefined`",
+                        "closedAt": "2019-02-07T08:19:30Z",
+                        "createdAt": "2019-02-07T02:47:40Z",
+                        "publishedAt": "2019-02-07T02:47:40Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T08:19:30Z"
+                    },
+                    {
+                        "title": "Hide screencast overflow",
+                        "closedAt": "2019-08-07T13:34:24Z",
+                        "createdAt": "2019-02-07T07:09:10Z",
+                        "publishedAt": "2019-02-07T07:09:10Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-07T13:34:24Z"
+                    },
+                    {
+                        "title": "new trees for outline and breadcrumbs",
+                        "closedAt": "2019-02-07T12:57:49Z",
+                        "createdAt": "2019-02-07T11:07:24Z",
+                        "publishedAt": "2019-02-07T11:07:24Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T12:57:49Z"
+                    },
+                    {
+                        "title": "Candidate: Fix twistie click in doubleClick open mode",
+                        "closedAt": "2019-02-08T07:43:25Z",
+                        "createdAt": "2019-02-07T12:16:46Z",
+                        "publishedAt": "2019-02-07T12:16:46Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T07:43:25Z"
+                    },
+                    {
+                        "title": "Candidate: Fix input box text selection in Explorer",
+                        "closedAt": "2019-02-08T07:43:02Z",
+                        "createdAt": "2019-02-07T12:19:17Z",
+                        "publishedAt": "2019-02-07T12:19:17Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T07:43:02Z"
+                    },
+                    {
+                        "title": "Candidate: Fix input box text click in Explorer",
+                        "closedAt": "2019-02-08T07:43:33Z",
+                        "createdAt": "2019-02-07T12:24:20Z",
+                        "publishedAt": "2019-02-07T12:24:20Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T07:43:33Z"
+                    },
+                    {
+                        "title": "Candidate: Middle mouse click should open pinned editor",
+                        "closedAt": "2019-02-08T07:42:43Z",
+                        "createdAt": "2019-02-07T12:25:47Z",
+                        "publishedAt": "2019-02-07T12:25:47Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T07:42:43Z"
+                    },
+                    {
+                        "title": "Use node 10.15.1 on build machine",
+                        "closedAt": "2019-02-07T13:36:49Z",
+                        "createdAt": "2019-02-07T12:53:13Z",
+                        "publishedAt": "2019-02-07T12:53:13Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T13:36:49Z"
+                    },
+                    {
+                        "title": "Fix 68031",
+                        "closedAt": "2019-02-08T08:13:26Z",
+                        "createdAt": "2019-02-07T14:05:57Z",
+                        "publishedAt": "2019-02-07T14:05:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T08:13:26Z"
+                    },
+                    {
+                        "title": "Ensure contributed tasks have a scope",
+                        "closedAt": "2019-02-07T19:47:50Z",
+                        "createdAt": "2019-02-07T14:34:32Z",
+                        "publishedAt": "2019-02-07T14:34:32Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T19:47:50Z"
+                    },
+                    {
+                        "title": "Fix the saved last task on reused terminals",
+                        "closedAt": "2019-02-07T19:48:56Z",
+                        "createdAt": "2019-02-07T14:38:30Z",
+                        "publishedAt": "2019-02-07T14:38:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T19:48:55Z"
+                    },
+                    {
+                        "title": "Workaround 68095",
+                        "closedAt": "2019-02-08T08:13:19Z",
+                        "createdAt": "2019-02-07T15:04:40Z",
+                        "publishedAt": "2019-02-07T15:04:40Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T08:13:19Z"
+                    },
+                    {
+                        "title": "workspaces from URIs",
+                        "closedAt": "2019-02-07T15:54:18Z",
+                        "createdAt": "2019-02-07T15:37:11Z",
+                        "publishedAt": "2019-02-07T15:37:11Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T15:54:18Z"
+                    },
+                    {
+                        "title": "es6 compile",
+                        "closedAt": "2019-02-11T07:31:44Z",
+                        "createdAt": "2019-02-07T15:43:16Z",
+                        "publishedAt": "2019-02-07T15:43:16Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T07:31:44Z"
+                    },
+                    {
+                        "title": "Fix terminal crash when resizing larger in both dimensions",
+                        "closedAt": "2019-02-09T00:51:44Z",
+                        "createdAt": "2019-02-07T19:01:06Z",
+                        "publishedAt": "2019-02-07T19:01:06Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-09T00:51:44Z"
+                    },
+                    {
+                        "title": "Allow svgs by default in webviews",
+                        "closedAt": "2019-02-07T22:36:31Z",
+                        "createdAt": "2019-02-07T21:55:52Z",
+                        "publishedAt": "2019-02-07T21:55:52Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-07T22:36:31Z"
+                    },
+                    {
+                        "title": "Better fix for #68033",
+                        "closedAt": "2019-02-08T00:15:26Z",
+                        "createdAt": "2019-02-07T23:36:51Z",
+                        "publishedAt": "2019-02-07T23:36:51Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-08T00:15:26Z"
+                    },
+                    {
+                        "title": "Fix cmd+down on search result focusing editor",
+                        "closedAt": "2019-02-09T16:45:38Z",
+                        "createdAt": "2019-02-08T00:12:38Z",
+                        "publishedAt": "2019-02-08T00:12:38Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-09T16:45:38Z"
+                    },
+                    {
+                        "title": "Handle mnemonic escaping ",
+                        "closedAt": "2019-02-19T16:47:51Z",
+                        "createdAt": "2019-02-08T04:44:25Z",
+                        "publishedAt": "2019-02-08T04:44:25Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-19T16:47:51Z"
+                    },
+                    {
+                        "title": "Fixes #64669: Keep extensions' search input value after window reload",
+                        "closedAt": "2019-02-22T09:59:39Z",
+                        "createdAt": "2019-02-08T05:27:31Z",
+                        "publishedAt": "2019-02-08T05:27:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Move keytar.test.ts",
+                        "closedAt": "2019-02-11T11:32:23Z",
+                        "createdAt": "2019-02-08T09:12:05Z",
+                        "publishedAt": "2019-02-08T09:12:05Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T11:32:23Z"
+                    },
+                    {
+                        "title": "Fix for oversized folding icons",
+                        "closedAt": "2019-08-26T17:59:49Z",
+                        "createdAt": "2019-02-08T10:27:12Z",
+                        "publishedAt": "2019-02-08T10:27:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "main.js code review",
+                        "closedAt": "2019-02-11T07:15:25Z",
+                        "createdAt": "2019-02-08T14:05:57Z",
+                        "publishedAt": "2019-02-08T14:05:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T07:15:25Z"
+                    },
+                    {
+                        "title": "Updating ARM code from arm to armv7l",
+                        "closedAt": "2019-02-18T10:34:32Z",
+                        "createdAt": "2019-02-08T14:59:58Z",
+                        "publishedAt": "2019-02-08T14:59:58Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-18T10:34:32Z"
+                    },
+                    {
+                        "title": "When wrapping with Emmet, consider the document language when setting the syntax.",
+                        "closedAt": "2019-02-13T07:12:29Z",
+                        "createdAt": "2019-02-09T19:23:54Z",
+                        "publishedAt": "2019-02-09T19:23:54Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-13T07:12:27Z"
+                    },
+                    {
+                        "title": "Remove cloneElementFont Fixes: bpasero comments",
+                        "closedAt": "2019-02-10T10:56:21Z",
+                        "createdAt": "2019-02-09T22:07:17Z",
+                        "publishedAt": "2019-02-09T22:07:17Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-10T10:56:21Z"
+                    },
+                    {
+                        "title": "Implement #68408",
+                        "closedAt": "2019-02-11T15:28:06Z",
+                        "createdAt": "2019-02-11T11:49:55Z",
+                        "publishedAt": "2019-02-11T11:49:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T15:28:06Z"
+                    },
+                    {
+                        "title": "Strict null check more terminal files",
+                        "closedAt": "2019-02-11T13:04:40Z",
+                        "createdAt": "2019-02-11T12:29:54Z",
+                        "publishedAt": "2019-02-11T12:29:54Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T13:04:40Z"
+                    },
+                    {
+                        "title": "Enclose paths with quotes #68413",
+                        "closedAt": "2019-02-13T08:41:18Z",
+                        "createdAt": "2019-02-11T12:48:40Z",
+                        "publishedAt": "2019-02-11T12:48:40Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-13T08:41:18Z"
+                    },
+                    {
+                        "title": "DialogService: open remote based on defaultURI and current window",
+                        "closedAt": "2019-02-12T12:56:04Z",
+                        "createdAt": "2019-02-11T12:57:49Z",
+                        "publishedAt": "2019-02-11T12:57:49Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-12T12:56:04Z"
+                    },
+                    {
+                        "title": "Use hard quotes rather than soft quotes #61902",
+                        "closedAt": "2019-02-13T11:22:49Z",
+                        "createdAt": "2019-02-11T15:38:43Z",
+                        "publishedAt": "2019-02-11T15:38:43Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-13T11:22:49Z"
+                    },
+                    {
+                        "title": "added option horizontalScrollingSCM",
+                        "closedAt": "2019-03-18T09:50:00Z",
+                        "createdAt": "2019-02-11T18:27:02Z",
+                        "publishedAt": "2019-02-11T18:27:02Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "1.31.1 version bump",
+                        "closedAt": "2019-02-11T22:23:59Z",
+                        "createdAt": "2019-02-11T18:41:18Z",
+                        "publishedAt": "2019-02-11T18:41:18Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T22:23:59Z"
+                    },
+                    {
+                        "title": "Hide simpleFind with visibility to remove from tab order.  Fixes: #67563",
+                        "closedAt": "2019-02-12T20:19:38Z",
+                        "createdAt": "2019-02-11T22:18:37Z",
+                        "publishedAt": "2019-02-11T22:18:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-12T20:19:38Z"
+                    },
+                    {
+                        "title": "Fix #68464 - bump node2",
+                        "closedAt": "2019-02-11T22:44:11Z",
+                        "createdAt": "2019-02-11T22:35:55Z",
+                        "publishedAt": "2019-02-11T22:35:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-11T22:44:11Z"
+                    },
+                    {
+                        "title": "#68074: Only add padding to inputBox if find options are enabled in findInput",
+                        "closedAt": "2019-02-15T19:26:05Z",
+                        "createdAt": "2019-02-11T22:58:58Z",
+                        "publishedAt": "2019-02-11T22:58:58Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-15T19:26:05Z"
+                    },
+                    {
+                        "title": "update distro",
+                        "closedAt": "2019-02-12T01:51:28Z",
+                        "createdAt": "2019-02-12T01:50:40Z",
+                        "publishedAt": "2019-02-12T01:50:40Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update distro",
+                        "closedAt": "2019-02-12T02:02:20Z",
+                        "createdAt": "2019-02-12T01:51:51Z",
+                        "publishedAt": "2019-02-12T01:51:51Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-12T02:02:20Z"
+                    },
+                    {
+                        "title": "Fix terminal rename",
+                        "closedAt": "2019-03-04T23:44:39Z",
+                        "createdAt": "2019-02-12T04:51:12Z",
+                        "publishedAt": "2019-02-12T04:51:12Z",
+                        "merged": true,
+                        "mergedAt": "2019-03-04T23:44:39Z"
+                    },
+                    {
+                        "title": "debt - move services out of shell into workbench",
+                        "closedAt": "2019-02-12T10:26:47Z",
+                        "createdAt": "2019-02-12T10:26:41Z",
+                        "publishedAt": "2019-02-12T10:26:41Z",
+                        "merged": true,
+                        "mergedAt": "2019-02-12T10:26:47Z"
+                    }
+                ]
+            }
+        }
+    }
+}

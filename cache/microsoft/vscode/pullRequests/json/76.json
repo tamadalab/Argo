@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOGuONwA=="
+                },
+                "nodes": [
+                    {
+                        "title": "remove jschardet typings workaround for #79275",
+                        "closedAt": "2020-07-04T11:04:03Z",
+                        "createdAt": "2020-07-03T23:55:09Z",
+                        "publishedAt": "2020-07-03T23:55:09Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-04T11:04:03Z"
+                    },
+                    {
+                        "title": "fix #79275 enable encodings for web",
+                        "closedAt": "2020-07-04T11:42:32Z",
+                        "createdAt": "2020-07-04T02:40:40Z",
+                        "publishedAt": "2020-07-04T02:40:40Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-04T11:42:32Z"
+                    },
+                    {
+                        "title": "Add new Makefile test case for upgraded syntax",
+                        "closedAt": "2020-07-06T13:19:44Z",
+                        "createdAt": "2020-07-04T18:17:51Z",
+                        "publishedAt": "2020-07-04T18:17:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T13:19:43Z"
+                    },
+                    {
+                        "title": "Settings object renderer fixes",
+                        "closedAt": "2020-07-06T16:04:37Z",
+                        "createdAt": "2020-07-04T21:18:29Z",
+                        "publishedAt": "2020-07-04T21:18:29Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Typo: ICommontTelemetryPropertiesResolver -> ICommonTelemetryPropertiesResolver",
+                        "closedAt": "2020-07-07T13:58:47Z",
+                        "createdAt": "2020-07-05T06:42:19Z",
+                        "publishedAt": "2020-07-05T06:42:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T13:58:47Z"
+                    },
+                    {
+                        "title": "saveUntitedBeforeShutdown -> saveUntitledBeforeShutdown",
+                        "closedAt": "2020-07-06T05:55:37Z",
+                        "createdAt": "2020-07-05T06:50:30Z",
+                        "publishedAt": "2020-07-05T06:50:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T05:55:37Z"
+                    },
+                    {
+                        "title": "Ignore less cached data when more is available",
+                        "closedAt": "2020-07-06T10:24:26Z",
+                        "createdAt": "2020-07-06T06:25:43Z",
+                        "publishedAt": "2020-07-06T06:25:43Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T10:24:26Z"
+                    },
+                    {
+                        "title": "Joao/release/1.47/101688",
+                        "closedAt": "2020-07-06T15:23:29Z",
+                        "createdAt": "2020-07-06T15:17:34Z",
+                        "publishedAt": "2020-07-06T15:17:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T15:23:29Z"
+                    },
+                    {
+                        "title": "views - buffer context key changes",
+                        "closedAt": "2020-07-07T16:17:44Z",
+                        "createdAt": "2020-07-06T15:19:43Z",
+                        "publishedAt": "2020-07-06T15:19:43Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T16:17:44Z"
+                    },
+                    {
+                        "title": "Clarify requirements, fix for smoke tests",
+                        "closedAt": "2020-07-06T17:48:48Z",
+                        "createdAt": "2020-07-06T15:54:50Z",
+                        "publishedAt": "2020-07-06T15:54:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T17:48:48Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Reset object renderer model state if setting key changes",
+                        "closedAt": "2020-07-06T23:13:39Z",
+                        "createdAt": "2020-07-06T16:43:36Z",
+                        "publishedAt": "2020-07-06T16:43:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T23:13:39Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Correctly handle null default values for objects",
+                        "closedAt": "2020-07-06T23:11:09Z",
+                        "createdAt": "2020-07-06T16:48:25Z",
+                        "publishedAt": "2020-07-06T16:48:25Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T23:11:09Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Don't add pairs with empty keys in object settings",
+                        "closedAt": "2020-07-06T18:41:59Z",
+                        "createdAt": "2020-07-06T16:51:55Z",
+                        "publishedAt": "2020-07-06T16:51:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T18:41:59Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Fix add button visibility in object settings",
+                        "closedAt": "2020-07-06T23:38:30Z",
+                        "createdAt": "2020-07-06T17:08:55Z",
+                        "publishedAt": "2020-07-06T17:08:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T23:38:30Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Remove debounce on key change in object type settings",
+                        "closedAt": "2020-07-06T23:38:49Z",
+                        "createdAt": "2020-07-06T17:13:53Z",
+                        "publishedAt": "2020-07-06T17:13:53Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T23:38:49Z"
+                    },
+                    {
+                        "title": "[Settings Editor] Add extra bottom padding for lists in settings",
+                        "closedAt": "2020-07-06T18:45:35Z",
+                        "createdAt": "2020-07-06T17:16:20Z",
+                        "publishedAt": "2020-07-06T17:16:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-06T18:45:35Z"
+                    },
+                    {
+                        "title": "Update debug icon for action bar",
+                        "closedAt": "2020-07-06T23:37:03Z",
+                        "createdAt": "2020-07-06T23:36:37Z",
+                        "publishedAt": "2020-07-06T23:36:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update debug icon for action bar",
+                        "closedAt": "2020-07-07T15:58:31Z",
+                        "createdAt": "2020-07-06T23:38:43Z",
+                        "publishedAt": "2020-07-06T23:38:43Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T15:58:31Z"
+                    },
+                    {
+                        "title": "Enable ts tests on ./test-integration.sh",
+                        "closedAt": "2020-07-08T00:38:03Z",
+                        "createdAt": "2020-07-06T23:54:59Z",
+                        "publishedAt": "2020-07-06T23:54:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-08T00:38:03Z"
+                    },
+                    {
+                        "title": "Adjust non-webview output height when cell width changes",
+                        "closedAt": "2020-07-15T21:45:04Z",
+                        "createdAt": "2020-07-07T01:37:20Z",
+                        "publishedAt": "2020-07-07T01:37:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-15T21:45:03Z"
+                    },
+                    {
+                        "title": "Use `vscode-file://` instead of `file://`",
+                        "closedAt": "2020-09-25T12:41:04Z",
+                        "createdAt": "2020-07-07T08:05:46Z",
+                        "publishedAt": "2020-07-07T08:05:46Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fixes quick find symbol finder shows 'no matching results' after backspace",
+                        "closedAt": "2020-07-07T11:20:42Z",
+                        "createdAt": "2020-07-07T09:31:01Z",
+                        "publishedAt": "2020-07-07T09:31:01Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T11:20:42Z"
+                    },
+                    {
+                        "title": "fix: rename textFileEdiorModel to textFileEditorModel",
+                        "closedAt": "2020-07-13T15:21:45Z",
+                        "createdAt": "2020-07-07T11:09:12Z",
+                        "publishedAt": "2020-07-07T11:09:12Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T15:21:44Z"
+                    },
+                    {
+                        "title": "Encoding euckr does not exist anymore (fix #101847)",
+                        "closedAt": "2020-07-07T12:25:10Z",
+                        "createdAt": "2020-07-07T12:09:03Z",
+                        "publishedAt": "2020-07-07T12:09:03Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T12:25:10Z"
+                    },
+                    {
+                        "title": "debug: update js-debug to 1.47.3",
+                        "closedAt": "2020-07-07T19:17:28Z",
+                        "createdAt": "2020-07-07T16:58:26Z",
+                        "publishedAt": "2020-07-07T16:58:26Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T19:17:28Z"
+                    },
+                    {
+                        "title": "Fix color token for notebook focused cell bg",
+                        "closedAt": "2020-07-07T20:34:29Z",
+                        "createdAt": "2020-07-07T17:53:58Z",
+                        "publishedAt": "2020-07-07T17:53:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-07T20:34:29Z"
+                    },
+                    {
+                        "title": "debug: update table visualizer version",
+                        "closedAt": "2020-07-08T00:27:45Z",
+                        "createdAt": "2020-07-07T19:22:15Z",
+                        "publishedAt": "2020-07-07T19:22:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-08T00:27:45Z"
+                    },
+                    {
+                        "title": "bump iconv-lite-umd@0.6.7 (fix #101856)",
+                        "closedAt": "2020-07-08T07:39:08Z",
+                        "createdAt": "2020-07-08T06:16:08Z",
+                        "publishedAt": "2020-07-08T06:16:08Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-08T07:39:08Z"
+                    },
+                    {
+                        "title": "Ensure tasks are resolved when run from extension host",
+                        "closedAt": "2020-07-08T08:51:14Z",
+                        "createdAt": "2020-07-08T08:19:58Z",
+                        "publishedAt": "2020-07-08T08:19:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-08T08:51:14Z"
+                    },
+                    {
+                        "title": "Reposition Editor Reopen With action.",
+                        "closedAt": "2020-07-10T16:04:17Z",
+                        "createdAt": "2020-07-08T17:21:14Z",
+                        "publishedAt": "2020-07-08T17:21:14Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T16:04:16Z"
+                    },
+                    {
+                        "title": "[bugs] console remains attached",
+                        "closedAt": "2020-07-08T21:53:51Z",
+                        "createdAt": "2020-07-08T20:32:03Z",
+                        "publishedAt": "2020-07-08T20:32:03Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Rework copy paste and other browser events for webviews",
+                        "closedAt": "2020-07-13T18:54:34Z",
+                        "createdAt": "2020-07-08T22:46:04Z",
+                        "publishedAt": "2020-07-08T22:46:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T18:54:34Z"
+                    },
+                    {
+                        "title": "Add navigation role to settings-toc-wrapper",
+                        "closedAt": "2020-07-09T18:00:23Z",
+                        "createdAt": "2020-07-09T01:41:16Z",
+                        "publishedAt": "2020-07-09T01:41:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-09T18:00:23Z"
+                    },
+                    {
+                        "title": "Editor option: overflowWidgetsDomNode",
+                        "closedAt": "2020-07-13T09:33:33Z",
+                        "createdAt": "2020-07-09T13:39:54Z",
+                        "publishedAt": "2020-07-09T13:39:54Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T09:33:32Z"
+                    },
+                    {
+                        "title": "Add support for view initial state (collapsed or hidden)",
+                        "closedAt": "2020-07-17T07:47:34Z",
+                        "createdAt": "2020-07-09T14:41:45Z",
+                        "publishedAt": "2020-07-09T14:41:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T07:47:33Z"
+                    },
+                    {
+                        "title": "chore: update to electron 9-x-y",
+                        "closedAt": "2020-07-21T07:39:36Z",
+                        "createdAt": "2020-07-09T17:58:36Z",
+                        "publishedAt": "2020-07-09T17:58:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-21T07:39:35Z"
+                    },
+                    {
+                        "title": "Add activation events for providing/resolving tasks (TaskProvider extension API)",
+                        "closedAt": null,
+                        "createdAt": "2020-07-09T18:10:52Z",
+                        "publishedAt": "2020-07-09T18:10:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add playwright driver capture page support",
+                        "closedAt": "2020-07-11T05:14:02Z",
+                        "createdAt": "2020-07-09T21:08:51Z",
+                        "publishedAt": "2020-07-09T21:08:51Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Add ext page copy paste",
+                        "closedAt": "2020-07-13T18:57:27Z",
+                        "createdAt": "2020-07-09T21:25:57Z",
+                        "publishedAt": "2020-07-09T21:25:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T18:57:27Z"
+                    },
+                    {
+                        "title": "Clean up multi root labels",
+                        "closedAt": "2020-07-10T17:44:18Z",
+                        "createdAt": "2020-07-10T00:33:21Z",
+                        "publishedAt": "2020-07-10T00:33:21Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T17:44:18Z"
+                    },
+                    {
+                        "title": "Reading from stdin via tmp file and pipe raise an exception #102085",
+                        "closedAt": "2020-07-10T12:22:17Z",
+                        "createdAt": "2020-07-10T10:48:28Z",
+                        "publishedAt": "2020-07-10T10:48:28Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T12:22:17Z"
+                    },
+                    {
+                        "title": "suggestFilename: use modeService instead of mime",
+                        "closedAt": "2020-07-11T15:36:02Z",
+                        "createdAt": "2020-07-10T10:55:30Z",
+                        "publishedAt": "2020-07-10T10:55:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-11T15:36:02Z"
+                    },
+                    {
+                        "title": "Sort extensions by primary languages",
+                        "closedAt": "2020-07-21T09:21:31Z",
+                        "createdAt": "2020-07-10T10:55:57Z",
+                        "publishedAt": "2020-07-10T10:55:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-21T09:21:31Z"
+                    },
+                    {
+                        "title": "Creating files will add 2 times BOM (UTF-8, 16) #102103",
+                        "closedAt": "2020-07-10T12:39:01Z",
+                        "createdAt": "2020-07-10T12:11:56Z",
+                        "publishedAt": "2020-07-10T12:11:56Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T12:39:01Z"
+                    },
+                    {
+                        "title": "Only throw error if releaseNotesUrl doesn't exist",
+                        "closedAt": "2020-07-21T10:26:58Z",
+                        "createdAt": "2020-07-10T18:16:02Z",
+                        "publishedAt": "2020-07-10T18:16:02Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-21T10:26:58Z"
+                    },
+                    {
+                        "title": "Move process explorer into electron-sandbox layer",
+                        "closedAt": "2020-07-17T21:44:01Z",
+                        "createdAt": "2020-07-10T19:38:10Z",
+                        "publishedAt": "2020-07-10T19:38:10Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T21:44:01Z"
+                    },
+                    {
+                        "title": "Fix double paste in webviews (1.47 recovery)",
+                        "closedAt": "2020-07-10T22:22:25Z",
+                        "createdAt": "2020-07-10T20:28:31Z",
+                        "publishedAt": "2020-07-10T20:28:31Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-10T22:22:25Z"
+                    },
+                    {
+                        "title": "Fixes regression: cannot open image with special characters '#', '?', '%'",
+                        "closedAt": "2020-07-24T20:58:56Z",
+                        "createdAt": "2020-07-11T02:56:00Z",
+                        "publishedAt": "2020-07-11T02:56:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-24T20:58:55Z"
+                    },
+                    {
+                        "title": "debug: use previous node debug for auto attach in the the July release",
+                        "closedAt": "2020-07-13T18:41:21Z",
+                        "createdAt": "2020-07-13T02:55:54Z",
+                        "publishedAt": "2020-07-13T02:55:54Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T18:41:21Z"
+                    },
+                    {
+                        "title": "Dockerfile",
+                        "closedAt": "2020-07-13T08:40:08Z",
+                        "createdAt": "2020-07-13T06:26:24Z",
+                        "publishedAt": "2020-07-13T06:26:24Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix #102148",
+                        "closedAt": "2020-07-13T08:45:39Z",
+                        "createdAt": "2020-07-13T08:25:39Z",
+                        "publishedAt": "2020-07-13T08:25:39Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T08:45:39Z"
+                    },
+                    {
+                        "title": "Allow unsupported types for tree tooltip",
+                        "closedAt": "2020-07-13T12:13:28Z",
+                        "createdAt": "2020-07-13T09:19:26Z",
+                        "publishedAt": "2020-07-13T09:19:26Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T12:13:28Z"
+                    },
+                    {
+                        "title": "Use TextDecoder when decoding UTF-8",
+                        "closedAt": "2020-07-13T09:45:02Z",
+                        "createdAt": "2020-07-13T09:43:15Z",
+                        "publishedAt": "2020-07-13T09:43:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T09:45:02Z"
+                    },
+                    {
+                        "title": "bump@1.47.1",
+                        "closedAt": "2020-07-13T12:18:17Z",
+                        "createdAt": "2020-07-13T12:17:36Z",
+                        "publishedAt": "2020-07-13T12:17:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T12:18:17Z"
+                    },
+                    {
+                        "title": "UPDATA CONTRIBUTING.md",
+                        "closedAt": "2020-07-13T14:20:12Z",
+                        "createdAt": "2020-07-13T14:15:55Z",
+                        "publishedAt": "2020-07-13T14:15:55Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "debug: bump js-debug to 1.47.5 for recovery",
+                        "closedAt": "2020-07-13T17:28:16Z",
+                        "createdAt": "2020-07-13T14:31:42Z",
+                        "publishedAt": "2020-07-13T14:31:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T17:28:16Z"
+                    },
+                    {
+                        "title": "Bumps version to 1.47.2",
+                        "closedAt": "2020-07-13T15:16:50Z",
+                        "createdAt": "2020-07-13T15:12:51Z",
+                        "publishedAt": "2020-07-13T15:12:51Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T15:16:50Z"
+                    },
+                    {
+                        "title": "Migrate fixed dom context views into Shadow DOM",
+                        "closedAt": "2020-07-22T15:36:37Z",
+                        "createdAt": "2020-07-13T15:39:00Z",
+                        "publishedAt": "2020-07-13T15:39:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-22T15:36:37Z"
+                    },
+                    {
+                        "title": "Add GitHub public repo option",
+                        "closedAt": "2020-07-16T09:19:41Z",
+                        "createdAt": "2020-07-13T18:00:33Z",
+                        "publishedAt": "2020-07-13T18:00:33Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-16T09:19:40Z"
+                    },
+                    {
+                        "title": "Fix conditional for overrideCommandForWebview",
+                        "closedAt": "2020-07-14T00:57:10Z",
+                        "createdAt": "2020-07-13T18:15:44Z",
+                        "publishedAt": "2020-07-13T18:15:44Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T00:57:10Z"
+                    },
+                    {
+                        "title": "Support the new 4.0 definition of isArray",
+                        "closedAt": "2020-07-13T18:50:27Z",
+                        "createdAt": "2020-07-13T18:24:24Z",
+                        "publishedAt": "2020-07-13T18:24:24Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-13T18:50:27Z"
+                    },
+                    {
+                        "title": "Copy all properties into ResolvableTreeItem",
+                        "closedAt": "2020-07-14T17:41:11Z",
+                        "createdAt": "2020-07-13T18:46:25Z",
+                        "publishedAt": "2020-07-13T18:46:25Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update CONTRIBUTING.md",
+                        "closedAt": "2020-07-13T19:48:50Z",
+                        "createdAt": "2020-07-13T19:03:40Z",
+                        "publishedAt": "2020-07-13T19:03:40Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update and rename src/vs/vscode.d.ts to src/VS/vscode.d.ts",
+                        "closedAt": "2020-07-13T19:49:11Z",
+                        "createdAt": "2020-07-13T19:23:15Z",
+                        "publishedAt": "2020-07-13T19:23:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update and rename src/vs/workbench/api/browser/mainThreadTask.ts to s…",
+                        "closedAt": "2020-07-13T23:59:55Z",
+                        "createdAt": "2020-07-13T20:30:16Z",
+                        "publishedAt": "2020-07-13T20:30:16Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix styling to improve heading spacing fixes #102036",
+                        "closedAt": "2020-07-14T00:40:42Z",
+                        "createdAt": "2020-07-13T20:48:09Z",
+                        "publishedAt": "2020-07-13T20:48:09Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T00:40:38Z"
+                    },
+                    {
+                        "title": "Fix #102082",
+                        "closedAt": "2020-07-14T06:33:48Z",
+                        "createdAt": "2020-07-13T22:13:01Z",
+                        "publishedAt": "2020-07-13T22:13:01Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T06:33:48Z"
+                    },
+                    {
+                        "title": "Add delegation back to renderer process for certain webview resource reads",
+                        "closedAt": "2020-07-14T18:57:04Z",
+                        "createdAt": "2020-07-13T23:37:48Z",
+                        "publishedAt": "2020-07-13T23:37:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T18:57:04Z"
+                    },
+                    {
+                        "title": "Enable webview tests on remote as well",
+                        "closedAt": "2020-07-14T18:28:07Z",
+                        "createdAt": "2020-07-14T00:16:48Z",
+                        "publishedAt": "2020-07-14T00:16:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T18:28:06Z"
+                    },
+                    {
+                        "title": "chore: remove redundant code",
+                        "closedAt": "2020-07-16T00:25:01Z",
+                        "createdAt": "2020-07-14T08:29:56Z",
+                        "publishedAt": "2020-07-14T08:29:56Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-16T00:25:01Z"
+                    },
+                    {
+                        "title": "Release fixes #102358",
+                        "closedAt": "2020-07-14T13:24:14Z",
+                        "createdAt": "2020-07-14T10:05:45Z",
+                        "publishedAt": "2020-07-14T10:05:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T13:24:14Z"
+                    },
+                    {
+                        "title": "Cherry pick fix for clipboard snippet-variable not working",
+                        "closedAt": "2020-07-14T12:42:20Z",
+                        "createdAt": "2020-07-14T12:28:28Z",
+                        "publishedAt": "2020-07-14T12:28:28Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T12:42:20Z"
+                    },
+                    {
+                        "title": "fix #102117",
+                        "closedAt": "2020-07-14T12:58:21Z",
+                        "createdAt": "2020-07-14T12:54:26Z",
+                        "publishedAt": "2020-07-14T12:54:26Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T12:58:21Z"
+                    },
+                    {
+                        "title": "feat: Autodetect npm.packageManager #102050",
+                        "closedAt": "2020-10-09T09:01:48Z",
+                        "createdAt": "2020-07-14T13:36:38Z",
+                        "publishedAt": "2020-07-14T13:36:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-10-09T09:01:47Z"
+                    },
+                    {
+                        "title": "only emit ctrl+h for cmd.exe when the terminal is in focus",
+                        "closedAt": "2020-07-14T20:58:51Z",
+                        "createdAt": "2020-07-14T16:02:22Z",
+                        "publishedAt": "2020-07-14T16:02:22Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T20:58:51Z"
+                    },
+                    {
+                        "title": "fix h1 oversized bottom margin on markdown preview",
+                        "closedAt": "2020-07-14T18:21:45Z",
+                        "createdAt": "2020-07-14T17:43:19Z",
+                        "publishedAt": "2020-07-14T17:43:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T18:21:45Z"
+                    },
+                    {
+                        "title": "Mixin ResolvableTreeItem properties",
+                        "closedAt": "2020-07-15T08:34:05Z",
+                        "createdAt": "2020-07-14T17:50:16Z",
+                        "publishedAt": "2020-07-14T17:50:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-15T08:34:05Z"
+                    },
+                    {
+                        "title": "chore: cherry pick commits from robo/msrc_58478",
+                        "closedAt": "2020-07-14T23:08:11Z",
+                        "createdAt": "2020-07-14T19:19:58Z",
+                        "publishedAt": "2020-07-14T19:19:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-14T23:08:11Z"
+                    },
+                    {
+                        "title": "fixes #102409",
+                        "closedAt": "2020-07-15T16:15:22Z",
+                        "createdAt": "2020-07-15T00:15:42Z",
+                        "publishedAt": "2020-07-15T00:15:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-15T16:15:22Z"
+                    },
+                    {
+                        "title": "only prompt on imp ext recommendation pattern",
+                        "closedAt": "2020-07-16T01:54:00Z",
+                        "createdAt": "2020-07-15T19:26:30Z",
+                        "publishedAt": "2020-07-15T19:26:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-16T01:54:00Z"
+                    },
+                    {
+                        "title": "fix: remove flexbox to enable ellipsis",
+                        "closedAt": "2020-07-29T08:11:01Z",
+                        "createdAt": "2020-07-15T22:14:12Z",
+                        "publishedAt": "2020-07-15T22:14:12Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-29T08:11:01Z"
+                    },
+                    {
+                        "title": "fix #102289",
+                        "closedAt": "2020-07-22T23:05:01Z",
+                        "createdAt": "2020-07-16T03:26:38Z",
+                        "publishedAt": "2020-07-16T03:26:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-22T23:05:01Z"
+                    },
+                    {
+                        "title": "Tasks without a registered definition should run",
+                        "closedAt": "2020-07-16T12:42:03Z",
+                        "createdAt": "2020-07-16T12:41:42Z",
+                        "publishedAt": "2020-07-16T12:41:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-16T12:42:03Z"
+                    },
+                    {
+                        "title": "Implemented filter for debug console output",
+                        "closedAt": "2020-08-21T18:38:26Z",
+                        "createdAt": "2020-07-16T14:29:45Z",
+                        "publishedAt": "2020-07-16T14:29:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-08-21T18:38:23Z"
+                    },
+                    {
+                        "title": "web playground: add extension from URL",
+                        "closedAt": "2020-08-31T20:08:20Z",
+                        "createdAt": "2020-07-16T14:37:28Z",
+                        "publishedAt": "2020-07-16T14:37:28Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Updated dependencies and fixed security issues",
+                        "closedAt": "2020-07-16T18:26:32Z",
+                        "createdAt": "2020-07-16T14:41:09Z",
+                        "publishedAt": "2020-07-16T14:41:09Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix paragraphs inside of <ul>'s which are too spaced apart.",
+                        "closedAt": "2020-07-16T18:20:38Z",
+                        "createdAt": "2020-07-16T17:56:57Z",
+                        "publishedAt": "2020-07-16T17:56:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-16T18:20:38Z"
+                    },
+                    {
+                        "title": " Tab label functionality similar to window.title",
+                        "closedAt": "2020-10-14T11:27:57Z",
+                        "createdAt": "2020-07-16T20:32:12Z",
+                        "publishedAt": "2020-07-16T20:32:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Multi kernel support in Notebook",
+                        "closedAt": "2020-07-17T01:28:49Z",
+                        "createdAt": "2020-07-16T23:25:54Z",
+                        "publishedAt": "2020-07-16T23:25:54Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T01:28:49Z"
+                    },
+                    {
+                        "title": "fix #66000 VSCODE_ALWAYS_SHOW_SCROLLBARS env var",
+                        "closedAt": "2020-11-04T15:17:34Z",
+                        "createdAt": "2020-07-17T00:41:17Z",
+                        "publishedAt": "2020-07-17T00:41:17Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Clean up and simplify cell text document world",
+                        "closedAt": "2020-08-12T08:19:07Z",
+                        "createdAt": "2020-07-17T09:07:36Z",
+                        "publishedAt": "2020-07-17T09:07:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-08-12T08:19:07Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.10 to 4.17.19 in /extensions/html-language-features/server",
+                        "closedAt": "2020-07-17T17:24:58Z",
+                        "createdAt": "2020-07-17T11:05:23Z",
+                        "publishedAt": "2020-07-17T11:05:23Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:58Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.10 to 4.17.19 in /extensions/css-language-features/server",
+                        "closedAt": "2020-07-17T17:24:46Z",
+                        "createdAt": "2020-07-17T11:08:08Z",
+                        "publishedAt": "2020-07-17T11:08:08Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:46Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.10 to 4.17.19 in /extensions/markdown-language-features",
+                        "closedAt": "2020-07-17T17:24:27Z",
+                        "createdAt": "2020-07-17T11:08:56Z",
+                        "publishedAt": "2020-07-17T11:08:56Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:27Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.4 to 4.17.19",
+                        "closedAt": "2020-07-17T17:26:15Z",
+                        "createdAt": "2020-07-17T11:09:00Z",
+                        "publishedAt": "2020-07-17T11:09:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:26:15Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.11 to 4.17.19 in /build",
+                        "closedAt": "2020-07-17T17:24:13Z",
+                        "createdAt": "2020-07-17T11:09:29Z",
+                        "publishedAt": "2020-07-17T11:09:29Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:13Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.15 to 4.17.19 in /test/smoke",
+                        "closedAt": "2020-07-17T17:24:35Z",
+                        "createdAt": "2020-07-17T11:09:47Z",
+                        "publishedAt": "2020-07-17T11:09:47Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:35Z"
+                    },
+                    {
+                        "title": "Bump lodash from 4.17.10 to 4.17.19 in /extensions/emmet",
+                        "closedAt": "2020-07-17T17:24:00Z",
+                        "createdAt": "2020-07-17T11:10:58Z",
+                        "publishedAt": "2020-07-17T11:10:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-17T17:24:00Z"
+                    },
+                    {
+                        "title": "Fix find-widget staying revealed but disabled if it is opened and closed fast",
+                        "closedAt": "2020-11-11T19:03:24Z",
+                        "createdAt": "2020-07-17T11:49:06Z",
+                        "publishedAt": "2020-07-17T11:49:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "API: submenus extension point",
+                        "closedAt": "2020-07-23T14:56:20Z",
+                        "createdAt": "2020-07-17T13:19:36Z",
+                        "publishedAt": "2020-07-17T13:19:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-07-23T14:56:20Z"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,5 +1,3 @@
-import imp
-from importlib_metadata import entry_points
 from setuptools import setup
 
 setup(
@@ -11,7 +9,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "argo = argo:main",
+            "argo = argo:cli",
         ]
     },
 )

@@ -11,7 +11,7 @@ def savefig(figure, metric, format):
 
 def Print(file, per, date, file_name):
     print(file)
-    dir_path = "Graph_data/"+file
+    dir_path = "metrics/"+file
     os.makedirs(dir_path, exist_ok=True)
     for i in range(len(per)):
         print(str(date[i]) + " : " + str(per[i]))

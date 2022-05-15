@@ -14,7 +14,7 @@ def input(repository):
     return owner, repository 
 
 def makedir(owner, repository, metrics):
-    dir_path = "Extracted data/" + owner + "/"+ repository + "/" + metrics 
+    dir_path = "cache/" + owner + "/"+ repository + "/" + metrics 
     os.makedirs(dir_path, exist_ok=True)
     os.makedirs(os.path.join(dir_path, "CSV"), exist_ok=True)
     os.makedirs(os.path.join(dir_path, "json"), exist_ok=True)
@@ -41,11 +41,31 @@ def findCursor(dir_path, metrics):
         file_num, fileext = os.path.splitext(os.path.basename(file_list)) #最新のファイルのNoのみ取得
         file_num = int(file_num)
         f = open(file_list, "r")
-    
         json_dict = json.load(f)
-        endCursor = json_dict["data"]["repository"][metrics]["pageInfo"]["endCursor"]
-        hasNextPage = json_dict["data"]["repository"][metrics]["pageInfo"]["hasNextPage"]
+        if metrics == "stargazers":
+            json_data = Star(json_dict)
+        elif metrics == "pullRequests":
+            json_data = Pullrequests(json_dict)
+        elif metrics == "issues":
+            json_data = Issue(json_dict)
+        endCursor = json_data[0]
+        hasNextPage = json_data[1]
     return endCursor, hasNextPage, file_num
+
+def Star(json_dict):
+        endCursor = json_dict["data"]["repository"]["stargazers"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["stargazers"]["pageInfo"]["hasNextPage"]
+        return endCursor, hasNextPage
+
+def Pullrequests(json_dict):
+        endCursor = json_dict["data"]["repository"]["pullRequests"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["pullRequests"]["pageInfo"]["hasNextPage"]
+        return endCursor, hasNextPage
+
+def Issue(json_dict):
+        endCursor = json_dict["data"]["repository"]["issues"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["issues"]["pageInfo"]["hasNextPage"]
+        return endCursor, hasNextPage
 
 def jsonMake(json_data,file_name,dir_path):
     with open(os.path.join(dir_path, "json",str(file_name)+".json"),"w") as f:

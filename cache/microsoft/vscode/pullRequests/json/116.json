@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHONSlvcw=="
+                },
+                "nodes": [
+                    {
+                        "title": "Execute surround selection only at the end composition",
+                        "closedAt": "2022-03-17T19:24:58Z",
+                        "createdAt": "2022-03-17T15:35:34Z",
+                        "publishedAt": "2022-03-17T15:35:34Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T19:24:57Z"
+                    },
+                    {
+                        "title": "Show cmd nav cursor in overview ruler",
+                        "closedAt": "2022-03-17T19:31:54Z",
+                        "createdAt": "2022-03-17T16:15:46Z",
+                        "publishedAt": "2022-03-17T16:15:46Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T19:31:54Z"
+                    },
+                    {
+                        "title": "Filter text inline completions",
+                        "closedAt": "2022-03-17T19:17:05Z",
+                        "createdAt": "2022-03-17T16:38:13Z",
+                        "publishedAt": "2022-03-17T16:38:13Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T19:17:05Z"
+                    },
+                    {
+                        "title": "Show nothing for partial command",
+                        "closedAt": "2022-03-17T19:29:30Z",
+                        "createdAt": "2022-03-17T17:17:37Z",
+                        "publishedAt": "2022-03-17T17:17:37Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T19:29:30Z"
+                    },
+                    {
+                        "title": "If a URI is mapped to something else via a UriComparisonKey don't delete the edit stacks",
+                        "closedAt": "2022-03-21T18:12:56Z",
+                        "createdAt": "2022-03-17T17:41:03Z",
+                        "publishedAt": "2022-03-17T17:41:03Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T18:12:55Z"
+                    },
+                    {
+                        "title": "Correctly tell zsh/bash the length of prompt by ignoring shell integration sequences",
+                        "closedAt": "2022-03-17T18:41:39Z",
+                        "createdAt": "2022-03-17T18:22:33Z",
+                        "publishedAt": "2022-03-17T18:22:33Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T18:41:39Z"
+                    },
+                    {
+                        "title": "Fix some edge cases in shell integration conpty handling",
+                        "closedAt": "2022-03-17T20:18:47Z",
+                        "createdAt": "2022-03-17T19:25:26Z",
+                        "publishedAt": "2022-03-17T19:25:26Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T20:18:46Z"
+                    },
+                    {
+                        "title": "Rename command tracker to command navigation",
+                        "closedAt": "2022-03-17T20:12:51Z",
+                        "createdAt": "2022-03-17T19:55:07Z",
+                        "publishedAt": "2022-03-17T19:55:07Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-17T20:12:50Z"
+                    },
+                    {
+                        "title": "Serialize isWindowsPty",
+                        "closedAt": "2022-03-18T16:05:48Z",
+                        "createdAt": "2022-03-17T20:10:23Z",
+                        "publishedAt": "2022-03-17T20:10:23Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T16:05:48Z"
+                    },
+                    {
+                        "title": "Adjust Settings editor narrow total width",
+                        "closedAt": "2022-03-21T18:50:27Z",
+                        "createdAt": "2022-03-17T23:08:40Z",
+                        "publishedAt": "2022-03-17T23:08:40Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T18:50:26Z"
+                    },
+                    {
+                        "title": "Add support for inline quick suggestions",
+                        "closedAt": "2022-03-18T14:56:50Z",
+                        "createdAt": "2022-03-18T10:54:05Z",
+                        "publishedAt": "2022-03-18T10:54:05Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T14:56:50Z"
+                    },
+                    {
+                        "title": "Fix overview ruler width",
+                        "closedAt": "2022-03-18T16:05:39Z",
+                        "createdAt": "2022-03-18T11:07:59Z",
+                        "publishedAt": "2022-03-18T11:07:59Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T16:05:38Z"
+                    },
+                    {
+                        "title": "chore: replace plist with plutil",
+                        "closedAt": "2022-03-18T14:48:48Z",
+                        "createdAt": "2022-03-18T11:48:54Z",
+                        "publishedAt": "2022-03-18T11:48:54Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T14:48:48Z"
+                    },
+                    {
+                        "title": "Workaround for conpty's resize behavior ",
+                        "closedAt": "2022-03-18T16:05:30Z",
+                        "createdAt": "2022-03-18T12:35:16Z",
+                        "publishedAt": "2022-03-18T12:35:16Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T16:05:30Z"
+                    },
+                    {
+                        "title": "Support zsh's RPROMPT",
+                        "closedAt": "2022-03-18T16:05:16Z",
+                        "createdAt": "2022-03-18T13:39:31Z",
+                        "publishedAt": "2022-03-18T13:39:31Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T16:05:16Z"
+                    },
+                    {
+                        "title": "shellEnv platform/terminal -> platform/shell",
+                        "closedAt": "2022-03-18T19:03:07Z",
+                        "createdAt": "2022-03-18T16:11:20Z",
+                        "publishedAt": "2022-03-18T16:11:20Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T19:03:07Z"
+                    },
+                    {
+                        "title": "Early exit event handler when disposing",
+                        "closedAt": "2022-03-18T20:02:31Z",
+                        "createdAt": "2022-03-18T16:17:36Z",
+                        "publishedAt": "2022-03-18T16:17:36Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T20:02:31Z"
+                    },
+                    {
+                        "title": "Move all Windows-specific logic into standard named functions",
+                        "closedAt": "2022-03-18T16:31:59Z",
+                        "createdAt": "2022-03-18T16:26:23Z",
+                        "publishedAt": "2022-03-18T16:26:23Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T16:31:59Z"
+                    },
+                    {
+                        "title": "Surface executing command in Terminal: Run Recent Command",
+                        "closedAt": "2022-03-18T19:05:26Z",
+                        "createdAt": "2022-03-18T17:12:13Z",
+                        "publishedAt": "2022-03-18T17:12:13Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T19:05:26Z"
+                    },
+                    {
+                        "title": "Added the g flag to the end of regex",
+                        "closedAt": "2022-03-18T18:12:39Z",
+                        "createdAt": "2022-03-18T17:53:54Z",
+                        "publishedAt": "2022-03-18T17:53:54Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T18:12:38Z"
+                    },
+                    {
+                        "title": "Fix array widget width and split view height",
+                        "closedAt": "2022-03-18T21:24:22Z",
+                        "createdAt": "2022-03-18T20:37:59Z",
+                        "publishedAt": "2022-03-18T20:37:59Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T21:24:21Z"
+                    },
+                    {
+                        "title": "Use vscode.dev for GH auth",
+                        "closedAt": "2022-03-18T22:58:45Z",
+                        "createdAt": "2022-03-18T21:01:48Z",
+                        "publishedAt": "2022-03-18T21:01:48Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-18T22:58:45Z"
+                    },
+                    {
+                        "title": "Tweak object widget widths",
+                        "closedAt": "2022-03-19T02:48:58Z",
+                        "createdAt": "2022-03-18T21:44:54Z",
+                        "publishedAt": "2022-03-18T21:44:54Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-19T02:48:58Z"
+                    },
+                    {
+                        "title": "Fix configure keybinding action buttons on New File quickpick (#145422)",
+                        "closedAt": "2022-03-21T18:23:59Z",
+                        "createdAt": "2022-03-18T21:51:22Z",
+                        "publishedAt": "2022-03-18T21:51:22Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T18:23:59Z"
+                    },
+                    {
+                        "title": "Disable bash integration when PROMPT_COMMAND has space and semi-colon",
+                        "closedAt": "2022-03-23T01:34:32Z",
+                        "createdAt": "2022-03-18T22:46:08Z",
+                        "publishedAt": "2022-03-18T22:46:08Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T01:34:32Z"
+                    },
+                    {
+                        "title": "modify the feature of quick input, when overflowed the elipsses shows…",
+                        "closedAt": null,
+                        "createdAt": "2022-03-19T11:54:12Z",
+                        "publishedAt": "2022-03-19T11:54:12Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "feat: inlay hints displayStyle",
+                        "closedAt": "2022-03-30T15:30:35Z",
+                        "createdAt": "2022-03-19T22:42:43Z",
+                        "publishedAt": "2022-03-19T22:42:43Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-30T15:30:35Z"
+                    },
+                    {
+                        "title": "feat: inlay hints typing debounce delay",
+                        "closedAt": null,
+                        "createdAt": "2022-03-20T02:47:30Z",
+                        "publishedAt": "2022-03-20T02:47:30Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "feat: manage links in terminal",
+                        "closedAt": "2022-03-28T14:21:16Z",
+                        "createdAt": "2022-03-20T10:12:01Z",
+                        "publishedAt": "2022-03-20T10:12:01Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "ci: fix published server archive name on macOS",
+                        "closedAt": "2022-03-21T13:29:24Z",
+                        "createdAt": "2022-03-20T14:08:09Z",
+                        "publishedAt": "2022-03-20T14:08:09Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T13:29:24Z"
+                    },
+                    {
+                        "title": "chore: update to electron 18",
+                        "closedAt": null,
+                        "createdAt": "2022-03-21T04:53:19Z",
+                        "publishedAt": "2022-03-21T04:53:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "set COOP, COEP, and CORP headers for desktop",
+                        "closedAt": null,
+                        "createdAt": "2022-03-21T09:08:48Z",
+                        "publishedAt": "2022-03-21T09:08:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Detect remote extension host crashes and automatically restart",
+                        "closedAt": "2022-03-21T20:23:13Z",
+                        "createdAt": "2022-03-21T15:17:19Z",
+                        "publishedAt": "2022-03-21T15:17:19Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T20:23:13Z"
+                    },
+                    {
+                        "title": "Update coverage folder location",
+                        "closedAt": "2022-03-22T08:17:50Z",
+                        "createdAt": "2022-03-21T17:55:16Z",
+                        "publishedAt": "2022-03-21T17:55:16Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-22T08:17:50Z"
+                    },
+                    {
+                        "title": "Finetune theme detection",
+                        "closedAt": "2022-03-21T18:13:48Z",
+                        "createdAt": "2022-03-21T18:12:21Z",
+                        "publishedAt": "2022-03-21T18:12:21Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T18:13:48Z"
+                    },
+                    {
+                        "title": "Jackson/auto expand single children",
+                        "closedAt": "2022-04-07T04:13:24Z",
+                        "createdAt": "2022-03-21T18:56:17Z",
+                        "publishedAt": "2022-03-21T18:56:17Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Unset ZDOTDIR before standard scripts run and add VSCODE_SHELL_INTEGRATION",
+                        "closedAt": "2022-03-21T19:50:40Z",
+                        "createdAt": "2022-03-21T19:09:46Z",
+                        "publishedAt": "2022-03-21T19:09:46Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T19:50:40Z"
+                    },
+                    {
+                        "title": "Use prefix to avoid clashes with shell functions",
+                        "closedAt": "2022-03-21T19:50:29Z",
+                        "createdAt": "2022-03-21T19:27:01Z",
+                        "publishedAt": "2022-03-21T19:27:01Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-21T19:50:29Z"
+                    },
+                    {
+                        "title": "Changed the default value of 'scrollByPage' in the scorable items",
+                        "closedAt": "2022-03-22T10:35:15Z",
+                        "createdAt": "2022-03-21T19:32:41Z",
+                        "publishedAt": "2022-03-21T19:32:41Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "145367 Added cwd to terminal name if present",
+                        "closedAt": "2022-03-28T19:45:18Z",
+                        "createdAt": "2022-03-21T20:55:38Z",
+                        "publishedAt": "2022-03-21T20:55:38Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T19:45:18Z"
+                    },
+                    {
+                        "title": "Test",
+                        "closedAt": "2022-03-21T21:12:05Z",
+                        "createdAt": "2022-03-21T21:11:30Z",
+                        "publishedAt": "2022-03-21T21:11:30Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "use decorations for terminal find",
+                        "closedAt": "2022-03-22T00:26:55Z",
+                        "createdAt": "2022-03-21T22:39:21Z",
+                        "publishedAt": "2022-03-21T22:39:21Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-22T00:26:54Z"
+                    },
+                    {
+                        "title": "trigger highlight all matches when find widget is revealed with input",
+                        "closedAt": "2022-03-22T17:16:31Z",
+                        "createdAt": "2022-03-22T06:25:03Z",
+                        "publishedAt": "2022-03-22T06:25:03Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-22T17:16:31Z"
+                    },
+                    {
+                        "title": "Avoid NPE",
+                        "closedAt": "2022-03-22T14:20:59Z",
+                        "createdAt": "2022-03-22T08:00:28Z",
+                        "publishedAt": "2022-03-22T08:00:28Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-22T14:20:59Z"
+                    },
+                    {
+                        "title": "Add language filter language suggestions",
+                        "closedAt": "2022-03-23T15:18:29Z",
+                        "createdAt": "2022-03-22T17:29:41Z",
+                        "publishedAt": "2022-03-22T17:29:41Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T15:18:28Z"
+                    },
+                    {
+                        "title": "Check lang id while filtering",
+                        "closedAt": "2022-03-23T15:20:23Z",
+                        "createdAt": "2022-03-22T17:43:44Z",
+                        "publishedAt": "2022-03-22T17:43:44Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T15:20:23Z"
+                    },
+                    {
+                        "title": "format terminal.css",
+                        "closedAt": "2022-03-22T18:42:07Z",
+                        "createdAt": "2022-03-22T18:04:09Z",
+                        "publishedAt": "2022-03-22T18:04:09Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Misc. A11y fixes for VSCode",
+                        "closedAt": "2022-03-28T13:54:27Z",
+                        "createdAt": "2022-03-22T18:28:41Z",
+                        "publishedAt": "2022-03-22T18:28:41Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T13:54:27Z"
+                    },
+                    {
+                        "title": "probable fix",
+                        "closedAt": "2022-03-24T17:30:48Z",
+                        "createdAt": "2022-03-22T19:06:28Z",
+                        "publishedAt": "2022-03-22T19:06:28Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-24T17:30:48Z"
+                    },
+                    {
+                        "title": "145458 List: Support scroll by page",
+                        "closedAt": null,
+                        "createdAt": "2022-03-22T19:29:51Z",
+                        "publishedAt": "2022-03-22T19:29:51Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "rename shell integration script variables",
+                        "closedAt": "2022-03-23T00:04:25Z",
+                        "createdAt": "2022-03-22T21:32:48Z",
+                        "publishedAt": "2022-03-22T21:32:48Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T00:04:24Z"
+                    },
+                    {
+                        "title": "timeline - remove uncommited changes",
+                        "closedAt": "2022-03-23T08:26:17Z",
+                        "createdAt": "2022-03-23T08:07:57Z",
+                        "publishedAt": "2022-03-23T08:07:57Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T08:26:17Z"
+                    },
+                    {
+                        "title": "Don't warn when the shell disables builtin shell integration",
+                        "closedAt": "2022-03-23T16:54:20Z",
+                        "createdAt": "2022-03-23T13:00:15Z",
+                        "publishedAt": "2022-03-23T13:00:15Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T16:54:20Z"
+                    },
+                    {
+                        "title": "Prefix all variables with __vsc_ to avoid conflicts with user scripts",
+                        "closedAt": "2022-03-23T16:54:40Z",
+                        "createdAt": "2022-03-23T13:12:20Z",
+                        "publishedAt": "2022-03-23T13:12:20Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T16:54:40Z"
+                    },
+                    {
+                        "title": "Deserialize shell integration messages in property and command line",
+                        "closedAt": "2022-03-23T15:33:57Z",
+                        "createdAt": "2022-03-23T13:37:47Z",
+                        "publishedAt": "2022-03-23T13:37:47Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T15:33:57Z"
+                    },
+                    {
+                        "title": "chore: bump actions/checkout",
+                        "closedAt": "2022-03-23T17:21:25Z",
+                        "createdAt": "2022-03-23T14:03:50Z",
+                        "publishedAt": "2022-03-23T14:03:50Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T17:21:25Z"
+                    },
+                    {
+                        "title": "Address heuristic when stage ranges act on same line number diff",
+                        "closedAt": "2022-04-22T10:31:16Z",
+                        "createdAt": "2022-03-23T15:29:00Z",
+                        "publishedAt": "2022-03-23T15:29:00Z",
+                        "merged": true,
+                        "mergedAt": "2022-04-22T10:31:15Z"
+                    },
+                    {
+                        "title": "xterm.js -> terminal",
+                        "closedAt": "2022-03-23T16:56:40Z",
+                        "createdAt": "2022-03-23T15:33:11Z",
+                        "publishedAt": "2022-03-23T15:33:11Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T16:56:40Z"
+                    },
+                    {
+                        "title": "Introducing \"Cycle Cursors\" command",
+                        "closedAt": "2022-03-30T09:35:45Z",
+                        "createdAt": "2022-03-23T16:37:55Z",
+                        "publishedAt": "2022-03-23T16:37:55Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-30T09:35:45Z"
+                    },
+                    {
+                        "title": "Update our cell uriComparison when the perCell undo redo setting is c…",
+                        "closedAt": "2022-03-23T20:42:04Z",
+                        "createdAt": "2022-03-23T17:43:40Z",
+                        "publishedAt": "2022-03-23T17:43:40Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T20:42:03Z"
+                    },
+                    {
+                        "title": "Fix fetching colors from theme",
+                        "closedAt": "2022-03-23T21:49:23Z",
+                        "createdAt": "2022-03-23T21:47:00Z",
+                        "publishedAt": "2022-03-23T21:47:00Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T21:49:23Z"
+                    },
+                    {
+                        "title": "Add more granularity to terminal find theming, add HC support",
+                        "closedAt": "2022-03-23T23:16:13Z",
+                        "createdAt": "2022-03-23T22:47:31Z",
+                        "publishedAt": "2022-03-23T22:47:31Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-23T23:16:12Z"
+                    },
+                    {
+                        "title": "Bump minimist from 1.2.5 to 1.2.6 in /remote",
+                        "closedAt": "2022-03-25T11:02:57Z",
+                        "createdAt": "2022-03-23T23:35:35Z",
+                        "publishedAt": "2022-03-23T23:35:35Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T11:02:57Z"
+                    },
+                    {
+                        "title": "Bump minimist from 1.2.3 to 1.2.6 in /build",
+                        "closedAt": "2022-03-25T11:02:53Z",
+                        "createdAt": "2022-03-23T23:36:05Z",
+                        "publishedAt": "2022-03-23T23:36:05Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T11:02:53Z"
+                    },
+                    {
+                        "title": "Bump minimist from 1.2.5 to 1.2.6",
+                        "closedAt": "2022-03-25T11:02:49Z",
+                        "createdAt": "2022-03-23T23:36:35Z",
+                        "publishedAt": "2022-03-23T23:36:35Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T11:02:49Z"
+                    },
+                    {
+                        "title": "[typescript-language-features] Add includeCompletionsWithObjectLiteralMethodSnippets preference",
+                        "closedAt": "2022-03-24T22:17:43Z",
+                        "createdAt": "2022-03-24T01:59:06Z",
+                        "publishedAt": "2022-03-24T01:59:06Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-24T22:17:43Z"
+                    },
+                    {
+                        "title": "Fix wayland on NVIDIA",
+                        "closedAt": "2022-03-24T03:38:38Z",
+                        "createdAt": "2022-03-24T03:37:10Z",
+                        "publishedAt": "2022-03-24T03:37:10Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix wayland on NVIDIA",
+                        "closedAt": "2022-03-28T07:17:16Z",
+                        "createdAt": "2022-03-24T03:39:56Z",
+                        "publishedAt": "2022-03-24T03:39:56Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix infinite recursion in `getDirectoryHandle`",
+                        "closedAt": "2022-03-24T13:45:36Z",
+                        "createdAt": "2022-03-24T12:40:35Z",
+                        "publishedAt": "2022-03-24T12:40:35Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-24T13:45:36Z"
+                    },
+                    {
+                        "title": "Check maxTokenizationLineLength in monarchLexer",
+                        "closedAt": null,
+                        "createdAt": "2022-03-24T14:12:53Z",
+                        "publishedAt": "2022-03-24T14:12:53Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Clear viewport commands in partial detection on CSI 2/3 J",
+                        "closedAt": "2022-03-24T15:49:18Z",
+                        "createdAt": "2022-03-24T15:49:09Z",
+                        "publishedAt": "2022-03-24T15:49:09Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-24T15:49:18Z"
+                    },
+                    {
+                        "title": "Properly manage selection when collapsing `expandOnlyOnTwistieClick` tree node",
+                        "closedAt": "2022-04-07T04:12:29Z",
+                        "createdAt": "2022-03-24T18:20:46Z",
+                        "publishedAt": "2022-03-24T18:20:46Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "feat(web): add support for language packs",
+                        "closedAt": null,
+                        "createdAt": "2022-03-24T23:39:41Z",
+                        "publishedAt": "2022-03-24T23:39:41Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Display Jupyter New File contribution in Notebooks group",
+                        "closedAt": "2022-03-25T18:53:43Z",
+                        "createdAt": "2022-03-25T05:32:52Z",
+                        "publishedAt": "2022-03-25T05:32:52Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T18:53:43Z"
+                    },
+                    {
+                        "title": "style.css",
+                        "closedAt": "2022-03-25T06:10:15Z",
+                        "createdAt": "2022-03-25T06:07:18Z",
+                        "publishedAt": "2022-03-25T06:07:18Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix color customization name",
+                        "closedAt": "2022-03-25T14:21:42Z",
+                        "createdAt": "2022-03-25T14:20:33Z",
+                        "publishedAt": "2022-03-25T14:20:33Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T14:21:42Z"
+                    },
+                    {
+                        "title": "Don't dispose of decoration addon when clear is run",
+                        "closedAt": "2022-03-25T16:23:10Z",
+                        "createdAt": "2022-03-25T15:36:20Z",
+                        "publishedAt": "2022-03-25T15:36:20Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T16:23:10Z"
+                    },
+                    {
+                        "title": "Fix Settings editor layout order",
+                        "closedAt": "2022-03-25T17:55:51Z",
+                        "createdAt": "2022-03-25T16:53:16Z",
+                        "publishedAt": "2022-03-25T16:53:16Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T17:55:50Z"
+                    },
+                    {
+                        "title": "Bump plist",
+                        "closedAt": "2022-03-25T18:19:18Z",
+                        "createdAt": "2022-03-25T17:39:15Z",
+                        "publishedAt": "2022-03-25T17:39:15Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-25T18:19:18Z"
+                    },
+                    {
+                        "title": "Add links to open in Remote - Containers",
+                        "closedAt": "2022-03-29T17:02:09Z",
+                        "createdAt": "2022-03-25T17:47:21Z",
+                        "publishedAt": "2022-03-25T17:47:21Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-29T17:02:09Z"
+                    },
+                    {
+                        "title": "Fixes #144041 by introducing PositionAffinity.{Left,Right}OfInjectedText",
+                        "closedAt": "2022-03-29T10:26:25Z",
+                        "createdAt": "2022-03-25T17:52:27Z",
+                        "publishedAt": "2022-03-25T17:52:27Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-29T10:26:24Z"
+                    },
+                    {
+                        "title": "[DOCS] Change readme design",
+                        "closedAt": "2022-03-27T01:59:52Z",
+                        "createdAt": "2022-03-26T04:12:05Z",
+                        "publishedAt": "2022-03-26T04:12:05Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix typo in gettingStartedService.ts",
+                        "closedAt": "2022-04-04T19:50:44Z",
+                        "createdAt": "2022-03-26T14:22:04Z",
+                        "publishedAt": "2022-03-26T14:22:04Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "\"Find\" jumps to nth match",
+                        "closedAt": null,
+                        "createdAt": "2022-03-26T14:33:50Z",
+                        "publishedAt": "2022-03-26T14:33:50Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Fix detection of CSS Preprocessor Comments at Start of File in Emmet Extension",
+                        "closedAt": "2022-04-04T19:02:15Z",
+                        "createdAt": "2022-03-27T00:27:33Z",
+                        "publishedAt": "2022-03-27T00:27:33Z",
+                        "merged": true,
+                        "mergedAt": "2022-04-04T19:02:15Z"
+                    },
+                    {
+                        "title": "feat(git): Added remote url type option",
+                        "closedAt": "2022-04-05T13:49:50Z",
+                        "createdAt": "2022-03-27T02:30:16Z",
+                        "publishedAt": "2022-03-27T02:30:16Z",
+                        "merged": true,
+                        "mergedAt": "2022-04-05T13:49:50Z"
+                    },
+                    {
+                        "title": "Fixes #145340",
+                        "closedAt": null,
+                        "createdAt": "2022-03-27T03:21:30Z",
+                        "publishedAt": "2022-03-27T03:21:30Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Pick up TS 4.6.3",
+                        "closedAt": "2022-03-27T07:40:18Z",
+                        "createdAt": "2022-03-27T03:28:49Z",
+                        "publishedAt": "2022-03-27T03:28:49Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-27T07:40:18Z"
+                    },
+                    {
+                        "title": "ci: update electron v17.2.0",
+                        "closedAt": "2022-03-28T06:16:14Z",
+                        "createdAt": "2022-03-28T04:36:48Z",
+                        "publishedAt": "2022-03-28T04:36:48Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T06:16:14Z"
+                    },
+                    {
+                        "title": "Open settings UI editor while configuring language specific settings",
+                        "closedAt": "2022-03-28T15:52:18Z",
+                        "createdAt": "2022-03-28T06:07:11Z",
+                        "publishedAt": "2022-03-28T06:07:11Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T15:52:18Z"
+                    },
+                    {
+                        "title": "Improve snippet choice",
+                        "closedAt": "2022-03-28T13:02:29Z",
+                        "createdAt": "2022-03-28T06:28:21Z",
+                        "publishedAt": "2022-03-28T06:28:21Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T13:02:29Z"
+                    },
+                    {
+                        "title": "Add vscode.markdown-language-features to proposed API",
+                        "closedAt": "2022-03-28T10:47:28Z",
+                        "createdAt": "2022-03-28T08:24:30Z",
+                        "publishedAt": "2022-03-28T08:24:30Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T10:47:27Z"
+                    },
+                    {
+                        "title": "Log when `close()` on storage takes a bit longer",
+                        "closedAt": "2022-03-28T09:47:37Z",
+                        "createdAt": "2022-03-28T09:47:31Z",
+                        "publishedAt": "2022-03-28T09:47:31Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T09:47:37Z"
+                    },
+                    {
+                        "title": "Better accomodate the auto whitespace removal when inserting or merging snippets",
+                        "closedAt": "2022-03-28T11:31:03Z",
+                        "createdAt": "2022-03-28T10:24:38Z",
+                        "publishedAt": "2022-03-28T10:24:38Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T11:31:03Z"
+                    },
+                    {
+                        "title": "fix 146174",
+                        "closedAt": "2022-03-28T14:10:02Z",
+                        "createdAt": "2022-03-28T11:02:13Z",
+                        "publishedAt": "2022-03-28T11:02:13Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Cherrypick changes for 145793",
+                        "closedAt": "2022-03-29T05:48:29Z",
+                        "createdAt": "2022-03-28T11:36:08Z",
+                        "publishedAt": "2022-03-28T11:36:08Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-29T05:48:29Z"
+                    },
+                    {
+                        "title": "Event api proposal cleanup",
+                        "closedAt": "2022-03-30T07:18:45Z",
+                        "createdAt": "2022-03-28T13:04:08Z",
+                        "publishedAt": "2022-03-28T13:04:08Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-30T07:18:44Z"
+                    },
+                    {
+                        "title": "Copy tunnel information for context",
+                        "closedAt": "2022-03-28T15:40:27Z",
+                        "createdAt": "2022-03-28T13:51:16Z",
+                        "publishedAt": "2022-03-28T13:51:16Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T15:40:26Z"
+                    },
+                    {
+                        "title": "Revert changes to eventing in the editor",
+                        "closedAt": "2022-03-28T14:10:11Z",
+                        "createdAt": "2022-03-28T13:56:28Z",
+                        "publishedAt": "2022-03-28T13:56:28Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T14:10:11Z"
+                    },
+                    {
+                        "title": "Have `group.closeEditors` return a boolean promise",
+                        "closedAt": "2022-03-28T15:47:28Z",
+                        "createdAt": "2022-03-28T14:46:31Z",
+                        "publishedAt": "2022-03-28T14:46:31Z",
+                        "merged": true,
+                        "mergedAt": "2022-03-28T15:47:28Z"
+                    }
+                ]
+            }
+        }
+    }
+}

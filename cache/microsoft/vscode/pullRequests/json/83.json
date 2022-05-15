@@ -1,0 +1,815 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 12124,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOH87rsg=="
+                },
+                "nodes": [
+                    {
+                        "title": "Git/SCM: Use vscode.open and vscode.diff for a better editor opening experience",
+                        "closedAt": "2020-11-16T15:19:27Z",
+                        "createdAt": "2020-11-16T15:18:36Z",
+                        "publishedAt": "2020-11-16T15:18:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-16T15:19:27Z"
+                    },
+                    {
+                        "title": "Added extensibility points for searchView/context",
+                        "closedAt": null,
+                        "createdAt": "2020-11-16T19:26:41Z",
+                        "publishedAt": "2020-11-16T19:26:41Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update default styles and polish focus treatment",
+                        "closedAt": "2020-11-16T22:34:55Z",
+                        "createdAt": "2020-11-16T19:34:21Z",
+                        "publishedAt": "2020-11-16T19:34:21Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-16T22:34:55Z"
+                    },
+                    {
+                        "title": "specifying node version on install dependencies step ",
+                        "closedAt": "2020-11-16T22:38:05Z",
+                        "createdAt": "2020-11-16T21:43:45Z",
+                        "publishedAt": "2020-11-16T21:43:45Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "chore: update to electron 11",
+                        "closedAt": "2020-11-23T23:31:03Z",
+                        "createdAt": "2020-11-16T22:16:31Z",
+                        "publishedAt": "2020-11-16T22:16:31Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-23T23:31:03Z"
+                    },
+                    {
+                        "title": "Fixing ListWidget escape button behavior",
+                        "closedAt": "2020-11-25T10:42:04Z",
+                        "createdAt": "2020-11-16T22:19:37Z",
+                        "publishedAt": "2020-11-16T22:19:37Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T10:42:04Z"
+                    },
+                    {
+                        "title": "Add node task to fix broken Rich Nav builds",
+                        "closedAt": "2020-11-17T07:42:46Z",
+                        "createdAt": "2020-11-16T22:33:20Z",
+                        "publishedAt": "2020-11-16T22:33:20Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-17T07:42:46Z"
+                    },
+                    {
+                        "title": "Fully automate dev setup with Gitpod",
+                        "closedAt": "2020-11-23T02:21:25Z",
+                        "createdAt": "2020-11-17T05:26:56Z",
+                        "publishedAt": "2020-11-17T05:26:56Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Move usage of `native-keymap` to the main process",
+                        "closedAt": "2020-11-17T13:35:28Z",
+                        "createdAt": "2020-11-17T09:39:16Z",
+                        "publishedAt": "2020-11-17T09:39:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-17T13:35:28Z"
+                    },
+                    {
+                        "title": "chore: bump keytar@7.1.0",
+                        "closedAt": "2020-11-17T18:35:16Z",
+                        "createdAt": "2020-11-17T16:30:27Z",
+                        "publishedAt": "2020-11-17T16:30:27Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-17T18:35:16Z"
+                    },
+                    {
+                        "title": "Support extending icon themes",
+                        "closedAt": "2021-01-26T14:13:10Z",
+                        "createdAt": "2020-11-17T23:16:07Z",
+                        "publishedAt": "2020-11-17T23:16:07Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Support greater than and less than",
+                        "closedAt": "2020-12-02T15:12:42Z",
+                        "createdAt": "2020-11-18T08:12:37Z",
+                        "publishedAt": "2020-11-18T08:12:37Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-02T15:12:42Z"
+                    },
+                    {
+                        "title": "Why only for python?",
+                        "closedAt": "2020-11-19T10:19:20Z",
+                        "createdAt": "2020-11-18T08:17:06Z",
+                        "publishedAt": "2020-11-18T08:17:06Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Simplify code and improve readability",
+                        "closedAt": "2020-11-19T20:21:29Z",
+                        "createdAt": "2020-11-18T08:27:39Z",
+                        "publishedAt": "2020-11-18T08:27:39Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Remove transform output calls",
+                        "closedAt": "2020-11-19T10:51:10Z",
+                        "createdAt": "2020-11-18T10:28:16Z",
+                        "publishedAt": "2020-11-18T10:28:16Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T10:51:10Z"
+                    },
+                    {
+                        "title": "bulkEdits: add copy to WorkspaceFileEditOptions",
+                        "closedAt": "2020-11-18T11:18:34Z",
+                        "createdAt": "2020-11-18T10:54:40Z",
+                        "publishedAt": "2020-11-18T10:54:40Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-18T11:18:34Z"
+                    },
+                    {
+                        "title": "Docs for FileSystemWatcher limitations (#60813)",
+                        "closedAt": "2020-11-19T07:48:50Z",
+                        "createdAt": "2020-11-18T11:04:15Z",
+                        "publishedAt": "2020-11-18T11:04:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T07:48:50Z"
+                    },
+                    {
+                        "title": "bulkEditService: support folder creation",
+                        "closedAt": "2020-11-18T15:20:14Z",
+                        "createdAt": "2020-11-18T15:17:18Z",
+                        "publishedAt": "2020-11-18T15:17:18Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-18T15:20:14Z"
+                    },
+                    {
+                        "title": "adds @features: settings search type and dropdown option to Configure Terminal Settings",
+                        "closedAt": "2020-11-19T22:13:11Z",
+                        "createdAt": "2020-11-18T17:28:37Z",
+                        "publishedAt": "2020-11-18T17:28:37Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T22:13:11Z"
+                    },
+                    {
+                        "title": "Fix #58600, Format Emmet package.json",
+                        "closedAt": "2020-11-19T21:44:12Z",
+                        "createdAt": "2020-11-18T21:18:58Z",
+                        "publishedAt": "2020-11-18T21:18:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T21:44:12Z"
+                    },
+                    {
+                        "title": "Ball Breaker",
+                        "closedAt": "2020-11-19T05:09:52Z",
+                        "createdAt": "2020-11-18T23:12:35Z",
+                        "publishedAt": "2020-11-18T23:12:35Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Support keybinding browser context keys",
+                        "closedAt": "2020-12-02T16:07:57Z",
+                        "createdAt": "2020-11-19T00:36:15Z",
+                        "publishedAt": "2020-11-19T00:36:15Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-02T16:07:57Z"
+                    },
+                    {
+                        "title": "Environemt -> Environment",
+                        "closedAt": "2021-01-20T14:56:38Z",
+                        "createdAt": "2020-11-19T04:27:05Z",
+                        "publishedAt": "2020-11-19T04:27:05Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-20T14:56:38Z"
+                    },
+                    {
+                        "title": "Use label for \"Follow link\" command's tooltip",
+                        "closedAt": "2020-11-20T20:41:13Z",
+                        "createdAt": "2020-11-19T05:29:47Z",
+                        "publishedAt": "2020-11-19T05:29:47Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-20T20:41:13Z"
+                    },
+                    {
+                        "title": "add support to reuse undo-redo group when applying a nested bulk edit",
+                        "closedAt": "2020-11-19T09:22:56Z",
+                        "createdAt": "2020-11-19T08:22:42Z",
+                        "publishedAt": "2020-11-19T08:22:42Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Undo/redo, bulk edit and onWill-file events",
+                        "closedAt": "2020-11-19T14:10:00Z",
+                        "createdAt": "2020-11-19T10:27:27Z",
+                        "publishedAt": "2020-11-19T10:27:27Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T14:10:00Z"
+                    },
+                    {
+                        "title": "camelCase/PascalCase to snake_case",
+                        "closedAt": "2020-12-18T16:58:59Z",
+                        "createdAt": "2020-11-19T17:29:01Z",
+                        "publishedAt": "2020-11-19T17:29:01Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-18T16:58:58Z"
+                    },
+                    {
+                        "title": "chore: bump keytar@7.2.0",
+                        "closedAt": "2020-11-19T21:39:58Z",
+                        "createdAt": "2020-11-19T20:25:49Z",
+                        "publishedAt": "2020-11-19T20:25:49Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-19T21:39:58Z"
+                    },
+                    {
+                        "title": "Prompt user with info about terminal config, add settings search by @id, and add sendToShell setting",
+                        "closedAt": "2020-11-23T22:51:58Z",
+                        "createdAt": "2020-11-20T01:17:22Z",
+                        "publishedAt": "2020-11-20T01:17:22Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-23T22:51:58Z"
+                    },
+                    {
+                        "title": "testing api v0.0.0.00001",
+                        "closedAt": "2020-11-20T16:31:36Z",
+                        "createdAt": "2020-11-20T01:37:59Z",
+                        "publishedAt": "2020-11-20T01:37:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-20T16:31:36Z"
+                    },
+                    {
+                        "title": "Make vscode.openWith a proper api command",
+                        "closedAt": "2020-12-01T01:40:16Z",
+                        "createdAt": "2020-11-20T07:26:59Z",
+                        "publishedAt": "2020-11-20T07:26:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-01T01:40:16Z"
+                    },
+                    {
+                        "title": "Build snap packages for ARM",
+                        "closedAt": "2020-11-25T10:57:58Z",
+                        "createdAt": "2020-11-20T08:32:33Z",
+                        "publishedAt": "2020-11-20T08:32:33Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T10:57:58Z"
+                    },
+                    {
+                        "title": "bulkFileEdits: doNotUseTrash flag",
+                        "closedAt": "2020-11-24T12:21:09Z",
+                        "createdAt": "2020-11-20T09:39:03Z",
+                        "publishedAt": "2020-11-20T09:39:03Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T12:21:09Z"
+                    },
+                    {
+                        "title": "WorkspaceFileEditOptions add maxSize",
+                        "closedAt": "2020-11-24T09:09:21Z",
+                        "createdAt": "2020-11-20T17:04:23Z",
+                        "publishedAt": "2020-11-20T17:04:23Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T09:09:21Z"
+                    },
+                    {
+                        "title": "updated javascript for in snippet",
+                        "closedAt": "2020-11-20T23:37:47Z",
+                        "createdAt": "2020-11-20T22:52:34Z",
+                        "publishedAt": "2020-11-20T22:52:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-20T23:37:47Z"
+                    },
+                    {
+                        "title": "Fix error message",
+                        "closedAt": "2020-11-21T19:44:43Z",
+                        "createdAt": "2020-11-21T03:53:27Z",
+                        "publishedAt": "2020-11-21T03:53:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Changing autofetch to a string config which has \"current\", \"all\" and",
+                        "closedAt": "2020-12-11T05:54:23Z",
+                        "createdAt": "2020-11-21T12:29:59Z",
+                        "publishedAt": "2020-11-21T12:29:59Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-11T05:54:22Z"
+                    },
+                    {
+                        "title": "Fix scrolling of markdown preview. Close #65504",
+                        "closedAt": "2021-01-15T01:24:12Z",
+                        "createdAt": "2020-11-21T13:01:45Z",
+                        "publishedAt": "2020-11-21T13:01:45Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-15T01:24:09Z"
+                    },
+                    {
+                        "title": "Fixed Hover style incorrect when writing javascript in HTML",
+                        "closedAt": "2020-11-23T08:17:12Z",
+                        "createdAt": "2020-11-22T02:54:10Z",
+                        "publishedAt": "2020-11-22T02:54:10Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-23T08:17:12Z"
+                    },
+                    {
+                        "title": "[markdown-language-features]: Fix starting scroll for URIs with fragment",
+                        "closedAt": "2021-01-23T01:41:26Z",
+                        "createdAt": "2020-11-22T13:00:40Z",
+                        "publishedAt": "2020-11-22T13:00:40Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-23T01:41:26Z"
+                    },
+                    {
+                        "title": "Add vscode.Uri to types for vscode.RelativePattern's base parameter",
+                        "closedAt": "2020-11-24T17:04:05Z",
+                        "createdAt": "2020-11-23T03:33:22Z",
+                        "publishedAt": "2020-11-23T03:33:22Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T17:04:04Z"
+                    },
+                    {
+                        "title": "Add GettingStartedService/Registry and initial getting started UI",
+                        "closedAt": "2020-11-25T22:05:50Z",
+                        "createdAt": "2020-11-23T12:57:55Z",
+                        "publishedAt": "2020-11-23T12:57:55Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T22:05:50Z"
+                    },
+                    {
+                        "title": "update order of encodings alphabetically",
+                        "closedAt": "2020-11-25T13:39:13Z",
+                        "createdAt": "2020-11-23T13:25:37Z",
+                        "publishedAt": "2020-11-23T13:25:37Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "both custom and native hover showing",
+                        "closedAt": "2020-11-23T17:05:52Z",
+                        "createdAt": "2020-11-23T14:06:14Z",
+                        "publishedAt": "2020-11-23T14:06:14Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-23T17:05:52Z"
+                    },
+                    {
+                        "title": "Implement split action with dropdown in notifications",
+                        "closedAt": "2020-11-24T10:50:19Z",
+                        "createdAt": "2020-11-23T15:17:47Z",
+                        "publishedAt": "2020-11-23T15:17:47Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T10:50:19Z"
+                    },
+                    {
+                        "title": "themable debug icons",
+                        "closedAt": "2020-11-24T20:31:58Z",
+                        "createdAt": "2020-11-23T15:38:04Z",
+                        "publishedAt": "2020-11-23T15:38:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T20:31:58Z"
+                    },
+                    {
+                        "title": "Fix hardcoded rpm dependencies for armv7hl and aarch64",
+                        "closedAt": "2020-11-24T08:59:01Z",
+                        "createdAt": "2020-11-23T20:59:11Z",
+                        "publishedAt": "2020-11-23T20:59:11Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-24T08:59:01Z"
+                    },
+                    {
+                        "title": "Create Baka",
+                        "closedAt": "2020-11-24T07:24:59Z",
+                        "createdAt": "2020-11-24T06:18:15Z",
+                        "publishedAt": "2020-11-24T06:18:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "add file decorations to editor titles (tab and no tab)",
+                        "closedAt": "2020-12-17T08:11:26Z",
+                        "createdAt": "2020-11-24T09:49:19Z",
+                        "publishedAt": "2020-11-24T09:49:19Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-17T08:11:26Z"
+                    },
+                    {
+                        "title": "Allow FileSystemProvider to stat a file as readonly (#73122)",
+                        "closedAt": "2021-05-12T07:17:34Z",
+                        "createdAt": "2020-11-24T15:57:19Z",
+                        "publishedAt": "2020-11-24T15:57:19Z",
+                        "merged": true,
+                        "mergedAt": "2021-05-12T07:17:34Z"
+                    },
+                    {
+                        "title": "More cleanup for armhfp and aarch64 rpm hardcoded dependencies",
+                        "closedAt": "2020-11-25T08:14:39Z",
+                        "createdAt": "2020-11-24T20:53:48Z",
+                        "publishedAt": "2020-11-24T20:53:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T08:14:39Z"
+                    },
+                    {
+                        "title": "Fix typo in marked.js sanitizer",
+                        "closedAt": "2021-01-15T01:26:11Z",
+                        "createdAt": "2020-11-24T21:25:56Z",
+                        "publishedAt": "2020-11-24T21:25:56Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-15T01:26:11Z"
+                    },
+                    {
+                        "title": "Bump highlight.js from 9.15.10 to 10.1.2 in /extensions/markdown-language-features",
+                        "closedAt": "2020-12-01T01:32:46Z",
+                        "createdAt": "2020-11-25T00:27:05Z",
+                        "publishedAt": "2020-11-25T00:27:05Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-01T01:32:46Z"
+                    },
+                    {
+                        "title": "Fix error message",
+                        "closedAt": "2020-11-25T05:17:05Z",
+                        "createdAt": "2020-11-25T04:22:39Z",
+                        "publishedAt": "2020-11-25T04:22:39Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T05:17:05Z"
+                    },
+                    {
+                        "title": "Add workspace tagging for java",
+                        "closedAt": "2020-12-16T21:53:42Z",
+                        "createdAt": "2020-11-25T13:58:42Z",
+                        "publishedAt": "2020-11-25T13:58:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-16T21:53:42Z"
+                    },
+                    {
+                        "title": "Enable sandbox, contextIsolation and vscode-file for process explorer and issue reporter",
+                        "closedAt": "2020-11-25T15:46:04Z",
+                        "createdAt": "2020-11-25T13:58:58Z",
+                        "publishedAt": "2020-11-25T13:58:58Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-25T15:46:04Z"
+                    },
+                    {
+                        "title": "Prevent unwanted concatenation of \"null\" to feedback URL",
+                        "closedAt": "2020-11-26T08:33:04Z",
+                        "createdAt": "2020-11-25T20:42:52Z",
+                        "publishedAt": "2020-11-25T20:42:52Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-26T08:33:04Z"
+                    },
+                    {
+                        "title": "Adding use of crypto in generating uuid.",
+                        "closedAt": "2020-12-01T11:42:37Z",
+                        "createdAt": "2020-11-26T04:56:31Z",
+                        "publishedAt": "2020-11-26T04:56:31Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Allow status items with error background color (fix #110214)",
+                        "closedAt": "2020-11-27T09:34:23Z",
+                        "createdAt": "2020-11-26T10:22:12Z",
+                        "publishedAt": "2020-11-26T10:22:12Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-27T09:34:23Z"
+                    },
+                    {
+                        "title": "update playwright",
+                        "closedAt": "2020-11-26T15:51:09Z",
+                        "createdAt": "2020-11-26T13:01:52Z",
+                        "publishedAt": "2020-11-26T13:01:52Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-26T15:51:08Z"
+                    },
+                    {
+                        "title": "add preferences icons",
+                        "closedAt": "2020-11-27T10:57:32Z",
+                        "createdAt": "2020-11-26T17:06:41Z",
+                        "publishedAt": "2020-11-26T17:06:41Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-27T10:57:32Z"
+                    },
+                    {
+                        "title": "add extension icons",
+                        "closedAt": "2020-11-27T10:57:47Z",
+                        "createdAt": "2020-11-26T21:01:17Z",
+                        "publishedAt": "2020-11-26T21:01:17Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-27T10:57:47Z"
+                    },
+                    {
+                        "title": "Trusted extension urls",
+                        "closedAt": "2020-11-27T13:58:06Z",
+                        "createdAt": "2020-11-27T09:35:04Z",
+                        "publishedAt": "2020-11-27T09:35:04Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-27T13:58:06Z"
+                    },
+                    {
+                        "title": "externalize notebook items",
+                        "closedAt": "2020-12-01T08:29:14Z",
+                        "createdAt": "2020-11-27T10:39:45Z",
+                        "publishedAt": "2020-11-27T10:39:45Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-01T08:29:14Z"
+                    },
+                    {
+                        "title": "Ben/native tests",
+                        "closedAt": "2020-11-28T13:44:20Z",
+                        "createdAt": "2020-11-28T13:44:00Z",
+                        "publishedAt": "2020-11-28T13:44:00Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-28T13:44:20Z"
+                    },
+                    {
+                        "title": "Show keyboard shortcuts inside integrated terminal in Screencast Mode",
+                        "closedAt": "2021-02-05T16:58:21Z",
+                        "createdAt": "2020-11-28T16:37:42Z",
+                        "publishedAt": "2020-11-28T16:37:42Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Prevent error when reopening markdown preview. (#107205)",
+                        "closedAt": "2020-12-01T01:42:59Z",
+                        "createdAt": "2020-11-28T19:47:48Z",
+                        "publishedAt": "2020-11-28T19:47:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-01T01:42:58Z"
+                    },
+                    {
+                        "title": "Writing additional log entries",
+                        "closedAt": "2020-11-30T08:41:11Z",
+                        "createdAt": "2020-11-30T08:39:08Z",
+                        "publishedAt": "2020-11-30T08:39:08Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Writing additional log entries",
+                        "closedAt": "2020-11-30T08:44:40Z",
+                        "createdAt": "2020-11-30T08:42:27Z",
+                        "publishedAt": "2020-11-30T08:42:27Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Additional information about #111177",
+                        "closedAt": "2020-11-30T12:24:23Z",
+                        "createdAt": "2020-11-30T08:52:53Z",
+                        "publishedAt": "2020-11-30T08:52:53Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update Now",
+                        "closedAt": "2020-11-30T16:40:46Z",
+                        "createdAt": "2020-11-30T16:36:58Z",
+                        "publishedAt": "2020-11-30T16:36:58Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "chore: bump electron@9.3.5",
+                        "closedAt": "2020-11-30T19:24:11Z",
+                        "createdAt": "2020-11-30T17:31:42Z",
+                        "publishedAt": "2020-11-30T17:31:42Z",
+                        "merged": true,
+                        "mergedAt": "2020-11-30T19:24:11Z"
+                    },
+                    {
+                        "title": "Add log information",
+                        "closedAt": "2020-11-30T21:54:06Z",
+                        "createdAt": "2020-11-30T20:14:19Z",
+                        "publishedAt": "2020-11-30T20:14:19Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Handle rejected promise in history delayer when disposing of find widget",
+                        "closedAt": "2020-12-01T17:56:42Z",
+                        "createdAt": "2020-11-30T20:56:32Z",
+                        "publishedAt": "2020-11-30T20:56:32Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-01T17:56:41Z"
+                    },
+                    {
+                        "title": "Add more log information",
+                        "closedAt": "2020-12-07T14:19:19Z",
+                        "createdAt": "2020-11-30T22:00:48Z",
+                        "publishedAt": "2020-11-30T22:00:48Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "add inputOption.activeBorder in dark theme",
+                        "closedAt": null,
+                        "createdAt": "2020-12-01T11:06:29Z",
+                        "publishedAt": "2020-12-01T11:06:29Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "feat: add rename symbol within <script> tags",
+                        "closedAt": "2020-12-09T09:41:03Z",
+                        "createdAt": "2020-12-01T16:37:48Z",
+                        "publishedAt": "2020-12-01T16:37:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-09T09:41:01Z"
+                    },
+                    {
+                        "title": "Update package.json",
+                        "closedAt": "2020-12-02T09:15:18Z",
+                        "createdAt": "2020-12-01T18:45:30Z",
+                        "publishedAt": "2020-12-01T18:45:30Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-02T09:15:18Z"
+                    },
+                    {
+                        "title": "Fix random focus lost issues on CTRL+1/2 for a webview",
+                        "closedAt": "2021-01-08T01:41:30Z",
+                        "createdAt": "2020-12-01T20:59:41Z",
+                        "publishedAt": "2020-12-01T20:59:41Z",
+                        "merged": true,
+                        "mergedAt": "2021-01-08T01:41:29Z"
+                    },
+                    {
+                        "title": "Fix TreeItem inline command enablement",
+                        "closedAt": "2022-03-29T01:59:06Z",
+                        "createdAt": "2020-12-02T07:39:58Z",
+                        "publishedAt": "2020-12-02T07:39:58Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Polish getting started styles",
+                        "closedAt": "2020-12-03T01:48:53Z",
+                        "createdAt": "2020-12-02T23:50:32Z",
+                        "publishedAt": "2020-12-02T23:50:32Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-03T01:48:53Z"
+                    },
+                    {
+                        "title": "Support STATIC_VALUES undefined and null",
+                        "closedAt": "2020-12-11T11:31:04Z",
+                        "createdAt": "2020-12-03T00:22:49Z",
+                        "publishedAt": "2020-12-03T00:22:49Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: disable shm usage in container builds",
+                        "closedAt": "2020-12-09T18:46:36Z",
+                        "createdAt": "2020-12-03T05:24:57Z",
+                        "publishedAt": "2020-12-03T05:24:57Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-09T18:46:36Z"
+                    },
+                    {
+                        "title": "Tweak get started detail pane",
+                        "closedAt": "2020-12-10T18:57:01Z",
+                        "createdAt": "2020-12-03T20:10:03Z",
+                        "publishedAt": "2020-12-03T20:10:03Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-10T18:57:01Z"
+                    },
+                    {
+                        "title": "Kill code processes after each integration test suite run",
+                        "closedAt": "2020-12-03T20:45:02Z",
+                        "createdAt": "2020-12-03T20:44:50Z",
+                        "publishedAt": "2020-12-03T20:44:50Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-03T20:45:02Z"
+                    },
+                    {
+                        "title": "Restore existing multi-root workspaces when opening N folders from the command line",
+                        "closedAt": "2022-03-21T06:57:15Z",
+                        "createdAt": "2020-12-03T20:48:52Z",
+                        "publishedAt": "2020-12-03T20:48:52Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Do not touch current line's indentation when pressing Enter",
+                        "closedAt": "2020-12-08T18:24:27Z",
+                        "createdAt": "2020-12-04T15:46:34Z",
+                        "publishedAt": "2020-12-04T15:46:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-08T18:24:27Z"
+                    },
+                    {
+                        "title": "Fixed tab switch too sensitive when scrolling",
+                        "closedAt": "2020-12-07T17:27:20Z",
+                        "createdAt": "2020-12-04T16:39:50Z",
+                        "publishedAt": "2020-12-04T16:39:50Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Bump highlight.js from 10.1.2 to 10.4.1 in /extensions/markdown-language-features",
+                        "closedAt": "2020-12-11T20:16:11Z",
+                        "createdAt": "2020-12-04T18:14:36Z",
+                        "publishedAt": "2020-12-04T18:14:36Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Only run tests if the tests belong to a known extension",
+                        "closedAt": "2020-12-08T09:15:37Z",
+                        "createdAt": "2020-12-04T22:52:38Z",
+                        "publishedAt": "2020-12-04T22:52:38Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-08T09:15:37Z"
+                    },
+                    {
+                        "title": "compact fold for typescript/javascript, see #3352",
+                        "closedAt": "2021-05-08T15:21:06Z",
+                        "createdAt": "2020-12-05T02:39:57Z",
+                        "publishedAt": "2020-12-05T02:39:57Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Update PHP grammar",
+                        "closedAt": "2021-01-28T18:08:04Z",
+                        "createdAt": "2020-12-05T02:44:35Z",
+                        "publishedAt": "2020-12-05T02:44:35Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "fix: #111917. Change the max-width of debug dover widget to fit-content",
+                        "closedAt": "2020-12-09T13:33:58Z",
+                        "createdAt": "2020-12-05T05:10:49Z",
+                        "publishedAt": "2020-12-05T05:10:49Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Command 'Remote-Containers: Open Folder in Container...' results in an error",
+                        "closedAt": "2020-12-07T09:16:05Z",
+                        "createdAt": "2020-12-05T07:26:54Z",
+                        "publishedAt": "2020-12-05T07:26:54Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-07T09:16:05Z"
+                    },
+                    {
+                        "title": "chore: bump electron@11.0.3",
+                        "closedAt": "2020-12-05T09:54:59Z",
+                        "createdAt": "2020-12-05T08:18:34Z",
+                        "publishedAt": "2020-12-05T08:18:34Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-05T09:54:59Z"
+                    },
+                    {
+                        "title": "Simplify code and improve readability",
+                        "closedAt": "2020-12-06T22:50:33Z",
+                        "createdAt": "2020-12-06T07:18:15Z",
+                        "publishedAt": "2020-12-06T07:18:15Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Changes SVG icon rendering to better match codicons",
+                        "closedAt": "2020-12-09T22:16:19Z",
+                        "createdAt": "2020-12-07T06:49:05Z",
+                        "publishedAt": "2020-12-07T06:49:05Z",
+                        "merged": false,
+                        "mergedAt": null
+                    },
+                    {
+                        "title": "Mitigate #109728",
+                        "closedAt": "2020-12-07T14:03:26Z",
+                        "createdAt": "2020-12-07T10:38:36Z",
+                        "publishedAt": "2020-12-07T10:38:36Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-07T14:03:26Z"
+                    },
+                    {
+                        "title": "Revert \"build: create asset should still try to add asset\"",
+                        "closedAt": "2020-12-07T11:01:09Z",
+                        "createdAt": "2020-12-07T10:59:29Z",
+                        "publishedAt": "2020-12-07T10:59:29Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-07T11:01:09Z"
+                    },
+                    {
+                        "title": "bug fix, see  #112013",
+                        "closedAt": "2020-12-08T16:52:41Z",
+                        "createdAt": "2020-12-07T13:02:48Z",
+                        "publishedAt": "2020-12-07T13:02:48Z",
+                        "merged": true,
+                        "mergedAt": "2020-12-08T16:52:41Z"
+                    }
+                ]
+            }
+        }
+    }
+}
