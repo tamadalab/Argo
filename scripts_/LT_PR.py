@@ -19,12 +19,13 @@ def Prep(file):
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month) + "/" + str(dt_now.day)
 
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,0]) 
-        if isinstance(csv_input.iat[i,2], float): # closeされていないときは現在時刻(YYYY-MM/DD)を格納
+        create_list.append(csv_input.iat[i,2]) 
+        if isinstance(csv_input.iat[i,5], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            mergetime_list.append(csv_input.iat[i,2])
+            mergetime_list.append(csv_input.iat[i,5])
     
+    print(mergetime_list)
     # create, closedate取得
     keys = []
     diff = Diff(dt_YearMonth, create_list[0])
@@ -56,10 +57,10 @@ def Prep(file):
                 std = std + 1
         i = i + 1
     
-    # Issue生存時間の取得
+    # PullRequest生存時間の取得
     livetime_list = LiveTime(create_list, mergetime_list)
 
-    # 残Issue期間の取得
+    # 残PullRequest期間の取得
     remIssue_prd = []
     for i in range(len(create_list)):
         # Year_difference
@@ -162,14 +163,14 @@ def main(arg, format, dir_path, write_data):
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/date/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         years = Scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/date/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         year = dict[3]
         if year[0] == years[0]:
@@ -181,7 +182,7 @@ def main(arg, format, dir_path, write_data):
 
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, accum, scale, year
-        label = re.findall("a/(.*)/P", str(files[i]))
+        label = re.findall("e/(.*)/p", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[1], write_data)

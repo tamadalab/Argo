@@ -8,8 +8,8 @@ import sys
 import os
 import re
 import collections
-import csv
 import fig_process
+import itertools
 
 
 # データの前処理
@@ -24,8 +24,11 @@ def Prep(file):
     # cratedAt, closedAtの読み込み
     for i in range(0, len(csv_input.index)):
         additions.append(csv_input.iat[i,0])
-        deletions.append(csv_input.iat[i,2])
-        create_list.append(csv_input.iat[i,1])
+        deletions.append(csv_input.iat[i,3])
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,2]))
+
+    create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
+    print(create_list)
     c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
 
     #年単位での目盛位置の取得
@@ -101,14 +104,14 @@ def main(arg, format, dir_path, write_data):
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         years = Scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         year = dict[3]
         if year[0] == years[0]:
@@ -118,7 +121,7 @@ def main(arg, format, dir_path, write_data):
 
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, scale, year, r_ris
-        label = re.findall("a/(.*)/P", str(files[i]))
+        label = re.findall("e/(.*)/p", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[1], write_data)

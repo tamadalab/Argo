@@ -21,20 +21,19 @@ def Prep(file):
     dt_now = datetime.datetime.now()
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month)
     totalCount_list = []
+    participant_list = []
 
     # cratedAt, merged,mergedAt participant_totalCountの読み込み，取得
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,0]) 
-        merge_list.append(csv_input.iat[i,1])
-        if not isinstance(csv_input.iat[i,2], float): # mergeされていないときは現在時刻(YYYY-MM)を格納
-            mergetime_list.append(csv_input.iat[i,2])
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,2]))
+        merge_list.append(csv_input.iat[i,4])
+        if not isinstance(csv_input.iat[i,5], float): # mergeされていないときは現在時刻(YYYY-MM)を格納
+            mergetime_list.append((re.findall("(.*)/", csv_input.iat[i,5])))
             if csv_input.iat[i,2] != None:
-                totalCount_list.append(re.findall(" (.*)}", csv_input.iat[i,3]))
-    # 2次元リスト(totalCount_list)の平坦化
-    participant_list = [x for row in totalCount_list for x in row]
+                participant_list.append(csv_input.iat[i,6])
     # mergetime_listの年代別ソート
-    for i in range(len(mergetime_list)):
-        mergetime_list[i] = mergetime_list[i] + "-1"
+    mergetime_list = list(itertools.chain.from_iterable(mergetime_list)) # itertoolsでcreate_listを平坦化する．
+    mergetime_list = list(map(lambda s: s + '-1', mergetime_list))    
     mergetime_list = sorted(mergetime_list, key=lambda x: datetime.date(datetime.datetime.strptime(x, '%Y-%m-%d').year, datetime.datetime.strptime(x, '%Y-%m-%d').month, datetime.datetime.strptime(x, '%Y-%m-%d').day))
     c = collections.Counter(mergetime_list) #辞書型  c = {"~~" : n ,,,} 
 
@@ -153,14 +152,14 @@ def main(arg, format, dir_path, write_data):
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         years = Scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         year = dict[3]
         if year[0] == years[0]:
@@ -170,7 +169,7 @@ def main(arg, format, dir_path, write_data):
 
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, scale, year, r_mgpr
-        label = re.findall("a/(.*)/P", str(files[i]))
+        label = re.findall("e/(.*)/p", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[4], dict[0], write_data)
