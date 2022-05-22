@@ -8,6 +8,7 @@ import os
 import re
 import collections
 import fig_process
+import itertools
 
 # データの前処理
 def Prep(file):
@@ -15,15 +16,20 @@ def Prep(file):
     create_list = []
     close_list = []
     dt_now = datetime.datetime.now()
+    now_date = []
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month)
+    now_date.append(dt_YearMonth)
 
-    # cratedAt, closedAtの読み込み
+
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,1]) 
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
         if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
-            close_list.append(dt_YearMonth)
+            close_list.append(now_date)
         else:
-            close_list.append(csv_input.iat[i,0])
+            close_month = re.findall("(.*)/", csv_input.iat[i,0])
+            close_list.append(close_month)
+    create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
+    close_list = list(itertools.chain.from_iterable(close_list)) # itertoolsでcreate_listを平坦化する．
     c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
 
     # create, closedate取得

@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 441,
+                "nodes": [
+                    {
+                        "title": "PHP 8.0.15 - OPCache compilation issue on `aarch64-darwin` ?",
+                        "url": "https://github.com/php/php-src/issues/8101",
+                        "createdAt": "2022-02-15T08:55:53Z",
+                        "closedAt": "2022-04-01T13:31:20Z"
+                    },
+                    {
+                        "title": "__invoke magic method doesn't work",
+                        "url": "https://github.com/php/php-src/issues/8103",
+                        "createdAt": "2022-02-15T16:41:34Z",
+                        "closedAt": "2022-02-15T17:20:46Z"
+                    },
+                    {
+                        "title": "Improve open_basedir restriction warning",
+                        "url": "https://github.com/php/php-src/issues/8104",
+                        "createdAt": "2022-02-15T19:30:21Z",
+                        "closedAt": "2022-02-21T12:08:08Z"
+                    },
+                    {
+                        "title": "PHP 8.1 Timezone doesn't work as intended",
+                        "url": "https://github.com/php/php-src/issues/8108",
+                        "createdAt": "2022-02-17T12:21:53Z",
+                        "closedAt": "2022-04-01T12:29:37Z"
+                    },
+                    {
+                        "title": "GitHub issues scripts must not run on forks",
+                        "url": "https://github.com/php/php-src/issues/8111",
+                        "createdAt": "2022-02-17T18:50:22Z",
+                        "closedAt": "2022-02-19T10:30:20Z"
+                    },
+                    {
+                        "title": "PDO_ODBC segfaults on \"new \\PDO\"",
+                        "url": "https://github.com/php/php-src/issues/8112",
+                        "createdAt": "2022-02-17T20:23:44Z",
+                        "closedAt": "2022-03-04T00:07:15Z"
+                    },
+                    {
+                        "title": "Php crashing with a TypeError even when declare(strict_types=1) is not set, or even set to strict_types=0",
+                        "url": "https://github.com/php/php-src/issues/8113",
+                        "createdAt": "2022-02-17T20:46:25Z",
+                        "closedAt": "2022-02-27T12:26:22Z"
+                    },
+                    {
+                        "title": "Could not catch deprecation notice from IntlDateFormatter()",
+                        "url": "https://github.com/php/php-src/issues/8115",
+                        "createdAt": "2022-02-18T03:39:15Z",
+                        "closedAt": "2022-03-03T10:27:55Z"
+                    },
+                    {
+                        "title": "PHP 8.1 Failed to set memory limit to ... bytes (Current memory usage is ... bytes)",
+                        "url": "https://github.com/php/php-src/issues/8116",
+                        "createdAt": "2022-02-18T05:36:30Z",
+                        "closedAt": "2022-03-03T10:07:03Z"
+                    },
+                    {
+                        "title": "Building `gd` ext takes 37x more time since PHP 8.1",
+                        "url": "https://github.com/php/php-src/issues/8118",
+                        "createdAt": "2022-02-18T12:44:19Z",
+                        "closedAt": "2022-02-19T15:31:35Z"
+                    },
+                    {
+                        "title": "mysqli blank error",
+                        "url": "https://github.com/php/php-src/issues/8120",
+                        "createdAt": "2022-02-19T05:42:42Z",
+                        "closedAt": "2022-02-19T05:58:53Z"
+                    },
+                    {
+                        "title": "SplFileObject - Inconsistent behavior of seek and key with csv file",
+                        "url": "https://github.com/php/php-src/issues/8121",
+                        "createdAt": "2022-02-20T05:16:50Z",
+                        "closedAt": "2022-03-08T16:00:15Z"
+                    },
+                    {
+                        "title": "Bug with Hash Comments",
+                        "url": "https://github.com/php/php-src/issues/8122",
+                        "createdAt": "2022-02-20T06:07:59Z",
+                        "closedAt": "2022-02-20T06:20:28Z"
+                    },
+                    {
+                        "title": "PHP 8.0.16 opcache segfault on Linux amd64",
+                        "url": "https://github.com/php/php-src/issues/8123",
+                        "createdAt": "2022-02-20T09:41:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "(JIT?) PHP-FPM 8.1.2 segfault on Linux amd64",
+                        "url": "https://github.com/php/php-src/issues/8125",
+                        "createdAt": "2022-02-20T21:25:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "unexpected results stored depending on variables",
+                        "url": "https://github.com/php/php-src/issues/8126",
+                        "createdAt": "2022-02-21T02:01:49Z",
+                        "closedAt": "2022-02-21T06:42:52Z"
+                    },
+                    {
+                        "title": "mb_check_encoding wrong result for 7bit",
+                        "url": "https://github.com/php/php-src/issues/8128",
+                        "createdAt": "2022-02-21T10:05:24Z",
+                        "closedAt": "2022-02-22T22:01:37Z"
+                    },
+                    {
+                        "title": "Segmentation fault local user",
+                        "url": "https://github.com/php/php-src/issues/8129",
+                        "createdAt": "2022-02-21T10:45:45Z",
+                        "closedAt": "2022-02-21T12:29:46Z"
+                    },
+                    {
+                        "title": "mb_convert_case does not convert upper case letters",
+                        "url": "https://github.com/php/php-src/issues/8132",
+                        "createdAt": "2022-02-21T18:35:01Z",
+                        "closedAt": "2022-02-21T19:06:58Z"
+                    },
+                    {
+                        "title": "Constants in Enum classes causes php-fpm worker to segfault",
+                        "url": "https://github.com/php/php-src/issues/8133",
+                        "createdAt": "2022-02-21T23:39:17Z",
+                        "closedAt": "2022-04-21T09:59:26Z"
+                    },
+                    {
+                        "title": "ftp_nlist memory leak",
+                        "url": "https://github.com/php/php-src/issues/8136",
+                        "createdAt": "2022-02-22T11:51:48Z",
+                        "closedAt": "2022-02-22T16:00:14Z"
+                    },
+                    {
+                        "title": "DOMDocument::loadHTML everything after null character is not parsed",
+                        "url": "https://github.com/php/php-src/issues/8137",
+                        "createdAt": "2022-02-22T14:42:29Z",
+                        "closedAt": "2022-02-22T15:41:28Z"
+                    },
+                    {
+                        "title": "First Class Callable Syntax issue with OpCache",
+                        "url": "https://github.com/php/php-src/issues/8140",
+                        "createdAt": "2022-02-22T21:25:21Z",
+                        "closedAt": "2022-02-24T09:39:46Z"
+                    },
+                    {
+                        "title": "Compilation error on cygwin",
+                        "url": "https://github.com/php/php-src/issues/8142",
+                        "createdAt": "2022-02-23T06:04:54Z",
+                        "closedAt": "2022-03-04T15:22:44Z"
+                    },
+                    {
+                        "title": "Crashes in zend_accel_inheritance_cache_find since upgrading to 8.1.3 due to corrupt on-disk file cache",
+                        "url": "https://github.com/php/php-src/issues/8143",
+                        "createdAt": "2022-02-23T10:36:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ext/opcache/tests/jit/assign_dim_op_007.phpt fails",
+                        "url": "https://github.com/php/php-src/issues/8147",
+                        "createdAt": "2022-02-23T21:43:10Z",
+                        "closedAt": "2022-02-28T11:42:05Z"
+                    },
+                    {
+                        "title": "mysqli_query returns fatal error when table in query doesn't exist",
+                        "url": "https://github.com/php/php-src/issues/8148",
+                        "createdAt": "2022-02-24T03:16:09Z",
+                        "closedAt": "2022-02-24T06:05:11Z"
+                    },
+                    {
+                        "title": "php-fpm8.1: segfault at ... ip ... sp ... error 4 in opcache.so",
+                        "url": "https://github.com/php/php-src/issues/8149",
+                        "createdAt": "2022-02-24T10:40:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "locale + bcmath = \"function argument is not well-formed\"",
+                        "url": "https://github.com/php/php-src/issues/8150",
+                        "createdAt": "2022-02-24T13:27:48Z",
+                        "closedAt": "2022-02-24T13:36:03Z"
+                    },
+                    {
+                        "title": "Cannot hydrate a DateTime instance created without the constructor",
+                        "url": "https://github.com/php/php-src/issues/8152",
+                        "createdAt": "2022-02-24T21:28:36Z",
+                        "closedAt": "2022-05-05T10:03:46Z"
+                    },
+                    {
+                        "title": "DateTime->sub produces different value than on older versions",
+                        "url": "https://github.com/php/php-src/issues/8153",
+                        "createdAt": "2022-02-25T15:47:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "AVIF export very bad quality",
+                        "url": "https://github.com/php/php-src/issues/8154",
+                        "createdAt": "2022-02-25T20:26:55Z",
+                        "closedAt": "2022-02-27T11:09:00Z"
+                    },
+                    {
+                        "title": "std_object_handlers not interceptable?",
+                        "url": "https://github.com/php/php-src/issues/8155",
+                        "createdAt": "2022-02-26T15:42:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Classes extending `IteratorAggregate` can not implement `RecursiveIterator`",
+                        "url": "https://github.com/php/php-src/issues/8156",
+                        "createdAt": "2022-02-28T00:29:22Z",
+                        "closedAt": "2022-02-28T02:10:32Z"
+                    },
+                    {
+                        "title": "post_max_size evaluates .user.ini too late in php-fpm?",
+                        "url": "https://github.com/php/php-src/issues/8157",
+                        "createdAt": "2022-02-28T17:15:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Event extension cannot be installed under docker",
+                        "url": "https://github.com/php/php-src/issues/8158",
+                        "createdAt": "2022-03-01T05:53:13Z",
+                        "closedAt": "2022-03-01T06:09:29Z"
+                    },
+                    {
+                        "title": "Apache / PHP segfaults (PHP 8.0 and 8.1, but also 7.4)",
+                        "url": "https://github.com/php/php-src/issues/8159",
+                        "createdAt": "2022-03-01T09:27:25Z",
+                        "closedAt": "2022-03-11T13:44:43Z"
+                    },
+                    {
+                        "title": "ZTS support on Alpine is broken",
+                        "url": "https://github.com/php/php-src/issues/8160",
+                        "createdAt": "2022-03-01T12:47:31Z",
+                        "closedAt": "2022-03-11T13:44:08Z"
+                    },
+                    {
+                        "title": "sapi_send_headers bug",
+                        "url": "https://github.com/php/php-src/issues/8162",
+                        "createdAt": "2022-03-02T08:21:05Z",
+                        "closedAt": "2022-03-02T10:35:35Z"
+                    },
+                    {
+                        "title": "PHP8.1.3. opcache bug with monolog/monolog",
+                        "url": "https://github.com/php/php-src/issues/8164",
+                        "createdAt": "2022-03-02T09:57:50Z",
+                        "closedAt": "2022-05-07T00:05:37Z"
+                    },
+                    {
+                        "title": "Cannot stream request using CURLOPT_READFUNCTION without chunked encoding",
+                        "url": "https://github.com/php/php-src/issues/8165",
+                        "createdAt": "2022-03-02T10:57:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "PHP 8.1.3 *Iterator bug",
+                        "url": "https://github.com/php/php-src/issues/8167",
+                        "createdAt": "2022-03-03T16:29:14Z",
+                        "closedAt": "2022-03-04T12:42:15Z"
+                    },
+                    {
+                        "title": "`php --version` should show JIT status",
+                        "url": "https://github.com/php/php-src/issues/8168",
+                        "createdAt": "2022-03-04T09:27:04Z",
+                        "closedAt": "2022-03-04T10:45:49Z"
+                    },
+                    {
+                        "title": "ceil() misbehaviour",
+                        "url": "https://github.com/php/php-src/issues/8169",
+                        "createdAt": "2022-03-04T09:54:48Z",
+                        "closedAt": "2022-03-04T10:31:11Z"
+                    },
+                    {
+                        "title": "Provide pre-built Windows debug binaries",
+                        "url": "https://github.com/php/php-src/issues/8170",
+                        "createdAt": "2022-03-04T10:00:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "PHP-FPM : Option to suppress \"/ping\" from logs -- patch file given",
+                        "url": "https://github.com/php/php-src/issues/8174",
+                        "createdAt": "2022-03-06T15:34:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Using enum objects in property initializers leaks",
+                        "url": "https://github.com/php/php-src/issues/8176",
+                        "createdAt": "2022-03-07T01:49:50Z",
+                        "closedAt": "2022-03-07T17:27:50Z"
+                    },
+                    {
+                        "title": "。",
+                        "url": "https://github.com/php/php-src/issues/8178",
+                        "createdAt": "2022-03-07T03:54:34Z",
+                        "closedAt": "2022-03-07T04:04:23Z"
+                    },
+                    {
+                        "title": "The current() method of SplFileObject has a very low probability of not returning complete data",
+                        "url": "https://github.com/php/php-src/issues/8182",
+                        "createdAt": "2022-03-08T07:38:19Z",
+                        "closedAt": "2022-03-11T00:43:45Z"
+                    },
+                    {
+                        "title": "New functions array_avg and array_median",
+                        "url": "https://github.com/php/php-src/issues/8183",
+                        "createdAt": "2022-03-09T13:35:59Z",
+                        "closedAt": "2022-04-15T13:02:31Z"
+                    },
+                    {
+                        "title": "pear install: error in malloc_consolidate",
+                        "url": "https://github.com/php/php-src/issues/8185",
+                        "createdAt": "2022-03-10T07:48:52Z",
+                        "closedAt": "2022-05-06T13:30:28Z"
+                    },
+                    {
+                        "title": "Cannot override DirectoryIterator::current() without return typehint in 8.1",
+                        "url": "https://github.com/php/php-src/issues/8192",
+                        "createdAt": "2022-03-11T23:41:43Z",
+                        "closedAt": "2022-03-12T16:37:41Z"
+                    },
+                    {
+                        "title": "opcache crashes on Ubuntu 21.10 - php 8.0.8 (segfault) both within apache2 and cli",
+                        "url": "https://github.com/php/php-src/issues/8193",
+                        "createdAt": "2022-03-12T17:17:35Z",
+                        "closedAt": "2022-03-12T20:58:29Z"
+                    },
+                    {
+                        "title": "`OCIStmtFetch2 in -lclntsh...` check is always `no` on Alpine",
+                        "url": "https://github.com/php/php-src/issues/8197",
+                        "createdAt": "2022-03-13T17:10:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Ahead of Time Compiler/AOT for PHP8?",
+                        "url": "https://github.com/php/php-src/issues/8203",
+                        "createdAt": "2022-03-16T04:23:19Z",
+                        "closedAt": "2022-04-15T12:37:08Z"
+                    },
+                    {
+                        "title": "Nullsafe Operator doesn't work with uninitialized properties",
+                        "url": "https://github.com/php/php-src/issues/8204",
+                        "createdAt": "2022-03-16T06:37:00Z",
+                        "closedAt": "2022-03-16T08:12:38Z"
+                    },
+                    {
+                        "title": "America/Los_Angeles should match PDT on 2022-03-15",
+                        "url": "https://github.com/php/php-src/issues/8205",
+                        "createdAt": "2022-03-16T10:29:32Z",
+                        "closedAt": "2022-03-16T11:07:53Z"
+                    },
+                    {
+                        "title": "filenames in multipart/form-data are not percent decoded",
+                        "url": "https://github.com/php/php-src/issues/8206",
+                        "createdAt": "2022-03-16T19:16:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mb_encode_mimeheader: $indent functionality broken",
+                        "url": "https://github.com/php/php-src/issues/8208",
+                        "createdAt": "2022-03-17T03:55:55Z",
+                        "closedAt": "2022-03-17T16:36:26Z"
+                    },
+                    {
+                        "title": "Opcache enable Crash Core dump",
+                        "url": "https://github.com/php/php-src/issues/8209",
+                        "createdAt": "2022-03-17T08:40:58Z",
+                        "closedAt": "2022-03-23T06:43:35Z"
+                    },
+                    {
+                        "title": "ob_start('ob_gzhandler') in 8.1.4 fails",
+                        "url": "https://github.com/php/php-src/issues/8210",
+                        "createdAt": "2022-03-17T09:17:47Z",
+                        "closedAt": "2022-03-18T08:20:57Z"
+                    },
+                    {
+                        "title": "Segment fault 11 when trying to catch exception",
+                        "url": "https://github.com/php/php-src/issues/8211",
+                        "createdAt": "2022-03-17T09:22:54Z",
+                        "closedAt": "2022-04-12T10:22:27Z"
+                    },
+                    {
+                        "title": "new DateTime(\"@\".$timestamp) should not crash (throws fatal error) with empty timestamp",
+                        "url": "https://github.com/php/php-src/issues/8217",
+                        "createdAt": "2022-03-18T12:35:38Z",
+                        "closedAt": "2022-03-18T13:10:34Z"
+                    },
+                    {
+                        "title": "ob_end_clean does not reset Content-Encoding header",
+                        "url": "https://github.com/php/php-src/issues/8218",
+                        "createdAt": "2022-03-18T13:54:19Z",
+                        "closedAt": "2022-04-25T12:31:36Z"
+                    },
+                    {
+                        "title": "Stream Wrapper + Stream Filter cannot longer alter PHP file since PHP 7.4",
+                        "url": "https://github.com/php/php-src/issues/8219",
+                        "createdAt": "2022-03-18T14:16:14Z",
+                        "closedAt": "2022-03-21T11:55:46Z"
+                    },
+                    {
+                        "title": "Compile php with mbstring result in `symbol lookup error: mbstring.so: undefined symbol: pcre2_compile_8`",
+                        "url": "https://github.com/php/php-src/issues/8227",
+                        "createdAt": "2022-03-20T06:49:45Z",
+                        "closedAt": "2022-03-20T14:54:47Z"
+                    },
+                    {
+                        "title": "CONTRIBUTING.md \"Filing bugs\" section is still bugs.php.net",
+                        "url": "https://github.com/php/php-src/issues/8228",
+                        "createdAt": "2022-03-20T11:35:39Z",
+                        "closedAt": "2022-03-20T19:28:07Z"
+                    },
+                    {
+                        "title": "`var_export()` combined with `enum` produces code unsuitable for inclusion in namespaces ",
+                        "url": "https://github.com/php/php-src/issues/8232",
+                        "createdAt": "2022-03-21T12:31:23Z",
+                        "closedAt": "2022-04-23T09:08:02Z"
+                    },
+                    {
+                        "title": "iterator_count runs indefinitely if iterator doesn't complete",
+                        "url": "https://github.com/php/php-src/issues/8235",
+                        "createdAt": "2022-03-21T16:27:24Z",
+                        "closedAt": "2022-05-03T11:01:29Z"
+                    },
+                    {
+                        "title": "\\SplFileObject->seek() behaviour has changed (between 8.0.13 - 8.0.16 and 8.1.0-8.1.3)",
+                        "url": "https://github.com/php/php-src/issues/8236",
+                        "createdAt": "2022-03-21T17:12:51Z",
+                        "closedAt": "2022-03-21T18:28:38Z"
+                    },
+                    {
+                        "title": "Expose new constant for JSON_ERROR_NON_BACKED_ENUM",
+                        "url": "https://github.com/php/php-src/issues/8238",
+                        "createdAt": "2022-03-22T04:35:51Z",
+                        "closedAt": "2022-03-31T12:31:59Z"
+                    },
+                    {
+                        "title": "For php://input fread() writes temp files",
+                        "url": "https://github.com/php/php-src/issues/8239",
+                        "createdAt": "2022-03-22T12:09:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Misleading error message on popen() when /bin/sh is missing",
+                        "url": "https://github.com/php/php-src/issues/8240",
+                        "createdAt": "2022-03-22T14:31:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SSE terminate the script & proc_open leaves child's running in background",
+                        "url": "https://github.com/php/php-src/issues/8242",
+                        "createdAt": "2022-03-23T11:31:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Allow to show_source and highlight_file method to highlight a specific line with a different pattern",
+                        "url": "https://github.com/php/php-src/issues/8243",
+                        "createdAt": "2022-03-23T21:39:19Z",
+                        "closedAt": "2022-04-15T13:04:32Z"
+                    },
+                    {
+                        "title": "PHP Deprecated for NULL",
+                        "url": "https://github.com/php/php-src/issues/8245",
+                        "createdAt": "2022-03-24T14:21:46Z",
+                        "closedAt": "2022-03-24T14:23:35Z"
+                    },
+                    {
+                        "title": "PHP Deprecated:  number_format(): Passing null",
+                        "url": "https://github.com/php/php-src/issues/8246",
+                        "createdAt": "2022-03-24T14:25:16Z",
+                        "closedAt": "2022-03-24T14:41:11Z"
+                    },
+                    {
+                        "title": "PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate column name",
+                        "url": "https://github.com/php/php-src/issues/8249",
+                        "createdAt": "2022-03-25T13:08:39Z",
+                        "closedAt": "2022-03-25T13:20:14Z"
+                    },
+                    {
+                        "title": "Apache 2.4.53 & PHP 8.1.4 & Laravel 9 access violation in emalloc (Windows/10)",
+                        "url": "https://github.com/php/php-src/issues/8250",
+                        "createdAt": "2022-03-25T14:17:08Z",
+                        "closedAt": "2022-03-28T16:19:17Z"
+                    },
+                    {
+                        "title": "Narrowing occurred during type inference of ZEND_FETCH_DIM_W",
+                        "url": "https://github.com/php/php-src/issues/8251",
+                        "createdAt": "2022-03-25T15:32:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Cannot download php source with ruby rest client",
+                        "url": "https://github.com/php/php-src/issues/8252",
+                        "createdAt": "2022-03-25T18:22:55Z",
+                        "closedAt": "2022-03-28T13:17:14Z"
+                    },
+                    {
+                        "title": "pg_insert fails if one of the values has been passed by reference",
+                        "url": "https://github.com/php/php-src/issues/8253",
+                        "createdAt": "2022-03-26T05:26:36Z",
+                        "closedAt": "2022-03-29T08:55:15Z"
+                    },
+                    {
+                        "title": "mb_convert_encoding does not work in PHP 8.1.4",
+                        "url": "https://github.com/php/php-src/issues/8254",
+                        "createdAt": "2022-03-26T16:53:20Z",
+                        "closedAt": "2022-03-27T06:01:24Z"
+                    },
+                    {
+                        "title": "Problem with now() in PostgreSQL drivers and switch to British Summer Time",
+                        "url": "https://github.com/php/php-src/issues/8258",
+                        "createdAt": "2022-03-28T01:02:01Z",
+                        "closedAt": "2022-04-12T00:06:09Z"
+                    },
+                    {
+                        "title": "Adding a DateInterval during switch to DST can result in incorrect times",
+                        "url": "https://github.com/php/php-src/issues/8260",
+                        "createdAt": "2022-03-28T08:46:43Z",
+                        "closedAt": "2022-04-01T12:31:21Z"
+                    },
+                    {
+                        "title": "'\\0' is 0 or !0  ",
+                        "url": "https://github.com/php/php-src/issues/8264",
+                        "createdAt": "2022-03-28T13:51:46Z",
+                        "closedAt": "2022-03-28T14:02:06Z"
+                    },
+                    {
+                        "title": "MySQLi uses unsupported format specifier on Windows",
+                        "url": "https://github.com/php/php-src/issues/8267",
+                        "createdAt": "2022-03-29T11:12:30Z",
+                        "closedAt": "2022-04-07T15:08:02Z"
+                    },
+                    {
+                        "title": "Exceptions thrown during yield operation fall through the generator instead of being handled within",
+                        "url": "https://github.com/php/php-src/issues/8269",
+                        "createdAt": "2022-03-29T11:30:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SplFileObject method seek doesn't work as expected",
+                        "url": "https://github.com/php/php-src/issues/8270",
+                        "createdAt": "2022-03-29T12:45:59Z",
+                        "closedAt": "2022-03-29T13:12:38Z"
+                    },
+                    {
+                        "title": "SplFileObject: key() returns wrong value",
+                        "url": "https://github.com/php/php-src/issues/8273",
+                        "createdAt": "2022-03-29T19:25:38Z",
+                        "closedAt": "2022-04-23T13:02:51Z"
+                    },
+                    {
+                        "title": "Parameter bug",
+                        "url": "https://github.com/php/php-src/issues/8274",
+                        "createdAt": "2022-03-30T05:07:02Z",
+                        "closedAt": "2022-03-30T05:11:43Z"
+                    },
+                    {
+                        "title": "Function strtotime(\"-x month\", ...) returns different month if the date part is 01-28 or  >=29. Additionally different behaviour for leap and non-leap years",
+                        "url": "https://github.com/php/php-src/issues/8275",
+                        "createdAt": "2022-03-30T07:24:43Z",
+                        "closedAt": "2022-03-30T07:32:24Z"
+                    },
+                    {
+                        "title": "DateTime::createFromFormat(\"Y/m\") will create bad date",
+                        "url": "https://github.com/php/php-src/issues/8278",
+                        "createdAt": "2022-03-30T12:18:31Z",
+                        "closedAt": "2022-03-30T12:38:49Z"
+                    },
+                    {
+                        "title": "mb_detect_encoding does not return the first matching encoding anymore",
+                        "url": "https://github.com/php/php-src/issues/8279",
+                        "createdAt": "2022-03-30T13:15:48Z",
+                        "closedAt": "2022-03-31T09:33:43Z"
+                    },
+                    {
+                        "title": "mb_convert_encoding \"\\\" (backslash) and \"~\" (tilde) convert failed to Shift_JIS",
+                        "url": "https://github.com/php/php-src/issues/8281",
+                        "createdAt": "2022-03-30T14:27:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "oops, unknown child exited with code 0",
+                        "url": "https://github.com/php/php-src/issues/8282",
+                        "createdAt": "2022-03-30T18:43:55Z",
+                        "closedAt": "2022-03-31T19:03:18Z"
+                    },
+                    {
+                        "title": "Performance: array_reduce is drastically slower (~1000x) than implementing the same logic with foreach",
+                        "url": "https://github.com/php/php-src/issues/8283",
+                        "createdAt": "2022-03-30T21:35:22Z",
+                        "closedAt": "2022-04-14T14:49:35Z"
+                    },
+                    {
+                        "title": "Exceptions thrown within a yielded from iterator are not rethrown into the generator",
+                        "url": "https://github.com/php/php-src/issues/8289",
+                        "createdAt": "2022-04-01T14:18:24Z",
+                        "closedAt": "2022-04-01T15:39:03Z"
+                    },
+                    {
+                        "title": "bcsub incorrect result when second operand precision is higher than the scale applied to the result",
+                        "url": "https://github.com/php/php-src/issues/8291",
+                        "createdAt": "2022-04-01T15:49:13Z",
+                        "closedAt": "2022-04-16T00:06:40Z"
+                    },
+                    {
+                        "title": "Numeric casts could emit a warning it they do not make sense",
+                        "url": "https://github.com/php/php-src/issues/8296",
+                        "createdAt": "2022-04-03T11:12:48Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHORvusMg==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}
