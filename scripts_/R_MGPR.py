@@ -8,6 +8,7 @@ import os
 import re
 import collections
 import fig_process
+import itertools
 
 # データの前処理
 def Prep(file):
@@ -21,19 +22,20 @@ def Prep(file):
 
     # cratedAt, closedAt, mergedAtの読み込み，取得
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,1]) 
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
         merge_list.append(csv_input.iat[i,2])
         if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
             close_list.append(dt_YearMonth)
         else:
-            close_list.append(csv_input.iat[i,0])
+            close_list.append(re.findall("(.*)/",csv_input.iat[i,0]))
         if isinstance(csv_input.iat[i,3], float): # mergeされていないときは現在時刻(YYYY-MM)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            mergetime_list.append(csv_input.iat[i,3])
-    c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
+            mergetime_list.append(re.findall("(.*)/", csv_input.iat[i,3]))
+    create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
+    c = collections.Counter(create_list) # 辞書型  c = {"~~" : n ,,,} 
 
-    #年単位での目盛位置の取得
+    # 年単位での目盛位置の取得
     year = []
     scale = []
     i = 0
@@ -126,7 +128,7 @@ def Diff(now_create, first_create):
 
 def Com_Plot(file, keys, r_ris):
     plt.plot(keys, r_ris, label = file, marker = ".",)
-    plt.legend() #ラベルの表示
+    plt.legend() # ラベルの表示
     plt.title("R_MGPR")
     plt.xlabel("date")
     plt.ylabel("percent")
@@ -150,14 +152,14 @@ def main(arg, format, dir_path, write_data):
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         years = Scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "PullRequest/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
         dict = Prep(file)
         year = dict[3]
         if year[0] == years[0]:
@@ -167,14 +169,14 @@ def main(arg, format, dir_path, write_data):
 
     # plot
     for i in range(len(files)):
-        dict = Prep(files[i]) #keys, values, scale, year, r_ris
-        label = re.findall("a/(.*)/P", str(files[i]))
+        dict = Prep(files[i]) # keys, values, scale, year, r_ris
+        label = (re.findall("e/(.*)/p", str(files[i])))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[4], dict[5], write_data)
-        Com_Plot(label, dict[0], dict[4]) #比較グラフ作成関数
+        Com_Plot(label, dict[0], dict[4]) # 比較グラフ作成関数
         if i == 0:
-            plt.xticks(dict[2], dict[3]) #年単位ごとの目盛の再描画
+            plt.xticks(dict[2], dict[3]) # 年単位ごとの目盛の再描画
 
     # グラフ保存
     fig_process.makedir(dir_path)
@@ -182,7 +184,7 @@ def main(arg, format, dir_path, write_data):
         fig_process.savefig(figure, dir_path + '/' + "R_MGPR", format)
 
     # グラフ描画
-    plt.tight_layout() #グラフ位置の調整
+    plt.tight_layout() # グラフ位置の調整
     plt.show()
 
 if __name__ == "__main__":
@@ -192,4 +194,3 @@ if __name__ == "__main__":
     dir_path = 'Graph_image'
     write_data = None
     main(arg, format, dir_path, write_data)
-
