@@ -162,14 +162,14 @@ def main(arg, format, dir_path, write_data):
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "Issues/date/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "issues/CSV/total.csv")
         dict = Prep(file)
         years = Scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "Issues/date/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "issues/CSV/total.csv")
         dict = Prep(file)
         year = dict[3]
         if year[0] == years[0]:
@@ -179,7 +179,7 @@ def main(arg, format, dir_path, write_data):
 
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, accum, scale, year
-        label = re.findall("a/(.*)/I", str(files[i]))
+        label = re.findall("e/(.*)/i", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[1])
