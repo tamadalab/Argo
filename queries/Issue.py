@@ -96,13 +96,13 @@ def export(file_name, dir_path):
         
         created_utc = createdAt.replace('Z', '')
         d = datetime.datetime.fromisoformat(created_utc).date()
-        createdt = str(d.year) + "-" + str(d.month)#+ "/" + str(d.day)
+        createdt = str(d.year) + "-" + str(d.month)+ "/" + str(d.day)
         if not closedAt: # closeされていないとき
             closedt = "null"
         else:    
             closedt_utc = closedAt.replace('Z', '')
             d = datetime.datetime.fromisoformat(closedt_utc).date()
-            closedt = str(d.year) + "-" + str(d.month)# + "/" + str(d.day)
+            closedt = str(d.year) + "-" + str(d.month) + "/" + str(d.day)
 
         temp_n = [title, url, createdt, closedt]
         nodes.append(temp_n)

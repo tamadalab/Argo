@@ -1,4 +1,5 @@
 from os import replace
+from socket import close
 from pandas.core.arrays import string_
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -8,6 +9,7 @@ import os
 import re
 import collections
 import fig_process
+import itertools
 
 
 # データの前処理
@@ -17,13 +19,19 @@ def Prep(file):
     close_list = []
     dt_now = datetime.datetime.now()
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month)
+    now_date = []
+    now_date.append(dt_YearMonth)
+
 
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,1]) 
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
         if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
-            close_list.append(dt_YearMonth)
+            close_list.append(now_date)
         else:
-            close_list.append(csv_input.iat[i,0])
+            close_month = re.findall("(.*)/", csv_input.iat[i,0])
+            close_list.append(close_month)
+    create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
+    close_list = list(itertools.chain.from_iterable(close_list)) # itertoolsでcreate_listを平坦化する．
     c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
     
     # create, closedate取得
@@ -55,9 +63,13 @@ def Prep(file):
     # 月毎の残イシュー数をカウント, Scaleリストに格納する
     for i in range(len(create_list)):
         start_num = Diff(create_list[i], create_list[0])
+        print("test")
+        print(create_list[i])
+        print(create_list[0])
         for n in range(remIssue_prd[i]+1):
             values[start_num] = values[start_num] + 1
             start_num = start_num + 1
+        print(values)
 
     #年単位での目盛位置の取得
     year = []
