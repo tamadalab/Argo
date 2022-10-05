@@ -9,6 +9,7 @@ import os
 import re
 import collections
 import fig_process
+import csv
 
 # データの前処理
 def Prep(file):
@@ -74,14 +75,14 @@ def main(arg, format, dir_path, write_data):
     # 年数リストを取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file) #keys, values, accum, scale, year
         years = Scale(dict[4], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file)
         year = dict[4]
         if year[0] == years[0]:
@@ -111,6 +112,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "N_STAR", format)
+        with open("cache/N_STAR.csv", "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[1])
 
 
     # グラフ描画

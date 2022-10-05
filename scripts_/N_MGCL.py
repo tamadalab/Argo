@@ -10,6 +10,7 @@ import re
 import collections
 import fig_process
 import itertools
+import csv
 
 
 # データの前処理
@@ -133,6 +134,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "N_MGCL", format)
+        with open("cache/N_MGCL.csv", "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[1])
 
 
     # グラフ描画

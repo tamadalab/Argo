@@ -7,6 +7,7 @@ import sys
 import os
 import re
 import collections
+import csv
 import fig_process
 import itertools
 
@@ -185,6 +186,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "R_RIS", format)
+        with open("cache/R_RIS.csv", "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[1])
 
     # グラフ描画
     plt.tight_layout() #グラフ位置の調整

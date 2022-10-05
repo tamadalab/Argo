@@ -8,6 +8,7 @@ import os
 import re
 import collections
 import fig_process
+import csv
 
 
 # データの前処理
@@ -194,6 +195,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "LT_PR", format)
+        with open("cache/LT_PR.csv", "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[1])
 
 
     # グラフ描画
