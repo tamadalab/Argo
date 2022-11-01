@@ -20,19 +20,21 @@ def Prep(file):
     merge_list = []
     dt_now = datetime.datetime.now()
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month)
+    print(csv_input)
 
     # cratedAt, closedAt, mergedAtの読み込み，取得
     for i in range(0, len(csv_input.index)):
-        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
-        merge_list.append(csv_input.iat[i,2])
-        if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,2]))
+        merge_list.append(csv_input.iat[i,4])
+        if isinstance(csv_input.iat[i,1], float): # closeされていないときは現在時刻(YYYY-MM)を格納
             close_list.append(dt_YearMonth)
         else:
-            close_list.append(re.findall("(.*)/",csv_input.iat[i,0]))
-        if isinstance(csv_input.iat[i,3], float): # mergeされていないときは現在時刻(YYYY-MM)を格納
+            close_list.append(re.findall("(.*)/",csv_input.iat[i,1]))
+        
+        if isinstance(csv_input.iat[i,5], float): # mergeされていないときは現在時刻(YYYY-MM)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            mergetime_list.append(re.findall("(.*)/", csv_input.iat[i,3]))
+            mergetime_list.append(re.findall("(.*)/", csv_input.iat[i,5]))
     create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
     c = collections.Counter(create_list) # 辞書型  c = {"~~" : n ,,,} 
 
@@ -183,7 +185,7 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "R_MGPR", format)
-        with open("cache/R_RIS.csv", "a") as f:
+        with open("cache/R_MGPR.csv", "a") as f:
             writer = csv.writer(f)
             writer.writerow(dict[4])
 
