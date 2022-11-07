@@ -188,7 +188,7 @@ def main(arg, format, dir_path, write_data):
         fig_process.savefig(figure, dir_path + '/' + "R_RIS", format)
         with open("cache/R_RIS.csv", "a") as f:
             writer = csv.writer(f)
-            writer.writerow(dict[1])
+            writer.writerow(dict[4])
 
     # グラフ描画
     plt.tight_layout() #グラフ位置の調整
