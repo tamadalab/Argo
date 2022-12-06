@@ -182,7 +182,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "R_PRLP", format)
-        with open("cache/R_PRLP.csv", "a") as f:
+        fig_process.makedir("cache/" + arg[i]+"/"+"R_PRLP")
+        file = os.path.join("cache", arg[i],"R_PRLP/plot_data.csv")
+        with open(file, "a") as f:
             writer = csv.writer(f)
             writer.writerow(dict[4])
 

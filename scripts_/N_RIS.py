@@ -172,8 +172,9 @@ def main(arg, format, dir_path, write_data):
     for i in range(len(files)):
         os.makedirs(dir_path + "/" + arg[i], exist_ok=True)
         fig_process.savefig(figure, dir_path + '/' + arg[i] + '/' + "N_RIS", format)
-        
-        with open("cache/N_RIS.csv", "a") as f:
+        fig_process.makedir("cache/" + arg[i]+"/"+"N_RIS")
+        file = os.path.join("cache", arg[i],"N_RIS/plot_data.csv")
+        with open(file, "a") as f:
             writer = csv.writer(f)
             writer.writerow(dict[1])
 

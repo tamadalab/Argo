@@ -9,6 +9,7 @@ import csv
 import re
 import collections
 import fig_process
+import FileMake
 
 # データの前処理
 def Prep(file):
@@ -195,8 +196,9 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "LT_CIS", format)
-    
-        with open("cache/LT_CIS.csv", "a") as f:
+        fig_process.makedir("cache/" + arg[i]+"/"+"LT_CIS")
+        file = os.path.join("cache", arg[i],"LT_CIS/plot_data.csv")
+        with open(file, "a") as f:
             writer = csv.writer(f)
             writer.writerow(dict[1])
 
