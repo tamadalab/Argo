@@ -187,8 +187,9 @@ def main(arg, format, dir_path, write_data):
         fig_process.savefig(figure, dir_path + '/' + "R_MGPR", format)
         fig_process.makedir("cache/" + arg[i]+"/"+"R_MGPR")
         file = os.path.join("cache", arg[i],"R_MGPR/plot_data.csv")
-        with open(file, "a") as f:
+        with open(file, "w") as f:
             writer = csv.writer(f)
+            writer.writerow(dict[0])
             writer.writerow(dict[4])
     # グラフ描画
     plt.tight_layout() # グラフ位置の調整

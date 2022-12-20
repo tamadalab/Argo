@@ -174,8 +174,9 @@ def main(arg, format, dir_path, write_data):
         fig_process.savefig(figure, dir_path + '/' + arg[i] + '/' + "N_RIS", format)
         fig_process.makedir("cache/" + arg[i]+"/"+"N_RIS")
         file = os.path.join("cache", arg[i],"N_RIS/plot_data.csv")
-        with open(file, "a") as f:
+        with open(file, "w") as f:
             writer = csv.writer(f)
+            writer.writerow(dict[0])
             writer.writerow(dict[1])
 
     # グラフ描画

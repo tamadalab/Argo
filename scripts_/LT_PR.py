@@ -199,6 +199,7 @@ def main(arg, format, dir_path, write_data):
         file = os.path.join("cache", arg[i],"LT_PR/plot_data.csv")
         with open(file, "a") as f:
             writer = csv.writer(f)
+            writer.writerow(dict[0])
             writer.writerow(dict[1])
 
 
