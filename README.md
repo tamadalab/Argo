@@ -18,11 +18,8 @@ user側からコマンドラインで設定できるようにする．
 [GNU General Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.ja.html)
 
 ## Logo  
-<img src = "https://user-images.githubusercontent.com/69036517/122642836-6017fc80-d147-11eb-8717-5d5664b589aa.png"
-     width = "320px">
+![Honey_Bee_logo__4_-removebg-preview](https://github.com/tamadalab/Argo/assets/69036517/12077eb5-883c-4d53-af1f-6045486985c1)
 
-pngtreeから引用.
-https://ja.pngtree.com/freepng/bee-animal-icon-honey-flying-bee-insect-bugs_3641499.html
 
 ## Project name comes from?
 Auto Repository Graph Outputの略称である．<br>
