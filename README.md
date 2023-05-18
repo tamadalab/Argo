@@ -25,7 +25,7 @@ pngtreeから引用.
 https://ja.pngtree.com/freepng/bee-animal-icon-honey-flying-bee-insect-bugs_3641499.html
 
 ## Project name comes from?
-Auto Repository Graph Outputの略称である．
+Auto Repository Graph Outputの略称である．<br>
 "Argo"のロゴは，Argogorytes（アワフキバチ）から蜂のアイコンにする. 
 
 # 入出力仕様
