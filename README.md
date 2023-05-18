@@ -1,35 +1,27 @@
 # 🐝 Argo
 # 概要
-近年、開発者自身が自発的に提案できるソーシャルコーディングという新たなソフトウェア開発方式に注目されている。しかしながら、現状の「自発的ソフトウェア進化」を辿っている成功プロジェクトがどのように管理され、活発なコミュニティがどのように形成されているか分からない。先行研究では、その開発方式で成功したGitHubで公開されているプロジェクトがAtom、Brackets、VSCodeを実験対象とし、GitHub GraphQL APIを用いて、どのような状態を辿ってきたかを分析することでその成功した要因を解明しています。
+近年、開発者自身が自発的に提案できるソーシャルコーディングという新たなソフトウェア開発方式に注目されている。しかしながら、現状の「自発的ソフトウェア進化」を辿っている成功プロジェクトがどのように管理され、活発なコミュニティがどのように形成されているか分からない。
 
-本研究では、より多くのプロジェクトに対して同様の調査を行い、自発的進化の良いパターン・悪いパターンを発見し、どこを改善したらより自発進化が見込めるのかを提案することを目的とする。しかし、現状ではGraphQLを用いたデータ抽出には結構な労力が必要となるため、まずデータ分析を自動化するアプリケーションを作成する。
+本研究では、より多くのプロジェクトに対して同様の調査を行い、自発的進化の良いパターン・悪いパターンを発見し、どこを改善したらより自発進化が見込めるのかを提案することを目的とする。
+しかし、現状ではGraphQLを用いたデータ抽出には結構な労力が必要となるため、まずデータ分析を自動化するアプリケーションを作成する。
 
+## 個人アクセストークンの設定
+queryディレクトリにあるStar.py, Issue.py, PullRequest.pyの個人アクセストークンを設定しないと動かない．
+user側からコマンドラインで設定できるようにする．
 
 # About
 ## License
 [GNU General Public License version 3 (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.ja.html)
 
 ## Logo  
-![icon-removebg-preview](https://user-images.githubusercontent.com/69036517/122642836-6017fc80-d147-11eb-8717-5d5664b589aa.png)
+<img src = "https://user-images.githubusercontent.com/69036517/122642836-6017fc80-d147-11eb-8717-5d5664b589aa.png"
+     width = "320px">
 
 pngtreeから引用.
 https://ja.pngtree.com/freepng/bee-animal-icon-honey-flying-bee-insect-bugs_3641499.html
 
 ## Project name comes from?
 Argogorytes（アワフキバチ）から蜂のアイコンにする. 
-
-# 開発言語
-java
- - 互換性がある事や実行環境を選ばない点から上記のプログラミング言語を使用する.
- 
-# 実行例
-- 入力例
-```sh
-argo draw n_star tamadalab/argo
-```
-- 出力例
-  - 画像は先行研究のもの
-  <img width="275" alt="スクリーンショット 2021-06-21 21 04 52" src="https://user-images.githubusercontent.com/69036517/122758916-5374df00-d2d4-11eb-90ec-da32cc536810.png">
 
 # 入出力仕様
 ## Usage
@@ -125,10 +117,23 @@ argo list
     └── stargazers.graphql
 ```
 
-### 出力
-  - 画像は先行研究のもの
-  <img width="275" alt="スクリーンショット 2021-06-21 21 04 52" src="https://user-images.githubusercontent.com/69036517/122758916-5374df00-d2d4-11eb-90ec-da32cc536810.png">
+## 出力
+### fetch data
+```
+First Survey
+200it [00:00, 1835581.62it/s, 2]                                                
 
+200it [00:00, 1536375.09it/s, 2]                                                
 
-### memo
-- githubのバッヂ調査にも対応できるかも？
+Data acquisition completed! : 1.4907136
+```
+### draw chart
+- GitHubで公開されている11のプログラミング言語を対象に８つのメトリクスを描画した．
+
+<img src = "https://user-images.githubusercontent.com/69036517/172577380-d8397972-693c-40a3-b460-7d4c8f3ccafb.png" width = "320px"> <img src = "https://user-images.githubusercontent.com/69036517/172577395-17243e2b-1b8c-4109-a405-afec7275a636.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172577273-31b4ee49-9f78-44ba-837d-fa293f417d36.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172577456-dca4392f-6149-4c07-b031-f6442bc68a7f.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172577369-112cd315-dc87-4f2d-8573-61416714478f.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172580845-a21aa26d-28d0-4f49-9205-2d59f04ed5a7.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172577424-2e8cd21a-803a-47da-a59b-9639ba2f2a4a.png" width = "320px">
+<img src = "https://user-images.githubusercontent.com/69036517/172581269-4924a22b-3c83-4405-92bc-5301a8ee3932.png" width = "320px">
