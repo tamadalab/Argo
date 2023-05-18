@@ -1,10 +1,14 @@
 # 🐝 Argo
 # 概要
-近年、開発者自身が自発的に提案できるソーシャルコーディングという新たなソフトウェア開発方式に注目されている。しかしながら、現状の「自発的ソフトウェア進化」を辿っている成功プロジェクトがどのように管理され、活発なコミュニティがどのように形成されているか分からない。
+GitHubは1000万以上の膨大なリポジトリ数を誇り、ソフトウェアリポジトリのマイニングに興味を持つ研究者を惹きつけています。GitHubのリポジトリを分析・調査することで、ソフトウェア開発活動を改善するための貴重な知見を得ることができます。しかし、ソースコードの変更履歴やコミュニケーション履歴にアクセスするための標準的な方法は、現在のところ存在しない。
 
-本研究では、より多くのプロジェクトに対して同様の調査を行い、自発的進化の良いパターン・悪いパターンを発見し、どこを改善したらより自発進化が見込めるのかを提案することを目的とする。
-しかし、現状ではGraphQLを用いたデータ抽出には結構な労力が必要となるため、まずデータ分析を自動化するアプリケーションを作成する。
+本論文では、GitHubからコミュニケーション履歴を取得することを目的とした「argo」というツールの実装を紹介します。Argoは、ユーザのGraphQLクエリを受け付けてGitHubに記録されたコミュニケーション履歴を取得し、その遷移を可視化するためのラインチャートを生成する。事例として、3種類のGraphQLクエリを実装し、GitHubにホストされている有名プログラミング言語の11のリポジトリから、スターゲイザー、イシュー、プルリクエストのデータをフェッチしました。
 
+Argo を使用すると、驚くべき速度でデータをフェッチすることができました。スターゲイザー、イシュー、プルリクエストの1秒あたりのエントリ数は、それぞれ145.19、81.27、139.90でした。このうち、リポジトリ「golang/go」のスターゲイザーのデータ取得は最も時間がかかり、96,425件、716秒を要した。
+
+以上、本ツールArgoは、GitHubからデータを取得し、取得した情報をもとに折れ線グラフを作成できることを実証しました。
+
+www.DeepL.com/Translator（無料版）で翻訳しました。
 ## 個人アクセストークンの設定
 queryディレクトリにあるStar.py, Issue.py, PullRequest.pyの個人アクセストークンを設定しないと動かない．
 user側からコマンドラインで設定できるようにする．
@@ -21,7 +25,8 @@ pngtreeから引用.
 https://ja.pngtree.com/freepng/bee-animal-icon-honey-flying-bee-insect-bugs_3641499.html
 
 ## Project name comes from?
-Argogorytes（アワフキバチ）から蜂のアイコンにする. 
+Auto Repository Graph Outputの略称である．
+"Argo"のロゴは，Argogorytes（アワフキバチ）から蜂のアイコンにする. 
 
 # 入出力仕様
 ## Usage
@@ -128,7 +133,7 @@ First Survey
 Data acquisition completed! : 1.4907136
 ```
 ### draw chart
-- GitHubで公開されている11のプログラミング言語を対象に８つのメトリクスを描画した．
+- Eight metrics were drawn for 11 programming languages published on GitHub.
 
 <img src = "https://user-images.githubusercontent.com/69036517/172577380-d8397972-693c-40a3-b460-7d4c8f3ccafb.png" width = "320px"> <img src = "https://user-images.githubusercontent.com/69036517/172577395-17243e2b-1b8c-4109-a405-afec7275a636.png" width = "320px">
 <img src = "https://user-images.githubusercontent.com/69036517/172577273-31b4ee49-9f78-44ba-837d-fa293f417d36.png" width = "320px">
