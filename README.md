@@ -133,7 +133,7 @@ First Survey
 Data acquisition completed! : 1.4907136
 ```
 ### draw chart
-- Eight metrics were drawn for 11 programming languages published on GitHub.
+- GitHubで公開されている11のプログラミング言語を対象に８つのメトリクスを描画した．
 
 <img src = "https://user-images.githubusercontent.com/69036517/172577380-d8397972-693c-40a3-b460-7d4c8f3ccafb.png" width = "320px"> <img src = "https://user-images.githubusercontent.com/69036517/172577395-17243e2b-1b8c-4109-a405-afec7275a636.png" width = "320px">
 <img src = "https://user-images.githubusercontent.com/69036517/172577273-31b4ee49-9f78-44ba-837d-fa293f417d36.png" width = "320px">
