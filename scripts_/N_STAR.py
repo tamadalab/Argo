@@ -9,6 +9,7 @@ import os
 import re
 import collections
 import fig_process
+import csv
 
 # データの前処理
 def Prep(file):
@@ -74,14 +75,14 @@ def main(arg, format, dir_path, write_data):
     # 年数リストを取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file) #keys, values, accum, scale, year
         years = Scale(dict[4], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("Extracted data", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file)
         year = dict[4]
         if year[0] == years[0]:
@@ -93,7 +94,7 @@ def main(arg, format, dir_path, write_data):
     # 比較グラフ
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, accum, scale, year
-        label = re.findall("a/(.*)/s", str(files[i]))
+        label = re.findall("e/(.*)/S", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[2], write_data)
@@ -103,7 +104,7 @@ def main(arg, format, dir_path, write_data):
     # 推移グラフ
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, accum, scale, years
-        label = re.findall("a/(.*)/s", str(files[i]))
+        label = re.findall("e/(.*)/S", str(files[i]))
         label = label[0].strip("[""]")
         Transition_Plot(label, dict[0], dict[1],dict[3], dict[4]) #推移グラフ作成関数
 
@@ -111,6 +112,12 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "N_STAR", format)
+        fig_process.makedir("cache/" + arg[i]+"/"+"N_STAR")
+        file = os.path.join("cache", arg[i],"N_STAR/plot_data.csv")
+        with open(file, "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[0])
+            writer.writerow(dict[2])
 
 
     # グラフ描画

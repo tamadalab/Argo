@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import datetime
 import sys
 import os
+import csv
 import re
 import collections
 import fig_process
@@ -63,13 +64,11 @@ def Prep(file):
     # 月毎の残イシュー数をカウント, Scaleリストに格納する
     for i in range(len(create_list)):
         start_num = Diff(create_list[i], create_list[0])
-        print("test")
         print(create_list[i])
         print(create_list[0])
         for n in range(remIssue_prd[i]+1):
             values[start_num] = values[start_num] + 1
             start_num = start_num + 1
-        print(values)
 
     #年単位での目盛位置の取得
     year = []
@@ -167,11 +166,18 @@ def main(arg, format, dir_path, write_data):
         Com_Plot(label, dict[0], dict[1]) #比較グラフ作成関数
         if i == 0:
             plt.xticks(dict[2], dict[3]) #年単位ごとの目盛の再描画
-
-    # グラフ保存
+            
+    # プロットデータ，グラフ保存
     fig_process.makedir(dir_path)
     for i in range(len(files)):
-        fig_process.savefig(figure, dir_path + '/' + "N_RIS", format)
+        os.makedirs(dir_path + "/" + arg[i], exist_ok=True)
+        fig_process.savefig(figure, dir_path + '/' + arg[i] + '/' + "N_RIS", format)
+        fig_process.makedir("cache/" + arg[i]+"/"+"N_RIS")
+        file = os.path.join("cache", arg[i],"N_RIS/plot_data.csv")
+        with open(file, "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[0])
+            writer.writerow(dict[1])
 
     # グラフ描画
     plt.tight_layout() #グラフ位置の調整

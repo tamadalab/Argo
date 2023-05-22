@@ -4,7 +4,8 @@ import glob
 import json
 from pandas.io.json import json_normalize
 import pandas as pd
-import sys
+import csv
+import fig_process
 
 def input(repository):
     pattern = "(.*)/(.*)"
@@ -88,8 +89,15 @@ def merge(dir_path):
     data_list = []
 
     # 全てのcsvファイルを読み込み，total.csvファイルを作成する．
-    for i in range(1,len(csv_files)):
+    for i in range(1,len(csv_files)+1):
         if os.path.exists(path + "/" + str(i) + ".csv"):
             data_list.append(pd.read_csv(path + "/" + str(i) + ".csv"))
     df = pd.concat(data_list, axis=0, sort = True)
     df.to_csv(os.path.join(path, "total.csv"), index=False)
+    
+def output_data(repository,metrics, plotdata):
+    fig_process.makedir("cache/" + repository +"/"+ metrics)
+    file = os.path.join("cache", repository, metrics, "/plot_data.csv")
+    with open(file, "a") as f:
+        writer = csv.writer(f)
+        writer.writerow(plotdata)

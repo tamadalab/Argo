@@ -8,6 +8,7 @@ import os
 import re
 import collections
 import fig_process
+import csv
 
 
 # データの前処理
@@ -20,12 +21,12 @@ def Prep(file):
 
     for i in range(0, len(csv_input.index)):
         create_list.append(csv_input.iat[i,2]) 
-        if isinstance(csv_input.iat[i,5], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
+        if isinstance(csv_input.iat[i,6], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            mergetime_list.append(csv_input.iat[i,5])
+            print(csv_input.iat[i,6])
+            mergetime_list.append(csv_input.iat[i,6])
     
-    print(mergetime_list)
     # create, closedate取得
     keys = []
     diff = Diff(dt_YearMonth, create_list[0])
@@ -194,6 +195,12 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "LT_PR", format)
+        fig_process.makedir("cache/" + arg[i]+"/"+"LT_PR")
+        file = os.path.join("cache", arg[i],"LT_PR/plot_data.csv")
+        with open(file, "a") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[0])
+            writer.writerow(dict[1])
 
 
     # グラフ描画

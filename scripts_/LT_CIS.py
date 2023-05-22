@@ -5,9 +5,11 @@ import matplotlib.pyplot as plt
 import datetime
 import sys
 import os
+import csv
 import re
 import collections
 import fig_process
+import FileMake
 
 # データの前処理
 def Prep(file):
@@ -85,17 +87,18 @@ def Prep(file):
 
 
 def LiveTime(date_list):
+    print(date_list)
     livetime_list = []
     for i in range(len(date_list)):
         diff_date = Diff(date_list[i][1], date_list[i][0])
         create_date = re.findall(r"\d+", date_list[i][0])
         livetime = (diff_date[0] * 365) + (diff_date[1] * 31) + (diff_date[2])
-        if i == 0:
+        if i == 0: #最初の月
             std_month = 0
             num_month = 0
             livetime_total = livetime
             temp_date = re.findall(r"\d+", date_list[i][0])
-        elif i == len(date_list)-1:
+        elif i == len(date_list)-1: #最新月
                 try:
                     num_date = livetime_total / num_month
                 except ZeroDivisionError:
@@ -106,6 +109,7 @@ def LiveTime(date_list):
                 livetime_total = livetime_total + livetime
                 num_month = num_month + 1
             else:
+                livetime_total = livetime
                 std_month = std_month + 1
                 try:
                     num_date = livetime_total / num_month
@@ -114,6 +118,7 @@ def LiveTime(date_list):
                 livetime_list.append(num_date)
                 num_month = 0
                 temp_date = diff_date
+    print(livetime_list)
     return livetime_list
 
 
@@ -191,6 +196,12 @@ def main(arg, format, dir_path, write_data):
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "LT_CIS", format)
+        fig_process.makedir("cache/" + arg[i]+"/"+"LT_CIS")
+        file = os.path.join("cache", arg[i],"LT_CIS/plot_data.csv")
+        with open(file, "w") as f:
+            writer = csv.writer(f)
+            writer.writerow(dict[0])
+            writer.writerow(dict[1])
 
     # グラフ描画
     plt.tight_layout() #グラフ位置の調整
