@@ -19,6 +19,9 @@ user側からコマンドラインで設定できるようにする．
 ## Logo  
 ![Honey_Bee_logo__4_-removebg-preview](https://github.com/tamadalab/Argo/assets/69036517/12077eb5-883c-4d53-af1f-6045486985c1)
 
+https://www.canva.com/ より引用
+
+
 
 ## Project name comes from?
 Auto Repository Graph Outputの略称である．<br>
