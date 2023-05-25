@@ -1,5 +1,3 @@
-from os import close, replace
-from pandas.core.arrays import string_
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
@@ -12,32 +10,32 @@ import csv
 
 
 # データの前処理
-def Prep(file):
-    csv_input = pd.read_csv(filepath_or_buffer = file, encoding="UTF-8", sep=",")
+def prep(file):
+    csv_input = pd.read_csv(filepath_or_buffer=file, encoding="UTF-8", sep=",")
     create_list = []
     mergetime_list = []
     dt_now = datetime.datetime.now()
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month) + "/" + str(dt_now.day)
 
     for i in range(0, len(csv_input.index)):
-        create_list.append(csv_input.iat[i,2]) 
-        if isinstance(csv_input.iat[i,6], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
+        create_list.append(csv_input.iat[i, 2])
+        if isinstance(csv_input.iat[i, 6], float):  # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            print(csv_input.iat[i,6])
-            mergetime_list.append(csv_input.iat[i,6])
-    
+            print(csv_input.iat[i, 6])
+            mergetime_list.append(csv_input.iat[i, 6])
+
     # create, closedate取得
     keys = []
-    diff = Diff(dt_YearMonth, create_list[0])
+    diff = diff(dt_YearMonth, create_list[0])
     year = create_list[0][:4]
-    for i in range(diff+1):
+    for i in range(diff + 1):
         if i == 0:
             keys.append(re.findall('(.*)/', create_list[0])[0])
             month = int(re.findall('-(.*)/', create_list[0])[0])
         else:
             keys.append(str(year) + "-" + str(month))
-        
+
         if month == 12:
             year = int(year) + 1
             month = 1
@@ -45,7 +43,7 @@ def Prep(file):
             month = int(month) + 1
 
     # create_dateの取得
-    c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
+    c = collections.Counter(create_list)  # 辞書型  c = {"~~" : n ,,,}
     test = []
     i = 0
     std = 0
@@ -57,29 +55,29 @@ def Prep(file):
                 test.append(re.findall('(.*)/', key)[0])
                 std = std + 1
         i = i + 1
-    
+
     # PullRequest生存時間の取得
-    livetime_list = LiveTime(create_list, mergetime_list)
+    livetime_list = livetime(create_list, mergetime_list)
 
     # 残PullRequest期間の取得
-    remIssue_prd = []
+    rem_issue_prd = []
     for i in range(len(create_list)):
         # Year_difference
         Year = int(mergetime_list[i][:4]) - int(create_list[i][:4])
         # Month_difference
         Month = int(re.findall('-(.*)/', mergetime_list[i])[0]) - int(re.findall('-(.*)/', create_list[i])[0])
         diff = 12 * Year + Month
-        remIssue_prd.append(diff)
-    values = Xticks(dt_YearMonth, create_list[0])  
+        rem_issue_prd.append(diff)
+    values = xticks(dt_YearMonth, create_list[0])
 
     # 月毎の残イシュー数をカウント, Scaleリストに格納する
     for i in range(len(create_list)):
-        start_num = Diff(create_list[i], create_list[0])
-        for n in range(remIssue_prd[i]+1):
+        start_num = diff(create_list[i], create_list[0])
+        for n in range(rem_issue_prd[i] + 1):
             values[start_num] = values[start_num] + 1
             start_num = start_num + 1
 
-    #年単位での目盛位置の取得
+    # 年単位での目盛位置の取得
     scale = []
     scale.append(0)
     year = []
@@ -92,23 +90,23 @@ def Prep(file):
     return test, livetime_list, scale, year
 
 
-def LiveTime(createlist, closelist):
+def livetime(create_list, close_list):
     livetime_list = []
     target = "/"
-    for i in range(len(createlist)):
-        year = int(closelist[i][:4]) - int(createlist[i][:4])
-        month = int(re.findall('-(.*)/', closelist[i])[0]) - int(re.findall('-(.*)/', createlist[i])[0])
-        create_idx = createlist[i].find(target)
-        create_r = createlist[i][create_idx+1:]
-        close_idx = closelist[i].find(target)
-        close_r = closelist[i][close_idx+1:]
+    for i in range(len(create_list)):
+        year = int(close_list[i][:4]) - int(create_list[i][:4])
+        month = int(re.findall('-(.*)/', close_list[i])[0]) - int(re.findall('-(.*)/', create_list[i])[0])
+        create_idx = create_list[i].find(target)
+        create_r = create_list[i][create_idx + 1:]
+        close_idx = close_list[i].find(target)
+        close_r = close_list[i][close_idx + 1:]
         day = int(close_r) - int(create_r)
         livetime = (year * 360) + (month * 31) + (day)
         if i == 0:
             std_month = 0
             livetime_list.append(livetime)
         else:
-            if re.findall('-(.*)/', createlist[i])[0] == re.findall('-(.*)/', createlist[i-1])[0]:
+            if re.findall('-(.*)/', create_list[i])[0] == re.findall('-(.*)/', create_list[i - 1])[0]:
                 livetime_list[std_month] = livetime_list[std_month] + livetime
             else:
                 std_month = std_month + 1
@@ -116,39 +114,41 @@ def LiveTime(createlist, closelist):
     return livetime_list
 
 
-
 # x軸目盛リスト作成
-def Xticks(dt_now, first_create):
+def xticks(dt_now, first_create):
     # Year_difference
     Year = int(dt_now[:4]) - int(first_create[:4])
     # Month_difference
     Month = int((re.findall('-(.*)/', dt_now))[0]) - int((re.findall('-(.*)/', first_create))[0])
     diff = 12 * Year + Month
     values = []
-    for i in range(diff+1):
-        values.insert(i,0)
+    for i in range(diff + 1):
+        values.insert(i, 0)
     return values
 
+
 # 指定日時とfirst_createtimeの期間差(月数)を求める
-def Diff(now_create, first_create):
+def diff(now_create, first_create):
     # Year_difference
     Year = int(now_create[:4]) - int(first_create[:4])
-    # Month_difference  
+    # Month_difference
     Month = int(re.findall('-(.*)/', now_create)[0]) - int(re.findall('-(.*)/', first_create)[0])
     diff = 12 * Year + Month
     return diff
 
+
 # 比較グラフの出力
-def Com_Plot(file, keys, values):
-    plt.plot(keys, values, label = file, marker = ".",)
-    plt.legend() #ラベルの表示
+def com_plot(file, keys, values):
+    plt.plot(keys, values, label=file, marker=".")
+    plt.legend()  # ラベルの表示
     plt.title("LT_PR")
     plt.xlabel("date")
     plt.ylabel("Live_time(day)")
-    plt.grid(alpha = 0.6)
+    plt.grid(alpha=0.6)
+
 
 # リポジトリ全体の年数リストを取得
-def Scale(year, years):
+def scale(year, years):
     for i in range(len(year)):
         if not years:
             years.append(year[i])
@@ -157,60 +157,57 @@ def Scale(year, years):
     years = sorted((years))
     return years
 
-def main(arg, format, dir_path, write_data):
-    plt.rcParams["figure.figsize"] = (8,6)
+
+def main(arg, file_format, dir_path, write_data):
+    plt.rcParams["figure.figsize"] = (8, 6)
     figure = plt.figure()  # 新しいウィンドウを描画
 
     # リポジトリの古い順に取得
     years = []
     for i in range(len(arg)):
         file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
-        dict = Prep(file)
-        years = Scale(dict[3], years)
+        dict_data = prep(file)
+        years = scale(dict_data[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
         file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
-        dict = Prep(file)
-        year = dict[3]
+        dict_data = prep(file)
+        year = dict_data[3]
         if year[0] == years[0]:
-            files.insert(0,file)  
+            files.insert(0, file)
         else:
             files.append(file)
 
-
-
     for i in range(len(files)):
-        dict = Prep(files[i]) #keys, values, accum, scale, year
+        dict_data = prep(files[i])  # keys, values, accum, scale, year
         label = re.findall("e/(.*)/p", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
-            fig_process.Print(label, dict[0], dict[1], write_data)
-        Com_Plot(label, dict[0], dict[1]) #比較グラフ作成関数
+            fig_process.print_data(label, dict_data[0], dict_data[1], write_data)
+        com_plot(label, dict_data[0], dict_data[1])  # 比較グラフ作成関数
         if i == 0:
-            plt.xticks(dict[2], dict[3]) #年単位ごとの目盛の再描画
+            plt.xticks(dict_data[2], dict_data[3])  # 年単位ごとの目盛の再描画
 
     # グラフ保存
-    fig_process.makedir(dir_path)
+    fig_process.make_dir(dir_path)
     for i in range(len(files)):
-        fig_process.savefig(figure, dir_path + '/' + "LT_PR", format)
-        fig_process.makedir("cache/" + arg[i]+"/"+"LT_PR")
-        file = os.path.join("cache", arg[i],"LT_PR/plot_data.csv")
+        fig_process.save_fig(figure, dir_path + '/' + "LT_PR", file_format)
+        fig_process.make_dir("cache/" + arg[i] + "/" + "LT_PR")
+        file = os.path.join("cache", arg[i], "LT_PR/plot_data.csv")
         with open(file, "a") as f:
             writer = csv.writer(f)
-            writer.writerow(dict[0])
-            writer.writerow(dict[1])
-
+            writer.writerow(dict_data[0])
+            writer.writerow(dict_data[1])
 
     # グラフ描画
-    plt.tight_layout() #グラフ位置の調整
+    plt.tight_layout()  # グラフ位置の調整
     plt.show()
 
 
-
 if __name__ == "__main__":
-    arg = sys.argv   ## owner/repositoryはrepository[1]以降に格納
+    arg = sys.argv  ## owner/repositoryはrepository[1]以降に格納
     arg.pop(0)
     dir_path = 'Graph_image'
     write_data = None

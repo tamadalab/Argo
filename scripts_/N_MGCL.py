@@ -1,6 +1,3 @@
-from os import replace
-from urllib.response import addinfo
-from pandas.core.arrays import string_
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
@@ -14,8 +11,8 @@ import csv
 
 
 # データの前処理
-def Prep(file):
-    csv_input = pd.read_csv(filepath_or_buffer = file, encoding="UTF-8", sep=",")
+def prep(file):
+    csv_input = pd.read_csv(filepath_or_buffer=file, encoding="UTF-8", sep=",")
     additions = []
     deletions = []
     create_list = []
@@ -24,13 +21,13 @@ def Prep(file):
 
     # cratedAt, closedAtの読み込み
     for i in range(0, len(csv_input.index)):
-        additions.append(csv_input.iat[i,5])
-        deletions.append(csv_input.iat[i,0])
-        create_list.append(re.findall("(.*)/", csv_input.iat[i,2]))
-    create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
-    c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
-    print(additions)
-    #年単位での目盛位置の取得
+        additions.append(csv_input.iat[i, 5])
+        deletions.append(csv_input.iat[i, 0])
+        create_list.append(re.findall("(.*)/", csv_input.iat[i, 2]))
+    create_list = list(itertools.chain.from_iterable(create_list))  # itertoolsでcreate_listを平坦化する．
+    c = collections.Counter(create_list)  # 辞書型  c = {"~~" : n ,,,}
+
+    # 年単位での目盛位置の取得
     year = []
     scale = []
     createdAt = []
@@ -51,52 +48,52 @@ def Prep(file):
         # コードの増減計算
         for m in range(value):
             temp = additions[n] + deletions[n]
-            value_tmp = value 
+            value_tmp = value
             amount += temp
             n = n + 1
         code_amount.append(amount)
     return createdAt, code_amount, scale, year
 
 
-
 # x軸目盛リスト作成
-def Xticks(dt_now, first_create):
+def xticks(dt_now, first_create):
     target = "-"
     # Year_difference
     Year = dt_now.year - int(first_create[:4])
     # Month_difference
     idx_create = first_create.find(target)
-    create_month = first_create[idx_create+1:]
+    create_month = first_create[idx_create + 1:]
     Month = dt_now.month - int(create_month)
     diff = 12 * Year + Month
 
     values = []
-    for i in range(diff+1):
-        values.insert(i,0)
+    for i in range(diff + 1):
+        values.insert(i, 0)
     return values
 
-def Com_Plot(file, keys, r_ris):
-    plt.plot(keys, r_ris, label = file, marker = ".",)
-    plt.legend(fontsize = 25) #ラベルの表示
+
+def com_plot(file, keys, r_ris):
+    plt.plot(keys, r_ris, label=file, marker=".", )
+    plt.legend(fontsize=25)  # ラベルの表示
     plt.title("N_MGCL")
     plt.xlabel("date")
     plt.ylabel("code")
-    plt.grid(alpha = 0.6)
+    plt.grid(alpha=0.6)
+
 
 # リポジトリ全体の年数リストを取得
-def Scale(year, years):
+def scale(year, years):
     for i in range(len(year)):
         if not years:
             years.append(year[i])
         elif year[i] not in years:
             years.append(year[i])
-    years = sorted((years))
+    years = sorted(years)
     return years
 
 
-
-def main(arg, format, dir_path, write_data):
-    plt.rcParams["figure.figsize"] = (15,10)
+def main(arg, file_format, dir_path, write_data):
+    plt.rcParams["figure.figsize"] = (15, 10)
     plt.rcParams["font.size"] = (20)
     figure = plt.figure()  # 新しいウィンドウを描画
 
@@ -104,51 +101,50 @@ def main(arg, format, dir_path, write_data):
     years = []
     for i in range(len(arg)):
         file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
-        dict = Prep(file)
-        years = Scale(dict[3], years)
+        dict = prep(file)
+        years = scale(dict[3], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
         file = os.path.join("cache", arg[i], "pullRequests/CSV/total.csv")
-        dict = Prep(file)
+        dict = prep(file)
         year = dict[3]
         if year[0] == years[0]:
-            files.insert(0,file)  
+            files.insert(0, file)
         else:
             files.append(file)
 
     for i in range(len(files)):
-        dict = Prep(files[i]) #keys, values, scale, year, r_ris
+        dict = prep(files[i])  # keys, values, scale, year, r_ris
         label = re.findall("e/(.*)/p", str(files[i]))
         label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[1], write_data)
-        Com_Plot(label, dict[0], dict[1]) #比較グラフ作成関数
+        com_plot(label, dict[0], dict[1])  # 比較グラフ作成関数
         if i == 0:
-            plt.xticks(dict[2], dict[3]) #年単位ごとの目盛の再描画
+            plt.xticks(dict[2], dict[3])  # 年単位ごとの目盛の再描画
 
     # グラフ保存
     fig_process.makedir(dir_path)
     for i in range(len(files)):
-        fig_process.savefig(figure, dir_path + '/' + "N_MGCL", format)
-        fig_process.makedir("cache/" + arg[i]+"/"+"N_MGCL")
-        file = os.path.join("cache", arg[i],"N_MGCL/plot_data.csv")
+        fig_process.savefig(figure, dir_path + '/' + "N_MGCL", file_format)
+        fig_process.makedir("cache/" + arg[i] + "/" + "N_MGCL")
+        file = os.path.join("cache", arg[i], "N_MGCL/plot_data.csv")
         with open(file, "a") as f:
             writer = csv.writer(f)
             writer.writerow(dict[0])
             writer.writerow(dict[1])
 
-
     # グラフ描画
-    plt.tight_layout() #グラフ位置の調整
+    plt.tight_layout()  # グラフ位置の調整
     plt.show()
 
 
 if __name__ == "__main__":
-    arg = sys.argv   ## owner/repositoryはrepository[1]以降に格納
+    arg = sys.argv  ## owner/repositoryはrepository[1]以降に格納
     arg.pop(0)
-    format = 'svg'
+    file_format = 'svg'
     dir_path = 'Graph_image'
     write_data = None
-    main(arg, format, dir_path, write_data)
+    main(arg, file_format, dir_path, write_data)
