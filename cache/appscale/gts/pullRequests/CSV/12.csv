@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fix does_app_exist function in dashboard","2016-2/24","2016-5/24","2016-2/24",False,"null",2,3,10
+"view_apps.py and --src flag for fast-start.sh","2016-2/24","2016-2/24","2016-2/24",False,"null",1,47,0
+"start cron in docker for faststart.sh","2016-2/25","2016-2/25","2016-2/25",True,"2016-2/25",2,2,0
+"Rescue from ArgumentError if port is not defined","2016-2/25","2016-3/25","2016-2/25",True,"2016-3/25",2,8,7
+"Allow node objects to be tested for equality","2016-2/25","2016-2/25","2016-2/25",True,"2016-2/25",2,9,0
+"include ssl port in AppDashboard /apps/json route","2016-2/26","2016-2/26","2016-2/26",True,"2016-2/26",2,25,16
+"Running nosetests for the AppDashboard tests.","2016-2/26","2016-2/26","2016-2/26",True,"2016-2/26",2,1,1
+"Allow datastore to operate in read-only mode","2016-2/26","2016-3/26","2016-2/26",True,"2016-3/26",2,235,34
+"Changing appscale status to round up cpu usage.","2016-2/29","2016-2/29","2016-2/29",True,"2016-2/29",2,2,1
+"Remove unused function","2016-3/1","2016-3/1","2016-3/1",True,"2016-3/1",2,0,8
+"System stats reported by SystemManager (exposed via SOAP).","2016-3/1","2016-3/1","2016-3/1",True,"2016-3/1",3,209,111
+"Add deployment key to GCE instance metadata","2016-3/2","2016-3/2","2016-3/2",True,"2016-3/2",2,48,57
+"Adding more unit tests for SystemManager.","2016-3/2","2016-3/2","2016-3/2",True,"2016-3/2",2,65,2
+"Adding the ability to gather system and platform stats in AC.","2016-3/3","2016-3/3","2016-3/3",True,"2016-3/3",3,202,21
+"Ensure datastore logging is configured correctly","2016-3/4","2016-3/4","2016-3/4",True,"2016-3/4",2,50,45
+"Ac use zookeeper to preserve its state","2016-3/4","2016-6/4","2016-3/4",False,"null",2,924,851
+"Define celery amqp backend as scheme","2016-3/5","2016-3/5","2016-3/5",True,"2016-3/5",2,2,1
+"Patch for GAE Issue # 12783","2016-3/5","2018-2/5","2016-3/5",True,"2018-2/5",4,21,2
+"Adding app logrotate when appengine role is not running.","2016-3/7","2016-3/7","2016-3/7",True,"2016-3/7",2,31,0
+"No remote monit","2016-3/8","2016-3/8","2016-3/8",True,"2016-3/8",2,29,62
+"Removing logrotate scripts for apps during terminate.","2016-3/8","2016-3/8","2016-3/8",True,"2016-3/8",2,170,129
+"Hermes: collecting monitoring stats from all deployment nodes","2016-3/8","2016-3/8","2016-3/8",True,"2016-3/8",3,158,26
+"Changing AC's monit start command to only start the Ruby process.","2016-3/11","2016-3/11","2016-3/11",True,"2016-3/11",2,1,1
+"Renaming leftover non-existent AC method.","2016-3/12","2016-3/12","2016-3/12",True,"2016-3/12",2,1,1
+"Changing format and endpoint for AppScale monitoring stats collection.","2016-3/13","2016-3/13","2016-3/13",True,"2016-3/13",2,5,5
+"Omit python version in app stats.","2016-3/14","2016-3/14","2016-3/14",True,"2016-3/14",2,1,1
+"Update the cursor format","2016-3/17","2016-3/17","2016-3/17",True,"2016-3/17",2,75,158
+"Don't use killall to stop the controller.","2016-3/17","2016-3/17","2016-3/17",True,"2016-3/17",2,1,1
+"Allow multiple filters on kindless queries","2016-3/18","2016-3/18","2016-3/18",True,"2016-3/18",2,40,54
+"Update Go to version 1.4.3","2016-3/18","2016-3/18","2016-3/18",False,"null",3,0,0
+"Redirecting to the last continue path after authenticating.","2016-3/18","2016-3/18","2016-3/18",False,"null",1,4,1
+"Removes duplicate continue path for Java authentication redirects.","2016-3/19","2016-3/19","2016-3/19",True,"2016-3/19",2,1,7
+"Remove references to the UserAppClient from appscale-tools and move it to the AppController.","2016-3/22","2016-3/22","2016-3/22",True,"2016-3/22",3,362,8
+"Add HAProxy routing for BlobServer","2016-3/22","2016-3/22","2016-3/22",True,"2016-3/22",2,80,80
+"Have the controller log to STDOUT","2016-3/22","2016-3/22","2016-3/22",True,"2016-3/22",2,8,31
+"Clean up invalid kind indices","2016-3/23","2016-3/23","2016-3/23",True,"2016-3/23",2,104,0
+"Fix multiple equality filters for NDB queries","2016-3/24","2016-3/24","2016-3/24",True,"2016-3/24",2,3,4
+"Go 1.4.3","2016-3/24","2016-3/24","2016-3/24",True,"2016-3/24",2,899937,116200
+"Remove unused test from Rakefile","2016-3/25","2016-3/25","2016-3/25",True,"2016-3/25",2,0,9
+"Reduce build verbosity","2016-3/25","2016-3/25","2016-3/25",True,"2016-3/25",2,10,6
+"Coordinate backup and restore operations from head node","2016-3/30","2016-3/30","2016-3/30",True,"2016-3/30",2,627,538
+"Moving the sensor app to appscale repo.","2016-4/1","2016-4/1","2016-4/1",False,"null",2,32526,0
+"Moving the sensor app to appscale repo.","2016-4/4","2016-4/4","2016-4/4",True,"2016-4/4",3,1049,1
+"Hermes to periodically check for registered deployments and deploy the appscalesensor app.","2016-4/14","2016-4/14","2016-4/14",True,"2016-4/14",2,224,12
+"Check the available space on the output directory","2016-4/14","2016-4/14","2016-4/14",True,"2016-4/14",2,2,2
+"Allow Cassandra restore to run without prompting","2016-4/15","2016-4/15","2016-4/15",True,"2016-4/15",2,13,8
+"Allow does_user_exist to return exception text","2016-4/15","2016-4/15","2016-4/15",True,"2016-4/15",2,2,0
+"Support new amd64 relocations","2016-4/16","2016-4/16","2016-4/16",True,"2016-4/16",2,58,1
+"Don't include https port if it's not defined","2016-4/19","2016-4/19","2016-4/19",True,"2016-4/19",3,5,6
+"Only include app owner if defined","2016-4/19","2016-4/19","2016-4/19",True,"2016-4/19",2,12,11
+"Throw an exception if HAProxy app stats report is empty.","2016-4/20","2016-4/20","2016-4/20",False,"null",2,28,22
+"Returning indicator for missing HAProxy backends.","2016-4/20","2016-4/20","2016-4/20",True,"2016-4/20",3,11,18
+"Use consistently ' for @options['","2016-4/20","2016-4/20","2016-4/20",True,"2016-4/20",2,28,28
+"Only the head node has access to ssh.key.","2016-4/20","2016-8/20","2016-4/20",False,"null",2,1,1
+"Have the login node commit app ports as fast as possible.","2016-4/22","2016-4/22","2016-4/22",True,"2016-4/22",3,39,33
+"Restart DjinnServer if it raises an exception","2016-4/22","2016-4/22","2016-4/22",True,"2016-4/22",2,10,1
+"Updating README links.","2016-4/22","2016-4/22","2016-4/22",False,"null",1,6,5
+"Only the headnode should update dashboard data.","2016-4/22","2016-4/22","2016-4/22",True,"2016-4/22",3,2,9
+"Readme links","2016-4/27","2016-4/27","2016-4/27",True,"2016-4/27",2,8,6
+"Version bump to 2.8.0","2016-4/28","2016-4/28","2016-4/28",True,"2016-4/28",2,40,1
+"Wait until node is ready before trying to ssh","2016-4/28","2016-4/28","2016-4/28",True,"2016-4/28",2,1,1
+"Regenerate Nginx config files upon app update.","2016-4/29","2016-4/29","2016-4/29",True,"2016-4/29",2,4,0
+"Don't show error when some file don't exists.","2016-5/1","2016-5/1","2016-5/1",True,"2016-5/1",2,1,1
+"App stats pending","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",3,21,15
+"Cache packages from install mirror","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",2,46,36
+"Remove some references to ~/appscale/.appscale","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",2,15,15
+"Regenerating Nginx config files only upon app restart.","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",2,3,3
+"Install Cassandra to /opt/cassandra","2016-5/4","2016-5/4","2016-5/4",True,"2016-5/4",2,22,16
+"Add logging to UAServer","2016-5/4","2016-5/4","2016-5/4",True,"2016-5/4",2,10,4
+"Rename cassandra python package","2016-5/4","2016-5/4","2016-5/4",True,"2016-5/4",2,41,44
+"Use ZK as backend storage for deployment state.","2016-5/6","2016-5/6","2016-5/6",True,"2016-5/6",4,653,604
+"Fix dashboard ""Delete App"" functionality","2016-5/7","2016-5/7","2016-5/7",True,"2016-5/7",2,9,23
+"Remove unused classes logic from UAServer","2016-5/9","2016-5/9","2016-5/9",True,"2016-5/9",2,6,84
+"Use cassandra-driver in cassandra_interface","2016-5/10","2016-6/10","2016-5/10",True,"2016-6/10",2,228,208
+"Assume appscale-tools are installed as a Python package","2016-5/10","2016-5/10","2016-5/10",True,"2016-5/10",2,5,30
+"Validate ssl cert with pyOpenSSL as a fallback","2016-5/15","2016-5/15","2016-5/15",True,"2016-5/15",3,62,13
+"Write transaction data on commit","2016-5/18","2016-7/18","2016-5/18",True,"2016-7/18",2,599,975
+"Datastore upgrade script and creating monit config file for required services.","2016-5/24","2016-6/24","2016-5/24",True,"2016-6/24",4,825,25
+"Remove references to keystore for Java AppServer","2016-5/25","2016-5/25","2016-5/25",True,"2016-5/25",2,0,28
+"Fetch Java SDK from S3 package mirror","2016-5/26","2016-6/26","2016-5/26",True,"2016-6/26",2,7,9
+"Prefer new hosts","2016-5/31","2016-6/31","2016-5/31",True,"2016-6/31",3,111,107
+"Use default JMX port","2016-5/31","2016-6/31","2016-5/31",True,"2016-6/31",2,128,216
+"Report pending and running appservers.","2016-6/2","2016-6/2","2016-6/2",True,"2016-6/2",2,15,1
+"Dont override local variables","2016-6/2","2016-6/2","2016-6/2",True,"2016-6/2",3,124,173
+"Get local ips","2016-6/4","2016-6/4","2016-6/4",True,"2016-6/4",2,57,176
+"Install libffi-dev for the cryptography package","2016-6/8","2016-6/8","2016-6/8",True,"2016-6/8",2,29,11
+"Build the Java SDK in a subshell","2016-6/9","2016-6/9","2016-6/9",True,"2016-6/9",2,15,9
+"Detect failed nodes.","2016-6/10","2016-6/10","2016-6/10",True,"2016-6/10",2,214,168
+"Fix settings generation for AppDashboard in AppController.","2016-6/10","2016-6/10","2016-6/10",True,"2016-6/10",3,14,8
+"Convert FQDNs to IP addresses every time we add nodes","2016-6/14","2016-6/14","2016-6/14",True,"2016-6/14",2,3,1
+"Make sure we have the path for the tools.","2016-6/16","2016-6/16","2016-6/16",True,"2016-6/16",3,1,0
+"Update version to 2.9.0","2016-6/17","2016-6/17","2016-6/17",True,"2016-6/17",2,15,1
+"Ensure system tornado package is not installed","2016-6/17","2016-6/17","2016-6/17",True,"2016-6/17",2,4,2
+"Wait until the app is uploaded before enabling","2016-6/17","2016-6/17","2016-6/17",True,"2016-6/17",2,3,1
+"Ensure memcache value is not decremented below 0.","2016-6/22","2016-6/22","2016-6/22",True,"2016-6/22",2,1,1
+"Change the rabbitmqctl 'cluster' command to 'join_cluster'","2016-6/24","2016-6/24","2016-6/24",True,"2016-6/24",2,1,1
+"Don't use the key's namespace for ZK transactions","2016-6/24","2016-6/24","2016-6/24",True,"2016-6/24",2,39,72
+"UserAppService is not exposed anymore.","2016-6/27","2016-6/27","2016-6/27",True,"2016-6/27",2,0,1
+"Remove remaining pycassa references","2016-6/27","2016-7/27","2016-6/27",True,"2016-7/27",2,293,9974
+"Modified delete entities script to delete all records for a particular app id","2016-6/28","2016-6/28","2016-6/28",True,"2016-6/28",2,35,38

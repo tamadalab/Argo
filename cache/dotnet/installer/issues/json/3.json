@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 587,
+                "nodes": [
+                    {
+                        "title": "Installer of .NET Core SDK 3.0.100 does not remove RC1 version after updating VS 2019 preview and VS 2019 stable to 16.3 and 16.4 prev 1 respectively",
+                        "url": "https://github.com/dotnet/installer/issues/4922",
+                        "createdAt": "2019-09-24T14:37:18Z",
+                        "closedAt": "2019-09-24T18:04:36Z"
+                    },
+                    {
+                        "title": "SDK 3.1 installation is not rely on package aspnetcore rutnime3.1",
+                        "url": "https://github.com/dotnet/installer/issues/4941",
+                        "createdAt": "2019-09-26T01:48:57Z",
+                        "closedAt": "2019-10-03T21:39:01Z"
+                    },
+                    {
+                        "title": "Add opensuse back",
+                        "url": "https://github.com/dotnet/installer/issues/4959",
+                        "createdAt": "2019-09-26T20:31:24Z",
+                        "closedAt": "2019-10-23T18:07:50Z"
+                    },
+                    {
+                        "title": "Make the new .NET Core Installer a friendly Desktop Runtime acquisition method for FDE apps",
+                        "url": "https://github.com/dotnet/installer/issues/5019",
+                        "createdAt": "2019-09-30T21:02:40Z",
+                        "closedAt": "2019-10-17T18:04:43Z"
+                    },
+                    {
+                        "title": "Runtime pack not found for Microsoft.AspNetCore.App",
+                        "url": "https://github.com/dotnet/installer/issues/5038",
+                        "createdAt": "2019-10-01T15:01:01Z",
+                        "closedAt": "2019-10-03T03:03:38Z"
+                    },
+                    {
+                        "title": "[source-build] Do not include current RID in runtime pack list when building from source",
+                        "url": "https://github.com/dotnet/installer/issues/5071",
+                        "createdAt": "2019-10-02T21:10:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[source-build] dotnet-deb-tool should not be restored if not creating Debian packages",
+                        "url": "https://github.com/dotnet/installer/issues/5073",
+                        "createdAt": "2019-10-02T21:30:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Nuget packages with shaders in contentFiles are included as <Compile/> Instead of <Content/>",
+                        "url": "https://github.com/dotnet/installer/issues/5167",
+                        "createdAt": "2019-10-08T03:25:25Z",
+                        "closedAt": "2019-10-08T04:17:44Z"
+                    },
+                    {
+                        "title": "Install 3.1 Preview 1, the message under the Installation note in UI still shows .NET Core 3.0.",
+                        "url": "https://github.com/dotnet/installer/issues/5180",
+                        "createdAt": "2019-10-09T08:34:41Z",
+                        "closedAt": "2019-10-23T01:07:30Z"
+                    },
+                    {
+                        "title": "\"dotnet publish\" produces executable without file version",
+                        "url": "https://github.com/dotnet/installer/issues/5207",
+                        "createdAt": "2019-10-11T08:01:12Z",
+                        "closedAt": "2019-10-11T08:36:17Z"
+                    },
+                    {
+                        "title": "Problem with the 3.0 SDK bundled with Visual Studio.",
+                        "url": "https://github.com/dotnet/installer/issues/5230",
+                        "createdAt": "2019-10-15T10:16:48Z",
+                        "closedAt": "2019-10-16T02:52:41Z"
+                    },
+                    {
+                        "title": "dotnet sdk 3.1 preview1 + netcoreapp3.1 seems to switch back to C# 7.3 as default",
+                        "url": "https://github.com/dotnet/installer/issues/5268",
+                        "createdAt": "2019-10-17T18:24:28Z",
+                        "closedAt": "2019-10-24T20:05:11Z"
+                    },
+                    {
+                        "title": "After installing .net sdk 3.0  CI server starts to fail + It was not possible to find any compatible framework",
+                        "url": "https://github.com/dotnet/installer/issues/5287",
+                        "createdAt": "2019-10-18T20:07:36Z",
+                        "closedAt": "2019-10-18T21:18:35Z"
+                    },
+                    {
+                        "title": "Switch to label.N form for pre-release label",
+                        "url": "https://github.com/dotnet/installer/issues/5319",
+                        "createdAt": "2019-10-24T18:22:24Z",
+                        "closedAt": "2020-02-05T03:28:33Z"
+                    },
+                    {
+                        "title": "dot net core 3.1 sdk installer (windows 10) not working ",
+                        "url": "https://github.com/dotnet/installer/issues/5377",
+                        "createdAt": "2019-10-28T16:55:47Z",
+                        "closedAt": "2019-10-29T15:38:24Z"
+                    },
+                    {
+                        "title": "openSUSE Tumbleweed Cannot build",
+                        "url": "https://github.com/dotnet/installer/issues/5407",
+                        "createdAt": "2019-10-30T07:54:35Z",
+                        "closedAt": "2019-11-11T13:28:25Z"
+                    },
+                    {
+                        "title": "Stale version badges in README.md",
+                        "url": "https://github.com/dotnet/installer/issues/5412",
+                        "createdAt": "2019-10-30T15:08:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[Feedback] XAML designer for .net core WPF just shows blank after loading",
+                        "url": "https://github.com/dotnet/installer/issues/5417",
+                        "createdAt": "2019-10-29T18:03:37Z",
+                        "closedAt": "2020-04-20T17:36:39Z"
+                    },
+                    {
+                        "title": "Proposal for changes for Cloud Native Buildpacks",
+                        "url": "https://github.com/dotnet/installer/issues/5440",
+                        "createdAt": "2019-10-31T19:23:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Mac os High Sierra poor performance",
+                        "url": "https://github.com/dotnet/installer/issues/5509",
+                        "createdAt": "2019-11-03T23:05:24Z",
+                        "closedAt": "2019-11-06T00:56:59Z"
+                    },
+                    {
+                        "title": "Generate a version metadata file which can be used by dotnet-install",
+                        "url": "https://github.com/dotnet/installer/issues/5554",
+                        "createdAt": "2019-11-05T23:50:39Z",
+                        "closedAt": "2020-03-27T16:29:52Z"
+                    },
+                    {
+                        "title": "Stop using commit height for version number",
+                        "url": "https://github.com/dotnet/installer/issues/5555",
+                        "createdAt": "2019-11-06T00:02:57Z",
+                        "closedAt": "2020-02-05T03:38:08Z"
+                    },
+                    {
+                        "title": "An error dialog pops up when running the winforms .net core application with .NET Core 5.0 SDK",
+                        "url": "https://github.com/dotnet/installer/issues/5665",
+                        "createdAt": "2019-11-14T06:42:24Z",
+                        "closedAt": "2019-11-21T23:03:11Z"
+                    },
+                    {
+                        "title": "Error while setting CI pipeline with ASPNETCore 3.0",
+                        "url": "https://github.com/dotnet/installer/issues/5681",
+                        "createdAt": "2019-11-15T10:28:03Z",
+                        "closedAt": "2019-11-18T09:35:58Z"
+                    },
+                    {
+                        "title": "A fatal error occurred, the folder [/usr/local/bin/host/fxr] does not exist",
+                        "url": "https://github.com/dotnet/installer/issues/5721",
+                        "createdAt": "2019-11-19T15:04:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Have dotnet-sdk-3.0 Linux packages depend on exact dotnet-targeting-pack version",
+                        "url": "https://github.com/dotnet/installer/issues/5738",
+                        "createdAt": "2019-11-21T19:35:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Produce appropriate artifacts for docker latest SDK + particular runtime combo",
+                        "url": "https://github.com/dotnet/installer/issues/5743",
+                        "createdAt": "2019-11-21T23:36:34Z",
+                        "closedAt": "2021-10-18T22:48:21Z"
+                    },
+                    {
+                        "title": "dotnet sdk on linux-arm ",
+                        "url": "https://github.com/dotnet/installer/issues/5763",
+                        "createdAt": "2019-11-22T19:53:48Z",
+                        "closedAt": "2020-02-18T21:40:27Z"
+                    },
+                    {
+                        "title": "After deleting an entity, ChangeTracker.HasChanges() errors with \"Adding a relationship with an entity which is in the Deleted state is not allowed.\" even though SaveChanges is fine and same change can be made at database level",
+                        "url": "https://github.com/dotnet/installer/issues/5801",
+                        "createdAt": "2019-11-28T06:16:03Z",
+                        "closedAt": "2019-11-28T06:42:12Z"
+                    },
+                    {
+                        "title": "No installers or binaries available for latest v3.1.100 rtm release at usual distribution locations",
+                        "url": "https://github.com/dotnet/installer/issues/5806",
+                        "createdAt": "2019-11-29T21:15:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Latest Release Version of 2.2 is lower than the previous ",
+                        "url": "https://github.com/dotnet/installer/issues/5820",
+                        "createdAt": "2019-12-04T14:16:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "NETFramework.ReferenceAssemblies on Windows not used when missing Framework TP",
+                        "url": "https://github.com/dotnet/installer/issues/5824",
+                        "createdAt": "2019-12-05T10:42:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Internal builds should be able to attempt to use alternate download locations",
+                        "url": "https://github.com/dotnet/installer/issues/5841",
+                        "createdAt": "2019-12-06T23:39:36Z",
+                        "closedAt": "2019-12-07T16:06:28Z"
+                    },
+                    {
+                        "title": "ASP.net core Getting Http error code 404 instead of 401 when authentication fails",
+                        "url": "https://github.com/dotnet/installer/issues/5845",
+                        "createdAt": "2019-12-07T20:40:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "dotnet build fails with GenerateClsidMap failed unexpectedly (Invalid cast exception) when EnableComHosting is true and there is an attribute decorating a class in the project",
+                        "url": "https://github.com/dotnet/installer/issues/5850",
+                        "createdAt": "2019-12-09T00:17:02Z",
+                        "closedAt": "2019-12-31T18:32:57Z"
+                    },
+                    {
+                        "title": "Regsvr32 fails with 0x80008093 (seems to be invalid configuration error) on COM Host DLL when it is published in self-contained mode. Works correctly in framework dependent publish.",
+                        "url": "https://github.com/dotnet/installer/issues/5851",
+                        "createdAt": "2019-12-09T00:47:12Z",
+                        "closedAt": "2019-12-14T01:18:22Z"
+                    },
+                    {
+                        "title": "[ComRegisterFunction]/[ComUnregisterFunction] decorated public static methods do not run during regsvr32 registration if they are not in a public COM exposed class themselves (ComVisible/Guid decorated class) and must be in the immediate assembly being registered (ignored if in dependency). .NET Framework does not have this requirement.",
+                        "url": "https://github.com/dotnet/installer/issues/5852",
+                        "createdAt": "2019-12-09T01:18:38Z",
+                        "closedAt": "2019-12-14T01:15:48Z"
+                    },
+                    {
+                        "title": "dotnet 3.1.100 has beta version of csc compiler?",
+                        "url": "https://github.com/dotnet/installer/issues/5857",
+                        "createdAt": "2019-12-10T17:56:20Z",
+                        "closedAt": "2020-02-05T03:33:50Z"
+                    },
+                    {
+                        "title": "Manpages are missing from .deb and .tar.gz?",
+                        "url": "https://github.com/dotnet/installer/issues/5860",
+                        "createdAt": "2019-12-11T00:30:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "3.1.2xx is not copied to latest.version",
+                        "url": "https://github.com/dotnet/installer/issues/5917",
+                        "createdAt": "2019-12-18T23:33:58Z",
+                        "closedAt": "2019-12-30T03:13:31Z"
+                    },
+                    {
+                        "title": "Install SDK with package manager on ubuntu",
+                        "url": "https://github.com/dotnet/installer/issues/5940",
+                        "createdAt": "2019-12-20T15:37:13Z",
+                        "closedAt": "2020-07-17T07:37:30Z"
+                    },
+                    {
+                        "title": "[.NET Core SDK build 3.1.101-servicing-014848] Unable to find package Microsoft.NETCore.App.Host.win-x64 with version (= 3.0.2)",
+                        "url": "https://github.com/dotnet/installer/issues/5963",
+                        "createdAt": "2019-12-25T02:43:10Z",
+                        "closedAt": "2020-02-05T13:31:11Z"
+                    },
+                    {
+                        "title": "What's the difference between dotnet/core-sdk and dotnet/core project?",
+                        "url": "https://github.com/dotnet/installer/issues/5999",
+                        "createdAt": "2019-12-30T01:07:04Z",
+                        "closedAt": "2020-02-05T03:26:56Z"
+                    },
+                    {
+                        "title": "Runtime installer \"Modify setup\" UI seems unfinished",
+                        "url": "https://github.com/dotnet/installer/issues/6102",
+                        "createdAt": "2020-01-09T20:20:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "\"Files in Use\" processes hide behind .NET Logo",
+                        "url": "https://github.com/dotnet/installer/issues/6156",
+                        "createdAt": "2017-05-19T04:31:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Setup authoring generate random guid for ComponentID it breaks ref count",
+                        "url": "https://github.com/dotnet/installer/issues/6160",
+                        "createdAt": "2020-01-16T18:41:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": ".NET Core 3.0 and 2.2 not showing up in Visual Studio 2017",
+                        "url": "https://github.com/dotnet/installer/issues/6166",
+                        "createdAt": "2020-01-17T10:54:01Z",
+                        "closedAt": "2020-01-17T11:10:56Z"
+                    },
+                    {
+                        "title": "[container core/sdk:3.1] Access to the path ...app.csproj.nuget.dgspec.json is denied",
+                        "url": "https://github.com/dotnet/installer/issues/6233",
+                        "createdAt": "2020-01-23T10:03:04Z",
+                        "closedAt": "2020-01-23T10:07:36Z"
+                    },
+                    {
+                        "title": "3.0/2.1 template is missing in Create ASP.NET Core Web Application dialog after uninstall the 16.5 preview 2.",
+                        "url": "https://github.com/dotnet/installer/issues/6243",
+                        "createdAt": "2020-01-26T01:18:42Z",
+                        "closedAt": "2020-01-30T19:17:08Z"
+                    },
+                    {
+                        "title": ".Net Core on Ubuntu 18.04 stuck on setup (also on 16.04)",
+                        "url": "https://github.com/dotnet/installer/issues/6269",
+                        "createdAt": "2020-01-31T06:57:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Re-enable Publish tests for Windows x86",
+                        "url": "https://github.com/dotnet/installer/issues/6285",
+                        "createdAt": "2020-02-04T21:33:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Use arcade GenerateChecksums",
+                        "url": "https://github.com/dotnet/installer/issues/6332",
+                        "createdAt": "2020-02-10T21:27:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Missing Commit c7c8706348e83e37f6c50fb828b26f90db1c1f78",
+                        "url": "https://github.com/dotnet/installer/issues/6341",
+                        "createdAt": "2020-02-12T01:43:42Z",
+                        "closedAt": "2020-02-12T02:20:46Z"
+                    },
+                    {
+                        "title": "Specify which project file to use because this [directory] contains more than one project file.",
+                        "url": "https://github.com/dotnet/installer/issues/6422",
+                        "createdAt": "2020-02-15T19:41:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "CoreXT overlay package for MSBuild 16",
+                        "url": "https://github.com/dotnet/installer/issues/6469",
+                        "createdAt": "2020-02-19T18:08:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add back link to runtime daily builds once available",
+                        "url": "https://github.com/dotnet/installer/issues/6478",
+                        "createdAt": "2020-02-20T01:13:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Icons in the list of nightlies does not correspond to link",
+                        "url": "https://github.com/dotnet/installer/issues/6514",
+                        "createdAt": "2020-02-21T09:42:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Generic naming for .NET Core SDK CoreXT packages for internal Microsoft use",
+                        "url": "https://github.com/dotnet/installer/issues/6518",
+                        "createdAt": "2020-02-21T14:58:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Weird issue while installing specific package with .net core sdk 3.1.102",
+                        "url": "https://github.com/dotnet/installer/issues/6537",
+                        "createdAt": "2020-02-22T15:44:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "GenerateClsidMap failed unexpectedly (System.InvalidCastException) when EnableComHosting and C# 8.0 Nullable enabled",
+                        "url": "https://github.com/dotnet/installer/issues/6539",
+                        "createdAt": "2020-02-22T21:54:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Core-SDK master build broken",
+                        "url": "https://github.com/dotnet/installer/issues/6571",
+                        "createdAt": "2020-02-26T15:17:37Z",
+                        "closedAt": "2020-02-28T22:02:25Z"
+                    },
+                    {
+                        "title": "Latest build of release/5.0.1xx-preview1 branch aren’t getting copied to latest ",
+                        "url": "https://github.com/dotnet/installer/issues/6572",
+                        "createdAt": "2020-02-26T15:52:04Z",
+                        "closedAt": "2020-03-11T15:55:41Z"
+                    },
+                    {
+                        "title": "Install .NET 5.0 Preview 1, the message under the Installation note in UI still shows .NET Core 3.1.",
+                        "url": "https://github.com/dotnet/installer/issues/6585",
+                        "createdAt": "2020-02-27T04:15:52Z",
+                        "closedAt": "2020-02-28T05:56:07Z"
+                    },
+                    {
+                        "title": "Adding a new template is very error prone",
+                        "url": "https://github.com/dotnet/installer/issues/6646",
+                        "createdAt": "2020-03-02T20:37:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add solution items to solution file using CLI",
+                        "url": "https://github.com/dotnet/installer/issues/6657",
+                        "createdAt": "2020-03-03T22:56:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SDK 3.1.102 does not include .Net Standard 2.1 (Mac OS)",
+                        "url": "https://github.com/dotnet/installer/issues/6662",
+                        "createdAt": "2020-03-04T14:03:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Installers with verssion of binary differ",
+                        "url": "https://github.com/dotnet/installer/issues/6691",
+                        "createdAt": "2020-03-05T17:43:08Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Automate Updates to GenerateBundledVersions.targets",
+                        "url": "https://github.com/dotnet/installer/issues/6695",
+                        "createdAt": "2020-03-05T20:34:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Remove Helix perf tests",
+                        "url": "https://github.com/dotnet/installer/issues/6696",
+                        "createdAt": "2020-03-05T22:13:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SDK installer for Windows stores a value in DisplayVersion that does not match release version",
+                        "url": "https://github.com/dotnet/installer/issues/6710",
+                        "createdAt": "2020-03-06T20:29:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "unable to publish linux-arm",
+                        "url": "https://github.com/dotnet/installer/issues/6720",
+                        "createdAt": "2020-03-07T02:53:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add crossgen support for win-arm64 builds",
+                        "url": "https://github.com/dotnet/installer/issues/6739",
+                        "createdAt": "2020-03-09T19:11:21Z",
+                        "closedAt": "2020-03-31T18:01:41Z"
+                    },
+                    {
+                        "title": "OSX SDK installer does not block on 10.12",
+                        "url": "https://github.com/dotnet/installer/issues/6742",
+                        "createdAt": "2020-03-09T19:25:11Z",
+                        "closedAt": "2020-03-11T19:27:15Z"
+                    },
+                    {
+                        "title": "Add test coverage that we are handling DefaultRuntimeFrameworkVersions correctly",
+                        "url": "https://github.com/dotnet/installer/issues/6757",
+                        "createdAt": "2020-03-10T21:04:10Z",
+                        "closedAt": "2020-03-30T18:26:20Z"
+                    },
+                    {
+                        "title": "Docker image generation frequently fails",
+                        "url": "https://github.com/dotnet/installer/issues/6785",
+                        "createdAt": "2020-03-12T15:39:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Consider closing/restarting console windows after setup",
+                        "url": "https://github.com/dotnet/installer/issues/6793",
+                        "createdAt": "2020-01-10T16:25:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add automatic handling for updating DefaultVersion of a release to .0 patch when it goes from prerelease to stable",
+                        "url": "https://github.com/dotnet/installer/issues/6800",
+                        "createdAt": "2020-03-13T00:05:19Z",
+                        "closedAt": "2020-03-27T18:11:47Z"
+                    },
+                    {
+                        "title": "Remove 3.0 templates",
+                        "url": "https://github.com/dotnet/installer/issues/6807",
+                        "createdAt": "2020-03-13T11:18:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "System.Text.Json Not work when publish app",
+                        "url": "https://github.com/dotnet/installer/issues/6809",
+                        "createdAt": "2020-03-13T11:58:12Z",
+                        "closedAt": "2020-05-17T14:06:17Z"
+                    },
+                    {
+                        "title": "Missing application icon for exe if built on Linux",
+                        "url": "https://github.com/dotnet/installer/issues/6821",
+                        "createdAt": "2020-03-15T23:52:47Z",
+                        "closedAt": "2020-03-30T02:21:34Z"
+                    },
+                    {
+                        "title": "Latest build of release/5.0.1xx-preview2 shadowing master's channel latest",
+                        "url": "https://github.com/dotnet/installer/issues/6822",
+                        "createdAt": "2020-03-16T20:43:43Z",
+                        "closedAt": "2020-03-27T04:52:49Z"
+                    },
+                    {
+                        "title": "Move latest channel declaration to eng/Versions.props",
+                        "url": "https://github.com/dotnet/installer/issues/6828",
+                        "createdAt": "2020-03-17T15:14:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Re enable debian 9 check",
+                        "url": "https://github.com/dotnet/installer/issues/6840",
+                        "createdAt": "2020-03-17T21:50:07Z",
+                        "closedAt": "2020-03-18T17:44:00Z"
+                    },
+                    {
+                        "title": "In the installing UI of 5.0 Preview 2 on non-ENU OS, it shows \".NET Core 3.1\" and \"16.4\" but not \".NET 5.0\" and \"16.6\".",
+                        "url": "https://github.com/dotnet/installer/issues/6849",
+                        "createdAt": "2020-03-18T09:19:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Regression in 3.1.200 for dotnet test -t",
+                        "url": "https://github.com/dotnet/installer/issues/6853",
+                        "createdAt": "2020-03-18T13:46:43Z",
+                        "closedAt": "2020-03-20T01:01:47Z"
+                    },
+                    {
+                        "title": "Checksums not generated",
+                        "url": "https://github.com/dotnet/installer/issues/6862",
+                        "createdAt": "2020-03-19T01:43:11Z",
+                        "closedAt": "2020-03-19T21:55:09Z"
+                    },
+                    {
+                        "title": "Ordering of PlatformAssemblyPaths passed to crossgen is wrong",
+                        "url": "https://github.com/dotnet/installer/issues/6877",
+                        "createdAt": "2020-03-20T16:15:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "In the installing UI of 5.0 Preview 2, release note link is 3.0.",
+                        "url": "https://github.com/dotnet/installer/issues/6926",
+                        "createdAt": "2020-03-26T08:43:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make \"copy to latest\" conditional based on default channel assignment",
+                        "url": "https://github.com/dotnet/installer/issues/6951",
+                        "createdAt": "2020-03-27T14:28:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Windows installer has poor dpi scaling",
+                        "url": "https://github.com/dotnet/installer/issues/6959",
+                        "createdAt": "2017-03-13T13:06:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Deliver first-class Snap installers for .NET",
+                        "url": "https://github.com/dotnet/installer/issues/6991",
+                        "createdAt": "2020-03-31T17:22:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Update .NET License for Windows Installers",
+                        "url": "https://github.com/dotnet/installer/issues/7043",
+                        "createdAt": "2020-04-06T23:08:55Z",
+                        "closedAt": "2020-05-05T03:21:43Z"
+                    },
+                    {
+                        "title": "dotnet-install.ps1 failing during official build",
+                        "url": "https://github.com/dotnet/installer/issues/7050",
+                        "createdAt": "2020-04-07T15:35:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Nice",
+                        "url": "https://github.com/dotnet/installer/issues/7058",
+                        "createdAt": "2020-04-07T23:00:07Z",
+                        "closedAt": "2020-04-08T18:06:39Z"
+                    },
+                    {
+                        "title": "Global dotnet tool install not finding global tools after installation on Linux with SDK installed",
+                        "url": "https://github.com/dotnet/installer/issues/7069",
+                        "createdAt": "2020-04-08T23:16:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add better logging for test run times when a build times out",
+                        "url": "https://github.com/dotnet/installer/issues/7209",
+                        "createdAt": "2020-04-17T15:16:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "how to add reference System.Windows.Data in mac",
+                        "url": "https://github.com/dotnet/installer/issues/7222",
+                        "createdAt": "2020-04-21T08:15:37Z",
+                        "closedAt": "2020-08-21T03:01:33Z"
+                    },
+                    {
+                        "title": "Bring back docker coverage after repo merge",
+                        "url": "https://github.com/dotnet/installer/issues/7250",
+                        "createdAt": "2020-03-20T23:01:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SDK installer leaves empty directories so it appears that an older SDK is still installed",
+                        "url": "https://github.com/dotnet/installer/issues/7368",
+                        "createdAt": "2020-04-30T20:29:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Preview 3 -> System Restore -> Preview 2 is failing.",
+                        "url": "https://github.com/dotnet/installer/issues/7398",
+                        "createdAt": "2020-05-04T22:20:56Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOJH2HQg==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

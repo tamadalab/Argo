@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Introduce MockMvc content() method to convert object to JSON","2019-8/31","2019-9/31","2019-8/31",False,"null",5,45,0
+"Omit cancellation of transactional Monos in TransactionOperator","2019-9/2","2019-9/2","2019-9/2",True,"2019-9/2",4,35,3
+"Log HTTP method in logging filters and revise log message format","2019-9/2","2019-9/2","2019-9/2",False,"null",3,189,44
+"Fix DefaultListableBeanFactory#copyConfigurationFrom","2019-9/3","2019-9/3","2019-9/3",False,"null",4,1,1
+"Optimize PostProcessorRegistrationDelegate to improve performance","2019-9/4","2019-9/4","2019-9/4",False,"null",4,14,12
+"Add support for X-Forwarded-For and Forwarded for","2019-9/4","2020-6/4","2019-9/4",False,"null",6,323,8
+"use lambda & code simplify","2019-9/4","2019-9/4","2019-9/4",False,"null",5,7,14
+"Add opt-in build scan integration with Gradle Enterprise","2019-9/5","2019-9/5","2019-9/5",True,"2019-9/5",5,86,0
+"pull","2019-9/6","2019-9/6","2019-9/6",False,"null",26,271635,160393
+"Tweak detection of Bamboo","2019-9/6","2019-9/6","2019-9/6",True,"2019-9/6",3,7,3
+"Fix typo","2019-9/7","2019-9/7","2019-9/7",True,"2019-9/7",3,63,63
+"DefaultWebSessionManager should not cancel the subscription to WebSessionStore when there is no need to.","2019-9/7","2019-9/7","2019-9/7",False,"null",4,26,5
+"Support Optional<Principal> argument in @MessageMapping","2019-9/9","2019-10/9","2019-9/9",False,"null",4,9,6
+"Update the AspectJ Gradle Plugin to 4.1.0","2019-9/9","2019-9/9","2019-9/9",False,"null",3,1,1
+"Add checksum-dependency-plugin for verification of plugin/dependency checksums","2019-9/10","2022-9/10","2019-9/10",False,"null",3,3613,0
+"Disable caching of changing modules (snapshots) and dynamic versions","2019-9/10","2019-9/10","2019-9/10",True,"2019-9/10",3,7,1
+"Upgrade to com.gradle.build-scan 2.4.2","2019-9/11","2019-9/11","2019-9/11",True,"2019-9/11",3,1,1
+"Enable parallel builds by default","2019-9/11","2019-9/11","2019-9/11",False,"null",4,3,1
+"Move jmx.log beneath build/ to avoid up-to-date pollution","2019-9/11","2019-9/11","2019-9/11",False,"null",3,3,3
+"Optimize test code with lambdas where feasible","2019-9/12","2019-9/12","2019-9/12",True,"2019-9/12",3,15,25
+"Fix OkHttp3ClientHttpRequestFactory shutdown flow","2019-9/12","2019-11/12","2019-9/12",False,"null",3,2,1
+"Add SVG mapping to mime.types file for JavaMail support","2019-9/12","2019-9/12","2019-9/12",True,"2019-9/12",4,2,0
+"Fix race condition in sendBlockingMessage","2019-9/16","2019-9/16","2019-9/16",True,"2019-9/16",4,5,4
+" Delete obsolete comment in RowMapperTests ","2019-9/16","2019-9/16","2019-9/16",True,"2019-9/16",4,0,1
+"Allow registration of RSocket metadata extractors","2019-9/16","2019-9/16","2019-9/16",True,"2019-9/16",1,131,53
+"Fix transaction aspect's incorrect state after creating new context","2019-9/17","null","2019-9/17",False,"null",3,227,13
+"Proposition: a restructuring of MailSender and JavaMailSender, with additional decorator","2019-9/17","null","2019-9/17",False,"null",3,217,62
+"Defer creating LogAccessor","2019-9/18","2019-9/18","2019-9/18",False,"null",4,7,1
+"Avoid ArrayIndexOutOfBoundsException in SpEL's Indexer","2019-9/18","2019-9/18","2019-9/18",False,"null",3,24,1
+"Enhanced form data request support in MockRestServiceServer","2019-9/19","2020-6/19","2019-9/19",False,"null",4,253,0
+"Reinitialize SQLErrorCodeSQLExceptionTranslator when initial JDBC connection retrieval failed","2019-9/23","null","2019-9/23",False,"null",3,79,1
+"Fix DataSize class according to ISO/IEC 80000","2019-9/23","2019-9/23","2019-9/23",False,"null",4,288,35
+"Fix DataSize class according to ISO/IEC 80000","2019-9/23","2019-9/23","2019-9/23",False,"null",8,288,35
+"Polish ImportOrderCheck Checkstyle rule","2019-9/24","2019-9/24","2019-9/24",True,"2019-9/24",3,1,1
+"Obfuscate IP addresses in build scans","2019-9/24","2019-9/24","2019-9/24",True,"2019-9/24",3,3,0
+"Capture maxParallelForks of Test tasks in build scans","2019-9/24","2019-9/24","2019-9/24",True,"2019-9/24",3,11,0
+"Add CompositeTaskDecorator","2019-9/24","null","2019-9/24",False,"null",3,133,0
+"Enable local build cache for buildSrc and main project","2019-9/25","2019-9/25","2019-9/25",False,"null",3,19,1
+"Run webflux's tests in parallel to shorten long tail of builds","2019-9/25","2019-9/25","2019-9/25",True,"2019-9/25",3,4,0
+"Improve exclusions of checkstyleNoHttp task","2019-9/25","2019-9/25","2019-9/25",True,"2019-9/25",3,9,5
+"Upgrade to io.freefair.aspectj 4.1.1","2019-9/25","2019-9/25","2019-9/25",True,"2019-9/25",3,1,1
+"Allow genJaxb's output to be cached when checkout locations differ","2019-9/25","2019-9/25","2019-9/25",True,"2019-9/25",3,1,1
+"Add ability for StopWatch to aggregate results","2019-9/26","2022-9/26","2019-9/26",False,"null",5,47,5
+"Add custom TriggerContext to ReschedulingRunnable","2019-9/26","null","2019-9/26",False,"null",4,168,13
+"Fix an assertion in a test","2019-9/26","2019-9/26","2019-9/26",True,"2019-9/26",3,1,1
+"5.1.x","2019-9/28","2019-9/28","2019-9/28",False,"null",21,17316,12619
+"Fix typo in DispatcherServlet Javadoc","2019-9/29","2019-9/29","2019-9/29",True,"2019-9/29",3,1,1
+"Updates rsocket to 1.0.0-RC5","2019-9/30","2019-9/30","2019-9/30",False,"null",4,1,1
+"Ensure spring-core jar task is UP-TO-DATE","2019-9/30","2019-11/30","2019-9/30",False,"null",7,31,46
+"ClientRequest show mutable ,because HttpMessageWriter need add a head…","2019-9/30","2019-10/30","2019-9/30",False,"null",4,3,2
+"cannot readOnly, developer need add HttpHeader in org.springframework…","2019-9/30","2019-10/30","2019-9/30",False,"null",5,5,8
+"Resolves conflicts for pr #23255","2019-10/1","2019-10/1","2019-10/1",False,"null",5,123,84
+"Resolves conflicts for pr [#2063 ]","2019-10/1","2019-10/1","2019-10/1",False,"null",4,69,299
+"Code improvement in `for` statement to use lambda expression","2019-10/1","2019-10/1","2019-10/1",False,"null",3,20,37
+"Fix typo in web-uris doc","2019-10/1","2019-10/1","2019-10/1",True,"2019-10/1",3,1,1
+"3.0.x","2019-10/1","2019-10/1","2019-10/1",False,"null",7,14412,3886
+"Fixes broken links to dev.java.net","2019-10/2","2019-10/2","2019-10/2",True,"2019-10/2",3,2,2
+"Simplify some code","2019-10/2","2019-11/2","2019-10/2",False,"null",3,1,13
+"Ensure pre-flight request does not return error code 401","2019-10/2","2019-11/2","2019-10/2",False,"null",5,17,0
+"Introduce sessionAttributeDoesNotExist in RequestResultMatchers","2019-10/4","2019-10/4","2019-10/4",False,"null",3,20,0
+"Add exchangeAsync to WebTestClient API","2019-10/4","2019-11/4","2019-10/4",False,"null",3,86,0
+"Fix typo in rsocket doc","2019-10/6","2019-10/6","2019-10/6",True,"2019-10/6",4,1,1
+"Switch default to UTF-8 in RestClientResponseException","2019-10/7","2019-10/7","2019-10/7",False,"null",3,1,1
+"change methods of ParsedSql to public","2019-10/8","2022-9/8","2019-10/8",False,"null",5,17,14
+"Preserve expires attribute in MockCookie","2019-10/8","2019-10/8","2019-10/8",False,"null",3,86,10
+"Multipart request support in MockRestServiceServer","2019-10/9","2020-6/9","2019-10/9",False,"null",3,566,0
+"Feauture 20191009 fix log","2019-10/9","2019-10/9","2019-10/9",False,"null",5,3,1
+"Fix typos in websocket.adoc","2019-10/10","2019-10/10","2019-10/10",False,"null",4,3,3
+"Fixing 22325 issue application listeners logic","2019-10/11","2019-10/11","2019-10/11",False,"null",3,2,2
+"Polish HttpWebHandlerAdapter.handleUnresolvedError()","2019-10/11","2019-10/11","2019-10/11",False,"null",3,6,10
+"Fixing 22325 issue application listeners logic","2019-10/11","null","2019-10/11",False,"null",3,2,2
+"ApplicationListenerMethodAdapter: gracefully handle beans which are actually NullBean","2019-10/11","2019-11/11","2019-10/11",True,"2019-11/11",3,41,0
+"Fix typo","2019-10/13","2019-11/13","2019-10/13",False,"null",5,1,1
+"Debug logging for WebSocket lifecycle in WebSocketStompClient","2019-10/14","2019-10/14","2019-10/14",False,"null",3,4,1
+"Added method to convert string from snake_case to camelCase","2019-10/15","2019-10/15","2019-10/15",False,"null",4,55,0
+"Add setPrimary method","2019-10/15","2019-11/15","2019-10/15",False,"null",5,10,0
+"Updates Tomcat to 9.0.27","2019-10/15","2019-10/15","2019-10/15",False,"null",5,2,2
+"Improve the performance of the method MethodParameter.getParameterType","2019-10/15","2019-10/15","2019-10/15",False,"null",6,7,1
+"Polish AbstractResource","2019-10/16","2021-11/16","2019-10/16",False,"null",4,11,12
+"AbstractRequestLoggingFilter.isIncludeHeaders() declared as protected","2019-10/16","2019-11/16","2019-10/16",True,"2019-11/16",5,1,1
+"Changed the default character encoding to UTF-8 in both the exceptions","2019-10/16","2019-10/16","2019-10/16",False,"null",3,24,21
+"Merge pull request #1 from spring-projects/master","2019-10/16","2019-10/16","2019-10/16",False,"null",3,0,0
+"Handle %2F in simp messaging usernames [cancelled to recreate based on CONTRIBUTING.md]","2019-10/19","2019-10/19","2019-10/19",False,"null",4,40,6
+"Reject ""%2F"" as an invalid sequence in simp messaging usernames","2019-10/19","2019-11/19","2019-10/19",False,"null",3,40,6
+"spring review","2019-10/19","2019-10/19","2019-10/19",False,"null",5,102,0
+"Make Kotlin functions accessible in CoroutinesUtils","2019-10/21","2022-2/21","2019-10/21",False,"null",4,62,12
+"Introduce NestedBeanPropertyRowMapper to map nested objects from arbitrary SQL query","2019-10/22","null","2019-10/22",False,"null",4,309,0
+"Update Spring Boot references in testing documentation","2019-10/22","2019-10/22","2019-10/22",False,"null",3,4,4
+"Avoid default Accept header from HttpUrlConnection in RestTemplate with put and delete #23740","2019-10/23","2019-11/23","2019-10/23",False,"null",4,65,0
+"update","2019-10/24","2019-10/24","2019-10/24",False,"null",6,266,1
+"Small readability update.","2019-10/24","2019-10/24","2019-10/24",False,"null",5,1,1
+"TransactionalOperator::transactional does not close the transaction when cancelled","2019-10/24","2019-10/24","2019-10/24",True,"2019-10/24",3,1,1
+"hasCorsConfigurationSource() now supports HandlerExecutionChain","2019-10/24","2019-10/24","2019-10/24",False,"null",4,3,0
+"Extract build cache settings to a dedicated file","2019-10/25","2019-10/25","2019-10/25",True,"2019-10/25",3,10,16
+"Stop Created-By manifest header from causing a test task cache miss","2019-10/25","2019-10/25","2019-10/25",True,"2019-10/25",3,12,0
+"Add tests for cancellation of transactional streams","2019-10/25","2019-10/25","2019-10/25",True,"2019-10/25",3,28,0
+"MockHttpServletResponse now checks for committed responses","2019-10/27","2019-11/27","2019-10/27",False,"null",4,81,1
+"Fixing NPE in AbstractNamedValueMethodArgumentResolver","2019-10/29","2019-10/29","2019-10/29",False,"null",4,13,4
+"Add opt-in support for remote build cache and pushing to it from CI","2019-10/29","2019-10/29","2019-10/29",True,"2019-10/29",3,14,2
+"Modify the default value of ddl-auto to ""none""","2019-10/30","2019-10/30","2019-10/30",False,"null",3,1,1

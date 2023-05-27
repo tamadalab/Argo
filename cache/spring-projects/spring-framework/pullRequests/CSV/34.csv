@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fix LocaleEditor description and formatting in reference manual","2021-4/16","2021-4/16","2021-4/16",True,"2021-4/16",3,3,2
+"Use String.startsWith() instead of String.substring() in PatternMatchUtils","2021-4/18","2021-4/18","2021-4/18",True,"2021-4/18",3,2,2
+"Remove reference to Commons Collections in ColumnMapRowMapper Javadoc","2021-4/19","2021-4/19","2021-4/19",True,"2021-4/19",3,2,5
+"fix DateTimeFormat annotation description","2021-4/19","2021-4/19","2021-4/19",False,"null",3,1,1
+"Remove reference to Joda Time support in @DateTimeFormat Javadoc","2021-4/19","2021-4/19","2021-4/19",True,"2021-4/19",3,1,1
+"WebMvcConfigurer support Order","2021-4/20","2021-4/20","2021-4/20",False,"null",3,4,5
+"Fix formatting for PersonValidator Kotlin example in ref docs","2021-4/20","2021-4/20","2021-4/20",True,"2021-4/20",3,1,1
+"Fix Kotlin code formatting for Inline Maps section of ref docs","2021-4/21","2021-4/21","2021-4/21",True,"2021-4/21",3,1,1
+"Improve documentation for SpEL constructor support","2021-4/22","2021-4/22","2021-4/22",True,"2021-4/22",3,1,1
+"Update ForwardedHeaderTransformer.java","2021-4/23","2021-4/23","2021-4/23",False,"null",4,6,2
+"Fix SpEL selection description in ref docs","2021-4/23","2021-4/23","2021-4/23",True,"2021-4/23",3,2,2
+"Use HttpMethod enum constants instead of strings in DispatcherServlet","2021-4/24","2021-5/24","2021-4/24",False,"null",7,3,2
+"Fix parameter bug of handler that Kotlin DSL defines as a parameter for the filterFunction.","2021-4/24","2021-5/24","2021-4/24",False,"null",3,45,4
+"Optimize the assignment of UnsatisfiedServletRequestParameterException paramConditions","2021-4/25","2021-4/25","2021-4/25",False,"null",5,2,2
+"Fix aspect autodetection description","2021-4/26","2021-4/26","2021-4/26",True,"2021-4/26",3,1,1
+"Fix MessageSource doc description","2021-4/27","2021-4/27","2021-4/27",True,"2021-4/27",3,2,2
+"Avoid memory leak when PropertyComparator is reused","2021-4/27","2021-4/27","2021-4/27",False,"null",4,3,4
+"Add ApplicationEvent constructor for specifying timestamp","2021-4/28","2021-5/28","2021-4/28",True,"2021-5/28",3,12,0
+"Improve readability of MessageSourceSupport Javadoc","2021-4/29","2021-4/29","2021-4/29",True,"2021-4/29",4,1,1
+"Use an import instead of FQCN in StaxEventXMLReader","2021-4/29","2021-4/29","2021-4/29",True,"2021-4/29",4,1,1
+"Fix syntax for RequestEntity headers example in ref docs","2021-4/29","2021-4/29","2021-4/29",True,"2021-4/29",3,1,1
+"Polish","2021-4/29","2021-4/29","2021-4/29",True,"2021-4/29",3,7,8
+"Fix MethodMatcher API doc description","2021-5/5","2021-5/5","2021-5/5",True,"2021-5/5",3,2,2
+"Merge pull request #1 from spring-projects/master","2021-5/6","2021-5/6","2021-5/6",False,"null",2,0,0
+"fix aop @target bug ","2021-5/6","2021-5/6","2021-5/6",False,"null",4,4,5
+"UriComponentsBuilder handles invalid port numbers correctly","2021-5/7","2021-5/7","2021-5/7",False,"null",3,40,1
+"Fix findAnnotationOnBean Kotlin extension return type","2021-5/7","2022-3/7","2021-5/7",False,"null",6,1,1
+"UriComponentsBuilder when with port and query or fragment but no path","2021-5/8","2021-5/8","2021-5/8",False,"null",5,31,1
+"Provide option to switch threads for WebFlux controller methods","2021-5/9","null","2021-5/9",False,"null",6,74,3
+"Fixes Incorrect Assertion check in AbstractBrokerRegistration","2021-5/9","2021-5/9","2021-5/9",False,"null",4,1,1
+"Resolve Values from Mapping Path for Mvc Uri Builder","2021-5/9","null","2021-5/9",False,"null",3,29,11
+"Introduce soft assertions for MockMvc","2021-5/9","2021-8/9","2021-5/9",False,"null",5,106,1
+"Bug Fix the port regular expression in'UriComponentsBuilder'.","2021-5/10","2021-5/10","2021-5/10",False,"null",5,7,1
+"Optimize some scenes which need not proxy","2021-5/10","2021-5/10","2021-5/10",False,"null",1,4,5
+"Improve support for port numbers in allowedOriginPattern of CorsConfiguration","2021-5/10","2021-5/10","2021-5/10",False,"null",4,35,1
+"Optimize some scenes which need not proxy","2021-5/11","2021-5/11","2021-5/11",False,"null",3,34,0
+"Optimize some scenes which need not proxy","2021-5/11","null","2021-5/11",False,"null",4,52,0
+"Fix punctuation in Custom Cache Resolution section of ref docs","2021-5/13","2021-5/13","2021-5/13",True,"2021-5/13",2,1,1
+"Avoid autoboxing in CacheAspectSupport","2021-5/14","2021-5/14","2021-5/14",False,"null",3,1,1
+"Polish PORT_PATTERN in UriComponentsBuilder","2021-5/18","2021-5/18","2021-5/18",True,"2021-5/18",3,1,1
+"Introduce ResponseEntity.internalServerError()","2021-5/18","2021-5/18","2021-5/18",False,"null",4,19,0
+"Update Etag validator","2021-5/18","2021-5/18","2021-5/18",False,"null",3,49,14
+"Polish","2021-5/20","2021-5/20","2021-5/20",True,"2021-5/20",3,2,2
+"ResponseEntity Allows Body for 1xx, 204, 304 Statuses","2021-5/20","2021-5/20","2021-5/20",False,"null",5,4,0
+"Add option to get WebSession instance only if a session exists #26958","2021-5/21","2021-5/21","2021-5/21",False,"null",5,37,1
+"Fix broken Javadoc tags","2021-5/22","2021-5/22","2021-5/22",False,"null",3,8,8
+"Refactor ConcurrentBeanWrapperTests to use @RepeatedTest","2021-5/22","2021-5/22","2021-5/22",True,"2021-5/22",3,4,4
+"Introduce soft assertions for WebTestClient","2021-5/23","2021-9/23","2021-5/23",False,"null",6,100,0
+"Fix typo","2021-5/25","2021-5/25","2021-5/25",False,"null",4,1,1
+"Fix function in URI Links section of ref docs","2021-5/26","2021-5/26","2021-5/26",False,"null",4,15,5
+"Fix typo in code example","2021-5/27","2021-5/27","2021-5/27",False,"null",4,2,2
+"Add test cases to SpEL's MapAccessorTests","2021-5/27","2021-10/27","2021-5/27",False,"null",3,11,0
+"Add more test cases for SimpleAliasRegistry","2021-5/27","2021-6/27","2021-5/27",False,"null",4,24,0
+"Add tests for MessageBodyClientHttpResponseWrapper","2021-5/27","2021-9/27","2021-5/27",False,"null",4,56,0
+"Allow multiple destinations per subscription in DefaultSubscriptionRegistry","2021-5/27","2021-9/27","2021-5/27",False,"null",6,58,26
+"Add extra test case of creating bean","2021-5/27","2021-5/27","2021-5/27",False,"null",3,14,11
+"Add extra test case of creating bean","2021-5/27","2021-5/27","2021-5/27",False,"null",1,21,10
+"Add extra test case for creating bean","2021-5/27","2021-12/27","2021-5/27",False,"null",4,90,12
+"Add missing "")"" in Kotlin example","2021-5/28","2021-6/28","2021-5/28",True,"2021-6/28",3,1,1
+"Fix @Transactional examples regarding method visibility","2021-5/29","2021-5/29","2021-5/29",True,"2021-5/29",3,9,9
+"Update README.md","2021-5/31","2021-5/31","2021-5/31",False,"null",3,1,1
+"Simplify String construction in StringUtils.changeFirstCharacterCase()","2021-6/2","2021-6/2","2021-6/2",True,"2021-6/2",3,1,1
+"Link alternate documentation formats","2021-6/2","2021-6/2","2021-6/2",False,"null",5,8,0
+"Adjust expected IdentityHashMap sizes in ClassUtils","2021-6/3","2021-6/3","2021-6/3",True,"2021-6/3",3,2,2
+"Create scala.yml","2021-6/4","2021-6/4","2021-6/4",False,"null",4,22,0
+"Document that class-level @ResponseStatus is inherited by @ExceptionHandler methods","2021-6/7","2021-6/7","2021-6/7",True,"2021-6/7",3,1,1
+"Remove redundant Collections.unmodifiableList()","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",3,3,6
+"Cross reference additional Aware interfaces from BeanFactory Javadoc","2021-6/8","2021-6/8","2021-6/8",False,"null",5,2,0
+"Update WebMvcConfigurationSupport javadoc for HandlerFunctionAdapter","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",3,2,0
+"Clean up @SuppressWarnings(""ConstantConditions"")","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",3,3,7
+"Improve RequestResponseBodyMethodProcessor Javadoc","2021-6/9","2021-6/9","2021-6/9",True,"2021-6/9",3,2,1
+"Improve RequestPartMethodArgumentResolver Javadoc","2021-6/9","2021-6/9","2021-6/9",True,"2021-6/9",3,3,2
+"fix: Correct the condition about isEnforceReadOnly","2021-6/10","2021-6/10","2021-6/10",False,"null",4,1,1
+"Support $$ quotes in JDBC ScriptUtils","2021-6/10","2021-6/10","2021-6/10",False,"null",3,72,3
+"Support $$ quotes in JDBC ScriptUtils","2021-6/10","null","2021-6/10",False,"null",3,72,3
+"Issue #26985 change date time default formate","2021-6/10","2021-6/10","2021-6/10",False,"null",3,9,14
+"Fix master->main in contribution guide","2021-6/11","2021-6/11","2021-6/11",True,"2021-6/11",3,1,1
+"Fix assertion in XmlBeanFactoryTests","2021-6/14","2021-6/14","2021-6/14",True,"2021-6/14",3,1,1
+"5.2.x","2021-6/15","2021-6/15","2021-6/15",False,"null",16,4857,2199
+"Avoid unnecessary Map wrapping in DefaultPathSegment","2021-6/15","2021-6/15","2021-6/15",False,"null",4,10,1
+"Reducing the level of code nesting for some methods","2021-6/15","2021-12/15","2021-6/15",False,"null",5,45,46
+"Fix explanation on default settings for content negotiation in reference doc","2021-6/15","2021-7/15","2021-6/15",True,"2021-7/15",3,3,5
+"Add maxAttempts to ExponentialBackOff","2021-6/16","null","2021-6/16",False,"null",4,59,4
+"Delegate a call to bean for the RequestMappingHandlerAdapter.getLastModifiedInternal(..) method","2021-6/18","2021-7/18","2021-6/18",False,"null",4,9,3
+"Using entrySet iterator in ServletServerHttpRequest#getBodyFromServle…","2021-6/19","2021-7/19","2021-6/19",False,"null",3,22,17
+"Only track DisposableBean targets in ThreadLocalTargetSource","2021-6/19","2021-6/19","2021-6/19",False,"null",4,11,5
+"Clear Statement warnings in ScriptUtils.executeSqlScript()","2021-6/20","null","2021-6/20",False,"null",3,1,0
+"spring-webflux: ServerRequestWrapper is not passed on from RouterFunctionDsl filter function","2021-6/21","2022-9/21","2021-6/21",False,"null",5,52,1
+"将地址改为阿里云的地址，","2021-6/23","2021-6/23","2021-6/23",False,"null",4,6,2
+"Improve performance of iteration in GroovyBeanDefinitionReader","2021-6/25","2021-7/25","2021-6/25",True,"2021-7/25",3,3,3
+"Delete unnecessary variable","2021-6/27","2021-7/27","2021-6/27",False,"null",4,1,2
+"Simplify Comparator using method reference","2021-6/27","2021-7/27","2021-6/27",False,"null",3,2,5
+"Fix typo in BeanDefinitionDsl.kt","2021-6/29","2021-6/29","2021-6/29",False,"null",4,1,1
+"5.2.14","2021-6/30","2021-6/30","2021-6/30",False,"null",14,3715,1531
+"Fix cross reference in ref docs for `@Bean` method autowiring","2021-6/30","2021-6/30","2021-6/30",False,"null",4,1,2
+"Fix typo in core-beans.adoc","2021-6/30","2021-6/30","2021-6/30",False,"null",3,1,1
+"Allow null for attributeValue in Model.set() Kotlin extension method","2021-7/1","null","2021-7/1",False,"null",4,1,1
+"Added description for HandlerInterceptor","2021-7/2","2021-7/2","2021-7/2",False,"null",4,1,0
+"Optimize HttpStatus value resolution from code","2021-7/3","2021-7/3","2021-7/3",False,"null",6,55,16
+"Avoid duplicated code by using map","2021-7/4","2021-7/4","2021-7/4",False,"null",3,14,25

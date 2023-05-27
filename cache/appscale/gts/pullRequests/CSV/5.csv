@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Replace Kernel.puts with Djinn.log_debug","2013-7/11","2013-7/11","2013-7/11",True,"2013-7/11",2,50,50
+"Tck query fixes","2013-7/12","2013-7/12","2013-7/12",True,"2013-7/12",2,134,173
+"Always starting hadoop, since it can be useful to interact with in user code","2013-7/12","2013-10/12","2013-7/12",False,"null",2,6,0
+"installing wget before we use it, so that we can wget rabbitmq files","2013-7/12","2013-7/12","2013-7/12",True,"2013-7/12",2,3,2
+"fixing groomer issue","2013-7/12","2013-7/12","2013-7/12",True,"2013-7/12",2,7,6
+"using dbconstants variable","2013-7/12","2013-7/12","2013-7/12",True,"2013-7/12",2,2,2
+"Re-alignment  text on instance table","2013-7/15","2013-7/15","2013-7/15",True,"2013-7/15",2,3,3
+"Suppressing unnecessary 'ssl wont be verified in this session' messages","2013-7/16","2013-7/16","2013-7/16",True,"2013-7/16",2,13,0
+"using default queue if user specifies queue file with no queues","2013-7/17","2013-7/17","2013-7/17",True,"2013-7/17",2,3,0
+"actually calling increaseconnections to allow more concurrent requests to the VM","2013-7/17","2013-7/17","2013-7/17",True,"2013-7/17",2,2,4
+"Still scaling down if cpu or memory are maxed out","2013-7/17","2013-7/17","2013-7/17",True,"2013-7/17",2,7,10
+"Fixed bug with start, end limit of blob cache","2013-7/18","2013-7/18","2013-7/18",True,"2013-7/18",2,1,1
+"Collectd removal","2013-7/18","2013-8/18","2013-7/18",False,"null",1,2,284
+"updating configs to prevent dropping packets.","2013-7/18","2014-2/18","2013-7/18",False,"null",2,8,9
+"retrying posts to dashboard on transient errors","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,4,0
+"changed default values to things that json can load","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,13,23
+"Cleaning up build script and udpating PB version to 2.5.0.","2013-7/19","2014-4/19","2013-7/19",False,"null",2,13,67
+"added link to sdk admin console on dashboard","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,8,1
+"Dont interpret zero data as no data","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,4,6
+"Static file support for Java App Engine apps","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,55,3
+"bumped version number to 1.9.0","2013-7/19","2013-7/19","2013-7/19",True,"2013-7/19",2,38,6
+"No nameservers in /etc/resolv.conf","2013-7/23","2013-7/23","2013-7/23",True,"2013-7/23",2,66,10
+"AppScale 1.9.0 Release","2013-7/23","2013-7/23","2013-7/23",True,"2013-7/23",2,1112006,184259
+"Store flags for pickled types in memcache","2013-7/24","2013-7/24","2013-7/24",True,"2013-7/24",2,9,9
+"Adding in 1.8.0 datastore stub files to enabled django testbed to work c...","2013-7/24","2013-7/24","2013-7/24",True,"2013-7/24",2,7235,764
+"updated the version of GCE we support, since v1beta14 won't be supported soon","2013-7/24","2013-7/24","2013-7/24",True,"2013-7/24",2,3,3
+"installing dig, which we use to resolve FQDNs to IPs","2013-7/25","2013-7/25","2013-7/25",True,"2013-7/25",2,1,0
+"Write crashlog for appcontroller","2013-7/25","2013-7/25","2013-7/25",True,"2013-7/25",2,126,65
+"fixing long line issues","2013-7/25","2013-7/25","2013-7/25",True,"2013-7/25",2,22,12
+"Stats","2013-7/26","2015-3/26","2013-7/26",False,"null",2,1039,21
+"Chart tooltips","2013-7/26","2013-7/26","2013-7/26",True,"2013-7/26",2,285,17
+"removing whitespace on user's email when they login to the dashboard","2013-7/29","2013-7/29","2013-7/29",True,"2013-7/29",2,4,3
+"not using public and private DNS in euca, since they often don't resolve correctly","2013-7/29","2013-7/29","2013-7/29",True,"2013-7/29",2,22,0
+"Simpler scaling rules","2013-7/29","2013-7/29","2013-7/29",True,"2013-7/29",2,87,154
+"not crashing when the app console is viewed on a loading app","2013-7/29","2013-7/29","2013-7/29",True,"2013-7/29",2,12,2
+"Installing lxml for python2.7 which is different than the 2.6 version","2013-7/30","2013-8/30","2013-7/30",True,"2013-8/30",2,9,6
+"Nginx fix for static_dir","2013-7/30","2013-7/30","2013-7/30",True,"2013-7/30",2,8,4
+"Persists data across AppScale deployments (virt cluster only)","2013-7/31","2013-7/31","2013-7/31",True,"2013-7/31",2,214,210
+"Revert ""Merge pull request #636 from shatterednirvana/persistence-finall...","2013-7/31","2013-7/31","2013-7/31",True,"2013-7/31",2,210,214
+"Test filter","2013-7/31","2013-7/31","2013-7/31",True,"2013-7/31",2,4,4
+"tabs and axis labels for stats on app console","2013-7/31","2015-3/31","2013-7/31",False,"null",2,103,62
+"Persists data across AppScale deployments (virt cluster only)","2013-8/1","2013-8/1","2013-8/1",True,"2013-8/1",2,193,207
+"Verbose flag","2013-8/1","2013-8/1","2013-8/1",False,"null",2,1472,494
+"verbose flag dos","2013-8/1","2013-8/1","2013-8/1",True,"2013-8/1",2,4,0
+"found other places where revert broke persistence","2013-8/1","2013-8/1","2013-8/1",True,"2013-8/1",2,5,10
+"removed unreachable code paths in prime script, and storing apps in /opt","2013-8/1","2013-8/1","2013-8/1",True,"2013-8/1",2,23,24
+"fixed broken unit test","2013-8/2","2013-8/2","2013-8/2",True,"2013-8/2",2,3,0
+"Logging level changes and ordered ancestor queries with cursors","2013-8/2","2013-8/2","2013-8/2",False,"null",1,8,3
+"not getting schemas on user/app tables before creating them, as it throws exceptions","2013-8/5","2013-8/5","2013-8/5",True,"2013-8/5",2,1,6
+"running apt-get update before we install curl","2013-8/5","2013-8/5","2013-8/5",True,"2013-8/5",2,1,2
+"explicitly making sure that the cron.yaml the user gave us is valid","2013-8/6","2013-8/6","2013-8/6",True,"2013-8/6",2,7,3
+"Reset password via dash","2013-8/6","2013-8/6","2013-8/6",True,"2013-8/6",2,1472,493
+"Use persistent disks in Google Compute Engine","2013-8/6","2013-8/6","2013-8/6",True,"2013-8/6",3,799,398
+"changed name of persistent disk mount in test to be consistent with what the code sets it as","2013-8/9","2013-8/9","2013-8/9",True,"2013-8/9",2,1,1
+"not saving logs for reserved apps, since they get endlessly aggregated","2013-8/9","2013-8/9","2013-8/9",True,"2013-8/9",2,1,0
+"Specify availability zone as a flag","2013-8/9","2013-8/9","2013-8/9",True,"2013-8/9",2,53,35
+"Do not enqueue duplicate task names","2013-8/9","2013-8/9","2013-8/9",True,"2013-8/9",2,127,10
+"Domain","2013-8/9","2013-9/9","2013-8/9",True,"2013-9/9",2,1,1
+"First pass at enabling Remote API Shell","2013-8/10","2013-8/10","2013-8/10",True,"2013-8/10",2,26,2
+"Use EBS volumes in AWS to persist data","2013-8/12","2013-8/12","2013-8/12",True,"2013-8/12",2,53,11
+"not using client secrets, since the signed oauth is good enough","2013-8/12","2013-8/12","2013-8/12",True,"2013-8/12",2,15,36
+"Testing fix","2013-8/13","2013-8/13","2013-8/13",False,"null",1,104,63
+"Fixed broken unit test caused by the addtion of the verbose flag to the ...","2013-8/13","2013-8/13","2013-8/13",True,"2013-8/13",2,1,1
+"Monitor memory correctly in god","2013-8/13","2013-8/13","2013-8/13",True,"2013-8/13",2,38,136
+"Install newest version of memcached","2013-8/13","2013-8/13","2013-8/13",True,"2013-8/13",2,195,188
+"Users logout2","2013-8/14","2013-8/14","2013-8/14",True,"2013-8/14",2,57,5
+"added code to properly attach EBS volumes on euca","2013-8/14","2013-8/14","2013-8/14",True,"2013-8/14",3,42,11
+"Safely preserve persisted data","2013-8/14","2013-8/14","2013-8/14",True,"2013-8/14",3,20,0
+"properly receiving lack of a zone name from the tools","2013-8/14","2013-8/14","2013-8/14",True,"2013-8/14",2,7,2
+"Fixes for queries with more than 1 filter and 1 filter as equal","2013-8/14","2013-8/14","2013-8/14",True,"2013-8/14",2,50,7
+"Start AppScale services on VM boot","2013-8/15","2013-8/15","2013-8/15",True,"2013-8/15",2,161,50
+"backing up and restoring app_info_map from each appserver to zookeeper","2013-8/15","2013-9/15","2013-8/15",True,"2013-9/15",2,167,49
+"fixed how we mock out god","2013-8/15","2013-8/15","2013-8/15",True,"2013-8/15",2,2,8
+"additional logging","2013-8/15","2013-8/15","2013-8/15",True,"2013-8/15",2,12,1
+"Removes numerous unused packages from build script","2013-8/15","2013-8/15","2013-8/15",True,"2013-8/15",3,30,375698
+"Fix taskqueue retry params.","2013-8/15","2013-8/15","2013-8/15",True,"2013-8/15",2,38,8
+"not asking the appcontroller for the uaserver's ip address in the dashboard","2013-8/17","2013-8/17","2013-8/17",True,"2013-8/17",3,3,44
+"initial steps for composite queries","2013-8/18","2013-12/18","2013-8/18",False,"null",1,514,114
+"added missing uaserver dummy file","2013-8/18","2013-8/18","2013-8/18",True,"2013-8/18",2,1,0
+"catching malformed cron.yaml better","2013-8/19","2013-8/19","2013-8/19",True,"2013-8/19",2,8,3
+"Write god config such that apps get restarted correctly","2013-8/20","2013-8/20","2013-8/20",True,"2013-8/20",2,59,58
+"Zookeeper connection","2013-8/20","2013-9/20","2013-8/20",True,"2013-9/20",2,68,0
+"not using the apps lock when returning status or logging, since it can deadlock","2013-8/20","2013-8/20","2013-8/20",True,"2013-8/20",2,6,10
+"Debug logging for common logs","2013-8/20","2013-8/20","2013-8/20",True,"2013-8/20",2,4,4
+"making static files readable by nginx","2013-8/21","2013-8/21","2013-8/21",True,"2013-8/21",2,1,0
+"handling @jobs as a str more intelligently","2013-8/21","2013-8/21","2013-8/21",True,"2013-8/21",2,3,1
+"moved common logging to debug","2013-8/21","2013-8/21","2013-8/21",True,"2013-8/21",2,2,2
+"Not removing delimiting char","2013-8/21","2013-8/21","2013-8/21",True,"2013-8/21",2,0,4
+"Remove exists filters.","2013-8/22","2013-8/22","2013-8/22",True,"2013-8/22",2,4,6
+"following 302 redirects on taskqueue routes","2013-8/22","2013-8/22","2013-8/22",True,"2013-8/22",2,95,69
+"making keys only queries work correctly","2013-8/22","2013-8/22","2013-8/22",True,"2013-8/22",2,12,7
+"installing python crypto library from source","2013-8/22","2013-8/22","2013-8/22",True,"2013-8/22",2,7,1
+"Fix broken autoscaling","2013-8/22","2013-8/22","2013-8/22",True,"2013-8/22",2,36,28
+"including the number of entities in stats info on the appconsole","2013-8/23","2013-8/23","2013-8/23",True,"2013-8/23",2,4,3
+"not having the appcontroller die if it cannot acquire nodes to scale onto","2013-8/23","2013-9/23","2013-8/23",True,"2013-9/23",2,6,4
+"Bumping version number to 1.10","2013-8/25","2013-8/25","2013-8/25",True,"2013-8/25",3,56,6
+"passing zone from AppController to iaas manager, and mounting disks at /...","2013-8/27","2013-8/27","2013-8/27",True,"2013-8/27",2,4,3
+"not aborting install script if we cant heartbeat back home","2013-8/27","2013-9/27","2013-8/27",True,"2013-9/27",2,1,1
+"fixe for memcache ip ordering","2013-8/27","2013-8/27","2013-8/27",True,"2013-8/27",2,1,1
+"not removing last char off of secret","2013-8/28","2013-9/28","2013-8/28",True,"2013-9/28",2,4,8

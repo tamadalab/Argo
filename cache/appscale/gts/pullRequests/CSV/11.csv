@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Make the access to UserAppServer resilient.","2015-11/19","2015-11/19","2015-11/19",True,"2015-11/19",3,233,278
+"Handle order operation","2015-11/21","2015-11/21","2015-11/21",True,"2015-11/21",3,4,2
+"Adding cookie to App Servers via HAProxy.","2015-11/23","2015-12/23","2015-11/23",False,"null",1,10,2
+"Check services every 5 seconds","2015-11/23","2015-11/23","2015-11/23",True,"2015-11/23",2,3,0
+"Remove extra line.","2015-11/25","2015-11/25","2015-11/25",True,"2015-11/25",2,0,1
+"Monit file check every 2 cycles.","2015-11/30","2015-12/30","2015-11/30",True,"2015-12/30",2,1,1
+"Don't configure time at build time.","2015-11/30","2015-12/30","2015-11/30",True,"2015-12/30",2,1,27
+"Add ability to install in a docker container.","2015-12/2","2015-12/2","2015-12/2",True,"2015-12/2",2,69,29
+"Fix a race condition when allocating ports.","2015-12/3","2015-12/3","2015-12/3",True,"2015-12/3",3,82,45
+"Don't modify hostname when running in docker.","2015-12/3","2015-12/3","2015-12/3",True,"2015-12/3",2,43,8
+"Upgrade Java AppEngine Support From 1.8.1 to 1.8.2","2015-12/3","2015-12/3","2015-12/3",True,"2015-12/3",3,159,50
+"AppManager indentation","2015-12/3","2015-12/3","2015-12/3",True,"2015-12/3",2,97,99
+"Poll for new tasks","2015-12/4","2015-12/4","2015-12/4",True,"2015-12/4",2,9,0
+"Fix Java AppServer blockKeyCache check.","2015-12/4","2015-12/4","2015-12/4",True,"2015-12/4",2,2,2
+"Log Hermes's polling only if registered.","2015-12/5","2015-12/5","2015-12/5",True,"2015-12/5",2,2,2
+"Update copyright year","2015-12/5","2015-12/5","2015-12/5",True,"2015-12/5",2,1,1
+"Cleanup AppScaleTaskQueueClient Get AppId Code","2015-12/5","2015-12/5","2015-12/5",True,"2015-12/5",2,7,5
+"Upgrade Java AppEngine Support From 1.8.2 to 1.8.3","2015-12/5","2015-12/5","2015-12/5",True,"2015-12/5",2,1,1
+"Upgrade Java AppEngine Support From 1.8.3 to 1.8.4","2015-12/5","2015-12/5","2015-12/5",True,"2015-12/5",2,24,5
+"Enable debug logging for datastore","2015-12/8","2015-12/8","2015-12/8",True,"2015-12/8",2,21,17
+"Setup the frontend only when there is an appserver.","2015-12/8","2016-2/8","2015-12/8",True,"2016-2/8",3,79,49
+"Limit the numer of zookeeper logs to keep.","2015-12/9","2015-12/9","2015-12/9",True,"2015-12/9",2,13,2
+"Untar app with AppController's permissions","2015-12/10","2015-12/10","2015-12/10",True,"2015-12/10",2,2,1
+"Use combined app log if unable to parse cron xml","2015-12/11","2015-12/11","2015-12/11",True,"2015-12/11",2,23,3
+"Encapsulate url","2015-12/11","2015-12/11","2015-12/11",True,"2015-12/11",2,7,4
+"Upgrading GAE version to 1.8.5","2015-12/14","2019-9/14","2015-12/14",False,"null",3,116,29
+"Add more info to backup & recovery logs","2015-12/15","2015-12/15","2015-12/15",True,"2015-12/15",2,3,0
+"Make faststart more generic.","2015-12/16","2015-12/16","2015-12/16",True,"2015-12/16",3,28,25
+"Ensure Backup and Recovery is up before polling for task","2015-12/16","2015-12/16","2015-12/16",True,"2015-12/16",2,22,0
+"Fix Hermes unit tests","2015-12/16","2015-12/16","2015-12/16",True,"2015-12/16",2,24,4
+"Use curl throughout.","2015-12/16","2015-12/16","2015-12/16",True,"2015-12/16",2,10,16
+"Fix quoting of the file path.","2015-12/16","2015-12/16","2015-12/16",True,"2015-12/16",2,1,1
+"Check for the existence of appscale-tools directory","2015-12/17","2016-6/17","2015-12/17",False,"null",1,14,4
+"Get available disk space in bytes","2015-12/17","2015-12/17","2015-12/17",True,"2015-12/17",2,20,28
+"Don't run a 'nodetool refresh' right after cassandra restore","2015-12/17","2015-12/17","2015-12/17",True,"2015-12/17",2,0,17
+"Encoding groomer_state zk values for B/R.","2015-12/18","2015-12/18","2015-12/18",True,"2015-12/18",2,5,5
+"Put deployment ID node inside appscale path","2015-12/18","2015-12/18","2015-12/18",True,"2015-12/18",2,6,5
+"Deploy directly from backups folder","2015-12/19","2015-12/19","2015-12/19",True,"2015-12/19",2,34,49
+"Version bumped to 2.6.0","2015-12/21","2015-12/21","2015-12/21",True,"2015-12/21",2,18,1
+"Ignore not empty nodes while restoring Zookeeper data.","2015-12/22","2015-12/22","2015-12/22",True,"2015-12/22",2,3,0
+"Fixing AppScale art.","2015-12/22","2015-12/22","2015-12/22",True,"2015-12/22",2,1,1
+"Fixed missing {.","2015-12/23","2015-12/23","2015-12/23",True,"2015-12/23",2,1,1
+"Make sure lsof catches only servers.","2015-12/23","2015-12/23","2015-12/23",True,"2015-12/23",2,9,9
+"Vagrant faststart.","2015-12/23","2015-12/23","2015-12/23",True,"2015-12/23",2,41,21
+"Added a hourly status print in the controller logs.","2015-12/28","2015-12/28","2015-12/28",True,"2015-12/28",3,22,3
+"AppController  zookeeper cleanup","2015-12/30","2016-6/30","2015-12/30",False,"null",2,86,81
+"Import datastore interface as module","2016-1/5","2016-1/5","2016-1/5",True,"2016-1/5",2,12,11
+"Handle UpdateIndex requests to the datastore","2016-1/5","2016-1/5","2016-1/5",True,"2016-1/5",2,186,5
+"Remove homedir references","2016-1/5","2016-1/5","2016-1/5",True,"2016-1/5",3,42,134
+"Change pid file location for trusty","2016-1/6","2016-1/6","2016-1/6",True,"2016-1/6",2,17,6
+"Have Monit properly check (via the port) that the appserver is running.","2016-1/8","2016-1/8","2016-1/8",True,"2016-1/8",3,10,5
+"Output hostname to /tmp/hostname","2016-1/11","2016-1/11","2016-1/11",True,"2016-1/11",3,10,3
+"Only try to start monit once","2016-1/12","2016-2/12","2016-1/12",False,"null",2,14,19
+"Increate Java API file size limit from 1MB to 33MB. ","2016-1/12","2016-2/12","2016-1/12",True,"2016-2/12",2,1,1
+"Clean up expired successful transactions","2016-1/15","2016-1/15","2016-1/15",True,"2016-1/15",2,4,2
+"Match the right pgid when restarting the datastore","2016-1/15","2016-1/15","2016-1/15",True,"2016-1/15",2,1,2
+"Write new app log config if it differs from file","2016-1/15","2016-1/15","2016-1/15",True,"2016-1/15",2,11,5
+"Make sure the nginx process is being monitored","2016-1/18","2016-1/18","2016-1/18",True,"2016-1/18",2,7,10
+"Make cluster name more descriptive","2016-1/20","2016-1/20","2016-1/20",True,"2016-1/20",2,1,1
+"Use connection timeout instead of overriding default socket timeout","2016-1/24","2016-2/24","2016-1/24",True,"2016-2/24",2,239,64
+"Change logrotate to keep aprox. 1GB of app logs. Rotate hourly.","2016-1/26","2016-1/26","2016-1/26",True,"2016-1/26",2,36,0
+"Replacing nc with logger to prevent malformed/cutoff logs.","2016-1/26","2016-1/26","2016-1/26",True,"2016-1/26",2,1,1
+"Makes start services idempotent","2016-1/27","2016-2/27","2016-1/27",True,"2016-2/27",2,72,106
+"Modify zk configuration to have a stricter autopurge policy.","2016-1/27","2016-1/27","2016-1/27",True,"2016-1/27",2,3,1
+"Avoid extra messages in the logs.","2016-1/28","2016-1/28","2016-1/28",True,"2016-1/28",2,1,1
+"Allow adm group to write to appscale logs","2016-1/28","2016-2/28","2016-1/28",True,"2016-2/28",2,4,0
+"Revert cluster name until we find a safe way to change it","2016-1/28","2016-1/28","2016-1/28",True,"2016-1/28",2,1,1
+"Use monit to stop all running services.","2016-1/31","2016-2/31","2016-1/31",True,"2016-2/31",2,8,56
+"Check if instances are up before creating new ones.","2016-1/31","2016-2/31","2016-1/31",True,"2016-2/31",3,36,25
+"Simplify restore logic.","2016-2/2","2016-2/2","2016-2/2",True,"2016-2/2",2,68,68
+"Make sure an application is restarted correctly upon appscale up","2016-2/3","2016-2/3","2016-2/3",True,"2016-2/3",3,53,21
+"Save application ports to persistent storage.","2016-2/3","2016-2/3","2016-2/3",True,"2016-2/3",2,184,177
+"Use Xenial's version of kazoo","2016-2/3","2016-2/3","2016-2/3",True,"2016-2/3",2,5,2
+"Fix logic so that 'stop' actually works","2016-2/4","2016-2/4","2016-2/4",True,"2016-2/4",3,6,2
+"Prevents duplicated logs after a controller restart.","2016-2/4","2016-2/4","2016-2/4",False,"null",2,9,3
+"Remove the use of root RSA keys.","2016-2/4","2016-2/4","2016-2/4",True,"2016-2/4",2,0,31
+"Have the AppManager set up routing for AppServers","2016-2/5","2016-2/5","2016-2/5",True,"2016-2/5",3,151,200
+"Create logrotate scripts per application via AppManager.","2016-2/6","2016-2/6","2016-2/6",True,"2016-2/6",3,64,41
+"Remove monit config files when stopping services","2016-2/6","2016-6/6","2016-2/6",False,"null",2,90,85
+"Fix terminate","2016-2/8","2016-2/8","2016-2/8",False,"null",1,196,180
+"Make sure we have a single code path on terminate.","2016-2/8","2016-2/8","2016-2/8",True,"2016-2/8",3,41,81
+"Add haproxy for uaserver","2016-2/9","2016-3/9","2016-2/9",True,"2016-3/9",3,77,330
+"Make sure HAProxy can start properly","2016-2/9","2016-2/9","2016-2/9",True,"2016-2/9",2,25,6
+"Version bumped to 2.7.0","2016-2/9","2016-2/9","2016-2/9",True,"2016-2/9",2,29,1
+"Fix reference to app's monit config file","2016-2/11","2016-2/11","2016-2/11",True,"2016-2/11",2,18,4
+"Allow ssh-copy-ip to work at boot time.","2016-2/11","2016-2/11","2016-2/11",True,"2016-2/11",2,5,0
+"Do not run the demo app upon faststart reboot.","2016-2/12","2016-2/12","2016-2/12",True,"2016-2/12",2,3,0
+"Keep AppScale state when an instance reboots","2016-2/12","2016-2/12","2016-2/12",True,"2016-2/12",2,0,1
+"Allow AppScale to build on Wheezy","2016-2/13","2016-2/13","2016-2/13",True,"2016-2/13",2,18,17
+"Changes to run on Raspberry Pi","2016-2/14","2016-2/14","2016-2/14",True,"2016-2/14",3,150,17
+"Fix index out of range when there is only one port","2016-2/17","2016-2/17","2016-2/17",True,"2016-2/17",2,1,1
+"Check if ZK connection is already closed","2016-2/17","2016-2/17","2016-2/17",True,"2016-2/17",2,37,30
+"Rescue from StandardError instead of Exception","2016-2/17","2016-3/17","2016-2/17",True,"2016-3/17",2,43,61
+"Don't start the ZK GC thread from the groomer","2016-2/17","2016-2/17","2016-2/17",True,"2016-2/17",2,2,2
+"Add vendor module","2016-2/18","2016-2/18","2016-2/18",True,"2016-2/18",3,51,0
+"Remove duplicate error_page assignment","2016-2/19","2016-3/19","2016-2/19",False,"null",1,0,5
+"Create custom logger for datastore","2016-2/23","2016-2/23","2016-2/23",True,"2016-2/23",2,134,162
+"Version bumped to 2.7.1","2016-2/24","2016-2/24","2016-2/24",True,"2016-2/24",2,11,1
+"Fix call to logger","2016-2/24","2016-2/24","2016-2/24",True,"2016-2/24",2,1,1
+"Alternative install for zookeeper removed","2016-2/24","2016-2/24","2016-2/24",True,"2016-2/24",2,1,12

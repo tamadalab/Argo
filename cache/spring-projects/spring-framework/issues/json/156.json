@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Support CachingHttpAsyncClient from httpasyncclient-cache in HttpComponentsAsyncClientHttpRequestFactory [SPR-15664]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20223",
+                        "createdAt": "2017-06-14T07:30:54Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "ServletRequestHandledEvent response code does not take security filter into account [SPR-15665]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20224",
+                        "createdAt": "2017-06-14T11:41:31Z",
+                        "closedAt": "2017-07-07T10:13:52Z"
+                    },
+                    {
+                        "title": "Issue with Router Functions [SPR-15666]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20225",
+                        "createdAt": "2017-06-14T13:15:49Z",
+                        "closedAt": "2017-06-15T09:28:33Z"
+                    },
+                    {
+                        "title": "Upgrade to Gradle 4.1 for clean JDK 9 build compatibility [SPR-15667]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20226",
+                        "createdAt": "2017-06-14T19:44:55Z",
+                        "closedAt": "2017-10-16T21:45:42Z"
+                    },
+                    {
+                        "title": "Jdep issue on org.springframework.objenesis.instantiator.sun.UnsafeFactoryInstantiator [SPR-15668]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20227",
+                        "createdAt": "2017-06-15T12:12:11Z",
+                        "closedAt": "2017-06-16T09:11:49Z"
+                    },
+                    {
+                        "title": "Disable Servlet request async timeout for reactive type streaming scenarios in Spring MVC  [SPR-15669]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20228",
+                        "createdAt": "2017-06-15T16:32:22Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Inconsistent @Nullable on AbstractDestinationResolvingMessagingTemplate [SPR-15670]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20229",
+                        "createdAt": "2017-06-15T19:52:46Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "Spring Aspects 4.3.x framework Aync error [SPR-15671]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20230",
+                        "createdAt": "2017-06-16T04:51:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SimpleRequestExpectationManager fails with sequential calls with different count [SPR-15672]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20231",
+                        "createdAt": "2017-06-16T08:56:31Z",
+                        "closedAt": "2017-07-25T10:42:02Z"
+                    },
+                    {
+                        "title": "Kotlin class instantiation with optional parameters and default values [SPR-15673]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20232",
+                        "createdAt": "2017-06-16T09:27:18Z",
+                        "closedAt": "2017-09-27T22:29:38Z"
+                    },
+                    {
+                        "title": "Provide hook for framework customizations of the WebTestClient MockServerSpec [SPR-15674]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20233",
+                        "createdAt": "2017-06-16T15:29:23Z",
+                        "closedAt": "2018-07-26T18:54:39Z"
+                    },
+                    {
+                        "title": "Use fixed GMT time-zone for WebSessionManager Clock [SPR-15675]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20234",
+                        "createdAt": "2017-06-16T16:20:49Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Request params Optional<List<String> and List<String> are inconsistent [SPR-15676]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20235",
+                        "createdAt": "2017-06-16T18:37:07Z",
+                        "closedAt": "2017-09-28T12:14:38Z"
+                    },
+                    {
+                        "title": "WebFlux and ServerResponse possible issue [SPR-15677]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20236",
+                        "createdAt": "2017-06-16T19:07:11Z",
+                        "closedAt": "2018-11-09T09:17:59Z"
+                    },
+                    {
+                        "title": "@EventListener's 'condition' doesn't work as expected with proxied beans [SPR-15678]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20237",
+                        "createdAt": "2017-06-17T08:00:59Z",
+                        "closedAt": "2018-05-20T22:32:31Z"
+                    },
+                    {
+                        "title": "WebClient's handling of empty bodies seems broken [SPR-15679]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20238",
+                        "createdAt": "2017-06-18T13:46:33Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "RequestContextHolder for Reactive Web [SPR-15680]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20239",
+                        "createdAt": "2017-06-18T15:28:22Z",
+                        "closedAt": "2019-12-06T09:40:45Z"
+                    },
+                    {
+                        "title": "Classpath Resource URL handling still wrong with Tomcat 8.5.12 [SPR-15681]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20240",
+                        "createdAt": "2017-06-19T09:51:38Z",
+                        "closedAt": "2022-02-18T20:24:14Z"
+                    },
+                    {
+                        "title": "Align codec configuration in ExchangeStrategies.Builder and WebFluxConfigurer [SPR-15682]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20241",
+                        "createdAt": "2017-06-19T12:56:06Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "NullPointerException if cron expression is null [SPR-15683]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20242",
+                        "createdAt": "2017-06-20T08:30:12Z",
+                        "closedAt": "2017-06-20T09:18:28Z"
+                    },
+                    {
+                        "title": "Fine-tune HTTP/RMI Invoker exception handling [SPR-15684]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20243",
+                        "createdAt": "2017-06-20T11:31:58Z",
+                        "closedAt": "2017-07-20T12:32:59Z"
+                    },
+                    {
+                        "title": "ClientResponse bodyToFlux fails when encoding empty JSON array [SPR-15685]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20244",
+                        "createdAt": "2017-06-20T15:00:27Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Compatibility with JDK 9 release candidate [SPR-15686]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20245",
+                        "createdAt": "2017-06-20T19:54:07Z",
+                        "closedAt": "2017-09-22T17:10:23Z"
+                    },
+                    {
+                        "title": "Compilation fails in Testing Router Functions [SPR-15687]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20246",
+                        "createdAt": "2017-06-21T07:52:21Z",
+                        "closedAt": "2017-06-22T08:16:00Z"
+                    },
+                    {
+                        "title": "Update UrlBasedCorsConfigurationSource for leveraging PathPatternParser [SPR-15688]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20247",
+                        "createdAt": "2017-06-21T09:22:30Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "BeanUtils.copyProperties() to not set collection fields of wrong generic type [SPR-15689]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20248",
+                        "createdAt": "2017-06-21T12:11:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Allow WebClientBuilder.Builder to be cloned [SPR-15690]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20249",
+                        "createdAt": "2017-06-22T15:21:05Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Simplify applying a strategy to requests from WebTestClient and WebTestClient [SPR-15691]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20250",
+                        "createdAt": "2017-06-22T16:35:43Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "Kotlin unable to inherit type for WebTestClient#BodySpec [SPR-15692]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20251",
+                        "createdAt": "2017-06-22T21:34:50Z",
+                        "closedAt": "2018-05-08T08:53:23Z"
+                    },
+                    {
+                        "title": "AbstractValueAdaptingCache does not allow for flexible null value serialization [SPR-15693]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20252",
+                        "createdAt": "2017-06-23T09:33:42Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "ConcurrentModificationException in DelegatingApplicationListener [SPR-15694]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20253",
+                        "createdAt": "2017-06-23T10:09:40Z",
+                        "closedAt": "2017-06-23T15:43:02Z"
+                    },
+                    {
+                        "title": "Avoid requiring uri(\"\") when using Web(Test)Client baseUrl [SPR-15695]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20254",
+                        "createdAt": "2017-06-23T10:44:35Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "Allow CompletableFuture creation via ListenableFuture [SPR-15696]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20255",
+                        "createdAt": "2017-06-23T17:50:37Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "Support XML Marshalling with jackson-dataformat-xml in WebFlux [SPR-15697]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20256",
+                        "createdAt": "2017-06-23T18:02:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Consider marking ConditionContext.getBeanFactory() @Nullable rather than asserting a non-null bean factory [SPR-15698]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20257",
+                        "createdAt": "2017-06-23T20:04:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Exception Handler methods do not receive the original exception as argument [SPR-15701]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20258",
+                        "createdAt": "2017-06-24T14:29:00Z",
+                        "closedAt": "2017-07-24T07:51:13Z"
+                    },
+                    {
+                        "title": "AsyncHandlerInterceptor doesn't have a default method [SPR-15702]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20259",
+                        "createdAt": "2017-06-25T12:05:45Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "WebClient fails to transform empty json array to emtpy flux [SPR-15703]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20260",
+                        "createdAt": "2017-06-26T08:54:45Z",
+                        "closedAt": "2017-06-26T09:31:23Z"
+                    },
+                    {
+                        "title": "CORS Options request forbidden with Webflux [SPR-15704]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20261",
+                        "createdAt": "2017-06-26T09:13:57Z",
+                        "closedAt": "2017-06-26T14:03:28Z"
+                    },
+                    {
+                        "title": "Default Locale not set on Spring Webflux [SPR-15705]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20262",
+                        "createdAt": "2017-06-26T15:27:17Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "Netty4ClientHttpRequest does not include port along with host [SPR-15706]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20263",
+                        "createdAt": "2017-06-26T16:15:41Z",
+                        "closedAt": "2017-07-20T12:32:59Z"
+                    },
+                    {
+                        "title": "XmlEventDecoder triggers IllegalReferenceCountException at AbstractByteBuf [SPR-15707]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20264",
+                        "createdAt": "2017-06-27T00:44:30Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "improve logging of DefaultCorsProcessor for rejected headers [SPR-15708]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20265",
+                        "createdAt": "2017-06-27T01:01:34Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "WebAsyncManager is not compatible with the crosscontext mode [SPR-15709]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20266",
+                        "createdAt": "2017-06-27T14:12:26Z",
+                        "closedAt": "2017-07-20T12:32:59Z"
+                    },
+                    {
+                        "title": "Interceptors ignored in JAVA configuration but not XML configuration [SPR-15710]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20267",
+                        "createdAt": "2017-06-27T14:56:30Z",
+                        "closedAt": "2017-06-27T19:39:32Z"
+                    },
+                    {
+                        "title": "Get a description of all registered routes in a RouterFunction [SPR-15711]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20268",
+                        "createdAt": "2017-06-27T15:09:59Z",
+                        "closedAt": "2017-09-28T12:14:37Z"
+                    },
+                    {
+                        "title": "Enable support for custom vnd types in messaging MappingJackson2MessageConverter [SPR-15712]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20269",
+                        "createdAt": "2017-06-27T15:23:04Z",
+                        "closedAt": "2021-12-14T22:00:10Z"
+                    },
+                    {
+                        "title": "@RequestBody annotation in interface is ignored [SPR-15714]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20270",
+                        "createdAt": "2017-06-27T20:58:31Z",
+                        "closedAt": "2017-10-25T09:44:34Z"
+                    },
+                    {
+                        "title": "Cookie Support for Webflux Functional API [SPR-15715]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20271",
+                        "createdAt": "2017-06-28T14:24:04Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "add a Profile setting to @PropertySource [SPR-15716]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20272",
+                        "createdAt": "2017-06-28T19:53:32Z",
+                        "closedAt": "2017-06-29T06:55:31Z"
+                    },
+                    {
+                        "title": "ForwardedHeaderFilter should expose option for not converting relative redirects to absolute ones [SPR-15717]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20273",
+                        "createdAt": "2017-06-29T15:12:58Z",
+                        "closedAt": "2017-07-20T12:32:59Z"
+                    },
+                    {
+                        "title": "Update getAttribute on ServerWebExchange and WebSession to align with Map getOrDefault [SPR-15718]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20274",
+                        "createdAt": "2017-06-29T15:33:25Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "MockRestServiceServer does not honor expectation order with expectations that mandate more than 1 execution. [SPR-15719]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20275",
+                        "createdAt": "2017-06-29T17:54:48Z",
+                        "closedAt": "2017-07-25T10:43:30Z"
+                    },
+                    {
+                        "title": "Extend null-safety to field level [SPR-15720]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20276",
+                        "createdAt": "2017-06-29T20:28:38Z",
+                        "closedAt": "2018-12-12T10:42:55Z"
+                    },
+                    {
+                        "title": "org.apache.tomcat.websocket.WsSession.requestUri can be null [SPR-15721]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20277",
+                        "createdAt": "2017-06-30T16:23:24Z",
+                        "closedAt": "2017-07-24T07:51:17Z"
+                    },
+                    {
+                        "title": "Memory Leak due to not pruning factoryBeanObjectCache when closing the ApplicationContext [SPR-15722]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20278",
+                        "createdAt": "2017-06-30T18:17:38Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "Repeated meta-annotations not locatable on repeated annotation. [SPR-15723]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20279",
+                        "createdAt": "2017-07-01T03:19:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Convenience API for custom error handling on WebClient [SPR-15724]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20280",
+                        "createdAt": "2017-07-01T08:14:55Z",
+                        "closedAt": "2017-08-31T21:15:21Z"
+                    },
+                    {
+                        "title": "Add BodyToMono and BodyToFlux overrides that receive ParameterizedTypeReference [SPR-15725]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20281",
+                        "createdAt": "2017-07-01T08:41:09Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Add write methods to DataBufferUtils [SPR-15726]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20282",
+                        "createdAt": "2017-07-01T15:47:39Z",
+                        "closedAt": "2018-12-14T22:05:34Z"
+                    },
+                    {
+                        "title": "Jackson2JsonEncoder should stream custom streaming types [SPR-15727]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20283",
+                        "createdAt": "2017-07-02T15:19:21Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "Upgrade to JUnit Jupiter 5.0 M5 [SPR-15728]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20284",
+                        "createdAt": "2017-07-02T16:01:10Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "use own classloader to load spring ioc container [SPR-15729]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20285",
+                        "createdAt": "2017-07-03T03:14:28Z",
+                        "closedAt": "2017-07-07T18:42:59Z"
+                    },
+                    {
+                        "title": "Incorrect handling of ABNF notation in HTTP Headers parsing [SPR-15730]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20286",
+                        "createdAt": "2017-07-03T10:39:00Z",
+                        "closedAt": "2017-07-18T09:44:38Z"
+                    },
+                    {
+                        "title": "WebFlux can't serialize \"Object\" return types as response body [SPR-15731]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20287",
+                        "createdAt": "2017-07-03T15:47:37Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "InstantiationAwareBeanPostProcessor method postProcessAfterInstantiation doc issue [SPR-15732]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20288",
+                        "createdAt": "2017-07-04T03:56:39Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "Declare spring-context as optional in web, webflux, messaging, jms [SPR-15733]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20289",
+                        "createdAt": "2017-07-05T08:38:48Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "UriComponents expand() and encode() are inconsistent and confusing [SPR-15734]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20290",
+                        "createdAt": "2017-07-05T09:17:49Z",
+                        "closedAt": "2017-07-13T10:21:34Z"
+                    },
+                    {
+                        "title": "Supply test instance to TestExecutionListeners at class level [SPR-15735]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20291",
+                        "createdAt": "2017-07-05T15:55:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support fallback parsing patterns in @DateTimeFormat",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20292",
+                        "createdAt": "2017-07-05T16:21:02Z",
+                        "closedAt": "2021-03-11T10:40:59Z"
+                    },
+                    {
+                        "title": "Upgrade to JUnit 5.0 GA [SPR-15737]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20293",
+                        "createdAt": "2017-07-05T16:44:25Z",
+                        "closedAt": "2018-01-22T15:51:43Z"
+                    },
+                    {
+                        "title": "JMS Integration with Tibco causes deadlock while using DefaultMessageListenerContainer [SPR-15738]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20294",
+                        "createdAt": "2017-07-05T17:24:38Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "ResponseSpec#toEntity(...) fails when response status code is 5xx [SPR-15739]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20295",
+                        "createdAt": "2017-07-05T18:40:12Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Issue with ServerRequest's queryParams  [SPR-15740]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20296",
+                        "createdAt": "2017-07-06T08:49:39Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Simplify ReflectionUtils.getUniqueDeclaredMethods(…) [SPR-15741]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20297",
+                        "createdAt": "2017-07-06T11:34:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "add Mediatype for Nottingham Problem [SPR-15742]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20298",
+                        "createdAt": "2017-07-06T13:27:09Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "Add apply method to WebClient.Builder [SPR-15743]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20299",
+                        "createdAt": "2017-07-06T14:52:49Z",
+                        "closedAt": "2017-07-24T07:51:15Z"
+                    },
+                    {
+                        "title": "WiretapConnector does not clean up exchanges [SPR-15744]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20300",
+                        "createdAt": "2017-07-06T15:30:30Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "give messages from <form:errors path=\"*\"> same order as corrsponding fields [SPR-15745]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20301",
+                        "createdAt": "2017-07-07T08:13:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "JSP tags doesn't pick up JSTL-defined time zone at page level [SPR-15746]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20302",
+                        "createdAt": "2017-07-07T16:24:49Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "Improve performance of ReactiveAdapterRegistry [SPR-15747]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20303",
+                        "createdAt": "2017-07-07T23:57:09Z",
+                        "closedAt": "2017-12-28T20:22:22Z"
+                    },
+                    {
+                        "title": "Revise FileSystemResource / FileSystemUtils / FileCopyUtils towards NIO.2 [SPR-15748]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20304",
+                        "createdAt": "2017-07-08T10:01:30Z",
+                        "closedAt": "2018-06-13T22:55:51Z"
+                    },
+                    {
+                        "title": "Inconsistent treatment of Errors by CallbackPreferringPlatformTransactionManager [SPR-15749]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20305",
+                        "createdAt": "2017-07-09T14:27:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "When Spring boot is used along with the DEVTOOLS dependency, CASTOR xml marshalling fails [SPR-15750]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20306",
+                        "createdAt": "2017-07-09T16:49:52Z",
+                        "closedAt": "2017-07-10T06:37:43Z"
+                    },
+                    {
+                        "title": "LinkedCaseInsensitiveMap cannot access locale from subclass [SPR-15752]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20307",
+                        "createdAt": "2017-07-10T08:27:59Z",
+                        "closedAt": "2018-03-14T14:01:21Z"
+                    },
+                    {
+                        "title": "MockMvc duplicates PUT Parameter value [SPR-15753]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20308",
+                        "createdAt": "2017-07-10T13:28:19Z",
+                        "closedAt": "2017-07-31T12:16:05Z"
+                    },
+                    {
+                        "title": "RestTemplate retry strategy based on response [SPR-15754]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20309",
+                        "createdAt": "2017-07-10T14:42:29Z",
+                        "closedAt": "2020-04-01T10:35:20Z"
+                    },
+                    {
+                        "title": "Introduce Kotlin Functional bean registration DSL [SPR-15755]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20310",
+                        "createdAt": "2017-07-10T17:37:10Z",
+                        "closedAt": "2017-07-24T07:51:16Z"
+                    },
+                    {
+                        "title": "Revisit nullability annotations towards GA [SPR-15756]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20311",
+                        "createdAt": "2017-07-10T17:44:36Z",
+                        "closedAt": "2017-09-28T12:14:38Z"
+                    },
+                    {
+                        "title": "ReflectionTestUtils accidentally requires spring-aop on the classpath [SPR-15757]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20312",
+                        "createdAt": "2017-07-10T18:04:48Z",
+                        "closedAt": "2017-07-20T12:32:59Z"
+                    },
+                    {
+                        "title": "Improve handling of requests with an empty body and no content type to match Spring MVC [SPR-15758]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20313",
+                        "createdAt": "2017-07-10T20:09:09Z",
+                        "closedAt": "2017-07-24T07:51:14Z"
+                    },
+                    {
+                        "title": "Propagate read-only status as FlushMode.MANUAL to Query instances [SPR-15759]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20314",
+                        "createdAt": "2017-07-11T00:09:02Z",
+                        "closedAt": "2018-07-04T17:59:16Z"
+                    },
+                    {
+                        "title": "AbstractJackson2HttpMessageConverter throws exception if log level is ERROR  [SPR-15760]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20315",
+                        "createdAt": "2017-07-11T11:55:47Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "NoSuchMethodError when webflux renders Thymeleaf template [SPR-15761]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20316",
+                        "createdAt": "2017-07-11T20:27:19Z",
+                        "closedAt": "2017-07-12T08:35:48Z"
+                    },
+                    {
+                        "title": "improve performance of ContentCachingRequestWrapper [SPR-15762]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20317",
+                        "createdAt": "2017-07-12T05:45:16Z",
+                        "closedAt": "2018-07-26T08:09:33Z"
+                    },
+                    {
+                        "title": "CustomizableTraceInterceptor should allow INVOCATION_TIME placeholder in setExceptionMessage and make stack trace logging configurable [SPR-15763]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20318",
+                        "createdAt": "2017-07-12T12:14:12Z",
+                        "closedAt": "2017-07-20T12:33:00Z"
+                    },
+                    {
+                        "title": "ExchangeFilterFunctions Explicit Model For Basic Authentication Credentials [SPR-15764]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20319",
+                        "createdAt": "2017-07-12T17:07:27Z",
+                        "closedAt": "2017-09-11T12:09:48Z"
+                    },
+                    {
+                        "title": "RequestMapping annotation to support regular expressions in header value. [SPR-15765]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20320",
+                        "createdAt": "2017-07-12T18:40:30Z",
+                        "closedAt": "2020-04-01T10:39:22Z"
+                    },
+                    {
+                        "title": "ClassCastException during deserialization of ScopedObject [SPR-15766]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20321",
+                        "createdAt": "2017-07-13T09:47:40Z",
+                        "closedAt": "2018-11-17T09:54:58Z"
+                    },
+                    {
+                        "title": "Environment injection should fail with clearer exception after context close [SPR-15767]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/20322",
+                        "createdAt": "2017-07-13T11:25:26Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7w-SQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

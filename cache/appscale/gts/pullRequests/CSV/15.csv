@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fix rabbitmq start","2017-1/5","2017-3/5","2017-1/5",False,"null",2,112,58
+"Reduce datastore debug logging","2017-1/6","2017-1/6","2017-1/6",True,"2017-1/6",3,8,44
+"Use load balancers","2017-1/6","2017-1/6","2017-1/6",True,"2017-1/6",3,183,232
+"Don't write to ZK unchanged state","2017-1/7","2017-1/7","2017-1/7",True,"2017-1/7",4,19,3
+"Better haproxy reload","2017-1/9","2017-1/9","2017-1/9",True,"2017-1/9",3,95,72
+"Obtain entity group lock during commit","2017-1/13","2017-1/13","2017-1/13",True,"2017-1/13",3,776,228
+"Cache queue index results","2017-1/13","2017-1/13","2017-1/13",True,"2017-1/13",3,81,2
+"Increase max Celery concurrency and memory","2017-1/17","2017-1/17","2017-1/17",True,"2017-1/17",4,7,6
+"Restart flower only when using set_property","2017-1/19","2017-1/19","2017-1/19",True,"2017-1/19",3,9,4
+"Handle Java chunk size parameter","2017-1/19","2017-1/19","2017-1/19",True,"2017-1/19",3,7,11
+"Update Go support to 1.6","2017-1/19","2017-1/19","2017-1/19",True,"2017-1/19",3,283,1090259
+"Pin wstools to 0.4.3 for the dashboard","2017-1/19","2017-1/19","2017-1/19",True,"2017-1/19",3,1,0
+"Dashboard uses different mins","2017-1/20","2017-1/20","2017-1/20",True,"2017-1/20",3,38,13
+"FastGeert LogServer","2017-1/23","2017-1/23","2017-1/23",True,"2017-1/23",5,919,579
+"Addressing comments","2017-1/24","2017-1/24","2017-1/24",True,"2017-1/24",3,9,6
+"Fix search IPs","2017-1/24","2017-1/24","2017-1/24",True,"2017-1/24",4,41,21
+"Put /usr/local/bin first on the PATH","2017-1/24","2017-1/24","2017-1/24",True,"2017-1/24",3,1,1
+"Use the correct array to create the search server list","2017-1/24","2017-1/24","2017-1/24",False,"null",1,1,1
+"Catch HTTP errors when executing push tasks","2017-1/25","2017-1/25","2017-1/25",True,"2017-1/25",4,34,17
+"Implement inequality check for Queue objects","2017-1/26","2017-1/26","2017-1/26",True,"2017-1/26",4,10,9
+"Taskqueue on own node","2017-1/26","2017-1/26","2017-1/26",True,"2017-1/26",3,15,20
+"Use non-blocking seed source for Java AppServer","2017-1/28","2017-1/28","2017-1/28",True,"2017-1/28",2,1,0
+"Autoscale in batches","2017-1/29","2017-1/29","2017-1/29",True,"2017-1/29",3,101,105
+"Don't check for file system changes","2017-1/30","2017-1/30","2017-1/30",True,"2017-1/30",3,2,1
+"Terminate runs on head node","2017-1/30","2017-2/30","2017-1/30",True,"2017-2/30",5,142,0
+"Copy app from hoster fix","2017-1/31","2017-2/31","2017-1/31",True,"2017-2/31",3,102,274
+"Partial implementation of ModuleService in AppServer_Java","2017-1/31","2017-3/31","2017-1/31",False,"null",2,175,0
+"Added support for Host header in Task","2017-1/31","2018-10/31","2017-1/31",False,"null",3,10,1
+"Disable TLS v1 and enable TLSv1.1,TLSv1.2 for java7","2017-1/31","2018-6/31","2017-1/31",False,"null",3,88,0
+"Remove repetitive log from AC","2017-1/31","2017-1/31","2017-1/31",True,"2017-1/31",3,0,1
+"Use HelperFunctions.scp to copy app tarball","2017-2/2","2017-2/2","2017-2/2",True,"2017-2/2",3,104,82
+"Scale in a thread","2017-2/2","2017-2/2","2017-2/2",True,"2017-2/2",3,153,163
+"Fix identifying search ip as an array instead of string","2017-2/2","2017-2/2","2017-2/2",True,"2017-2/2",3,1,1
+"Ensure groups have a defined namespace","2017-2/2","2017-2/2","2017-2/2",True,"2017-2/2",4,4,0
+"Retry LWT statements when dealing with large batches","2017-2/3","2017-2/3","2017-2/3",True,"2017-2/3",3,360,184
+"Consider user props with the same email as equal","2017-2/3","2017-2/3","2017-2/3",True,"2017-2/3",3,4,0
+"Remove repetitive logs printout","2017-2/3","2017-2/3","2017-2/3",True,"2017-2/3",3,41,15
+"Change backoff seconds to correct type","2017-2/3","2017-2/3","2017-2/3",True,"2017-2/3",3,2,2
+"Start multiple TaskQueue servers per node","2017-2/7","2017-2/7","2017-2/7",True,"2017-2/7",3,85,29
+"Limit LogServer log retention","2017-2/7","2017-2/7","2017-2/7",True,"2017-2/7",5,1,1
+"Don't retry delete entry from zookeeper","2017-2/7","2017-2/7","2017-2/7",True,"2017-2/7",3,10,11
+"Don't start an extra AppServer to reach min","2017-2/8","2017-2/8","2017-2/8",True,"2017-2/8",3,1,1
+"Remove extra if my_node.role?","2017-2/8","2017-2/8","2017-2/8",True,"2017-2/8",3,4,7
+"Reload old ips sooner","2017-2/8","2017-2/8","2017-2/8",True,"2017-2/8",3,16,20
+"More checks for set parameters","2017-2/10","2017-2/10","2017-2/10",True,"2017-2/10",3,91,56
+"Fix invalid method reference","2017-2/10","2017-2/10","2017-2/10",True,"2017-2/10",3,2,2
+"Modify the monit stop script for taskqueue to account for ports.","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",4,1,1
+"Log time elapsed for each TaskQueue server request","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",3,11,2
+"Tune monit to allow Celery memory based on #workers","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",4,4,1
+"Log elapsed time for a successful celery task","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",3,6,2
+"retry monit stop all and increase sleep time","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",4,3,3
+"Check tar command","2017-2/11","2017-2/11","2017-2/11",True,"2017-2/11",4,51,36
+"Check to make sure $HOME is set to /root","2017-2/12","2017-2/12","2017-2/12",True,"2017-2/12",3,7,0
+"Remove link to .appscale for /etc/appscale","2017-2/12","2017-2/12","2017-2/12",True,"2017-2/12",3,16,39
+"Use transaction ID to determine write time","2017-2/14","2017-2/14","2017-2/14",True,"2017-2/14",4,40,13
+"Decrease gc_grace_seconds on ephemeral data","2017-2/14","2017-2/14","2017-2/14",True,"2017-2/14",3,3,3
+"decouple role change from restore-AC-state","2017-2/14","2017-2/14","2017-2/14",True,"2017-2/14",3,28,17
+"Fix monit stop command for LogService","2017-2/16","2017-2/16","2017-2/16",True,"2017-2/16",4,2,2
+"Logquery reverse option","2017-2/18","2017-3/18","2017-2/18",True,"2017-3/18",3,7,4
+"twisted command directs stdout and stderr to log file and added debug logging","2017-2/18","2017-2/18","2017-2/18",True,"2017-2/18",3,13,4
+"Replace script templates with a worker module","2017-2/18","2017-5/18","2017-2/18",True,"2017-5/18",4,426,506
+"convert LogOffset to string before doing string operations on it","2017-2/21","2017-2/21","2017-2/21",True,"2017-2/21",3,6,6
+"Remove unused app_id parameters","2017-2/25","2017-2/25","2017-2/25",True,"2017-2/25",3,11,16
+"Remove LogService state during a clean","2017-2/25","2017-2/25","2017-2/25",True,"2017-2/25",4,1,0
+"Lease multiple tasks at the same time","2017-2/25","2017-3/25","2017-2/25",True,"2017-3/25",3,121,83
+"Prevent multiple large batches for a transaction","2017-2/25","2017-3/25","2017-2/25",True,"2017-3/25",3,49,44
+"Avoid parsing string representation of LogOffset","2017-2/25","2017-3/25","2017-2/25",True,"2017-3/25",3,6,7
+"Use RealRPC for API calls","2017-2/27","2017-3/27","2017-2/27",True,"2017-3/27",4,65,37
+"Re-added the add-instances capability","2017-2/27","2017-4/27","2017-2/27",True,"2017-4/27",6,347,951
+"Don't register sensitive info to logs.","2017-2/27","2017-3/27","2017-2/27",False,"null",3,5,10
+"Don't log info-level message after successful call","2017-2/28","2017-3/28","2017-2/28",True,"2017-3/28",3,6,1
+"Fix  _insert_log_message","2017-3/1","2017-3/1","2017-3/1",True,"2017-3/1",4,10,2
+"Use argparse for the datastore options","2017-3/1","2017-3/1","2017-3/1",True,"2017-3/1",4,19,64
+"fix autoscale logic and dashboard uses new JSON format","2017-3/2","2017-3/2","2017-3/2",True,"2017-3/2",2,15,6
+"Pass request ID to datastore and taskqueue","2017-3/3","2017-3/3","2017-3/3",True,"2017-3/3",4,122,74
+"Create apps dir in moutn_persistent_storage","2017-3/3","2017-3/3","2017-3/3",True,"2017-3/3",3,4,3
+"Don't log sensitive data","2017-3/3","2017-3/3","2017-3/3",True,"2017-3/3",3,0,5
+"Change message and severity of log message","2017-3/3","2017-3/3","2017-3/3",True,"2017-3/3",3,1,1
+"Cache some prepared statements","2017-3/4","2017-3/4","2017-3/4",True,"2017-3/4",3,11,2
+"Indicate that the index is clean after a scrub","2017-3/5","2017-3/5","2017-3/5",True,"2017-3/5",4,48,7
+"Remove API proxy lock for datastore and taskqueue","2017-3/5","2017-3/5","2017-3/5",True,"2017-3/5",3,2,0
+"Add atom field to solr schema.xml","2017-3/6","2017-3/6","2017-3/6",True,"2017-3/6",3,110,110
+"Add number field to solr schema","2017-3/6","2017-3/6","2017-3/6",True,"2017-3/6",3,110,109
+"Reduce taskqueue multiplier","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",3,1,1
+"Centralized load balancers for TaskQueue and Datastore","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",3,108,166
+"Reload all local TaskQueue servers","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",3,14,9
+"Cluster stats refactoring","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",4,790,1181
+"Use agents from the installed tools","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",3,116,1583
+"Dashboard uses new stats and ""poll"" model","2017-3/9","2017-3/9","2017-3/9",True,"2017-3/9",4,486,975
+"Single monit start for multiple ports","2017-3/9","2017-3/9","2017-3/9",True,"2017-3/9",3,76,78
+"enable application when user update an app","2017-3/9","2017-3/9","2017-3/9",True,"2017-3/9",3,67,31
+"Adapt fast-start for AWS marketplace","2017-3/9","2017-3/9","2017-3/9",True,"2017-3/9",3,99,71
+"Use client-defined value when allocating IDs","2017-3/10","2017-3/10","2017-3/10",True,"2017-3/10",3,107,22
+"Increase client timeout when making schema changes","2017-3/11","2017-3/11","2017-3/11",True,"2017-3/11",3,59,35
+"Use query value when cursor has multiple values","2017-3/13","2017-5/13","2017-3/13",True,"2017-5/13",4,17,6
+"Search API: Handle query results with missed locale","2017-3/14","2017-3/14","2017-3/14",True,"2017-3/14",3,2,1
+"Revert ""Logquery reverse option""","2017-3/14","2017-3/14","2017-3/14",False,"null",1,4,7
+"Only use RealRPC in runtime stubs","2017-3/14","2017-3/14","2017-3/14",True,"2017-3/14",3,37,6
+"Fix monit's stop command for search service","2017-3/15","2017-3/15","2017-3/15",True,"2017-3/15",3,6,9
+"AppServer restarts after new code is deployed","2017-3/17","2017-3/17","2017-3/17",True,"2017-3/17",4,31,29

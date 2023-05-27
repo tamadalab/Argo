@@ -1,0 +1,525 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 785,
+                "nodes": [
+                    {
+                        "title": "Possible invalid/missing EXIF IFD end directory link",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1921",
+                        "createdAt": "2022-01-03T22:36:05Z",
+                        "closedAt": "2022-01-09T14:26:24Z"
+                    },
+                    {
+                        "title": "Incorrect resolution reported for jpeg image",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1932",
+                        "createdAt": "2022-01-09T17:36:31Z",
+                        "closedAt": "2022-01-11T03:08:47Z"
+                    },
+                    {
+                        "title": "Overflow exception related to IptcProfile",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1942",
+                        "createdAt": "2022-01-13T10:51:57Z",
+                        "closedAt": "2022-01-18T00:41:07Z"
+                    },
+                    {
+                        "title": "PNG file bit depth is not recognized correctly",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1954",
+                        "createdAt": "2022-01-22T18:11:42Z",
+                        "closedAt": "2022-01-27T00:54:30Z"
+                    },
+                    {
+                        "title": "Tiniest gif (ever) seems to trip up the GifDecoder",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1962",
+                        "createdAt": "2022-01-27T23:42:07Z",
+                        "closedAt": "2022-02-07T11:04:33Z"
+                    },
+                    {
+                        "title": "Looking for TIFF support",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1964",
+                        "createdAt": "2022-01-29T04:09:33Z",
+                        "closedAt": "2022-01-30T19:52:43Z"
+                    },
+                    {
+                        "title": "Some old jpg images are saved with glitches (regression in alpha)",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1978",
+                        "createdAt": "2022-02-05T06:17:13Z",
+                        "closedAt": "2022-02-06T06:53:23Z"
+                    },
+                    {
+                        "title": "Image.Load<Rgba32> does not respect PreferContiguousImageBuffers",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1983",
+                        "createdAt": "2022-02-08T10:51:04Z",
+                        "closedAt": "2022-02-15T20:55:30Z"
+                    },
+                    {
+                        "title": "Image created from WrapMemory can not be mutated",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1984",
+                        "createdAt": "2022-02-08T23:41:16Z",
+                        "closedAt": "2022-02-09T00:20:01Z"
+                    },
+                    {
+                        "title": "Black borders on mutate (image resize with background color)",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1986",
+                        "createdAt": "2022-02-09T17:31:35Z",
+                        "closedAt": "2022-03-08T02:56:46Z"
+                    },
+                    {
+                        "title": "the method \"Image.Load<Rgb24>(string path)\" load jpeg pixel deviation",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1989",
+                        "createdAt": "2022-02-11T04:05:51Z",
+                        "closedAt": "2022-02-11T04:21:51Z"
+                    },
+                    {
+                        "title": "Slow conversion with debugger",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1990",
+                        "createdAt": "2022-02-11T08:18:03Z",
+                        "closedAt": "2022-02-11T08:20:59Z"
+                    },
+                    {
+                        "title": "ExifTag.GPSLatitudeRef gets resolved to ExifTagValue.InteroperabilityIndex",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1992",
+                        "createdAt": "2022-02-11T14:30:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Missing API : `ExifProfile.CreateThumbnail<TPixel>()` ",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1995",
+                        "createdAt": "2022-02-12T20:58:33Z",
+                        "closedAt": "2022-03-16T00:49:51Z"
+                    },
+                    {
+                        "title": "Setting Image's Metadata.ExifProfile to null still produces output images containing EXIF data",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1996",
+                        "createdAt": "2022-02-13T23:15:39Z",
+                        "closedAt": "2022-02-14T16:32:50Z"
+                    },
+                    {
+                        "title": "Image.LoadAsync(stream) uses synchronous IO if the stream is seekable ",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1997",
+                        "createdAt": "2022-02-14T23:36:52Z",
+                        "closedAt": "2022-03-15T03:03:08Z"
+                    },
+                    {
+                        "title": "SpectralConverter.CommitConversion fails in Debug",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/1998",
+                        "createdAt": "2022-02-15T00:49:24Z",
+                        "closedAt": "2022-02-15T12:46:06Z"
+                    },
+                    {
+                        "title": "Default MemoryAllocator creation crashes on Raspberry Pi OS 11",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2001",
+                        "createdAt": "2022-02-15T14:09:56Z",
+                        "closedAt": "2022-02-22T02:09:40Z"
+                    },
+                    {
+                        "title": "'System.NotSupportedException' in System.Private.CoreLib.dll",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2004",
+                        "createdAt": "2022-02-16T09:47:14Z",
+                        "closedAt": "2022-02-16T11:32:34Z"
+                    },
+                    {
+                        "title": "Jpg Image weight pretty higher than expected",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2005",
+                        "createdAt": "2022-02-16T10:58:27Z",
+                        "closedAt": "2022-02-16T17:11:20Z"
+                    },
+                    {
+                        "title": "Animated GIF from documentation won't loop",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2007",
+                        "createdAt": "2022-02-16T17:11:29Z",
+                        "closedAt": "2022-02-16T21:03:45Z"
+                    },
+                    {
+                        "title": "Change in transparency handing in ImageSharp 2? [Drawing 1.0.0-beta14]",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2008",
+                        "createdAt": "2022-02-17T12:09:36Z",
+                        "closedAt": "2022-02-17T12:37:41Z"
+                    },
+                    {
+                        "title": "PNG Encoding is far slower than .Net Framework System.Windows.Media with the same compression level",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2011",
+                        "createdAt": "2022-02-17T16:59:27Z",
+                        "closedAt": "2022-02-17T17:18:45Z"
+                    },
+                    {
+                        "title": "Fail to Load a Gif Image with v2.0.0 but works with v1.0.4 on the same machine.",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2012",
+                        "createdAt": "2022-02-18T06:01:39Z",
+                        "closedAt": "2022-02-21T10:48:31Z"
+                    },
+                    {
+                        "title": "Get \"Invalid PNG data.\" exception during Identify phase of loading PNG image when image contains sBIT chunk",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2018",
+                        "createdAt": "2022-02-19T15:08:22Z",
+                        "closedAt": "2022-02-27T11:33:04Z"
+                    },
+                    {
+                        "title": "Destination is too short - while loading a TIF",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2030",
+                        "createdAt": "2022-02-25T17:05:11Z",
+                        "closedAt": "2022-02-28T10:06:24Z"
+                    },
+                    {
+                        "title": "Conversion from RgbaVector Incorrect",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2048",
+                        "createdAt": "2022-03-08T19:01:01Z",
+                        "closedAt": "2022-03-09T08:52:02Z"
+                    },
+                    {
+                        "title": "TiffMetadata doesn't contain bit depth information",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2049",
+                        "createdAt": "2022-03-09T00:45:16Z",
+                        "closedAt": "2022-03-09T03:25:02Z"
+                    },
+                    {
+                        "title": "System.NullReferenceException when resizing jpeg file",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2056",
+                        "createdAt": "2022-03-09T20:39:47Z",
+                        "closedAt": "2022-03-11T12:57:56Z"
+                    },
+                    {
+                        "title": "Regression in loading jpeg images from v1.0.4 to v2.0.0",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2057",
+                        "createdAt": "2022-03-10T11:58:36Z",
+                        "closedAt": "2022-03-14T17:54:47Z"
+                    },
+                    {
+                        "title": "Does Jpeg format need comment marker support?",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2067",
+                        "createdAt": "2022-03-17T12:56:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "This PNG when converted to WebP by ImageSharp produces a corrupted WebP file",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2068",
+                        "createdAt": "2022-03-21T03:53:44Z",
+                        "closedAt": "2022-03-21T04:03:33Z"
+                    },
+                    {
+                        "title": "JpegDecoder very slow in Blazor client side app",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2069",
+                        "createdAt": "2022-03-22T14:16:36Z",
+                        "closedAt": "2022-03-22T14:40:47Z"
+                    },
+                    {
+                        "title": "[Question] Is it possible to get a gradient opacity effect in an image?",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2070",
+                        "createdAt": "2022-03-23T12:32:56Z",
+                        "closedAt": "2022-03-23T12:37:05Z"
+                    },
+                    {
+                        "title": "Saving a jpg image as webp rotates the image when height > width",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2074",
+                        "createdAt": "2022-03-25T17:20:49Z",
+                        "closedAt": "2022-03-25T17:54:01Z"
+                    },
+                    {
+                        "title": "Access Violation in 2.1, works fine in 1.04",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2075",
+                        "createdAt": "2022-03-25T19:52:52Z",
+                        "closedAt": "2022-04-20T03:49:48Z"
+                    },
+                    {
+                        "title": "Jpeg decoder can lead to finalizer memory leaks with specific malformed images",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2078",
+                        "createdAt": "2022-04-06T18:10:17Z",
+                        "closedAt": "2022-04-12T18:59:24Z"
+                    },
+                    {
+                        "title": "Memory leaks when watermarking images (Especially with GIFs)",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2079",
+                        "createdAt": "2022-04-08T03:16:45Z",
+                        "closedAt": "2022-04-12T23:59:47Z"
+                    },
+                    {
+                        "title": "Memory leak in PNG decoder",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2080",
+                        "createdAt": "2022-04-09T13:36:36Z",
+                        "closedAt": "2022-04-12T17:32:12Z"
+                    },
+                    {
+                        "title": "Jpeg decoder fails with NullReferenceException from malformed image",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2085",
+                        "createdAt": "2022-04-13T18:52:49Z",
+                        "closedAt": "2022-04-14T18:30:59Z"
+                    },
+                    {
+                        "title": "A png image that is resized down to 1024x723 using the jpeg encoder still has a large (19MB) size. ",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2086",
+                        "createdAt": "2022-04-13T20:52:46Z",
+                        "closedAt": "2022-04-13T21:16:36Z"
+                    },
+                    {
+                        "title": "ArgumentNullException thrown when resizing jpg image",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2087",
+                        "createdAt": "2022-04-13T21:28:54Z",
+                        "closedAt": "2022-04-16T09:02:05Z"
+                    },
+                    {
+                        "title": "namespaces for 'RendererOptions' and 'TextGraphicsOptions' could not be found  (are you missing a using directive or an assembly reference?)",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2093",
+                        "createdAt": "2022-04-18T08:38:23Z",
+                        "closedAt": "2022-04-18T08:48:31Z"
+                    },
+                    {
+                        "title": "Namespace \"SixLabors.ImageSharp\" does not match folder structure. Expected \"SixLabors.ImageSharp.Primitives\".",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2096",
+                        "createdAt": "2022-04-20T07:48:38Z",
+                        "closedAt": "2022-04-20T08:52:16Z"
+                    },
+                    {
+                        "title": "Image resizing increases TotalUndisposedAllocationCount",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2100",
+                        "createdAt": "2022-04-28T01:09:19Z",
+                        "closedAt": "2022-04-29T12:25:08Z"
+                    },
+                    {
+                        "title": "6-7 second save for webp on azure server",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2104",
+                        "createdAt": "2022-05-01T21:47:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "webp (from jpeg) gives inaccurate colors",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2107",
+                        "createdAt": "2022-05-06T08:06:40Z",
+                        "closedAt": "2022-06-17T13:23:59Z"
+                    },
+                    {
+                        "title": "Add DrawImage(Image, Point, Rectangle) method to the DrawImage processor",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2112",
+                        "createdAt": "2022-05-10T09:08:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Error load TIFF file from byte array",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2113",
+                        "createdAt": "2022-05-10T22:31:06Z",
+                        "closedAt": "2022-05-11T09:26:32Z"
+                    },
+                    {
+                        "title": "Load Image from an array of Bytes invert color",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2115",
+                        "createdAt": "2022-05-11T19:47:46Z",
+                        "closedAt": "2022-08-24T18:28:03Z"
+                    },
+                    {
+                        "title": "Failing tests on .NET7",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2117",
+                        "createdAt": "2022-05-12T07:40:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "net core 6 rending issue of Barcode",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2118",
+                        "createdAt": "2022-05-12T13:13:30Z",
+                        "closedAt": "2022-05-12T13:38:15Z"
+                    },
+                    {
+                        "title": "Vector{128,256} operations that use MmShuffle fall back to method call",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2121",
+                        "createdAt": "2022-05-18T12:13:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "AccessViolationException when loading TIFF image",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2123",
+                        "createdAt": "2022-05-20T00:45:21Z",
+                        "closedAt": "2022-05-26T12:24:08Z"
+                    },
+                    {
+                        "title": "[WEBP] SaveImage is taking more than x100 times slower in AWS Instance than my local machine",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2125",
+                        "createdAt": "2022-05-21T01:54:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Base Image<IPixel> type for methods such as ProcessPixelRows",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2131",
+                        "createdAt": "2022-05-28T00:33:45Z",
+                        "closedAt": "2022-05-28T18:38:01Z"
+                    },
+                    {
+                        "title": "Loading TIFFs is 50x Slower",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2132",
+                        "createdAt": "2022-05-28T18:53:58Z",
+                        "closedAt": "2022-06-09T16:22:49Z"
+                    },
+                    {
+                        "title": "2.1.2: Jpeg YCbcr encode cause pink color blur",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2133",
+                        "createdAt": "2022-05-29T07:58:57Z",
+                        "closedAt": "2022-05-30T12:53:07Z"
+                    },
+                    {
+                        "title": "InvalidImageContentException \"Input stream does not have enough bytes  to parse declared contents of the 00 marker\" when loading JPG created by Brother scanner",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2136",
+                        "createdAt": "2022-05-30T04:06:24Z",
+                        "closedAt": "2022-06-06T09:19:57Z"
+                    },
+                    {
+                        "title": "Memory allocation oversight when processing Image types",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2139",
+                        "createdAt": "2022-06-03T00:43:29Z",
+                        "closedAt": "2022-06-06T01:53:17Z"
+                    },
+                    {
+                        "title": "System.ArgumentOutOfRangeException when draw a text contains \"/\"",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2140",
+                        "createdAt": "2022-06-03T13:02:45Z",
+                        "closedAt": "2022-06-03T13:06:16Z"
+                    },
+                    {
+                        "title": "Reading incorrect color data when JpegColorType is Rgb.",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2141",
+                        "createdAt": "2022-06-04T13:53:58Z",
+                        "closedAt": "2022-06-04T14:17:14Z"
+                    },
+                    {
+                        "title": "ImageSharp generates Fatal error. Internal CLR error. (0x80131506) ",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2148",
+                        "createdAt": "2022-06-09T00:57:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Regression in TIF image loading",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2149",
+                        "createdAt": "2022-06-10T20:19:04Z",
+                        "closedAt": "2022-06-13T01:35:53Z"
+                    },
+                    {
+                        "title": "Wrong colors when saving image",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2152",
+                        "createdAt": "2022-06-13T12:19:12Z",
+                        "closedAt": "2022-06-13T12:31:39Z"
+                    },
+                    {
+                        "title": "When load an animated webp image throws \"SixLabors.ImageSharp.ImageFormatException: Unexpected chunk followed VP8X header\" exception.",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2154",
+                        "createdAt": "2022-06-16T00:44:18Z",
+                        "closedAt": "2022-06-16T14:02:11Z"
+                    },
+                    {
+                        "title": "Get wrong RGB value",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2156",
+                        "createdAt": "2022-06-16T10:35:30Z",
+                        "closedAt": "2022-06-17T04:09:40Z"
+                    },
+                    {
+                        "title": "Do tests really use images from 'ReferenceOutput' folder?",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2158",
+                        "createdAt": "2022-06-19T18:40:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "image sharper throws invalidimagecontentexception",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2159",
+                        "createdAt": "2022-06-20T01:38:17Z",
+                        "closedAt": "2022-06-20T08:53:11Z"
+                    },
+                    {
+                        "title": "Why doesn't Image.Save have an overload for Save(Image, string, IImageFormat)",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2163",
+                        "createdAt": "2022-06-21T05:04:34Z",
+                        "closedAt": "2022-06-21T05:06:55Z"
+                    },
+                    {
+                        "title": "*. Png the value of \"resolution\" attribute obtained from \"system.drawing.bitmap\" and \"image.metadata\" is different",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2164",
+                        "createdAt": "2022-06-22T05:54:48Z",
+                        "closedAt": "2022-06-22T06:56:02Z"
+                    },
+                    {
+                        "title": "Deleted",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2168",
+                        "createdAt": "2022-07-06T11:17:56Z",
+                        "closedAt": "2022-07-06T11:24:27Z"
+                    },
+                    {
+                        "title": "Different Size Tiff to Jpg",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2170",
+                        "createdAt": "2022-07-08T08:45:03Z",
+                        "closedAt": "2022-07-14T13:11:03Z"
+                    },
+                    {
+                        "title": "Webp with lossy conversion weighs a lot more than lossless.",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2171",
+                        "createdAt": "2022-07-13T02:41:43Z",
+                        "closedAt": "2022-08-03T12:36:14Z"
+                    },
+                    {
+                        "title": "Jpeg loaded with pink color blur",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2174",
+                        "createdAt": "2022-07-14T07:58:34Z",
+                        "closedAt": "2022-07-18T02:31:46Z"
+                    },
+                    {
+                        "title": "Possible false positive memory leak reports in tests",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2178",
+                        "createdAt": "2022-07-16T12:16:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Tiff tests failure in Debug mode",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2179",
+                        "createdAt": "2022-07-16T15:36:04Z",
+                        "closedAt": "2022-08-09T10:44:17Z"
+                    },
+                    {
+                        "title": "Nuget Page License is Wrong",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2188",
+                        "createdAt": "2022-07-24T02:11:24Z",
+                        "closedAt": "2022-07-24T02:47:47Z"
+                    },
+                    {
+                        "title": "Loading a GIF results in a bigger file",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2198",
+                        "createdAt": "2022-08-04T17:04:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Resizing from PNG to JPG is done poorly in 2.0.0 and higher. It worked alright in 1.0.4",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2202",
+                        "createdAt": "2022-08-12T16:29:40Z",
+                        "closedAt": "2022-08-14T19:33:41Z"
+                    },
+                    {
+                        "title": "GetPngMetadata does not set HasTransparency correctly for palette-based PNGs",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2209",
+                        "createdAt": "2022-08-19T02:26:12Z",
+                        "closedAt": "2022-08-29T01:06:02Z"
+                    },
+                    {
+                        "title": "IPTC tags written on jpg files that contains non-English characters can't be correctly displayed on external apps",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2212",
+                        "createdAt": "2022-08-22T16:00:12Z",
+                        "closedAt": "2022-08-24T14:57:10Z"
+                    },
+                    {
+                        "title": "In a Blazor Web Assembly project, async function calls are blocking the execution of UI side",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2214",
+                        "createdAt": "2022-08-24T14:12:45Z",
+                        "closedAt": "2022-08-25T06:27:56Z"
+                    },
+                    {
+                        "title": "Webp Image failing to compress properly",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2216",
+                        "createdAt": "2022-08-28T00:28:11Z",
+                        "closedAt": "2022-08-28T14:38:15Z"
+                    },
+                    {
+                        "title": "AdaptiveThresholdProcessor throws IndexOutOfRangeException",
+                        "url": "https://github.com/SixLabors/ImageSharp/issues/2217",
+                        "createdAt": "2022-08-28T12:09:15Z",
+                        "closedAt": "2022-09-02T13:09:58Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOUKo-wA==",
+                    "hasNextPage": false
+                }
+            }
+        }
+    }
+}

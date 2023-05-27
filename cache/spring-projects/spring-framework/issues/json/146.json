@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Add ServerWebExchange argument resolver [SPR-14658]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19223",
+                        "createdAt": "2016-09-01T21:01:15Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Entity manager factory bean: Support native WebSphere JPA implementation [SPR-14660]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19224",
+                        "createdAt": "2016-09-02T06:52:12Z",
+                        "closedAt": "2019-01-12T02:25:02Z"
+                    },
+                    {
+                        "title": "TypeConverterSupport does not propagate custom exceptions anymore [SPR-14661]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19225",
+                        "createdAt": "2016-09-02T10:51:48Z",
+                        "closedAt": "2016-09-19T15:46:49Z"
+                    },
+                    {
+                        "title": "Improve error handling in REST Controllers [SPR-14662]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19226",
+                        "createdAt": "2016-09-02T15:42:17Z",
+                        "closedAt": "2017-01-11T16:27:52Z"
+                    },
+                    {
+                        "title": "Handle ResponseEntity with null bodies [SPR-14663]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19227",
+                        "createdAt": "2016-09-02T21:00:53Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Add ResourceRegionHttpMessageWriter [SPR-14664]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19228",
+                        "createdAt": "2016-09-02T22:09:52Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Auto-resolve bean name conflicts for scanned classes [SPR-14665]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19229",
+                        "createdAt": "2016-09-03T03:59:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Performance regression when scheduling is enabled and context contains URL beans [SPR-14666]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19230",
+                        "createdAt": "2016-09-03T10:34:15Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "support for providing a path component on a package-info [SPR-14667]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19231",
+                        "createdAt": "2016-09-03T17:50:14Z",
+                        "closedAt": "2018-05-29T13:26:05Z"
+                    },
+                    {
+                        "title": "Add support for spring boot to auto register DeferredResultProcessingInterceptor [SPR-14668]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19232",
+                        "createdAt": "2016-09-04T07:34:07Z",
+                        "closedAt": "2016-09-06T05:47:51Z"
+                    },
+                    {
+                        "title": "Default async request timeout handling does not work with Jetty 9.x [SPR-14669]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19233",
+                        "createdAt": "2016-09-04T08:32:30Z",
+                        "closedAt": "2016-09-21T20:44:33Z"
+                    },
+                    {
+                        "title": "Drop NativeJdbcExtractor mechanism in favor of java.sql.Connection.unwrap() [SPR-14670]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19234",
+                        "createdAt": "2016-09-05T08:38:09Z",
+                        "closedAt": "2018-05-15T11:24:17Z"
+                    },
+                    {
+                        "title": "Improve documentation on ProtocolResolvers and ResourceLoaders. [SPR-14671]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19235",
+                        "createdAt": "2016-09-05T19:09:34Z",
+                        "closedAt": "2016-09-07T15:17:28Z"
+                    },
+                    {
+                        "title": "Better Exception Message for JMS Jackson Converter Error [SPR-14672]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19236",
+                        "createdAt": "2016-09-06T12:00:10Z",
+                        "closedAt": "2016-09-19T15:46:50Z"
+                    },
+                    {
+                        "title": "DispatcherServlet changes response locale when dispatching to DefaultServlet [SPR-14673]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19237",
+                        "createdAt": "2016-09-07T04:07:38Z",
+                        "closedAt": "2016-09-09T18:35:24Z"
+                    },
+                    {
+                        "title": "Update CONTRIBUTING.md to require use of UTF-8 (instead of ISO-8859-1)) [SPR-14674]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19238",
+                        "createdAt": "2016-09-07T08:11:34Z",
+                        "closedAt": "2016-09-19T15:55:27Z"
+                    },
+                    {
+                        "title": "Align ISO timezone parsing in DateFormatter with Joda-Time / JSR-310 [SPR-14675]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19239",
+                        "createdAt": "2016-09-07T13:30:39Z",
+                        "closedAt": "2016-12-30T13:33:16Z"
+                    },
+                    {
+                        "title": "Spring 4.3.2 HibernateTemplate#findByNamedQuery isn't compatible with Hibernate 5.0 [SPR-14676]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19240",
+                        "createdAt": "2016-09-07T17:02:28Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "Allow declaring bean stereotypes using Java configuration [SPR-14677]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19241",
+                        "createdAt": "2016-09-08T05:16:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "@PathVariable will cut off the last point [SPR-14678]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19242",
+                        "createdAt": "2016-09-08T09:32:04Z",
+                        "closedAt": "2016-09-08T15:04:35Z"
+                    },
+                    {
+                        "title": "ResponseHeaderAdvice [SPR-14679]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19243",
+                        "createdAt": "2016-09-08T14:26:38Z",
+                        "closedAt": "2018-11-30T21:36:19Z"
+                    },
+                    {
+                        "title": "Add way to obtain Principal from ServerWebExchange [SPR-14680]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19244",
+                        "createdAt": "2016-09-08T18:29:38Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "HibernateExceptionTranslator translating to InvalidDataAccessApiUsageException when using vanilla Hibernate [SPR-14681]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19245",
+                        "createdAt": "2016-09-08T19:48:30Z",
+                        "closedAt": "2016-09-19T15:55:27Z"
+                    },
+                    {
+                        "title": "Add HttpBasic ClientWebRequestPostProcessor [SPR-14682]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19246",
+                        "createdAt": "2016-09-08T21:10:46Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Allow JMS listener instrumentation [SPR-14683]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19247",
+                        "createdAt": "2016-09-09T06:35:00Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ConfigurationClassParser does not use ApplicationContext's ResourceLoader for its MetadataReaderFactory [SPR-14684]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19248",
+                        "createdAt": "2016-09-09T06:53:17Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "Change View.render method to take Map<String, ?> [SPR-14685]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19249",
+                        "createdAt": "2016-09-09T13:30:18Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Consistent *Aware callbacks for TypeFilters, ImportSelectors and ImportBeanDefinitionRegistrars [SPR-14686]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19250",
+                        "createdAt": "2016-09-09T15:06:35Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "Change default file extension in AppCacheManifestTransformer [SPR-14687]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19251",
+                        "createdAt": "2016-09-09T18:24:57Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Add param method to DefaultClientWebRequestBuilder [SPR-14688]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19252",
+                        "createdAt": "2016-09-09T19:32:52Z",
+                        "closedAt": "2016-10-20T14:19:43Z"
+                    },
+                    {
+                        "title": "CustomNumberEditor issue with string conversion [SPR-14689]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19253",
+                        "createdAt": "2016-09-10T19:27:56Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spring WebSockets should support token-based authentication [SPR-14690]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19254",
+                        "createdAt": "2016-09-10T21:33:52Z",
+                        "closedAt": "2016-12-21T11:54:09Z"
+                    },
+                    {
+                        "title": "@SessionAttributes not working as expected [SPR-14691]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19255",
+                        "createdAt": "2016-09-12T07:40:50Z",
+                        "closedAt": "2016-09-13T06:01:30Z"
+                    },
+                    {
+                        "title": "ScheduledAnnotationBeanPostProcessor should reliably apply after AnnotationAwareAspectJAutoProxyCreator [SPR-14692]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19256",
+                        "createdAt": "2016-09-12T07:56:50Z",
+                        "closedAt": "2016-12-30T13:33:15Z"
+                    },
+                    {
+                        "title": "Provide annotated controller hints to codecs and JsonView support [SPR-14693]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19257",
+                        "createdAt": "2016-09-12T09:23:14Z",
+                        "closedAt": "2016-09-21T12:13:13Z"
+                    },
+                    {
+                        "title": "Support BufferingClientHttpRequestFactory in MockRestServiceServer  [SPR-14694]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19258",
+                        "createdAt": "2016-09-12T10:13:37Z",
+                        "closedAt": "2018-04-03T20:34:29Z"
+                    },
+                    {
+                        "title": "Frequent messages via Websocket are sent unreliably [SPR-14695]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19259",
+                        "createdAt": "2016-09-12T14:03:15Z",
+                        "closedAt": "2016-09-19T13:33:08Z"
+                    },
+                    {
+                        "title": "Failed to start bean 'webSocketHandlerMapping'; nested exception is java.lang.IllegalStateException: Unable to initialize Jetty WebSocketServerFactory with latest spring and jetty vesions [SPR-14696]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19260",
+                        "createdAt": "2016-09-12T14:26:40Z",
+                        "closedAt": "2017-09-13T07:06:08Z"
+                    },
+                    {
+                        "title": "AbstractPollingMessageListenerContainer's workaround for Tibco causes performance delays during ems failover [SPR-14697]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19261",
+                        "createdAt": "2016-09-12T14:40:05Z",
+                        "closedAt": "2016-09-19T15:46:49Z"
+                    },
+                    {
+                        "title": "Expose Channel on Resource [SPR-14698]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19262",
+                        "createdAt": "2016-09-12T14:59:48Z",
+                        "closedAt": "2017-07-17T22:32:46Z"
+                    },
+                    {
+                        "title": "Consider to make ApplicationEventPublisher as @FunctionalInterface [SPR-14699]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19263",
+                        "createdAt": "2016-09-12T16:07:32Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Provide Stream-based alternatives to doWith(…) methods in ReflectionUtils [SPR-14700]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19264",
+                        "createdAt": "2016-09-12T17:23:25Z",
+                        "closedAt": "2017-01-18T11:23:49Z"
+                    },
+                    {
+                        "title": "Mockito fails to verify the second time on the proxied bean [SPR-14701]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19265",
+                        "createdAt": "2016-09-12T19:23:07Z",
+                        "closedAt": "2016-09-14T12:41:34Z"
+                    },
+                    {
+                        "title": "CustomTypeCondition will be missing if not have @RequestMapping annotation [SPR-16442]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19266",
+                        "createdAt": "2018-01-31T07:20:00Z",
+                        "closedAt": "2018-02-01T02:45:03Z"
+                    },
+                    {
+                        "title": "Classloader leak with cglib proxies and spring-retry [SPR-14702]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19267",
+                        "createdAt": "2016-09-12T20:04:44Z",
+                        "closedAt": "2016-09-26T09:56:49Z"
+                    },
+                    {
+                        "title": "NPE during websocket disconnect [SPR-14703]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19268",
+                        "createdAt": "2016-09-13T01:09:40Z",
+                        "closedAt": "2016-09-19T15:46:49Z"
+                    },
+                    {
+                        "title": "Springmvc+mybatis project use @transaction not roll back with Spring JavaConfig [SPR-14704]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19269",
+                        "createdAt": "2016-09-13T06:48:04Z",
+                        "closedAt": "2016-09-13T23:54:52Z"
+                    },
+                    {
+                        "title": "Add support for commons-vfs2 Resource [SPR-14705]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19270",
+                        "createdAt": "2016-09-13T10:01:43Z",
+                        "closedAt": "2019-01-12T02:24:53Z"
+                    },
+                    {
+                        "title": "one beanfactory can not have more than one TransactionManager  when low memory [SPR-14706]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19271",
+                        "createdAt": "2016-09-13T12:54:22Z",
+                        "closedAt": "2016-09-13T13:13:02Z"
+                    },
+                    {
+                        "title": "Add support for MediaType for EDIFACT and EDI-X12 [SPR-14707]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19272",
+                        "createdAt": "2016-09-13T14:43:02Z",
+                        "closedAt": "2016-09-19T14:06:16Z"
+                    },
+                    {
+                        "title": "Deadlock sending SSE events [SPR-14708]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19273",
+                        "createdAt": "2016-09-13T14:51:24Z",
+                        "closedAt": "2016-09-14T15:29:35Z"
+                    },
+                    {
+                        "title": "Don't log property values in PropertySourcesPropertyResolver by default [SPR-14709]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19274",
+                        "createdAt": "2016-09-13T14:52:58Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "Backport @Indexed to the 4.3.x line [SPR-14710]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19275",
+                        "createdAt": "2016-09-13T16:00:06Z",
+                        "closedAt": "2017-01-17T15:08:13Z"
+                    },
+                    {
+                        "title": "Document candidates index mechanism [SPR-14711]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19276",
+                        "createdAt": "2016-09-13T16:02:05Z",
+                        "closedAt": "2017-02-23T09:29:10Z"
+                    },
+                    {
+                        "title": "Add the ability to create an optional bean reference by name [SPR-14712]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19277",
+                        "createdAt": "2016-09-13T16:06:05Z",
+                        "closedAt": "2019-01-12T02:24:50Z"
+                    },
+                    {
+                        "title": "Add WebApplicationInitializers for Web Reactive [SPR-14713]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19278",
+                        "createdAt": "2016-09-14T10:23:01Z",
+                        "closedAt": "2016-09-21T12:13:13Z"
+                    },
+                    {
+                        "title": "Reactive path matching does not consider servlet context path [SPR-14714]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19279",
+                        "createdAt": "2016-09-14T10:40:51Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "Document why \"charset=UTF-8\" is specified for JSON and not for XML [SPR-14715]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19280",
+                        "createdAt": "2016-09-14T15:47:10Z",
+                        "closedAt": "2018-05-08T08:53:24Z"
+                    },
+                    {
+                        "title": "exception during websocket server shutdown [SPR-14716]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19281",
+                        "createdAt": "2016-09-14T22:33:56Z",
+                        "closedAt": "2019-01-12T02:24:47Z"
+                    },
+                    {
+                        "title": "Print request body in PrintingResultHandler in Spring MVC Test [SPR-14717]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19282",
+                        "createdAt": "2016-09-15T00:37:56Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "StringUtils.parseLocaleString(): does not parse locale string in java 7 for Serbian (Latin) [SPR-14718]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19283",
+                        "createdAt": "2016-09-15T10:53:03Z",
+                        "closedAt": "2018-03-28T14:25:47Z"
+                    },
+                    {
+                        "title": "Refreshable Groovy scripts failing on refresh [SPR-14719]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19284",
+                        "createdAt": "2016-09-15T10:55:06Z",
+                        "closedAt": "2019-01-12T02:24:44Z"
+                    },
+                    {
+                        "title": "Possible Bug: MappingJackson2XmlHttpMessageConverter does not share same ObjectMapper than MappingJackson2HttpMessageConverter [SPR-14720]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19285",
+                        "createdAt": "2016-09-15T13:33:51Z",
+                        "closedAt": "2016-09-15T14:52:39Z"
+                    },
+                    {
+                        "title": "exception during websocket client close [SPR-14721]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19286",
+                        "createdAt": "2016-09-15T16:53:52Z",
+                        "closedAt": "2016-09-19T15:46:49Z"
+                    },
+                    {
+                        "title": "XpathExpectationsHelper should support Hamcrest matching against typed objects [SPR-14722]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19287",
+                        "createdAt": "2016-09-15T18:02:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Example of websocket reconnect [SPR-14723]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19288",
+                        "createdAt": "2016-09-15T21:06:21Z",
+                        "closedAt": "2018-12-24T18:07:40Z"
+                    },
+                    {
+                        "title": "Reference Documentation: instruct how RestTemplate should handle the errors thrown about @Validated (JSR 303/349) [SPR-14724]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19289",
+                        "createdAt": "2016-09-16T00:56:03Z",
+                        "closedAt": "2016-11-08T13:11:19Z"
+                    },
+                    {
+                        "title": "Add SPI to customize the qualifiers to use for a particular bean [SPR-14725]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19290",
+                        "createdAt": "2016-09-16T06:56:45Z",
+                        "closedAt": "2016-09-19T15:55:27Z"
+                    },
+                    {
+                        "title": "Add support for context paths in Spring Web Reactive [SPR-14726]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19291",
+                        "createdAt": "2016-09-16T19:01:55Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "java.lang.NoClassDefFoundError: org/springframework/core/enums/LabeledEnum [SPR-14727]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19292",
+                        "createdAt": "2016-09-16T22:40:33Z",
+                        "closedAt": "2016-09-22T09:57:42Z"
+                    },
+                    {
+                        "title": "Introduce 'value' alias for @Bean's 'name' attribute [SPR-14728]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19293",
+                        "createdAt": "2016-09-17T13:47:03Z",
+                        "closedAt": "2016-09-19T15:55:26Z"
+                    },
+                    {
+                        "title": "ScriptTemplateView should check template resource [SPR-14729]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19294",
+                        "createdAt": "2016-09-17T20:11:23Z",
+                        "closedAt": "2016-09-19T15:46:50Z"
+                    },
+                    {
+                        "title": "Document how to test WebClient code with a mock server [SPR-16482]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19295",
+                        "createdAt": "2018-02-09T20:46:56Z",
+                        "closedAt": "2018-02-19T12:19:19Z"
+                    },
+                    {
+                        "title": "Spring MVC for Rest: How set a Locale value [SPR-14730]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19296",
+                        "createdAt": "2016-09-19T00:47:33Z",
+                        "closedAt": "2019-01-12T02:24:41Z"
+                    },
+                    {
+                        "title": "cve-2016-5007 [SPR-14731]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19297",
+                        "createdAt": "2016-09-19T09:11:02Z",
+                        "closedAt": "2018-06-28T18:43:56Z"
+                    },
+                    {
+                        "title": "websocket - subscribers not notified [SPR-14732]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19298",
+                        "createdAt": "2016-09-19T14:34:59Z",
+                        "closedAt": "2016-09-20T00:56:35Z"
+                    },
+                    {
+                        "title": "Fix Reference Documentation for sample code about HiddenHttpMethodFilter and CharacterEncodingFilter working together. [SPR-14733]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19299",
+                        "createdAt": "2016-09-19T16:10:33Z",
+                        "closedAt": "2016-10-13T13:43:05Z"
+                    },
+                    {
+                        "title": "Add new Filter to handle \"HTTP Status 405 - JSPs only permit GET POST or HEAD\" [SPR-14734]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19300",
+                        "createdAt": "2016-09-19T17:33:35Z",
+                        "closedAt": "2016-09-22T13:34:51Z"
+                    },
+                    {
+                        "title": "Exception during initialisaton of resource handling at WebReactiveConfiguration [SPR-14735]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19301",
+                        "createdAt": "2016-09-19T22:51:36Z",
+                        "closedAt": "2016-09-21T12:13:12Z"
+                    },
+                    {
+                        "title": "get Class package and location returns null when use  <context:load-time-weaver/> [SPR-14736]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19302",
+                        "createdAt": "2016-09-20T04:40:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "YAML + PropertyPlaceholderConfigurer needs to process non-String values as well [SPR-14737]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19303",
+                        "createdAt": "2016-09-20T07:03:17Z",
+                        "closedAt": "2018-05-03T15:43:29Z"
+                    },
+                    {
+                        "title": "Not implemented EQUALS methods cause OOM while using AOP [SPR-14738]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19304",
+                        "createdAt": "2016-09-21T16:38:02Z",
+                        "closedAt": "2016-09-26T09:55:37Z"
+                    },
+                    {
+                        "title": "Default async timeout handling results in Logged Exception for Tomcat 8.5.x [SPR-14739]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19305",
+                        "createdAt": "2016-09-21T19:29:37Z",
+                        "closedAt": "2016-11-07T22:01:23Z"
+                    },
+                    {
+                        "title": "spring.ftl doesn't work on freemarker 2.3.24+'s auto escaping feature [SPR-14740]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19306",
+                        "createdAt": "2016-09-22T13:34:18Z",
+                        "closedAt": "2018-06-18T23:18:01Z"
+                    },
+                    {
+                        "title": "@ComponentScan ignores @Order on @Configuration classes [SPR-14741]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19307",
+                        "createdAt": "2016-09-22T22:05:31Z",
+                        "closedAt": "2019-01-12T02:24:38Z"
+                    },
+                    {
+                        "title": "Review RxJava API surface in ReactiveAdapterRegistry [SPR-14742]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19308",
+                        "createdAt": "2016-09-23T12:00:33Z",
+                        "closedAt": "2016-10-31T15:30:31Z"
+                    },
+                    {
+                        "title": "Remove RxJava 1.x variants of WebClient adapters [SPR-14743]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19309",
+                        "createdAt": "2016-09-23T12:07:06Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "Netty4ClientHttpRequestFactory should configure a default SslContext [SPR-14744]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19310",
+                        "createdAt": "2016-09-23T18:03:58Z",
+                        "closedAt": "2017-01-06T19:02:07Z"
+                    },
+                    {
+                        "title": " SchedulerFactoryBean's setOverwriteExistingJobs does not reliably work in a cluster [SPR-14745]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19311",
+                        "createdAt": "2016-09-24T07:38:38Z",
+                        "closedAt": "2019-01-12T02:24:35Z"
+                    },
+                    {
+                        "title": "Access to generic list throws java.lang.IndexOutOfBoundsException: Index: 0, Size: 0 [SPR-14746]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19312",
+                        "createdAt": "2016-09-24T09:02:09Z",
+                        "closedAt": "2019-01-12T02:24:32Z"
+                    },
+                    {
+                        "title": "Improve performance of StompEncoder.encode() [SPR-14747]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19313",
+                        "createdAt": "2016-09-25T17:07:48Z",
+                        "closedAt": "2016-11-07T22:01:23Z"
+                    },
+                    {
+                        "title": "Error while serializing ServerSentEvent [SPR-14748]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19314",
+                        "createdAt": "2016-09-26T06:53:21Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "DefaultPersistenceUnitManager may configure a persistence unit root URL that does not point to a file or directory [SPR-14749]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19315",
+                        "createdAt": "2016-09-26T10:02:16Z",
+                        "closedAt": "2016-11-07T22:01:23Z"
+                    },
+                    {
+                        "title": "Close resources in WebClient and ClientHttpConnector [SPR-14750]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19316",
+                        "createdAt": "2016-09-26T12:30:48Z",
+                        "closedAt": "2016-11-08T13:11:17Z"
+                    },
+                    {
+                        "title": "Spring AOP - @Pointcut: @Before advice for @Test methods does not work [SPR-14751]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19317",
+                        "createdAt": "2016-09-26T12:44:51Z",
+                        "closedAt": "2016-09-26T17:32:46Z"
+                    },
+                    {
+                        "title": "Spring MVC Test with Validation JSR-303/349: Locale or accept-language does not work in testing [SPR-14752]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19318",
+                        "createdAt": "2016-09-26T13:22:29Z",
+                        "closedAt": "2017-01-04T22:34:57Z"
+                    },
+                    {
+                        "title": "Spring MVC and AOP: @EnableAspectJAutoProxy needs to be redeclared for each application context [SPR-14753]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19319",
+                        "createdAt": "2016-09-26T14:35:21Z",
+                        "closedAt": "2018-05-21T20:30:36Z"
+                    },
+                    {
+                        "title": "Add @EnableWebReactive and WebReactiveConfigurerAdapter configuration model [SPR-14754]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19320",
+                        "createdAt": "2016-09-26T14:50:38Z",
+                        "closedAt": "2016-11-08T13:11:18Z"
+                    },
+                    {
+                        "title": "Actually support request forwarding in MockRequestDispatcher [SPR-14755]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19321",
+                        "createdAt": "2016-09-26T16:36:13Z",
+                        "closedAt": "2017-02-13T20:56:53Z"
+                    },
+                    {
+                        "title": "Replacement for methods of AuthenticationException class in 4.0.3.RELEASE [SPR-14756]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/19322",
+                        "createdAt": "2016-09-27T09:02:33Z",
+                        "closedAt": "2016-09-28T06:24:26Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7wHeQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

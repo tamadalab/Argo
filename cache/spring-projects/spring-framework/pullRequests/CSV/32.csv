@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Avoid multiple volatile reads/writes in a row where only one is enough","2020-10/12","2020-11/12","2020-10/12",True,"2020-11/12",4,9,10
+"AbstractBeanFactory.afterPrototypeCreation method optimization","2020-10/13","2020-10/13","2020-10/13",False,"null",4,1360973,0
+"Create spring-framework","2020-10/14","2020-10/14","2020-10/14",False,"null",3,1,0
+"SPR-17614 Fix SpEL inline collections with negative keys or values are not cached","2020-10/16","null","2020-10/16",False,"null",4,221,3
+"Extending the incoming Stomp sessionId as an attribute in TcpClient","2020-10/16","2020-10/16","2020-10/16",False,"null",4,86,3
+"UriBuilder - Overload queryParam to accept Optional and add only if value is present","2020-10/16","2020-10/16","2020-10/16",False,"null",4,34,0
+"Improve ResourceArrayPropertyEditor time complexity","2020-10/16","2020-12/16","2020-10/16",False,"null",4,5,12
+"Removes absolute URI check to support Unix Domain Socket URIs","2020-10/17","2020-10/17","2020-10/17",False,"null",3,0,4
+"Spring-Aspects: @Configurable declare parents have non reproducible builds","2020-10/19","null","2020-10/19",False,"null",4,1,1
+"Wording changes. Fixed typo 'CorsConfiguraiton'","2020-10/19","2020-10/19","2020-10/19",True,"2020-10/19",4,1,1
+"WebSocketTransportRegistration: javadoc typo","2020-10/20","2020-10/20","2020-10/20",True,"2020-10/20",5,1,1
+"UriBuilder - Correct the treatment of Optional types.","2020-10/21","2020-10/21","2020-10/21",False,"null",3,40,3
+"Support Optional for query parameters in UriBuilder and UriComponentsBuilder","2020-10/21","2020-10/21","2020-10/21",False,"null",3,61,0
+"update fork","2020-10/22","2020-10/22","2020-10/22",False,"null",22,10027,26653
+"Solve duplicate registration of beans of type MergedBeanDefinitionPostProcessor.","2020-10/26","2020-11/26","2020-10/26",False,"null",3,9,3
+"Remove rogue semicolon in WebClient docs","2020-10/29","2020-10/29","2020-10/29",True,"2020-10/29",4,1,1
+"Fix a broken Asciidoctor syntax in core-resources.adoc","2020-10/30","2020-10/30","2020-10/30",False,"null",3,1,1
+"get update from master","2020-10/31","2020-10/31","2020-10/31",False,"null",3,0,0
+"Optimize AbstractBeanFactory.afterPrototypeCreation()","2020-11/2","null","2020-11/2",False,"null",3,3,7
+"Improve URI/query strings sanitization","2020-11/2","2020-11/2","2020-11/2",True,"2020-11/2",4,47,30
+"Fix kotlin example code which does not compile","2020-11/2","2020-11/2","2020-11/2",False,"null",3,1,1
+"Improve AdvisedSupport.getAdvisors()","2020-11/2","2020-11/2","2020-11/2",True,"2020-11/2",3,24,31
+"Simplify AbstractBeanFactory.registerCustomEditors()","2020-11/3","2020-11/3","2020-11/3",False,"null",3,2,4
+"Add FullyQualifiedAnnotationBeanNameGenerator.INSTANCE","2020-11/3","2020-11/3","2020-11/3",True,"2020-11/3",3,9,1
+"Use computeIfAbsent to simplify some code","2020-11/4","null","2020-11/4",False,"null",4,12,20
+"Kotlin extensions for WebClient.ResponseSpec","2020-11/4","2020-12/4","2020-11/4",False,"null",4,34,0
+"Merge pull request #1 from spring-projects/master","2020-11/7","2020-11/7","2020-11/7",False,"null",2,0,0
+"Merge pull request #1 from spring-projects/master","2020-11/7","2020-11/7","2020-11/7",False,"null",4,0,0
+"Delete explicit type arguments that can be inferred","2020-11/7","2020-11/7","2020-11/7",True,"2020-11/7",4,2,2
+"Fix wrong reference in UrlPathHelper.removeSemicolonContentInternal()","2020-11/9","2020-11/9","2020-11/9",True,"2020-11/9",3,5,2
+"Solve duplicate registration of beans of type MergedBeanDefinitionPostProcessor.","2020-11/10","2021-12/10","2020-11/10",False,"null",4,9,3
+"Simplify AbstractAspectJAdvice.isVariableName()","2020-11/10","2020-11/10","2020-11/10",True,"2020-11/10",3,5,6
+"Polish Javadoc for InjectionMetadata.forElements()","2020-11/11","2020-11/11","2020-11/11",True,"2020-11/11",3,1,2
+"Avoid full singleton lock for getSingleton(beanName, singletonFactory)","2020-11/12","2020-11/12","2020-11/12",False,"null",1,45,41
+"Make tests meaningful in DefaultListableBeanFactoryTests","2020-11/12","2020-11/12","2020-11/12",True,"2020-11/12",3,14,20
+"Avoid full singleton lock for getSingleton(beanName, singletonFactory)","2020-11/12","2020-11/12","2020-11/12",False,"null",4,45,41
+"Add ""application/java-archive"" MediaType","2020-11/13","2020-11/13","2020-11/13",False,"null",3,13,0
+"Simplify AstUtils.getPropertyAccessorsToTry()","2020-11/16","2020-11/16","2020-11/16",True,"2020-11/16",3,2,3
+"Avoid char array creation in AbstractAspectJAdvice.isVariableName()","2020-11/17","2020-11/17","2020-11/17",False,"null",3,2,2
+"Reduce overhead of char[] creation","2020-11/17","2020-11/17","2020-11/17",True,"2020-11/17",3,20,24
+"Re-use the isVariableName method","2020-11/17","2020-11/17","2020-11/17",True,"2020-11/17",3,18,23
+"Support allowedOriginPatterns in SockJS config","2020-11/17","2020-11/17","2020-11/17",False,"null",3,126,8
+"A3 pull request","2020-11/18","2020-11/18","2020-11/18",False,"null",4,49,1
+"Add ResponseSpec#toEntityFlux overload that accepts BodyExtractor","2020-11/18","2020-11/18","2020-11/18",False,"null",4,56,1
+"Fail MethodFilter.and() immediately when null is passed","2020-11/19","2020-11/19","2020-11/19",True,"2020-11/19",3,2,0
+"Simplify XMLEventStreamWriter.writeEndElement()","2020-11/19","2020-11/19","2020-11/19",True,"2020-11/19",3,1,2
+"Use Collection View instead of a separate collection","2020-11/20","2020-11/20","2020-11/20",False,"null",4,8,52
+"Delegate to AopUtils.invokeJoinpointUsingReflection from AbstractAspectJAdvice","2020-11/20","2020-11/20","2020-11/20",False,"null",3,2,16
+"new interface exposes inner response for testing","2020-11/23","2020-12/23","2020-11/23",False,"null",3,32,13
+"Remove unused package-private class o.s.w.u.p.SubSequence","2020-11/26","2020-11/26","2020-11/26",True,"2020-11/26",3,0,64
+"Update AbstractAutowireCapableBeanFactory.java","2020-11/28","2021-12/28","2020-11/28",False,"null",5,3,4
+"Add overloaded send methods of client StompSession","2020-11/29","2020-12/29","2020-11/29",False,"null",3,69,1
+"Polish ConfigurationClassPostProcessorTests","2020-12/2","2020-12/2","2020-12/2",True,"2020-12/2",3,101,102
+"Optimize PostProcessorRegistrationDelegate's invokeBeanFactoryPostProcessors()","2020-12/2","2020-12/2","2020-12/2",False,"null",4,21,25
+"Fix comments to match behaviour in Tokenizer#lexNumericLiteral","2020-12/3","2021-1/3","2020-12/3",False,"null",3,2,3
+"Allow passing Class<?> to resolveMethodByExceptionType in ExceptionHandlerMethodResolver","2020-12/3","2021-1/3","2020-12/3",False,"null",4,30,5
+"Correct satisfies statements in SpelParserTests.generalExpressions","2020-12/4","2020-12/4","2020-12/4",True,"2020-12/4",3,6,6
+"Fix punctuation typo in javadoc for ResponseExtractor","2020-12/4","2020-12/4","2020-12/4",True,"2020-12/4",3,1,1
+"新提交","2020-12/5","2020-12/5","2020-12/5",False,"null",4,0,0
+"Support hints for codec on client and server side","2020-12/5","2021-1/5","2020-12/5",False,"null",4,431,29
+"Remove duplicate ""property"" in PropertyCacheKey.toString()","2020-12/8","2020-12/8","2020-12/8",True,"2020-12/8",3,2,2
+"remove not necessary judge and fields","2020-12/8","2021-12/8","2020-12/8",False,"null",6,9,12
+"Fix typo in Javadoc for AbstractJdbcCall","2020-12/10","2020-12/10","2020-12/10",True,"2020-12/10",5,1,1
+"Replace AtomicReference<Boolean> with AtomicBoolean in AbstractServerHttpResponse.writeWith()","2020-12/12","2020-12/12","2020-12/12",True,"2020-12/12",3,2,1
+"Fix UriComponentsBuilder validation of file URI #26258","2020-12/15","2020-12/15","2020-12/15",False,"null",3,13,1
+"Refactor PostProcessorRegistrationDelegate","2020-12/15","2020-12/15","2020-12/15",False,"null",6,8,15
+"Stop the started LifeCycle when start any LifeCycle failed","2020-12/15","null","2020-12/15",False,"null",5,7,2
+"@PreDestroy @PostConstruct support @Order","2020-12/16","2021-12/16","2020-12/16",False,"null",6,65,30
+"Update Gradle Enterprise Gradle Plugin and Spring Conventions Plugin","2020-12/16","2021-1/16","2020-12/16",False,"null",3,2,2
+"Make set operator for MapSqlParameterSource accept nullable value","2020-12/16","2021-2/16","2020-12/16",False,"null",4,3,3
+"Update DefaultListableBeanFactory's determineHighestPriorityCandidate","2020-12/17","2020-12/17","2020-12/17",False,"null",5,18,12
+"Draft: WebClient incorrectly handling HTTP 100","2020-12/18","2020-12/18","2020-12/18",False,"null",4,3,0
+"Optimize memory allocations in StringUtils#cleanPath","2020-12/23","2021-8/23","2020-12/23",False,"null",5,42,4
+"Reduce redundant cycles in PostProcessorRegistrationDelegate","2020-12/24","2020-12/24","2020-12/24",False,"null",12,1217,836
+"Add the ability for SpEL AST Indexer to interpret java.lang.Iterable object","2020-12/28","2021-2/28","2020-12/28",False,"null",3,162,8
+"注释","2020-12/30","2020-12/30","2020-12/30",False,"null",4,705,17
+"5.0.x","2021-1/2","2021-1/2","2021-1/2",False,"null",16,35253,27831
+"学习Spring源码","2021-1/3","2021-1/3","2021-1/3",False,"null",4,1,1
+"Add null check for ExceptionHandlerMethodResolvers","2021-1/3","2021-1/3","2021-1/3",False,"null",4,6,2
+"Ensure content-length header is only written once","2021-1/4","2021-1/4","2021-1/4",False,"null",4,0,8
+"Fix implementation of isOpen() in ReactorNettyWebSocketSession","2021-1/4","2021-1/4","2021-1/4",False,"null",4,1,1
+"fix issue 26317","2021-1/4","2021-1/4","2021-1/4",False,"null",8,4,5
+"Add Revved up by Gradle Enterprise badge to Readme","2021-1/5","2021-1/5","2021-1/5",False,"null",4,1,1
+"Merge pull request #1 from spring-projects/master","2021-1/7","2021-1/7","2021-1/7",False,"null",4,0,0
+"ADD getForEntity, postForEntity Overloading function using ParameterizedTypeReference","2021-1/8","2021-1/8","2021-1/8",False,"null",3,53,0
+"Make ExceptionHandler invokable when matching deeply nested cause","2021-1/11","2021-1/11","2021-1/11",False,"null",4,139,19
+"Update Gradle Enterprise Plugin versions","2021-1/12","2021-1/12","2021-1/12",False,"null",3,2,2
+"Avoid getting objects that have not completed initialization","2021-1/12","null","2021-1/12",False,"null",7,167,16
+"V5.1 learn","2021-1/14","2021-1/14","2021-1/14",False,"null",15,5224,1459
+"Add a missing space in exception message from CorsConfiguration.validateAllowCredentials()","2021-1/14","2021-1/14","2021-1/14",False,"null",3,1,1
+"Add support for java.util.Optional to GenericHttpMessageConverter #24498","2021-1/16","null","2021-1/16",False,"null",6,189,7
+"Improve the logic of registerBeanPostProcessors() in PostProcessorRegistrationDelegate","2021-1/18","2021-1/18","2021-1/18",False,"null",4,13,28
+"Improve inline documentation for PostProcessorRegistrationDelegate","2021-1/19","2021-1/19","2021-1/19",False,"null",3,5,0
+"Make CommonsPool2TargetSource generic","2021-1/19","2021-1/19","2021-1/19",False,"null",3,18,17
+"5.1 learn","2021-1/21","2021-1/21","2021-1/21",False,"null",15,9190,3684
+"Close mapping streams after the ValidatorFactory has been built in LocalValidatorFactoryBean","2021-1/21","2021-2/21","2021-1/21",True,"2021-2/21",4,27,4
+"Fail early FactoryBean instantiation for LinkageError","2021-1/21","2021-2/21","2021-1/21",False,"null",4,183,0
+"同步","2021-1/22","2021-1/22","2021-1/22",False,"null",4,178,8
+"DefaultResponseErrorHandler should check #read return value","2021-1/22","2021-1/22","2021-1/22",False,"null",3,5,4
+"Fix typo in URI Encoding section of reference docs","2021-1/24","2021-1/24","2021-1/24",True,"2021-1/24",3,1,1

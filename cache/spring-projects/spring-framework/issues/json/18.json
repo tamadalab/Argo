@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "The current release of spring M2 does not contain any hibernate support.  [SPR-1724]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6421",
+                        "createdAt": "2006-02-16T19:35:47Z",
+                        "closedAt": "2006-02-16T23:56:21Z"
+                    },
+                    {
+                        "title": "Add schema for web configuration (handler mappings) [SPR-1725]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6422",
+                        "createdAt": "2006-02-17T08:47:38Z",
+                        "closedAt": "2012-06-19T03:25:15Z"
+                    },
+                    {
+                        "title": "CookieLocaleResolver.setLocale() does not add cookie when called from controller [SPR-1726]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6423",
+                        "createdAt": "2006-02-17T09:20:49Z",
+                        "closedAt": "2006-06-19T09:04:01Z"
+                    },
+                    {
+                        "title": "Provide access to the underlying PropertyEditorRegistrySupport via ArgumentConvertingMethodInvoker [SPR-1727]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6424",
+                        "createdAt": "2006-02-17T09:38:35Z",
+                        "closedAt": "2012-06-19T03:54:39Z"
+                    },
+                    {
+                        "title": "Provide access to the PropertyTypeConverter to PropertyEditors during type conversion [SPR-1728]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6425",
+                        "createdAt": "2006-02-17T09:55:07Z",
+                        "closedAt": "2012-06-19T09:37:27Z"
+                    },
+                    {
+                        "title": "Allow PropertyEditors to transform null values to alternative representation (empty Collection, empty array, domain specific NullObject, et cetera) [SPR-1729]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6426",
+                        "createdAt": "2006-02-18T05:46:31Z",
+                        "closedAt": "2012-06-19T03:54:29Z"
+                    },
+                    {
+                        "title": "Validators should have access to HttpServletRequest [SPR-1730]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6427",
+                        "createdAt": "2006-02-19T02:56:23Z",
+                        "closedAt": "2012-06-19T09:37:31Z"
+                    },
+                    {
+                        "title": "Problem with interfaces and ASPECTJ [SPR-1731]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6428",
+                        "createdAt": "2006-02-19T20:34:16Z",
+                        "closedAt": "2006-02-20T05:50:05Z"
+                    },
+                    {
+                        "title": "Registered MBeanExporter autodetect always tries to process *MBean classes even though this might not be wanted. [SPR-1732]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6429",
+                        "createdAt": "2006-02-19T23:57:43Z",
+                        "closedAt": "2012-06-19T03:54:26Z"
+                    },
+                    {
+                        "title": "MBeanServerConnectionFactoryBean.destroy() should not attempt to close a lazy connector that has not been used yet [SPR-1733]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6430",
+                        "createdAt": "2006-02-21T00:50:57Z",
+                        "closedAt": "2012-06-19T03:54:37Z"
+                    },
+                    {
+                        "title": "Spring fails to lookup a Websphere V6 Data Source using JNDI [SPR-1734]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6431",
+                        "createdAt": "2006-02-21T01:14:52Z",
+                        "closedAt": "2006-06-19T08:38:01Z"
+                    },
+                    {
+                        "title": "Supporting multiple transaction attribute sources [SPR-1735]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6432",
+                        "createdAt": "2006-02-21T03:19:28Z",
+                        "closedAt": "2012-06-19T03:54:04Z"
+                    },
+                    {
+                        "title": "Update Spring / Tapestry integration documentation [SPR-1736]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6433",
+                        "createdAt": "2006-02-21T03:33:22Z",
+                        "closedAt": "2012-06-19T03:54:34Z"
+                    },
+                    {
+                        "title": "Invalid parameter Index used for JPA named queries [SPR-1737]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6434",
+                        "createdAt": "2006-02-21T07:56:39Z",
+                        "closedAt": "2012-06-19T03:54:29Z"
+                    },
+                    {
+                        "title": "typo in doco [SPR-1738]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6435",
+                        "createdAt": "2006-02-21T14:01:37Z",
+                        "closedAt": "2012-06-19T03:54:30Z"
+                    },
+                    {
+                        "title": "Make aspect related behaviour orthogonal to bean related behaviour [SPR-1739]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6436",
+                        "createdAt": "2006-02-22T22:04:38Z",
+                        "closedAt": "2012-06-19T09:37:39Z"
+                    },
+                    {
+                        "title": "Documentation clarification suggestion for application context bean inheritence (section 13.2) [SPR-1740]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6437",
+                        "createdAt": "2006-02-23T06:10:33Z",
+                        "closedAt": "2012-06-19T03:54:01Z"
+                    },
+                    {
+                        "title": "${..} property placeholder broken in 2-m2, was working on 2-m1 [SPR-1741]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6438",
+                        "createdAt": "2006-02-24T00:00:54Z",
+                        "closedAt": "2012-06-19T02:28:22Z"
+                    },
+                    {
+                        "title": "JPetStore doesn't work correctly on Application Server Clustering. [SPR-1742]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6439",
+                        "createdAt": "2006-02-25T00:28:40Z",
+                        "closedAt": "2012-06-19T03:54:41Z"
+                    },
+                    {
+                        "title": "Improve Hibernate3 LocalSessionFactoryBean support for event listeners [SPR-1743]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6440",
+                        "createdAt": "2006-02-27T01:43:22Z",
+                        "closedAt": "2012-06-19T03:54:31Z"
+                    },
+                    {
+                        "title": "spring 1.2.6 fails to compile against hibernate-3.1.2 [SPR-1744]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6441",
+                        "createdAt": "2006-02-27T12:53:51Z",
+                        "closedAt": "2012-06-19T03:53:59Z"
+                    },
+                    {
+                        "title": "Spring Form Tag Missing Method Attribute in TLD [SPR-1745]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6442",
+                        "createdAt": "2006-02-27T21:20:08Z",
+                        "closedAt": "2012-06-19T03:54:33Z"
+                    },
+                    {
+                        "title": "Support QNames to Help Shorten FQCN in XML files [SPR-1746]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6443",
+                        "createdAt": "2006-02-27T21:41:27Z",
+                        "closedAt": "2007-05-24T22:13:25Z"
+                    },
+                    {
+                        "title": "Spring Form Tag Does Not Allow Blank for action Attribute [SPR-1747]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6444",
+                        "createdAt": "2006-02-27T21:50:24Z",
+                        "closedAt": "2012-06-19T03:53:57Z"
+                    },
+                    {
+                        "title": "Spring Form Input Tag Does Not Respect spring:nestedPath Tag [SPR-1748]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6445",
+                        "createdAt": "2006-02-27T21:53:39Z",
+                        "closedAt": "2012-06-19T03:54:40Z"
+                    },
+                    {
+                        "title": "Rollback without transaction with propagation SUPPORTS causes a warn-level log entry [SPR-1749]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6446",
+                        "createdAt": "2006-02-27T22:03:16Z",
+                        "closedAt": "2012-06-19T03:53:58Z"
+                    },
+                    {
+                        "title": "CookieGenerator does not support secure property [SPR-1750]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6447",
+                        "createdAt": "2006-02-28T15:14:51Z",
+                        "closedAt": "2012-06-19T03:54:09Z"
+                    },
+                    {
+                        "title": "Make the MBeanExporter registerSimpleBean method public (or at least protected) [SPR-1751]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6448",
+                        "createdAt": "2006-02-28T21:14:11Z",
+                        "closedAt": "2006-03-01T02:01:46Z"
+                    },
+                    {
+                        "title": "SingleConnectionDataSource shouldClose should check setSuppressClose to determine if connection is closable. [SPR-1752]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6449",
+                        "createdAt": "2006-03-01T03:33:03Z",
+                        "closedAt": "2006-03-03T06:49:05Z"
+                    },
+                    {
+                        "title": "Would be nice to have a ConfirmableFormController [SPR-1753]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6450",
+                        "createdAt": "2006-03-02T10:21:40Z",
+                        "closedAt": "2012-06-19T09:37:27Z"
+                    },
+                    {
+                        "title": "javaScriptEscape in Spring tags doesn't escape </script> [SPR-1754]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6451",
+                        "createdAt": "2006-03-02T12:59:55Z",
+                        "closedAt": "2012-06-19T03:54:26Z"
+                    },
+                    {
+                        "title": "JPetStore: Next link doesn't appear on /war/WEB-INF/jsp/spring/Cart.jsp [SPR-1755]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6452",
+                        "createdAt": "2006-03-02T15:44:05Z",
+                        "closedAt": "2012-06-19T03:54:13Z"
+                    },
+                    {
+                        "title": "Code triggers invalidFormSubmit when post same request from different windows [SPR-1756]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6453",
+                        "createdAt": "2006-03-03T01:42:17Z",
+                        "closedAt": "2006-04-04T03:23:20Z"
+                    },
+                    {
+                        "title": "Hibernate Data Source Not Recognized as Set [SPR-1757]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6454",
+                        "createdAt": "2006-03-03T05:07:50Z",
+                        "closedAt": "2006-03-27T00:14:34Z"
+                    },
+                    {
+                        "title": "Hibernate LocalSessionFactoryBean Does Not Allow a Lazy DataSource [SPR-1758]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6455",
+                        "createdAt": "2006-03-03T05:13:07Z",
+                        "closedAt": "2006-03-05T22:37:55Z"
+                    },
+                    {
+                        "title": "Add support for generating Xml files via JasperReportsUtils [SPR-1770]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6456",
+                        "createdAt": "2006-03-09T00:08:41Z",
+                        "closedAt": "2012-06-19T09:37:28Z"
+                    },
+                    {
+                        "title": "JPetStore need to configure SqlMapSequenceDao#getNextId is synchronized. [SPR-1759]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6457",
+                        "createdAt": "2006-03-03T17:22:01Z",
+                        "closedAt": "2007-07-20T20:34:09Z"
+                    },
+                    {
+                        "title": "Select Tag Misinterpreting items attribute type [SPR-1760]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6458",
+                        "createdAt": "2006-03-04T11:08:32Z",
+                        "closedAt": "2012-06-19T03:54:32Z"
+                    },
+                    {
+                        "title": "Improve documentation on ObjectFactoryCreatingFactoryBean Javadoc [SPR-1761]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6459",
+                        "createdAt": "2006-03-05T00:24:35Z",
+                        "closedAt": "2012-06-19T03:54:18Z"
+                    },
+                    {
+                        "title": "PropertyEditorRegistrar: incorrect JavaDoc [SPR-1762]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6460",
+                        "createdAt": "2006-03-05T00:58:45Z",
+                        "closedAt": "2012-06-19T03:54:13Z"
+                    },
+                    {
+                        "title": "Provide a MockValidator for use in unit tests [SPR-1763]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6461",
+                        "createdAt": "2006-03-05T11:05:20Z",
+                        "closedAt": "2006-08-07T19:40:50Z"
+                    },
+                    {
+                        "title": "private BeanWrapperImpl methods might be protected [SPR-1764]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6462",
+                        "createdAt": "2006-03-06T01:30:26Z",
+                        "closedAt": "2008-10-28T09:12:46Z"
+                    },
+                    {
+                        "title": "PathMatchingResourcePatternResolver not closing JarURLConnections [SPR-1765]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6463",
+                        "createdAt": "2006-03-06T09:36:45Z",
+                        "closedAt": "2006-03-20T22:10:45Z"
+                    },
+                    {
+                        "title": "XmlBeanDefinitionParserHelper declarations of xml element names are private but should be public [SPR-1766]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6464",
+                        "createdAt": "2006-03-06T19:43:00Z",
+                        "closedAt": "2012-06-19T03:53:58Z"
+                    },
+                    {
+                        "title": "multipart resolver lookup inconsistency [SPR-1767]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6465",
+                        "createdAt": "2006-03-06T20:15:05Z",
+                        "closedAt": "2006-03-07T19:01:49Z"
+                    },
+                    {
+                        "title": "ScriptFactoryPostProcessor looks for beans in local BeanFactory not in ApplicationContext [SPR-1768]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6466",
+                        "createdAt": "2006-03-07T03:28:48Z",
+                        "closedAt": "2012-06-19T03:53:59Z"
+                    },
+                    {
+                        "title": "BlobStringType getting null pointer.... [SPR-1769]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6467",
+                        "createdAt": "2006-03-08T15:00:57Z",
+                        "closedAt": "2012-06-19T03:53:57Z"
+                    },
+                    {
+                        "title": "Make invocationTime meaningful in exceptionMessage in CustomizableTraceInterceptor [SPR-1771]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6468",
+                        "createdAt": "2006-03-09T03:22:19Z",
+                        "closedAt": "2017-07-12T12:22:02Z"
+                    },
+                    {
+                        "title": "Add test coverage for portlet support [SPR-1772]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6469",
+                        "createdAt": "2006-03-09T03:45:11Z",
+                        "closedAt": "2012-06-19T03:54:01Z"
+                    },
+                    {
+                        "title": "where a null->Object[] method parameter conversion was null, is now Object[] {null} (i.e. size 1) [SPR-1773]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6470",
+                        "createdAt": "2006-03-09T09:08:31Z",
+                        "closedAt": "2012-06-19T03:54:34Z"
+                    },
+                    {
+                        "title": "Allow a custom session to be specified for a transaction in HibernateTransactionManager [SPR-1774]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6471",
+                        "createdAt": "2006-03-09T12:12:01Z",
+                        "closedAt": "2008-05-08T00:52:00Z"
+                    },
+                    {
+                        "title": "Allow explicit suspend() and resume() operations on PlatformTransactionManager [SPR-1775]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6472",
+                        "createdAt": "2006-03-09T12:19:27Z",
+                        "closedAt": "2006-03-13T22:26:31Z"
+                    },
+                    {
+                        "title": "Implement equals() and hashCode() on all bean definition metadata [SPR-1776]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6473",
+                        "createdAt": "2006-03-09T18:44:30Z",
+                        "closedAt": "2012-06-19T03:54:41Z"
+                    },
+                    {
+                        "title": "create an alternative to (java5) scheduling.concurent using backport_util_concurent [SPR-1778]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6474",
+                        "createdAt": "2006-03-10T00:17:24Z",
+                        "closedAt": "2012-06-19T03:54:22Z"
+                    },
+                    {
+                        "title": "FORM Tag library issues [SPR-1779]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6475",
+                        "createdAt": "2006-03-10T01:26:56Z",
+                        "closedAt": "2012-06-19T03:54:38Z"
+                    },
+                    {
+                        "title": "Create JSP Form Tag Showcase [SPR-1780]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6476",
+                        "createdAt": "2006-03-10T02:17:57Z",
+                        "closedAt": "2012-06-19T03:54:11Z"
+                    },
+                    {
+                        "title": "OncePerRequestFilter configured via DelegatingFilterProxy causes NullPointerException [SPR-1782]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6477",
+                        "createdAt": "2006-03-10T06:45:55Z",
+                        "closedAt": "2012-06-19T03:54:04Z"
+                    },
+                    {
+                        "title": "AspectJAutoproxyCreater does not honor usePrefix flag [SPR-1783]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6478",
+                        "createdAt": "2006-03-10T19:47:10Z",
+                        "closedAt": "2012-06-19T03:54:39Z"
+                    },
+                    {
+                        "title": "AspectJ jars required when using <tx:annotation-driven /> [SPR-1784]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6479",
+                        "createdAt": "2006-03-11T03:37:38Z",
+                        "closedAt": "2012-06-19T03:54:35Z"
+                    },
+                    {
+                        "title": "ApplicationContext and registerSingleton not cooperating [SPR-1785]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6480",
+                        "createdAt": "2006-03-11T07:18:44Z",
+                        "closedAt": "2006-03-25T08:07:31Z"
+                    },
+                    {
+                        "title": "Change JdbcTemplate Access modifier to 'public' for query method. [SPR-1786]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6481",
+                        "createdAt": "2006-03-12T03:12:45Z",
+                        "closedAt": "2012-06-19T03:54:17Z"
+                    },
+                    {
+                        "title": "Provide Adapter Classes for MessageListener to Adapt Any POJO [SPR-1787]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6482",
+                        "createdAt": "2006-03-12T18:41:48Z",
+                        "closedAt": "2012-06-19T03:54:14Z"
+                    },
+                    {
+                        "title": "NumberUtils: NumberFormat and BigDecimal [SPR-1788]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6483",
+                        "createdAt": "2006-03-13T02:31:20Z",
+                        "closedAt": "2012-06-19T03:54:22Z"
+                    },
+                    {
+                        "title": "Adding portability with J2EE 1.3 for setCharacterEncoding method from javax.servlet.http.HttpServletResponse [SPR-1790]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6484",
+                        "createdAt": "2006-03-14T00:50:10Z",
+                        "closedAt": "2012-06-19T03:54:29Z"
+                    },
+                    {
+                        "title": "Make error status code optional in MultiActionController [SPR-1791]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6485",
+                        "createdAt": "2006-03-14T06:57:16Z",
+                        "closedAt": "2012-06-19T03:54:09Z"
+                    },
+                    {
+                        "title": "CollectionUtil.hasUniqueObject returns an invalid result for collections with a null as first element [SPR-1792]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6486",
+                        "createdAt": "2006-03-15T09:24:12Z",
+                        "closedAt": "2012-06-19T03:54:30Z"
+                    },
+                    {
+                        "title": "Relative paths in import not resolved properly if application context uses '..'  in its own path [SPR-1793]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6487",
+                        "createdAt": "2006-03-15T09:58:28Z",
+                        "closedAt": "2012-06-19T03:54:16Z"
+                    },
+                    {
+                        "title": "Can't use aop:spring-configured and aop:aspectj-autoproxy together [SPR-1794]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6488",
+                        "createdAt": "2006-03-15T18:40:21Z",
+                        "closedAt": "2012-06-19T03:54:36Z"
+                    },
+                    {
+                        "title": " Constructor arguments with generic Collections seems to break singletons [SPR-1795]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6489",
+                        "createdAt": "2006-03-15T23:54:24Z",
+                        "closedAt": "2012-06-19T03:54:23Z"
+                    },
+                    {
+                        "title": "Concurrency problem with JaxRpcPortClientInterceptor when specifying portInterface on Axis [SPR-1796]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6490",
+                        "createdAt": "2006-03-16T07:55:34Z",
+                        "closedAt": "2012-06-19T03:54:14Z"
+                    },
+                    {
+                        "title": "SessionFactoryUtils should not assume FlushMode.AUTO [SPR-1797]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6491",
+                        "createdAt": "2006-03-16T09:03:46Z",
+                        "closedAt": "2012-06-19T09:37:30Z"
+                    },
+                    {
+                        "title": "JamonPerformanceMonitorInterceptor logger.trace() without isTraceEnabled() [SPR-1798]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6492",
+                        "createdAt": "2006-03-16T18:24:15Z",
+                        "closedAt": "2012-06-19T03:54:26Z"
+                    },
+                    {
+                        "title": "ServerSessionMessageListenerContainer102 uses JMS 1.1 API [SPR-1799]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6493",
+                        "createdAt": "2006-03-16T19:09:42Z",
+                        "closedAt": "2012-06-19T03:54:09Z"
+                    },
+                    {
+                        "title": "SimpleMappingExceptionResolver does not return the correct mapped exception view [SPR-1800]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6494",
+                        "createdAt": "2006-03-17T21:58:04Z",
+                        "closedAt": "2012-06-19T03:54:27Z"
+                    },
+                    {
+                        "title": "org.springframework.util.endsWithIgnoreCase() produce incorrect answer! [SPR-1801]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6495",
+                        "createdAt": "2006-03-19T11:53:11Z",
+                        "closedAt": "2012-06-19T03:54:06Z"
+                    },
+                    {
+                        "title": "Support for OSGi [SPR-1802]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6496",
+                        "createdAt": "2006-03-19T22:04:38Z",
+                        "closedAt": "2007-05-25T01:45:18Z"
+                    },
+                    {
+                        "title": "Cglib2AopProxy#getProxy(ClassLoader) does not pass classloader to Cglib2 Enhancer#setClassLoader(ClassLoader) [SPR-1803]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6497",
+                        "createdAt": "2006-03-20T00:51:05Z",
+                        "closedAt": "2012-06-19T03:54:36Z"
+                    },
+                    {
+                        "title": "Typo in 13.5.3. \"Redirecting to views\" [SPR-1804]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6498",
+                        "createdAt": "2006-03-20T14:48:40Z",
+                        "closedAt": "2012-06-19T03:54:15Z"
+                    },
+                    {
+                        "title": "Include Tiger source code in source build [SPR-1805]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6499",
+                        "createdAt": "2006-03-21T01:49:10Z",
+                        "closedAt": "2012-06-19T03:54:18Z"
+                    },
+                    {
+                        "title": "Form tags: OptionTag could use Spring beans property type conversion to detected selected-ness [SPR-1806]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6500",
+                        "createdAt": "2006-03-21T09:40:33Z",
+                        "closedAt": "2012-06-19T03:54:27Z"
+                    },
+                    {
+                        "title": "registerSingleton method does not reset BeanDefinition [SPR-1807]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6501",
+                        "createdAt": "2006-03-21T10:06:16Z",
+                        "closedAt": "2012-06-19T03:53:59Z"
+                    },
+                    {
+                        "title": "Add <form:options/> tag. [SPR-1808]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6502",
+                        "createdAt": "2006-03-21T22:17:55Z",
+                        "closedAt": "2012-06-19T03:53:56Z"
+                    },
+                    {
+                        "title": "Not found portal package in spring.jar [SPR-1809]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6503",
+                        "createdAt": "2006-03-22T08:55:10Z",
+                        "closedAt": "2006-03-23T02:14:05Z"
+                    },
+                    {
+                        "title": "Upload POMs for Spring 1.2.7 to Maven Repository [SPR-1810]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6504",
+                        "createdAt": "2006-03-22T13:42:12Z",
+                        "closedAt": "2006-06-19T09:30:05Z"
+                    },
+                    {
+                        "title": "Jasper Reports - update to AbstractJasperReportsView to allow DataSource to be read from the model, not just from jdbcDataSource field [SPR-1811]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6505",
+                        "createdAt": "2006-03-22T20:35:53Z",
+                        "closedAt": "2012-06-19T03:54:35Z"
+                    },
+                    {
+                        "title": "SchedulerFactoryBean has race condition in Quartz cluster [SPR-1812]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6506",
+                        "createdAt": "2006-03-22T23:16:42Z",
+                        "closedAt": "2018-08-01T21:20:10Z"
+                    },
+                    {
+                        "title": "Upgrade to Quartz 1.5.2 [SPR-1813]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6507",
+                        "createdAt": "2006-03-22T23:19:14Z",
+                        "closedAt": "2012-06-19T03:54:09Z"
+                    },
+                    {
+                        "title": "No way to configure custom net.sf.cglib.proxy.Enhancer with Spring framework. [SPR-1814]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6508",
+                        "createdAt": "2006-03-23T01:44:59Z",
+                        "closedAt": "2012-06-19T03:54:41Z"
+                    },
+                    {
+                        "title": "DelegatingVariableResolver: Support for JSF scope aware spring beans [SPR-1815]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6509",
+                        "createdAt": "2006-03-23T22:13:28Z",
+                        "closedAt": "2007-01-06T18:59:06Z"
+                    },
+                    {
+                        "title": "Add init() method to NamespaceHandler [SPR-1816]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6510",
+                        "createdAt": "2006-03-24T03:07:11Z",
+                        "closedAt": "2012-06-19T03:54:05Z"
+                    },
+                    {
+                        "title": "'merge' available in DTD but not in XSD [SPR-1817]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6511",
+                        "createdAt": "2006-03-24T15:21:09Z",
+                        "closedAt": "2012-06-19T03:54:09Z"
+                    },
+                    {
+                        "title": "Typo in javadoc for AntPathMatcher [SPR-1818]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6512",
+                        "createdAt": "2006-03-24T19:50:24Z",
+                        "closedAt": "2012-06-19T03:54:32Z"
+                    },
+                    {
+                        "title": "When HibernateTransactionManager rollbacks (in case of exception) it \"corrupts\" the Session [SPR-1819]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6513",
+                        "createdAt": "2006-03-25T01:12:08Z",
+                        "closedAt": "2006-03-27T00:06:37Z"
+                    },
+                    {
+                        "title": "Input Form Tags: form errors support for fmt:message [SPR-1820]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6514",
+                        "createdAt": "2006-03-26T00:54:59Z",
+                        "closedAt": "2012-06-19T03:18:58Z"
+                    },
+                    {
+                        "title": "Provide equivalent to basename or prefix with Spring Message Resources in JstlViews [SPR-1821]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6515",
+                        "createdAt": "2006-03-26T04:30:26Z",
+                        "closedAt": "2015-09-22T17:34:33Z"
+                    },
+                    {
+                        "title": "Fix for Websphere 3.5 bug using org.springframework.mail.javamail.JavaMailSenderImpl [SPR-1822]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6516",
+                        "createdAt": "2006-03-26T05:24:34Z",
+                        "closedAt": "2012-06-19T03:54:17Z"
+                    },
+                    {
+                        "title": "BeanWrapperImpl: wrong null treatment in array properties [SPR-1823]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6517",
+                        "createdAt": "2006-03-26T22:20:38Z",
+                        "closedAt": "2012-06-19T03:54:21Z"
+                    },
+                    {
+                        "title": "Add API to set SchemaLocations on parser used in XmlBeanDefinitionParser [SPR-1824]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6518",
+                        "createdAt": "2006-03-27T00:59:57Z",
+                        "closedAt": "2012-06-19T03:53:59Z"
+                    },
+                    {
+                        "title": "Support for custom elements nested underneath List, Map etc.. [SPR-1825]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6519",
+                        "createdAt": "2006-03-27T01:11:47Z",
+                        "closedAt": "2012-06-19T03:54:20Z"
+                    },
+                    {
+                        "title": "JOTM work strange with @Transactional(propagation=Propagation.REQUIRES_NEW) [SPR-1826]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6520",
+                        "createdAt": "2006-03-27T01:12:10Z",
+                        "closedAt": "2006-04-10T21:16:24Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7n7PQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

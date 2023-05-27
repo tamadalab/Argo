@@ -1,0 +1,91 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Java calendar starts from 0 for the month so added 1 to make it natural count.","2022-3/22","2022-4/22","2022-3/22",True,"2022-4/22",3,1,1
+"Change created bundles collection from private to protected in blResourceBundlingService","2022-3/23","2022-6/23","2022-3/23",True,"2022-6/23",2,1,1
+"Changed access qualifier from private to protected in createdBundles","2022-3/30","2022-3/30","2022-3/30",False,"null",11,13769,10213
+"Fixed single quote issue for product options values","2022-4/1","2022-4/1","2022-4/1",True,"2022-4/1",2,4,3
+"Changed a spring (5.2.20) and spring boot version (2.2.13)","2022-4/1","2022-4/1","2022-4/1",False,"null",1,3,2
+"Changed a spring (5.2.20) and spring boot version (2.2.13)","2022-4/1","2022-4/1","2022-4/1",False,"null",3,2,2
+"Changed a spring (5.3.18) and spring boot version (2.5.12)","2022-4/1","2022-4/1","2022-4/1",False,"null",2,2,2
+"Fixed ampersand issue for offer rules","2022-4/4","2022-4/4","2022-4/4",True,"2022-4/4",3,36,3
+"update spring-xxx to the latest","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",2,6,3
+"Revisit Recursive Relationships for ChildCategories","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",3,195,140
+"Used try-with resources block when Input streams are created, so that it will close automatically without ""finally"" block","2022-4/7","2022-5/7","2022-4/7",True,"2022-5/7",3,12,12
+"Fix adorned list grids selections","2022-4/8","2022-4/8","2022-4/8",True,"2022-4/8",2,15,1
+"Add case insensitive sort in solr","2022-4/8","2022-5/8","2022-4/8",True,"2022-5/8",3,1,0
+"Fix to support non numeric PK which name is not ""id""","2022-4/12","2022-4/12","2022-4/12",True,"2022-4/12",2,53,12
+"Fixed an issue where RegexPropertyValidator does not work properly with exploitProtection","2022-4/13","2022-5/13","2022-4/13",True,"2022-5/13",3,7,2
+"Change the condition to evaluate if classExcludeRegexList is used","2022-4/14","2022-4/14","2022-4/14",True,"2022-4/14",2,2,2
+"Able to use default sku inventory instead of alt sku inventory","2022-4/14","2022-5/14","2022-4/14",False,"null",4,0,0
+"Check for duplicate items for CrossSaleProduct","2022-4/18","2022-4/18","2022-4/18",True,"2022-4/18",4,36,25
+"Check for duplicate items for upSaleProduct","2022-4/19","2022-4/19","2022-4/19",True,"2022-4/19",3,37,26
+"Fix to validate required properties first and not allow rules persistent providers to save entity without required fields","2022-4/22","2022-5/22","2022-4/22",True,"2022-5/22",4,15,1
+"Removed SessionOrderLockManager for version 6.3","2022-4/22","2022-5/22","2022-4/22",True,"2022-5/22",3,0,143
+"Fix to validate required properties first","2022-4/22","2022-5/22","2022-4/22",False,"null",1,56,17
+"Fixed an issue where Order between date filter along with a sort throws error","2022-4/26","2022-5/26","2022-4/26",True,"2022-5/26",3,5,8
+"Removed stacktrace from error message","2022-4/29","2022-5/29","2022-4/29",True,"2022-5/29",3,18,3
+"Bump esapi from 2.2.3.1 to 2.3.0.0","2022-5/3","2022-5/3","2022-5/3",True,"2022-5/3",1,1,1
+"Bump antisamy from 1.6.4 to 1.6.7","2022-5/3","2022-5/3","2022-5/3",True,"2022-5/3",1,1,1
+"Add the new property needed for ESAPI","2022-5/6","2022-5/6","2022-5/6",True,"2022-5/6",2,4,2
+"Introduced a new logic for using default sku inventory instead of alt sku inventory","2022-5/10","2022-5/10","2022-5/10",True,"2022-5/10",2,187,29
+"upgraded spring to 5.2.20 for project 5.2","2022-5/16","2022-5/16","2022-5/16",False,"null",2,58,58
+"Esapi version updated","2022-5/17","2022-8/17","2022-5/17",True,"2022-8/17",3,34,4
+"Upgraded owasp.antisamy version","2022-5/17","2022-8/17","2022-5/17",False,"null",2,1,1
+"Upgrade few libs that have reported security vulnerabilities","2022-5/17","2022-5/17","2022-5/17",True,"2022-5/17",3,18045,6012
+"Upgraded Spring Framework to 5.2.22 for 6.0","2022-5/18","2022-6/18","2022-5/18",False,"null",3,1,1
+"Upgraded Spring to 5.2.22 for 6.1","2022-5/20","2022-6/20","2022-5/20",True,"2022-6/20",4,199,810
+"Incorrectly showing the error with modal when failing validation in content Item","2022-5/24","2022-5/24","2022-5/24",True,"2022-5/24",5,37,38
+"Fixed an Error updating Amount Off Item/Order","2022-5/24","2022-5/24","2022-5/24",True,"2022-5/24",2,1,0
+"Remove unnecessary xalan dependency from the framework.","2022-5/24","2022-5/24","2022-5/24",True,"2022-5/24",2,0,21
+"Fulfillment Location correctly validates phone and fax numbers","2022-5/25","2022-5/25","2022-5/25",True,"2022-5/25",2,2,1
+"Fixed an issue where BOGO offers can be created without specifying a qualifier","2022-5/25","2022-6/25","2022-5/25",True,"2022-6/25",2,71,1
+"Bump spring-core from 5.3.19 to 5.3.20","2022-5/26","2022-5/26","2022-5/26",True,"2022-5/26",1,1,1
+"Bump spring-security-core from 5.6.3 to 5.6.4","2022-5/26","2022-5/26","2022-5/26",True,"2022-5/26",1,1,1
+"Fix re-appearing item in offer rules","2022-5/30","2022-7/30","2022-5/30",True,"2022-7/30",3,22,14
+"Updated selectize.js and added persist settings","2022-6/3","2022-6/3","2022-6/3",True,"2022-6/3",3,1092,556
+"Revert updating selectize.js to the last version","2022-6/7","2022-6/7","2022-6/7",True,"2022-6/7",2,552,1088
+"A logic from HotFixGenericCookieUtils was added into core code base in 6.2","2022-6/7","2022-6/7","2022-6/7",True,"2022-6/7",3,5,0
+"Fixed an issue where filtering by name is not working for products with ampersand","2022-6/9","2022-7/9","2022-6/9",True,"2022-7/9",2,13,3
+"Fixed 403 error when page refreshes","2022-6/15","2022-7/15","2022-6/15",True,"2022-7/15",4,97,7
+"Renamed property to differentiate by groupId and updated dependencies from sun.xml which now resolves txw2 properly to 2.3.1.","2022-6/15","2022-6/15","2022-6/15",True,"2022-6/15",2,10,10
+"QA-4728-read-customer-by-email-case-insensitive - modify read customer by email query to be case insensitive","2022-6/15","2022-7/15","2022-6/15",True,"2022-7/15",3,1,1
+"Deleted weave logic for default sku","2022-6/21","2022-7/21","2022-6/21",True,"2022-7/21",3,52,3
+"Exception when filter product bundle add on","2022-6/24","2022-7/24","2022-6/24",True,"2022-7/24",4,15,11
+"Client performance solr reindex","2022-7/7","null","2022-7/7",False,"null",3,6306,131
+"Data Driven Enum is returning hidden items","2022-7/7","2022-7/7","2022-7/7",True,"2022-7/7",3,5,2
+"Removed StateImpl bean from context","2022-7/12","2022-9/12","2022-7/12",True,"2022-9/12",4,1,93
+"Added useDefaultSkuForInventory property to methods of Product class","2022-7/13","2022-7/13","2022-7/13",True,"2022-7/13",3,1,0
+"Filter dialog box works correct","2022-7/25","2022-9/25","2022-7/25",True,"2022-9/25",3,1,0
+"Fixed an issue where a product with add-ons cannot be added to the cart when their SKU is out of stock","2022-7/28","2022-9/28","2022-7/28",True,"2022-9/28",4,93,38
+"Added a checkbox type for product options","2022-7/29","null","2022-7/29",False,"null",3,42,0
+"Update the copyright end date for all the headers","2022-8/1","2022-8/1","2022-8/1",True,"2022-8/1",2,7363,7398
+"- For org packages use ""Fair Use"" license not commercial","2022-8/2","2022-8/2","2022-8/2",True,"2022-8/2",3,0,78
+"Antisamy upgraded for security vulnerability","2022-8/8","2022-8/8","2022-8/8",True,"2022-8/8",2,152,151
+"Order should be read according to its site disc","2022-8/11","2022-8/11","2022-8/11",True,"2022-8/11",3,3,1
+"Updated spring security to 5.6.6","2022-8/11","2022-8/11","2022-8/11",True,"2022-8/11",3,1,1
+"QA-4761 - fix dependency vulnerability in broadleaf-open-admin-platform","2022-8/16","2022-8/16","2022-8/16",True,"2022-8/16",3,5,0
+"QA4762 - Fix dependency vulnerabilities","2022-8/16","2022-8/16","2022-8/16",True,"2022-8/16",3,13,1
+"Checkout is not active when product options are not chosen","2022-8/22","null","2022-8/22",False,"null",2,11,0
+"Changed inner classes and two fields to protected in ResourcePurgeServiceImpl","2022-8/23","2022-8/23","2022-8/23",True,"2022-8/23",3,6,6
+"Impoved logging for SiteMap generation when timeout","2022-8/26","2022-8/26","2022-8/26",True,"2022-8/26",3,3,0
+"Update the copyright end date for all the headers","2022-8/29","2022-8/29","2022-8/29",True,"2022-8/29",2,6897,6881
+"Fixed issue with translation of product options","2022-8/30","2022-9/30","2022-8/30",False,"null",4,16,9
+"Changed countOfferCodeUses to not use cross join","2022-8/31","null","2022-8/31",False,"null",4,17,32
+"Update hibernate dialect retrieving. Removed deprecated calls and add Transactional for DialectHelper","2022-9/5","2022-9/5","2022-9/5",True,"2022-9/5",2,4,1
+"Updated Indexes in BroadleafCommerce module","2022-9/6","null","2022-9/6",False,"null",3,304,242
+"Fixed readOrderById when it couldn't find the order","2022-9/7","2022-9/7","2022-9/7",True,"2022-9/7",5,21,3
+"Use locale translations for Product Option Values when rendering cart","2022-9/8","null","2022-9/8",False,"null",2,16,3
+"Removed Joda-Time Dependency","2022-9/13","null","2022-9/13",False,"null",3,27,41
+"Check if some parent categories of the product active or not","2022-9/16","null","2022-9/16",False,"null",1,32,0
+"Fixed tooltip for entity (Menu Changes)","2022-9/16","null","2022-9/16",False,"null",4,49,36
+"Upgraded some libraries for 6.3","2022-9/16","null","2022-9/16",False,"null",2,6,4
+"Fixed SKU generation for the Product Options","2022-9/20","null","2022-9/20",False,"null",1,3,1
+"update config xml for antisamy after upgrade to 1.6.8","2022-9/26","2022-9/26","2022-9/26",True,"2022-9/26",3,4,4
+"If we use default URL, url field becomes read-only","2022-9/27","null","2022-9/27",False,"null",2,24,1
+"Upgrade jettison for security vulnerability ","2022-9/28","2022-9/28","2022-9/28",True,"2022-9/28",2,1,7
+"Changed blJCacheConfigurationBuilder parameters","2022-9/28","null","2022-9/28",False,"null",3,2,2
+"Added restriction for archived sku","2022-9/30","2022-10/30","2022-9/30",True,"2022-10/30",4,4,1
+"Fix issue when updating qty in cart when default sku for inventory feature is enabled","2022-10/3","null","2022-10/3",False,"null",2,32,3
+"6.3 fix for update qty in cart when default sku for inventory is enabled","2022-10/3","null","2022-10/3",False,"null",2,15,2
+"Added checkbox type to 6.3","2022-10/4","null","2022-10/4",False,"null",2,49,7
+"Upgrade Spring-MVC 5.0x to 5.0.20","2022-10/5","null","2022-10/5",False,"null",2,1,1
+"Removed Spring mobile dependency","2022-10/5","null","2022-10/5",False,"null",1,0,116

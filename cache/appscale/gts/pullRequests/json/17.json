@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 2231,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOCN_4Zg=="
+                },
+                "nodes": [
+                    {
+                        "title": "Downgrade warning message",
+                        "closedAt": "2017-07-10T22:53:54Z",
+                        "createdAt": "2017-07-10T19:57:37Z",
+                        "publishedAt": "2017-07-10T19:57:37Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-10T22:53:54Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Don't print stats each duty cycle",
+                        "closedAt": "2017-07-15T17:51:54Z",
+                        "createdAt": "2017-07-11T19:07:56Z",
+                        "publishedAt": "2017-07-11T19:07:56Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-15T17:51:54Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "Stop empty ACKs during haproxy reload",
+                        "closedAt": "2018-02-14T23:28:03Z",
+                        "createdAt": "2017-07-11T19:31:51Z",
+                        "publishedAt": "2017-07-11T19:31:51Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Interpret ProtocolBufferReturnError as a datastore_errors.InternalError",
+                        "closedAt": "2017-07-14T16:58:01Z",
+                        "createdAt": "2017-07-11T22:52:33Z",
+                        "publishedAt": "2017-07-11T22:52:33Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-14T16:58:01Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 5,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Use different haproxy for AppServers and AppScale",
+                        "closedAt": "2017-08-08T22:43:06Z",
+                        "createdAt": "2017-07-12T21:04:22Z",
+                        "publishedAt": "2017-07-12T21:04:22Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-08T22:43:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 93,
+                        "deletions": 66
+                    },
+                    {
+                        "title": "Handle graceful instance termination with the AppManager",
+                        "closedAt": "2017-07-19T00:32:40Z",
+                        "createdAt": "2017-07-13T06:20:11Z",
+                        "publishedAt": "2017-07-13T06:20:11Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-19T00:32:40Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1017,
+                        "deletions": 103
+                    },
+                    {
+                        "title": "Avoid ssh warning when reusing IP addresses",
+                        "closedAt": "2017-08-08T22:34:59Z",
+                        "createdAt": "2017-07-13T23:45:13Z",
+                        "publishedAt": "2017-07-13T23:45:13Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-08T22:34:59Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Count the established HAProxy connections",
+                        "closedAt": "2017-07-14T19:39:10Z",
+                        "createdAt": "2017-07-14T06:22:40Z",
+                        "publishedAt": "2017-07-14T06:22:40Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-14T19:39:10Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 46,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Python SDK Modules",
+                        "closedAt": "2017-07-17T21:24:18Z",
+                        "createdAt": "2017-07-14T16:54:57Z",
+                        "publishedAt": "2017-07-14T16:54:57Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-17T21:24:18Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2377,
+                        "deletions": 4009
+                    },
+                    {
+                        "title": "Always round up when scaling",
+                        "closedAt": "2017-07-18T19:20:14Z",
+                        "createdAt": "2017-07-14T19:34:00Z",
+                        "publishedAt": "2017-07-14T19:34:00Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-18T19:20:14Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Stop the TaskQueue server gracefully",
+                        "closedAt": "2017-07-14T23:32:06Z",
+                        "createdAt": "2017-07-14T22:49:19Z",
+                        "publishedAt": "2017-07-14T22:49:19Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-14T23:32:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 27,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Taskqueue and Database slave nodes are no longer sent by tools",
+                        "closedAt": "2017-07-26T16:43:20Z",
+                        "createdAt": "2017-07-17T18:17:45Z",
+                        "publishedAt": "2017-07-17T18:17:45Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-26T16:43:20Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 14,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Ensure rates are taken only from push queues",
+                        "closedAt": "2017-07-18T17:45:35Z",
+                        "createdAt": "2017-07-17T20:59:32Z",
+                        "publishedAt": "2017-07-17T20:59:32Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-18T17:45:35Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Watch for deployment configuration section updates",
+                        "closedAt": "2017-08-01T17:54:08Z",
+                        "createdAt": "2017-07-19T03:09:20Z",
+                        "publishedAt": "2017-07-19T03:09:20Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-01T17:54:08Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 134,
+                        "deletions": 30
+                    },
+                    {
+                        "title": "Change default version ID",
+                        "closedAt": "2017-08-01T16:27:12Z",
+                        "createdAt": "2017-07-20T06:33:23Z",
+                        "publishedAt": "2017-07-20T06:33:23Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-01T16:27:12Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 463,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Remove unused Java AppServer modifications",
+                        "closedAt": "2017-11-07T19:28:50Z",
+                        "createdAt": "2017-07-20T06:35:10Z",
+                        "publishedAt": "2017-07-20T06:35:10Z",
+                        "merged": true,
+                        "mergedAt": "2017-11-07T19:28:50Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 3675
+                    },
+                    {
+                        "title": "Handle version deletions more gracefully",
+                        "closedAt": "2017-07-28T23:43:12Z",
+                        "createdAt": "2017-07-20T20:21:18Z",
+                        "publishedAt": "2017-07-20T20:21:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-07-28T23:43:12Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 61,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "Check rsync",
+                        "closedAt": "2017-08-02T18:52:49Z",
+                        "createdAt": "2017-07-21T20:36:05Z",
+                        "publishedAt": "2017-07-21T20:36:05Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-02T18:52:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 15,
+                        "deletions": 29
+                    },
+                    {
+                        "title": "Retry when monit reload fails",
+                        "closedAt": "2017-08-18T00:28:07Z",
+                        "createdAt": "2017-07-23T23:01:30Z",
+                        "publishedAt": "2017-07-23T23:01:30Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-18T00:28:07Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 20,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Add new features into AdminServer to handle requests to get information about project modules.",
+                        "closedAt": "2017-10-24T17:50:41Z",
+                        "createdAt": "2017-07-25T16:16:24Z",
+                        "publishedAt": "2017-07-25T16:16:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 171,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Consider a missing process as already stopped",
+                        "closedAt": "2017-08-11T00:05:17Z",
+                        "createdAt": "2017-07-31T23:05:32Z",
+                        "publishedAt": "2017-07-31T23:05:32Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-11T00:05:17Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 15,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Use tornado to serve AppManager requests",
+                        "closedAt": "2017-08-03T00:13:20Z",
+                        "createdAt": "2017-08-02T04:04:54Z",
+                        "publishedAt": "2017-08-02T04:04:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-03T00:13:20Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 142,
+                        "deletions": 233
+                    },
+                    {
+                        "title": "Define max_memory for the deployment",
+                        "closedAt": "2017-08-07T18:45:23Z",
+                        "createdAt": "2017-08-02T16:01:48Z",
+                        "publishedAt": "2017-08-02T16:01:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-07T18:45:23Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 14,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Ensure lock path is a unicode string",
+                        "closedAt": "2017-08-15T22:21:53Z",
+                        "createdAt": "2017-08-02T21:27:48Z",
+                        "publishedAt": "2017-08-02T21:27:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-15T22:21:53Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Don't allow DS clients to keep connections alive",
+                        "closedAt": "2017-08-21T22:40:03Z",
+                        "createdAt": "2017-08-03T04:57:54Z",
+                        "publishedAt": "2017-08-03T04:57:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-21T22:40:03Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 10,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Reload haproxy before nginx when adding appservers",
+                        "closedAt": "2017-08-03T23:24:17Z",
+                        "createdAt": "2017-08-03T18:05:58Z",
+                        "publishedAt": "2017-08-03T18:05:58Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-03T23:24:17Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Change hosting structure to manage revisions",
+                        "closedAt": "2017-08-07T21:45:41Z",
+                        "createdAt": "2017-08-03T23:29:24Z",
+                        "publishedAt": "2017-08-03T23:29:24Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-07T21:45:41Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 97,
+                        "deletions": 167
+                    },
+                    {
+                        "title": "TaskQueue Targets",
+                        "closedAt": "2017-08-18T17:51:27Z",
+                        "createdAt": "2017-08-05T00:35:00Z",
+                        "publishedAt": "2017-08-05T00:35:00Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-18T17:51:27Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1012,
+                        "deletions": 52
+                    },
+                    {
+                        "title": "Leave appserver till timeout",
+                        "closedAt": "2017-08-07T17:42:53Z",
+                        "createdAt": "2017-08-05T01:30:00Z",
+                        "publishedAt": "2017-08-05T01:30:00Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 21,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "Keep track of pending instances",
+                        "closedAt": "2017-08-08T18:34:22Z",
+                        "createdAt": "2017-08-07T02:26:52Z",
+                        "publishedAt": "2017-08-07T02:26:52Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-08T18:34:22Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 43,
+                        "deletions": 29
+                    },
+                    {
+                        "title": "Add ProjectsManager to keep track of version info",
+                        "closedAt": "2017-08-14T18:08:48Z",
+                        "createdAt": "2017-08-08T05:35:42Z",
+                        "publishedAt": "2017-08-08T05:35:42Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-14T18:08:48Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 369,
+                        "deletions": 132
+                    },
+                    {
+                        "title": "No need to specify deafult location of known_hosts",
+                        "closedAt": "2017-08-09T20:34:14Z",
+                        "createdAt": "2017-08-09T20:14:18Z",
+                        "publishedAt": "2017-08-09T20:14:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-09T20:34:14Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Tunable haproxy timeout",
+                        "closedAt": "2017-08-16T19:13:56Z",
+                        "createdAt": "2017-08-09T21:59:18Z",
+                        "publishedAt": "2017-08-09T21:59:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-16T19:13:55Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 20,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Ensure HAProxy is running for API services",
+                        "closedAt": "2017-08-14T17:33:21Z",
+                        "createdAt": "2017-08-11T04:35:40Z",
+                        "publishedAt": "2017-08-11T04:35:40Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-14T17:33:21Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 37,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Don't require an email address when deploying apps",
+                        "closedAt": "2017-08-16T16:56:09Z",
+                        "createdAt": "2017-08-11T06:34:43Z",
+                        "publishedAt": "2017-08-11T06:34:43Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-16T16:56:09Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 35,
+                        "deletions": 109
+                    },
+                    {
+                        "title": "Open role",
+                        "closedAt": "2017-09-01T00:23:17Z",
+                        "createdAt": "2017-08-11T23:16:08Z",
+                        "publishedAt": "2017-08-11T23:16:08Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-01T00:23:17Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 41,
+                        "deletions": 16
+                    },
+                    {
+                        "title": "Fix HAProxy stop commands",
+                        "closedAt": "2017-08-16T00:14:00Z",
+                        "createdAt": "2017-08-15T00:31:45Z",
+                        "publishedAt": "2017-08-15T00:31:45Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-16T00:14:00Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Manage revision sources with the AppManager",
+                        "closedAt": "2017-08-23T16:43:48Z",
+                        "createdAt": "2017-08-15T07:02:27Z",
+                        "publishedAt": "2017-08-15T07:02:27Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-23T16:43:48Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 590,
+                        "deletions": 618
+                    },
+                    {
+                        "title": "Remove routing for AppServer before stopping it",
+                        "closedAt": "2017-08-17T18:58:23Z",
+                        "createdAt": "2017-08-15T21:33:33Z",
+                        "publishedAt": "2017-08-15T21:33:33Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 73,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Check also pending_appserver before assigning port",
+                        "closedAt": "2017-08-17T01:34:06Z",
+                        "createdAt": "2017-08-16T04:05:15Z",
+                        "publishedAt": "2017-08-16T04:05:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-17T01:34:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 48,
+                        "deletions": 34
+                    },
+                    {
+                        "title": "Rely on ZooKeeper for application metadata",
+                        "closedAt": "2017-09-14T17:17:56Z",
+                        "createdAt": "2017-08-17T17:17:56Z",
+                        "publishedAt": "2017-08-17T17:17:56Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-14T17:17:56Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 169,
+                        "deletions": 1565
+                    },
+                    {
+                        "title": "Fix reference to runtime_parameters",
+                        "closedAt": "2017-08-18T23:13:16Z",
+                        "createdAt": "2017-08-17T23:13:44Z",
+                        "publishedAt": "2017-08-17T23:13:44Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-18T23:13:16Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "add type for collection for build",
+                        "closedAt": "2017-08-19T00:56:57Z",
+                        "createdAt": "2017-08-18T22:12:19Z",
+                        "publishedAt": "2017-08-18T22:12:19Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-19T00:56:57Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Define variable needed for block",
+                        "closedAt": "2017-08-29T05:35:22Z",
+                        "createdAt": "2017-08-22T18:38:39Z",
+                        "publishedAt": "2017-08-22T18:38:39Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-29T05:35:22Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 5,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Only take port from pending_appservers when checking availability",
+                        "closedAt": "2017-08-29T16:57:27Z",
+                        "createdAt": "2017-08-23T19:16:25Z",
+                        "publishedAt": "2017-08-23T19:16:25Z",
+                        "merged": true,
+                        "mergedAt": "2017-08-29T16:57:27Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Allow clients to deploy multiple services",
+                        "closedAt": "2017-09-09T00:05:48Z",
+                        "createdAt": "2017-08-24T07:34:31Z",
+                        "publishedAt": "2017-08-24T07:34:31Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-09T00:05:48Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1173,
+                        "deletions": 980
+                    },
+                    {
+                        "title": "Give cloud-level administrators access to all apps",
+                        "closedAt": "2017-09-05T22:29:01Z",
+                        "createdAt": "2017-08-27T19:05:36Z",
+                        "publishedAt": "2017-08-27T19:05:36Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-05T22:29:01Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 13,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Wait for HAProxy to start before reloading it",
+                        "closedAt": "2017-09-07T17:05:26Z",
+                        "createdAt": "2017-08-31T23:38:14Z",
+                        "publishedAt": "2017-08-31T23:38:14Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-07T17:05:26Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 20,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Try to resume package downloads after failures",
+                        "closedAt": "2017-09-06T19:00:52Z",
+                        "createdAt": "2017-09-06T03:40:33Z",
+                        "publishedAt": "2017-09-06T03:40:33Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-06T19:00:52Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 21,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use fake RPC when import lock is held",
+                        "closedAt": "2017-09-20T17:48:43Z",
+                        "createdAt": "2017-09-06T16:02:21Z",
+                        "publishedAt": "2017-09-06T16:02:21Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-20T17:48:43Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 15,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Remove obsolete logs",
+                        "closedAt": "2017-09-14T17:10:53Z",
+                        "createdAt": "2017-09-07T22:32:40Z",
+                        "publishedAt": "2017-09-07T22:32:40Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-14T17:10:53Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 188
+                    },
+                    {
+                        "title": "Use custom logger for AdminServer",
+                        "closedAt": "2017-09-20T18:28:28Z",
+                        "createdAt": "2017-09-08T03:24:59Z",
+                        "publishedAt": "2017-09-08T03:24:59Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-20T18:28:28Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 41,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "Use APP_ID as defined in properties",
+                        "closedAt": "2017-09-14T22:24:44Z",
+                        "createdAt": "2017-09-08T04:09:39Z",
+                        "publishedAt": "2017-09-08T04:09:39Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-14T22:24:44Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 8,
+                        "deletions": 11
+                    },
+                    {
+                        "title": "Write the secret for the dashboard at runtime",
+                        "closedAt": "2017-09-19T19:18:09Z",
+                        "createdAt": "2017-09-08T05:22:34Z",
+                        "publishedAt": "2017-09-08T05:22:34Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-19T19:18:09Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 26,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Updated guestbook with wait handler",
+                        "closedAt": "2017-09-25T23:30:00Z",
+                        "createdAt": "2017-09-12T20:34:15Z",
+                        "publishedAt": "2017-09-12T20:34:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-25T23:30:00Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 10,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Provide pidfile hint for systemd's unit converter",
+                        "closedAt": "2017-09-14T22:24:30Z",
+                        "createdAt": "2017-09-13T02:11:04Z",
+                        "publishedAt": "2017-09-13T02:11:04Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-14T22:24:30Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Gce service account",
+                        "closedAt": "2017-09-20T16:46:21Z",
+                        "createdAt": "2017-09-14T17:11:30Z",
+                        "publishedAt": "2017-09-14T17:11:30Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-20T16:46:21Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 15,
+                        "deletions": 14
+                    },
+                    {
+                        "title": "Implement the datastore_v4.AllocateIds API",
+                        "closedAt": "2017-09-19T18:39:16Z",
+                        "createdAt": "2017-09-15T07:01:59Z",
+                        "publishedAt": "2017-09-15T07:01:59Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-19T18:39:16Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 11237,
+                        "deletions": 225
+                    },
+                    {
+                        "title": "Kazoo 2 4 0",
+                        "closedAt": "2017-09-15T21:54:43Z",
+                        "createdAt": "2017-09-15T16:48:43Z",
+                        "publishedAt": "2017-09-15T16:48:43Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-15T21:54:43Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Undeploy projects and delete services",
+                        "closedAt": "2017-09-22T16:57:12Z",
+                        "createdAt": "2017-09-18T19:47:40Z",
+                        "publishedAt": "2017-09-18T19:47:40Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-22T16:57:12Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 358,
+                        "deletions": 46
+                    },
+                    {
+                        "title": "Handle non-ascii codes in search API properly",
+                        "closedAt": "2017-09-22T16:21:37Z",
+                        "createdAt": "2017-09-19T17:16:38Z",
+                        "publishedAt": "2017-09-19T17:16:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-22T16:21:37Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 130,
+                        "deletions": 69
+                    },
+                    {
+                        "title": "Stop celery monit",
+                        "closedAt": "2017-09-26T16:40:11Z",
+                        "createdAt": "2017-09-20T01:52:48Z",
+                        "publishedAt": "2017-09-20T01:52:48Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-26T16:40:11Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 15,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Monitor also the cron daemon",
+                        "closedAt": "2017-09-22T17:53:50Z",
+                        "createdAt": "2017-09-20T21:03:20Z",
+                        "publishedAt": "2017-09-20T21:03:20Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-22T17:53:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Stop group after terminating process",
+                        "closedAt": "2017-09-21T21:50:39Z",
+                        "createdAt": "2017-09-21T06:40:11Z",
+                        "publishedAt": "2017-09-21T06:40:11Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-21T21:50:39Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 71,
+                        "deletions": 42
+                    },
+                    {
+                        "title": "Ensure the correct epmd service is started",
+                        "closedAt": "2017-09-26T00:39:52Z",
+                        "createdAt": "2017-09-21T23:00:43Z",
+                        "publishedAt": "2017-09-21T23:00:43Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-26T00:39:52Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 10,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Transaction groomer",
+                        "closedAt": "2017-12-20T01:54:58Z",
+                        "createdAt": "2017-09-22T05:42:01Z",
+                        "publishedAt": "2017-09-22T05:42:01Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-20T01:54:58Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1202,
+                        "deletions": 790
+                    },
+                    {
+                        "title": "Close KazooClient when stopping servers",
+                        "closedAt": "2017-09-26T01:25:36Z",
+                        "createdAt": "2017-09-22T21:41:17Z",
+                        "publishedAt": "2017-09-22T21:41:17Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-26T01:25:36Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 11,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Mock out blocking calls in unit tests",
+                        "closedAt": "2017-10-26T00:27:59Z",
+                        "createdAt": "2017-09-22T21:56:05Z",
+                        "publishedAt": "2017-09-22T21:56:05Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-26T00:27:59Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 4,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Don't remove dict items while iterate over it",
+                        "closedAt": "2017-10-02T18:42:35Z",
+                        "createdAt": "2017-09-26T15:38:54Z",
+                        "publishedAt": "2017-09-26T15:38:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-02T18:42:35Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "#OCD-STABILITY Wait 60s (instead of 30s) for RabbitMQ to come up",
+                        "closedAt": "2017-10-27T16:51:18Z",
+                        "createdAt": "2017-09-27T14:41:59Z",
+                        "publishedAt": "2017-09-27T14:41:59Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-27T16:51:18Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Return appropriate error when a queue is not found",
+                        "closedAt": "2017-10-25T20:58:25Z",
+                        "createdAt": "2017-09-27T16:02:51Z",
+                        "publishedAt": "2017-09-27T16:02:51Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-25T20:58:25Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 63,
+                        "deletions": 30
+                    },
+                    {
+                        "title": "Use new format for AppScalefile",
+                        "closedAt": "2017-09-29T23:40:40Z",
+                        "createdAt": "2017-09-28T23:44:23Z",
+                        "publishedAt": "2017-09-28T23:44:23Z",
+                        "merged": true,
+                        "mergedAt": "2017-09-29T23:40:40Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 7,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Enable root login on GCE",
+                        "closedAt": "2017-10-05T18:53:24Z",
+                        "createdAt": "2017-09-29T04:30:20Z",
+                        "publishedAt": "2017-09-29T04:30:20Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-05T18:53:24Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Change option names",
+                        "closedAt": "2017-10-03T18:11:03Z",
+                        "createdAt": "2017-09-29T16:10:33Z",
+                        "publishedAt": "2017-09-29T16:10:33Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-03T18:11:03Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 45,
+                        "deletions": 44
+                    },
+                    {
+                        "title": "Remove flag that is incompatible with trusty",
+                        "closedAt": "2017-10-05T21:12:13Z",
+                        "createdAt": "2017-09-29T18:52:18Z",
+                        "publishedAt": "2017-09-29T18:52:18Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-05T21:12:13Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Relax Monit health check",
+                        "closedAt": "2017-10-05T21:18:45Z",
+                        "createdAt": "2017-09-29T18:54:28Z",
+                        "publishedAt": "2017-09-29T18:54:28Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-05T21:18:45Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Stop Monit entries one at a time",
+                        "closedAt": "2017-10-05T17:30:24Z",
+                        "createdAt": "2017-09-29T22:27:12Z",
+                        "publishedAt": "2017-09-29T22:27:12Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-05T17:30:24Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 19,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Wait for lock when installing packages",
+                        "closedAt": "2017-10-05T16:40:48Z",
+                        "createdAt": "2017-09-29T23:07:15Z",
+                        "publishedAt": "2017-09-29T23:07:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-05T16:40:48Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 28,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Stop old epmd daemon if it's running",
+                        "closedAt": "2017-10-03T23:24:41Z",
+                        "createdAt": "2017-10-01T02:59:15Z",
+                        "publishedAt": "2017-10-01T02:59:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-03T23:24:41Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 12,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Be persistent when handling zk watch update",
+                        "closedAt": "2017-10-09T16:18:06Z",
+                        "createdAt": "2017-10-03T14:57:02Z",
+                        "publishedAt": "2017-10-03T14:57:02Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-09T16:18:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 310,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Change appengine role to compute",
+                        "closedAt": "2017-10-25T16:20:44Z",
+                        "createdAt": "2017-10-04T15:29:45Z",
+                        "publishedAt": "2017-10-04T15:29:45Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-25T16:20:44Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 110,
+                        "deletions": 110
+                    },
+                    {
+                        "title": "Enable viewer even if there is no nginx app config",
+                        "closedAt": "2017-10-06T18:10:35Z",
+                        "createdAt": "2017-10-04T22:26:30Z",
+                        "publishedAt": "2017-10-04T22:26:30Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-06T18:10:35Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 8,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Quote environment variables",
+                        "closedAt": "2017-12-22T20:00:10Z",
+                        "createdAt": "2017-10-05T22:08:04Z",
+                        "publishedAt": "2017-10-05T22:08:04Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-22T20:00:10Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": " Merge environment variables in app configuration",
+                        "closedAt": "2017-12-08T23:38:49Z",
+                        "createdAt": "2017-10-06T17:08:15Z",
+                        "publishedAt": "2017-10-06T17:08:15Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-08T23:38:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 82,
+                        "deletions": 49
+                    },
+                    {
+                        "title": "Add sandbox function for expanduser",
+                        "closedAt": "2017-10-26T00:28:12Z",
+                        "createdAt": "2017-10-06T18:13:54Z",
+                        "publishedAt": "2017-10-06T18:13:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-26T00:28:12Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 6,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Handle missing WEB-INF directory",
+                        "closedAt": "2017-10-26T19:08:42Z",
+                        "createdAt": "2017-10-06T22:20:53Z",
+                        "publishedAt": "2017-10-06T22:20:53Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-26T19:08:42Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 47,
+                        "deletions": 19
+                    },
+                    {
+                        "title": "Bump version to 3.4.0",
+                        "closedAt": "2017-10-13T17:34:06Z",
+                        "createdAt": "2017-10-09T21:52:47Z",
+                        "publishedAt": "2017-10-09T21:52:47Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-13T17:34:06Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 36,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Include version headers when making TQ requests",
+                        "closedAt": "2017-10-27T21:27:06Z",
+                        "createdAt": "2017-10-13T02:19:43Z",
+                        "publishedAt": "2017-10-13T02:19:43Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-27T21:27:06Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 71,
+                        "deletions": 30
+                    },
+                    {
+                        "title": "Define property name based on rsyslog version",
+                        "closedAt": "2017-10-19T16:41:32Z",
+                        "createdAt": "2017-10-13T04:14:06Z",
+                        "publishedAt": "2017-10-13T04:14:06Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-19T16:41:32Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Access Tokens for Admin API",
+                        "closedAt": "2017-10-31T23:18:26Z",
+                        "createdAt": "2017-10-14T00:10:44Z",
+                        "publishedAt": "2017-10-14T00:10:44Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-31T23:18:26Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 342,
+                        "deletions": 22
+                    },
+                    {
+                        "title": "Change jobs to roles",
+                        "closedAt": "2019-03-20T22:42:16Z",
+                        "createdAt": "2017-10-17T20:14:27Z",
+                        "publishedAt": "2017-10-17T20:14:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-03-20T22:42:16Z",
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 109,
+                        "deletions": 109
+                    },
+                    {
+                        "title": "Try to check at least one mount point",
+                        "closedAt": "2017-10-18T17:29:21Z",
+                        "createdAt": "2017-10-17T23:31:34Z",
+                        "publishedAt": "2017-10-17T23:31:34Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-18T17:29:21Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 15,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Fix pidfile for RabbitMQ in Docker",
+                        "closedAt": "2017-10-18T17:12:28Z",
+                        "createdAt": "2017-10-18T00:18:25Z",
+                        "publishedAt": "2017-10-18T00:18:25Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-18T17:12:28Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 8,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Added --no-metada-server option",
+                        "closedAt": "2017-10-24T18:33:00Z",
+                        "createdAt": "2017-10-18T23:33:16Z",
+                        "publishedAt": "2017-10-18T23:33:16Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-24T18:33:00Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 50,
+                        "deletions": 32
+                    },
+                    {
+                        "title": "Add a scatter property to some entities",
+                        "closedAt": "2018-03-26T20:53:41Z",
+                        "createdAt": "2017-10-19T04:57:19Z",
+                        "publishedAt": "2017-10-19T04:57:19Z",
+                        "merged": true,
+                        "mergedAt": "2018-03-26T20:53:41Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 206,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Use custom template for combined app log messages",
+                        "closedAt": "2017-10-26T19:24:38Z",
+                        "createdAt": "2017-10-19T20:04:27Z",
+                        "publishedAt": "2017-10-19T20:04:27Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-26T19:24:38Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Do not raise HttpError outside context of HTTP request",
+                        "closedAt": "2017-10-27T16:53:22Z",
+                        "createdAt": "2017-10-20T13:52:57Z",
+                        "publishedAt": "2017-10-20T13:52:57Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-27T16:53:22Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Pass deadline to wait function instead of seconds to sleep",
+                        "closedAt": "2017-10-27T16:55:24Z",
+                        "createdAt": "2017-10-20T15:10:38Z",
+                        "publishedAt": "2017-10-20T15:10:38Z",
+                        "merged": true,
+                        "mergedAt": "2017-10-27T16:55:24Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 12,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Dont nuke known host",
+                        "closedAt": "2017-11-03T22:07:31Z",
+                        "createdAt": "2017-10-25T22:00:56Z",
+                        "publishedAt": "2017-10-25T22:00:56Z",
+                        "merged": true,
+                        "mergedAt": "2017-11-03T22:07:31Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 14,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Sync&Async Retrying python decorators in appscale-common",
+                        "closedAt": "2017-12-05T17:17:02Z",
+                        "createdAt": "2017-10-26T10:29:54Z",
+                        "publishedAt": "2017-10-26T10:29:54Z",
+                        "merged": true,
+                        "mergedAt": "2017-12-05T17:17:02Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 989,
+                        "deletions": 403
+                    }
+                ]
+            }
+        }
+    }
+}

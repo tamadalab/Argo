@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Exporting a lazily initialized bean (which implements SelfNaming and is annotated with ManagedResource annotation) gives IllegalStateException [SPR-17592]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22124",
+                        "createdAt": "2018-12-11T17:24:31Z",
+                        "closedAt": "2019-01-09T10:36:46Z"
+                    },
+                    {
+                        "title": "Regression: IllegalStateException: Ambiguous handler methods is thrown for explicit HEAD mapping [SPR-17593]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22125",
+                        "createdAt": "2018-12-12T13:07:05Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "Composed RequestPredicates have invalid string representation [SPR-17594]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22126",
+                        "createdAt": "2018-12-12T13:50:47Z",
+                        "closedAt": "2019-01-09T13:06:53Z"
+                    },
+                    {
+                        "title": "Upgrade to CGLIB 3.2.10 [SPR-17595]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22127",
+                        "createdAt": "2018-12-12T14:20:42Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "Support for Hibernate ORM 6.0 [SPR-17596]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22128",
+                        "createdAt": "2018-12-12T14:49:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Duplicate word in spring docs [SPR-17597]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22129",
+                        "createdAt": "2018-12-12T19:35:07Z",
+                        "closedAt": "2019-01-09T13:06:53Z"
+                    },
+                    {
+                        "title": "Enable/Disable CORS revisited [SPR-17598]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22130",
+                        "createdAt": "2018-12-13T00:40:11Z",
+                        "closedAt": "2021-01-08T16:14:42Z"
+                    },
+                    {
+                        "title": "Error running the application as WAR in tomcat 9 [SPR-17599]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22131",
+                        "createdAt": "2018-12-13T13:06:50Z",
+                        "closedAt": "2020-01-20T10:33:23Z"
+                    },
+                    {
+                        "title": "Support for vararg message arguments in MessageSource [SPR-17600]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22132",
+                        "createdAt": "2018-12-14T04:44:44Z",
+                        "closedAt": "2020-03-12T15:43:25Z"
+                    },
+                    {
+                        "title": "Incorrect snippet of code in documentation [SPR-17601]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22133",
+                        "createdAt": "2018-12-14T10:08:24Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "Problem with dependency injection [SPR-17602]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22134",
+                        "createdAt": "2018-12-14T19:18:37Z",
+                        "closedAt": "2022-02-18T21:01:39Z"
+                    },
+                    {
+                        "title": "Error on thymeleaf th:field in TemplateEngine process [SPR-17603]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22135",
+                        "createdAt": "2018-12-17T07:19:08Z",
+                        "closedAt": "2018-12-17T17:44:35Z"
+                    },
+                    {
+                        "title": "LocaleContextHolder should have a strategy similar to SecurityContextHolder for child Thread [SPR-17604]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22136",
+                        "createdAt": "2018-12-17T11:06:57Z",
+                        "closedAt": "2018-12-17T14:50:38Z"
+                    },
+                    {
+                        "title": "SpEL, error parsing big InlineMap  [SPR-17605]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22137",
+                        "createdAt": "2018-12-18T12:09:13Z",
+                        "closedAt": "2019-01-09T09:57:56Z"
+                    },
+                    {
+                        "title": "@Profile mishandles \"not\" operand mixed with \"&\" [SPR-17606]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22138",
+                        "createdAt": "2018-12-18T13:33:30Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "@Value Optional<...> field injection fails in case of registered ConversionService [SPR-17607]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22139",
+                        "createdAt": "2018-12-18T14:48:59Z",
+                        "closedAt": "2019-01-09T09:57:56Z"
+                    },
+                    {
+                        "title": "Static resource are not accessible via HTTP POST method [SPR-17608]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22140",
+                        "createdAt": "2018-12-18T17:36:50Z",
+                        "closedAt": "2018-12-18T20:29:59Z"
+                    },
+                    {
+                        "title": "ChannelSendOperator does not propagate cancel signal to the server  [SPR-17609]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22141",
+                        "createdAt": "2018-12-18T19:41:10Z",
+                        "closedAt": "2019-01-09T10:36:46Z"
+                    },
+                    {
+                        "title": "Spring 5 Webclient throws ReadTimeout Exception [SPR-17610]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22142",
+                        "createdAt": "2018-12-18T21:51:15Z",
+                        "closedAt": "2019-01-08T22:40:16Z"
+                    },
+                    {
+                        "title": "TomcatHttpHandlerAdapter is not aware of Server[Request|Response]Wrapper [SPR-17611]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22143",
+                        "createdAt": "2018-12-19T11:03:21Z",
+                        "closedAt": "2019-01-09T13:06:53Z"
+                    },
+                    {
+                        "title": "LocalContainerEntityManagerFactoryBean.afterPropertiesSet() not called automatically post bean construction. [SPR-17612]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22144",
+                        "createdAt": "2018-12-19T21:27:59Z",
+                        "closedAt": "2019-01-08T22:40:03Z"
+                    },
+                    {
+                        "title": "Add a getAttribute method to the org.springframework.ui.Model interface [SPR-17613]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22145",
+                        "createdAt": "2018-12-19T22:09:14Z",
+                        "closedAt": "2019-01-28T21:52:30Z"
+                    },
+                    {
+                        "title": "SpEL, InlineMap with negative values are not cached  [SPR-17614]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22146",
+                        "createdAt": "2018-12-20T11:26:20Z",
+                        "closedAt": "2021-11-25T21:56:31Z"
+                    },
+                    {
+                        "title": "WebClient .retrieve() + bodyToMono() causes \"Only one connection receive subscriber allowed\" on 4xx and 5xx [SPR-17615]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22147",
+                        "createdAt": "2018-12-20T22:21:57Z",
+                        "closedAt": "2018-12-21T10:17:34Z"
+                    },
+                    {
+                        "title": "WebClient should provide CookieStore support [SPR-17616]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22148",
+                        "createdAt": "2018-12-21T03:49:03Z",
+                        "closedAt": "2019-01-28T09:53:51Z"
+                    },
+                    {
+                        "title": "Spring MVC @RequestHeader value is ignored [SPR-17617]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22149",
+                        "createdAt": "2018-12-21T13:12:13Z",
+                        "closedAt": "2019-03-11T17:25:04Z"
+                    },
+                    {
+                        "title": "Allow reuse of database error code translation without referring to JDBC module [SPR-17618]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22150",
+                        "createdAt": "2018-12-21T14:59:06Z",
+                        "closedAt": "2019-02-04T13:53:53Z"
+                    },
+                    {
+                        "title": "Cannot convert from Collection to RegularEnumSet [SPR-17619]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22151",
+                        "createdAt": "2018-12-22T01:34:50Z",
+                        "closedAt": "2019-01-09T09:57:56Z"
+                    },
+                    {
+                        "title": "a [SPR-17620]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22152",
+                        "createdAt": "2018-12-22T04:39:28Z",
+                        "closedAt": "2018-12-22T17:25:57Z"
+                    },
+                    {
+                        "title": "HierarchicalUriComponents.encodeUriComponent() method can not encode Pchar [SPR-17621]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22153",
+                        "createdAt": "2018-12-22T07:05:55Z",
+                        "closedAt": "2018-12-23T14:48:54Z"
+                    },
+                    {
+                        "title": "@RequestMapping without @Controller registered as handler [SPR-17622]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22154",
+                        "createdAt": "2018-12-23T16:57:25Z",
+                        "closedAt": "2021-12-14T07:11:12Z"
+                    },
+                    {
+                        "title": "MockMvcResultMatchers.forwardedUrl argument is not declared as nullable [SPR-17623]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22155",
+                        "createdAt": "2018-12-25T01:34:58Z",
+                        "closedAt": "2019-01-09T10:36:46Z"
+                    },
+                    {
+                        "title": "RestTemplate can't set timeout pre request  [SPR-17624]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22156",
+                        "createdAt": "2018-12-25T09:30:55Z",
+                        "closedAt": "2019-01-02T09:26:57Z"
+                    },
+                    {
+                        "title": "Revisit restrictions in SpEL position handling [SPR-17625]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22157",
+                        "createdAt": "2018-12-25T12:29:03Z",
+                        "closedAt": "2019-01-28T21:52:31Z"
+                    },
+                    {
+                        "title": "Add logging reference documentation [SPR-17626]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22158",
+                        "createdAt": "2018-12-26T08:18:43Z",
+                        "closedAt": "2020-08-10T15:01:10Z"
+                    },
+                    {
+                        "title": "DefaultExceptionHandler logs warning cannot be disabled [SPR-17628]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22159",
+                        "createdAt": "2018-12-28T09:46:51Z",
+                        "closedAt": "2019-01-18T23:31:10Z"
+                    },
+                    {
+                        "title": "MethodParameter.isOptional() fails with ArrayIndexOutOfBoundsException [SPR-17629]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22160",
+                        "createdAt": "2018-12-28T13:36:55Z",
+                        "closedAt": "2019-01-24T10:33:23Z"
+                    },
+                    {
+                        "title": "UriComponentsBuilder.toUriString() is broken [SPR-17630]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22161",
+                        "createdAt": "2018-12-28T16:22:00Z",
+                        "closedAt": "2019-01-09T10:36:46Z"
+                    },
+                    {
+                        "title": "Improve message for `HttpStatusCodeException` with empty status text",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22162",
+                        "createdAt": "2018-12-29T19:45:54Z",
+                        "closedAt": "2019-01-23T10:49:02Z"
+                    },
+                    {
+                        "title": "HtmlUnit WebClient configuration with MockMvcWebClientBuilder  behaves differently than manually creating WebClient [SPR-17632]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22163",
+                        "createdAt": "2019-01-01T13:10:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "HttpHeaders.EMPTY is not immutable [SPR-17633]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22164",
+                        "createdAt": "2019-01-02T10:45:40Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "CorsConfigurationSource DispatcherServlet returns 403 for request when Access-Control-Request-Method header is included [SPR-17634]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22165",
+                        "createdAt": "2019-01-02T11:54:37Z",
+                        "closedAt": "2019-01-03T08:05:01Z"
+                    },
+                    {
+                        "title": "transaction is not rollback in case of QueryTimeoutException for oracle stored procedure call [SPR-17636]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22166",
+                        "createdAt": "2019-01-04T06:40:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Request forwarding is not working with ServletHttpHandlerAdapter in servlet 3.1 container  [SPR-17637]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22167",
+                        "createdAt": "2019-01-04T06:53:06Z",
+                        "closedAt": "2019-01-07T14:34:53Z"
+                    },
+                    {
+                        "title": "JOptCommandLinePropertySource selects property names in an inconsistent way [SPR-17639]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22168",
+                        "createdAt": "2019-01-04T20:56:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spring MVC - Kotlin: Cannot bind MultipartFile in constructor [SPR-17640]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22169",
+                        "createdAt": "2019-01-04T22:44:49Z",
+                        "closedAt": "2020-08-06T16:29:15Z"
+                    },
+                    {
+                        "title": "PLS-00306: wrong number or types of arguments in call to [SPR-17641]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22170",
+                        "createdAt": "2019-01-05T05:52:50Z",
+                        "closedAt": "2019-01-25T10:57:14Z"
+                    },
+                    {
+                        "title": "Refactor core documentation to make it relevant for modern Spring applications [SPR-17642]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22171",
+                        "createdAt": "2019-01-07T10:33:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "MockHttpServletRequestBuilder does not allow invalid content type for testing [SPR-17643]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22172",
+                        "createdAt": "2019-01-07T15:10:50Z",
+                        "closedAt": "2019-12-13T15:04:27Z"
+                    },
+                    {
+                        "title": "Document synchronous use of WebClient [SPR-17644]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22173",
+                        "createdAt": "2019-01-07T16:54:10Z",
+                        "closedAt": "2019-01-18T23:31:10Z"
+                    },
+                    {
+                        "title": "FormHttpMessageConverter should support non-String form values [SPR-17645]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22174",
+                        "createdAt": "2019-01-08T06:05:11Z",
+                        "closedAt": "2019-01-09T13:06:52Z"
+                    },
+                    {
+                        "title": "Lazy cache provider initialization [SPR-17646]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22175",
+                        "createdAt": "2019-01-08T08:43:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Document effect of preemptive timeouts on transactional tests [SPR-17647]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22176",
+                        "createdAt": "2019-01-08T12:42:22Z",
+                        "closedAt": "2019-01-09T15:41:06Z"
+                    },
+                    {
+                        "title": "Limit ref() and provider() visibility in Kotlin DSL [SPR-17648]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22177",
+                        "createdAt": "2019-01-08T16:22:19Z",
+                        "closedAt": "2019-02-05T16:02:57Z"
+                    },
+                    {
+                        "title": "When bean overriding is on, the same bean appearing twice in an XML stream causes an error [SPR-17649]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22178",
+                        "createdAt": "2019-01-09T02:06:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Upgrade my project to 4.3.15, start seeing internal.xml.ValidationXmlParser - No META-INF/validation.xml [SPR-17650]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22179",
+                        "createdAt": "2019-01-09T07:03:40Z",
+                        "closedAt": "2019-01-09T09:48:46Z"
+                    },
+                    {
+                        "title": "Add note to Scope documentation on SimpleTransactionScope [SPR-17651]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22180",
+                        "createdAt": "2019-01-09T07:21:43Z",
+                        "closedAt": "2019-02-05T00:00:19Z"
+                    },
+                    {
+                        "title": "Deprecate PropertyPlaceholderConfigurer [SPR-17652]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22181",
+                        "createdAt": "2019-01-09T09:59:52Z",
+                        "closedAt": "2019-02-06T15:23:47Z"
+                    },
+                    {
+                        "title": "ResponseSpec.bodyToMono subscribes twice in case of empty body [SPR-17653]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22182",
+                        "createdAt": "2019-01-09T10:37:03Z",
+                        "closedAt": "2019-01-17T20:43:18Z"
+                    },
+                    {
+                        "title": "Document effect of @DirtiesContext when used with constructor injection [SPR-17654]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22183",
+                        "createdAt": "2019-01-09T13:18:09Z",
+                        "closedAt": "2019-01-09T14:57:58Z"
+                    },
+                    {
+                        "title": "UnsupportedMediaTypeException for application/fastinfoset Content-Type in reactive web client [SPR-17655]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22184",
+                        "createdAt": "2019-01-09T13:26:56Z",
+                        "closedAt": "2019-01-12T05:13:05Z"
+                    },
+                    {
+                        "title": "CVE-2018-1000873 via Jackson 2.8.11 in Spring 4 [SPR-17656]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22185",
+                        "createdAt": "2019-01-09T16:12:47Z",
+                        "closedAt": "2019-01-11T14:02:23Z"
+                    },
+                    {
+                        "title": "MethodValidationPostProcessor fails for certain generic method signatures when running against Hibernate Validator 5 [SPR-12237]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22186",
+                        "createdAt": "2014-09-22T23:37:28Z",
+                        "closedAt": "2015-09-04T08:03:01Z"
+                    },
+                    {
+                        "title": "Missing Id in Jms Endpoint [SPR-12425]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22187",
+                        "createdAt": "2014-11-12T12:10:33Z",
+                        "closedAt": "2014-12-09T02:49:25Z"
+                    },
+                    {
+                        "title": "Base64Utils: Support URL and filename safe alphabet (RFC 4648) [SPR-13784]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22188",
+                        "createdAt": "2015-12-11T18:09:12Z",
+                        "closedAt": "2015-12-17T09:33:55Z"
+                    },
+                    {
+                        "title": "Improve error handling in reactive SSE support when the remote channel is closed [SPR-14538]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22189",
+                        "createdAt": "2016-07-29T16:45:59Z",
+                        "closedAt": "2018-04-09T08:37:08Z"
+                    },
+                    {
+                        "title": "Enable Reactive Jetty's Websocket suspend/resume functionality [SPR-15130]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22190",
+                        "createdAt": "2017-01-11T13:54:20Z",
+                        "closedAt": "2017-02-23T09:29:10Z"
+                    },
+                    {
+                        "title": "ISE is thrown when the client disconnects while the server is still sending the response [SPR-15412]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22191",
+                        "createdAt": "2017-04-04T18:24:01Z",
+                        "closedAt": "2017-05-08T08:41:44Z"
+                    },
+                    {
+                        "title": "NPE thrown by WriteResultPublisher$State$2.publishComplete caused by a thread-safety issue [SPR-15418]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22192",
+                        "createdAt": "2017-04-06T19:04:52Z",
+                        "closedAt": "2017-05-08T08:41:48Z"
+                    },
+                    {
+                        "title": "Consider adding originalMessage to ErrorMessage [SPR-15459]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22193",
+                        "createdAt": "2017-04-18T20:44:44Z",
+                        "closedAt": "2017-05-08T08:41:44Z"
+                    },
+                    {
+                        "title": "Delegating File downloads sends incomplete chunks [SPR-15949]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22194",
+                        "createdAt": "2017-09-10T20:17:23Z",
+                        "closedAt": "2017-09-28T12:14:36Z"
+                    },
+                    {
+                        "title": "1.2.9 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22195",
+                        "createdAt": "2019-01-10T22:02:38Z",
+                        "closedAt": "2019-01-11T11:16:43Z"
+                    },
+                    {
+                        "title": "2.0.9 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22196",
+                        "createdAt": "2019-01-10T22:02:47Z",
+                        "closedAt": "2008-10-30T07:00:00Z"
+                    },
+                    {
+                        "title": "2.0.8 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22197",
+                        "createdAt": "2019-01-10T22:02:46Z",
+                        "closedAt": "2008-01-06T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.7 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22198",
+                        "createdAt": "2019-01-10T22:03:45Z",
+                        "closedAt": "2014-01-27T08:00:00Z"
+                    },
+                    {
+                        "title": "3.0.1 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22199",
+                        "createdAt": "2019-01-10T22:03:13Z",
+                        "closedAt": "2010-02-16T08:00:00Z"
+                    },
+                    {
+                        "title": "3.0.7 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22200",
+                        "createdAt": "2019-01-10T22:03:20Z",
+                        "closedAt": "2011-12-21T08:00:00Z"
+                    },
+                    {
+                        "title": "3.0.6 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22202",
+                        "createdAt": "2019-01-10T22:03:19Z",
+                        "closedAt": "2011-08-17T07:00:00Z"
+                    },
+                    {
+                        "title": "4.0.8 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22203",
+                        "createdAt": "2019-01-10T22:04:15Z",
+                        "closedAt": "2014-11-10T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.12 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22204",
+                        "createdAt": "2019-01-10T22:03:51Z",
+                        "closedAt": "2014-11-10T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.6 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22205",
+                        "createdAt": "2019-01-10T22:03:44Z",
+                        "closedAt": "2013-12-11T08:00:00Z"
+                    },
+                    {
+                        "title": "4.3.15 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22206",
+                        "createdAt": "2019-01-10T22:05:09Z",
+                        "closedAt": "2018-04-02T07:00:00Z"
+                    },
+                    {
+                        "title": "3.1.2 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22207",
+                        "createdAt": "2019-01-10T22:03:29Z",
+                        "closedAt": "2012-07-06T07:00:00Z"
+                    },
+                    {
+                        "title": "3.1.4 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22208",
+                        "createdAt": "2019-01-10T22:03:31Z",
+                        "closedAt": "2013-01-22T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.16 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22209",
+                        "createdAt": "2019-01-10T22:03:56Z",
+                        "closedAt": "2015-12-16T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.11 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22210",
+                        "createdAt": "2019-01-10T22:03:50Z",
+                        "closedAt": "2014-09-03T07:00:00Z"
+                    },
+                    {
+                        "title": "3.2.10 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22211",
+                        "createdAt": "2019-01-10T22:03:49Z",
+                        "closedAt": "2014-07-14T07:00:00Z"
+                    },
+                    {
+                        "title": "5.0.12 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22212",
+                        "createdAt": "2019-01-10T22:05:43Z",
+                        "closedAt": "2019-01-08T08:00:00Z"
+                    },
+                    {
+                        "title": "4.3.22 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22213",
+                        "createdAt": "2019-01-10T22:05:17Z",
+                        "closedAt": "2019-01-08T08:00:00Z"
+                    },
+                    {
+                        "title": "4.2.8 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22214",
+                        "createdAt": "2019-01-10T22:04:46Z",
+                        "closedAt": "2016-09-18T07:00:00Z"
+                    },
+                    {
+                        "title": "3.2.18 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22215",
+                        "createdAt": "2019-01-10T22:03:59Z",
+                        "closedAt": "2016-12-20T08:00:00Z"
+                    },
+                    {
+                        "title": "4.0.7 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22216",
+                        "createdAt": "2019-01-10T22:04:14Z",
+                        "closedAt": "2014-09-03T07:00:00Z"
+                    },
+                    {
+                        "title": "3.2.9 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22217",
+                        "createdAt": "2019-01-10T22:03:48Z",
+                        "closedAt": "2014-05-19T07:00:00Z"
+                    },
+                    {
+                        "title": "4.1.9 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22218",
+                        "createdAt": "2019-01-10T22:04:31Z",
+                        "closedAt": "2015-12-16T08:00:00Z"
+                    },
+                    {
+                        "title": "3.1.3 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22219",
+                        "createdAt": "2019-01-10T22:03:30Z",
+                        "closedAt": "2012-10-30T07:00:00Z"
+                    },
+                    {
+                        "title": "3.2.5 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22220",
+                        "createdAt": "2019-01-10T22:03:43Z",
+                        "closedAt": "2013-11-05T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.8 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22221",
+                        "createdAt": "2019-01-10T22:03:47Z",
+                        "closedAt": "2014-02-17T08:00:00Z"
+                    },
+                    {
+                        "title": "4.0.9 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22222",
+                        "createdAt": "2019-01-10T22:04:17Z",
+                        "closedAt": "2014-12-29T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.13 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22223",
+                        "createdAt": "2019-01-10T22:03:52Z",
+                        "closedAt": "2014-12-29T08:00:00Z"
+                    },
+                    {
+                        "title": "3.2.14 Backported Issues",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/22224",
+                        "createdAt": "2019-01-10T22:03:54Z",
+                        "closedAt": "2015-06-29T07:00:00Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7zBCg==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 582,
+                "nodes": [
+                    {
+                        "title": "Test issue, just want to confirm we can delete",
+                        "url": "https://github.com/vespa-engine/vespa/issues/957",
+                        "createdAt": "2016-10-26T09:15:22Z",
+                        "closedAt": "2017-09-07T07:38:21Z"
+                    },
+                    {
+                        "title": "Test github issue tracking. ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/958",
+                        "createdAt": "2016-10-26T09:15:30Z",
+                        "closedAt": "2017-09-07T07:37:57Z"
+                    },
+                    {
+                        "title": "Fail to build using docker",
+                        "url": "https://github.com/vespa-engine/vespa/issues/1663",
+                        "createdAt": "2017-02-01T16:20:25Z",
+                        "closedAt": "2017-02-22T10:57:29Z"
+                    },
+                    {
+                        "title": "Cyclic dependency edge case between bucket merge and activation logic causing neither to take place as expected",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3105",
+                        "createdAt": "2017-08-15T11:13:26Z",
+                        "closedAt": "2017-08-15T12:16:26Z"
+                    },
+                    {
+                        "title": "Query Profile - 404",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3115",
+                        "createdAt": "2017-08-16T00:13:01Z",
+                        "closedAt": "2017-08-16T06:00:01Z"
+                    },
+                    {
+                        "title": "What's the status of vespa engine?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3213",
+                        "createdAt": "2017-08-25T06:02:04Z",
+                        "closedAt": "2017-08-25T06:30:01Z"
+                    },
+                    {
+                        "title": "Starvation of bucket GC messages on content nodes causes starvation of bucket merge ops on distributors",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3249",
+                        "createdAt": "2017-08-29T12:04:06Z",
+                        "closedAt": "2017-08-29T12:38:45Z"
+                    },
+                    {
+                        "title": "Test",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3289",
+                        "createdAt": "2017-08-31T12:14:06Z",
+                        "closedAt": "2017-09-13T11:14:15Z"
+                    },
+                    {
+                        "title": "invalid json rendering for results with -inf relevance score",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3310",
+                        "createdAt": "2017-09-01T14:52:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Parent-Child supporting grandparents",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3339",
+                        "createdAt": "2017-09-06T10:24:43Z",
+                        "closedAt": "2018-04-27T08:22:22Z"
+                    },
+                    {
+                        "title": "Support batch update of global tensor models of any size up to memory limit of one node",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3341",
+                        "createdAt": "2017-09-06T10:47:51Z",
+                        "closedAt": "2018-06-20T08:48:02Z"
+                    },
+                    {
+                        "title": "Parent Child: allow default values for imported fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3372",
+                        "createdAt": "2017-09-08T11:43:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add support for returning docs from more than one bucket per request when visiting via Document V1 API",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3394",
+                        "createdAt": "2017-09-12T10:33:49Z",
+                        "closedAt": "2017-11-15T16:16:54Z"
+                    },
+                    {
+                        "title": "Only send fields specified in YQL up from content nodes",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3404",
+                        "createdAt": "2017-09-13T13:04:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Travis build and PR build should catch errors in make install",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3435",
+                        "createdAt": "2017-09-18T10:20:30Z",
+                        "closedAt": "2017-10-17T11:18:01Z"
+                    },
+                    {
+                        "title": "TLS support in fbench",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3469",
+                        "createdAt": "2017-09-20T13:58:21Z",
+                        "closedAt": "2018-10-15T21:17:36Z"
+                    },
+                    {
+                        "title": "Adding <document-api> to basic-search-java causes error when running mvn package",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3479",
+                        "createdAt": "2017-09-21T08:21:34Z",
+                        "closedAt": "2017-11-24T16:16:08Z"
+                    },
+                    {
+                        "title": "https://vespa.ai has a self signed or invalid cert",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3545",
+                        "createdAt": "2017-09-27T04:21:31Z",
+                        "closedAt": "2018-06-05T19:33:21Z"
+                    },
+                    {
+                        "title": "Documents ignored due to content selection filter is accepted with isSuccess = true",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3555",
+                        "createdAt": "2017-09-27T12:47:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Quickstart doesn't work on macOS",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3560",
+                        "createdAt": "2017-09-27T14:44:22Z",
+                        "closedAt": "2017-09-27T17:49:19Z"
+                    },
+                    {
+                        "title": "Unstable Travis build",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3568",
+                        "createdAt": "2017-09-28T08:35:05Z",
+                        "closedAt": "2017-10-04T15:37:05Z"
+                    },
+                    {
+                        "title": "pom.xml from basic-search-java fails in Eclipse Neon",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3580",
+                        "createdAt": "2017-09-29T00:48:05Z",
+                        "closedAt": "2017-09-29T16:35:47Z"
+                    },
+                    {
+                        "title": "Expanded spatial fields/search",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3581",
+                        "createdAt": "2017-09-29T03:57:14Z",
+                        "closedAt": "2017-10-25T14:16:43Z"
+                    },
+                    {
+                        "title": "search-definition: ignore fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3582",
+                        "createdAt": "2017-09-29T07:16:56Z",
+                        "closedAt": "2017-09-29T07:36:47Z"
+                    },
+                    {
+                        "title": "Running on Kubernetes",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3588",
+                        "createdAt": "2017-09-29T12:04:39Z",
+                        "closedAt": "2017-10-07T02:31:24Z"
+                    },
+                    {
+                        "title": "mvn generate-resources fails to generate resources",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3595",
+                        "createdAt": "2017-09-29T16:43:32Z",
+                        "closedAt": "2017-09-29T17:01:09Z"
+                    },
+                    {
+                        "title": "build java error",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3597",
+                        "createdAt": "2017-09-30T08:36:21Z",
+                        "closedAt": "2017-10-07T02:27:08Z"
+                    },
+                    {
+                        "title": "Duplicate \"Chained Components\" in the sidebar of vespa doc",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3598",
+                        "createdAt": "2017-09-30T08:46:52Z",
+                        "closedAt": "2017-09-30T12:46:12Z"
+                    },
+                    {
+                        "title": "yum install vespa error",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3599",
+                        "createdAt": "2017-09-30T09:49:23Z",
+                        "closedAt": "2017-09-30T20:35:59Z"
+                    },
+                    {
+                        "title": "JDisc injects null config objects",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3610",
+                        "createdAt": "2017-10-02T10:45:49Z",
+                        "closedAt": "2021-09-17T11:12:27Z"
+                    },
+                    {
+                        "title": "Document Retrieval. How to integrate with Vespa in external apps",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3628",
+                        "createdAt": "2017-10-03T08:09:33Z",
+                        "closedAt": "2020-08-10T07:15:42Z"
+                    },
+                    {
+                        "title": "Windows Enviroment",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3638",
+                        "createdAt": "2017-10-03T18:51:26Z",
+                        "closedAt": "2017-10-27T06:29:48Z"
+                    },
+                    {
+                        "title": "Quick-start tutorial runs with internal timeouts",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3640",
+                        "createdAt": "2017-10-04T01:28:06Z",
+                        "closedAt": "2017-10-11T19:52:55Z"
+                    },
+                    {
+                        "title": "ApplicationSuspensionResourceTest triggers JVM OoM",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3651",
+                        "createdAt": "2017-10-04T15:36:34Z",
+                        "closedAt": "2017-11-20T15:19:10Z"
+                    },
+                    {
+                        "title": "Introduce priority queueing for incoming client operations on distributor",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3699",
+                        "createdAt": "2017-10-10T13:54:15Z",
+                        "closedAt": "2017-10-12T18:05:43Z"
+                    },
+                    {
+                        "title": "Reduce common case resource overhead of update operation read-repairs by introducing metadata-only read phase",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3703",
+                        "createdAt": "2017-10-10T14:18:49Z",
+                        "closedAt": "2022-08-31T13:58:42Z"
+                    },
+                    {
+                        "title": "Proton: Custom bucketing & Query",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3709",
+                        "createdAt": "2017-10-11T07:02:57Z",
+                        "closedAt": "2017-10-25T14:14:35Z"
+                    },
+                    {
+                        "title": "It's just a Slack chat invite link for discussing and learning",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3871",
+                        "createdAt": "2017-10-25T07:10:08Z",
+                        "closedAt": "2017-10-25T14:14:09Z"
+                    },
+                    {
+                        "title": "Vespa Installation Issue on Ubuntu 16.04",
+                        "url": "https://github.com/vespa-engine/vespa/issues/3882",
+                        "createdAt": "2017-10-25T13:54:59Z",
+                        "closedAt": "2019-04-11T10:39:13Z"
+                    },
+                    {
+                        "title": "Metrics API Improvent",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4071",
+                        "createdAt": "2017-11-09T15:13:33Z",
+                        "closedAt": "2018-06-20T11:11:34Z"
+                    },
+                    {
+                        "title": "Secure connection to yahoo.bintray.com",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4074",
+                        "createdAt": "2017-11-09T22:20:49Z",
+                        "closedAt": "2017-11-15T12:00:42Z"
+                    },
+                    {
+                        "title": "Search definition creation in runtime",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4092",
+                        "createdAt": "2017-11-11T15:56:07Z",
+                        "closedAt": "2019-04-11T10:38:53Z"
+                    },
+                    {
+                        "title": "Introduce batch mode for SetBucketState to avoid O(|changed buckets|) generated and enqueued operations",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4133",
+                        "createdAt": "2017-11-14T16:53:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Backend metrics snapshotting is not compatible with semantics expected by Prometheus",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4149",
+                        "createdAt": "2017-11-15T15:07:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "partial Update:   elasticsearch/solr  vs   vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4154",
+                        "createdAt": "2017-11-16T07:48:20Z",
+                        "closedAt": "2019-04-11T10:37:26Z"
+                    },
+                    {
+                        "title": "Slow document GC starves moving buckets to ideal nodes",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4165",
+                        "createdAt": "2017-11-16T12:02:56Z",
+                        "closedAt": "2017-11-16T13:25:43Z"
+                    },
+                    {
+                        "title": "Dynamic Partitioning support",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4197",
+                        "createdAt": "2017-11-18T22:25:06Z",
+                        "closedAt": "2017-11-20T16:57:40Z"
+                    },
+                    {
+                        "title": "Modeling Social Network Relationships",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4230",
+                        "createdAt": "2017-11-21T18:36:24Z",
+                        "closedAt": "2019-04-11T09:28:10Z"
+                    },
+                    {
+                        "title": "Multi-application or multi-tenant",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4271",
+                        "createdAt": "2017-11-24T11:42:14Z",
+                        "closedAt": "2017-12-13T11:57:33Z"
+                    },
+                    {
+                        "title": "Could Vespa been an underlying semantic search engine for automatic answering robots",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4273",
+                        "createdAt": "2017-11-24T12:19:54Z",
+                        "closedAt": "2018-06-20T08:35:31Z"
+                    },
+                    {
+                        "title": "Is vespa useful in a autocomplete scenario ?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4278",
+                        "createdAt": "2017-11-25T01:42:12Z",
+                        "closedAt": "2017-11-27T13:04:31Z"
+                    },
+                    {
+                        "title": "yum upgrade - config overwritten",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4291",
+                        "createdAt": "2017-11-28T09:29:22Z",
+                        "closedAt": "2017-12-05T06:52:18Z"
+                    },
+                    {
+                        "title": "filedistribution troubleshooting",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4310",
+                        "createdAt": "2017-11-29T14:45:13Z",
+                        "closedAt": "2017-12-07T13:11:53Z"
+                    },
+                    {
+                        "title": "Contains query on predicate field crashes content nodes",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4313",
+                        "createdAt": "2017-11-29T19:05:22Z",
+                        "closedAt": "2020-04-14T17:17:57Z"
+                    },
+                    {
+                        "title": "Unable to import predicate field from referenced document",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4344",
+                        "createdAt": "2017-12-04T16:20:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Compiling Vespa out of source fails (parser.cxx not found)",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4435",
+                        "createdAt": "2017-12-13T13:44:07Z",
+                        "closedAt": "2017-12-18T14:10:34Z"
+                    },
+                    {
+                        "title": "Cannot use a Duration as a timeout in SyncSession.get()",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4446",
+                        "createdAt": "2017-12-14T12:41:47Z",
+                        "closedAt": "2017-12-20T13:04:40Z"
+                    },
+                    {
+                        "title": "Caching in Vespa.ai",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4484",
+                        "createdAt": "2017-12-19T10:18:33Z",
+                        "closedAt": "2018-01-15T14:20:27Z"
+                    },
+                    {
+                        "title": "kubernetes ingress and needed port to use vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4511",
+                        "createdAt": "2017-12-20T23:51:48Z",
+                        "closedAt": "2017-12-23T21:44:53Z"
+                    },
+                    {
+                        "title": "Cluster controller ZooKeeper writes should be gated with a test-and-set on expected zknode version",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4532",
+                        "createdAt": "2018-01-02T12:42:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Cannot get com.yahoo.vespa:bundle-plugin:6-SNAPSHOT from repository http://yahoo.bintray.com/maven",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4557",
+                        "createdAt": "2018-01-05T12:56:49Z",
+                        "closedAt": "2018-01-06T03:55:25Z"
+                    },
+                    {
+                        "title": "Deadlock during replay of transaction log",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4564",
+                        "createdAt": "2018-01-05T16:38:52Z",
+                        "closedAt": "2018-01-08T14:30:09Z"
+                    },
+                    {
+                        "title": "Error happened when compile vespa with -O0 optimizer flag ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4565",
+                        "createdAt": "2018-01-08T04:39:46Z",
+                        "closedAt": "2018-01-08T10:01:04Z"
+                    },
+                    {
+                        "title": "Some tools not working in Docker image",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4584",
+                        "createdAt": "2018-01-09T13:36:58Z",
+                        "closedAt": "2018-06-20T08:38:45Z"
+                    },
+                    {
+                        "title": "Error happend when import third part java library",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4604",
+                        "createdAt": "2018-01-10T12:24:14Z",
+                        "closedAt": "2018-01-16T09:45:04Z"
+                    },
+                    {
+                        "title": "Mandatory query profile fields ignored when using inheritance",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4611",
+                        "createdAt": "2018-01-10T18:12:42Z",
+                        "closedAt": "2018-01-25T14:17:19Z"
+                    },
+                    {
+                        "title": "Expose NEED_RESTART as a metric",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4631",
+                        "createdAt": "2018-01-11T20:45:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Also put a bitvector cache in from of predicate search fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4632",
+                        "createdAt": "2018-01-11T20:52:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "does vespa with multiple search containers provide service-discovery for front-end applications?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4671",
+                        "createdAt": "2018-01-16T08:20:31Z",
+                        "closedAt": "2018-01-17T10:03:24Z"
+                    },
+                    {
+                        "title": "Is there any design documents?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4686",
+                        "createdAt": "2018-01-17T07:53:54Z",
+                        "closedAt": "2018-01-18T05:28:41Z"
+                    },
+                    {
+                        "title": "some questions about storage",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4704",
+                        "createdAt": "2018-01-18T12:38:49Z",
+                        "closedAt": "2018-01-20T03:26:20Z"
+                    },
+                    {
+                        "title": "Build and document Play with Docker tutorial",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4715",
+                        "createdAt": "2018-01-18T22:09:04Z",
+                        "closedAt": "2018-04-15T19:14:36Z"
+                    },
+                    {
+                        "title": "Pre-computed dataset for Vespa Tutorial pt.3 is not available",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4836",
+                        "createdAt": "2018-01-31T10:30:52Z",
+                        "closedAt": "2018-02-01T08:16:33Z"
+                    },
+                    {
+                        "title": "Add support for field sets and bucket concurrency to Document V1 visit API",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4847",
+                        "createdAt": "2018-01-31T14:29:26Z",
+                        "closedAt": "2018-02-01T15:34:03Z"
+                    },
+                    {
+                        "title": "A problem when third part java library imported into Container",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4925",
+                        "createdAt": "2018-02-06T09:58:01Z",
+                        "closedAt": "2018-03-15T22:24:48Z"
+                    },
+                    {
+                        "title": "Make it easier to debug output from visit",
+                        "url": "https://github.com/vespa-engine/vespa/issues/4936",
+                        "createdAt": "2018-02-06T16:25:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "yum install failed vespa-libtorrent-devel and vespa-zookeeper-c-client-devel",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5007",
+                        "createdAt": "2018-02-12T07:40:34Z",
+                        "closedAt": "2018-02-12T11:40:53Z"
+                    },
+                    {
+                        "title": "Build a Vespa connector for Sqoop",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5020",
+                        "createdAt": "2018-02-12T21:44:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implement user specified visit slicing to allow multiple clients consuming the visit result ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5055",
+                        "createdAt": "2018-02-16T10:39:44Z",
+                        "closedAt": "2021-11-16T09:01:50Z"
+                    },
+                    {
+                        "title": "REST Document Api crash",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5142",
+                        "createdAt": "2018-02-25T18:50:49Z",
+                        "closedAt": "2018-03-14T13:28:15Z"
+                    },
+                    {
+                        "title": "No Search Results",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5202",
+                        "createdAt": "2018-03-04T06:06:52Z",
+                        "closedAt": "2018-03-14T13:27:22Z"
+                    },
+                    {
+                        "title": "Container exiting due to error \"No support for packet 220\"",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5247",
+                        "createdAt": "2018-03-08T06:54:18Z",
+                        "closedAt": "2018-03-08T08:55:41Z"
+                    },
+                    {
+                        "title": "Support for persisted deletes (or blocklists)",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5278",
+                        "createdAt": "2018-03-09T14:49:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5283",
+                        "createdAt": "2018-03-11T02:58:30Z",
+                        "closedAt": "2018-03-11T02:59:08Z"
+                    },
+                    {
+                        "title": "404 links in http://docs.vespa.ai/documentation/tensor-intro.html",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5299",
+                        "createdAt": "2018-03-13T06:45:38Z",
+                        "closedAt": "2018-03-13T06:49:30Z"
+                    },
+                    {
+                        "title": "Edge case preventing replica convergence with redundancy level > 16",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5313",
+                        "createdAt": "2018-03-13T13:09:44Z",
+                        "closedAt": "2018-03-13T16:41:57Z"
+                    },
+                    {
+                        "title": "Write Datadog integration for Vespa metrics",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5322",
+                        "createdAt": "2018-03-13T21:05:26Z",
+                        "closedAt": "2019-11-06T09:46:16Z"
+                    },
+                    {
+                        "title": "Provide a changelog and upgrade guide",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5371",
+                        "createdAt": "2018-03-17T22:58:47Z",
+                        "closedAt": "2018-03-19T16:17:49Z"
+                    },
+                    {
+                        "title": "Failed to set up a config server cluster",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5419",
+                        "createdAt": "2018-03-23T11:14:48Z",
+                        "closedAt": "2018-04-17T07:44:40Z"
+                    },
+                    {
+                        "title": "One host for only one tenant?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5425",
+                        "createdAt": "2018-03-26T09:23:46Z",
+                        "closedAt": "2018-03-26T12:37:12Z"
+                    },
+                    {
+                        "title": "Latest RPM build of vespa-boost breaks vespa RPM install",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5433",
+                        "createdAt": "2018-03-28T18:15:42Z",
+                        "closedAt": "2018-04-03T21:07:42Z"
+                    },
+                    {
+                        "title": "Looking for an internal design document",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5434",
+                        "createdAt": "2018-03-29T03:24:43Z",
+                        "closedAt": "2018-06-13T12:25:08Z"
+                    },
+                    {
+                        "title": "Add more detailed doc on system requirements & multi-node install using docker container",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5440",
+                        "createdAt": "2018-04-03T06:57:14Z",
+                        "closedAt": "2018-06-13T12:24:47Z"
+                    },
+                    {
+                        "title": "Kubernetes support",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5448",
+                        "createdAt": "2018-04-03T13:26:28Z",
+                        "closedAt": "2020-06-16T13:27:19Z"
+                    },
+                    {
+                        "title": "Backups? Snapshots?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5495",
+                        "createdAt": "2018-04-06T23:30:15Z",
+                        "closedAt": "2018-04-09T09:42:58Z"
+                    },
+                    {
+                        "title": "Documentation not searchable when using https",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5506",
+                        "createdAt": "2018-04-09T10:17:13Z",
+                        "closedAt": "2018-06-12T12:53:50Z"
+                    },
+                    {
+                        "title": "How to use node-repository when there are a lot of nodes？",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5507",
+                        "createdAt": "2018-04-09T11:17:08Z",
+                        "closedAt": "2018-04-20T09:11:01Z"
+                    },
+                    {
+                        "title": "Configservers require setting both addr_configserver and VESPA_CONFIGSERVERS",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5508",
+                        "createdAt": "2018-04-09T11:48:42Z",
+                        "closedAt": "2018-06-20T11:10:13Z"
+                    },
+                    {
+                        "title": "Multiple counts in the same hierarchy level",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5512",
+                        "createdAt": "2018-04-09T12:46:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Don't autostart config servers in Docker image",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5586",
+                        "createdAt": "2018-04-16T08:38:22Z",
+                        "closedAt": "2018-06-26T10:42:29Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOEr-q5Q==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

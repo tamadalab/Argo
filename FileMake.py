@@ -2,7 +2,6 @@ import os
 import re
 import glob
 import json
-from pandas.io.json import json_normalize
 import pandas as pd
 import csv
 import fig_process

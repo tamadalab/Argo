@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Start mode","2014-12/16","2015-1/16","2014-12/16",False,"null",3,184,12
+"Mark a few things serializable, fixes #1663.","2014-12/16","2015-1/16","2014-12/16",True,"2015-1/16",2,8,3
+"Timesurface hacks","2014-12/17","2015-1/17","2014-12/17",True,"2015-1/17",2,4,7
+"Fixed map builder","2014-12/22","2015-1/22","2014-12/22",True,"2015-1/22",2,47,6
+"Html graph annotation generation","2014-12/23","2015-1/23","2014-12/23",True,"2015-1/23",2,74,100
+"mark all command line parameters public.","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",2,28,28
+"Fix #1672 (right-vs-left bounding of histograms). Add Javadoc.","2015-1/6","2015-1/6","2015-1/6",True,"2015-1/6",2,10,1
+"Summing","2015-1/6","2015-1/6","2015-1/6",True,"2015-1/6",2,21,7
+"Remove hardcoded array lengths","2015-1/7","2015-8/7","2015-1/7",False,"null",1,58,64
+"Return stoptimes for correct stop","2015-1/8","2015-1/8","2015-1/8",False,"null",1,6,5
+"Result set simplification","2015-1/9","2015-1/9","2015-1/9",True,"2015-1/9",2,119,105
+"Minor serialization-graphIndex-pathway bugfixes","2015-1/10","2015-3/10","2015-1/10",True,"2015-3/10",2,40,17
+"Various fixes","2015-1/13","2015-1/13","2015-1/13",True,"2015-1/13",2,27,13
+"Improve stoptimes in the index API","2015-1/13","2015-1/13","2015-1/13",True,"2015-1/13",2,156,22
+"Add support for fetching all routes of an agency","2015-1/13","2015-1/13","2015-1/13",True,"2015-1/13",2,24,1
+"Add depart icon in itinerary step row","2015-1/14","2015-1/14","2015-1/14",True,"2015-1/14",2,0,0
+"Updates Leaflet from 0.5.1 to 0.7.3","2015-1/14","2015-1/14","2015-1/14",False,"null",3,2375,1572
+"Rewrite code handling temporary edges and vertices (endpoints)","2015-1/14","2015-1/14","2015-1/14",True,"2015-1/14",2,816,1196
+"Move javascript libs to cdn","2015-1/15","2015-1/15","2015-1/15",True,"2015-1/15",2,93,30187
+"DREAL project fixes and javascript library","2015-1/16","2015-1/16","2015-1/16",True,"2015-1/16",2,37,22
+"Modified the Analyst web-module to work again by using the TimeSurface API","2015-1/18","2015-1/18","2015-1/18",True,"2015-1/18",2,66,39
+"Flatten profile requests","2015-1/20","2015-1/20","2015-1/20",True,"2015-1/20",2,21,14
+"Fix DefaultRemainingWeightHeuristic distance issue","2015-1/21","2015-1/21","2015-1/21",True,"2015-1/21",2,40,30
+"Add removeEdge() method to Graph class and cleanup","2015-1/21","2015-1/21","2015-1/21",True,"2015-1/21",2,82,92
+"Improve geocoder","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",2,86,8
+"Client: Added a Bag geocoder that can be enabled in the config","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",2,72,1
+"Add equals() and hashCode() to PointFeature.","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",2,32,1
+"Add transfers to the REST API.","2015-1/26","2015-1/26","2015-1/26",True,"2015-1/26",4,55,2
+"Add stop code in index API response","2015-2/2","2015-2/2","2015-2/2",True,"2015-2/2",2,2,0
+"Fixes BusRouteStreetMatcher matching when trip geometry is generated","2015-2/2","2015-2/2","2015-2/2",True,"2015-2/2",2,11,3
+"OTP Scripting prototype","2015-2/3","2015-2/3","2015-2/3",True,"2015-2/3",2,1433,4
+"Adds support for use_sidepath tag","2015-2/4","2015-2/4","2015-2/4",True,"2015-2/4",2,121,1
+"Workaround for enunciate bug 678.","2015-2/4","2015-2/4","2015-2/4",True,"2015-2/4",2,2,0
+"Support airplanes","2015-2/5","2015-9/5","2015-2/5",False,"null",4,73,7
+"Fix trip itinerary showing stop as #undefined","2015-2/5","2015-2/5","2015-2/5",True,"2015-2/5",2,6,1
+"Master linker refactor stage 0","2015-2/6","2015-4/6","2015-2/6",False,"null",2,368,154
+"Bano geocoder","2015-2/6","2015-2/6","2015-2/6",True,"2015-2/6",2,169,0
+"Fix a few bugs in the GTFS loader","2015-2/6","2015-2/6","2015-2/6",True,"2015-2/6",2,87,73
+"Make server only accept ISO dates and client send them","2015-2/6","2017-6/6","2015-2/6",False,"null",3,24,157
+"Add ""--clientFiles"" option to serve local files by http.","2015-2/9","2015-2/9","2015-2/9",True,"2015-2/9",2,16,0
+"Remove bedatadriven geojson","2015-2/13","2015-2/13","2015-2/13",True,"2015-2/13",2,163,396
+"Generate trip id from route and time in GTFS-RT, when trip id is not available","2015-2/20","2015-3/20","2015-2/20",False,"null",3,1210,329
+"Fix #1755 - Avoid wrong agency assignment to Route and Trip entities","2015-2/20","2015-2/20","2015-2/20",False,"null",3,2,7
+"Add Finnish and Swedish translations for server-side localization","2015-2/23","2015-3/23","2015-2/23",True,"2015-3/23",3,80,0
+"Use direction_id from GTFS-RT alerts","2015-2/23","2015-3/23","2015-2/23",True,"2015-3/23",6,116,19618
+"Master linker refactor merge of multiple linkers to one","2015-2/23","2015-4/23","2015-2/23",True,"2015-4/23",3,176,155
+"Bike P+R: Allow KML data source to have optional placemark folders.","2015-2/23","2015-2/23","2015-2/23",True,"2015-2/23",2,87,4
+"Add --version flag to output current version","2015-2/23","2015-3/23","2015-2/23",True,"2015-3/23",2,29,11
+"Fix #1419 by adding missing xhr argument to the callback","2015-2/24","2015-2/24","2015-2/24",True,"2015-2/24",2,1,1
+"Add support for fuzzy trip matching in GTFS-RT feeds","2015-2/25","2015-3/25","2015-2/25",True,"2015-3/25",4,1368,336
+"Fix pattern inference, double formatting and calendar reading in the GTFS editor.","2015-2/26","2015-2/26","2015-2/26",True,"2015-2/26",2,14,6
+"Fix  #1778 -  previous next buttons","2015-2/27","2015-3/27","2015-2/27",True,"2015-3/27",2,5,6
+"Fix #1781. Removal of looping edges throws NPE.","2015-3/2","2015-3/2","2015-3/2",True,"2015-3/2",2,5,1
+"Fix #1780 - NPE in getStoptimesForStopAndDate request","2015-3/3","2015-3/3","2015-3/3",True,"2015-3/3",2,10,2
+"Adds support for list parameters in client querystring","2015-3/4","2015-3/4","2015-3/4",True,"2015-3/4",2,20,2
+"Fix stoptimes visualization in StopViewerWidget ","2015-3/9","2015-3/9","2015-3/9",True,"2015-3/9",3,16,35
+"Analyst fixes","2015-3/12","2015-3/12","2015-3/12",True,"2015-3/12",2,25,4
+"Analyst speed improvements","2015-3/13","2015-3/13","2015-3/13",True,"2015-3/13",2,6,3
+"Qualified mode analyst fixes","2015-3/20","2015-3/20","2015-3/20",True,"2015-3/20",2,34,8
+"Set ID fields and select property fields when loading PointSet from shapefile","2015-3/22","2015-3/22","2015-3/22",True,"2015-3/22",2,62,21
+"Utility function to find maximum in array of int primitives","2015-3/22","2015-3/22","2015-3/22",False,"null",2,10,0
+"GTFS-RT ADDED trips","2015-3/23","2015-3/23","2015-3/23",True,"2015-3/23",5,4283,1281
+"Remove underscores from mode names","2015-3/23","2015-12/23","2015-3/23",False,"null",2,36,36
+"Fares json config + Seattle fares","2015-3/27","2015-4/27","2015-3/27",True,"2015-4/27",2,1039,226
+"Fix 1847","2015-4/2","2015-4/2","2015-4/2",True,"2015-4/2",2,50,45
+"GTFS-RT FULL_DATASET message without trip updates support","2015-4/2","2015-4/2","2015-4/2",True,"2015-4/2",2,42,20
+"Typo fixes, resolves #1852","2015-4/3","2015-4/3","2015-4/3",True,"2015-4/3",3,6,6
+"OSM custom namer config using JSON","2015-4/8","2015-4/8","2015-4/8",True,"2015-4/8",2,61,2
+"GTFS-RT support for OvApi","2015-4/8","2015-4/8","2015-4/8",True,"2015-4/8",2,135,785
+"Add documentation on custom fares and OSM naming.","2015-4/8","2015-4/8","2015-4/8",True,"2015-4/8",2,74,1
+"Use MinimumWeight when finding access paths. Document profile requests.","2015-4/8","2015-4/8","2015-4/8",True,"2015-4/8",2,56,9
+"Convert scripting doc from github to new doc.","2015-4/13","2015-4/13","2015-4/13",True,"2015-4/13",2,95,1
+"Removes redundant streetTraversalPermissions","2015-4/15","2015-4/15","2015-4/15",True,"2015-4/15",2,0,1
+"Fixes Bike permission problem","2015-4/16","2015-4/16","2015-4/16",False,"null",1,3878,53
+"Unclassified road with bike=designated was missing CAR permission","2015-4/16","2015-4/16","2015-4/16",True,"2015-4/16",2,2,0
+"Adds support for OSM tag motor_vehicle","2015-4/16","2015-4/16","2015-4/16",True,"2015-4/16",2,23,4
+"Fix-1876 - move fares doc to build config section.","2015-4/16","2015-4/16","2015-4/16",True,"2015-4/16",2,72,72
+"Fixes #1890 don't match the sources jar in the run script","2015-4/20","2015-4/20","2015-4/20",False,"null",1,2,2
+"Fixes #1892 check for routerIds before checking their length to prevent NPE","2015-4/21","2015-4/21","2015-4/21",True,"2015-4/21",3,1,1
+"Fixes #1890 don't match the sources jar in the run script","2015-4/22","2015-4/22","2015-4/22",False,"null",2,1,1
+"Fix #1896  First and Last buttons in itineraries widget","2015-4/22","2015-4/22","2015-4/22",True,"2015-4/22",2,2,2
+"Add --analyst note in the docs. ","2015-4/27","2015-4/27","2015-4/27",True,"2015-4/27",2,1,1
+"Adds OSM tags tests","2015-4/28","2015-4/28","2015-4/28",True,"2015-4/28",2,150,3
+"Expose query parameters for the StopTime Index API","2015-4/28","2015-5/28","2015-4/28",True,"2015-5/28",3,26,13
+"Layout regione","2015-5/5","2015-5/5","2015-5/5",False,"null",3,391,202
+"Master server localization","2015-5/7","2015-5/7","2015-5/7",True,"2015-5/7",3,1763,832
+"Added JSON config for static P+R bike share and bike P+R","2015-5/7","2015-5/7","2015-5/7",True,"2015-5/7",2,27,6
+"Implement fare breakdown","2015-5/8","2016-10/8","2015-5/8",True,"2016-10/8",3,357,24
+"Repeated RAPTOR profile routing","2015-5/8","2015-5/8","2015-5/8",True,"2015-5/8",5,5031,574
+"WIP Envelope calculation moved from runtime to build time","2015-5/8","2015-5/8","2015-5/8",True,"2015-5/8",2,230,48
+"Master center density","2015-5/11","2015-5/11","2015-5/11",True,"2015-5/11",2,89,26
+"Edge 620 trams","2015-5/12","2015-5/12","2015-5/12",False,"null",2,682,341
+"add isochrones to resultset.","2015-5/18","2015-5/18","2015-5/18",True,"2015-5/18",2,117,48
+"Added debug_layers description to docs","2015-5/20","2015-5/20","2015-5/20",True,"2015-5/20",2,53,0
+"Fix #1932.","2015-5/20","2015-5/20","2015-5/20",True,"2015-5/20",1,1,1
+"Car display fixes","2015-5/20","2015-5/20","2015-5/20",True,"2015-5/20",2,8,1
+"Elevation should accept tiffs with different CRS","2015-5/22","2015-5/22","2015-5/22",False,"null",2,6,1
+"Fix #1959 - Fix stoptimes in StopViewerWidget after pattern format change","2015-5/25","2015-5/25","2015-5/25",True,"2015-5/25",3,3,1
+"This is hackish ""fix"" for error when clicking on bike rental stations","2015-5/28","2015-5/28","2015-5/28",True,"2015-5/28",2,9,0
+"Added ""Bicycle rental"" to Drop off/Pick Up","2015-5/28","2015-5/28","2015-5/28",True,"2015-5/28",2,4,4

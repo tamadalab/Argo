@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"chore(rendering): clean up imports and update copyrights ","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",2,437,1713
+"feat(JOML): remove AABB","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",2,1,649
+"feat(JOML): drop ChunkMath","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",2,42,790
+"feat(JOML): migrate OpenALManager","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",2,3,3
+"feat(JOML): migrate BehaviorEditor","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",2,22,22
+"feat(JOML): remove usage of JOMLUtil and migrate remaining code","2021-2/7","2021-2/7","2021-2/7",True,"2021-2/7",3,32,45
+"build: add Allure reports","2021-2/8","2021-2/8","2021-2/8",False,"null",3,43,2
+"bugfix: correct AABB bounds for mesh","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",3,2,6
+"feat(JOML): migrate direction","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",2,6,39
+"test: upgrade to JUnit 5.7.1","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",2,92,89
+"feat(JOML): drop remaining references to Rect2i and Rect2f","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",2,13,367
+"feat(JOML): drop JomlUtil, Vector3fUtil, ChunkConstants","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",2,4,368
+"feat(JOML): remove unused imports and drop legacy copy strategies","2021-2/8","2021-2/8","2021-2/8",True,"2021-2/8",2,0,125
+"refactor(nui): remove CoreRegistry from DeathScreen","2021-2/9","2021-2/9","2021-2/9",True,"2021-2/9",2,9,3
+"Feature: Extraction LightMerger usage in post-ready step.","2021-2/9","2021-3/9","2021-2/9",False,"null",6,417,930
+"feat: move packages into engine (gestalt-v7 prereq)","2021-2/10","2021-3/10","2021-2/10",False,"null",4,0,0
+"feat: move vignette to seperate shader","2021-2/13","2021-2/13","2021-2/13",True,"2021-2/13",2,44,16
+"CI: fix path to versionInfo.properties","2021-2/13","2021-2/13","2021-2/13",True,"2021-2/13",2,1,1
+"build: factor out ModuleInfoException from terasology-module","2021-2/13","2021-2/13","2021-2/13",True,"2021-2/13",2,37,29
+"chore(behavior,logic): minor code cleanup","2021-2/13","2021-2/13","2021-2/13",True,"2021-2/13",2,45,95
+"feat: improve debug overlay with compass and additional heaps (MovingBlocks/Terasology#1942)","2021-2/13","2021-3/13","2021-2/13",True,"2021-3/13",5,304,39
+"build: factor out methods making gradle dependencies from gestalt metadata","2021-2/14","2021-2/14","2021-2/14",True,"2021-2/14",2,67,27
+"feat: add prototype render graph overlay","2021-2/14","2021-3/14","2021-2/14",False,"null",4,250,3
+"feat(block): Add 'Blocks' utility class to convert world to block coordinates","2021-2/14","2021-2/14","2021-2/14",True,"2021-2/14",3,108,0
+"bugfix: correct Dimensions#multiplySelfBy","2021-2/14","2021-2/14","2021-2/14",True,"2021-2/14",2,1,1
+"fix: correct index for world view","2021-2/14","2021-2/14","2021-2/14",True,"2021-2/14",2,1,2
+"fix: make Blocks.toBlockPos public","2021-2/14","2021-2/14","2021-2/14",True,"2021-2/14",2,4,4
+"chore: remove usage of getPosition(dest)","2021-2/15","2021-2/15","2021-2/15",True,"2021-2/15",3,3,3
+"chore: remove usage of fixed function pipline methods","2021-2/16","2021-3/16","2021-2/16",True,"2021-3/16",4,9,2
+"build: move more implementation details about gestalt out of terasology-module","2021-2/17","2021-2/17","2021-2/17",True,"2021-2/17",3,48,36
+"fix(rendering): clipping plane on LoD 0","2021-2/19","2021-2/19","2021-2/19",True,"2021-2/19",3,1,1
+"build: use joml-ext v0.1.0 and nui v1.4.0","2021-2/20","2021-2/20","2021-2/20",True,"2021-2/20",2,4,4
+"chore: remove unused renderWithLightValue","2021-2/20","2021-3/20","2021-2/20",False,"null",2,1,112
+"chore: replace FrustrumPlane with plane from joml-ext","2021-2/21","2021-3/21","2021-2/21",True,"2021-3/21",2,45,133
+"chore!: limit API for BlockComponent (1/2)","2021-2/21","2021-3/21","2021-2/21",True,"2021-3/21",2,16,11
+"fix: use system property instead of ENV to determine user home","2021-2/21","2021-2/21","2021-2/21",True,"2021-2/21",3,1,1
+"fix: save world gen facet information in manifest","2021-2/21","2021-5/21","2021-2/21",True,"2021-5/21",4,71,8
+"ci(action): add release drafter action","2021-2/21","2021-2/21","2021-2/21",False,"null",1,60,0
+"chore: Updated default ports, server for logstash","2021-2/21","2021-2/21","2021-2/21",True,"2021-2/21",4,2,2
+"refactor(ModuleManager): replace interface with concrete class","2021-2/22","2021-2/22","2021-2/22",True,"2021-2/22",2,224,271
+"refactor(ModuleManager): factor initiliaztion code to multiple methods","2021-2/22","2021-2/22","2021-2/22",True,"2021-2/22",2,52,26
+"fix: correct matrix calculation for compound shapes (#4403)","2021-2/25","2021-2/25","2021-2/25",True,"2021-2/25",2,11,9
+"feat(ModuleManager): do not load all modules in the classpath by default","2021-2/25","2021-3/25","2021-2/25",True,"2021-3/25",3,182,94
+"feat(logs): improve prefab deserialization logging","2021-2/27","2021-3/27","2021-2/27",True,"2021-3/27",3,12,34
+"chore(RegisterMods): make sure thread has a name and is set to daemon","2021-2/27","2022-4/27","2021-2/27",False,"null",3,14,19
+"chore: adding some null checks","2021-2/27","2021-2/27","2021-2/27",True,"2021-2/27",2,21,20
+"chore: update with joml math and update copyright for LocationComponentTest","2021-2/27","2021-3/27","2021-2/27",True,"2021-3/27",3,7,20
+"fix(ConstructorLibrary): prevent AccessControlException by using `AccessController.doPrivilaged`","2021-3/1","2021-3/1","2021-3/1",True,"2021-3/1",2,15,10
+"build: move `buildSrc` to `build-logic`","2021-3/1","2021-3/1","2021-3/1",True,"2021-3/1",2,19,12
+"ci: buildSrc moved to build-logic","2021-3/2","2021-3/2","2021-3/2",True,"2021-3/2",2,1,1
+"refactor(PathManager): do all the `createDirectories` at once","2021-3/3","2021-3/3","2021-3/3",True,"2021-3/3",2,47,21
+"chore: upgrade guava to 30.1 from 23.0","2021-3/4","2021-3/4","2021-3/4",True,"2021-3/4",3,17,60
+"chore: upgrade gson to 2.8.6 from 2.6","2021-3/4","2021-3/4","2021-3/4",True,"2021-3/4",2,2,2
+"chore(engine-test): use a temp directory instead of a Shrinkwrap archive","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",2,29,123
+"refactor! move engine code in to org.terasology.engine package","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",4,12130,25711
+"chore!: limit API for BlockComponent (2/2)","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",2,1,1
+"refactor: move DiscordRPC to org.terasology.subsystem","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",2,5,5
+"chore!: remove JUnit 4 from module dependencies","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",3,0,6
+"chore: upgrade reflections to 0.9.12-MB from 0.9.10","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",2,7,7
+"feature(subsystem-prepare): extract Network and R&R code from EventSystemImpl","2021-3/7","2021-3/7","2021-3/7",True,"2021-3/7",4,339,344
+"feat: Reduce the amount of gaps that appear while LOD chunks load","2021-3/7","2021-3/7","2021-3/7",True,"2021-3/7",2,90,34
+"build(modules): add :modules:reportModuleOrder task","2021-3/10","2022-4/10","2021-3/10",True,"2022-4/10",3,74,0
+"merge resolution for #4324","2021-3/10","2021-3/10","2021-3/10",True,"2021-3/10",4,13298,26379
+"test: initialize Bullet for [Headless]Environment","2021-3/12","2021-3/12","2021-3/12",True,"2021-3/12",2,6,2
+"test: unittest module may be in a jar","2021-3/12","2021-3/12","2021-3/12",True,"2021-3/12",2,33,18
+"test: HeadlessEnvironment loads modules from classpath","2021-3/13","2021-3/13","2021-3/13",True,"2021-3/13",2,56,25
+"fix: trigger update for location component for physics update","2021-3/14","2021-3/14","2021-3/14",True,"2021-3/14",2,7,3
+"chore: migrate into engine","2021-3/14","2021-3/14","2021-3/14",True,"2021-3/14",3,2,21
+"test(modules): set default test case timeout to four minutes","2021-3/14","2021-3/14","2021-3/14",True,"2021-3/14",2,5,0
+"ModuleManager: ensure engine module is always present in environment","2021-3/15","2021-3/15","2021-3/15",True,"2021-3/15",2,3,1
+"Add utility methods to BlockRegion and Chunks","2021-3/16","2021-3/16","2021-3/16",False,"null",3,17,2
+"refactor(CreateWorldEntity): aggressive refactoring","2021-3/17","2021-4/17","2021-3/17",True,"2021-4/17",4,46,37
+"fix(player): target box not disappearing when target is removed","2021-3/17","2021-3/17","2021-3/17",True,"2021-3/17",3,6,6
+"refactor(player): factor out LocalPlayerControlSystem","2021-3/17","2021-9/17","2021-3/17",False,"null",5,327,247
+"fix(PathManager): avoid calling Files method on paths that may not exist yet","2021-3/18","2021-3/18","2021-3/18",True,"2021-3/18",2,1,1
+"refactor: restore generated files to their generated location","2021-3/18","2021-3/18","2021-3/18",True,"2021-3/18",2,0,0
+"Don't move the camera when window is refocused","2021-3/20","2021-3/20","2021-3/20",True,"2021-3/20",4,16,7
+"Mahela-1","2021-3/21","2021-3/21","2021-3/21",False,"null",1,186,7
+"Fixing spelling.","2021-3/21","2021-3/21","2021-3/21",False,"null",2,1,1
+"feature: migrate to gestaltv7","2021-3/21","2021-5/21","2021-3/21",False,"null",4,4300,4481
+"Fixing spelling error","2021-3/21","2021-3/21","2021-3/21",True,"2021-3/21",2,1,1
+"feat(entitySystem): Introduce DoNotPersist annotation","2021-3/23","2021-4/23","2021-3/23",True,"2021-4/23",4,93,0
+"chore: update to TeraNUI 3.0 from 1.5, for gestalt separation","2021-3/23","2021-4/23","2021-3/23",True,"2021-4/23",5,221,82
+"feat(player-config): migrate `PlayerConfig` to AutoConfig","2021-3/24","2021-4/24","2021-3/24",True,"2021-4/24",3,720,689
+"refactor!: Simplify Chunk inheritance hierarchy","2021-3/24","2021-3/24","2021-3/24",True,"2021-3/24",3,499,762
+"fix: auto-correct window resolution if set to (0,0)","2021-3/25","2021-4/25","2021-3/25",False,"null",5,6,0
+"fix: restore version info","2021-3/26","2021-4/26","2021-3/26",True,"2021-4/26",2,4,2
+"fix: avoid writing window size of 0 to the config Re: #4601","2021-3/26","2021-4/26","2021-3/26",False,"null",4,22,4
+"TeraNUI 3.0 update: Implemented `UISkinTypeHandler.getAsString`","2021-3/27","2021-4/27","2021-3/27",True,"2021-4/27",3,51,3
+"chore(tests): add ""TteTest"" tag","2021-3/27","2021-3/27","2021-3/27",True,"2021-3/27",2,36,0
+"fix: could place blocks inside the player","2021-3/31","2021-4/31","2021-3/31",True,"2021-4/31",2,8,8
+"feat: allow repeated jumping by key press","2021-3/31","2021-4/31","2021-3/31",True,"2021-4/31",2,13,13
+"chore: remove DebugPropertySystem","2021-4/2","2021-4/2","2021-4/2",True,"2021-4/2",3,3,130
+"build: add tasks for 'unit' and 'integration' tests","2021-4/2","2021-4/2","2021-4/2",True,"2021-4/2",3,58,4
+"feature: migrate gestalt v7 discord subsystem","2021-4/3","2021-4/3","2021-4/3",True,"2021-4/3",1,24,39
+"Allow entities to be rendered like chunks","2021-4/4","2021-4/4","2021-4/4",True,"2021-4/4",2,484,213
+"chore: refactor physics voxel world system","2021-4/4","2021-4/4","2021-4/4",True,"2021-4/4",2,245,321
+"chore: add primative mesh producer in-place of OpenGLUtils#renderFullscreenQuad","2021-4/7","2021-5/7","2021-4/7",True,"2021-5/7",2,100,49
+"final-#4601","2021-4/9","2021-4/9","2021-4/9",False,"null",1,7,5
+"fix: avoid writing window size of 0 to the config","2021-4/9","2021-5/9","2021-4/9",True,"2021-5/9",5,7,5

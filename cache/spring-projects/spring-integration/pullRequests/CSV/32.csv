@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Revise retry for `IntegrationReactiveUtils`","2021-4/9","2021-4/9","2021-4/9",True,"2021-4/9",2,31,3
+"Improve IMAP IDLE tests","2021-4/9","2021-4/9","2021-4/9",True,"2021-4/9",2,2,6
+"Fix compatibility with Java 8 for ByteBuffer","2021-4/9","2021-4/9","2021-4/9",True,"2021-4/9",2,18,15
+"Use GreenMail for mail tests","2021-4/9","2021-5/9","2021-4/9",False,"null",2,187,659
+"GH-3520: Improve TcpConnectionInterceptor Javadocs","2021-4/12","2021-4/12","2021-4/12",True,"2021-4/12",2,9,0
+"GH-3533: Register WebSocket endpoints at runtime","2021-4/13","2021-4/13","2021-4/13",True,"2021-4/13",2,460,69
+"Revise MessageHistory configuration","2021-4/16","2021-4/16","2021-4/16",True,"2021-4/16",2,123,105
+"Make `@IntegrationConverter` Native compatible","2021-4/20","2021-4/20","2021-4/20",True,"2021-4/20",2,193,197
+"Fix breaking change for PersistentFileListFilter","2021-4/21","2021-4/21","2021-4/21",True,"2021-4/21",2,8,13
+"Fix ZeroMQ components initialization","2021-4/22","2021-4/22","2021-4/22",True,"2021-4/22",2,55,8
+"GH-3554: Eval remote dir on each synchToLocal","2021-4/27","2021-4/27","2021-4/27",True,"2021-4/27",2,102,44
+"GH-3558: Kotlin DSL: propagate generics info","2021-5/5","2021-5/5","2021-5/5",True,"2021-5/5",2,11,4
+"GH-3560 Parse mail FROM as comma-delimited header","2021-5/5","2021-5/5","2021-5/5",True,"2021-5/5",2,13,21
+"GH-3504: Explain more an async error handling","2021-5/7","2021-5/7","2021-5/7",True,"2021-5/7",2,24,8
+"INT-1828: Docs about filter & release strategy","2021-5/11","2021-5/11","2021-5/11",True,"2021-5/11",2,4,0
+"INT-2436: JMS channel: bean name for container","2021-5/13","2021-5/13","2021-5/13",True,"2021-5/13",2,7,8
+"Set FTPSClient property once","2021-5/18","2021-5/18","2021-5/18",True,"2021-5/18",2,0,1
+"GH-3567: Retry for TransactionSystemException in JdbcLockRegistry","2021-5/25","2021-5/25","2021-5/25",True,"2021-5/25",2,29,7
+"GH-3509: Fix regression in TcpNetServerConnectionFactory","2021-5/25","2021-5/25","2021-5/25",True,"2021-5/25",2,8,4
+"GH-3570: Disable the generation of the Gradle metadata","2021-5/27","2021-5/27","2021-5/27",True,"2021-5/27",2,4,0
+"GH-3573: Add ConsumerRecord(s) to ConversionExcep.","2021-6/2","2021-6/2","2021-6/2",True,"2021-6/2",2,12,8
+"Link documentation formats","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",2,6,0
+"GH-3578: Fix JdbcMessageStore.getMessageGroup()","2021-6/10","2021-6/10","2021-6/10",True,"2021-6/10",2,46,30
+"Fix Websocket dynamic registration mapping order","2021-6/11","2021-6/11","2021-6/11",True,"2021-6/11",2,9,2
+"Fix dynamic Websocket endpoints for SockJS","2021-6/14","2021-6/14","2021-6/14",True,"2021-6/14",2,110,29
+"Fix a typo in InboundChannelAdapter","2021-6/15","2021-6/15","2021-6/15",True,"2021-6/15",3,1,1
+"GH-3584: Support spring-amqp 2.3.x and 2.4.x","2021-6/23","2021-6/23","2021-6/23",True,"2021-6/23",2,34,14
+"Functional gateway bean definitions","2021-7/2","2021-7/2","2021-7/2",True,"2021-7/2",2,219,111
+"Fix SourcePollingChAdFB autoStartup propagation","2021-7/6","2021-7/6","2021-7/6",True,"2021-7/6",2,16,7
+"GH-3424: Refactor to use logging methods from LogAccessor","2021-7/13","2021-7/13","2021-7/13",True,"2021-7/13",2,145,176
+"Make MessageHistory JSON-serializable","2021-7/15","2021-7/15","2021-7/15",True,"2021-7/15",2,30,6
+"GH-3591: Add `gateway()` section into `dsl.adoc`","2021-7/19","2021-7/19","2021-7/19",True,"2021-7/19",2,39,0
+"Fix pattern how `Lock.unlock()` is used","2021-7/19","2021-7/19","2021-7/19",True,"2021-7/19",2,13,12
+"GH-3549: Fix minor SonarQube smells","2021-7/23","2021-7/23","2021-7/23",True,"2021-7/23",2,77,77
+"Safely read message subject for debug message","2021-7/23","2021-8/23","2021-7/23",False,"null",4,59,6
+"GH-3549: Clean up SonarQube smells","2021-7/27","2021-7/27","2021-7/27",True,"2021-7/27",2,7,7
+"GH-3600: Fix Kafka Tx Synchronization","2021-7/28","2021-7/28","2021-7/28",True,"2021-7/28",2,62,7
+"GH-3601: Bring AMQP byte code compatibility back","2021-7/30","2021-7/30","2021-7/30",True,"2021-7/30",2,17,1
+"GH-3598: Fix delay time in TestingUtilities.waitStopListening()","2021-8/2","2021-8/2","2021-8/2",True,"2021-8/2",2,3,3
+"Fix to address expectation of proper exception","2021-8/6","2021-8/6","2021-8/6",True,"2021-8/6",3,63,33
+"Fix generics for customizeMonoReply()","2021-8/9","2021-8/9","2021-8/9",True,"2021-8/9",2,13,4
+"GH-3620: Fix Shared SFTP Session","2021-8/26","2021-8/26","2021-8/26",True,"2021-8/26",2,2,2
+"GH-3619: Fix Mail Receiver fetch redundant Messages","2021-9/2","2021-9/2","2021-9/2",True,"2021-9/2",2,2,1
+"Introduce high-level API for flows composition","2021-9/3","2021-9/3","2021-9/3",True,"2021-9/3",2,379,4
+"GH-3627: Fix race condition NPE in MqttPahoMDCA","2021-9/9","2021-9/9","2021-9/9",True,"2021-9/9",2,80,33
+"GH-3614: JPA outbound components delete in batch","2021-9/10","2021-9/10","2021-9/10",True,"2021-9/10",2,57,55
+"Fix reply producing to not block reactive thread","2021-9/10","2021-9/10","2021-9/10",True,"2021-9/10",2,50,3
+"Upgrade to Kotlin 1.5","2021-9/13","2021-9/13","2021-9/13",True,"2021-9/13",2,21,18
+"GH-3637: Fix KafkaMessageSource First Poll","2021-9/30","2021-9/30","2021-9/30",True,"2021-9/30",2,31,6
+"GH-3432: Add MQTT v5 channel adapters","2021-10/4","2021-10/4","2021-10/4",True,"2021-10/4",2,1401,138
+"GH-3617: KPMH - Option To Use Template's Converter","2021-10/6","2021-10/6","2021-10/6",True,"2021-10/6",2,84,2
+"Fixing IllegalStateException when duplicate cookie names are in the request","2021-10/9","2021-10/9","2021-10/9",False,"null",3,38,1
+"Feature/issue 3501 graphgl","2021-10/13","2022-2/13","2021-10/13",False,"null",15,6124,4430
+"GH-3643: Defer MeterRegistry bean dependency","2021-10/14","2021-10/14","2021-10/14",True,"2021-10/14",2,59,23
+"Improve GRADLE build Performance","2021-10/18","2021-10/18","2021-10/18",False,"null",4,17,0
+"GH-3648: Fix @Gateway.payloadExpression","2021-10/20","2021-10/20","2021-10/20",True,"2021-10/20",2,61,13
+"GH-3647: Use remoteDirExpression in MV command","2021-10/20","2021-10/20","2021-10/20",True,"2021-10/20",2,94,17
+"GH-3653: Improve DSL parsing performance","2021-10/22","2021-11/22","2021-10/22",True,"2021-11/22",2,85,68
+"Add `toReactivePublisher(autoStartOnSubscribe)`","2021-11/1","2021-11/1","2021-11/1",True,"2021-11/1",2,60,13
+"GH-3656: Fix package tangles","2021-11/1","2021-11/1","2021-11/1",True,"2021-11/1",2,292,113
+"GH-3652 Do not try to delete non-existing file in FileExistMode.REPLACE","2021-11/2","2021-11/2","2021-11/2",True,"2021-11/2",2,4,3
+"Update MqttMessageSentEvent.java","2021-11/5","2021-11/5","2021-11/5",True,"2021-11/5",2,1,1
+"RedisLockRegistry, add automatically deleted for redisLock","2021-11/8","2021-11/8","2021-11/8",False,"null",2,213,9
+"Fix WebFluxMH for proper response handling","2021-11/10","2021-11/10","2021-11/10",True,"2021-11/10",3,140,89
+"Update RedisLockRegistry default capacity value","2021-11/11","2021-11/11","2021-11/11",True,"2021-11/11",2,2,2
+"Clean up JdbcLockRegistry, ZookeeperLockRegistry cache automatically","2021-11/11","2021-11/11","2021-11/11",True,"2021-11/11",2,447,45
+"GH-3675: Restore nativeHeaders for WebSocketInChA","2021-11/15","2021-11/15","2021-11/15",True,"2021-11/15",2,4,3
+"GH-3677: Doc for URL conn customization in FeedCA","2021-11/16","2021-11/16","2021-11/16",True,"2021-11/16",2,53,13
+"Remove `Disposables` abstraction","2021-11/22","2021-11/22","2021-11/22",True,"2021-11/22",2,26,193
+"Make sure DefaultLockRepository always use new transaction","2021-11/25","2021-12/25","2021-11/25",False,"null",2,101,3
+"Quote CONDITION whenever necessary for JDBC","2021-12/9","2021-12/9","2021-12/9",True,"2021-12/9",2,180,85
+"GH-3688: Fix WS DSL for proper values propagation","2021-12/10","2021-12/10","2021-12/10",True,"2021-12/10",2,20,14
+"GH-3690: RedisLockRegistry improvement, using pub-sub for lock to wit…","2021-12/13","2021-12/13","2021-12/13",False,"null",2,210,26
+"GH-3694: Resolve circular dep in PublisherAnnBPP","2021-12/14","2021-12/14","2021-12/14",True,"2021-12/14",2,4,4
+"GH-3697: Various lifecycle fixed for MQTT v5 CAs","2021-12/16","2021-12/16","2021-12/16",True,"2021-12/16",2,31,7
+"GH-3700: Fix to retry until expiration time","2021-12/27","2022-1/27","2021-12/27",True,"2022-1/27",2,79,17
+"Fix variable name typo in the redis.adoc","2021-12/30","2022-1/30","2021-12/30",True,"2022-1/30",3,5,4
+"Close selector after write","2022-1/2","2022-1/2","2022-1/2",False,"null",4,535,137
+"Adding Close selector to prevent FD/FIFO leaks","2022-1/2","2022-1/2","2022-1/2",False,"null",3,16,8
+"GH-3701: Fix Possible TCP Memory Leak","2022-1/3","2022-1/3","2022-1/3",True,"2022-1/3",2,113,2
+"Move IntegrationDsl from .kt to .java","2022-1/3","2022-1/3","2022-1/3",True,"2022-1/3",2,17,4
+"GH-3713: TCP: Fix Intercepted Sender List","2022-2/1","2022-2/1","2022-2/1",True,"2022-2/1",2,115,29
+"GH-3711: Fix HTTP handler for content type header","2022-2/2","2022-2/2","2022-2/2",True,"2022-2/2",2,81,72
+"Fix @Poller Javadoc","2022-2/3","2022-2/3","2022-2/3",True,"2022-2/3",2,3,3
+"Add a basic example to Spring Integration with Reactive Streams","2022-2/4","2022-2/4","2022-2/4",True,"2022-2/4",3,139,4
+"GH-3716: Fix wait for init redisMessageListenerContainer","2022-2/5","2022-2/5","2022-2/5",True,"2022-2/5",2,14,3
+"Fix a mistake in a sentence about EIP components and BeanPostProcessor","2022-2/8","2022-2/8","2022-2/8",True,"2022-2/8",3,1,1
+"Fix example code","2022-2/10","2022-2/10","2022-2/10",True,"2022-2/10",2,1,1
+"Spring Issue: 28032 Distributed lock fix","2022-2/10","2022-2/10","2022-2/10",False,"null",3,3,0
+"Remove SocketUtils usage","2022-2/15","2022-2/15","2022-2/15",True,"2022-2/15",2,188,148
+"Issue 3501","2022-2/16","2022-2/16","2022-2/16",False,"null",2,602,0
+"Add serialVersionUID to MessageHistory","2022-3/6","2022-3/6","2022-3/6",True,"2022-3/6",2,6,3
+"Switch to spring-kafka 3.0.0-SNAPSHOT","2022-3/8","2022-3/8","2022-3/8",False,"null",2,71,63
+"Fixes spring-projects/spring-integration#3744","2022-3/9","2022-3/9","2022-3/9",True,"2022-3/9",2,2,2
+"Revise @Poller usage to single entry in Messaging Annotations.","2022-3/10","2022-3/10","2022-3/10",False,"null",2,90,67
+"GH-3732 make mqttClient initialize lazily","2022-3/14","2022-3/14","2022-3/14",False,"null",2,43,25
+"Cancel subscription for MPS.subscribeToPublisher","2022-3/15","2022-3/15","2022-3/15",True,"2022-3/15",2,46,8
+"GH-3661: Resolve Spring Apache Kafka Deprecations","2022-3/16","2022-3/16","2022-3/16",True,"2022-3/16",2,648,361
+"GH-2750: Deprecate container spec errorHandler","2022-3/16","2022-3/16","2022-3/16",True,"2022-3/16",2,2,0
+"GH-3734: Support MessageHistory on Kafka deser","2022-3/18","2022-3/18","2022-3/18",True,"2022-3/18",3,179,119

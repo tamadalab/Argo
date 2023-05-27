@@ -5,7 +5,6 @@ from datetime import datetime
 import datetime
 import pandas as pd
 import json
-from pandas.io.json import json_normalize
 import csv
 import sys
 import re

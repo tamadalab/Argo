@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Allocate entity IDs in blocks","2017-3/21","2017-5/21","2017-3/21",True,"2017-5/21",3,322,102
+"Set timeout on opener if possible","2017-3/21","2017-3/21","2017-3/21",False,"null",3,10,3
+"Use eventlet pool for Celery workers","2017-3/22","2017-5/22","2017-3/22",False,"null",3,8,11
+"Make sure Cassandra gets started after restore","2017-3/22","2017-3/22","2017-3/22",True,"2017-3/22",4,23,5
+"comply with GAE reverse chronological order of logs","2017-3/23","2017-3/23","2017-3/23",True,"2017-3/23",3,3,1
+"Hermes Stats Framework","2017-3/23","2017-4/23","2017-3/23",False,"null",4,450,125
+"Fix typo for maximum client connections.","2017-3/23","2017-3/23","2017-3/23",True,"2017-3/23",4,1,1
+"Add docs for starting datastore on its own","2017-3/28","2017-5/28","2017-3/28",True,"2017-5/28",4,49,0
+"Reset some non-default HAProxy options","2017-3/30","2017-4/30","2017-3/30",True,"2017-4/30",4,10,15
+"Remove unnecessary db request while adding task","2017-3/31","2017-4/31","2017-3/31",True,"2017-4/31",3,12,16
+"Log exceptions encountered on API server","2017-3/31","2017-4/31","2017-3/31",False,"null",4,3,3
+"Use LWT for task delete statement","2017-4/2","2017-4/2","2017-4/2",True,"2017-4/2",5,13,8
+"Use Kazoo's native reconnect policy","2017-4/2","2017-4/2","2017-4/2",True,"2017-4/2",3,15,188
+"Improve lease performance","2017-4/2","2017-4/2","2017-4/2",True,"2017-4/2",4,74,49
+"Make enabling datastore-viewer simpler","2017-4/3","2017-4/3","2017-4/3",True,"2017-4/3",4,93,33
+"Bump version to 3.2.0","2017-4/3","2017-4/3","2017-4/3",True,"2017-4/3",3,35,1
+"Package shared libraries in appscale-common","2017-4/4","2017-4/4","2017-4/4",True,"2017-4/4",3,237,370
+"Upgrade httparty gem","2017-4/4","2017-4/4","2017-4/4",True,"2017-4/4",4,18,16
+"Made twistd dependency explicit","2017-4/5","2017-4/5","2017-4/5",True,"2017-4/5",5,1,0
+"Continue build when repo update is not required","2017-4/5","2017-4/5","2017-4/5",True,"2017-4/5",4,33,27
+"fix upgrade script to handle changes since 3.1.0","2017-4/6","2017-4/6","2017-4/6",True,"2017-4/6",4,27,7
+"fixed zk_locations assignment and usage","2017-4/6","2017-4/6","2017-4/6",True,"2017-4/6",3,2,2
+"Bump version to 3.2.1","2017-4/6","2017-4/6","2017-4/6",True,"2017-4/6",3,7,1
+"Manually retry LWT statements during queue ops","2017-4/7","2017-4/7","2017-4/7",True,"2017-4/7",3,163,60
+"Use 4-space indentation in shell scripts","2017-4/12","2017-4/12","2017-4/12",True,"2017-4/12",3,337,339
+"Add UAClient","2017-4/12","2017-4/12","2017-4/12",True,"2017-4/12",3,258,286
+"Add AdminServer","2017-4/18","2017-5/18","2017-4/18",True,"2017-5/18",5,781,79
+"Ejabberd cert","2017-4/20","2017-4/20","2017-4/20",True,"2017-4/20",4,25,3
+"Use newer HAProxy server configuration syntax","2017-4/24","2017-4/24","2017-4/24",True,"2017-4/24",3,4,2
+"Exit controller service with error when not configured","2017-4/25","2017-4/25","2017-4/25",True,"2017-4/25",4,1,1
+"Disable ssl verification for SOAPPy","2017-4/25","2017-4/25","2017-4/25",True,"2017-4/25",3,4,0
+"Remove groomer log file check","2017-4/25","2017-4/25","2017-4/25",True,"2017-4/25",4,1,21
+"Give controller init script responsibility for PID","2017-4/26","2017-5/26","2017-4/26",True,"2017-5/26",4,53,21
+"Only start one process per BRServer","2017-4/26","2017-4/26","2017-4/26",True,"2017-4/26",3,1,1
+"Remove port suffix from LogService logfile","2017-4/26","2017-4/26","2017-4/26",True,"2017-4/26",4,1,1
+"Fix logic to allow adding instances on a cluster","2017-4/26","2017-4/26","2017-4/26",True,"2017-4/26",3,3,2
+"New hermes stats","2017-4/28","2017-5/28","2017-4/28",True,"2017-5/28",5,4005,232
+"Convert client socket timeout to datastore timeout","2017-4/30","2017-5/30","2017-4/30",True,"2017-5/30",3,17,7
+"Use reverse_each while iterating through a reverse array","2017-5/1","2017-5/1","2017-5/1",True,"2017-5/1",3,1,1
+"Start AppScale services in background","2017-5/2","2017-5/2","2017-5/2",True,"2017-5/2",3,170,187
+"Fixed code style warnings","2017-5/2","2017-5/2","2017-5/2",True,"2017-5/2",3,47,94
+"Move some AppController work to AdminServer","2017-5/3","2017-5/3","2017-5/3",True,"2017-5/3",4,227,122
+"Downscale instances not running any AppServers","2017-5/3","2017-5/3","2017-5/3",False,"null",2,29,43
+"Removed unused files, cleared some warnings","2017-5/4","2017-5/4","2017-5/4",True,"2017-5/4",4,10,24
+"Start AppServers and Celery workers in background","2017-5/5","2017-5/5","2017-5/5",True,"2017-5/5",3,293,202
+"Fix scaling down of instances","2017-5/5","2017-5/5","2017-5/5",True,"2017-5/5",5,136,112
+"Fix images stub to work with newer pillow","2017-5/9","2017-5/9","2017-5/9",True,"2017-5/9",3,1,1
+"Clean up ejabberd configuration","2017-5/10","2017-5/10","2017-5/10",True,"2017-5/10",4,1509,351
+"Use control file to install ZooKeeper and Kazoo","2017-5/10","2017-5/10","2017-5/10",True,"2017-5/10",3,8,5
+"Add support for Xenial","2017-5/11","2017-6/11","2017-5/11",True,"2017-6/11",5,155,11
+"Node stats profile log","2017-5/15","2017-5/15","2017-5/15",True,"2017-5/15",3,508,607
+"keep continue when we create a new user","2017-5/16","2017-5/16","2017-5/16",True,"2017-5/16",4,17,3
+"Handle version deletes with the AdminServer","2017-5/16","2017-5/16","2017-5/16",True,"2017-5/16",5,173,34
+"Rabbitmq","2017-5/17","2017-5/17","2017-5/17",True,"2017-5/17",3,38,30
+"Add required parameters during downscaling","2017-5/17","2017-5/17","2017-5/17",True,"2017-5/17",3,2,0
+"Processes stats profile log","2017-5/18","2017-6/18","2017-5/18",True,"2017-6/18",4,200,17
+"Proxies stats profile log","2017-5/18","2017-5/18","2017-5/18",False,"null",1,872,610
+"Added policy replications for queues","2017-5/18","2017-5/18","2017-5/18",True,"2017-5/18",3,12,9
+"Proxies stats profile log","2017-5/19","2017-6/19","2017-5/19",True,"2017-6/19",4,388,23
+"Hermes stats simplification, runtime customization of profile log","2017-5/23","2017-6/23","2017-5/23",True,"2017-6/23",5,1200,1569
+"Change parse_static_data to optionally copy files","2017-5/24","2017-5/24","2017-5/24",False,"null",1,19,6
+"Change parse_static_data to optionally copy files","2017-5/24","2017-6/24","2017-5/24",True,"2017-6/24",5,33,8
+"Relocate versions without restarting AppServers","2017-5/24","2017-6/24","2017-5/24",True,"2017-6/24",3,120,128
+"Change autoscale triggers to be within a desired capacity range","2017-5/24","2017-6/24","2017-5/24",False,"null",4,79,25
+"Headnode needs to unpack the app code sooner","2017-5/25","2017-5/25","2017-5/25",True,"2017-5/25",4,4,11
+"Keep track of the latest reloaded state","2017-5/26","2017-5/26","2017-5/26",True,"2017-5/26",4,3,1
+"Keep AppServers within range based on active sessions","2017-6/2","2017-6/2","2017-6/2",True,"2017-6/2",4,85,24
+"Bootstrap force upgrade","2017-6/5","2017-6/5","2017-6/5",True,"2017-6/5",4,33,8
+"Determine pidfile location from RabbitMQ version","2017-6/6","2017-6/6","2017-6/6",True,"2017-6/6",3,33,5
+"Xenial docker","2017-6/6","2017-6/6","2017-6/6",True,"2017-6/6",3,1,0
+"Install PyYAML with pip on Xenial","2017-6/7","2017-6/7","2017-6/7",True,"2017-6/7",3,9,1
+"3.3.0 Release notes","2017-6/8","2017-6/8","2017-6/8",True,"2017-6/8",3,58,29
+"Use eventlet pool for Celery workers","2017-6/9","2017-6/9","2017-6/9",True,"2017-6/9",3,8,13
+"Allow fewer dashboards for small deployments","2017-6/9","2017-6/9","2017-6/9",True,"2017-6/9",4,4,1
+"Raise a better error when there are no key samples","2017-6/9","2017-6/9","2017-6/9",True,"2017-6/9",4,8,0
+"Keep process name intact","2017-6/13","2017-6/13","2017-6/13",True,"2017-6/13",3,0,3
+"Store version details in ZooKeeper","2017-6/20","2017-6/20","2017-6/20",True,"2017-6/20",4,855,384
+"Always include autoscale_agent parameter","2017-6/20","2017-6/20","2017-6/20",True,"2017-6/20",4,1,2
+"Hermes update for autoscale test","2017-6/26","2017-7/26","2017-6/26",False,"null",2,150,100
+"Don't scale versions that haven't been loaded","2017-6/26","2017-6/26","2017-6/26",True,"2017-6/26",3,2,0
+"Upgrade Cassandra to 3.11","2017-6/26","2017-6/26","2017-6/26",True,"2017-6/26",4,303,117
+"Claim ownership of source archive","2017-6/26","2017-7/26","2017-6/26",True,"2017-7/26",3,83,55
+"Prevent instance assignment from falling below min","2017-6/29","2017-7/29","2017-6/29",True,"2017-7/29",4,2,5
+"Ensure port files are correct during every cycle","2017-6/29","2017-7/29","2017-6/29",True,"2017-7/29",3,27,4
+"Improve scaling policy","2017-6/29","2017-6/29","2017-6/29",False,"null",2,14,22
+"Improve scaling policy","2017-6/29","2017-8/29","2017-6/29",True,"2017-8/29",4,12,17
+"Account for queued requests","2017-6/29","2017-6/29","2017-6/29",False,"null",1,6,5
+"Remove cool-down for up-scaling","2017-6/29","2017-8/29","2017-6/29",True,"2017-8/29",4,7,19
+"Don't send Java AppServer logs to the dashboard","2017-6/30","2017-7/30","2017-6/30",True,"2017-7/30",3,0,29
+"start/stop appserver till the DUTY_CYCLE is up","2017-6/30","2017-8/30","2017-6/30",True,"2017-8/30",3,44,42
+"Only check disk usage for mountpoints in whitelist","2017-7/1","2017-7/1","2017-7/1",True,"2017-7/1",4,3,2
+"Use database locations from arguments","2017-7/2","2017-7/2","2017-7/2",True,"2017-7/2",3,12,16
+"Clean up old celery producer connections","2017-7/2","2017-7/2","2017-7/2",True,"2017-7/2",4,5,0
+"Shorten the time to check for running instances","2017-7/2","2017-7/2","2017-7/2",True,"2017-7/2",3,6,2
+"Remove reference to obsolete directory","2017-7/3","2017-7/3","2017-7/3",True,"2017-7/3",4,62,64
+"Print node stats sporadically","2017-7/3","2017-7/3","2017-7/3",True,"2017-7/3",3,1,1
+"Move hermes confs to zookeeper","2017-7/4","2017-8/4","2017-7/4",True,"2017-8/4",3,438,212
+"Set required fields for start transaction failures","2017-7/6","2017-11/6","2017-7/6",False,"null",2,3,2
+"Add UpdateQueues API","2017-7/7","2017-7/7","2017-7/7",True,"2017-7/7",4,848,1127
+"External access to hermes","2017-7/10","2017-7/10","2017-7/10",True,"2017-7/10",3,60,22

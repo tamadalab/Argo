@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 592,
+                "nodes": [
+                    {
+                        "title": "DelayHandler starts to process stored messages before all subsequent integration flows are properly initialized",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2543",
+                        "createdAt": "2018-08-22T10:54:13Z",
+                        "closedAt": "2018-08-28T19:46:28Z"
+                    },
+                    {
+                        "title": "Fix InboundChannelAdapter's javadoc",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2559",
+                        "createdAt": "2018-09-06T15:55:27Z",
+                        "closedAt": "2018-09-06T18:07:49Z"
+                    },
+                    {
+                        "title": "Silent error when message endpoint bean is depending on unfinished bean",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2565",
+                        "createdAt": "2018-09-17T13:29:41Z",
+                        "closedAt": "2018-10-03T15:02:53Z"
+                    },
+                    {
+                        "title": "Assert incorrectly triggered in FileReadingMessageSource",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2568",
+                        "createdAt": "2018-09-20T15:32:51Z",
+                        "closedAt": "2018-09-20T16:04:21Z"
+                    },
+                    {
+                        "title": "Enhancement - ChainFileListFilter constructors",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2569",
+                        "createdAt": "2018-09-20T16:18:16Z",
+                        "closedAt": "2018-09-21T15:32:20Z"
+                    },
+                    {
+                        "title": "Unable to link to integration source",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2574",
+                        "createdAt": "2018-10-01T19:43:39Z",
+                        "closedAt": "2018-10-23T19:24:54Z"
+                    },
+                    {
+                        "title": "connectionOptions ServerURIs ignored",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2577",
+                        "createdAt": "2018-10-04T07:29:47Z",
+                        "closedAt": "2019-04-25T17:26:36Z"
+                    },
+                    {
+                        "title": "MockIntegrationContext substituteMessageHandlerFor not working for ReactiveStreamsConsumer",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2582",
+                        "createdAt": "2018-10-05T06:39:08Z",
+                        "closedAt": "2018-10-05T07:14:14Z"
+                    },
+                    {
+                        "title": "DSL: aggregate() never releases messages split() from ArrayNode",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2583",
+                        "createdAt": "2018-10-05T06:50:06Z",
+                        "closedAt": "2018-10-05T07:08:30Z"
+                    },
+                    {
+                        "title": "Bean scope prototype not working despite advice in error message to use it",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2584",
+                        "createdAt": "2018-10-05T06:55:50Z",
+                        "closedAt": "2018-10-05T07:05:53Z"
+                    },
+                    {
+                        "title": "Question: Potential bug with sftp session reuse?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2605",
+                        "createdAt": "2018-10-22T13:44:10Z",
+                        "closedAt": "2018-10-23T17:59:02Z"
+                    },
+                    {
+                        "title": "Integrate GRPC",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2626",
+                        "createdAt": "2018-11-12T08:14:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "JdbcChannelMessageStore: poor performance for large buffers (Oracle+?)",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2628",
+                        "createdAt": "2018-11-13T16:28:05Z",
+                        "closedAt": "2018-11-30T18:09:01Z"
+                    },
+                    {
+                        "title": "JdbcChannelMessageStore: poor performance for long queue of messages",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2629",
+                        "createdAt": "2018-11-14T14:30:39Z",
+                        "closedAt": "2018-11-30T18:09:02Z"
+                    },
+                    {
+                        "title": "Strange abbreviation",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2631",
+                        "createdAt": "2018-11-16T06:43:35Z",
+                        "closedAt": "2018-11-16T14:12:26Z"
+                    },
+                    {
+                        "title": "Locking issue in spring-integration-redis 4.3.17",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2660",
+                        "createdAt": "2018-12-13T14:48:56Z",
+                        "closedAt": "2018-12-13T19:28:35Z"
+                    },
+                    {
+                        "title": "Question on Micrometer Metrics Integration",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2663",
+                        "createdAt": "2018-12-17T09:21:27Z",
+                        "closedAt": "2019-01-14T13:43:19Z"
+                    },
+                    {
+                        "title": "Question on reactive programming and Spring Integration",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2680",
+                        "createdAt": "2018-12-26T15:54:00Z",
+                        "closedAt": "2019-01-02T17:23:51Z"
+                    },
+                    {
+                        "title": "Custom dirty Session using RemoteFileTemplate?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2687",
+                        "createdAt": "2019-01-10T08:54:03Z",
+                        "closedAt": "2019-01-10T15:52:48Z"
+                    },
+                    {
+                        "title": "Revise the  MessagingMethodInvokerHelper complexity and consider to add out-of-the-box beans for the MessageHandlerMethodFactory",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2690",
+                        "createdAt": "2019-01-10T16:29:55Z",
+                        "closedAt": "2019-03-13T17:34:42Z"
+                    },
+                    {
+                        "title": "CachingSessionFactory - using different Pool strategies?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2692",
+                        "createdAt": "2019-01-11T14:48:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Can configure @EnablePublisher(proxyTargetClass=true)",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2695",
+                        "createdAt": "2019-01-14T17:43:21Z",
+                        "closedAt": "2019-01-17T15:44:40Z"
+                    },
+                    {
+                        "title": "ConcurrentModificationException when two threads execute a method annotated with @Publisher",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2699",
+                        "createdAt": "2019-01-15T20:58:47Z",
+                        "closedAt": "2019-01-16T23:03:06Z"
+                    },
+                    {
+                        "title": "Constructor visibility of AbstractMarkerFilePresentFileListFilter implementations?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2705",
+                        "createdAt": "2019-01-18T10:00:40Z",
+                        "closedAt": "2019-01-18T16:14:11Z"
+                    },
+                    {
+                        "title": "Add Multi-input Bridge",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2708",
+                        "createdAt": "2019-01-22T13:43:19Z",
+                        "closedAt": "2022-04-19T15:35:24Z"
+                    },
+                    {
+                        "title": "ClassCastException from PollSkipAdvice",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2714",
+                        "createdAt": "2019-01-24T14:24:40Z",
+                        "closedAt": "2019-01-24T15:46:05Z"
+                    },
+                    {
+                        "title": "Refactor PollSkipAdvice into an AbstractMessageSourceAdvice",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2717",
+                        "createdAt": "2019-01-24T17:49:48Z",
+                        "closedAt": "2019-02-08T20:17:45Z"
+                    },
+                    {
+                        "title": "AMQP adapter, poor performance with DMLC",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2719",
+                        "createdAt": "2019-01-25T16:13:28Z",
+                        "closedAt": "2019-01-25T16:51:15Z"
+                    },
+                    {
+                        "title": "Investigate concurrency support for the MqttPahoMessageDrivenChannelAdapter",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2720",
+                        "createdAt": "2019-01-25T20:12:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "RQ: more convenient splitter shortcuts",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2722",
+                        "createdAt": "2019-01-28T19:21:52Z",
+                        "closedAt": "2019-04-25T17:25:00Z"
+                    },
+                    {
+                        "title": "Unable to create XsltPayloadTransformer when Saxon HE is in the classpath.",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2723",
+                        "createdAt": "2019-01-29T14:07:13Z",
+                        "closedAt": "2019-01-29T17:27:06Z"
+                    },
+                    {
+                        "title": "Add an ability to log SQL queries executing in JdbcTemplate class provided by JdbcPollingChannelAdapter class when debug is enabled.",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2727",
+                        "createdAt": "2019-02-01T09:22:56Z",
+                        "closedAt": "2019-02-08T19:27:04Z"
+                    },
+                    {
+                        "title": "Expose amqp_channel and amqp_deliveryTag headers in case message conversion fails",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2728",
+                        "createdAt": "2019-02-01T08:14:50Z",
+                        "closedAt": "2019-02-01T17:57:12Z"
+                    },
+                    {
+                        "title": "Issue with Gateway when using in combination with Integration flow or a channel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2731",
+                        "createdAt": "2019-01-30T08:34:41Z",
+                        "closedAt": "2019-02-08T19:49:12Z"
+                    },
+                    {
+                        "title": "Memory leak with Spring Cloud Stream - metrics",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2733",
+                        "createdAt": "2019-02-04T20:51:40Z",
+                        "closedAt": "2019-02-05T14:48:49Z"
+                    },
+                    {
+                        "title": "Spring Integraton- Issue with Nested Scatter Gather Errors not Propagated",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2735",
+                        "createdAt": "2019-02-05T14:58:31Z",
+                        "closedAt": "2019-02-11T20:08:32Z"
+                    },
+                    {
+                        "title": "Support setAsync() on TcpOutboundGateway",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2736",
+                        "createdAt": "2019-02-05T20:14:06Z",
+                        "closedAt": "2020-04-01T21:43:30Z"
+                    },
+                    {
+                        "title": "File descriptor leak in DefaultSftpSessionFactory",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2739",
+                        "createdAt": "2019-02-08T12:13:46Z",
+                        "closedAt": "2019-02-08T14:30:43Z"
+                    },
+                    {
+                        "title": "Spring-Integration 5.1.2/5.1.3(pre-release Build): Issue with Scatter Gather Error in Gatherer not sent back to requestor",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2744",
+                        "createdAt": "2019-02-13T14:37:05Z",
+                        "closedAt": "2019-02-14T20:20:36Z"
+                    },
+                    {
+                        "title": "SynchFeed is not being set as the source for SynchEntry within FeedEntryMessageSource",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2747",
+                        "createdAt": "2019-02-14T02:06:54Z",
+                        "closedAt": "2020-04-30T15:56:57Z"
+                    },
+                    {
+                        "title": "DSL components not easily recognizable in stack trace",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2748",
+                        "createdAt": "2019-02-14T14:38:11Z",
+                        "closedAt": "2019-07-17T19:11:11Z"
+                    },
+                    {
+                        "title": "Retire ChannelInterceptorAware in favor of org.springframework.messaging.support.InterceptableChannel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2749",
+                        "createdAt": "2019-02-14T17:26:29Z",
+                        "closedAt": "2019-02-22T15:22:59Z"
+                    },
+                    {
+                        "title": "Http inbound gateway not working when Feign config enabled.",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2752",
+                        "createdAt": "2019-02-15T09:26:39Z",
+                        "closedAt": "2019-02-19T21:08:28Z"
+                    },
+                    {
+                        "title": "Consider to remove Guava dependency used only as optional in the StoredProcExecutor for caching",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2753",
+                        "createdAt": "2019-02-15T20:03:45Z",
+                        "closedAt": "2019-03-07T17:59:20Z"
+                    },
+                    {
+                        "title": "RouterSpec channelMapping takes no MessageChannel.",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2754",
+                        "createdAt": "2019-02-19T11:05:12Z",
+                        "closedAt": "2019-04-05T19:15:34Z"
+                    },
+                    {
+                        "title": "AmqpOutboundEndpoint publisher confirms timeout?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2755",
+                        "createdAt": "2019-02-19T12:44:21Z",
+                        "closedAt": "2019-04-03T21:32:55Z"
+                    },
+                    {
+                        "title": "Non serializable mail message fails on Pop3MailReceiver.deleteMessage",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2756",
+                        "createdAt": "2019-02-19T18:24:09Z",
+                        "closedAt": "2019-04-25T17:22:12Z"
+                    },
+                    {
+                        "title": "AMQP CorrelationDataWrapper Needs to Delegate New Methods",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2759",
+                        "createdAt": "2019-02-21T18:11:04Z",
+                        "closedAt": "2019-02-22T15:20:52Z"
+                    },
+                    {
+                        "title": "Consider using assertThatExceptionOfType rather than assertThatThrownBy",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2760",
+                        "createdAt": "2019-02-21T18:15:37Z",
+                        "closedAt": "2019-02-22T18:54:50Z"
+                    },
+                    {
+                        "title": "Add discard channel support for splitters",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2765",
+                        "createdAt": "2019-02-25T14:54:00Z",
+                        "closedAt": "2019-04-08T20:42:58Z"
+                    },
+                    {
+                        "title": "Refactoring breaks bean initialization",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2767",
+                        "createdAt": "2019-02-27T08:36:35Z",
+                        "closedAt": "2019-02-27T14:27:12Z"
+                    },
+                    {
+                        "title": "AbstractMessageSource - check for an empty headerExpressions Map before evaluating",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2770",
+                        "createdAt": "2019-02-28T14:42:25Z",
+                        "closedAt": "2019-02-28T17:47:18Z"
+                    },
+                    {
+                        "title": "Consider Adding a DynamicSessionFactory",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2771",
+                        "createdAt": "2019-02-28T15:39:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "MessagePublishingErrorHandler Log does not handle logback-spring configuration",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2775",
+                        "createdAt": "2019-03-01T14:15:59Z",
+                        "closedAt": "2019-04-25T17:20:18Z"
+                    },
+                    {
+                        "title": "Possible race in FtpStreamingMessageSourceTests",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2776",
+                        "createdAt": "2019-03-01T16:16:13Z",
+                        "closedAt": "2019-03-01T19:35:32Z"
+                    },
+                    {
+                        "title": "Defer remote file filtering logic until a file is processed",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2777",
+                        "createdAt": "2019-03-01T18:13:17Z",
+                        "closedAt": "2019-03-05T22:51:11Z"
+                    },
+                    {
+                        "title": "ByteArrayLengthHeaderSerializer headerSize Enhancement",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2780",
+                        "createdAt": "2019-03-04T19:20:44Z",
+                        "closedAt": "2019-03-04T23:51:34Z"
+                    },
+                    {
+                        "title": "Build failure: PersistentAcceptOnceFileListFilterExternalStoreTests. executionError",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2782",
+                        "createdAt": "2019-03-04T22:55:46Z",
+                        "closedAt": "2019-03-08T16:46:34Z"
+                    },
+                    {
+                        "title": "Inconsistent behaviour of message handlers depending on style of configuration.",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2784",
+                        "createdAt": "2019-03-05T15:14:05Z",
+                        "closedAt": "2019-03-07T19:49:51Z"
+                    },
+                    {
+                        "title": "Enhancement: Connection-Correlating Client Connection Factory",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2785",
+                        "createdAt": "2019-03-05T21:58:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Feature request: mongo change stream",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2788",
+                        "createdAt": "2019-03-06T11:53:27Z",
+                        "closedAt": "2020-04-07T20:52:24Z"
+                    },
+                    {
+                        "title": "Official support for a visualization tool",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2789",
+                        "createdAt": "2019-03-06T22:29:34Z",
+                        "closedAt": "2019-03-07T16:23:56Z"
+                    },
+                    {
+                        "title": "Add convenient options into the HeaderEnricherSpec for common headers",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2792",
+                        "createdAt": "2019-03-07T17:36:33Z",
+                        "closedAt": "2019-04-12T16:57:58Z"
+                    },
+                    {
+                        "title": "Publisher confirms timeout",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2797",
+                        "createdAt": "2019-02-25T15:14:16Z",
+                        "closedAt": "2019-03-11T22:19:13Z"
+                    },
+                    {
+                        "title": "GatewayProxyFactoryBean for unannotated interface creates gateway with empty string errorChannel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2799",
+                        "createdAt": "2019-03-11T16:22:35Z",
+                        "closedAt": "2019-03-11T20:05:38Z"
+                    },
+                    {
+                        "title": "Deprecate MetricsFactory and friends",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2803",
+                        "createdAt": "2019-03-12T16:39:59Z",
+                        "closedAt": "2019-04-10T14:48:33Z"
+                    },
+                    {
+                        "title": "Eliminate MicrometerMetricsCaptor",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2804",
+                        "createdAt": "2019-03-12T16:40:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support generic types in the HttpRequestHandlingEndpointSupport",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2806",
+                        "createdAt": "2019-03-13T21:29:28Z",
+                        "closedAt": "2019-03-15T18:45:34Z"
+                    },
+                    {
+                        "title": "Java DSL for web services",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2818",
+                        "createdAt": "2019-03-17T10:54:59Z",
+                        "closedAt": "2020-02-20T19:59:33Z"
+                    },
+                    {
+                        "title": "FtpRemoteFileTemplate connection leak with ExistsMode.NLST_AND_DIRS",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2820",
+                        "createdAt": "2019-03-18T22:24:31Z",
+                        "closedAt": "2019-03-19T15:16:05Z"
+                    },
+                    {
+                        "title": "Spring Integration 4.3 Reference Docs Not Rendered Properly on spring.io",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2825",
+                        "createdAt": "2019-03-20T17:55:15Z",
+                        "closedAt": "2019-03-20T18:55:21Z"
+                    },
+                    {
+                        "title": "Enhancement: Manage back pressure on asynchronous message providers such as Kafka",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2838",
+                        "createdAt": "2019-03-23T19:22:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "TCP Client Connection Factory Improvements",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2866",
+                        "createdAt": "2019-03-28T18:59:56Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spurious ConcurrentModificationException in aggregator",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2867",
+                        "createdAt": "2019-03-29T08:02:41Z",
+                        "closedAt": "2019-04-24T18:35:33Z"
+                    },
+                    {
+                        "title": "RedisUtils.isUnlinkAvailable bug",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2868",
+                        "createdAt": "2019-03-29T08:46:39Z",
+                        "closedAt": "2019-03-29T18:57:15Z"
+                    },
+                    {
+                        "title": "spring integration tech:806864360",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2869",
+                        "createdAt": "2019-03-29T09:59:01Z",
+                        "closedAt": "2019-03-29T14:30:43Z"
+                    },
+                    {
+                        "title": "Support Multiple Files for One Form Field in multipart/form-data",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2872",
+                        "createdAt": "2019-03-31T13:24:38Z",
+                        "closedAt": "2019-04-02T17:08:57Z"
+                    },
+                    {
+                        "title": "Exception match order in ErrorMessageExceptionTypeRouter",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2873",
+                        "createdAt": "2019-04-01T07:10:48Z",
+                        "closedAt": "2019-04-01T19:29:40Z"
+                    },
+                    {
+                        "title": "Copy IP headers to syslog messages",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2874",
+                        "createdAt": "2019-04-01T12:37:57Z",
+                        "closedAt": "2019-04-01T15:27:29Z"
+                    },
+                    {
+                        "title": "Handle Pausable via Control Bus",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2880",
+                        "createdAt": "2019-04-02T16:22:17Z",
+                        "closedAt": "2019-05-30T18:10:02Z"
+                    },
+                    {
+                        "title": "Cache in RedisUtils is not thread safe",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2884",
+                        "createdAt": "2019-04-04T23:25:48Z",
+                        "closedAt": "2019-04-05T19:13:09Z"
+                    },
+                    {
+                        "title": "Documentation Enhancement: Describe point to point vs Centralized ESB",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2886",
+                        "createdAt": "2019-04-08T04:00:00Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Explain the need for an initial bridge in a subflow starting with a channel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2890",
+                        "createdAt": "2019-04-09T18:48:30Z",
+                        "closedAt": "2019-08-29T18:53:03Z"
+                    },
+                    {
+                        "title": "Fix Tangles",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2892",
+                        "createdAt": "2019-04-10T15:46:44Z",
+                        "closedAt": "2019-04-11T17:03:03Z"
+                    },
+                    {
+                        "title": "Is this a bug when lock is timeout it throws an excption in spring-integration-redis?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2894",
+                        "createdAt": "2019-04-11T12:44:04Z",
+                        "closedAt": "2019-04-12T23:59:01Z"
+                    },
+                    {
+                        "title": "NullPointer on error message being sent to errorChannel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2897",
+                        "createdAt": "2019-04-16T10:49:00Z",
+                        "closedAt": "2019-04-16T16:42:46Z"
+                    },
+                    {
+                        "title": "Jms.inboundGateway not sending errors to errorChannel",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2901",
+                        "createdAt": "2019-04-25T10:31:17Z",
+                        "closedAt": "2019-04-25T18:10:16Z"
+                    },
+                    {
+                        "title": "Attribute `name` in @Header not taken into account",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2908",
+                        "createdAt": "2019-04-29T15:29:04Z",
+                        "closedAt": "2019-04-29T22:25:03Z"
+                    },
+                    {
+                        "title": "Documentation Enhancement: File Support",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2930",
+                        "createdAt": "2019-05-14T14:49:46Z",
+                        "closedAt": "2019-10-03T13:32:39Z"
+                    },
+                    {
+                        "title": "Add support for AMQP batched mesages",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2931",
+                        "createdAt": "2019-05-14T17:29:20Z",
+                        "closedAt": "2019-05-14T20:01:01Z"
+                    },
+                    {
+                        "title": "Spring startup failure when WebApplicationType is set to \"reactive\"",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2933",
+                        "createdAt": "2019-05-15T10:27:06Z",
+                        "closedAt": "2019-05-15T14:55:03Z"
+                    },
+                    {
+                        "title": "Ability to change file permission when using sftp outbound adapter",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2935",
+                        "createdAt": "2019-05-20T21:25:48Z",
+                        "closedAt": "2019-05-21T13:18:14Z"
+                    },
+                    {
+                        "title": "Not able to set custom converters to MongoDbMessageStore",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2936",
+                        "createdAt": "2019-05-20T21:29:42Z",
+                        "closedAt": "2019-05-30T14:36:38Z"
+                    },
+                    {
+                        "title": "redisTemplate, how to determine the key doesn't exist or the value is empty by access redis once?",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2945",
+                        "createdAt": "2019-05-30T01:46:24Z",
+                        "closedAt": "2019-05-30T01:53:09Z"
+                    },
+                    {
+                        "title": "Feature Enhancement : Add prefix or suffix to file name while the file is getting streamed via SFTP",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2955",
+                        "createdAt": "2019-06-07T00:01:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Need getMetricCaptor protected method in AbstractMessageHandler",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2956",
+                        "createdAt": "2019-06-10T07:58:55Z",
+                        "closedAt": "2019-06-11T14:27:59Z"
+                    },
+                    {
+                        "title": "Add generic source_message header",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2958",
+                        "createdAt": "2019-06-10T20:45:29Z",
+                        "closedAt": "2019-06-10T22:09:49Z"
+                    },
+                    {
+                        "title": "Mismatch between mechanism to check if nullChannel bean exists and mechanism to fetch that bean",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2962",
+                        "createdAt": "2019-06-11T15:43:14Z",
+                        "closedAt": "2019-06-13T15:59:44Z"
+                    },
+                    {
+                        "title": "ScatterGatherHandler getting stuck after first message",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2967",
+                        "createdAt": "2019-06-19T15:21:10Z",
+                        "closedAt": "2019-06-19T20:14:12Z"
+                    },
+                    {
+                        "title": "Enhancement: Convenience class for JmsMessageDrivenChannelAdapterListenerContainerSpec<JmsDefaultListenerContainerSpec, DefaultMessageListenerContainer>",
+                        "url": "https://github.com/spring-projects/spring-integration/issues/2970",
+                        "createdAt": "2019-06-19T18:53:37Z",
+                        "closedAt": "2019-06-19T18:56:10Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOG08vZg==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

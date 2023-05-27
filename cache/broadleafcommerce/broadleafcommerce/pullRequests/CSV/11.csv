@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fixed an issue where Admin returns blank error page on error","2020-10/30","2020-11/30","2020-10/30",True,"2020-11/30",2,47,0
+"Make XFormsParams protected","2020-10/30","2020-12/30","2020-10/30",True,"2020-12/30",3,14,2
+"Update info on data driven enums on each metadata request, so in case of different sites data for enums should be for that site","2020-11/3","2020-11/3","2020-11/3",True,"2020-11/3",4,15,0
+"Fix product option error message","2020-11/4","2020-11/4","2020-11/4",True,"2020-11/4",3,2,2
+"Fixed an issue where Duplicate Catalogs get created when rapidly clicking save button","2020-11/5","2020-11/5","2020-11/5",True,"2020-11/5",2,2,0
+"add a test that checks OrderImpl.getHasOrderAdjustments()","2020-11/5","2022-3/5","2020-11/5",True,"2022-3/5",3,23,0
+"Populated entity type and field name for edit on admin translations controller.","2020-11/6","2020-11/6","2020-11/6",True,"2020-11/6",2,27,21
+"Fixed an issue where Various Sql errors during the 6.1 startup in create mode","2020-11/9","2020-11/9","2020-11/9",True,"2020-11/9",3,2,2
+"Add support of uniqueConstraints to DirectCopyClassTransformer","2020-11/11","2020-12/11","2020-11/11",True,"2020-12/11",3,45,3
+"Fixed an issue where Product Add-on incorrectly shows ""Included""","2020-11/12","2020-11/12","2020-11/12",True,"2020-11/12",4,10,0
+"Move sorting out from the getter","2020-11/23","2020-11/23","2020-11/23",True,"2020-11/23",3,26,12
+"Qa 4257 catalog pagination in modal fix","2020-11/23","2020-11/23","2020-11/23",True,"2020-11/23",4,8,5
+"Added default locale for Site","2020-11/23","2021-2/23","2020-11/23",True,"2021-2/23",2,45,6
+"Fix Totalitarian offer calculations","2020-11/26","2020-11/26","2020-11/26",True,"2020-11/26",2,187,29
+"Fixed an issue where Editing other fields of the product is changing description of product","2020-12/3","2020-12/3","2020-12/3",True,"2020-12/3",2,3,1
+"QA-4274 Fixed security vulnerabilities in the JQuery  and JUnit libraries via updating","2020-12/4","2020-12/4","2020-12/4",True,"2020-12/4",3,8099,7565
+"Remove deprecated admin presentation overrides","2020-12/5","2020-12/5","2020-12/5",True,"2020-12/5",1,5,750
+"Fixed an issue where Error when filtering role permissions tab","2020-12/8","2020-12/8","2020-12/8",True,"2020-12/8",3,8,1
+"Fix for cascades for product, so when sku is deleted it is not cascaded to product","2020-12/9","2020-12/9","2020-12/9",True,"2020-12/9",3,2,2
+"Updated libraries and removed old Jquery files","2020-12/9","2020-12/9","2020-12/9",True,"2020-12/9",2,21750,18801
+"Remove criteria builder entity casts","2020-12/11","2020-12/11","2020-12/11",True,"2020-12/11",1,29,12
+"Fixed an issue where user is not able to add/edit scheduled jobs in the admin","2020-12/11","2020-12/11","2020-12/11",True,"2020-12/11",3,12,2
+"Fixed an issue where viewing audit details the UI table can overflow and become unresponsive","2020-12/14","2020-12/14","2020-12/14",True,"2020-12/14",2,44,47
+"Upgrade Hibernate from 4.3.15 to 4.3.20 for security reasons","2020-12/14","2021-1/14","2020-12/14",True,"2021-1/14",2,1,1
+"Replace const with var on js files to avoid minification issues","2020-12/15","2020-12/15","2020-12/15",True,"2020-12/15",3,4,4
+"QA-4276 Product option attribute name prevention","2020-12/16","2020-12/16","2020-12/16",True,"2020-12/16",2,47,7
+"Add extension handler to filter-out add-ons for site map","2020-12/16","2021-1/16","2020-12/16",True,"2021-1/16",3,124,7
+"ESAPI update to 2.2.2.0","2020-12/17","2020-12/17","2020-12/17",True,"2020-12/17",2,11,2
+"Fix missing addressLine3 when copy address using AddressService","2020-12/17","2020-12/17","2020-12/17",True,"2020-12/17",2,1,0
+"Fix ProductBundleImpl stackoverflow when calling equals or hashcode","2020-12/17","2020-12/17","2020-12/17",True,"2020-12/17",2,0,4
+"Adding logic to FormBuilder to allow Currencies to be used in RuleBuilder dropdowns","2020-12/17","2020-12/17","2020-12/17",False,"null",2,3,0
+"Adding logic to FormBuilder to allow Currencies to be used in RuleBuilder dropdowns","2020-12/17","2020-12/17","2020-12/17",True,"2020-12/17",2,3,0
+"Do not assign id to anonymous customers","2020-12/21","2021-3/21","2020-12/21",True,"2021-3/21",3,47,34
+"Deproxy nested fields when reading field values","2021-1/4","2021-1/4","2021-1/4",True,"2021-1/4",3,1,0
+"QA-4319 Fixed ""category removing"" trigger","2021-1/11","2021-1/11","2021-1/11",True,"2021-1/11",2,1,1
+"Decode validation string when xss protection is enabled","2021-1/12","2021-1/12","2021-1/12",True,"2021-1/12",2,10,1
+"Improve logic on building invalid product option error message","2021-1/14","2021-3/14","2021-1/14",True,"2021-3/14",2,5,4
+"Update XSS Filter and Wrapper strip XSS logic","2021-1/14","2021-3/14","2021-1/14",True,"2021-3/14",2,73,38
+"Fix performance issues due to processing time of hashCode() on ProductOptionImpl","2021-1/15","2021-1/15","2021-1/15",True,"2021-1/15",3,0,2
+"Fix errors while adding/changing Content Targeters","2021-1/18","2021-1/18","2021-1/18",True,"2021-1/18",2,2,2
+"use serializable transaction wrap the process of checkout","2021-1/18","2021-1/18","2021-1/18",False,"null",3,6,0
+"Editing Scheduled Job parameters fix","2021-1/19","2021-1/19","2021-1/19",True,"2021-1/19",3,3,1
+"Refactor entity cache regions for better performance tuning","2021-1/20","2021-1/20","2021-1/20",True,"2021-1/20",1,400,102
+"Redactor Edit Link checkbox change event fix","2021-1/21","2021-1/21","2021-1/21",True,"2021-1/21",2,4,2
+"Add sorting back so add to cart addons/checkout process works smooth","2021-1/21","2021-2/21","2021-1/21",True,"2021-2/21",4,26,0
+"Removed ""Deprecated"" annotation from AdminGroupPresentation#collapsed","2021-1/27","2021-1/27","2021-1/27",True,"2021-1/27",2,0,1
+"Fixed issue where creation of site with ""synced copy"" catalog would sometimes fail creating the catalog","2021-1/27","2021-1/27","2021-1/27",True,"2021-1/27",3,2,1
+"Fixed an issue where Customer updated on registration validation errors","2021-2/1","2021-2/1","2021-2/1",True,"2021-2/1",3,30,1
+"Upgrading Apache Commons-Validator library to latest available (version 1.7)","2021-2/5","2021-2/5","2021-2/5",True,"2021-2/5",2,1,1
+"Added post fetch verification and foreign key security check","2021-2/9","2021-2/9","2021-2/9",True,"2021-2/9",4,36,4
+"Disable login user by email","2021-2/9","2021-2/9","2021-2/9",True,"2021-2/9",3,0,6
+"- Fix mvel issue when parser fails to parse ?someBeanA || ?someBeanB. ?someBeanB is a valid expression, but parser fails, so need to wrap it in ()","2021-2/11","2021-2/11","2021-2/11",True,"2021-2/11",4,18,4
+"Added post fetch verification and foreign key security check","2021-2/12","2021-2/12","2021-2/12",True,"2021-2/12",2,1,0
+"Add the ability for Products to be Copied","2021-2/17","2021-6/17","2021-2/17",True,"2021-6/17",3,313,48
+"Changed access modifier of the post validation method","2021-2/19","2021-2/19","2021-2/19",True,"2021-2/19",2,1,1
+"Do not use a message lookup when checking for media grid row actions","2021-2/23","2021-3/23","2021-2/23",True,"2021-3/23",2,2,2
+"Add Days count and Limit to the historical purge parameters","2021-3/10","2021-3/10","2021-3/10",True,"2021-3/10",1,100,54
+"Fixes permissions for SkuAttribute","2021-3/16","2021-3/16","2021-3/16",True,"2021-3/16",2,2,0
+"Fixed 'Unlink' button for the Redactor link","2021-3/29","2021-3/29","2021-3/29",True,"2021-3/29",2,1,1
+"Bump guava from 24.1.1-jre to 29.0-jre","2021-3/30","2021-3/30","2021-3/30",False,"null",0,1,1
+"Refresh customer after change of address","2021-3/31","2021-4/31","2021-3/31",True,"2021-4/31",2,16,0
+"Adds the ability to create a new entity inside the current folder","2021-4/1","2021-6/1","2021-4/1",True,"2021-6/1",2,9,0
+"Update comments referring to ""SearchField"" to ""IndexField""","2021-4/3","2021-4/3","2021-4/3",True,"2021-4/3",2,9,9
+"Use createStandaloneElement for the CSS link tag so it closes properly","2021-4/3","2021-4/3","2021-4/3",True,"2021-4/3",2,1,1
+"Added canonicalization for ESAPI (fixed log output)","2021-4/5","2021-4/5","2021-4/5",True,"2021-4/5",2,1,1
+"Update default decimal value for locale","2021-4/6","2021-4/6","2021-4/6",True,"2021-4/6",2,24,0
+"Adds search capabilities to folder entity list page","2021-4/9","2021-6/9","2021-4/9",True,"2021-6/9",2,4,0
+"fix for admin audit tab for alt skus","2021-4/13","2021-4/13","2021-4/13",True,"2021-4/13",2,1,1
+"close meta tag inline","2021-4/14","2021-4/14","2021-4/14",True,"2021-4/14",3,1,1
+"add versions to css, js files that are referenced directly","2021-4/14","2021-5/14","2021-4/14",True,"2021-5/14",3,11,10
+"Fixed issue where /admin context was hard coded in the assetSelector.js file","2021-4/14","2021-4/14","2021-4/14",True,"2021-4/14",2,2,2
+"Changing Money evaluations against Money.ZERO to use compareTo instead of equals","2021-4/14","2021-4/14","2021-4/14",True,"2021-4/14",2,1,1
+"Update README.md","2021-4/15","2021-4/15","2021-4/15",False,"null",1,1,1
+"Added an @Cache class annotation to CustomerAddressImpl","2021-4/16","2021-4/16","2021-4/16",True,"2021-4/16",2,3,0
+" sonar .yml","2021-4/21","2021-4/21","2021-4/21",False,"null",1,42,0
+"Fix for having adorned list entity another adorned list","2021-4/27","2021-5/27","2021-4/27",True,"2021-5/27",2,25,18
+"Add validation for deletion of categories, check if it is a primary category for some product","2021-5/7","2021-5/7","2021-5/7",True,"2021-5/7",2,47,0
+"Upgrade spring-security to address vulnerability","2021-5/11","2021-6/11","2021-5/11",True,"2021-6/11",2,1,1
+"Fixed an issue where Sorting for values of BroadleafEnumerationType doesn't work","2021-5/20","2021-6/20","2021-5/20",True,"2021-6/20",2,1,1
+"Fixing issues caused by cherry picking MVEL fixes","2021-5/20","2021-5/20","2021-5/20",True,"2021-5/20",1,3,35
+"When an offer is configured with ""apply to items already on sale"" = No and the salePrice + discount < retail + discount then the sale price only is incorrectly getting used","2021-5/20","2021-5/20","2021-5/20",True,"2021-5/20",2,8,1
+"Updating libraries XStreams and Jackson-Dataformat due to reported security vulnerabilities","2021-5/24","2021-5/24","2021-5/24",True,"2021-5/24",2,2,2
+"Removed Lazy loading annotation from ManyToOne relationships to address issues with missing Hibernate session","2021-5/27","2021-5/27","2021-5/27",True,"2021-5/27",2,10,11
+"Merge alternate transition changes to 5.1.x develop branch","2021-5/27","2021-6/27","2021-5/27",False,"null",5,65,36
+"Backported select changes for Alt Transition","2021-5/28","2021-5/28","2021-5/28",True,"2021-5/28",2,395,34
+"Fix to not allow change username in browser","2021-6/1","2021-6/1","2021-6/1",True,"2021-6/1",2,12,4
+"Upgrade libs for security","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",2,8,3
+"Fixed an issue where Sorting for values of BroadleafEnumerationType doesn't work","2021-6/10","2021-6/10","2021-6/10",True,"2021-6/10",3,23,17
+"Added code to properly encode the &laquo; and &raquo; characters","2021-6/15","2021-6/15","2021-6/15",True,"2021-6/15",1,3,1
+"upgrade ehcache","2021-6/16","2021-6/16","2021-6/16",True,"2021-6/16",2,1,1
+"Fixed ConfirmedPaymentRollbackHandler to make sure to archive all payments if a rollback is triggered","2021-6/17","2021-6/17","2021-6/17",True,"2021-6/17",2,1,0
+"Add county field","2021-6/17","2021-6/17","2021-6/17",True,"2021-6/17",4,13,0
+"Upgrade libs for security","2021-6/17","2021-6/17","2021-6/17",True,"2021-6/17",1,8,3
+"Entity lookups are displaying empty fields when participating in an adornedTargetCollection relationship","2021-6/18","2021-6/18","2021-6/18",True,"2021-6/18",2,15,2
+"Core changes for Duplicator 6 0","2021-6/18","2021-6/18","2021-6/18",True,"2021-6/18",2,1005,370
+"Code refactoring for OrderToPaymentRequestDTOServiceImpl","2021-6/22","2021-6/22","2021-6/22",True,"2021-6/22",2,43,76
+"Upgrade spring & hibernate to the latest for 6.2","2021-6/23","2021-6/23","2021-6/23",True,"2021-6/23",2,4,4
+"Disable duplication feature for all entity types except Product","2021-6/25","2021-6/25","2021-6/25",True,"2021-6/25",3,95,0
+"libs update","2021-6/29","2021-6/29","2021-6/29",True,"2021-6/29",2,32,5
+"Upgrade xml bean to latest version","2021-6/29","2021-6/29","2021-6/29",True,"2021-6/29",1,1,1

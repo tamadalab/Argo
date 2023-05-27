@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 6769,
+                "nodes": [
+                    {
+                        "title": "Data viewer cell width not constrained; list cells don't render",
+                        "url": "https://github.com/rstudio/rstudio/issues/3940",
+                        "createdAt": "2018-11-21T18:21:58Z",
+                        "closedAt": "2018-12-03T16:23:38Z"
+                    },
+                    {
+                        "title": "Progress bar shown in output tab for non-ranged jobs",
+                        "url": "https://github.com/rstudio/rstudio/issues/3941",
+                        "createdAt": "2018-11-22T00:49:56Z",
+                        "closedAt": "2018-11-27T21:25:20Z"
+                    },
+                    {
+                        "title": "Remote X11 connection fails (Rstudio preview v1.2-1139)",
+                        "url": "https://github.com/rstudio/rstudio/issues/3942",
+                        "createdAt": "2018-11-22T15:30:27Z",
+                        "closedAt": "2018-11-26T17:11:55Z"
+                    },
+                    {
+                        "title": "(RStudio-1.2.1139) cannot preview rendered radix blog ",
+                        "url": "https://github.com/rstudio/rstudio/issues/3943",
+                        "createdAt": "2018-11-23T17:30:35Z",
+                        "closedAt": "2018-11-23T18:03:02Z"
+                    },
+                    {
+                        "title": "Feature Request: keyboard shortcut for 'Set Working Directory to Source File Location'",
+                        "url": "https://github.com/rstudio/rstudio/issues/3944",
+                        "createdAt": "2018-11-24T17:02:01Z",
+                        "closedAt": "2019-12-04T20:19:27Z"
+                    },
+                    {
+                        "title": "Use fixed-width font for Find and Replace fields",
+                        "url": "https://github.com/rstudio/rstudio/issues/3945",
+                        "createdAt": "2018-11-25T08:18:24Z",
+                        "closedAt": "2021-02-20T01:24:07Z"
+                    },
+                    {
+                        "title": "`serialize(options(\"askpass\"))` and other RStudio options generates unwanted warning",
+                        "url": "https://github.com/rstudio/rstudio/issues/3946",
+                        "createdAt": "2018-11-25T16:48:12Z",
+                        "closedAt": "2020-07-16T22:06:44Z"
+                    },
+                    {
+                        "title": "resolve rsconnect issue before release",
+                        "url": "https://github.com/rstudio/rstudio/issues/3947",
+                        "createdAt": "2018-11-26T17:15:22Z",
+                        "closedAt": "2018-12-06T18:12:51Z"
+                    },
+                    {
+                        "title": "investigate why Windows docker build image is picking up newer MSVC",
+                        "url": "https://github.com/rstudio/rstudio/issues/3949",
+                        "createdAt": "2018-11-27T00:29:59Z",
+                        "closedAt": "2019-05-01T00:45:36Z"
+                    },
+                    {
+                        "title": "RStudio settings lost on Windows because they are in Local and not in Roaming",
+                        "url": "https://github.com/rstudio/rstudio/issues/3950",
+                        "createdAt": "2018-11-27T14:52:40Z",
+                        "closedAt": "2019-02-26T20:17:07Z"
+                    },
+                    {
+                        "title": "Import from Excel: \"blank\" → \"skip\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/3953",
+                        "createdAt": "2018-11-27T18:49:43Z",
+                        "closedAt": "2018-11-27T19:23:39Z"
+                    },
+                    {
+                        "title": "Import from Excel: options in \"Data Preview\" window reset",
+                        "url": "https://github.com/rstudio/rstudio/issues/3955",
+                        "createdAt": "2018-11-27T19:02:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add API method for showing OS notifications; integrate with jobs",
+                        "url": "https://github.com/rstudio/rstudio/issues/3960",
+                        "createdAt": "2018-11-28T00:25:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "trailing newline not created by RStudio",
+                        "url": "https://github.com/rstudio/rstudio/issues/3961",
+                        "createdAt": "2018-11-28T05:08:14Z",
+                        "closedAt": "2019-12-04T20:16:07Z"
+                    },
+                    {
+                        "title": "Spelling error in 'Verifying prequisites' (prerequisites?) while enabling packrat",
+                        "url": "https://github.com/rstudio/rstudio/issues/3962",
+                        "createdAt": "2018-11-28T11:44:02Z",
+                        "closedAt": "2018-11-28T15:35:28Z"
+                    },
+                    {
+                        "title": "RStudio view displays NA as 0",
+                        "url": "https://github.com/rstudio/rstudio/issues/3964",
+                        "createdAt": "2018-11-28T18:36:21Z",
+                        "closedAt": "2018-12-04T01:04:40Z"
+                    },
+                    {
+                        "title": "Rmd document not rendering to HTML in preview release",
+                        "url": "https://github.com/rstudio/rstudio/issues/3965",
+                        "createdAt": "2018-11-28T18:59:08Z",
+                        "closedAt": "2018-11-30T20:43:01Z"
+                    },
+                    {
+                        "title": "RStudio: scaling on second monitor",
+                        "url": "https://github.com/rstudio/rstudio/issues/3966",
+                        "createdAt": "2018-11-28T19:29:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "package projects setting libpaths in .Rprofile are lost after build + reload",
+                        "url": "https://github.com/rstudio/rstudio/issues/3967",
+                        "createdAt": "2018-11-28T20:59:13Z",
+                        "closedAt": "2021-02-20T01:24:06Z"
+                    },
+                    {
+                        "title": "Recent Files disappeared after rendering Rmarkdown file",
+                        "url": "https://github.com/rstudio/rstudio/issues/3968",
+                        "createdAt": "2018-11-28T21:01:13Z",
+                        "closedAt": "2020-07-29T15:54:08Z"
+                    },
+                    {
+                        "title": "Rstudio file association not working for Windows 10 Education (and Enterprise)",
+                        "url": "https://github.com/rstudio/rstudio/issues/3970",
+                        "createdAt": "2018-11-29T05:17:15Z",
+                        "closedAt": "2018-11-29T15:42:50Z"
+                    },
+                    {
+                        "title": "Rstudio server (preview also) fails to accept Korean characters in windows 10 edge.",
+                        "url": "https://github.com/rstudio/rstudio/issues/3971",
+                        "createdAt": "2018-11-29T08:48:30Z",
+                        "closedAt": "2019-12-04T20:13:50Z"
+                    },
+                    {
+                        "title": "Rstudio server preview fails to accept Korean characters in iOS safari browser.",
+                        "url": "https://github.com/rstudio/rstudio/issues/3972",
+                        "createdAt": "2018-11-29T09:20:37Z",
+                        "closedAt": "2021-02-19T20:18:08Z"
+                    },
+                    {
+                        "title": "add new roxygen2 tags",
+                        "url": "https://github.com/rstudio/rstudio/issues/3974",
+                        "createdAt": "2018-11-29T20:49:46Z",
+                        "closedAt": "2018-11-29T23:56:21Z"
+                    },
+                    {
+                        "title": "working directory is not persistent across python chunks",
+                        "url": "https://github.com/rstudio/rstudio/issues/3975",
+                        "createdAt": "2018-11-30T08:50:50Z",
+                        "closedAt": "2018-12-08T09:39:41Z"
+                    },
+                    {
+                        "title": "Umlaute in Windows file path stop rstudio from saving as UTF-8 encoding",
+                        "url": "https://github.com/rstudio/rstudio/issues/3976",
+                        "createdAt": "2018-11-30T11:18:49Z",
+                        "closedAt": "2021-02-20T01:24:17Z"
+                    },
+                    {
+                        "title": "'Switch Focus between Source/Console' Keyboard Shortcut with 2 key presses does not work correctly.",
+                        "url": "https://github.com/rstudio/rstudio/issues/3977",
+                        "createdAt": "2018-11-30T12:03:32Z",
+                        "closedAt": "2019-12-05T00:28:33Z"
+                    },
+                    {
+                        "title": "require rcmdcheck 1.3.2",
+                        "url": "https://github.com/rstudio/rstudio/issues/3978",
+                        "createdAt": "2018-11-30T18:10:57Z",
+                        "closedAt": "2018-12-17T22:20:52Z"
+                    },
+                    {
+                        "title": "Random JS error when opening a file",
+                        "url": "https://github.com/rstudio/rstudio/issues/3980",
+                        "createdAt": "2018-12-01T17:17:58Z",
+                        "closedAt": "2019-12-04T22:58:50Z"
+                    },
+                    {
+                        "title": "Latest daily not signed with a known Apple Developer certificate",
+                        "url": "https://github.com/rstudio/rstudio/issues/3981",
+                        "createdAt": "2018-12-02T18:00:20Z",
+                        "closedAt": "2018-12-04T22:26:08Z"
+                    },
+                    {
+                        "title": "Flickering of Scroll Bar in Environment Pane (server)",
+                        "url": "https://github.com/rstudio/rstudio/issues/3982",
+                        "createdAt": "2018-12-03T07:49:52Z",
+                        "closedAt": "2021-02-20T01:24:11Z"
+                    },
+                    {
+                        "title": "Unable to install R packages updates after migration to new computer",
+                        "url": "https://github.com/rstudio/rstudio/issues/3983",
+                        "createdAt": "2018-12-03T14:23:00Z",
+                        "closedAt": "2021-02-20T15:49:33Z"
+                    },
+                    {
+                        "title": "autocompletion popup gets stuck if user saves before popup shown",
+                        "url": "https://github.com/rstudio/rstudio/issues/3985",
+                        "createdAt": "2018-12-03T21:35:00Z",
+                        "closedAt": "2018-12-03T22:08:07Z"
+                    },
+                    {
+                        "title": "UI issue in Jobs pane when running a ranged job",
+                        "url": "https://github.com/rstudio/rstudio/issues/3986",
+                        "createdAt": "2018-12-04T01:15:23Z",
+                        "closedAt": "2018-12-04T21:49:01Z"
+                    },
+                    {
+                        "title": "Add navigate in history of \"Find in files\" searches",
+                        "url": "https://github.com/rstudio/rstudio/issues/3987",
+                        "createdAt": "2018-12-04T11:25:11Z",
+                        "closedAt": "2021-02-20T08:52:46Z"
+                    },
+                    {
+                        "title": "Full screen, same as with a F11 key press in Chrome",
+                        "url": "https://github.com/rstudio/rstudio/issues/3988",
+                        "createdAt": "2018-12-04T11:34:02Z",
+                        "closedAt": "2018-12-04T11:34:19Z"
+                    },
+                    {
+                        "title": "Reflowing comments messes up formatting for \\describe{} and \\itemize roxygen comments",
+                        "url": "https://github.com/rstudio/rstudio/issues/3989",
+                        "createdAt": "2018-12-04T15:53:02Z",
+                        "closedAt": "2020-01-08T06:14:38Z"
+                    },
+                    {
+                        "title": "Cannot type into Source window after toggling \"Allow drag and drop of text\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/3992",
+                        "createdAt": "2018-12-05T04:17:27Z",
+                        "closedAt": "2018-12-06T19:57:44Z"
+                    },
+                    {
+                        "title": "simple function errors are they related to no package GLobalEnv?",
+                        "url": "https://github.com/rstudio/rstudio/issues/3993",
+                        "createdAt": "2018-12-05T13:12:20Z",
+                        "closedAt": "2018-12-05T17:13:11Z"
+                    },
+                    {
+                        "title": "Publish button is very laggy",
+                        "url": "https://github.com/rstudio/rstudio/issues/3994",
+                        "createdAt": "2018-12-05T16:55:27Z",
+                        "closedAt": "2019-10-15T18:06:08Z"
+                    },
+                    {
+                        "title": "fail build when codesign fails",
+                        "url": "https://github.com/rstudio/rstudio/issues/3995",
+                        "createdAt": "2018-12-05T16:56:55Z",
+                        "closedAt": "2019-12-04T22:50:18Z"
+                    },
+                    {
+                        "title": "Markdown image autocompletion does not trigger",
+                        "url": "https://github.com/rstudio/rstudio/issues/3996",
+                        "createdAt": "2018-12-05T18:12:07Z",
+                        "closedAt": "2018-12-14T18:28:39Z"
+                    },
+                    {
+                        "title": "Feature request: emacs keybindings for \"expand selection\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/3997",
+                        "createdAt": "2018-12-05T18:48:37Z",
+                        "closedAt": "2021-02-20T01:24:16Z"
+                    },
+                    {
+                        "title": "In deployment dropdown menu, Clear List doesn't work",
+                        "url": "https://github.com/rstudio/rstudio/issues/3998",
+                        "createdAt": "2018-12-05T18:59:22Z",
+                        "closedAt": "2018-12-06T20:15:36Z"
+                    },
+                    {
+                        "title": "Rename Jobs feature as \"Local Jobs\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/4001",
+                        "createdAt": "2018-12-05T22:15:37Z",
+                        "closedAt": "2018-12-06T23:10:06Z"
+                    },
+                    {
+                        "title": "Jobs pane: Not clear that Clear Jobs command only works on Local Jobs",
+                        "url": "https://github.com/rstudio/rstudio/issues/4005",
+                        "createdAt": "2018-12-06T18:34:49Z",
+                        "closedAt": "2018-12-06T23:10:06Z"
+                    },
+                    {
+                        "title": "Themes unit test failures related to .ace_invisible",
+                        "url": "https://github.com/rstudio/rstudio/issues/4009",
+                        "createdAt": "2018-12-06T22:52:22Z",
+                        "closedAt": "2019-02-14T21:40:07Z"
+                    },
+                    {
+                        "title": "\"SQL\" autocomplete errored",
+                        "url": "https://github.com/rstudio/rstudio/issues/4011",
+                        "createdAt": "2018-12-07T08:04:18Z",
+                        "closedAt": "2018-12-07T19:42:05Z"
+                    },
+                    {
+                        "title": "Autosave loses data when RStudio crashes",
+                        "url": "https://github.com/rstudio/rstudio/issues/4012",
+                        "createdAt": "2018-12-07T14:01:08Z",
+                        "closedAt": "2020-03-13T23:48:09Z"
+                    },
+                    {
+                        "title": "Window cannot be resized",
+                        "url": "https://github.com/rstudio/rstudio/issues/4013",
+                        "createdAt": "2018-12-07T18:58:19Z",
+                        "closedAt": "2018-12-07T19:15:09Z"
+                    },
+                    {
+                        "title": "Jobs Pane doesn't always show \"Job has not emitted output\" when it should",
+                        "url": "https://github.com/rstudio/rstudio/issues/4014",
+                        "createdAt": "2018-12-07T19:22:49Z",
+                        "closedAt": "2018-12-08T00:30:57Z"
+                    },
+                    {
+                        "title": "Serif fonts on Win10 - Error? Unreadable!",
+                        "url": "https://github.com/rstudio/rstudio/issues/4018",
+                        "createdAt": "2018-12-08T11:38:53Z",
+                        "closedAt": "2018-12-08T11:39:01Z"
+                    },
+                    {
+                        "title": "Rstudio Desktop Windows doesn't display .mp4 files",
+                        "url": "https://github.com/rstudio/rstudio/issues/4019",
+                        "createdAt": "2018-12-08T20:05:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Adjust column width in Global Environment",
+                        "url": "https://github.com/rstudio/rstudio/issues/4020",
+                        "createdAt": "2018-12-10T13:54:25Z",
+                        "closedAt": "2019-05-21T20:42:21Z"
+                    },
+                    {
+                        "title": "Interruption of reticulate'd function call causes RStudio bomb",
+                        "url": "https://github.com/rstudio/rstudio/issues/4021",
+                        "createdAt": "2018-12-10T14:35:35Z",
+                        "closedAt": "2019-04-09T09:03:13Z"
+                    },
+                    {
+                        "title": "Server: Terminals no longer connect using websockets",
+                        "url": "https://github.com/rstudio/rstudio/issues/4022",
+                        "createdAt": "2018-12-10T17:21:40Z",
+                        "closedAt": "2018-12-10T17:22:16Z"
+                    },
+                    {
+                        "title": "Files pane hangs application on a directory with a lot of files",
+                        "url": "https://github.com/rstudio/rstudio/issues/4023",
+                        "createdAt": "2018-12-10T19:52:23Z",
+                        "closedAt": "2018-12-17T22:54:34Z"
+                    },
+                    {
+                        "title": "Rstudio v1.2 preview does not apply installed system fonts",
+                        "url": "https://github.com/rstudio/rstudio/issues/4024",
+                        "createdAt": "2018-12-10T21:02:17Z",
+                        "closedAt": "2020-01-03T00:13:02Z"
+                    },
+                    {
+                        "title": "random rendering issue with Windows 10 in preview",
+                        "url": "https://github.com/rstudio/rstudio/issues/4025",
+                        "createdAt": "2018-12-10T21:37:37Z",
+                        "closedAt": "2019-02-19T21:00:03Z"
+                    },
+                    {
+                        "title": "R studio doesn't have good Hindi support for typing and reading",
+                        "url": "https://github.com/rstudio/rstudio/issues/4027",
+                        "createdAt": "2018-12-11T14:12:16Z",
+                        "closedAt": "2021-02-19T06:30:41Z"
+                    },
+                    {
+                        "title": "Default R Markdown files to UTF-8 encoding on Windows",
+                        "url": "https://github.com/rstudio/rstudio/issues/4028",
+                        "createdAt": "2018-12-11T17:38:15Z",
+                        "closedAt": "2018-12-13T00:38:43Z"
+                    },
+                    {
+                        "title": "RStudio setwd to mapped network drive not working Win10",
+                        "url": "https://github.com/rstudio/rstudio/issues/4030",
+                        "createdAt": "2018-12-12T11:17:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migrated to different repository",
+                        "url": "https://github.com/rstudio/rstudio/issues/4031",
+                        "createdAt": "2018-12-12T15:35:55Z",
+                        "closedAt": "2018-12-12T15:47:09Z"
+                    },
+                    {
+                        "title": "Show memory usage in environment pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/4033",
+                        "createdAt": "2018-12-12T18:42:14Z",
+                        "closedAt": "2021-02-22T22:04:34Z"
+                    },
+                    {
+                        "title": "RStudio Crashes after it is started Crashed Thread: Chrome_InProcGpuThread",
+                        "url": "https://github.com/rstudio/rstudio/issues/4034",
+                        "createdAt": "2018-12-13T08:09:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Installing hangs -- killed after 24 hours.",
+                        "url": "https://github.com/rstudio/rstudio/issues/4035",
+                        "createdAt": "2018-12-13T21:21:15Z",
+                        "closedAt": "2018-12-13T22:00:29Z"
+                    },
+                    {
+                        "title": "Drag files onto editor surface to insert path/reference",
+                        "url": "https://github.com/rstudio/rstudio/issues/4037",
+                        "createdAt": "2018-12-14T00:32:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Paste images in (R) Markdown documents",
+                        "url": "https://github.com/rstudio/rstudio/issues/4038",
+                        "createdAt": "2018-12-14T00:40:54Z",
+                        "closedAt": "2021-09-20T19:28:21Z"
+                    },
+                    {
+                        "title": "Add git issues pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/4042",
+                        "createdAt": "2018-12-15T12:43:35Z",
+                        "closedAt": "2020-02-10T20:51:32Z"
+                    },
+                    {
+                        "title": "Hotkeys not working as expected on server",
+                        "url": "https://github.com/rstudio/rstudio/issues/4043",
+                        "createdAt": "2018-12-15T18:04:58Z",
+                        "closedAt": "2018-12-17T17:59:15Z"
+                    },
+                    {
+                        "title": "Remove unnecessary null pointer checks",
+                        "url": "https://github.com/rstudio/rstudio/issues/4044",
+                        "createdAt": "2018-12-17T13:00:37Z",
+                        "closedAt": "2020-01-03T00:12:06Z"
+                    },
+                    {
+                        "title": "cmd + fn + 3 does not open reactlog in shiny apps (v1.2)",
+                        "url": "https://github.com/rstudio/rstudio/issues/4045",
+                        "createdAt": "2018-12-17T19:50:02Z",
+                        "closedAt": "2019-01-08T17:08:51Z"
+                    },
+                    {
+                        "title": "Add gadget icons to the addins menu",
+                        "url": "https://github.com/rstudio/rstudio/issues/4049",
+                        "createdAt": "2018-12-18T02:36:57Z",
+                        "closedAt": "2021-02-20T02:24:01Z"
+                    },
+                    {
+                        "title": "Projects are not listed while opening project",
+                        "url": "https://github.com/rstudio/rstudio/issues/4052",
+                        "createdAt": "2018-12-18T06:44:52Z",
+                        "closedAt": "2018-12-18T21:39:23Z"
+                    },
+                    {
+                        "title": "Cannot move cursor in the Source Pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/4053",
+                        "createdAt": "2018-12-18T10:33:33Z",
+                        "closedAt": "2018-12-18T17:41:47Z"
+                    },
+                    {
+                        "title": "shinytest fails with 127.0.0.1 refused to connect.",
+                        "url": "https://github.com/rstudio/rstudio/issues/4054",
+                        "createdAt": "2018-12-18T15:38:07Z",
+                        "closedAt": "2018-12-19T18:29:56Z"
+                    },
+                    {
+                        "title": ".rs.api.getThemeInfo() no longer returns foreground and background colors",
+                        "url": "https://github.com/rstudio/rstudio/issues/4055",
+                        "createdAt": "2018-12-18T17:41:05Z",
+                        "closedAt": "2018-12-22T00:43:45Z"
+                    },
+                    {
+                        "title": "git GUI uses password style text box for asking for github user when you push",
+                        "url": "https://github.com/rstudio/rstudio/issues/4058",
+                        "createdAt": "2018-12-18T20:09:27Z",
+                        "closedAt": "2019-11-15T22:59:20Z"
+                    },
+                    {
+                        "title": "Input/output error when using textbox in Open file menu",
+                        "url": "https://github.com/rstudio/rstudio/issues/4059",
+                        "createdAt": "2018-12-18T23:11:41Z",
+                        "closedAt": "2021-03-26T15:27:07Z"
+                    },
+                    {
+                        "title": "Rstudio session doesn't start...",
+                        "url": "https://github.com/rstudio/rstudio/issues/4061",
+                        "createdAt": "2018-12-19T08:04:09Z",
+                        "closedAt": "2020-01-03T00:11:15Z"
+                    },
+                    {
+                        "title": "Single tick mark double autocompletes",
+                        "url": "https://github.com/rstudio/rstudio/issues/4062",
+                        "createdAt": "2018-12-19T16:15:09Z",
+                        "closedAt": "2021-02-20T15:49:38Z"
+                    },
+                    {
+                        "title": "uncaught exception during shutdown can leave spinning rsession processes",
+                        "url": "https://github.com/rstudio/rstudio/issues/4063",
+                        "createdAt": "2018-12-19T20:42:10Z",
+                        "closedAt": "2019-01-08T17:26:58Z"
+                    },
+                    {
+                        "title": "R Markdown deletes multiple lines when pressing backspace",
+                        "url": "https://github.com/rstudio/rstudio/issues/4064",
+                        "createdAt": "2018-12-19T23:37:02Z",
+                        "closedAt": "2021-02-05T15:32:19Z"
+                    },
+                    {
+                        "title": "Cannot preview file in browser when directory contains +",
+                        "url": "https://github.com/rstudio/rstudio/issues/4065",
+                        "createdAt": "2018-12-20T05:20:31Z",
+                        "closedAt": "2021-02-19T17:25:05Z"
+                    },
+                    {
+                        "title": "Chunk name not available in navigation if chunk header includes a comma",
+                        "url": "https://github.com/rstudio/rstudio/issues/4066",
+                        "createdAt": "2018-12-20T09:33:09Z",
+                        "closedAt": "2021-02-20T15:49:35Z"
+                    },
+                    {
+                        "title": "RStudio screen graphics device does not anti-alias on Windows (except fonts)",
+                        "url": "https://github.com/rstudio/rstudio/issues/4067",
+                        "createdAt": "2018-12-20T18:00:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "\"Run as reprex\" button?",
+                        "url": "https://github.com/rstudio/rstudio/issues/4068",
+                        "createdAt": "2018-12-20T18:59:55Z",
+                        "closedAt": "2018-12-21T15:27:28Z"
+                    },
+                    {
+                        "title": "Compiling Rnw with Sweave should not modify the source file",
+                        "url": "https://github.com/rstudio/rstudio/issues/4070",
+                        "createdAt": "2018-12-20T22:43:21Z",
+                        "closedAt": "2018-12-20T22:50:34Z"
+                    },
+                    {
+                        "title": "popup dialog gets stuck on screen in rare cases",
+                        "url": "https://github.com/rstudio/rstudio/issues/4071",
+                        "createdAt": "2018-12-20T23:25:35Z",
+                        "closedAt": "2019-01-08T19:06:11Z"
+                    },
+                    {
+                        "title": "Error creating notebook: pandoc document conversion failed with error 11",
+                        "url": "https://github.com/rstudio/rstudio/issues/4072",
+                        "createdAt": "2018-12-20T23:27:59Z",
+                        "closedAt": "2019-02-08T22:58:02Z"
+                    },
+                    {
+                        "title": "values set in .Rprofile are overridden after restart request",
+                        "url": "https://github.com/rstudio/rstudio/issues/4073",
+                        "createdAt": "2018-12-21T00:01:25Z",
+                        "closedAt": "2021-02-20T15:49:34Z"
+                    },
+                    {
+                        "title": "rJava fails to load",
+                        "url": "https://github.com/rstudio/rstudio/issues/4074",
+                        "createdAt": "2018-12-21T10:10:20Z",
+                        "closedAt": "2018-12-21T17:49:03Z"
+                    },
+                    {
+                        "title": "Rstudio  1.2.1153 cannot knit `.Rmd` files in directories containing Chinese characters",
+                        "url": "https://github.com/rstudio/rstudio/issues/4075",
+                        "createdAt": "2018-12-21T14:36:42Z",
+                        "closedAt": "2019-01-10T18:31:47Z"
+                    },
+                    {
+                        "title": "Display error with non-English IME (e.g. Chinese)",
+                        "url": "https://github.com/rstudio/rstudio/issues/4079",
+                        "createdAt": "2018-12-22T02:29:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Clear list does not clear the list",
+                        "url": "https://github.com/rstudio/rstudio/issues/4080",
+                        "createdAt": "2018-12-22T15:10:53Z",
+                        "closedAt": "2019-01-08T21:31:21Z"
+                    },
+                    {
+                        "title": "Character corruption in RStudio code editor and debugger preventing correct string manipulation",
+                        "url": "https://github.com/rstudio/rstudio/issues/4082",
+                        "createdAt": "2018-12-23T20:01:03Z",
+                        "closedAt": "2020-02-10T20:27:11Z"
+                    },
+                    {
+                        "title": "Checkbox is selected in Packages window even if a package is not attached",
+                        "url": "https://github.com/rstudio/rstudio/issues/4083",
+                        "createdAt": "2018-12-24T00:10:23Z",
+                        "closedAt": "2019-01-08T17:16:46Z"
+                    },
+                    {
+                        "title": "Opening a large Rprofvis file cause UI hanging",
+                        "url": "https://github.com/rstudio/rstudio/issues/4084",
+                        "createdAt": "2018-12-24T03:02:09Z",
+                        "closedAt": "2020-03-13T23:46:49Z"
+                    },
+                    {
+                        "title": "R banner duplicated when opening project",
+                        "url": "https://github.com/rstudio/rstudio/issues/4085",
+                        "createdAt": "2018-12-24T09:00:07Z",
+                        "closedAt": "2018-12-26T17:30:45Z"
+                    },
+                    {
+                        "title": "No panes on MacOS since 1.2.1207",
+                        "url": "https://github.com/rstudio/rstudio/issues/4086",
+                        "createdAt": "2018-12-24T10:05:48Z",
+                        "closedAt": "2019-01-08T17:51:33Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF3mtmQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

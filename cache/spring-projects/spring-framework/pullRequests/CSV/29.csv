@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Remove unnecessary null check in ConvertingEncoderDecoderSupport","2020-3/20","2020-3/20","2020-3/20",False,"null",3,1,1
+"Missing nullability declarations for package web.socket.server.jetty","2020-3/20","2020-3/20","2020-3/20",True,"2020-3/20",3,11,2
+"Fix typos in source files","2020-3/20","2020-3/20","2020-3/20",True,"2020-3/20",3,33,31
+"Declare proxyBeanMethods=false in JmsBootstrapConfiguration","2020-3/21","2020-3/21","2020-3/21",True,"2020-3/21",3,2,2
+"Improve Javadoc in @Configuration","2020-3/21","2020-3/21","2020-3/21",True,"2020-3/21",3,6,6
+"Add BeanPostProcessors in bulk","2020-3/21","2020-5/21","2020-3/21",False,"null",3,36,16
+"Fix empty domain handling in ResponseCookie","2020-3/22","2020-3/22","2020-3/22",True,"2020-3/22",4,2,2
+"MimeTypeUtils no longer cache MediaType.MULTIPART_FORM_DATA_VALUE","2020-3/24","2020-3/24","2020-3/24",False,"null",4,18,1
+"MimeTypeUtils no longer cache MediaType.MULTIPART_FORM_DATA_VALUE","2020-3/24","2020-3/24","2020-3/24",False,"null",3,17,1
+"Improve method injection when @Autowired(require=false) on mixed nullability args method","2020-3/25","null","2020-3/25",False,"null",3,56,3
+"Make resourceAnnotationTypes field final in CommonAnnotationBPP","2020-3/25","2020-3/25","2020-3/25",True,"2020-3/25",3,2,2
+"Fix typos and improve readability in Webflux documentation","2020-3/25","2020-3/25","2020-3/25",True,"2020-3/25",3,27,27
+"Using UriComponentsBuilder.cloneBuilder does not copy uriVariables","2020-3/26","2020-3/26","2020-3/26",False,"null",4,32,0
+"Simplify conversion of ByteArrayOutputStream to String","2020-3/26","2020-3/26","2020-3/26",False,"null",3,6,7
+"Simplify conversion of DataBuffer to String","2020-3/26","2020-3/26","2020-3/26",False,"null",4,24,38
+"Remove obsolete comment in BeanDefinitionParserDelegate","2020-3/26","2020-3/26","2020-3/26",True,"2020-3/26",3,2,2
+"Remove useless .gitignore files","2020-3/26","2020-3/26","2020-3/26",True,"2020-3/26",3,0,0
+"Fix broken link in Javadoc for DynamicPropertySource","2020-3/26","2020-3/26","2020-3/26",True,"2020-3/26",3,4,3
+"Upgrade to Gradle Build Scan Plugin 3.2","2020-3/26","2020-3/26","2020-3/26",True,"2020-3/26",3,1,1
+"Remove the wrong @Nullable annotation in DynamicPropertiesContextCustomizer","2020-3/27","2020-3/27","2020-3/27",False,"null",3,0,1
+"Remove incorrect @Nullable in DynamicPropertiesContextCustomizer","2020-3/27","2020-3/27","2020-3/27",True,"2020-3/27",3,0,2
+"Remove unnecessary mem alloc in CollectingReaderEventListener","2020-3/27","2020-3/27","2020-3/27",True,"2020-3/27",3,2,2
+"Set initialValue of NamedThreadLocal in XmlBeanDefinitionReader","2020-3/27","2020-3/27","2020-3/27",True,"2020-3/27",3,7,5
+"Use autoboxing instead of explicit wrapping","2020-3/27","2020-4/27","2020-3/27",False,"null",3,310,310
+"Optimize hard code in PropertiesBeanDefinitionReader","2020-3/28","2021-12/28","2020-3/28",False,"null",4,3,3
+"Remove unnecessary assignment in PropertiesBeanDefinitionReader","2020-3/28","2020-3/28","2020-3/28",True,"2020-3/28",3,1,1
+"Improve usage of ByteArrayOutputStream/ByteArrayInputStream","2020-3/28","2020-3/28","2020-3/28",False,"null",3,47,40
+"Use try-with-resource to close resources","2020-3/29","2020-3/29","2020-3/29",True,"2020-3/29",3,13,27
+"Replace anonymous inner classes with lambdas in tests","2020-3/29","2020-3/29","2020-3/29",True,"2020-3/29",3,87,156
+"Fix typo in webflux-cors.adoc","2020-3/30","2020-3/30","2020-3/30",True,"2020-3/30",4,1,1
+"Recursively copy directory with symbolic link","2020-3/30","2020-3/30","2020-3/30",False,"null",5,2,0
+"Recursively copy directory with symbolic link","2020-3/31","2020-4/31","2020-3/31",True,"2020-4/31",4,3,1
+"Update spring-doc-resources version","2020-3/31","2020-4/31","2020-3/31",False,"null",3,1,1
+"Fixes typo in annotation name","2020-4/1","2020-4/1","2020-4/1",False,"null",4,538,538
+"更新数据","2020-4/1","2020-4/1","2020-4/1",False,"null",4,1,0
+"Fix Javadoc in PathPattern","2020-4/1","2020-4/1","2020-4/1",True,"2020-4/1",4,2,2
+"Use single String instead of String[] for varargs argument","2020-4/4","2020-4/4","2020-4/4",True,"2020-4/4",3,4,4
+"Add Encoder and Decoder for Netty ByteBuf","2020-4/5","2020-5/5","2020-4/5",False,"null",4,310,0
+"Fix json type info when using Optional","2020-4/6","2020-4/6","2020-4/6",False,"null",3,39,6
+"Improve performance of StringUtils.deleteAny()","2020-4/6","2020-4/6","2020-4/6",True,"2020-4/6",4,8,8
+"Honor overridden AcceptHeaderLocaleContextResolver.getDefaultLocale()","2020-4/6","2020-4/6","2020-4/6",True,"2020-4/6",3,3,2
+"Avoid using regex matching for static patterns","2020-4/9","2020-5/9","2020-4/9",False,"null",3,44,7
+"Extend transaction attributes with labels","2020-4/9","2020-5/9","2020-4/9",True,"2020-5/9",3,102,6
+"Fixed typos","2020-4/11","2020-4/11","2020-4/11",True,"2020-4/11",5,2,2
+"Fixed typos","2020-4/11","2020-4/11","2020-4/11",False,"null",3,3,3
+"Closes #24894, don't close input stream after json parsing","2020-4/13","2020-4/13","2020-4/13",False,"null",3,2,0
+"Prevent setting parent bean factory to self","2020-4/13","2020-4/13","2020-4/13",True,"2020-4/13",4,3,0
+"provide way to configure websoscket parameters outside","2020-4/13","2020-4/13","2020-4/13",False,"null",4,23,62
+"Remove unnecessary sorting in PostProcessorRegistrationDelegate","2020-4/14","2022-9/14","2020-4/14",False,"null",4,1,1
+"Fix typo in webflux-functional.adoc","2020-4/14","2020-4/14","2020-4/14",True,"2020-4/14",2,1,1
+"Simplify some control flow code","2020-4/14","2020-4/14","2020-4/14",False,"null",4,0,0
+"Improve Javadoc","2020-4/15","2020-4/15","2020-4/15",False,"null",3,4,4
+"PR change for code guru","2020-4/15","2020-4/15","2020-4/15",False,"null",4,1,0
+"5.2.5.release","2020-4/16","2020-4/16","2020-4/16",False,"null",4,4,6
+"Introduce onlyNumbers() method in StringUtils","2020-4/16","2020-4/16","2020-4/16",False,"null",4,20,0
+"Fix Javadoc link in DefaultCorsProcessor","2020-4/16","2020-4/16","2020-4/16",True,"2020-4/16",3,2,2
+"change default Charset to UTF_8","2020-4/17","2020-4/17","2020-4/17",False,"null",4,2,2
+"Avoid unnecessary String instantiation in StringUtils.deleteAny()","2020-4/17","2020-4/17","2020-4/17",True,"2020-4/17",4,3,0
+"Simplify some control flow code","2020-4/17","2020-4/17","2020-4/17",True,"2020-4/17",3,2,2
+"Add file parameters as request parts in HtmlUnitRequestBuilder","2020-4/18","2020-5/18","2020-4/18",False,"null",4,47,1
+"Support multi-module path pattern in FreeMarkerConfigurationFactoryBean","2020-4/18","2022-9/18","2020-4/18",False,"null",6,38,1
+"Simplify substring() usage in MimeTypeUtils","2020-4/19","2020-4/19","2020-4/19",True,"2020-4/19",3,2,2
+"Simplify if-else constructions in spring-web","2020-4/20","2020-4/20","2020-4/20",False,"null",3,9,13
+"24901 - Fix to handle static part of path variable URI mappings performance","2020-4/20","2020-4/20","2020-4/20",False,"null",4,82,0
+"Rid pointless wrapping with BufferedInputStream from class reading","2020-4/20","2020-4/20","2020-4/20",True,"2020-4/20",3,1,2
+"Allow override of data binding in ModelAttributeMethodArgumentResolver","2020-4/20","2020-4/20","2020-4/20",True,"2020-4/20",3,10,1
+"5.0.x","2020-4/23","2020-4/23","2020-4/23",False,"null",16,32984,26302
+"Make imported config always override the one found by package scan","2020-4/23","null","2020-4/23",False,"null",4,197,20
+"Add KClass variant to Coroutines web API ","2020-4/24","2020-9/24","2020-4/24",False,"null",4,147,2
+"Fix typo in webmvc-functional.adoc","2020-4/25","2020-4/25","2020-4/25",True,"2020-4/25",3,1,1
+"Merge pull request #1 from spring-projects/master","2020-4/25","2020-4/25","2020-4/25",False,"null",2,0,0
+"Aggregate TestExecutionListener orders","2020-4/26","2021-1/26","2020-4/26",False,"null",5,96,14
+"Modified the code to format the nested exception stack trace","2020-4/27","null","2020-4/27",False,"null",4,49,14
+"Polishing","2020-4/28","2020-4/28","2020-4/28",False,"null",3,1,4
+"Polishing","2020-4/28","2020-4/28","2020-4/28",False,"null",3,1,4
+"Fix race condition in WriteResultPublisher between subscription and completion in publishComplete","2020-4/28","2020-5/28","2020-4/28",False,"null",3,8,0
+"Simplify redundant code","2020-4/29","2020-4/29","2020-4/29",False,"null",3,3,5
+"Preserve Http Response Info When MessageConverter Not Found Case","2020-4/29","2020-5/29","2020-4/29",False,"null",3,63,8
+"Supplement Test Cases In XmlBeanFactoryTests : Resolve Circle Reference When Use Aop","2020-5/1","null","2020-5/1",False,"null",3,51,0
+"Add missing @PathVariable declarations in examples in webmvc.adoc","2020-5/3","2020-5/3","2020-5/3",False,"null",5,2,2
+"5.0.x","2020-5/4","2020-5/4","2020-5/4",False,"null",17,32896,26288
+"5.0.x","2020-5/4","2020-5/4","2020-5/4",False,"null",17,32896,26288
+"Support for pattern based origin cors configuration","2020-5/5","2020-7/5","2020-5/5",False,"null",4,307,19
+"Merge pull request #1 from spring-projects/master","2020-5/6","2020-5/6","2020-5/6",False,"null",2,0,0
+"Fix @Transactional syntax error in reference manual","2020-5/7","2020-5/7","2020-5/7",True,"2020-5/7",3,1,1
+"Drop unnecessary intermediate StringBuilder.toString() call in ServerSentEventHttpMessageReader","2020-5/7","2020-5/7","2020-5/7",False,"null",3,1,1
+"skip the null value copies","2020-5/7","2020-5/7","2020-5/7",False,"null",4,21,15
+"Skip null values for primitive target properties in BeanUtils.copyProperties","2020-5/7","2020-5/7","2020-5/7",False,"null",4,1,0
+"Update Server Requesters IAW observed behavior","2020-5/7","2020-5/7","2020-5/7",False,"null",5,8,4
+"Document ReactiveTransactionManager support in reference manual","2020-5/8","2020-5/8","2020-5/8",False,"null",3,455,31
+"Use Map::computeIfAbsent to simplify scope implementations","2020-5/9","2020-5/9","2020-5/9",True,"2020-5/9",3,2,12
+"Fix typo in core-beans.adoc","2020-5/9","2020-5/9","2020-5/9",True,"2020-5/9",4,1,1
+"加一些基本注释","2020-5/10","2020-5/10","2020-5/10",False,"null",4,88,2
+"javadoc: remove a comment documented a limitation on @Lookup annotation","2020-5/10","2020-5/10","2020-5/10",False,"null",5,1,3
+"Fix SpelEvaluationException with example code","2020-5/11","2020-5/11","2020-5/11",True,"2020-5/11",3,2,2
+"SPR-17614 Fix SpEL inline collections with negative keys or values are not cached","2020-5/11","2020-10/11","2020-5/11",False,"null",3,203,3
+"Replace HttpClient.websocket() deprecation","2020-5/11","2020-5/11","2020-5/11",False,"null",3,61,10
+"Fix typo in RmiSupportTests","2020-5/12","2020-5/12","2020-5/12",True,"2020-5/12",4,2,2
+"Use computeIfAbsent in ResourceBundleMessageSource","2020-5/12","2020-5/12","2020-5/12",True,"2020-5/12",3,4,8
+"Avoid StringBuilder.append(Object) in ContentDisposition","2020-5/12","2020-5/12","2020-5/12",True,"2020-5/12",4,6,1

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Remove AsyncConfigurerSupport reference in EnableAsync Javadoc","2021-12/28","2021-12/28","2021-12/28",False,"null",2,1,2
+"Add countOccurrencesIgnoreCase method to StringUtils","2021-12/28","2021-12/28","2021-12/28",False,"null",2,34,2
+"Make `H2SequenceMaxValueIncrementer` compatible with H2 database 2.0.x","2022-1/1","2022-1/1","2022-1/1",False,"null",3,53,7
+"Expose config field in RequestMappingHandlerMapping to subclasses","2022-1/2","2022-1/2","2022-1/2",False,"null",2,1,1
+"0103-5.3-canUse","2022-1/2","2022-1/2","2022-1/2",False,"null",3,94,0
+"Avoid reassignment of catch block parameters","2022-1/3","2022-1/3","2022-1/3",False,"null",3,11,9
+"test","2022-1/4","2022-1/4","2022-1/4",False,"null",4,29,0
+"Replace use of StringBuffer with StringBuilder","2022-1/4","2022-1/4","2022-1/4",False,"null",1,12,12
+"Replace use of StringBuffer with StringBuilder","2022-1/4","2022-1/4","2022-1/4",False,"null",3,6,6
+"Correct not compiling example code in Data Access docs","2022-1/4","2022-1/4","2022-1/4",False,"null",3,9,3
+"Clear cache when clearing argument resolvers","2022-1/4","2022-1/4","2022-1/4",False,"null",3,4,0
+"ServerHttpResponseDecorator does not delegate methods for raw status code","2022-1/5","2022-1/5","2022-1/5",False,"null",3,10,0
+"Dev dsc note annotation","2022-1/5","2022-1/5","2022-1/5",False,"null",18,7038,2386
+"Use try-with-resources where feasible","2022-1/6","2022-1/6","2022-1/6",False,"null",3,2,5
+"Simplify HashMap declaration in test fixture","2022-1/7","2022-1/7","2022-1/7",True,"2022-1/7",3,2,1
+"Fix SpEL propertyReadWriteWithRootObject() test","2022-1/8","2022-1/8","2022-1/8",False,"null",3,5,5
+"Fix syntax in WebFlux Validation example","2022-1/9","2022-1/9","2022-1/9",False,"null",4,1,1
+"Simplify debugging of Undertow transferTo issue #25310","2022-1/9","2022-1/9","2022-1/9",False,"null",4,12,0
+"Add tests for StringUtils matchesCharacter() method","2022-1/10","2022-1/10","2022-1/10",False,"null",4,8,0
+"Update README.md","2022-1/10","2022-1/10","2022-1/10",False,"null",4,1,1
+"Typos in STOMP documentation","2022-1/11","2022-1/11","2022-1/11",False,"null",2,1,1
+"fix:Spring fails to determine XML is XSD-based if DOCTYPE appears in a comment","2022-1/12","2022-1/12","2022-1/12",False,"null",4,25,8
+"Ensure utility classes cannot be instantiated.","2022-1/14","2022-1/14","2022-1/14",False,"null",3,157,37
+"Ensure utility classes cannot be instantiated.","2022-1/14","2022-1/14","2022-1/14",False,"null",3,157,37
+"Instrument webmvc","2022-1/15","2022-9/15","2022-1/15",False,"null",4,1277,0
+"Fix regression in BeanPropertyRowMapper regarding underscore name","2022-1/17","2022-1/17","2022-1/17",False,"null",3,109,5
+"Upgrade to Gradle Enterprise 3.8.1","2022-1/17","2022-1/17","2022-1/17",False,"null",4,2,2
+"Add a devcontainer for VSCode and Github Codespaces","2022-1/17","2022-7/17","2022-1/17",False,"null",3,52,1
+"Port GroovyDynamicElementReader to Java","2022-1/18","2022-1/18","2022-1/18",False,"null",3,1466,1231
+"`MissingServletRequestPartException` extends `ServletRequestBindingException`","2022-1/18","2022-2/18","2022-1/18",False,"null",3,21,19
+"Fix the ServletRequestPathUtils PATH_ATTRIBUTE is a runtime constant","2022-1/19","2022-2/19","2022-1/19",False,"null",4,1,1
+"Adds customization option for Executors coming from AsyncConfigurers","2022-1/19","null","2022-1/19",False,"null",4,48,2
+"Polish tests in spring-web","2022-1/20","2022-1/20","2022-1/20",False,"null",4,32,22
+"Modify status code 103 to (""Early Hints"")","2022-1/20","null","2022-1/20",False,"null",4,9,10
+"Fix CaffeineCacheManager configuration in the documentation","2022-1/21","2022-1/21","2022-1/21",False,"null",3,1,1
+"Use SpringProperties in native image detection","2022-1/26","2022-1/26","2022-1/26",False,"null",4,44,4
+"Fix ServletUriComponentsBuilder examples in ref docs","2022-1/28","2022-1/28","2022-1/28",False,"null",4,26,20
+"Ignore identical BeanDefinition registration when allowBeanDefinitionOverriding is false","2022-1/28","null","2022-1/28",False,"null",5,10,105
+"Update to OkHttp 4.9.3","2022-1/30","2022-2/30","2022-1/30",False,"null",4,2,5
+"Improve SimpleJdbcCall for Oracle database","2022-1/31","2022-2/31","2022-1/31",False,"null",3,292,38
+"Add support for strict JSON comparison in WebTestClient","2022-2/1","2022-2/1","2022-2/1",False,"null",4,64,5
+"Improve SimpleJdbcCall for Oracle database","2022-2/1","null","2022-2/1",False,"null",4,450,61
+"Modified SockJS close frame to prevent infinite loop for xhr-polling transport","2022-2/2","2022-2/2","2022-2/2",False,"null",3,1,1
+"Polish codes in spring-webmvc","2022-2/3","2022-2/3","2022-2/3",False,"null",3,14,15
+"Support custom resolution of empty strings in ResourceWebHandler","2022-2/3","2022-2/3","2022-2/3",False,"null",6,1,1
+"Add formatting for SockJS close GoAway frame to prevent infinite loop for xhr-polling and xhr-streaming transport","2022-2/3","2022-2/3","2022-2/3",False,"null",7,5,2
+"Polish reference docs (core)","2022-2/4","2022-2/4","2022-2/4",False,"null",3,1,1
+"Fix Javadoc since for AopProxyUtils.isLambda()","2022-2/5","2022-2/5","2022-2/5",False,"null",4,1,1
+"Apply ""instanceof pattern matching"" in AbstractRoutingDataSource","2022-2/5","2022-2/5","2022-2/5",False,"null",3,4,4
+"Use enhanced switch expressions where feasible","2022-2/7","2022-2/7","2022-2/7",False,"null",3,291,493
+"Enhance conditional bean creation when using method overloading","2022-2/8","2022-2/8","2022-2/8",False,"null",4,99,7
+"Adds observation support for R2DBC","2022-2/11","null","2022-2/11",False,"null",3,879,0
+"Support * is equivalent to /*","2022-2/11","null","2022-2/11",False,"null",3,6,4
+"Support parse placeholder in beanName","2022-2/11","null","2022-2/11",False,"null",4,11,5
+"Fix CronExpression fails to calculate next execution on the day of daylight saving time","2022-2/12","2022-2/12","2022-2/12",False,"null",4,15,2
+"Add braces to @Target declaration in @Component","2022-2/15","2022-2/15","2022-2/15",False,"null",4,1,1
+"Improve SpringFactories to customize how arguments and instantiation failures are handled","2022-2/16","2022-3/16","2022-2/16",False,"null",4,953,37
+"Upgrade client support to R2DBC 0.9","2022-2/16","2022-3/16","2022-2/16",True,"2022-3/16",4,286,177
+"Deprecate SerializationUtils#deserialize","2022-2/18","2022-3/18","2022-2/18",False,"null",6,23,1
+"5.1.x","2022-2/19","2022-2/19","2022-2/19",False,"null",4,159,4
+"Introduce DurationEditor for java.time.Duration support","2022-2/20","null","2022-2/20",False,"null",4,80,0
+"Support dollar quoting and round brackes to splitSqlScript","2022-2/22","2022-2/22","2022-2/22",False,"null",3,64,1
+"CollectionFactory add createSingletonCollection method","2022-2/22","2022-2/22","2022-2/22",False,"null",3,16,0
+"Support dollar quoting and round brackes to splitSqlScript","2022-2/22","null","2022-2/22",False,"null",4,64,1
+"Update Javadoc since for BeanDefinitionValueResolver","2022-2/23","2022-7/23","2022-2/23",False,"null",5,1,1
+"Fix library name for JavaPoet in src/docs/dist/license.txt","2022-2/23","2022-2/23","2022-2/23",False,"null",3,3,3
+"remove unnecessary imports","2022-2/25","2022-2/25","2022-2/25",False,"null",1,0,2
+"Support custom HTTP status in client-side REST testing support","2022-2/25","2022-3/25","2022-2/25",False,"null",5,73,7
+"Use equals() instead of contains() in RollbackRuleAttribute","2022-2/27","2022-2/27","2022-2/27",False,"null",3,15,1
+"Avoid multiple invocations of private lifecycle method","2022-2/28","2022-3/28","2022-2/28",False,"null",3,65,5
+"Fix debug log for no matching acceptableTypes","2022-2/28","2022-4/28","2022-2/28",False,"null",4,5,3
+"添加测试用例","2022-3/1","2022-3/1","2022-3/1",False,"null",3,242,0
+"Return empty LinkedHashMap instead of `Collections.emptyMap()` in PathVariableMapMethodArgumentResolver","2022-3/2","2022-3/2","2022-3/2",False,"null",3,9,6
+"Add GraalVM native JSON configuration generation","2022-3/3","2022-3/3","2022-3/3",False,"null",4,1280,0
+"Batch update return generated keys","2022-3/3","null","2022-3/3",False,"null",4,246,52
+"Update README.md","2022-3/4","2022-3/4","2022-3/4",False,"null",4,1,1
+"1. 添加spring注释。","2022-3/5","2022-3/5","2022-3/5",False,"null",4,826,9
+"Create XML NamespaceHandler as singleton","2022-3/7","null","2022-3/7",False,"null",3,33,19
+"5.1.x","2022-3/7","2022-3/7","2022-3/7",False,"null",3,968,46
+"Initial version with TX, Context Propagation and Observation","2022-3/10","null","2022-3/10",False,"null",3,982,23
+"Fix a performance problem in CachedIntrospectionResults","2022-3/11","null","2022-3/11",False,"null",3,54,7
+"Polish Javadoc for Environment","2022-3/12","2022-3/12","2022-3/12",False,"null",4,4,4
+"Add Javadoc since for GenericApplicationContext.refreshForAotProcessing()","2022-3/12","2022-3/12","2022-3/12",False,"null",3,1,0
+"Fix ReloadableResourceBundleMessageSource stale cache","2022-3/15","null","2022-3/15",False,"null",4,53,1
+"Improve documentation of Caching annotations","2022-3/15","2022-7/15","2022-3/15",False,"null",2,2,1
+"Apply ""instanceof pattern matching"" in spring-core","2022-3/16","2022-5/16","2022-3/16",False,"null",5,249,256
+"Polish LocalEntityManagerFactoryBean","2022-3/17","2022-3/17","2022-3/17",False,"null",3,12,11
+"Return UnmodifiableMap in PathVariableMapMethodArgumentResolver","2022-3/17","2022-4/17","2022-3/17",False,"null",3,1,2
+"Create cacheKey when the cacheKey is really needed","2022-3/17","2022-3/17","2022-3/17",False,"null",3,1,1
+"Add Node.js file extensions to javascript","2022-3/18","2022-3/18","2022-3/18",False,"null",3,1,1
+"@Async aspect fix change bean factory","2022-3/19","null","2022-3/19",False,"null",4,39,2
+"Add Javadoc since for BeanDefinitionValueResolver.resolveInnerBean()","2022-3/22","2022-3/22","2022-3/22",False,"null",3,1,0
+"Fix property binding issue for spring beans when default value is null","2022-3/23","null","2022-3/23",False,"null",6,104,6
+"Prevent org.jetbrains.annotations imports","2022-3/24","2022-3/24","2022-3/24",False,"null",4,11,7
+"Support multiple segments in encoded Content-Disposition","2022-3/27","2022-4/27","2022-3/27",False,"null",4,16,2
+"Update copyright year of EvaluationTests","2022-3/27","2022-3/27","2022-3/27",False,"null",3,1,1
+"Property name consistent with the one in the code","2022-3/28","2022-3/28","2022-3/28",False,"null",4,1,1
+"Polish","2022-3/30","2022-4/30","2022-3/30",False,"null",3,16,37
+"Refine PropertyDescriptor filtering","2022-3/31","2022-3/31","2022-3/31",False,"null",2,9,4
+"注释文件","2022-3/31","2022-3/31","2022-3/31",False,"null",3,309,132

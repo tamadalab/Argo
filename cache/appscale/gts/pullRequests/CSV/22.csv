@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Do not modify /root file mode on install","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",3,0,1
+"Perform datastore operations in batches","2019-5/31","2019-7/31","2019-5/31",True,"2019-7/31",3,32,8
+"Add initial FDB datastore backend implementation","2019-6/3","2019-7/3","2019-6/3",True,"2019-7/3",3,4876,12
+"Delete SDK from AppTaskQueue","2019-6/3","2019-7/3","2019-6/3",True,"2019-7/3",3,2076,576
+"Stop services concurrently","2019-6/4","2019-6/4","2019-6/4",True,"2019-6/4",3,66,40
+"Higher TaskQueue e2e test stability","2019-6/11","2019-6/11","2019-6/11",True,"2019-6/11",4,103,55
+"Scaled nodes changes","2019-6/17","2019-7/17","2019-6/17",True,"2019-7/17",3,178,131
+"AppServer generate internal admin login secret where needed","2019-6/18","2019-6/18","2019-6/18",True,"2019-6/18",3,18,7
+"Don't trap SIGTERM and let the process stops","2019-6/20","2019-6/20","2019-6/20",False,"null",3,0,5
+"Handle scheme redirects with the dispatcher","2019-6/28","2019-7/28","2019-6/28",True,"2019-7/28",4,32,0
+"Remove M2Crypto dependency","2019-7/1","2019-8/1","2019-7/1",True,"2019-8/1",4,4,21
+"Search2 integrated","2019-7/8","2019-7/8","2019-7/8",True,"2019-7/8",3,567,100
+"set version to 3.8.0","2019-7/8","2019-7/8","2019-7/8",True,"2019-7/8",3,1,1
+"Java 8 runtime","2019-7/10","2019-7/10","2019-7/10",True,"2019-7/10",3,301,124
+"Fix non-cloud mode of AppScale launch.","2019-7/11","2019-7/11","2019-7/11",True,"2019-7/11",3,1,1
+"AppController update jsp jar when rebuilding java application server","2019-7/11","2019-7/11","2019-7/11",True,"2019-7/11",3,20,9
+"Datastore service assignments calculated by admin server not controller","2019-7/11","2019-7/11","2019-7/11",True,"2019-7/11",4,39,20
+"AppController command output to standard error / logging verbosity","2019-7/19","2019-7/19","2019-7/19",True,"2019-7/19",3,14,6
+"TaskQueue Python 3","2019-7/22","2019-9/22","2019-7/22",True,"2019-9/22",3,144,115
+"Remove iaas system manager","2019-7/22","2019-7/22","2019-7/22",True,"2019-7/22",4,303,603
+"Add explicit dependency on sudo","2019-7/22","2019-7/22","2019-7/22",False,"null",3,4,0
+"No need to use sudo during installation","2019-7/22","2019-7/22","2019-7/22",True,"2019-7/22",4,2,2
+"Support custom service accounts for datastore_admin backups","2019-7/23","2019-8/23","2019-7/23",True,"2019-8/23",5,11422,4496
+"Check return value for deploy sample app","2019-7/23","2019-7/23","2019-7/23",False,"null",1,10,2
+"Be more flexible when selecting a composite index","2019-7/23","2019-8/23","2019-7/23",True,"2019-8/23",3,91,5
+"Search backup restore","2019-7/24","2019-8/24","2019-7/24",True,"2019-8/24",4,904,5
+"Add a rough interface for managing service accounts","2019-7/26","2019-8/26","2019-7/26",True,"2019-8/26",4,245,1
+"Add Search administration scripts and ListIndexes method","2019-7/26","2019-9/26","2019-7/26",True,"2019-9/26",3,216,13
+"Check if we have flower, and added dependency","2019-7/26","2019-7/26","2019-7/26",True,"2019-7/26",3,8,0
+"Flatten path before extracting the entity group","2019-7/30","2019-8/30","2019-7/30",True,"2019-8/30",4,63,25
+"UA Server backup/restore","2019-7/31","2019-8/31","2019-7/31",True,"2019-8/31",3,206,0
+"Store FoundationDB clusterfile content in Zookeeper","2019-7/31","2019-8/31","2019-7/31",True,"2019-8/31",3,89,109
+"Escape property values when outputting table","2019-7/31","2019-8/31","2019-7/31",True,"2019-8/31",3,1,1
+"Remove ntp dependency","2019-8/1","2019-8/1","2019-8/1",True,"2019-8/1",3,0,4
+"Retry applying transaction mutations","2019-8/1","2019-8/1","2019-8/1",True,"2019-8/1",3,1,1
+"AppController firewall configuration disabled via APPSCALE_FIREWALL env","2019-8/1","2019-9/1","2019-8/1",True,"2019-9/1",3,1,1
+"Use monotonic module when measuring intervals","2019-8/1","2019-8/1","2019-8/1",True,"2019-8/1",4,83,72
+"AppController haproxy reload via monit","2019-8/2","2019-8/2","2019-8/2",True,"2019-8/2",4,15,5
+"Install FoundationDB client libraries","2019-8/2","2019-8/2","2019-8/2",True,"2019-8/2",3,6,1
+"Deployment open port check should not use login ip","2019-8/2","2019-9/2","2019-8/2",True,"2019-9/2",3,20,18
+"Fix composite index backfilling on FDB","2019-8/5","2019-9/5","2019-8/5",True,"2019-9/5",3,12,1
+"Stop unassigned services","2019-8/6","2019-8/6","2019-8/6",True,"2019-8/6",4,16,9
+"Remove some outdated scripts","2019-8/6","2019-8/6","2019-8/6",True,"2019-8/6",3,0,673
+"Limit connection retries when stopping celery","2019-8/7","2019-8/7","2019-8/7",True,"2019-8/7",3,10,2
+"FoundationDB initialization script","2019-8/7","2019-8/7","2019-8/7",False,"null",3,313,0
+"Limit version of cassandra-driver","2019-8/7","2019-8/7","2019-8/7",True,"2019-8/7",4,2,2
+"Remove use of monit for appscale-controller, updates for systemd support","2019-8/7","2019-8/7","2019-8/7",False,"null",1,105,242
+"Dispatch Routing from yaml","2019-8/9","2019-8/9","2019-8/9",True,"2019-8/9",3,390,193
+"Display a selection menu for available accounts","2019-8/9","2019-8/9","2019-8/9",True,"2019-8/9",3,146,114
+"Remove support for Debian Jessie","2019-8/12","2019-8/12","2019-8/12",True,"2019-8/12",3,0,128
+"Bootstrap update","2019-8/13","2019-9/13","2019-8/13",True,"2019-9/13",3,413,265
+"Remove Fixnum warning","2019-8/15","2019-8/15","2019-8/15",True,"2019-8/15",3,17,17
+"Fix usages of ZKTransaction class","2019-8/16","2019-8/16","2019-8/16",True,"2019-8/16",3,34,8
+"Update bootstrap.sh usage text for agents","2019-8/16","2019-8/16","2019-8/16",True,"2019-8/16",3,3,1
+"Allow custom service accounts for restore operations","2019-8/16","2019-8/16","2019-8/16",True,"2019-8/16",3,86,38
+"Remove Cassandra-specific backup/restore scripts","2019-8/16","2019-8/16","2019-8/16",True,"2019-8/16",3,0,2435
+"Slow stop services","2019-8/18","2019-8/18","2019-8/18",False,"null",2,43,26
+"Install newer psutils to handle kernel 5.X output of /proc/diskstats","2019-8/21","2019-8/21","2019-8/21",True,"2019-8/21",3,2,2
+"Add preliminary support for metadata queries","2019-8/22","2019-9/22","2019-8/22",True,"2019-9/22",4,41,0
+"Add preliminary support for datastore statistics","2019-8/22","2019-11/22","2019-8/22",True,"2019-11/22",4,1204,27
+"Add get_indexes method to FDBDatastore","2019-8/22","2019-10/22","2019-8/22",True,"2019-10/22",3,25,0
+"Use systemd instead of monit for service management","2019-8/22","2019-9/22","2019-8/22",False,"null",1,1331,2341
+"Reuse TCP connections for datastore calls","2019-8/22","2019-9/22","2019-8/22",True,"2019-9/22",3,70,64
+"Login continue scheme","2019-8/24","2019-8/24","2019-8/24",True,"2019-8/24",4,58,6
+"Register and route other services","2019-8/28","2019-9/28","2019-8/28",True,"2019-9/28",3,282,181
+"Firewall configuration wrapper script using iptables-restore to apply rules","2019-8/29","2019-8/29","2019-8/29",False,"null",4,52,1
+"Add --update flag with `appscale up` to specify code directory","2019-8/29","2019-9/29","2019-8/29",True,"2019-9/29",3,30,12
+"Use FDB backend if clusterfile content is defined","2019-8/30","2019-9/30","2019-8/30",True,"2019-9/30",3,4,2
+"Release notes for 3.8.0","2019-8/30","2019-9/30","2019-8/30",True,"2019-9/30",3,107,0
+"Do not request KVs when query limit is zero","2019-9/5","2019-10/5","2019-9/5",True,"2019-10/5",3,10,7
+"AppController terminate update for newer ifconfig/monit output","2019-9/5","2019-9/5","2019-9/5",True,"2019-9/5",3,2,2
+"Retry unknown commit result for simple mutations","2019-9/6","2019-9/6","2019-9/6",True,"2019-9/6",3,11,2
+"Merge Release 3.8 to master","2019-9/6","2019-9/6","2019-9/6",True,"2019-9/6",3,107,0
+"Start FDB when preparing Faststart image","2019-9/6","2019-11/6","2019-9/6",True,"2019-11/6",4,8,0
+"Slow stop services","2019-9/9","2019-9/9","2019-9/9",True,"2019-9/9",3,52,38
+"Use systemd instead of monit for service management","2019-9/10","2019-10/10","2019-9/10",True,"2019-10/10",3,1533,2404
+"Install erlang without X","2019-9/11","2019-9/11","2019-9/11",True,"2019-9/11",4,3,3
+"Collapse mutations to the same key","2019-9/14","2019-9/14","2019-9/14",True,"2019-9/14",3,20,19
+"Add test for batch put side effects","2019-9/17","2019-11/17","2019-9/17",True,"2019-11/17",4,39,0
+"Infrastructure manager agents cleanup","2019-9/18","2019-9/18","2019-9/18",True,"2019-9/18",3,0,231
+"Add support for namespace metadata queries","2019-9/19","2019-10/19","2019-9/19",True,"2019-10/19",4,30,3
+"Add postgres_dsn option to djinn","2019-9/19","2019-9/19","2019-9/19",True,"2019-9/19",3,14,4
+"Move service routing to RoutingManager","2019-9/21","2019-9/21","2019-9/21",True,"2019-9/21",3,211,582
+"Postgres tables update for PullQueues","2019-9/24","2019-9/24","2019-9/24",True,"2019-9/24",3,118,45
+"Pass update_indexes request to datastore service","2019-9/25","2019-9/25","2019-9/25",True,"2019-9/25",3,73,3
+"Store composite index metadata in FDB","2019-9/27","2019-11/27","2019-9/27",True,"2019-11/27",3,1118,881
+"Remove cassandra backend for PullQueues","2019-9/30","2019-11/30","2019-9/30",True,"2019-11/30",3,417,1969
+"Check if a kind has at least one entity","2019-9/30","2019-10/30","2019-9/30",True,"2019-10/30",3,31,3
+"Processes stats v2 and new Hermes API concept","2019-9/30","null","2019-9/30",False,"null",1,886,101
+"UA Server Postgres","2019-10/1","2019-10/1","2019-10/1",True,"2019-10/1",3,720,14
+"Don't run groomers for FDB datastore backend","2019-10/4","2019-10/4","2019-10/4",True,"2019-10/4",4,5,1
+"Tasks should use http to avoid scheme redirects since they use HAProxy","2019-10/7","2019-10/7","2019-10/7",True,"2019-10/7",4,11,16
+"Forbid uppercase letters in channel ID","2019-10/8","2019-10/8","2019-10/8",True,"2019-10/8",3,7,1
+"Docker image build updated to allow systemctl command failure","2019-10/11","2019-10/11","2019-10/11",True,"2019-10/11",3,3,3
+"Filter out empty namespaces","2019-10/11","2019-11/11","2019-10/11",True,"2019-11/11",3,13,2
+"Update 3.8 release branch","2019-10/15","2019-10/15","2019-10/15",True,"2019-10/15",4,20,18
+"Add support for property metadata queries","2019-10/15","2019-11/15","2019-10/15",True,"2019-11/15",3,132,3
+"Catch unexpected errors when checking process line","2019-10/16","2019-11/16","2019-10/16",True,"2019-11/16",3,4,1
+"Allow ovewrite of deployed files","2019-10/16","2020-1/16","2019-10/16",True,"2020-1/16",3,3,1
+"Add support for allocating sequential IDs","2019-10/21","2019-11/21","2019-10/21",True,"2019-11/21",3,178,18

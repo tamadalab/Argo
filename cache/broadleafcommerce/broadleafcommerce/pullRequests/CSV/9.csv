@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fixes issue with bundled resource references having a hardcoded ID","2019-12/2","2019-12/2","2019-12/2",True,"2019-12/2",2,9,2
+"Fixed an issue where Login page the head element has another nested head element","2019-12/4","2019-12/4","2019-12/4",True,"2019-12/4",2,80,7
+"Fixed an issue where XSS Vulnerability in demo site","2019-12/6","2019-12/6","2019-12/6",True,"2019-12/6",2,10,1
+"Added new runtime class transformer that allows specific cache regions to be disabled","2019-12/8","2019-12/8","2019-12/8",True,"2019-12/8",2,272,0
+"Fixed issue when CF does not showing up on Category form","2019-12/10","2019-12/10","2019-12/10",True,"2019-12/10",2,1,0
+"Fixed issue where multiple offers with minimum order subtotal requirements can get skipped","2019-12/17","2019-12/17","2019-12/17",True,"2019-12/17",2,17,15
+"Fix selectors after jquery upgrade","2019-12/18","2019-12/18","2019-12/18",True,"2019-12/18",2,3,3
+"Cannot see translations for profile entities in child site, that were added in parent","2019-12/20","2020-2/20","2019-12/20",False,"null",3,12,9
+"Fix for showing profile entity translations added in parent site","2019-12/20","2020-2/20","2019-12/20",True,"2020-2/20",2,12,9
+"Bump spring.security.version from 5.0.12.RELEASE to 5.2.1.RELEASE","2019-12/20","2020-3/20","2019-12/20",False,"null",0,1,1
+"Support blank non-required FK lookup page fields","2019-12/20","2019-12/20","2019-12/20",True,"2019-12/20",2,2,1
+"Fix issue for empty date_create and date_updated fields in for order items","2019-12/30","2019-12/30","2019-12/30",True,"2019-12/30",2,235,2
+"Add a property to disable solr optimize call","2019-12/31","2020-1/31","2019-12/31",True,"2020-1/31",2,15,3
+"Adding a default index on PROPERTY_NAME to BLC_SYSTEM_PROPERTY","2020-1/2","2020-1/2","2020-1/2",True,"2020-1/2",2,4,1
+"Fixed file formatting","2020-1/2","2020-1/2","2020-1/2",True,"2020-1/2",2,208,208
+"For Ratings Summary, bypass readReview query if ratingSummary ID is not available","2020-1/5","2020-1/5","2020-1/5",True,"2020-1/5",2,2,1
+"For Ratings Summary, bypass readRating query if ratingSummary ID is not available","2020-1/5","2020-1/5","2020-1/5",True,"2020-1/5",2,2,1
+"Added ability to undo a local site change for translations","2020-1/6","2020-6/6","2020-1/6",True,"2020-6/6",4,64,5
+"Add index on ProductImpl::urlKey","2020-1/7","2020-1/7","2020-1/7",True,"2020-1/7",2,3,1
+"Add index on OfferImpl::startDate","2020-1/7","2020-1/7","2020-1/7",True,"2020-1/7",2,1,0
+"Client performance solr reindex","2020-1/7","2020-2/7","2020-1/7",True,"2020-2/7",2,6046,73
+"backporting section resolution logic","2020-1/8","2021-6/8","2020-1/8",False,"null",2,5,14
+"Added getter to skip dynamic adjustments on ProductOptionValue","2020-1/8","2020-1/8","2020-1/8",True,"2020-1/8",2,34,12
+"Added compression mode for PNG compression to improve performance","2020-1/15","2020-1/15","2020-1/15",True,"2020-1/15",3,3,2
+"Fixed an issue where Central-Repository no longer supports plain HTTP","2020-1/16","2020-1/16","2020-1/16",True,"2020-1/16",2,1,1
+"Alternative transition changes to support postgres","2020-1/21","2020-1/21","2020-1/21",True,"2020-1/21",1,31,17
+"Create a new list for email attachments on clone","2020-1/21","2020-2/21","2020-1/21",True,"2020-2/21",2,1,1
+"Update versions to recommended patches.","2020-1/23","2020-1/23","2020-1/23",True,"2020-1/23",2,2,2
+"Fixes CustomField INTEGER type validation","2020-1/28","2020-1/28","2020-1/28",True,"2020-1/28",2,2,0
+"Fixed an issue where Could not change catalog on Global Admin","2020-1/29","2020-1/29","2020-1/29",True,"2020-1/29",2,1,0
+"Skus added to products are propagated to sandbox but cannot be approved.","2020-2/5","2020-2/5","2020-2/5",False,"null",2,1,0
+"[SECURITY] Use HTTPS to resolve dependencies in Maven Build","2020-2/11","2020-2/11","2020-2/11",False,"null",2,4,4
+"Verify that none of the selected product options is null when adding/editing SKU","2020-2/11","2020-3/11","2020-2/11",True,"2020-3/11",3,52,8
+"Added Google Tag Manager Processor to the framework.","2020-2/12","2020-2/12","2020-2/12",True,"2020-2/12",2,190,0
+"Fixed an issue where Validations fails with NPE for blRequiredIfPropertyValidator","2020-2/13","2020-2/13","2020-2/13",True,"2020-2/13",2,1,1
+"fix fields disabled once Approve","2020-2/13","2020-3/13","2020-2/13",True,"2020-3/13",3,12,0
+"Ability to remove bundle","2020-2/13","2020-3/13","2020-2/13",True,"2020-3/13",4,40,4
+"Add a new request mapping for readonly collection with tabs ","2020-2/14","2020-3/14","2020-2/14",True,"2020-3/14",3,16,0
+"Added check for read only table still allows reorder edits","2020-2/17","2020-2/17","2020-2/17",True,"2020-2/17",3,4,0
+"Fixed issue where translations could not be added to fields when the entity was part of a MappedCollection","2020-2/18","2020-3/18","2020-2/18",True,"2020-3/18",1,7,0
+"Fix spelling error in column name for OfferImpls marketing message","2020-2/18","2020-2/18","2020-2/18",True,"2020-2/18",1,2,2
+"Backport listgrid scroll fix to 5.1","2020-2/19","2020-2/19","2020-2/19",True,"2020-2/19",3,19,6
+"Backport listgrid scroll fix to 5.1 alt","2020-2/19","2020-2/19","2020-2/19",True,"2020-2/19",2,16,5
+"Removed the conditionalProperty check from RemoveCacheClassTransformer in favor of a basic instance variable","2020-2/19","2020-2/19","2020-2/19",False,"null",2,8,25
+"Removed the conditionalProperty check from RemoveCacheClassTransformer in favor of a basic instance variable","2020-2/20","2020-2/20","2020-2/20",True,"2020-2/20",2,8,25
+"Fix errors during schema export in DXP project","2020-2/21","2020-2/21","2020-2/21",True,"2020-2/21",2,3,0
+"Fix to prevent antisamy cleanse from impacting rule builder fields","2020-2/24","2020-2/24","2020-2/24",True,"2020-2/24",2,4,0
+"Fix to prevent antisamy cleanse from impacting rule builder fields","2020-2/24","2020-2/24","2020-2/24",True,"2020-2/24",3,4,0
+"Fix to prevent antisamy cleanse from impacting rule builder fields","2020-2/25","2020-2/25","2020-2/25",True,"2020-2/25",2,4,0
+"Fixed default OOB admin permissions where the Catalog ALL was being assigned when it should be CATALOG READ","2020-2/26","2020-2/26","2020-2/26",True,"2020-2/26",2,10,10
+"Fix for not deleting blc_qual_crit_offer_xref when saving after promote","2020-2/26","2020-2/26","2020-2/26",True,"2020-2/26",3,2,1
+"Disable translations by property","2020-2/26","2020-2/26","2020-2/26",True,"2020-2/26",3,44,23
+"check for NPE in RulesPersistenceProvider ","2020-3/2","2020-3/2","2020-3/2",True,"2020-3/2",2,3,2
+"Remove new solr index code","2020-3/3","2020-3/3","2020-3/3",True,"2020-3/3",2,0,1203
+"Upgrade log4j library","2020-3/5","2020-4/5","2020-3/5",True,"2020-4/5",2,175,92
+"Fix additional content targeting action creation issue","2020-3/5","2020-3/5","2020-3/5",True,"2020-3/5",4,203,190
+"Refactor to only skip the pre & post processing of the filter. With the way it was written previously, if i18n.translation.enabled is true, then the filter chain would be executed twice.","2020-3/5","2020-3/5","2020-3/5",True,"2020-3/5",2,13,9
+"Improve getting page size in the SeoDefaultPropertyServiceImpl","2020-3/6","2020-3/6","2020-3/6",True,"2020-3/6",3,28,2
+"Excluding archived payment transactions from query result","2020-3/10","2020-3/10","2020-3/10",True,"2020-3/10",3,3,2
+"Additional lazy fetch tuning","2020-3/11","2020-4/11","2020-3/11",True,"2020-4/11",2,11,10
+"add index on AdminSectionImpl::ceilingEntity to accelerate query","2020-3/12","2022-3/12","2020-3/12",False,"null",3,1,0
+"add index on BLC_CUSTOMER.USER_NAME","2020-3/12","2022-3/12","2020-3/12",False,"null",2,1,0
+"Add index on table BLC_ADMIN_SECTION column URL","2020-3/12","2022-3/12","2020-3/12",False,"null",2,1,0
+"Upgrade owasp.esapi to version 2.2.0.0","2020-3/16","2020-3/16","2020-3/16",True,"2020-3/16",3,2,2
+"Bump spring.security.version from 5.0.12.RELEASE to 5.3.0.RELEASE","2020-3/16","2020-6/16","2020-3/16",False,"null",1,1,1
+"Add possibility to read archived records","2020-3/16","2020-3/16","2020-3/16",False,"null",1,151,49
+"Fixed issue where IndexFieldTypes and SearchFacetRanges were being returned in collections after they were archived","2020-3/18","2020-3/18","2020-3/18",True,"2020-3/18",2,26,7
+"Don't delete rule if this prop is found in another changeset that will override changes","2020-3/18","2020-3/18","2020-3/18",True,"2020-3/18",2,26,29
+"Upgrade log4j library","2020-3/24","2020-4/24","2020-3/24",True,"2020-4/24",3,176,92
+"fix usage of Content Security Policies in admin","2020-3/25","2020-4/25","2020-3/25",True,"2020-4/25",3,9,12
+"Fixed issue with order ""between date"" filter when it does not correctly encode a pipe delimiter in the URL","2020-3/30","2020-3/30","2020-3/30",True,"2020-3/30",3,10,5
+"Remove unused mergeCartResponseKey","2020-4/2","2020-6/2","2020-4/2",True,"2020-6/2",2,0,2
+"Don't save mergeCartResponse to session","2020-4/2","2020-6/2","2020-4/2",True,"2020-6/2",2,0,4
+"Add additional lazy fetch tuning","2020-4/8","2020-6/8","2020-4/8",False,"null",2,19,21
+"Added new field to ListGrid for storing css classes","2020-4/9","2020-4/9","2020-4/9",True,"2020-4/9",2,28,8
+"Fixed an issue where Inventory check doesn't work properly for products with product options","2020-4/13","2020-5/13","2020-4/13",True,"2020-5/13",2,52,8
+"Blank Personal Message rows were being created on order submit","2020-4/13","2020-4/13","2020-4/13",True,"2020-4/13",2,6,2
+"Add support translation for map collections","2020-4/15","2020-4/15","2020-4/15",True,"2020-4/15",2,24,15
+"Prevents creating static asset, if file size does not pass max upload size validation","2020-4/15","2020-4/15","2020-4/15",True,"2020-4/15",2,16,0
+"fixes blocked threads on mvehelper calls","2020-4/16","2020-4/16","2020-4/16",False,"null",1,111,17
+"fixes blocked threads on mvehelper calls","2020-4/16","2020-4/16","2020-4/16",True,"2020-4/16",2,138,32
+"Including support for adding translatable content to SkuMedia from the Product/Sku admin screens","2020-4/20","2020-9/20","2020-4/20",False,"null",2,1,0
+"Extending payment type with apple and google pay","2020-4/21","2020-4/21","2020-4/21",True,"2020-4/21",2,2,0
+"Fix queries cache set current date resolution","2020-4/21","2020-6/21","2020-4/21",True,"2020-6/21",3,53,16
+"Add translation for media","2020-4/22","2020-4/22","2020-4/22",True,"2020-4/22",3,8,4
+"Add translations to search","2020-4/22","2020-4/22","2020-4/22",True,"2020-4/22",3,178,1
+"Confirm Delete Modal on Listgrid","2020-4/22","2022-2/22","2020-4/22",False,"null",2,128,48
+"Confirmable Remove List Grid Action","2020-4/24","2020-11/24","2020-4/24",True,"2020-11/24",2,76,27
+"Remove import SQL files that modify the sequence generator","2020-4/28","2020-5/28","2020-4/28",True,"2020-5/28",2,0,61
+"Fix adding Id filter for the any XREF ListGrid","2020-4/30","2020-5/30","2020-4/30",False,"null",3,42,0
+"Add default value to Content Items","2020-5/6","2020-5/6","2020-5/6",False,"null",5,38,8
+"ContentItem update validation issue","2020-5/8","2020-5/8","2020-5/8",True,"2020-5/8",3,1,1
+"Fix incorrect map initialization","2020-5/9","2020-6/9","2020-5/9",True,"2020-6/9",2,1,1
+"Develop 6.1.x","2020-5/10","2020-5/10","2020-5/10",False,"null",14,9462,2719
+"Fix add translationson the primary image","2020-5/15","2020-5/15","2020-5/15",True,"2020-5/15",3,28,12
+"Fix js scripts that break ECMAScript5 compatibility","2020-5/18","2020-7/18","2020-5/18",False,"null",3,21,21
+"Fix warning message in console","2020-5/19","2020-6/19","2020-5/19",True,"2020-6/19",3,1830,1392
+"Fix ajax looping loading issue","2020-5/20","2020-5/20","2020-5/20",True,"2020-5/20",3,1,1
+"Add XssFilter for site","2020-5/21","2020-5/21","2020-5/21",True,"2020-5/21",2,760,4
+"Fix minifying javascript","2020-5/22","2020-6/22","2020-5/22",True,"2020-6/22",4,13087,12174

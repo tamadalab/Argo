@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Remove RoutingContext from RoutingRequest and extract TemporaryVerticesContainer [changelog skip]","2022-3/30","2022-3/30","2022-3/30",True,"2022-3/30",3,763,754
+"NeTEx mapping of WheelchairBoarding from ServiceJourney to Trip","2022-3/30","2022-3/30","2022-3/30",True,"2022-3/30",4,69,17
+"Add cost-based wheelchair-accessible routing","2022-3/30","2022-4/30","2022-3/30",True,"2022-4/30",4,1053,108
+"Consider Wheelchair boarding/alightning when routing from or to directly to a stop","2022-3/30","2022-4/30","2022-3/30",True,"2022-4/30",5,201,18
+"Error in SpeedTest input parser [changelog skip]","2022-3/30","2022-3/30","2022-3/30",True,"2022-3/30",3,58,60
+"Always parse Netex flexible lines","2022-3/31","2022-3/31","2022-3/31",True,"2022-3/31",3,1,3
+"Use array for iterating over transfers in raptor for better performance [changelog skip]","2022-3/31","null","2022-3/31",False,"null",3,40,80
+"Group/filter on first/last trip in itineraries","2022-3/31","2022-4/31","2022-3/31",True,"2022-4/31",5,364,2
+"Remove the Sandbox example, there are plenty of others [changelog skip]","2022-3/31","2022-4/31","2022-3/31",True,"2022-4/31",3,1,236
+"Remove TraversalRequirements and use exactly same method in StreetEdge [changelog skip]","2022-4/1","2022-4/1","2022-4/1",True,"2022-4/1",3,13,102
+"Fallback to recorded/expected arrival/departure time if other one is missing in SIRI-ET","2022-4/1","2022-5/1","2022-4/1",True,"2022-5/1",5,104,84
+"Map to ApiTripTimesShort in REST API response [changelog skip]","2022-4/1","2022-4/1","2022-4/1",True,"2022-4/1",3,5,2
+"Remove unused dependencies [changelog skip]","2022-4/1","2022-4/1","2022-4/1",True,"2022-4/1",3,15,66
+"Optimise TripPatternForDates.getTripSchedule(int) - TripScheduleWithOffset [changelog skip]","2022-4/3","2022-4/3","2022-4/3",True,"2022-4/3",4,77,31
+"fix NPE with node used for two elevators [changelog skip]","2022-4/4","2022-4/4","2022-4/4",True,"2022-4/4",4,1,1
+"Add GBFS form factors to GraphQL API","2022-4/4","2022-4/4","2022-4/4",True,"2022-4/4",5,257,41
+"Fix problem with time points [changelog skip]","2022-4/4","2022-4/4","2022-4/4",True,"2022-4/4",5,1,0
+"Link platforms also against railway=platform","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",5,2,1
+"Infer vehicle positions service day [changelog skip]","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",4,267,40
+"Log url of ignored alert feed and change log level depending on if timestamp is before or the same as before [changelog skip]","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",4,6,2
+"Add Geocoder API for debug client searches","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",4,565,20
+"Refactor trip search [changelog skip]","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",4,332,245
+"Add an implementation for fetching alternative legs","2022-4/5","2022-4/5","2022-4/5",True,"2022-4/5",3,874,20
+"Shortcut in ParetoCheck add/check for performance [changelog skip]","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",4,18,1
+"Remove self-referring DatedServiceJourneyRefs [changelog skip]","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",3,14,0
+"Make language nullable in MultilingualString, as it is not set in NonLocalizedString [changelog skip]","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",3,3,1
+"Added SIRI trip matching for DatedServiceJourneyId [changelog skip]","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",4,30,15
+"Use maven plugin to compile GTFS-RT library [changelog skip]","2022-4/6","2022-4/6","2022-4/6",True,"2022-4/6",4,1030,32854
+"Use board/aligh cost only for transits","2022-4/7","2022-4/7","2022-4/7",True,"2022-4/7",3,71,30
+"Refactor, explicit slackIndex on RaptorTripPattern [changelog skip]","2022-4/8","2022-4/8","2022-4/8",True,"2022-4/8",3,133,72
+"Update prettier formatter documentation [changelog skip]","2022-4/8","2022-4/8","2022-4/8",True,"2022-4/8",3,40,19
+"Reactivate GTFS-RT tests [changelog skip]","2022-4/11","2022-4/11","2022-4/11",True,"2022-4/11",4,246,358
+"Allow single SIRI-situations to fail without affecting others","2022-4/11","2022-4/11","2022-4/11",True,"2022-4/11",3,11,2
+"Convert Legs to Java 8 time classes [changelog skip]","2022-4/11","2022-4/11","2022-4/11",True,"2022-4/11",3,331,463
+"Clean up PolylineEncoder & EncodedPolylineBean [changelog skip]","2022-4/11","2022-4/11","2022-4/11",True,"2022-4/11",3,68,307
+"Re-enable and cleanup test for TemporaryVerticesContainer [changelog skip]","2022-4/11","2022-4/11","2022-4/11",True,"2022-4/11",3,20,25
+"Make maxWheelchairSlope not a hard cut-off, but apply a cost instead","2022-4/12","2022-4/12","2022-4/12",True,"2022-4/12",3,78,57
+"Fix time shifting bug in flex direct router [changelog skip]","2022-4/12","2022-4/12","2022-4/12",True,"2022-4/12",3,48,12
+"Only crash build if none of the transit data sets have active data [changelog skip]","2022-4/12","2022-4/12","2022-4/12",True,"2022-4/12",3,54,18
+"Fix problem with submode filter","2022-4/13","2022-4/13","2022-4/13",True,"2022-4/13",4,45,1
+"Improve logging of GTFS-RT updates [changelog skip]","2022-4/14","2022-4/14","2022-4/14",True,"2022-4/14",6,228,161
+"Use modified timetables in planning","2022-4/14","null","2022-4/14",False,"null",2,432,4
+"Expose Leg.serviceDate in trip end-point","2022-4/19","2022-4/19","2022-4/19",True,"2022-4/19",4,97,60
+"Read max slope from default routing request","2022-4/19","2022-4/19","2022-4/19",True,"2022-4/19",3,12,5
+"Fix generalized cost of flex direct legs [changelog skip]","2022-4/20","2022-4/20","2022-4/20",True,"2022-4/20",3,24,18
+"Remove log error that frequencies are not supported [changelog skip]","2022-4/20","2022-4/20","2022-4/20",True,"2022-4/20",4,0,7
+"Enable overriding maxDirectStreetDuration per mode","2022-4/21","2022-4/21","2022-4/21",True,"2022-4/21",3,79,30
+"Siri updaters for Azure ServiceBus","2022-4/21","2022-5/21","2022-4/21",True,"2022-5/21",6,1534,25
+"Make dependency on Graph optional in TimetableSnapshotSource [changelog skip]","2022-4/21","2022-4/21","2022-4/21",True,"2022-4/21",4,73,287
+"Fix: Hot fix to avoid crash during routing in optimized transfers [changelog skip]","2022-4/22","2022-4/22","2022-4/22",True,"2022-4/22",4,13,1
+"Use correct routing request when traversing transfers [changelog skip]","2022-4/22","2022-4/22","2022-4/22",True,"2022-4/22",4,6,1
+"Solve problems with TranslatedString [changelog skip]","2022-4/22","2022-4/22","2022-4/22",False,"null",4,7,3
+"How about turning off the default build reports generation feature [changelog skip]","2022-4/23","2022-4/23","2022-4/23",True,"2022-4/23",3,1,1
+"Remove commons-math3 dependency and use internal java alternative [changelog skip]","2022-4/24","2022-6/24","2022-4/24",False,"null",4,68,100
+"Switch from internal jcommander implementation usage to guava [changelog skip]","2022-4/24","2022-4/24","2022-4/24",True,"2022-4/24",4,9,9
+"Ensure better decoupling of OSM reading logic [changelog skip]","2022-4/25","2022-6/25","2022-4/25",False,"null",3,387,187
+"Improve stop linking by taking OSM platform polygons into account","2022-4/26","2022-5/26","2022-4/26",True,"2022-5/26",5,740,383
+"Preserve language in SIRI/GTFS-RT alert messages","2022-4/26","2022-4/26","2022-4/26",True,"2022-4/26",3,79,26
+"Clean up AStar related classes [changelog skip]","2022-4/26","2022-5/26","2022-4/26",True,"2022-5/26",3,288,314
+"Fix error with transfer-slack and GTFS minTransferTime","2022-4/26","2022-5/26","2022-4/26",True,"2022-5/26",6,417,147
+"Upgrade siri-protobuf-mapper","2022-4/27","2022-4/27","2022-4/27",True,"2022-4/27",3,1,1
+"Read headsign for frequency-only patterns in vector tiles API [changelog skip]","2022-4/27","2022-4/27","2022-4/27",True,"2022-4/27",4,38,21
+"Transmodel API transport mode not present or null is all transport modes [changelog skip]","2022-4/27","2022-5/27","2022-4/27",True,"2022-5/27",3,3,1
+"Use actual distance for walk distance in StreetEdge","2022-4/27","2022-5/27","2022-4/27",True,"2022-5/27",3,49,12
+"TransferGenerator fix [changelog skip]","2022-4/28","2022-5/28","2022-4/28",True,"2022-5/28",5,329,49
+"Expose datedServiceJourney from EstimatedCall [changelog skip]","2022-4/28","2022-4/28","2022-4/28",True,"2022-4/28",4,30,7
+"Port isochrone/travel time surface support from OTP1 into a sandbox API","2022-4/28","2022-5/28","2022-4/28",True,"2022-5/28",4,2144,4
+"Fix default date on ServiceJourney estimatedCalls in Transmodel API [changelog skip]","2022-4/28","2022-4/28","2022-4/28",True,"2022-4/28",3,7,8
+"Adapt documentation for walkReluctance, comment on performance [changelog skip]","2022-4/28","2022-5/28","2022-4/28",True,"2022-5/28",5,18,10
+"Generate trip patterns for flex trips [changelog skip]","2022-4/28","2022-5/28","2022-4/28",True,"2022-5/28",3,8,10
+"Fix departuresPerTripPattern when limitOnDestinationDisplay is true [changelog skip]","2022-4/28","2022-5/28","2022-4/28",True,"2022-5/28",3,1,9
+"Bugfix on setHopGemometriesFromPattern [changelog skip]","2022-4/29","2022-5/29","2022-4/29",True,"2022-5/29",5,153,25
+"Rename 'WheelChairBoarding' to 'WheelchairBoarding' [changelog skip]","2022-4/29","2022-4/29","2022-4/29",True,"2022-4/29",4,147,150
+"Fix platform edge name [changelog skip]","2022-5/3","2022-5/3","2022-5/3",True,"2022-5/3",3,15,4
+"Guard against null nameType in Netex mapper [changelog skip]","2022-5/3","2022-5/3","2022-5/3",True,"2022-5/3",3,1,1
+"Solve problem with negative running time validation [changelog skip]","2022-5/4","2022-5/4","2022-5/4",True,"2022-5/4",4,14,1
+"Code cleanup [changelog skip]","2022-5/5","2022-5/5","2022-5/5",True,"2022-5/5",3,0,13
+"Solve bug in SiriAlertsUpdateHandler [changelog skip]","2022-5/5","2022-5/5","2022-5/5",True,"2022-5/5",5,0,14
+"Remove duplicated documentation file [changelog skip]","2022-5/5","2022-5/5","2022-5/5",True,"2022-5/5",3,0,7
+"Allow overriding GBFS system_id with configuration","2022-5/6","2022-5/6","2022-5/6",True,"2022-5/6",3,50,11
+"Filter out GBFS stations that are missing required information [changelog skip]","2022-5/6","2022-5/6","2022-5/6",True,"2022-5/6",3,31,9
+"Otp2 transit model - Part 1 [changelog skip]","2022-5/9","2022-5/9","2022-5/9",True,"2022-5/9",3,1402,885
+"Otp2 arch test [changelog skip]","2022-5/9","2022-5/9","2022-5/9",True,"2022-5/9",4,223,0
+"Adjust SIRI times","2022-5/10","2022-5/10","2022-5/10",False,"null",3,127,78
+"doc: add headers GBFS config doc","2022-5/10","2022-5/10","2022-5/10",True,"2022-5/10",3,20,0
+"Add ""arrive by"" searches to speed test [changelog skip]","2022-5/10","2022-5/10","2022-5/10",True,"2022-5/10",3,18,10
+"Refactor TimetableHelper in order to make testing easier [changelog skip]","2022-5/10","2022-5/10","2022-5/10",True,"2022-5/10",4,121,200
+"Do not attempt to remove scheduled timetables [changelog skip]","2022-5/11","2022-5/11","2022-5/11",True,"2022-5/11",4,7,1
+"Add gtfs stop description translations","2022-5/11","2022-6/11","2022-5/11",True,"2022-6/11",5,189,72
+"Report on sample level in SpeedTest to Micrometer [changelog skip]","2022-5/13","2022-5/13","2022-5/13",True,"2022-5/13",3,248,134
+"Migrate tests from JUnit 3 to JUnit 5","2022-5/16","2022-5/16","2022-5/16",True,"2022-5/16",4,141,143
+"Split journey pattern geometries [changelog skip]","2022-5/17","2022-5/17","2022-5/17",True,"2022-5/17",5,119,5
+"Option to add customized logging features [changelog skip]","2022-5/18","2022-5/18","2022-5/18",True,"2022-5/18",3,13,4
+"Cost-based accessibility routing for streets","2022-5/18","2022-6/18","2022-5/18",True,"2022-6/18",4,1697,882
+"Enable codecov report on PRs [changelog skip]","2022-5/18","2022-5/18","2022-5/18",True,"2022-5/18",3,1,1
+"Implement nearby searches for car and bicycle parking","2022-5/19","2022-5/19","2022-5/19",True,"2022-5/19",3,1158,1204
+"Do not link cars to stop vertices in routing","2022-5/19","2022-5/19","2022-5/19",True,"2022-5/19",3,90,12
+"Automatic container image build","2022-5/20","2022-5/20","2022-5/20",True,"2022-5/20",3,103,1
+"Rename WheelchairBoarding to WheelchairAccessibility [changelog skip]","2022-5/20","2022-5/20","2022-5/20",True,"2022-5/20",3,228,199
+"Transit model - Part 2 [changelog skip]","2022-5/20","2022-5/20","2022-5/20",True,"2022-5/20",4,1717,893

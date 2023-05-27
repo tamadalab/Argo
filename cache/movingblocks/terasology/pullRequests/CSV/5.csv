@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Adjusted a bit item in hand display for item with different texture size...","2014-2/19","2014-2/19","2014-2/19",True,"2014-2/19",2,127,55
+"Add missing layout-config annotation for column-widths and row-heights","2014-2/21","2014-2/21","2014-2/21",True,"2014-2/21",2,2,0
+"Fixing occasional spawning underground and adding additional method to InventoryManager for comparing items","2014-2/21","2014-2/21","2014-2/21",True,"2014-2/21",2,17,6
+"Eighth of a block shape.","2014-2/21","2014-2/21","2014-2/21",True,"2014-2/21",2,159,0
+"Fixing collider for the new shape.","2014-2/22","2014-2/22","2014-2/22",True,"2014-2/22",2,1,1
+"Fix for HalfBlock texture coordinates and add json definable ""center"" tile","2014-2/22","2014-2/22","2014-2/22",True,"2014-2/22",2,8,4
+"column layout minimizing size","2014-2/22","2014-2/22","2014-2/22",True,"2014-2/22",2,142,10
+"Provide public method to register a screen by uri","2014-2/22","2014-2/22","2014-2/22",False,"null",2,2,0
+"RelativeLayout's getPreferredSize -- Discussion only: don't commit","2014-2/23","2014-3/23","2014-2/23",False,"null",3,5,1
+"Some changes for the RigidBody and BulletPhysic","2014-2/23","2014-2/23","2014-2/23",False,"null",2,116,25
+"Added Added friction, angularVelocityFactor and ApplyForce for the RigidBody","2014-2/26","2014-2/26","2014-2/26",True,"2014-2/26",2,81,2
+"Added additional inventory operations (with JUnit test).","2014-2/27","2014-2/27","2014-2/27",True,"2014-2/27",2,618,73
+"Added methods for the change velocities of the rgigd body","2014-3/1","2014-3/1","2014-3/1",False,"null",2,39,0
+"ChunkRelevanceRegion: Early exit if distance did not change","2014-3/1","2014-3/1","2014-3/1",False,"null",2,4,0
+"log missing modules at error level","2014-3/1","2014-3/1","2014-3/1",True,"2014-3/1",2,10,2
+"collada support","2014-3/1","2014-3/1","2014-3/1",True,"2014-3/1",2,535,11
+"Added ChangeVelocity event","2014-3/2","2014-3/2","2014-3/2",True,"2014-3/2",2,59,0
+"Persistent storage of world generation params","2014-3/4","2014-3/4","2014-3/4",True,"2014-3/4",2,144,36
+"Fix main performance problems with MeshComponent Rendering","2014-3/6","2014-3/6","2014-3/6",True,"2014-3/6",2,6,4
+"Added missing slope block shapes and moved them to a sub directory.","2014-3/6","2014-3/6","2014-3/6",True,"2014-3/6",2,549,90
+"Add support for double in PropertyProvider","2014-3/7","2014-3/7","2014-3/7",True,"2014-3/7",2,12,0
+"Added reflections cache","2014-3/8","2014-3/8","2014-3/8",True,"2014-3/8",2,121,26
+"Added menu for player config","2014-3/9","2014-3/9","2014-3/9",True,"2014-3/9",3,1081,89
+"Introducing a generic event for getting a value for property so that sys...","2014-3/11","2014-3/11","2014-3/11",True,"2014-3/11",2,268,110
+"Inventory and Delay - refactoring, some core bug fixes","2014-3/12","2014-3/12","2014-3/12",True,"2014-3/12",2,534,213
+"Added NoneMoveEvent for the player","2014-3/12","2014-3/12","2014-3/12",False,"null",2,56,4
+"Fix event firing order and DelayedAction NPE","2014-3/14","2014-3/14","2014-3/14",True,"2014-3/14",2,8,2
+"Added NoneMoveEvent for the player. If collision fillter change in the R...","2014-3/14","2014-3/14","2014-3/14",True,"2014-3/14",2,47,15
+"Fixed updateRigidBody. RigidBody.getCollisionFlags always return 0","2014-3/14","2014-3/14","2014-3/14",True,"2014-3/14",2,3,1
+"Collada support improvements","2014-3/15","2014-3/15","2014-3/15",False,"null",3,543,179
+"Added gradle protobuf compiler tasks","2014-3/16","2014-3/16","2014-3/16",True,"2014-3/16",3,11,0
+"Added velocity factors","2014-3/17","2014-3/17","2014-3/17",False,"null",1,68,7
+"Added velocity factors","2014-3/17","2014-3/17","2014-3/17",True,"2014-3/17",3,12,3
+"Fix for Colors getting saved as ints","2014-3/19","2014-3/19","2014-3/19",False,"null",2,8,1
+"Make console available in main menu","2014-3/19","2014-3/19","2014-3/19",True,"2014-3/19",3,15,2
+"Add OreGenerator to get these blocks in the default world generation","2014-3/20","2014-3/20","2014-3/20",True,"2014-3/20",3,202,7
+"Add cycling tab completion and a few other tweaks","2014-3/22","2014-3/22","2014-3/22",True,"2014-3/22",2,687,182
+"Added:","2014-3/22","2014-3/22","2014-3/22",True,"2014-3/22",3,37,1
+"Implemented (multi-line) selection in UIText","2014-3/23","2014-3/23","2014-3/23",True,"2014-3/23",2,99,68
+"Allow small inventory grids to shrink further","2014-3/24","2014-3/24","2014-3/24",True,"2014-3/24",2,1,1
+"Fix broken scrolling behavior of multi-line UIText","2014-3/24","2014-4/24","2014-3/24",False,"null",3,106,33
+"Server admin commands","2014-3/25","2014-4/25","2014-3/25",True,"2014-4/25",3,150,0
+"Pr collada updates","2014-3/26","2014-3/26","2014-3/26",True,"2014-3/26",2,789,108
+"Bug fix for throwing item","2014-3/27","2014-3/27","2014-3/27",True,"2014-3/27",2,1,1
+"Reverting failed pull request #1036","2014-3/27","2014-3/27","2014-3/27",True,"2014-3/27",1,108,789
+"Pr collada skeletal mesh colored vertexes","2014-3/28","2014-3/28","2014-3/28",True,"2014-3/28",2,913,186
+"Fix for UIText to support multiline mode.","2014-3/28","2014-3/28","2014-3/28",True,"2014-3/28",1,143,73
+"Tooltip Widgets","2014-3/28","2014-3/28","2014-3/28",True,"2014-3/28",1,109,97
+"Tooltip for items supports multi-line display driven by an event","2014-3/28","2014-4/28","2014-3/28",True,"2014-4/28",2,279,18
+"Convert collada unit scale into 1-meter units","2014-4/1","2014-4/1","2014-4/1",True,"2014-4/1",2,19,2
+"Fix issue with null error messages in console.","2014-4/4","2014-4/4","2014-4/4",True,"2014-4/4",1,24,36
+"NUI FrameBufferObject support","2014-4/4","2014-4/4","2014-4/4",True,"2014-4/4",2,291,72
+"Add a dedicated chat console","2014-4/5","2014-4/5","2014-4/5",True,"2014-4/5",4,758,50
+"Block structural support feature. AbstractValueModifiableEvent can now have values added after multiplier.","2014-4/5","2014-4/5","2014-4/5",True,"2014-4/5",2,635,80
+"Make listUsers work on remote clients","2014-4/6","2014-4/6","2014-4/6",True,"2014-4/6",2,50,9
+"Moved pillar shapes to StructuralResources.","2014-4/7","2014-4/7","2014-4/7",True,"2014-4/7",2,0,275
+"Delta support for prefabs.","2014-4/12","2014-4/12","2014-4/12",True,"2014-4/12",1,423,292
+"Potential fix for #1058","2014-4/13","2014-4/13","2014-4/13",True,"2014-4/13",1,1,1
+"First round of Gradle tweaks - focus on support for transitive dependencies","2014-4/13","2014-4/13","2014-4/13",True,"2014-4/13",1,344,157
+"Fix for loading bar flicking to empty for some steps.","2014-4/13","2014-4/13","2014-4/13",True,"2014-4/13",1,2,2
+"Use swing thread for error message dialog display","2014-4/14","2014-4/14","2014-4/14",True,"2014-4/14",3,23,3
+"Fixes #1047","2014-4/16","2014-4/16","2014-4/16",True,"2014-4/16",2,3,4
+"Headless Server config through command line","2014-4/16","2014-4/16","2014-4/16",True,"2014-4/16",3,54,4
+"Fixed incorrect registration of new block families client-side.","2014-4/17","2014-4/17","2014-4/17",True,"2014-4/17",1,1,1
+"Continue without sound if OpenAL setup fails","2014-4/17","2014-4/17","2014-4/17",True,"2014-4/17",2,35,26
+"Don't setup player instance in headless mode","2014-4/18","2014-4/18","2014-4/18",True,"2014-4/18",3,99,54
+"Fixes most eclipse warnings in audio and asset packages","2014-4/19","2014-4/19","2014-4/19",True,"2014-4/19",2,368,316
+"Remove client entity from relevance region when removed","2014-4/21","2014-4/21","2014-4/21",True,"2014-4/21",3,1,0
+"Add disabled state for UIButton","2014-4/22","2014-4/22","2014-4/22",True,"2014-4/22",2,31,3
+"Improved support for copying entities","2014-4/23","2014-4/23","2014-4/23",True,"2014-4/23",1,46,2
+"Add message box dialogs for long-running operations","2014-4/23","2014-5/23","2014-4/23",True,"2014-5/23",2,309,45
+"Add proper crash reporting","2014-4/27","2014-4/27","2014-4/27",True,"2014-4/27",2,413,46
+"Fix for #1085 - modules not fully disabled at end off game session","2014-4/28","2014-4/28","2014-4/28",True,"2014-4/28",3,35,24
+"Fixes and cleanup","2014-4/29","2014-4/29","2014-4/29",True,"2014-4/29",2,176,216
+"Minimal changes, questions, first ever pull request!","2014-4/30","2014-4/30","2014-4/30",False,"null",3,53,35
+"Move CrashReporter into separate project","2014-4/30","2014-5/30","2014-4/30",True,"2014-5/30",3,45,343
+"Addressed Issues of PR1088","2014-5/4","2014-5/4","2014-5/4",True,"2014-5/4",3,81,48
+"StateMainMenu changes and questions","2014-5/5","2014-11/5","2014-5/5",False,"null",4,9,4
+"Support operations that cannot be cancelled in WaitPopup","2014-5/5","2014-5/5","2014-5/5",True,"2014-5/5",2,25,15
+"Using the new copy() method in EntityRef, also fixed the support based on sides (with test)","2014-5/7","2014-5/7","2014-5/7",False,"null",2,254,28
+"Updated logging libs","2014-5/7","2014-5/7","2014-5/7",True,"2014-5/7",2,3,3
+"PC Facade's Terasology.java Refactoring - Work in Progress","2014-5/13","2014-6/13","2014-5/13",False,"null",4,141,49
+"Add more system info to log","2014-5/14","2014-5/14","2014-5/14",True,"2014-5/14",2,10,2
+"#1024 - Splits ToggleViewDistance buttons","2014-5/14","2014-5/14","2014-5/14",True,"2014-5/14",4,51,4
+"VersionEye integration","2014-5/17","2014-5/17","2014-5/17",True,"2014-5/17",2,18,0
+"Updated join game dialog","2014-5/17","2014-5/17","2014-5/17",True,"2014-5/17",3,586,268
+"TerasologyEngine.java refactoring - Work in Progress","2014-5/18","2014-11/18","2014-5/18",False,"null",3,582,301
+"#651 - Extracts drowning into a module","2014-5/22","2014-5/22","2014-5/22",True,"2014-5/22",5,2,272
+"Potential fix for module permission issue (under OSX?).","2014-5/26","2014-5/26","2014-5/26",True,"2014-5/26",1,9,2
+"Account for center aligned blocks for OnEnterBlockEvent","2014-5/27","2014-5/27","2014-5/27",True,"2014-5/27",3,2,2
+"Video settings screen revamp : Stage 1 out of 3.","2014-5/27","2014-5/27","2014-5/27",False,"null",4,514,63
+"UIBox's content now gets update calls","2014-5/29","2014-5/29","2014-5/29",True,"2014-5/29",2,2,2
+"Allow retrieval of UIWidget assets from code","2014-5/29","2014-5/29","2014-5/29",False,"null",2,5,0
+"Fix inventory tooltips and separate rendering from interaction","2014-5/29","2014-5/29","2014-5/29",True,"2014-5/29",2,149,107
+"Expose UIElement to modules","2014-5/30","2014-5/30","2014-5/30",True,"2014-5/30",2,4,0
+"Fixing the rebasing errors. This should be ready for pull request.","2014-5/31","2014-5/31","2014-5/31",True,"2014-5/31",3,305,74
+"Update videoMenuScreen.ui to include rendering distance, also including ...","2014-6/1","2014-6/1","2014-6/1",True,"2014-6/1",2,7,6
+"Refactoring of Terasology.java in Facade/PC - Merge Candidate","2014-6/3","2014-6/3","2014-6/3",False,"null",4,136,58
+"Added whitelist candidate","2014-6/4","2014-6/4","2014-6/4",True,"2014-6/4",2,1,0
+"Fix dropped items being invisible #1131","2014-6/4","2014-6/4","2014-6/4",True,"2014-6/4",2,1,1

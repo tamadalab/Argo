@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Spring core JMS pom.xml","2011-2/9","2011-7/9","2011-2/9",False,"null",2,4,5
+"Improve annotation processing thread-safety","2011-9/6","2011-9/6","2011-9/6",False,"null",1,32,24
+"Fixes https://jira.springsource.org/browse/SPR-7721","2011-11/23","2012-2/23","2011-11/23",False,"null",6,2,2
+"SPR-7752 - EntityManager proxy now exposes provider specific interface.","2011-11/29","2012-2/29","2011-11/29",False,"null",6,54,0
+"SPR-7679 - Qualified TransactionManager now also found if declared in parent context","2011-11/29","2012-2/29","2011-11/29",False,"null",6,43,1
+"quick changelog typo fix","2011-12/16","2011-12/16","2011-12/16",False,"null",2,0,2
+"SPR-8308: OpPlus should convert operand values to String using registered converters","2011-12/18","2012-4/18","2011-12/18",False,"null",2,278,15
+"Add readme","2011-12/20","2011-12/20","2011-12/20",True,"2011-12/20",1,58,0
+"SPR-8938","2011-12/22","2011-12/22","2011-12/22",False,"null",2,137,11
+"Re: SPR-8941: Lifecycle processing ignores phases for circularly dependent SmartLifecycle beans","2011-12/24","2021-11/24","2011-12/24",False,"null",6,77,16
+"Scripting","2012-1/5","2012-1/5","2012-1/5",False,"null",2,526,15
+"Work in Progress for SPR-8986","2012-1/5","2012-1/5","2012-1/5",True,"2012-1/5",2,0,0
+"SPR-8986. Added in the ability to scan for JAXB annotated classes in pac...","2012-1/6","2012-1/6","2012-1/6",True,"2012-1/6",2,169,20
+"Introduce (and Review) ScriptEvaluator abstraction","2012-1/7","2012-5/7","2012-1/7",False,"null",4,611,28
+"SPR-8986. Added in the ability to scan for JAXB annotated classes in pac...","2012-1/7","2012-1/7","2012-1/7",False,"null",2,172,21
+"Check original beanClass in #isFactoryBean calls","2012-1/10","2012-2/10","2012-1/10",True,"2012-2/10",3,100,3
+"Polish ""Support flash attrs..."" and related classes","2012-1/10","2012-1/10","2012-1/10",False,"null",2,319,301
+"SPR-8097 Polymorphism for BeanWrapperImpl","2012-1/12","2012-5/12","2012-1/12",False,"null",2,454,26
+"SPR-8974 Fix regression in UriUtils.java","2012-1/20","2012-1/20","2012-1/20",True,"2012-1/20",2,119,14
+"[SPR-8347] use .equals() in place of == when comparing objects","2012-1/23","2012-2/23","2012-1/23",False,"null",2,2,2
+"spr9038: can override the set of methods computed by method resolver","2012-1/26","2012-2/26","2012-1/26",True,"2012-2/26",2,331,333
+"Migrate build system to Gradle","2012-1/27","2012-1/27","2012-1/27",True,"2012-1/27",2,1897,27573
+"SPR-9073 Added ""ant resolve"" to the top level","2012-1/31","2012-2/31","2012-1/31",False,"null",2,5,0
+"spr9038: can override the set of methods computed by method resolver","2012-2/1","2012-2/1","2012-2/1",False,"null",1,329,332
+"Fixes for SimpleJdbcInsert [SPR-9006]","2012-2/3","2012-2/3","2012-2/3",True,"2012-2/3",3,10,5
+"Improved ResourceDatabasePopulator [SPR-8932]","2012-2/3","2012-2/3","2012-2/3",False,"null",2,23,6
+"Improved named parameter parsing of single quotes","2012-2/6","2012-2/6","2012-2/6",False,"null",2,35,4
+"set systemId on InputSource before parsing configuration","2012-2/7","2012-5/7","2012-2/7",False,"null",2,65,3
+"SPR-9097 patch","2012-2/8","2012-2/8","2012-2/8",False,"null",1,186,188
+"Validation","2012-2/8","2012-5/8","2012-2/8",False,"null",3,389,0
+"SPR-7655 TestExecutionListener to run sql scripts before each test method","2012-2/9","2014-5/9","2012-2/9",False,"null",3,531,0
+"Fix for SPR 9096","2012-2/9","2012-2/9","2012-2/9",False,"null",2,46,8
+"SQL exception translation enhancements","2012-2/9","2012-2/9","2012-2/9",True,"2012-2/9",2,336,4
+"fixed some warnings in Eclipse mostly be removing @SuppressWarnings that...","2012-2/11","2012-5/11","2012-2/11",False,"null",2,12,30
+"Fix encoding issues in javadoc","2012-2/12","2012-4/12","2012-2/12",False,"null",2,2,2
+"Fix javadoc warnings","2012-2/12","2012-4/12","2012-2/12",False,"null",2,184,186
+"Small memory fixes","2012-2/13","2012-5/13","2012-2/13",False,"null",2,30,17
+"Escape names of databound form tags","2012-2/14","2012-3/14","2012-2/14",False,"null",3,82,1
+"[fix:SPR-8983]Fixes NPE when resolving ServletResponse arguments of init...","2012-2/15","2012-2/15","2012-2/15",False,"null",2,14,1
+"Initial implementation of JacksonObjectMapperBeanFactory (SPR-9125).","2012-2/15","2012-6/15","2012-2/15",False,"null",2,0,0
+"Predict specific object type in EhCacheFactoryBean","2012-2/16","2012-2/16","2012-2/16",False,"null",2,19,2
+"Fix circular placeholder prevention","2012-2/18","2012-5/18","2012-2/18",False,"null",2,14,3
+"Add support for creating test contexts with parent context","2012-2/29","2014-4/29","2012-2/29",False,"null",5,1171,142
+"Remove extraneous misspelled word ""hvae"" from file.","2012-2/29","2012-3/29","2012-2/29",False,"null",2,1,1
+"Remove note on singleton scoped proxy raising BCE","2012-2/29","2012-3/29","2012-2/29",False,"null",2,1,3
+"Fixed typos in documentation","2012-3/1","2012-3/1","2012-3/1",False,"null",2,3,3
+"Fix MultipartResolver javadoc implementation refs","2012-3/1","2012-3/1","2012-3/1",False,"null",2,2,2
+"Fix MultipartResolver javadoc implementation refs","2012-3/2","2012-3/2","2012-3/2",True,"2012-3/2",2,2,2
+"Fix SpEL JavaBean compliance","2012-3/3","2012-5/3","2012-3/3",False,"null",2,29,4
+"Generate bracketless tag id in FreeMarker forms","2012-3/4","2012-3/4","2012-3/4",True,"2012-3/4",2,15,7
+"Suggested Implementation for SPR-9202","2012-3/5","2012-3/5","2012-3/5",False,"null",3,171,81
+"Suggested Implementation for SPR-9202","2012-3/5","2012-5/5","2012-3/5",False,"null",2,271,3
+"Enable SpEL to support array refs in T() construct","2012-3/5","2012-5/5","2012-3/5",False,"null",2,69,6
+"Added BigDecimal capabilities to SpEl numeric operators","2012-3/7","2012-5/7","2012-3/7",False,"null",2,11767,2009
+"fixed wrong @linkplain command in Javadoc","2012-3/8","2012-3/8","2012-3/8",False,"null",2,1,1
+"SPR-9216 - Add support for 301 redirects using UrlBasedViewResolver prefixes","2012-3/9","2012-5/9","2012-3/9",False,"null",3,120,15
+"Fix constant name lookup for null name prefix","2012-3/13","2012-5/13","2012-3/13",False,"null",2,10,1
+"Have JiBX unmarshal using configured encoding","2012-3/14","2012-3/14","2012-3/14",False,"null",3,35,2
+"Fix JibxMarshallerTests failing on Windows","2012-3/20","2012-5/20","2012-3/20",False,"null",4,3,3
+"Added note that TypeConverters are not thread-safe.","2012-3/22","2012-5/22","2012-3/22",False,"null",2,4,0
+"Fix for slf4j dependency issue","2012-3/30","2012-4/30","2012-3/30",True,"2012-4/30",2,30,24
+"Add abstract WebApplicationInitializers","2012-4/3","2012-5/3","2012-4/3",False,"null",4,776,2
+"Avoid monitor contention inside MethodParameter.getParameterAnnotations()","2012-4/3","2012-5/3","2012-4/3",False,"null",2,80,3
+"NPE in AutowiredAnnotationBeanPostProcessor","2012-4/9","2012-5/9","2012-4/9",False,"null",2,7,1
+"Fix for SPR-9323 (NPE in WebSphere) ","2012-4/13","2012-5/13","2012-4/13",False,"null",2,6,1
+"Quick fix for SPR-9176","2012-4/16","2012-5/16","2012-4/16",False,"null",2,20,2
+"Fix transitive dependency issue with slf4j-api","2012-4/16","2012-4/16","2012-4/16",True,"2012-4/16",2,5,1
+"3.1.x","2012-4/17","2012-4/17","2012-4/17",False,"null",4,203,135
+"Initial cut of Servlet 3.0 based async support","2012-4/18","2012-4/18","2012-4/18",True,"2012-4/18",1,2249,355
+"Update WebMvcConfigurationSupport.java","2012-4/20","2012-5/20","2012-4/20",False,"null",3,4,4
+"3.1.x","2012-4/28","2012-5/28","2012-4/28",False,"null",2,2,2
+"Add a factory class for handler interceptors","2012-5/2","2012-5/2","2012-5/2",False,"null",3,267,0
+"HanderInterceptor and OSIV async request changes","2012-5/4","2012-5/4","2012-5/4",True,"2012-5/4",1,889,358
+"ClasspathResourceBundleMessageSource to load resources files from the classpath","2012-5/5","2012-5/5","2012-5/5",False,"null",2,140,0
+"ability to set handler interceptors by url-path","2012-5/6","2012-5/6","2012-5/6",False,"null",3,85,8
+"Add Jackson 2 HttpMessageConverter and View","2012-5/9","2012-5/9","2012-5/9",True,"2012-5/9",1,971,167
+"Fix typos in Reference Documentation","2012-5/12","2012-5/12","2012-5/12",True,"2012-5/12",2,46,46
+"SPR-9405 - Add JdbcTemplate parameter and result logging","2012-5/14","2012-5/14","2012-5/14",False,"null",2,2386,2231
+"SPR-9346 - Fixed section ids in reference documentation.","2012-5/15","2012-5/15","2012-5/15",False,"null",2,86,86
+"SPR-9164 - Added BigDecimal capabilities to SpEl numeric operators","2012-5/15","2013-11/15","2012-5/15",False,"null",5,428,63
+"Fix annotation search ending too early","2012-5/16","2012-5/16","2012-5/16",False,"null",2,22,5
+"Add URL and method name in ResourceAccessException","2012-5/19","2014-4/19","2012-5/19",False,"null",3,2,1
+"Fix compiler warnings","2012-5/21","2013-10/21","2012-5/21",False,"null",2,13199,13296
+"Passing lookup-method args to bean constructor","2012-5/25","2021-12/25","2012-5/25",False,"null",7,126,3
+"Bugfix for https://jira.springsource.org/browse/SPR-9445","2012-5/26","2012-11/26","2012-5/26",False,"null",3,52,43
+"HttpClientErrorException should provide access to response headers","2012-5/31","2012-6/31","2012-5/31",True,"2012-6/31",4,98,14
+"DatabasePopulatorUtils now uses synchronized connection","2012-6/4","2012-6/4","2012-6/4",False,"null",2,39,13
+"Initial implementation of JacksonObjectMapperBeanFactory (SPR-9125)","2012-6/5","2012-6/5","2012-6/5",False,"null",3,491,0
+"Initial implementation of EasyMockBeanFactory (SPR-9130)","2012-6/5","2012-6/5","2012-6/5",False,"null",3,311,0
+"Deprecate SimpleJdbcTestUtils in favor of JdbcTestUtils","2012-6/9","2012-8/9","2012-6/9",False,"null",2,187,5
+"SPR-9491: Removed  ""Accept"" header from response for HTTP status 415.","2012-6/11","2012-6/11","2012-6/11",False,"null",3,2,13
+"Javadoc patch for RequestMapping (SPR-9483)","2012-6/12","2012-6/12","2012-6/12",False,"null",2,5,3
+"Fix HTTP MediaType header parsing with single-quoted parameters","2012-6/14","2012-6/14","2012-6/14",False,"null",2,9,1
+"SPR-9498: relax logic detecting successful property editor after conversion exception","2012-6/14","2012-9/14","2012-6/14",True,"2012-9/14",3,45,2
+"Add splitIndex Javadoc option to the root project","2012-6/14","2012-6/14","2012-6/14",True,"2012-6/14",2,1,0
+"SPR-5387 - If waitForTasksToCompleteOnShutdown is true then wait a confi...","2012-6/14","2013-1/14","2012-6/14",False,"null",2,128,6
+"Infer return type of parametrized factory methods","2012-6/19","2012-6/19","2012-6/19",False,"null",1,331,35
+"Include eclipse source formatter","2012-6/19","2013-1/19","2012-6/19",False,"null",8,6899,36025
+"SPR-4675: add explicit test for null return from aop advice","2012-6/21","2012-10/21","2012-6/21",False,"null",2,101,2
+"SPR-9528 Use BufferedInputStream in SimpleMetadataReader to increase performance","2012-6/21","2012-7/21","2012-6/21",False,"null",3,2,1

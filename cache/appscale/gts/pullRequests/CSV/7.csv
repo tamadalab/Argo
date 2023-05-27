@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Java comp indexes","2013-11/19","2013-11/19","2013-11/19",False,"null",2,1045,282
+"fixed fakes for old version of boto","2013-11/19","2013-12/19","2013-11/19",True,"2013-12/19",2,4,4
+"Always returning current time when updating ZK node list","2013-11/20","2013-12/20","2013-11/20",True,"2013-12/20",2,1,3
+"Validating that APIChecker data is a Hash before using it","2013-11/21","2013-12/21","2013-11/21",True,"2013-12/21",2,7,1
+"changed autoscaler to not add appservers to machines with >90% CPU used","2013-11/22","2013-12/22","2013-11/22",True,"2013-12/22",2,34,15
+"Jpeg decoder issue","2013-11/25","2013-12/25","2013-11/25",True,"2013-12/25",2,2,0
+"added irc link to status page for cloud admins","2013-11/26","2013-12/26","2013-11/26",True,"2013-12/26",2,4,0
+"removed landing page, and instead using status page for / route","2013-11/26","2013-12/26","2013-11/26",True,"2013-12/26",2,1,48
+"displaying log download button on logs page, instead of on landing page","2013-11/26","2013-12/26","2013-11/26",True,"2013-12/26",2,6,4
+"Fix for error pages of http to https port","2013-12/2","2013-12/2","2013-12/2",True,"2013-12/2",2,13,0
+"Persist Task Queue tasks to EBS/PD","2013-12/2","2013-12/2","2013-12/2",True,"2013-12/2",2,58,12
+"Upgrade to Cloudera version of ZooKeeper","2013-12/2","2013-12/2","2013-12/2",True,"2013-12/2",2,22,60
+"not querying the apichecker every 20 seconds, but making it configurable","2013-12/3","2013-12/3","2013-12/3",True,"2013-12/3",2,22,0
+"correctly restarting services in multinode deployments","2013-12/4","2014-1/4","2013-12/4",True,"2014-1/4",2,25,1
+"sending a polite kill before sending a SIGKILL, and properly downscaling","2013-12/4","2013-12/4","2013-12/4",True,"2013-12/4",2,20,1
+"import sys for zkinterface","2013-12/5","2013-12/5","2013-12/5",True,"2013-12/5",2,1,0
+"Support for Go 1 apps","2013-12/6","2013-12/6","2013-12/6",True,"2013-12/6",2,305319,18567
+"fix logo link","2013-12/6","2013-12/6","2013-12/6",True,"2013-12/6",2,1,1
+"Native composite index support","2013-12/6","2013-12/6","2013-12/6",True,"2013-12/6",2,1315,532
+"Catch generic exceptions and do not use -9 to bring down appservers","2013-12/10","2013-12/10","2013-12/10",True,"2013-12/10",2,2,7
+"calculating CPU and memory used by adding up lines in top","2013-12/11","2013-12/11","2013-12/11",True,"2013-12/11",2,15,16
+"Providing users with a page to upload vetted applications directly","2013-12/12","2014-9/12","2013-12/12",False,"null",2,217,12
+"rsyncing appserver-java directory to all nodes","2013-12/12","2013-12/12","2013-12/12",True,"2013-12/12",2,2,0
+"only writing api status to local file if it was updated","2013-12/16","2013-12/16","2013-12/16",True,"2013-12/16",2,5,2
+"presenting APIs in alphabetical order on status page","2013-12/16","2013-12/16","2013-12/16",True,"2013-12/16",2,5,3
+"not sending empty logs to dashboard","2013-12/17","2013-12/17","2013-12/17",True,"2013-12/17",2,6,0
+"using mocks instead of boto instances to avoid breaking tests on new versions of boto","2013-12/17","2013-12/17","2013-12/17",True,"2013-12/17",2,12,24
+"bumped version number","2013-12/18","2013-12/18","2013-12/18",True,"2013-12/18",2,51,8
+"notify a failed transaction if there is a datastore connection issue","2013-12/20","2013-12/20","2013-12/20",True,"2013-12/20",2,9,0
+"fix when trying to get locks for non-trans but lose the txn hash resulti...","2013-12/20","2013-12/20","2013-12/20",True,"2013-12/20",2,6,3
+"Update ZK stub","2013-12/20","2013-12/20","2013-12/20",True,"2013-12/20",2,29,24
+"Setting limit to max out at 1k","2013-12/24","2014-1/24","2013-12/24",True,"2014-1/24",2,25,13
+"Adding placeholder arg for compatible interface to Channel API","2013-12/27","2013-12/27","2013-12/27",True,"2013-12/27",2,3,2
+"increase cutoff timeout","2013-12/27","2014-1/27","2013-12/27",True,"2014-1/27",2,25,25
+"Kind delimiter","2013-12/27","2013-12/27","2013-12/27",True,"2013-12/27",2,92,57
+"Increased mem limit","2013-12/27","2014-1/27","2013-12/27",True,"2014-1/27",2,1,1
+"Converting to correct protocol buffer format.","2013-12/30","2013-12/30","2013-12/30",True,"2013-12/30",2,10,11
+"always rewriting nginx config on app upload","2013-12/30","2014-1/30","2013-12/30",True,"2014-1/30",2,1,1
+"setting $PYTHON_LIB for python app engine apps, so that apps can use it in their app.yaml","2014-1/2","2014-1/2","2014-1/2",True,"2014-1/2",2,1,0
+"instructing nginx to parse static_files in app.yaml as regex if any regex chars are seen","2014-1/2","2014-1/2","2014-1/2",True,"2014-1/2",2,9,1
+"zig zag fix for large quantities of data","2014-1/4","2014-1/4","2014-1/4",True,"2014-1/4",2,37,29
+"Multiple filters property composite","2014-1/4","2014-1/4","2014-1/4",True,"2014-1/4",3,69,66
+"Fix unit test with new kind delimiter","2014-1/7","2014-1/7","2014-1/7",True,"2014-1/7",2,42,42
+"using NGINX_PORT instead of dev appserver port for SERVER_PORT env var","2014-1/7","2014-1/7","2014-1/7",True,"2014-1/7",2,3,8
+"Issues with left over locks and failure to delete locks (possibly due to...","2014-1/8","2014-1/8","2014-1/8",True,"2014-1/8",2,73,43
+"Channel 502 issue","2014-1/8","2014-1/8","2014-1/8",True,"2014-1/8",2,4,0
+"Set max limit for queries to 10k","2014-1/9","2014-1/9","2014-1/9",True,"2014-1/9",2,74,44
+"Fix for cursors in ZigZag Merge Join queries.","2014-1/9","2014-1/9","2014-1/9",True,"2014-1/9",3,171,66
+"Fix channel API for when the appscale secret changes.","2014-1/10","2014-1/10","2014-1/10",True,"2014-1/10",3,9,1
+"Filter null values on composite range queries and single prop queries","2014-1/13","2014-1/13","2014-1/13",True,"2014-1/13",2,361,169
+"Expose monit dashboard in AppDashboard to cloud admins","2014-1/14","2014-1/14","2014-1/14",True,"2014-1/14",2,21,0
+"Allow users to set max memory for AppServers","2014-1/14","2014-1/14","2014-1/14",True,"2014-1/14",2,200,182
+"Reporting number of AppServers at login node","2014-1/14","2014-1/14","2014-1/14",True,"2014-1/14",2,1,1
+"Passing flower password from tools to flower","2014-1/14","2014-1/14","2014-1/14",True,"2014-1/14",2,6,3
+"Fixed java app engine logging","2014-1/20","2014-1/20","2014-1/20",True,"2014-1/20",2,25,119
+"Fixing broken unit test for zookeeper transaction rety","2014-1/21","2014-1/21","2014-1/21",True,"2014-1/21",2,3,1
+"remote shell capabilities for AppScale","2014-1/22","2014-1/22","2014-1/22",True,"2014-1/22",2,18,9
+"increased the number of cycles before killing","2014-1/22","2014-1/22","2014-1/22",True,"2014-1/22",2,1,1
+"unmerging pulls","2014-1/22","2014-1/22","2014-1/22",False,"null",2,169,361
+"Remove pulls","2014-1/22","2014-1/22","2014-1/22",False,"null",2,186,228
+"Change creds to options for proper passing of flower password","2014-1/23","2014-1/23","2014-1/23",True,"2014-1/23",2,142,142
+"fixed logging to not be blocking and wasteful on datastore operations","2014-1/24","2014-1/24","2014-1/24",True,"2014-1/24",2,51,32
+"fix for async log service","2014-1/27","2014-1/27","2014-1/27",True,"2014-1/27",2,46,25
+"showing less logs in the dashboard and increasing the cassandra default ...","2014-1/28","2014-1/28","2014-1/28",True,"2014-1/28",2,6,3
+"Increasing timeout time when datastore server request takes longer than ...","2014-1/28","2014-1/28","2014-1/28",True,"2014-1/28",3,1,1
+"removed scheduler for TQ because it was causing a null pointer","2014-1/29","2014-1/29","2014-1/29",True,"2014-1/29",2,2,35
+"removed a really common print statement.","2014-1/29","2014-1/29","2014-1/29",True,"2014-1/29",3,2,1
+"be able to get correct namespaces and use json","2014-1/31","2014-2/31","2014-1/31",True,"2014-2/31",3,220,121
+"Update the test to not be order sensitive for EC2","2014-1/31","2014-2/31","2014-1/31",True,"2014-2/31",1,4,2
+"Release orphan locks","2014-2/4","2014-2/4","2014-2/4",True,"2014-2/4",2,55,7
+"nginx upgrade to latest nginx","2014-2/5","2014-2/5","2014-2/5",False,"null",1,6,62
+"Nginx checkout","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,58,69
+"update message for MR lib","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",2,1,1
+"Removing s~ from all references in AppScale","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",1,38,19
+"Bumped version number to 1.14.0","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",2,41,6
+"Pull from master bump to 1.14.0","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",1,80,26
+"Fixes for GCE API","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",1,81,6
+"use master instead of testing","2014-2/14","2014-2/14","2014-2/14",True,"2014-2/14",2,1,1
+"updated date","2014-2/14","2014-2/14","2014-2/14",True,"2014-2/14",2,1,1
+"fixes for Digital Ocean build and running","2014-2/18","2014-2/18","2014-2/18",True,"2014-2/18",2,1,2
+"Use openjdk","2014-2/28","2014-3/28","2014-2/28",True,"2014-3/28",2,6,23
+"Restart issues","2014-2/28","2014-3/28","2014-2/28",True,"2014-3/28",2,0,3
+"System ntp","2014-2/28","2014-3/28","2014-2/28",True,"2014-3/28",3,9,11
+"Fixed the release date","2014-3/3","2014-3/3","2014-3/3",True,"2014-3/3",2,1,1
+"Gcs on appscale","2014-3/4","2016-3/4","2014-3/4",False,"null",3,2343,345
+"Adding missing flush function","2014-3/4","2014-3/4","2014-3/4",True,"2014-3/4",2,4,0
+"Wheezy support","2014-3/7","2014-5/7","2014-3/7",False,"null",2,162,16
+"fixed issue where zig zag was not being identified because list order ma...","2014-3/7","2014-3/7","2014-3/7",True,"2014-3/7",2,1,1
+"Added support for custom Java App layouts.","2014-3/13","2014-3/13","2014-3/13",True,"2014-3/13",2,145,84
+"Appinventor fix","2014-3/19","2014-3/19","2014-3/19",True,"2014-3/19",2,3,3
+"Fixed path lookup to handle nested Java apps.","2014-3/20","2014-3/20","2014-3/20",True,"2014-3/20",2,6,2
+"Ndb import webapp","2014-3/28","2014-3/28","2014-3/28",False,"null",1,12563,379
+"fix for ndb import","2014-3/28","2014-4/28","2014-3/28",True,"2014-4/28",2,1,1
+"upgrade cassandra to 2.0.6","2014-4/2","2014-4/2","2014-4/2",True,"2014-4/2",2,1,1
+"Limit on zig zag queries","2014-4/3","2014-4/3","2014-4/3",True,"2014-4/3",2,2,0
+"Limit on zig zag queries and be able to skip entities that will not match the query","2014-4/3","2014-5/3","2014-4/3",True,"2014-5/3",3,27,4
+"upgraded nginx to 1.5.13","2014-4/9","2014-4/9","2014-4/9",True,"2014-4/9",2,2,2
+"Bootstrap","2014-4/9","2014-4/9","2014-4/9",True,"2014-4/9",2,88,49
+"Use packages","2014-4/18","2014-4/18","2014-4/18",True,"2014-4/18",2,58,229
+"Wheezy","2014-4/22","2014-5/22","2014-4/22",True,"2014-5/22",3,220,2738

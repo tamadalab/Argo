@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 1290,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOAlCyNg=="
+                },
+                "nodes": [
+                    {
+                        "title": "Fixed GoogleUniversalAnalyticsProcessor adding order items to javascript output 3.0.x",
+                        "closedAt": "2014-07-10T14:15:53Z",
+                        "createdAt": "2014-07-09T08:56:44Z",
+                        "publishedAt": "2014-07-09T08:56:44Z",
+                        "merged": true,
+                        "mergedAt": "2014-07-10T14:15:53Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use UTF-8 instead of the default encoding",
+                        "closedAt": "2014-08-05T14:48:59Z",
+                        "createdAt": "2014-08-04T08:46:02Z",
+                        "publishedAt": "2014-08-04T08:46:02Z",
+                        "merged": true,
+                        "mergedAt": "2014-08-05T14:48:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Null check the result of readLine",
+                        "closedAt": "2014-08-04T09:03:53Z",
+                        "createdAt": "2014-08-04T08:52:07Z",
+                        "publishedAt": "2014-08-04T08:52:07Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 5,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Properly close streams",
+                        "closedAt": "2014-08-04T09:04:29Z",
+                        "createdAt": "2014-08-04T09:03:46Z",
+                        "publishedAt": "2014-08-04T09:03:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 64,
+                        "deletions": 29
+                    },
+                    {
+                        "title": "Properly close streams",
+                        "closedAt": "2014-08-04T09:08:11Z",
+                        "createdAt": "2014-08-04T09:06:57Z",
+                        "publishedAt": "2014-08-04T09:06:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 49,
+                        "deletions": 14
+                    },
+                    {
+                        "title": "Properly close input streams in the applicationContext merge process",
+                        "closedAt": "2014-08-05T15:03:17Z",
+                        "createdAt": "2014-08-04T09:12:16Z",
+                        "publishedAt": "2014-08-04T09:12:16Z",
+                        "merged": true,
+                        "mergedAt": "2014-08-05T15:03:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 41,
+                        "deletions": 19
+                    },
+                    {
+                        "title": "Ports are Integer not String",
+                        "closedAt": "2014-10-01T03:43:28Z",
+                        "createdAt": "2014-08-08T12:43:59Z",
+                        "publishedAt": "2014-08-08T12:43:59Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:43:28Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "DecrementInventoryActivity could have incorrect results if it needs to roll back",
+                        "closedAt": "2014-10-01T03:47:26Z",
+                        "createdAt": "2014-08-08T12:49:49Z",
+                        "publishedAt": "2014-08-08T12:49:49Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:47:26Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long have to be compared using equals",
+                        "closedAt": "2014-10-01T03:49:13Z",
+                        "createdAt": "2014-08-08T12:52:37Z",
+                        "publishedAt": "2014-08-08T12:52:37Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:49:13Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long have to be compared using equals",
+                        "closedAt": "2014-10-01T03:49:51Z",
+                        "createdAt": "2014-08-08T12:54:21Z",
+                        "publishedAt": "2014-08-08T12:54:21Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:49:51Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Search synonyms could be splitting the characters incorrectly",
+                        "closedAt": "2014-10-01T03:50:59Z",
+                        "createdAt": "2014-08-08T12:56:32Z",
+                        "publishedAt": "2014-08-08T12:56:32Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:50:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Comparing related Skus when computing related products could yield incorrect results",
+                        "closedAt": "2014-10-01T03:51:57Z",
+                        "createdAt": "2014-08-08T12:57:54Z",
+                        "publishedAt": "2014-08-08T12:57:54Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:51:57Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long have to be compared using equals",
+                        "closedAt": "2014-10-01T03:57:17Z",
+                        "createdAt": "2014-08-08T12:59:32Z",
+                        "publishedAt": "2014-08-08T12:59:32Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:57:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Escape regular expression character in split",
+                        "closedAt": "2014-10-01T03:55:56Z",
+                        "createdAt": "2014-08-08T13:01:36Z",
+                        "publishedAt": "2014-08-08T13:01:36Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:55:56Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long have to be compared using equals",
+                        "closedAt": "2014-10-01T03:58:16Z",
+                        "createdAt": "2014-08-08T13:03:53Z",
+                        "publishedAt": "2014-08-08T13:03:53Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:58:16Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long have to be compared using equals",
+                        "closedAt": "2014-10-01T03:58:48Z",
+                        "createdAt": "2014-08-08T13:05:27Z",
+                        "publishedAt": "2014-08-08T13:05:27Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:58:48Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Long can never be equals to a String",
+                        "closedAt": "2014-10-01T03:59:33Z",
+                        "createdAt": "2014-08-08T13:06:09Z",
+                        "publishedAt": "2014-08-08T13:06:09Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T03:59:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Correct equality check in EmailTrackingOpens",
+                        "closedAt": "2014-10-01T04:00:25Z",
+                        "createdAt": "2014-08-08T13:11:29Z",
+                        "publishedAt": "2014-08-08T13:11:29Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T04:00:25Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Remove unnecesary repeated conditional test in ExtensionManager",
+                        "closedAt": "2014-10-01T04:01:10Z",
+                        "createdAt": "2014-08-08T13:14:25Z",
+                        "publishedAt": "2014-08-08T13:14:25Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T04:01:10Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "DateFormatter are not thread safe",
+                        "closedAt": "2014-11-20T16:09:27Z",
+                        "createdAt": "2014-08-08T13:21:45Z",
+                        "publishedAt": "2014-08-08T13:21:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 10,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Remove possible null pointer dereference",
+                        "closedAt": "2014-08-11T06:02:52Z",
+                        "createdAt": "2014-08-08T13:28:18Z",
+                        "publishedAt": "2014-08-08T13:28:18Z",
+                        "merged": true,
+                        "mergedAt": "2014-08-11T06:02:52Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "A null pointer exception could occur when translating an order item",
+                        "closedAt": "2014-10-01T04:04:01Z",
+                        "createdAt": "2014-08-08T13:31:46Z",
+                        "publishedAt": "2014-08-08T13:31:46Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T04:04:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 14
+                    },
+                    {
+                        "title": "Remove possible null pointer dereference",
+                        "closedAt": "2016-05-03T22:21:40Z",
+                        "createdAt": "2014-08-08T13:33:40Z",
+                        "publishedAt": "2014-08-08T13:33:40Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 6,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Potential null pointer exception when using the CategoriesProcessor",
+                        "closedAt": "2014-10-01T04:06:11Z",
+                        "createdAt": "2014-08-08T13:35:38Z",
+                        "publishedAt": "2014-08-08T13:35:38Z",
+                        "merged": true,
+                        "mergedAt": "2014-10-01T04:06:11Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 7,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "adding coordinate type for geolocation searches",
+                        "closedAt": "2014-08-09T16:03:29Z",
+                        "createdAt": "2014-08-09T16:01:53Z",
+                        "publishedAt": "2014-08-09T16:01:53Z",
+                        "merged": true,
+                        "mergedAt": "2014-08-09T16:03:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Remove reliance on default encoding",
+                        "closedAt": "2016-05-03T22:21:40Z",
+                        "createdAt": "2014-08-11T07:08:45Z",
+                        "publishedAt": "2014-08-11T07:08:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 70,
+                        "deletions": 32
+                    },
+                    {
+                        "title": "Use Solr's frange plugin for facet queries",
+                        "closedAt": "2014-08-20T18:49:50Z",
+                        "createdAt": "2014-08-20T04:24:46Z",
+                        "publishedAt": "2014-08-20T04:24:46Z",
+                        "merged": true,
+                        "mergedAt": "2014-08-20T18:49:50Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 47,
+                        "deletions": 37
+                    },
+                    {
+                        "title": "Update JMSEmailServiceProducerImpl.java",
+                        "closedAt": "2014-09-26T17:39:11Z",
+                        "createdAt": "2014-09-26T17:33:08Z",
+                        "publishedAt": "2014-09-26T17:33:08Z",
+                        "merged": true,
+                        "mergedAt": "2014-09-26T17:39:11Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "#1140 - Can't Delete Product within Admin",
+                        "closedAt": "2014-10-22T15:32:09Z",
+                        "createdAt": "2014-10-22T03:01:29Z",
+                        "publishedAt": "2014-10-22T03:01:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 48,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Prevent NPE from Java 8 lambdas in ClassTransformers",
+                        "closedAt": "2014-12-10T20:15:37Z",
+                        "createdAt": "2014-12-10T19:58:43Z",
+                        "publishedAt": "2014-12-10T19:58:43Z",
+                        "merged": true,
+                        "mergedAt": "2014-12-10T20:15:37Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add support for DefaultValues in AdminPresentation Annotation.",
+                        "closedAt": "2015-01-07T22:00:13Z",
+                        "createdAt": "2014-12-10T21:28:08Z",
+                        "publishedAt": "2014-12-10T21:28:08Z",
+                        "merged": true,
+                        "mergedAt": "2015-01-07T22:00:13Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 115,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix MergeManager overrides",
+                        "closedAt": "2015-01-17T22:16:02Z",
+                        "createdAt": "2014-12-11T00:01:09Z",
+                        "publishedAt": "2014-12-11T00:01:09Z",
+                        "merged": true,
+                        "mergedAt": "2015-01-17T22:16:02Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "#1199 - Refactor the way product options are retrieved",
+                        "closedAt": "2016-05-03T22:05:43Z",
+                        "createdAt": "2014-12-18T16:35:48Z",
+                        "publishedAt": "2014-12-18T16:35:48Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 274,
+                        "deletions": 133
+                    },
+                    {
+                        "title": "Changed AND to OR while checking for OrderStatus value if Payment can be applied to Order",
+                        "closedAt": "2015-01-07T07:03:34Z",
+                        "createdAt": "2015-01-05T12:53:41Z",
+                        "publishedAt": "2015-01-05T12:53:41Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Remove redundant OnPropertyChanged when uploading an asset in the admin",
+                        "closedAt": "2015-01-26T20:38:20Z",
+                        "createdAt": "2015-01-08T04:45:03Z",
+                        "publishedAt": "2015-01-08T04:45:03Z",
+                        "merged": true,
+                        "mergedAt": "2015-01-26T20:38:20Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Allow deletes in the admin to respond to validation errors",
+                        "closedAt": "2015-02-05T16:08:04Z",
+                        "createdAt": "2015-01-09T23:27:20Z",
+                        "publishedAt": "2015-01-09T23:27:20Z",
+                        "merged": true,
+                        "mergedAt": "2015-02-05T16:08:04Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 202,
+                        "deletions": 108
+                    },
+                    {
+                        "title": "Remove Jersey and replace the REST services implementation with Spring MVC",
+                        "closedAt": "2015-02-02T21:46:53Z",
+                        "createdAt": "2015-01-15T16:23:43Z",
+                        "publishedAt": "2015-01-15T16:23:43Z",
+                        "merged": true,
+                        "mergedAt": "2015-02-02T21:46:53Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 652,
+                        "deletions": 212
+                    },
+                    {
+                        "title": "Admin session expiration event can lead to loss of data",
+                        "closedAt": "2015-02-04T23:25:47Z",
+                        "createdAt": "2015-01-23T17:41:56Z",
+                        "publishedAt": "2015-01-23T17:41:56Z",
+                        "merged": true,
+                        "mergedAt": "2015-02-04T23:25:47Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 293,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Make saving changes happen through an ajax post in the admin",
+                        "closedAt": "2015-01-29T15:48:20Z",
+                        "createdAt": "2015-01-27T20:58:30Z",
+                        "publishedAt": "2015-01-27T20:58:30Z",
+                        "merged": true,
+                        "mergedAt": "2015-01-29T15:48:20Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 175,
+                        "deletions": 59
+                    },
+                    {
+                        "title": "#1242 - Made billingAddress on CustomerPayment optional",
+                        "closedAt": "2015-01-29T18:11:53Z",
+                        "createdAt": "2015-01-29T18:08:12Z",
+                        "publishedAt": "2015-01-29T18:08:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Remove Address requirement from CustomerPayment",
+                        "closedAt": "2015-02-05T07:14:19Z",
+                        "createdAt": "2015-01-29T18:18:14Z",
+                        "publishedAt": "2015-01-29T18:18:14Z",
+                        "merged": true,
+                        "mergedAt": "2015-02-05T07:14:19Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Allow graceful session timeouts in the admin so that data is not inadvertently lost",
+                        "closedAt": "2015-02-17T23:01:55Z",
+                        "createdAt": "2015-02-12T06:22:27Z",
+                        "publishedAt": "2015-02-12T06:22:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 328,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Performance tweaks to CategoryXref",
+                        "closedAt": "2015-02-16T22:58:02Z",
+                        "createdAt": "2015-02-16T15:28:52Z",
+                        "publishedAt": "2015-02-16T15:28:52Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 21,
+                        "deletions": 16
+                    },
+                    {
+                        "title": "Make CategoryXref cacheable",
+                        "closedAt": "2015-06-18T23:52:00Z",
+                        "createdAt": "2015-02-17T17:40:46Z",
+                        "publishedAt": "2015-02-17T17:40:46Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-18T23:52:00Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 60,
+                        "deletions": 80
+                    },
+                    {
+                        "title": "Allow graceful session timeouts in the admin so that data is not inadvertently lost",
+                        "closedAt": "2015-03-26T02:17:40Z",
+                        "createdAt": "2015-02-17T23:01:19Z",
+                        "publishedAt": "2015-02-17T23:01:19Z",
+                        "merged": true,
+                        "mergedAt": "2015-03-26T02:17:40Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 330,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "No spinner icon is shown when searching from the main search on an entity page",
+                        "closedAt": "2015-02-17T23:07:29Z",
+                        "createdAt": "2015-02-17T23:05:02Z",
+                        "publishedAt": "2015-02-17T23:05:02Z",
+                        "merged": true,
+                        "mergedAt": "2015-02-17T23:07:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Give a notification when an expired offer code is added to an order or that the offer has already been retrieved for the order",
+                        "closedAt": "2015-05-11T15:43:03Z",
+                        "createdAt": "2015-02-17T23:05:54Z",
+                        "publishedAt": "2015-02-17T23:05:54Z",
+                        "merged": true,
+                        "mergedAt": "2015-05-11T15:43:03Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 119,
+                        "deletions": 45
+                    },
+                    {
+                        "title": "Fix copy-paste issue for ProductOptionsWrapper (API)",
+                        "closedAt": "2015-03-16T16:02:43Z",
+                        "createdAt": "2015-02-23T14:45:16Z",
+                        "publishedAt": "2015-02-23T14:45:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Feature breadcrumbs",
+                        "closedAt": "2015-09-01T02:09:12Z",
+                        "createdAt": "2015-03-03T23:37:49Z",
+                        "publishedAt": "2015-03-03T23:37:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 767,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "Test to ensure that product options are correctly sorted by displayOrder",
+                        "closedAt": "2015-03-24T03:30:19Z",
+                        "createdAt": "2015-03-23T20:48:47Z",
+                        "publishedAt": "2015-03-23T20:48:47Z",
+                        "merged": true,
+                        "mergedAt": "2015-03-24T03:30:19Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 135,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add Spock/Groovy Unit Tests for Activities within the Add Item Workflow",
+                        "closedAt": "2015-03-24T03:34:51Z",
+                        "createdAt": "2015-03-24T03:34:00Z",
+                        "publishedAt": "2015-03-24T03:34:00Z",
+                        "merged": true,
+                        "mergedAt": "2015-03-24T03:34:51Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1819,
+                        "deletions": 1
+                    },
+                    {
+                        "title": " SiteImpl.java - Site Identifier Type and Site Identifier Value fields are changed as required fields. In order to force site creation with a Site Identifier to avoid exception while preview on site",
+                        "closedAt": "2015-03-31T14:29:37Z",
+                        "createdAt": "2015-03-30T17:09:56Z",
+                        "publishedAt": "2015-03-30T17:09:56Z",
+                        "merged": true,
+                        "mergedAt": "2015-03-31T14:29:37Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Revert \" SiteImpl.java - Site Identifier Type and Site Identifier Value ...",
+                        "closedAt": "2015-04-02T06:58:58Z",
+                        "createdAt": "2015-04-02T06:58:21Z",
+                        "publishedAt": "2015-04-02T06:58:21Z",
+                        "merged": true,
+                        "mergedAt": "2015-04-02T06:58:58Z",
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Added support for new PasswordEncoder in Spring Security 3.2 and deprecate old style",
+                        "closedAt": "2015-04-10T19:15:20Z",
+                        "createdAt": "2015-04-02T17:35:53Z",
+                        "publishedAt": "2015-04-02T17:35:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Refactor ValidateAndConfirmPaymentsActivity for easier extension",
+                        "closedAt": "2015-04-15T19:36:12Z",
+                        "createdAt": "2015-04-15T19:35:26Z",
+                        "publishedAt": "2015-04-15T19:35:26Z",
+                        "merged": true,
+                        "mergedAt": "2015-04-15T19:36:12Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 72,
+                        "deletions": 58
+                    },
+                    {
+                        "title": "Added deproxy hibernate utility method and applied to lazy loaded fields",
+                        "closedAt": "2015-04-15T23:55:26Z",
+                        "createdAt": "2015-04-15T23:42:31Z",
+                        "publishedAt": "2015-04-15T23:42:31Z",
+                        "merged": true,
+                        "mergedAt": "2015-04-15T23:55:26Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 56,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Added logic to report source exception, should rollback routines themsel...",
+                        "closedAt": "2015-04-24T15:04:16Z",
+                        "createdAt": "2015-04-20T19:30:01Z",
+                        "publishedAt": "2015-04-20T19:30:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 19,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "Deprecate the customized Broadleaf resource handling in favor of the new resource handlers and transformers in Spring MVC 4.1+",
+                        "closedAt": "2015-05-07T15:47:16Z",
+                        "createdAt": "2015-05-06T19:42:05Z",
+                        "publishedAt": "2015-05-06T19:42:05Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1764,
+                        "deletions": 960
+                    },
+                    {
+                        "title": "Refactor resource handling to leverage Spring 4.1 resource resolvers.",
+                        "closedAt": "2015-05-07T16:36:34Z",
+                        "createdAt": "2015-05-07T15:48:11Z",
+                        "publishedAt": "2015-05-07T15:48:11Z",
+                        "merged": true,
+                        "mergedAt": "2015-05-07T16:36:34Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1764,
+                        "deletions": 960
+                    },
+                    {
+                        "title": "If someone wants to register a CurrencyConversionService there is a exception beeing thrown into CurrencyConversionContext",
+                        "closedAt": "2015-05-27T18:16:49Z",
+                        "createdAt": "2015-05-13T13:12:27Z",
+                        "publishedAt": "2015-05-13T13:12:27Z",
+                        "merged": true,
+                        "mergedAt": "2015-05-27T18:16:49Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add null response caching to CachingResourceResolver",
+                        "closedAt": "2015-05-15T20:14:40Z",
+                        "createdAt": "2015-05-15T18:34:14Z",
+                        "publishedAt": "2015-05-15T18:34:14Z",
+                        "merged": true,
+                        "mergedAt": "2015-05-15T20:14:40Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 37,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "When creating a new Media value, make sure it's added to the parent",
+                        "closedAt": "2015-05-27T16:28:48Z",
+                        "createdAt": "2015-05-21T01:54:27Z",
+                        "publishedAt": "2015-05-21T01:54:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Merge pull request #2 from BroadleafCommerce/master",
+                        "closedAt": "2015-06-02T15:58:09Z",
+                        "createdAt": "2015-06-02T15:56:43Z",
+                        "publishedAt": "2015-06-02T15:56:43Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "BroadleafCommerce/BroadleafCommerce - QA#649",
+                        "closedAt": "2015-06-03T22:24:18Z",
+                        "createdAt": "2015-06-03T22:24:03Z",
+                        "publishedAt": "2015-06-03T22:24:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 9,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "BroadleafCommerce/BroadleafCommerce -- QA#649",
+                        "closedAt": "2015-06-04T14:22:45Z",
+                        "createdAt": "2015-06-03T22:53:28Z",
+                        "publishedAt": "2015-06-03T22:53:28Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 11,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "#1383 - BroadleafCommerce/BroadleafCommerce#1383 - modified updated a…",
+                        "closedAt": "2015-06-05T18:39:53Z",
+                        "createdAt": "2015-06-04T16:49:42Z",
+                        "publishedAt": "2015-06-04T16:49:42Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "#1386 - modified TranslatedEntity to include Site and modified SiteImpl to return a translated field",
+                        "closedAt": "2015-06-08T19:03:11Z",
+                        "createdAt": "2015-06-04T22:06:11Z",
+                        "publishedAt": "2015-06-04T22:06:11Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-08T19:03:11Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Handler to remove the asset from Disk",
+                        "closedAt": "2015-06-08T16:46:21Z",
+                        "createdAt": "2015-06-05T04:15:07Z",
+                        "publishedAt": "2015-06-05T04:15:07Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-08T16:46:21Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 59,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "#1389 - updated robots.txt controller to include setting the site instance",
+                        "closedAt": "2015-06-08T19:10:28Z",
+                        "createdAt": "2015-06-05T19:24:17Z",
+                        "publishedAt": "2015-06-05T19:24:17Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-08T19:10:28Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 6,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "#1383 - updated BroadleafUpdateAccountController to create a new user/pass token",
+                        "closedAt": "2015-06-29T21:06:47Z",
+                        "createdAt": "2015-06-05T21:46:53Z",
+                        "publishedAt": "2015-06-05T21:46:53Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T21:06:47Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 29,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "#1400 - Basic start/end date validation logic needs to be added to admin",
+                        "closedAt": "2015-06-08T19:01:30Z",
+                        "createdAt": "2015-06-05T22:23:13Z",
+                        "publishedAt": "2015-06-05T22:23:13Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-08T19:01:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 121,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Add compatibility with SolrCloud Replication",
+                        "closedAt": "2015-06-27T18:04:33Z",
+                        "createdAt": "2015-06-09T20:54:24Z",
+                        "publishedAt": "2015-06-09T20:54:24Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-27T18:04:33Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 15,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "#1408 - updated the content of the IllegalStateException",
+                        "closedAt": "2015-06-30T05:13:32Z",
+                        "createdAt": "2015-06-11T15:33:56Z",
+                        "publishedAt": "2015-06-11T15:33:56Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Allow for the primary media for a sku to be removed",
+                        "closedAt": "2015-07-24T14:56:28Z",
+                        "createdAt": "2015-06-11T16:55:59Z",
+                        "publishedAt": "2015-06-11T16:55:59Z",
+                        "merged": true,
+                        "mergedAt": "2015-07-24T14:56:28Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 69,
+                        "deletions": 11
+                    },
+                    {
+                        "title": "#1411 - `@AdminPresentation` the field name in 3.0.xsd needs to match…",
+                        "closedAt": "2015-06-29T23:12:07Z",
+                        "createdAt": "2015-06-11T18:37:50Z",
+                        "publishedAt": "2015-06-11T18:37:50Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T23:12:07Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "IsoCountryWrapper needs to be registered bean",
+                        "closedAt": "2015-06-18T18:50:13Z",
+                        "createdAt": "2015-06-12T15:20:04Z",
+                        "publishedAt": "2015-06-12T15:20:04Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-18T18:50:13Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Qa 656 collisions",
+                        "closedAt": "2015-06-22T17:47:11Z",
+                        "createdAt": "2015-06-12T15:53:14Z",
+                        "publishedAt": "2015-06-12T15:53:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 114,
+                        "deletions": 85
+                    },
+                    {
+                        "title": "Qa 653 solr indexoutofbounds",
+                        "closedAt": "2015-06-30T00:46:44Z",
+                        "createdAt": "2015-06-12T22:34:33Z",
+                        "publishedAt": "2015-06-12T22:34:33Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-30T00:46:44Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 18,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Boolean system property should be represented as a radio button in the admin.",
+                        "closedAt": "2015-06-30T02:20:52Z",
+                        "createdAt": "2015-06-15T19:45:47Z",
+                        "publishedAt": "2015-06-15T19:45:47Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 90,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Remove any credit card payment type restrictions on populating billing/shipping/customer information from the order onto a PaymentRequestDTO",
+                        "closedAt": "2015-06-16T16:59:14Z",
+                        "createdAt": "2015-06-16T15:25:24Z",
+                        "publishedAt": "2015-06-16T15:25:24Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-16T16:59:14Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 19,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Add a helper service that converts the current user cart into a PaymentRequest",
+                        "closedAt": "2015-06-16T17:00:46Z",
+                        "createdAt": "2015-06-16T17:00:01Z",
+                        "publishedAt": "2015-06-16T17:00:01Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-16T17:00:46Z",
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 94,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "#1427 - updated BasicFieldPersistenceProvider to treat null as false when populating values",
+                        "closedAt": "2015-06-19T20:24:53Z",
+                        "createdAt": "2015-06-17T20:03:57Z",
+                        "publishedAt": "2015-06-17T20:03:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "issue 660 - exposing prices as price from default SKU",
+                        "closedAt": "2015-06-18T23:35:31Z",
+                        "createdAt": "2015-06-17T23:00:04Z",
+                        "publishedAt": "2015-06-17T23:00:04Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-18T23:35:31Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 181,
+                        "deletions": 146
+                    },
+                    {
+                        "title": "qa 649 asset versioning",
+                        "closedAt": "2015-06-18T19:08:29Z",
+                        "createdAt": "2015-06-18T18:07:43Z",
+                        "publishedAt": "2015-06-18T18:07:43Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-18T19:08:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 10,
+                        "deletions": 60
+                    },
+                    {
+                        "title": "#1435 - updated readonly.html to properly check media urls for empty strings before loading media",
+                        "closedAt": "2015-06-24T21:05:37Z",
+                        "createdAt": "2015-06-19T17:23:10Z",
+                        "publishedAt": "2015-06-19T17:23:10Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-24T21:05:37Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Limit the url to one successUrl parameter on a failed login attempt",
+                        "closedAt": "2015-06-24T21:09:59Z",
+                        "createdAt": "2015-06-22T16:50:13Z",
+                        "publishedAt": "2015-06-22T16:50:13Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-24T21:09:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 18,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fixed \"View Approver Sandbox\" user so that they can view approvals",
+                        "closedAt": "2015-06-27T19:30:35Z",
+                        "createdAt": "2015-06-22T17:12:22Z",
+                        "publishedAt": "2015-06-22T17:12:22Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 80,
+                        "deletions": 26
+                    },
+                    {
+                        "title": "Admin configuration settings spill over similarly named properties",
+                        "closedAt": "2015-06-30T16:57:58Z",
+                        "createdAt": "2015-06-22T18:13:05Z",
+                        "publishedAt": "2015-06-22T18:13:05Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 114,
+                        "deletions": 85
+                    },
+                    {
+                        "title": "#1444 - updated SandBoxDaoImpl to fix bug in retrieveAllSandBoxes method",
+                        "closedAt": "2015-08-25T14:24:34Z",
+                        "createdAt": "2015-06-23T16:17:12Z",
+                        "publishedAt": "2015-06-23T16:17:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 31,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Updated dirty form fields immediately after submission ",
+                        "closedAt": "2015-06-30T03:35:55Z",
+                        "createdAt": "2015-06-23T18:19:10Z",
+                        "publishedAt": "2015-06-23T18:19:10Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-30T03:35:55Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 23,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Bundles can return a 404 in BLC multi-tenant setup",
+                        "closedAt": "2015-06-27T20:29:35Z",
+                        "createdAt": "2015-06-23T21:58:05Z",
+                        "publishedAt": "2015-06-23T21:58:05Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-27T20:29:35Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Populate totals and line items only for PaymentType.UNCONFIRMED",
+                        "closedAt": "2015-06-30T05:48:39Z",
+                        "createdAt": "2015-06-23T21:59:45Z",
+                        "publishedAt": "2015-06-23T21:59:45Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-30T05:48:38Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 7,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Issues when serving static assets can occur because the system is unable to delete the temporary directory",
+                        "closedAt": "2015-06-29T17:16:19Z",
+                        "createdAt": "2015-06-24T07:02:23Z",
+                        "publishedAt": "2015-06-24T07:02:23Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T17:16:18Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 14,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Qa 685 admin entity not found",
+                        "closedAt": "2015-06-29T19:24:38Z",
+                        "createdAt": "2015-06-24T18:04:44Z",
+                        "publishedAt": "2015-06-24T18:04:44Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T19:24:38Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 59,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Add pricelist name to to admin's Search Facet Range",
+                        "closedAt": "2015-07-02T19:54:36Z",
+                        "createdAt": "2015-06-24T22:38:38Z",
+                        "publishedAt": "2015-06-24T22:38:38Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 163,
+                        "deletions": 54
+                    },
+                    {
+                        "title": "FulfillmentGroupItemImpl.getHasProratedOrderAdjustments() now returns correct value",
+                        "closedAt": "2015-06-29T18:59:19Z",
+                        "createdAt": "2015-06-26T19:37:25Z",
+                        "publishedAt": "2015-06-26T19:37:25Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T18:59:19Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 306,
+                        "deletions": 306
+                    },
+                    {
+                        "title": "prevent unwanted translation permutations",
+                        "closedAt": "2015-07-24T14:54:00Z",
+                        "createdAt": "2015-06-26T22:57:43Z",
+                        "publishedAt": "2015-06-26T22:57:43Z",
+                        "merged": true,
+                        "mergedAt": "2015-07-24T14:54:00Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 546,
+                        "deletions": 195
+                    },
+                    {
+                        "title": "#1472 remove 6th value from test",
+                        "closedAt": "2015-06-29T01:42:44Z",
+                        "createdAt": "2015-06-28T17:24:27Z",
+                        "publishedAt": "2015-06-28T17:24:27Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-29T01:42:44Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Site Map Generator Configurations set up to work with Multi-Tenant",
+                        "closedAt": "2015-07-21T18:09:49Z",
+                        "createdAt": "2015-06-29T15:16:19Z",
+                        "publishedAt": "2015-06-29T15:16:19Z",
+                        "merged": true,
+                        "mergedAt": "2015-07-21T18:09:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 6,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Introduce hooks into the SOLR index process to allow modules to optimize performance",
+                        "closedAt": "2015-06-30T18:40:33Z",
+                        "createdAt": "2015-06-30T05:07:50Z",
+                        "publishedAt": "2015-06-30T05:07:50Z",
+                        "merged": true,
+                        "mergedAt": "2015-06-30T18:40:33Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 27,
+                        "deletions": 0
+                    }
+                ]
+            }
+        }
+    }
+}

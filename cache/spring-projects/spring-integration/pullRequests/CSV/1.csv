@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Touched an inappropriate file","2011-8/10","2011-8/10","2011-8/10",True,"2011-8/10",2,1,0
+"modified text (testing)","2011-8/10","2011-8/10","2011-8/10",True,"2011-8/10",1,1,0
+"removed inappropriate.txt","2011-8/11","2011-8/11","2011-8/11",True,"2011-8/11",1,0,2
+"INT-2040 changed signature of MessageStore.getMessageCount() to return lo","2011-8/11","2011-8/11","2011-8/11",True,"2011-8/11",2,6,6
+"INT-2046 added @ManagedAttribute to MessageStores","2011-8/11","2011-8/11","2011-8/11",True,"2011-8/11",2,7,3
+"INT-2030 polished RedisMessageGroup","2011-8/11","2011-8/11","2011-8/11",False,"null",2,36,30
+"INT-2040 Broken JMX Test","2011-8/13","2011-8/13","2011-8/13",True,"2011-8/13",2,1,1
+"INT-1884 Intermittent JMX Test Failure","2011-8/13","2011-8/13","2011-8/13",False,"null",1,2303,16
+"INT-1884 Intermittent JMX Test Failure","2011-8/13","2011-8/13","2011-8/13",True,"2011-8/13",2,2,1
+"INT-1945 Initial Commit","2011-8/13","2011-9/13","2011-8/13",False,"null",2,2300,16
+"Add 'loggerName' property.","2011-8/13","2011-8/13","2011-8/13",True,"2011-8/13",2,101,17
+"GemFire cleanup","2011-8/14","2011-8/14","2011-8/14",True,"2011-8/14",3,437,429
+"INT-2049","2011-8/14","2011-8/14","2011-8/14",False,"null",1,1499,17
+"Int 2049","2011-8/14","2011-8/14","2011-8/14",False,"null",2,1042,17
+"INT-2052","2011-8/16","2011-8/16","2011-8/16",True,"2011-8/16",2,31,21
+"INT-2043","2011-8/16","2011-8/16","2011-8/16",True,"2011-8/16",2,96,45
+"Int 2047","2011-8/17","2011-8/17","2011-8/17",True,"2011-8/17",2,10,10
+"Int2060","2011-8/17","2011-8/17","2011-8/17",True,"2011-8/17",2,437,429
+"INT-2062","2011-8/18","2011-8/18","2011-8/18",True,"2011-8/18",2,18,3
+"INT-2061","2011-8/18","2011-8/18","2011-8/18",True,"2011-8/18",2,14,2
+"INT-2062 - Fixed GemfireMessageGroupStoreTest (changed Set to List to avo","2011-8/18","2011-8/18","2011-8/18",False,"null",2,63,56
+"inbound-gateway now supports all attributes","2011-8/18","2011-8/18","2011-8/18",True,"2011-8/18",2,279,304
+"INT-2058","2011-8/18","2011-8/18","2011-8/18",False,"null",2,284,75
+"minimum Spring dependency 3.0.5","2011-8/19","2011-8/19","2011-8/19",True,"2011-8/19",2,561,539
+"INT-2068 fixed shouldSkipNulls logic","2011-8/19","2011-8/19","2011-8/19",False,"null",2,114,43
+"INT-2056","2011-8/22","2011-8/22","2011-8/22",True,"2011-8/22",2,35,18
+"added support for durable subscription settings","2011-8/22","2011-8/22","2011-8/22",True,"2011-8/22",2,156,2
+"Int 2028","2011-8/22","2011-8/22","2011-8/22",False,"null",2,548,34
+"id is now a fallback for a generated channel name","2011-8/22","2011-8/22","2011-8/22",True,"2011-8/22",2,191,5
+"Int 2074 - Refactor ContinuousQueryMessageProducer","2011-8/22","2011-8/22","2011-8/22",True,"2011-8/22",3,368,440
+"set use-factory-locator=false and changed cache-id","2011-8/23","2011-8/23","2011-8/23",True,"2011-8/23",2,3,3
+"INT-2070","2011-8/23","2011-8/23","2011-8/23",False,"null",2,477,0
+"INT-2011 fixed MessagingMethodInvokerHelper.HandlerMethod.dummyMessages t","2011-8/24","2011-8/24","2011-8/24",True,"2011-8/24",2,47,3
+"Int 2030","2011-8/24","2011-8/24","2011-8/24",False,"null",2,313,419
+"INT-2011 fixed ReseqencerParserTests that was broken due to the change in","2011-8/24","2011-8/24","2011-8/24",True,"2011-8/24",2,1,1
+"INT-2009 fixed related classes to ensure that POJO-based release strategy","2011-8/24","2011-8/24","2011-8/24",False,"null",2,22,0
+"fixed gemfire test compile problem","2011-8/24","2011-8/24","2011-8/24",False,"null",2,60,23
+"avoid all core headers when mapping to properties","2011-8/25","2011-8/25","2011-8/25",True,"2011-8/25",1,106,19
+"INT-2079 added initial documentation for Redis support","2011-8/25","2011-8/25","2011-8/25",True,"2011-8/25",1,0,0
+"INT-2079 added initial documentation for Redis module","2011-8/25","2011-8/25","2011-8/25",False,"null",2,206,1
+"INT-2081 - added gemfire documentation to the reference","2011-8/25","2011-8/25","2011-8/25",False,"null",2,137,7
+"Int 2082 - Enhanced ContinuousQueryMessageProducer","2011-8/25","2011-8/25","2011-8/25",False,"null",2,317,70
+"Int 2080","2011-8/26","2011-8/26","2011-8/26",False,"null",2,108,0
+"INT-2075 - Added namespace support for cq-inbound-channel-adapter","2011-8/26","2011-8/26","2011-8/26",True,"2011-8/26",2,408,104
+"INT-2075 made changes for the new SGF class names","2011-8/26","2011-8/26","2011-8/26",False,"null",2,26,28
+"INT-2009 added documentation clarifying the use of MessageGroup when usin","2011-8/26","2011-8/26","2011-8/26",True,"2011-8/26",2,22,0
+"properly support request and reply pubSubDomain","2011-8/29","2011-8/29","2011-8/29",True,"2011-8/29",3,91,13
+"fixed jms outbound-gateway timeout attributes","2011-8/30","2011-8/30","2011-8/30",True,"2011-8/30",1,15,3
+"Int 1109","2011-8/30","2011-8/30","2011-8/30",True,"2011-8/30",2,359,46
+"Int 2093","2011-8/31","2011-8/31","2011-8/31",False,"null",3,75,267
+"INT-1968 fixed ObjectToMapTransformer to handle BigDecimal while also ref","2011-9/1","2011-9/1","2011-9/1",False,"null",2,223,616
+"INT-2094 removed  deprecated use of task-executor @markfisher","2011-9/1","2011-9/1","2011-9/1",False,"null",2,70,101
+"Int 1677 added support for URI Variable mappings in Http Inbound adapters","2011-9/1","2011-9/1","2011-9/1",False,"null",2,507,13
+"INT-2104 fixed invalid check for open folder that was precluding ImapIdle","2011-9/2","2011-9/2","2011-9/2",False,"null",2,3,5
+"Removed Jsr223 from classnames","2011-9/2","2011-9/2","2011-9/2",False,"null",2,34,26
+"INT-1968A fixed the broken test","2011-9/2","2011-9/2","2011-9/2",False,"null",2,12,14
+"INT-2053 - Refactor and Standardize possible XSD Schema Attributes across all Routers","2011-9/6","2011-9/6","2011-9/6",False,"null",2,1383,598
+"INT-2109 updated JMS schema documentation to document DMLC attributes","2011-9/7","2011-9/7","2011-9/7",False,"null",2,94,14
+"SerialDispatcher pushing initial POC code for Serial Message Dispatcher","2011-9/7","2011-10/7","2011-9/7",False,"null",2,932,0
+"INT-1870 added support for MessageStore to PriorityChannel","2011-9/7","2011-10/7","2011-9/7",False,"null",3,4068,2297
+"INT-2111 Fix typo in Samples Appendix","2011-9/7","2011-9/7","2011-9/7",False,"null",2,4,3
+"INT-2031, INT-2112 Added support to fall back on FIFO semantics to the PC","2011-9/7","2011-10/7","2011-9/7",False,"null",3,147,13
+"INT-1581 Added support for pattern recognition when mapping channels in r","2011-9/9","2011-10/9","2011-9/9",False,"null",2,87,9
+"changed default connection-factory value to 'rabbitConnectionFactory' to ","2011-9/10","2011-9/10","2011-9/10",False,"null",1,1,1
+"Int 2118","2011-9/10","2011-9/10","2011-9/10",True,"2011-9/10",2,49,14
+"Int 2089","2011-9/10","2011-9/10","2011-9/10",False,"null",2,55,14
+"INT-2120 Initial API","2011-9/10","2011-10/10","2011-9/10",False,"null",2,404,0
+"INT-1818 migrated Twitter support to use Spring Social","2011-9/12","2011-9/12","2011-9/12",False,"null",2,347,1546
+"INT-2122 removed 'interval' attriibute from the poller","2011-9/12","2011-9/12","2011-9/12",False,"null",3,0,2
+"INT-2123 - Cleaned up dependencies","2011-9/13","2011-9/13","2011-9/13",False,"null",2,299,256
+"INT-2115 added logic to recognize abstract bean definitions","2011-9/14","2011-9/14","2011-9/14",False,"null",2,14,9
+"INT-2106 added support for poller to outbound mail adapter","2011-9/15","2011-9/15","2011-9/15",False,"null",2,40,16
+"INT-1818 updated template.mf with new dependencies","2011-9/15","2011-9/15","2011-9/15",True,"2011-9/15",2,2,1
+"INT-2012 added warning messages regarding missing Reaper","2011-9/16","2011-9/16","2011-9/16",False,"null",2,28,11
+"INT-2014","2011-9/16","2011-9/16","2011-9/16",False,"null",2,198,26
+"INT-2129 Fix the pom.xml for Twitter adapter.","2011-9/19","2011-9/19","2011-9/19",True,"2011-9/19",2,21,15
+"INT-2013 added documentation","2011-9/19","2011-9/19","2011-9/19",True,"2011-9/19",2,9,0
+"INT-2134 Fixed CorrelationMessageHandler","2011-9/20","2011-9/20","2011-9/20",False,"null",2,516,174
+"INT 2130 - refactored scripting support","2011-9/21","2011-9/21","2011-9/21",False,"null",2,123,52
+"add support for 'converter' on <xpath-router>","2011-9/21","2011-10/21","2011-9/21",False,"null",3,69,6
+"initial implementation of XPathFilter","2011-9/21","2011-10/21","2011-9/21",False,"null",3,562,52
+"Add ReplyRequiredException","2011-9/21","2011-9/21","2011-9/21",False,"null",2,52,16
+"this is bogus","2011-9/21","2011-9/21","2011-9/21",False,"null",1,0,0
+"support for uri placeholders in Web Service outbound-gateway","2011-9/22","2011-9/22","2011-9/22",False,"null",2,386,114
+"INT-1884 polished test that intermittently break CI","2011-9/23","2011-9/23","2011-9/23",True,"2011-9/23",2,5,2
+"INT-2142 refactored GemfireMessageStore","2011-9/23","2011-9/23","2011-9/23",False,"null",3,968,1013
+"INT-2088 added documentation for scripting and updated groovy section","2011-9/23","2011-9/23","2011-9/23",True,"2011-9/23",2,166,112
+"added 'error-handler' attribute","2011-9/23","2011-9/23","2011-9/23",False,"null",2,12,0
+"INT-1876 Add auto-startup and phase to TCP Endpoints","2011-9/23","2011-10/23","2011-9/23",False,"null",1,1008,615
+"INT-2144 Document Socket Timeout Defaults","2011-9/25","2011-9/25","2011-9/25",False,"null",2,38,6
+"INT-2111 Fix Header Names in (S)FTP Gateway Doc","2011-9/26","2011-9/26","2011-9/26",False,"null",2,10,10
+"Removed hardcoded ""restTemplate"" references.","2011-9/26","2011-9/26","2011-9/26",True,"2011-9/26",2,29,30
+"Only require 'queue-names' if no container ref","2011-9/27","2011-9/27","2011-9/27",True,"2011-9/27",2,5,1
+"INT-2154 Minor Refactoring","2011-9/27","2011-9/27","2011-9/27",True,"2011-9/27",2,39,6
+"Int 2134","2011-9/27","2011-9/27","2011-9/27",False,"null",2,516,174
+"Int 2142","2011-9/27","2011-9/27","2011-9/27",False,"null",2,462,844
+"PollerParser correctly prevents multiple triggers","2011-9/27","2011-9/27","2011-9/27",True,"2011-9/27",2,23,4
+"Int 2135","2011-9/28","2011-9/28","2011-9/28",True,"2011-9/28",3,1110,591
+"Int 2158","2011-9/28","2011-9/28","2011-9/28",False,"null",2,1049,1014
+"INT-2150 fixed Twitter schema to remove Twitter4J references","2011-9/28","2011-9/28","2011-9/28",True,"2011-9/28",2,4,8

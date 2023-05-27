@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Update ConcurrentReferenceHashMap.java","2014-4/14","2014-4/14","2014-4/14",False,"null",2,1,1
+"Minor doc fix to sample for @ConstructorProperties","2014-4/15","2014-4/15","2014-4/15",False,"null",2,1,1
+"With relation to [SPR-11126] problem converting empty parameter to List,","2014-4/18","2014-4/18","2014-4/18",False,"null",2,56,2
+"Added a Git .mailmap file","2014-4/18","2014-4/18","2014-4/18",False,"null",2,13,0
+"[SPR-11126] problem converting empty parameter to List","2014-4/18","2014-6/18","2014-4/18",False,"null",2,120,8
+"Clean up spring-jdbc tests warnings","2014-4/19","2014-4/19","2014-4/19",False,"null",2,97,107
+"Clean up spring-aop tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,7,6
+"Clean up spring-messaging imports","2014-4/20","2014-4/20","2014-4/20",False,"null",2,0,21
+"Clean up spring-websocket imports","2014-4/20","2014-4/20","2014-4/20",False,"null",2,0,12
+"Clean up spring-webmvc-portlet tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,41,43
+"Clean up spring-expression tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,22,22
+"Clean up spring-web tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,39,39
+"Clean up spring-tx tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,70,70
+"Clean up spring-jms tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,63,64
+"Clean up spring-context-support tests warnings","2014-4/20","2014-4/20","2014-4/20",False,"null",2,10,17
+"Documentation updates related to SPR-11703","2014-4/24","2014-4/24","2014-4/24",False,"null",2,35,2
+"Fix DefaultSubscriptionRegistry when using pattern destinations","2014-4/24","2014-4/24","2014-4/24",False,"null",2,122,46
+"Add space separator in JsonPathExpectationsHelper","2014-4/25","2014-4/25","2014-4/25",True,"2014-4/25",2,1,1
+"Failing test for SPR-11736 Method signature isn't used for computing the cache key","2014-4/25","2014-4/25","2014-4/25",False,"null",2,31,0
+"SPR-11736: Method signature isn't used for computing the cache key in SimpleKeyGenerator","2014-4/25","2014-4/25","2014-4/25",False,"null",3,119,14
+"Skip Java immutable objects in session when processing the accessed attributes","2014-4/26","2014-5/26","2014-4/26",False,"null",2,30,2
+"Update RequestMapping javadoc typo.","2014-4/28","2014-4/28","2014-4/28",False,"null",2,1,1
+"Made string constants in HttpHeaders public","2014-5/1","2014-5/1","2014-5/1",False,"null",2,18,18
+"Created a builder to create HttpHeaders","2014-5/1","2014-5/1","2014-5/1",False,"null",2,524,0
+"Fixed DestinationCache to avoid ConcurrentModificationException","2014-5/5","2014-5/5","2014-5/5",False,"null",2,62,22
+"Poi excel view","2014-5/11","2021-11/11","2014-5/11",False,"null",6,346,103
+"Provide builder for ResponseEntity","2014-5/14","2014-5/14","2014-5/14",False,"null",3,419,0
+"Support Jackson JSON Views","2014-5/15","2014-5/15","2014-5/15",False,"null",2,565,16
+"Move ResponseEntityBuilder into ResponseEntity","2014-5/15","2014-5/15","2014-5/15",False,"null",2,270,303
+"Un-doing the spring framework, best version yet.","2014-5/19","2014-5/19","2014-5/19",False,"null",1,2,992745
+"Added support for nested path traversing in DirectFieldAccessor","2014-5/21","2014-6/21","2014-5/21",False,"null",2,262,72
+"Fix method comment for getRequiredProperty(key)","2014-5/21","2014-6/21","2014-5/21",False,"null",2,1,2
+"3.2.x","2014-5/23","2014-6/23","2014-5/23",False,"null",10,18991,11599
+"fix javadoc link for RestController and PropertySource","2014-5/24","2014-5/24","2014-5/24",True,"2014-5/24",3,2,2
+"Add JSONP support to MappingJackson2JsonView","2014-5/27","2014-6/27","2014-5/27",False,"null",2,124,29
+"SPR-11825 SubPWSocketH: eventPublisher population","2014-5/28","2014-5/28","2014-5/28",False,"null",2,26,23
+"SPR-11832 - fixed NPE when unsubscribing from an endpoint that doesn't e...","2014-5/29","2014-6/29","2014-5/29",False,"null",2,1,0
+"spring源码解析","2014-6/4","2014-6/4","2014-6/4",False,"null",1,199,449
+"SPR-8045: MBeanExporter should register MBeans later than the initializa...","2014-6/4","2014-6/4","2014-6/4",False,"null",3,128,33
+"While registering an excludePathPattern an includePathPattern is also required","2014-6/4","2014-7/4","2014-6/4",False,"null",2,18,6
+"Add a compiler for SpEL","2014-6/4","2014-7/4","2014-6/4",True,"2014-7/4",3,5964,90
+"4.0.x","2014-6/5","2014-6/5","2014-6/5",False,"null",9,6323,2660
+"Fixing issue SPR-11846 - https://jira.spring.io/browse/SPR-11846","2014-6/5","2014-6/5","2014-6/5",False,"null",2,3,0
+"Introduce annotation to execute SQL scripts in the TCF","2014-6/5","2014-6/5","2014-6/5",True,"2014-6/5",1,1912,128
+"Reference manual polishing","2014-6/5","2014-6/5","2014-6/5",False,"null",2,39,33
+"4.0.x","2014-6/12","2014-6/12","2014-6/12",False,"null",9,6323,2660
+"Add Converter for java.util.Optional","2014-6/13","2014-6/13","2014-6/13",False,"null",1,145,1
+"Added a cache to transaction manager lookup to alleiviate locking issue...","2014-6/13","2018-7/13","2014-6/13",False,"null",4,19,3
+"StringUtils.trimAllWhitespace(String str) is slow.","2014-6/13","2014-6/13","2014-6/13",False,"null",2,12,11
+"Expose exception as request attribute when calling sendError","2014-6/22","2014-7/22","2014-6/22",False,"null",2,108,22
+"Use constructor injection","2014-6/23","2014-6/23","2014-6/23",True,"2014-6/23",2,8,5
+"Fix request parameter comparison bug in isFlashMapForRequest() method of AbstractFlashMapManager.java.","2014-6/24","2014-9/24","2014-6/24",False,"null",1,328,8
+"In case that reqeust url includes ""="" char in front of first semicolon,","2014-6/24","2018-7/24","2014-6/24",False,"null",4,14,2
+"In connection with ""[SPR-11126] problem converting empty parameter to","2014-6/24","2021-11/24","2014-6/24",False,"null",5,48,6
+"Workaround for WFLY-3474 NullPointerException","2014-6/25","2014-6/25","2014-6/25",False,"null",1,29,4
+"Fixed [SPR-11897]","2014-6/27","2018-7/27","2014-6/27",False,"null",4,83,6
+"SPR-11875: Performance regression for custom autowireBean calls with many properties","2014-6/27","2021-11/27","2014-6/27",False,"null",7,20,42
+"Make ListenableFuture compliant with Java 8 lambda","2014-6/30","2014-7/30","2014-6/30",True,"2014-7/30",6,392,41
+"Support Java and MVC namespace view resolution config","2014-6/30","2014-7/30","2014-6/30",False,"null",3,2065,53
+"Add support for asserting JSON","2014-6/30","2014-7/30","2014-6/30",False,"null",2,96,3
+"Introduce RequestEntity and builder","2014-6/30","2014-7/30","2014-6/30",False,"null",2,856,6
+"edit exception list type as Exception instead of Throwable","2014-7/1","2021-1/1","2014-7/1",False,"null",5,1,1
+"DefaultSubscriptionRegistry cache cleanup improvements","2014-7/1","2014-7/1","2014-7/1",False,"null",2,36,23
+"SPR-5807/SPR-6259 - Added support for ProtobufHttpMessageConverter","2014-7/1","2014-7/1","2014-7/1",False,"null",2,314,0
+"CachingDestinationResolver implementation","2014-7/1","2014-7/1","2014-7/1",False,"null",2,136,0
+"4.0.x","2014-7/2","2014-7/2","2014-7/2",False,"null",2,0,0
+"Added a cache to tranbsaction manager lookup to alleiviate locking issue...","2014-7/3","2014-7/3","2014-7/3",False,"null",2,19,3
+"Adding cacheSharedConsumers configuration for CachingConnectionFactory","2014-7/5","2021-12/5","2014-7/5",False,"null",4,41,15
+"Modified the way to decode request parameter of flush map","2014-7/6","2014-7/6","2014-7/6",False,"null",1,93,3
+"Modified the way to decode request parameter of flush map","2014-7/6","2014-7/6","2014-7/6",False,"null",1,93,3
+"Modified the way to decode request parameter of flush map","2014-7/6","2014-7/6","2014-7/6",False,"null",1,93,4
+"Add support to reference external HandlerMethodArgumentResolver beans ","2014-7/6","2014-7/6","2014-7/6",False,"null",2,79,7
+"Modified the way to encode the request parameter to redirect","2014-7/7","2015-10/7","2014-7/7",False,"null",1,75,8
+"Adding support for shared consumers in message listener containers","2014-7/8","2014-7/8","2014-7/8",False,"null",1,138,26
+"Added matcher to check for specific error on a field","2014-7/8","2014-7/8","2014-7/8",False,"null",7,9856,2359
+"Allow to customize separator for messaging destinations","2014-7/10","2014-7/10","2014-7/10",False,"null",2,967,79
+"Add status controllers","2014-7/12","2014-7/12","2014-7/12",False,"null",2,901,20
+"Add date formatting to MockHttpServletRequest and MockHttpServletResponse .","2014-7/14","2014-9/14","2014-7/14",False,"null",1,279,4
+"Update support for using ""."" as path separator","2014-7/16","2014-7/16","2014-7/16",False,"null",1,15,46
+"StaxStreamXMLReader ignores significant whitespace","2014-7/16","2014-7/16","2014-7/16",True,"2014-7/16",2,29,8
+"Add Groovy markup templating support to the MVC config","2014-7/16","2014-7/16","2014-7/16",False,"null",2,200,14
+"Fix default target destination when using ""."" as path separator","2014-7/17","2014-7/17","2014-7/17",False,"null",2,37,1
+"Add ""-configurer"" suffix to view configurer element names","2014-7/17","2014-7/17","2014-7/17",False,"null",2,32,33
+"Update documentation with MVC config view resolution examples","2014-7/18","2014-7/18","2014-7/18",False,"null",2,145,6
+"[SPR-12159] Add filtered properties","2014-7/20","2019-1/20","2014-7/20",False,"null",5,49,1
+"Generate bracketless tag id in Velocity forms","2014-7/21","2014-7/21","2014-7/21",False,"null",2,101,9
+"Avoid adding an InternalResourceViewResolver when ViewResolverRegistry is empty","2014-7/22","2014-7/22","2014-7/22",False,"null",2,39,15
+"Improve documentation for using ""."" as destination separator","2014-7/25","2014-7/25","2014-7/25",False,"null",2,107,18
+"Add CSRF protection documentation","2014-7/27","2014-7/27","2014-7/27",False,"null",2,64,0
+"add asserBufferedRequestBodyFalseConfig in HttpComponentsClientHttpRequestFactoryTests","2014-7/29","2021-11/29","2014-7/29",False,"null",5,37,3
+"add testNullSafeToStringWithXSSValue testcase to objectUtilsTests","2014-7/29","2021-11/29","2014-7/29",False,"null",6,28,2
+"Class comment is wrong.","2014-7/30","2014-7/30","2014-7/30",False,"null",2,1,1
+"SPR-10500-ReloadableResourceBundleMessageSource properties hashmap locks and fails under load","2014-7/30","2014-9/30","2014-7/30",False,"null",3,91,24
+"Change GenericConversionService to match interfaces before enums","2014-7/30","2014-8/30","2014-7/30",False,"null",2,130,38
+"changed ContextLoaderTests","2014-7/31","2014-7/31","2014-7/31",False,"null",1,1,0
+"Enrich documentation with details on how to filter messages","2014-7/31","2014-7/31","2014-7/31",False,"null",2,77,2
+"Move RequestReplyHeaderMapper to core","2014-8/1","2014-8/1","2014-8/1",False,"null",3,1046,0
+"Add documentation for Java SockJS client","2014-8/1","2014-8/1","2014-8/1",False,"null",2,37,0
+"Enable the possibility to automatically copy selected headers from input message","2014-8/1","2021-11/1","2014-8/1",False,"null",5,24,6
+"Method for building HEAD requests with MockMvcRequestBuilders","2014-8/1","2014-8/1","2014-8/1",False,"null",2,19,0

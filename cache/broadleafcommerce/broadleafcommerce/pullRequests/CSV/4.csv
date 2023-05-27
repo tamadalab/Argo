@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Dependency Updates - Spring Boot to 1.5.6, Spring core to 4.3.10, Lombok to 1.16.18","2017-8/7","2017-8/7","2017-8/7",True,"2017-8/7",2,3,3
+"Registration Password only accepts 6 or more non-space characters","2017-8/7","2017-8/7","2017-8/7",True,"2017-8/7",3,1,34
+"Theme Fields now have the ability to have translations added in the admin","2017-8/8","2017-8/8","2017-8/8",True,"2017-8/8",3,1,0
+"Fixed issue where items were unable to be added to wishlist when out of stock","2017-8/8","2017-8/8","2017-8/8",True,"2017-8/8",2,8,0
+"Update OrderHistory UI to use new MaterialKit styles","2017-8/9","2017-8/9","2017-8/9",True,"2017-8/9",3,129,16
+"Add State/Province/Region, PostalCode, and PhoneNumber Empty/Whitespace check to Common Address Validator.","2017-8/9","2017-8/9","2017-8/9",True,"2017-8/9",2,5,0
+"Added ability to have an amount off offer split among the matching order items","2017-8/10","2019-12/10","2017-8/10",False,"null",6,315,27
+"Add support to `ExtensionHandler` to get a list of `cacheKeys` for a template site","2017-8/10","2017-8/10","2017-8/10",True,"2017-8/10",3,55,12
+"Fixed errors with checkout flow","2017-8/11","2017-8/11","2017-8/11",True,"2017-8/11",2,14,4
+"Introduce ability to disable customer saved payments","2017-8/14","2017-8/14","2017-8/14",True,"2017-8/14",2,29,5
+"Update Homepage banner add wording since the link is no longer active","2017-8/14","2017-8/14","2017-8/14",True,"2017-8/14",2,1,1
+"Add property source, message bundles, module registration and AutoImportSQL interfaces for backwards and forwards compatibility with the Broadleaf 5.x line","2017-8/14","2017-8/14","2017-8/14",True,"2017-8/14",1,210,0
+"Added a null check when determining correct AdminSection","2017-8/14","2017-8/14","2017-8/14",True,"2017-8/14",3,9,7
+"Fix url forwarding issue for products, categories, & skus","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",2,136,139
+"Fixed issue where rating service was incorrectly counting duplicates for the average rating","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",3,2,5
+"Consolidate the mbeans configuration and ensure one is marked primary to fix Spring Boot Mbeans exposure","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",1,19,32
+"Allow UTF-8 characters (like accent marks) in message bundles","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",2,8,2
+"Introduce methods to determine whether or not the current cart has a CreditCard payment associated to it","2017-8/18","2017-8/18","2017-8/18",True,"2017-8/18",2,32,1
+"Update our OOB Page data to include meta titles & introduce a plain page template","2017-8/18","2017-8/18","2017-8/18",True,"2017-8/18",2,6,5
+"Outstanding issues with catalog and profile propagation setup and usage","2017-8/19","2017-8/19","2017-8/19",True,"2017-8/19",2,187,9
+"Outstanding issues with catalog and profile propagation setup and usage","2017-8/21","2017-8/21","2017-8/21",False,"null",2,253,13
+"Add method to the framework to query products that use a specific product option","2017-8/21","2017-8/21","2017-8/21",True,"2017-8/21",3,81,0
+"Outstanding issues with catalog and profile propagation setup and usage","2017-8/21","2017-8/21","2017-8/21",True,"2017-8/21",2,252,12
+"Core BLCAdmin JS references enterprise only components","2017-8/22","2017-9/22","2017-8/22",True,"2017-9/22",2,98,4
+"Fixed JS error that occurs in IE when clearing filters on Main Entity ListGrids because a variable was not converted to a JQuery object","2017-8/24","2017-8/24","2017-8/24",True,"2017-8/24",2,1,1
+"Ensure that the BRC is configured for resource resolving","2017-8/24","2017-8/24","2017-8/24",True,"2017-8/24",2,6,0
+"Add site id to the cache key to prevent incorrect lookups when an installation has multiple sites available","2017-8/25","2017-9/25","2017-8/25",True,"2017-9/25",3,10,5
+"Fill In Saved Customer Addresses","2017-8/27","2020-5/27","2017-8/27",False,"null",5,48,6
+"Misc Issues","2017-8/29","2017-8/29","2017-8/29",True,"2017-8/29",2,1557,38
+"Default Category validations triggering when re-deploying ""incomplete"" products ","2017-8/30","2017-8/30","2017-8/30",False,"null",2,92,40
+"Default Category validations triggering when re-deploying ""incomplete"" products","2017-8/30","2017-9/30","2017-8/30",True,"2017-9/30",2,7,0
+"Sku#getMultiValueSkuAttributes has inaccurate return type","2017-8/30","2018-4/30","2017-8/30",True,"2018-4/30",4,6,3
+"Fixed an issue where overriding a product's additional sku would cause the add to cart to fail (MT Only)","2017-8/30","2017-8/30","2017-8/30",True,"2017-8/30",2,7,3
+"Check that the order item can be cast to a SkuAccessor before casting in the Google Analytics module","2017-8/30","2021-3/30","2017-8/30",False,"null",20,62289,27900
+"SKU Modal tabs not lazy loading","2017-9/1","2017-9/1","2017-9/1",True,"2017-9/1",3,38,13
+"Enabled entityManager.find() catalog validation when grabbing a page entity.","2017-9/5","2017-9/5","2017-9/5",True,"2017-9/5",2,33,2
+"Make integration test retry loop exit as soon as possible","2017-9/5","2017-9/5","2017-9/5",True,"2017-9/5",2,4,2
+"When creating a new entities in the admin with a generated URL, the URL keeps a period appended at the end","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",2,5,2
+"Adjust max height of order listgrids in the admin","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",2,47,6
+"Fixed issue where index fields and other entities were not copied for synced copy catalogs","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",2,3,3
+"When Custom Validator fails validation on Sku add, an NPE occurs when hasDefaultSku is called","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",2,1,1
+"Remove the cloning of OfferCode when cloning an Order. ","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",2,3,5
+"Make dynamic pricing more efficient during cart processing","2017-9/7","2017-9/7","2017-9/7",True,"2017-9/7",2,285,53
+"Use built in parameters of the establishThinRequestContext to ignore sandbox changes when getting theme","2017-9/7","2017-9/7","2017-9/7",True,"2017-9/7",2,3,1
+"Make dynamic pricing more efficient during cart processing","2017-9/8","2018-10/8","2017-9/8",True,"2018-10/8",4,0,0
+"Added sku to the configurable order item request","2017-9/10","2018-1/10","2017-9/10",True,"2018-1/10",3,9,0
+"Added extension point to allow easier modifications of solr field names","2017-9/11","2017-9/11","2017-9/11",True,"2017-9/11",3,24,3
+"Not able to Sort Products by Parent Category","2017-9/12","2018-10/12","2017-9/12",True,"2018-10/12",3,20,0
+"Content Items in the admin are only pulling in content data for up to the max results (50)","2017-9/14","2017-9/14","2017-9/14",True,"2017-9/14",3,40,5
+"Enhance ClassTransformer flexibility","2017-9/14","2017-10/14","2017-9/14",True,"2017-10/14",3,58,2
+"Enhance ClassTransformer flexibility to allow with Persistence Unit it will influence and conditional class transformation","2017-9/14","2017-10/14","2017-9/14",True,"2017-10/14",1,58,2
+"Enhance ClassTransformer flexibility","2017-9/14","2017-10/14","2017-9/14",True,"2017-10/14",2,58,2
+"Finding Sku Options in Community was failing due to the query looking at archiveStatus","2017-9/15","2017-9/15","2017-9/15",True,"2017-9/15",1,0,4
+"Community - Save Button does not re-enable when correcting validation errors on Product add","2017-9/15","2017-9/15","2017-9/15",True,"2017-9/15",3,33,28
+"Community: Images not appearing in the Media Asset edit view","2017-9/15","2017-9/15","2017-9/15",True,"2017-9/15",2,3,2
+"Enhance ClassTransformer flexibility","2017-9/15","2017-11/15","2017-9/15",True,"2017-11/15",2,8,8
+"Property VisibilityEnum#VISIBLE_ALL does not work properly","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",2,4,0
+"Community: New Simple Template not working","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",2,1,0
+"Community - 404 Page not shown when trying to find PageImpl that was deleted","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",3,19,15
+"Added ability to force customers to change their passwords","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",2,137,11
+"Upgrade insecure third party libraries","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",5,89,2
+"Introduce Future Credit feature to Offer engine that allows adjustments to be ignored at order time and should be credited later.","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",2,1415,351
+"ReferenceSite - If cart has errors validated during checkout, user gets redirected to login page instead of displaying error message","2017-9/20","2018-6/20","2017-9/20",True,"2018-6/20",5,15,2
+"Enhanced FieldDefinition fields with `@AdminPresentation` so that they could be overridden, and added more field types to DynamicSupportedFieldTypes enumeration so that more basic fields are available in the admin.","2017-9/21","2018-11/21","2017-9/21",True,"2018-11/21",5,71,46
+"Enhance pageField map to allow programatic maintenance","2017-9/26","2018-4/26","2017-9/26",True,"2018-4/26",3,89,4
+"Bug with AdminUserProvisioningService","2017-9/29","2018-1/29","2017-9/29",True,"2018-1/29",2,3,3
+"Sanitize log output to prevent log forgery","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",2,2,1
+"SystemPropertiesServiceImpl uses the Spring Environment inefficiently","2017-10/2","2017-10/2","2017-10/2",True,"2017-10/2",1,4,1
+"Field discovery in BLCFieldUtils is not efficient","2017-10/2","2017-10/2","2017-10/2",True,"2017-10/2",1,34,7
+"Certain rule operator combinations can break rule builder evaluation","2017-10/3","2017-10/3","2017-10/3",True,"2017-10/3",2,28,10
+"Misc Enhancements","2017-10/5","2017-10/5","2017-10/5",True,"2017-10/5",2,69,10
+"Use the raw product option value to get skus when adding to cart instead of the translated value.","2017-10/5","2017-10/5","2017-10/5",True,"2017-10/5",2,35,5
+"Product Add-Ons Don't Allow Separate Skus","2017-10/6","2017-11/6","2017-10/6",True,"2017-11/6",2,28,0
+"Update Spring and Spring Boot to the latest 4.3.12 and 1.5.8","2017-10/9","2017-10/9","2017-10/9",True,"2017-10/9",1,3,4
+"Offers Not Applied to Products with Comma in Name","2017-10/11","2017-11/11","2017-10/11",True,"2017-11/11",2,12,8
+"Not able to edit Primary image meta data in admin","2017-10/13","2017-10/13","2017-10/13",True,"2017-10/13",2,121,34
+"Fixed ""Error While Parsing Rule"" for ""is between"" date rules via rule builder.","2017-10/13","2018-1/13","2017-10/13",True,"2018-1/13",3,132,4
+"Added ""Within x days"" operator for date rules that checks if the field date is within the specified number of days from the date at time of evaluation.","2017-10/16","2017-10/16","2017-10/16",True,"2017-10/16",3,336,24
+"Added in better support for Email and SMS notifications","2017-10/16","2017-10/16","2017-10/16",True,"2017-10/16",3,2174,184
+"Added functionality to allow offers to be configured to only limit customer usage within a certain number of days before reuse.","2017-10/16","2017-10/16","2017-10/16",True,"2017-10/16",3,327,13
+"Add setters in ExampleBean of MergeBeanDefinitionTest","2017-10/19","2019-2/19","2017-10/19",False,"null",5,12,0
+"SKU Modal tabs not lazy loading","2017-10/20","2017-10/20","2017-10/20",True,"2017-10/20",3,2,2
+"Page field translations via admin ui persist with wrong entity type","2017-10/23","2017-11/23","2017-10/23",True,"2017-11/23",2,5,1
+"When calculating target quantity for tiered offers, we need to also factor in the number of qualifying item iterations.","2017-10/24","2017-10/24","2017-10/24",True,"2017-10/24",2,105,9
+"Content Targeter page variable error","2017-10/27","2018-1/27","2017-10/27",True,"2018-1/27",2,10,1
+"Fixed a warning being issued by an unrequired constructor for NotificationDispatcher","2017-10/27","2017-10/27","2017-10/27",True,"2017-10/27",1,0,2
+"Fixed issue where a system property was incorrectly cached as null when resolved in multiple ways","2017-10/31","2017-10/31","2017-10/31",True,"2017-10/31",2,20,5
+"Remove subclasses of domain objects that appear as properties in other beans","2017-11/3","2017-11/3","2017-11/3",True,"2017-11/3",1,17,2
+"Redactor widget not styling text","2017-11/5","2018-1/5","2017-11/5",True,"2018-1/5",3,15,3
+"Fixed issue where debugQuery=true was passed to Solr on every single query","2017-11/6","2018-1/6","2017-11/6",True,"2018-1/6",1,9,1
+"ListGrid bugfix involving listgrid template and ListGrid.hideIdColumn","2017-11/7","2017-11/7","2017-11/7",True,"2017-11/7",2,3,3
+"IgnoreSite state can be left on the BroadleafRequestContext for static asset related calls","2017-11/10","2018-3/10","2017-11/10",True,"2018-3/10",2,21,11
+"Google CDN does not recognize .js and .css files","2017-11/13","2017-11/13","2017-11/13",True,"2017-11/13",1,19,0
+"Image corruption can occur when multiple treatments for the same image are requested concurrently","2017-11/14","2017-11/14","2017-11/14",False,"null",2,136,29
+"Image corruption can occur when multiple treatments for the same image are requested concurrently","2017-11/15","2017-11/15","2017-11/15",True,"2017-11/15",4,141,32
+"Error when adding an image on a product with changes","2017-11/17","2017-11/17","2017-11/17",True,"2017-11/17",2,3,8
+"Consolidate orders across non-registered customers upon registration","2017-11/21","2017-12/21","2017-11/21",True,"2017-12/21",3,350,3
+"Set url null for add-on product","2017-11/22","2017-11/22","2017-11/22",True,"2017-11/22",2,68,0
+"Change configuration is still an active link on Order Confirmation page","2017-11/28","2017-11/28","2017-11/28",True,"2017-11/28",2,14,8
+"Update Spring, Spring Boot and Jackson dependencies to the latest patch releases (4.3.14, 1.5.10, 2.8.11)","2017-11/29","2017-11/29","2017-11/29",True,"2017-11/29",1,3,3

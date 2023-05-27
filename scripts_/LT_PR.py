@@ -21,16 +21,17 @@ def Prep(file):
 
     for i in range(0, len(csv_input.index)):
         create_list.append(csv_input.iat[i,2]) 
-        if isinstance(csv_input.iat[i,6], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
+        if isinstance(csv_input.iat[i,5], float): # mergeされていないときは現在時刻(YYYY-MM/DD)を格納
             mergetime_list.append(dt_YearMonth)
         else:
-            print(csv_input.iat[i,6])
-            mergetime_list.append(csv_input.iat[i,6])
+            print(csv_input.iat[i,5])
+            mergetime_list.append(csv_input.iat[i,5])
     
     # create, closedate取得
     keys = []
     diff = Diff(dt_YearMonth, create_list[0])
     year = create_list[0][:4]
+    print(year)
     for i in range(diff+1):
         if i == 0:
             keys.append(re.findall('(.*)/', create_list[0])[0])

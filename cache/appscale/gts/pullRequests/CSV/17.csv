@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Downgrade warning message","2017-7/10","2017-7/10","2017-7/10",True,"2017-7/10",3,1,1
+"Don't print stats each duty cycle","2017-7/11","2017-7/11","2017-7/11",True,"2017-7/11",4,2,13
+"Stop empty ACKs during haproxy reload","2017-7/11","2018-2/11","2017-7/11",False,"null",3,16,0
+"Interpret ProtocolBufferReturnError as a datastore_errors.InternalError","2017-7/11","2017-7/11","2017-7/11",True,"2017-7/11",4,5,1
+"Use different haproxy for AppServers and AppScale","2017-7/12","2017-8/12","2017-7/12",True,"2017-8/12",3,93,66
+"Handle graceful instance termination with the AppManager","2017-7/13","2017-7/13","2017-7/13",True,"2017-7/13",3,1017,103
+"Avoid ssh warning when reusing IP addresses","2017-7/13","2017-8/13","2017-7/13",True,"2017-8/13",4,3,0
+"Count the established HAProxy connections","2017-7/14","2017-7/14","2017-7/14",True,"2017-7/14",3,46,5
+"Python SDK Modules","2017-7/14","2017-7/14","2017-7/14",True,"2017-7/14",3,2377,4009
+"Always round up when scaling","2017-7/14","2017-7/14","2017-7/14",True,"2017-7/14",4,1,1
+"Stop the TaskQueue server gracefully","2017-7/14","2017-7/14","2017-7/14",True,"2017-7/14",3,27,10
+"Taskqueue and Database slave nodes are no longer sent by tools","2017-7/17","2017-7/17","2017-7/17",True,"2017-7/17",4,14,0
+"Ensure rates are taken only from push queues","2017-7/17","2017-7/17","2017-7/17",True,"2017-7/17",3,3,2
+"Watch for deployment configuration section updates","2017-7/19","2017-8/19","2017-7/19",True,"2017-8/19",4,134,30
+"Change default version ID","2017-7/20","2017-8/20","2017-7/20",True,"2017-8/20",3,463,5
+"Remove unused Java AppServer modifications","2017-7/20","2017-11/20","2017-7/20",True,"2017-11/20",3,1,3675
+"Handle version deletions more gracefully","2017-7/20","2017-7/20","2017-7/20",True,"2017-7/20",3,61,20
+"Check rsync","2017-7/21","2017-8/21","2017-7/21",True,"2017-8/21",3,15,29
+"Retry when monit reload fails","2017-7/23","2017-8/23","2017-7/23",True,"2017-8/23",3,20,10
+"Add new features into AdminServer to handle requests to get information about project modules.","2017-7/25","2017-10/25","2017-7/25",False,"null",4,171,0
+"Consider a missing process as already stopped","2017-7/31","2017-8/31","2017-7/31",True,"2017-8/31",4,15,1
+"Use tornado to serve AppManager requests","2017-8/2","2017-8/2","2017-8/2",True,"2017-8/2",3,142,233
+"Define max_memory for the deployment","2017-8/2","2017-8/2","2017-8/2",True,"2017-8/2",4,14,0
+"Ensure lock path is a unicode string","2017-8/2","2017-8/2","2017-8/2",True,"2017-8/2",3,8,8
+"Don't allow DS clients to keep connections alive","2017-8/3","2017-8/3","2017-8/3",True,"2017-8/3",4,10,0
+"Reload haproxy before nginx when adding appservers","2017-8/3","2017-8/3","2017-8/3",True,"2017-8/3",3,8,3
+"Change hosting structure to manage revisions","2017-8/3","2017-8/3","2017-8/3",True,"2017-8/3",3,97,167
+"TaskQueue Targets","2017-8/5","2017-8/5","2017-8/5",True,"2017-8/5",3,1012,52
+"Leave appserver till timeout","2017-8/5","2017-8/5","2017-8/5",False,"null",4,21,9
+"Keep track of pending instances","2017-8/7","2017-8/7","2017-8/7",True,"2017-8/7",3,43,29
+"Add ProjectsManager to keep track of version info","2017-8/8","2017-8/8","2017-8/8",True,"2017-8/8",3,369,132
+"No need to specify deafult location of known_hosts","2017-8/9","2017-8/9","2017-8/9",True,"2017-8/9",3,1,1
+"Tunable haproxy timeout","2017-8/9","2017-8/9","2017-8/9",True,"2017-8/9",4,20,7
+"Ensure HAProxy is running for API services","2017-8/11","2017-8/11","2017-8/11",True,"2017-8/11",3,37,7
+"Don't require an email address when deploying apps","2017-8/11","2017-8/11","2017-8/11",True,"2017-8/11",3,35,109
+"Open role","2017-8/11","2017-9/11","2017-8/11",True,"2017-9/11",4,41,16
+"Fix HAProxy stop commands","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",3,3,3
+"Manage revision sources with the AppManager","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",4,590,618
+"Remove routing for AppServer before stopping it","2017-8/15","2017-8/15","2017-8/15",False,"null",3,73,0
+"Check also pending_appserver before assigning port","2017-8/16","2017-8/16","2017-8/16",True,"2017-8/16",3,48,34
+"Rely on ZooKeeper for application metadata","2017-8/17","2017-9/17","2017-8/17",True,"2017-9/17",5,169,1565
+"Fix reference to runtime_parameters","2017-8/17","2017-8/17","2017-8/17",True,"2017-8/17",3,1,1
+"add type for collection for build","2017-8/18","2017-8/18","2017-8/18",True,"2017-8/18",3,1,1
+"Define variable needed for block","2017-8/22","2017-8/22","2017-8/22",True,"2017-8/22",3,5,5
+"Only take port from pending_appservers when checking availability","2017-8/23","2017-8/23","2017-8/23",True,"2017-8/23",3,1,2
+"Allow clients to deploy multiple services","2017-8/24","2017-9/24","2017-8/24",True,"2017-9/24",4,1173,980
+"Give cloud-level administrators access to all apps","2017-8/27","2017-9/27","2017-8/27",True,"2017-9/27",3,13,2
+"Wait for HAProxy to start before reloading it","2017-8/31","2017-9/31","2017-8/31",True,"2017-9/31",4,20,12
+"Try to resume package downloads after failures","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",3,21,2
+"Use fake RPC when import lock is held","2017-9/6","2017-9/6","2017-9/6",True,"2017-9/6",3,15,2
+"Remove obsolete logs","2017-9/7","2017-9/7","2017-9/7",True,"2017-9/7",3,1,188
+"Use custom logger for AdminServer","2017-9/8","2017-9/8","2017-9/8",True,"2017-9/8",4,41,20
+"Use APP_ID as defined in properties","2017-9/8","2017-9/8","2017-9/8",True,"2017-9/8",4,8,11
+"Write the secret for the dashboard at runtime","2017-9/8","2017-9/8","2017-9/8",True,"2017-9/8",3,26,5
+"Updated guestbook with wait handler","2017-9/12","2017-9/12","2017-9/12",True,"2017-9/12",5,10,3
+"Provide pidfile hint for systemd's unit converter","2017-9/13","2017-9/13","2017-9/13",True,"2017-9/13",4,3,0
+"Gce service account","2017-9/14","2017-9/14","2017-9/14",True,"2017-9/14",4,15,14
+"Implement the datastore_v4.AllocateIds API","2017-9/15","2017-9/15","2017-9/15",True,"2017-9/15",4,11237,225
+"Kazoo 2 4 0","2017-9/15","2017-9/15","2017-9/15",True,"2017-9/15",3,2,5
+"Undeploy projects and delete services","2017-9/18","2017-9/18","2017-9/18",True,"2017-9/18",5,358,46
+"Handle non-ascii codes in search API properly","2017-9/19","2017-9/19","2017-9/19",True,"2017-9/19",4,130,69
+"Stop celery monit","2017-9/20","2017-9/20","2017-9/20",True,"2017-9/20",5,15,0
+"Monitor also the cron daemon","2017-9/20","2017-9/20","2017-9/20",True,"2017-9/20",3,7,0
+"Stop group after terminating process","2017-9/21","2017-9/21","2017-9/21",True,"2017-9/21",3,71,42
+"Ensure the correct epmd service is started","2017-9/21","2017-9/21","2017-9/21",True,"2017-9/21",4,10,0
+"Transaction groomer","2017-9/22","2017-12/22","2017-9/22",True,"2017-12/22",4,1202,790
+"Close KazooClient when stopping servers","2017-9/22","2017-9/22","2017-9/22",True,"2017-9/22",5,11,1
+"Mock out blocking calls in unit tests","2017-9/22","2017-10/22","2017-9/22",True,"2017-10/22",3,4,0
+"Don't remove dict items while iterate over it","2017-9/26","2017-10/26","2017-9/26",True,"2017-10/26",4,2,2
+"#OCD-STABILITY Wait 60s (instead of 30s) for RabbitMQ to come up","2017-9/27","2017-10/27","2017-9/27",True,"2017-10/27",3,7,5
+"Return appropriate error when a queue is not found","2017-9/27","2017-10/27","2017-9/27",True,"2017-10/27",3,63,30
+"Use new format for AppScalefile","2017-9/28","2017-9/28","2017-9/28",True,"2017-9/28",4,7,1
+"Enable root login on GCE","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",3,2,0
+"Change option names","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",4,45,44
+"Remove flag that is incompatible with trusty","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",3,1,1
+"Relax Monit health check","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",3,1,1
+"Stop Monit entries one at a time","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",3,19,5
+"Wait for lock when installing packages","2017-9/29","2017-10/29","2017-9/29",True,"2017-10/29",3,28,0
+"Stop old epmd daemon if it's running","2017-10/1","2017-10/1","2017-10/1",True,"2017-10/1",4,12,1
+"Be persistent when handling zk watch update","2017-10/3","2017-10/3","2017-10/3",True,"2017-10/3",3,310,15
+"Change appengine role to compute","2017-10/4","2017-10/4","2017-10/4",True,"2017-10/4",3,110,110
+"Enable viewer even if there is no nginx app config","2017-10/4","2017-10/4","2017-10/4",True,"2017-10/4",4,8,12
+"Quote environment variables","2017-10/5","2017-12/5","2017-10/5",True,"2017-12/5",3,1,1
+" Merge environment variables in app configuration","2017-10/6","2017-12/6","2017-10/6",True,"2017-12/6",3,82,49
+"Add sandbox function for expanduser","2017-10/6","2017-10/6","2017-10/6",True,"2017-10/6",4,6,0
+"Handle missing WEB-INF directory","2017-10/6","2017-10/6","2017-10/6",True,"2017-10/6",4,47,19
+"Bump version to 3.4.0","2017-10/9","2017-10/9","2017-10/9",True,"2017-10/9",4,36,1
+"Include version headers when making TQ requests","2017-10/13","2017-10/13","2017-10/13",True,"2017-10/13",4,71,30
+"Define property name based on rsyslog version","2017-10/13","2017-10/13","2017-10/13",True,"2017-10/13",3,8,2
+"Access Tokens for Admin API","2017-10/14","2017-10/14","2017-10/14",True,"2017-10/14",3,342,22
+"Change jobs to roles","2017-10/17","2019-3/17","2017-10/17",True,"2019-3/17",6,109,109
+"Try to check at least one mount point","2017-10/17","2017-10/17","2017-10/17",True,"2017-10/17",4,15,10
+"Fix pidfile for RabbitMQ in Docker","2017-10/18","2017-10/18","2017-10/18",True,"2017-10/18",4,8,1
+"Added --no-metada-server option","2017-10/18","2017-10/18","2017-10/18",True,"2017-10/18",4,50,32
+"Add a scatter property to some entities","2017-10/19","2018-3/19","2017-10/19",True,"2018-3/19",3,206,8
+"Use custom template for combined app log messages","2017-10/19","2017-10/19","2017-10/19",True,"2017-10/19",3,16,1
+"Do not raise HttpError outside context of HTTP request","2017-10/20","2017-10/20","2017-10/20",True,"2017-10/20",4,3,2
+"Pass deadline to wait function instead of seconds to sleep","2017-10/20","2017-10/20","2017-10/20",True,"2017-10/20",4,12,7
+"Dont nuke known host","2017-10/25","2017-11/25","2017-10/25",True,"2017-11/25",4,14,6
+"Sync&Async Retrying python decorators in appscale-common","2017-10/26","2017-12/26","2017-10/26",True,"2017-12/26",3,989,403

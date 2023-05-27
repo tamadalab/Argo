@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 1031,
+                "nodes": [
+                    {
+                        "title": "handling of changeset filenames with special characters (e.g. german umlauts) fails in (at least) command line since v4",
+                        "url": "https://github.com/liquibase/liquibase/issues/2620",
+                        "createdAt": "2022-03-09T11:16:06Z",
+                        "closedAt": "2022-07-25T16:03:34Z"
+                    },
+                    {
+                        "title": "Stackoverflow occurred (difficult to diagnose) when accidentally leaving .sql suffix off file.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2621",
+                        "createdAt": "2022-03-09T12:16:05Z",
+                        "closedAt": "2022-07-25T15:51:48Z"
+                    },
+                    {
+                        "title": "Add option to executeCommand not to show command in case of an exception",
+                        "url": "https://github.com/liquibase/liquibase/issues/2622",
+                        "createdAt": "2022-03-09T16:47:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Different checksums are being calculated in different environments when changeSet has `valueDate` attribute",
+                        "url": "https://github.com/liquibase/liquibase/issues/2624",
+                        "createdAt": "2022-03-09T19:03:57Z",
+                        "closedAt": "2022-07-13T13:54:08Z"
+                    },
+                    {
+                        "title": "ReNameView does not produce correct rollback if using a non-default schema.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2626",
+                        "createdAt": "2022-03-10T01:43:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unexpected datatype NULL with mariadb-java-client 3.0.3",
+                        "url": "https://github.com/liquibase/liquibase/issues/2627",
+                        "createdAt": "2022-03-10T09:09:05Z",
+                        "closedAt": "2022-03-30T13:04:44Z"
+                    },
+                    {
+                        "title": "Error reading changelog file: Found 2 files that match",
+                        "url": "https://github.com/liquibase/liquibase/issues/2628",
+                        "createdAt": "2022-03-10T13:57:54Z",
+                        "closedAt": "2022-07-25T16:04:40Z"
+                    },
+                    {
+                        "title": "Provide Liquibase jar without packaged dependencies and pro packages",
+                        "url": "https://github.com/liquibase/liquibase/issues/2629",
+                        "createdAt": "2022-03-10T14:14:26Z",
+                        "closedAt": "2022-07-20T21:20:34Z"
+                    },
+                    {
+                        "title": "Liquibase fails to start with a Nullpointer exception when Environment contains an empty string Key",
+                        "url": "https://github.com/liquibase/liquibase/issues/2631",
+                        "createdAt": "2022-03-10T23:11:55Z",
+                        "closedAt": "2022-04-19T16:04:46Z"
+                    },
+                    {
+                        "title": "Default logger does not handle null package names",
+                        "url": "https://github.com/liquibase/liquibase/issues/2633",
+                        "createdAt": "2022-03-11T15:24:11Z",
+                        "closedAt": "2022-04-18T15:45:17Z"
+                    },
+                    {
+                        "title": "MySQL/MariaDB column remark in `createTable` drops column `NOT NULL` and default value",
+                        "url": "https://github.com/liquibase/liquibase/issues/2634",
+                        "createdAt": "2022-03-11T17:45:36Z",
+                        "closedAt": "2022-04-13T22:04:06Z"
+                    },
+                    {
+                        "title": "Incorrect query when adding serial / int column with autoIncrement=true while convertDataTypes=false",
+                        "url": "https://github.com/liquibase/liquibase/issues/2635",
+                        "createdAt": "2022-03-11T19:57:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Clarify 'validate' or introduce 'dryrun' option?",
+                        "url": "https://github.com/liquibase/liquibase/issues/2639",
+                        "createdAt": "2022-03-14T15:49:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Changesets containing plain sql-scripts are executed in postgres public schema but not in the configured liquibase default schema since 4.5.0",
+                        "url": "https://github.com/liquibase/liquibase/issues/2640",
+                        "createdAt": "2022-03-14T16:10:14Z",
+                        "closedAt": "2022-05-13T19:42:54Z"
+                    },
+                    {
+                        "title": "SQLite regression bug after Liquibase 4.8.0 release. Generated sql syntax errors for addAutoIncrement, addDefaultValue, dropColumn, mergeColumns",
+                        "url": "https://github.com/liquibase/liquibase/issues/2644",
+                        "createdAt": "2022-03-16T11:31:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Multi Line incompatibility between versions 3 and 4",
+                        "url": "https://github.com/liquibase/liquibase/issues/2647",
+                        "createdAt": "2022-03-16T18:06:43Z",
+                        "closedAt": "2022-03-21T02:00:56Z"
+                    },
+                    {
+                        "title": "Liquibase.jar does not have MANIFEST.MF as the 2nd entry in the archive",
+                        "url": "https://github.com/liquibase/liquibase/issues/2648",
+                        "createdAt": "2022-03-16T20:13:34Z",
+                        "closedAt": "2022-03-23T18:01:16Z"
+                    },
+                    {
+                        "title": "Column constraints block should accept clustered attribute",
+                        "url": "https://github.com/liquibase/liquibase/issues/2649",
+                        "createdAt": "2022-03-16T20:37:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "The **nullable** and **defaultValue** and **value** attributes do not work together as one",
+                        "url": "https://github.com/liquibase/liquibase/issues/2652",
+                        "createdAt": "2022-03-18T01:57:49Z",
+                        "closedAt": "2022-07-16T06:24:43Z"
+                    },
+                    {
+                        "title": "Failed to read schema document 'dbchangelog-3.8.xsd', because 'file' access is not allowed due to restriction set by the accessExternalSchema property",
+                        "url": "https://github.com/liquibase/liquibase/issues/2654",
+                        "createdAt": "2022-03-18T11:41:26Z",
+                        "closedAt": "2022-03-18T17:06:24Z"
+                    },
+                    {
+                        "title": "defaultValue is not set on non-nullable columns when value is also specified",
+                        "url": "https://github.com/liquibase/liquibase/issues/2657",
+                        "createdAt": "2022-03-20T12:51:27Z",
+                        "closedAt": "2022-08-08T21:55:07Z"
+                    },
+                    {
+                        "title": "abosulte path of change log file given from tomcat context is not working and giving an issue that absolute path not supported from liquibase 4.0",
+                        "url": "https://github.com/liquibase/liquibase/issues/2658",
+                        "createdAt": "2022-03-21T06:26:17Z",
+                        "closedAt": "2022-06-27T22:16:47Z"
+                    },
+                    {
+                        "title": "Precondition tableExists crashes on H2 with objectQuotingStrategy=LEGACY, if a camelCaseView already exists.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2659",
+                        "createdAt": "2022-03-21T14:01:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Cassandra Liquibase DB Migration",
+                        "url": "https://github.com/liquibase/liquibase/issues/2661",
+                        "createdAt": "2022-03-21T21:29:14Z",
+                        "closedAt": "2022-03-22T21:06:35Z"
+                    },
+                    {
+                        "title": " Unexpected error running Liquibase: jakarta/persistence/EntityManager",
+                        "url": "https://github.com/liquibase/liquibase/issues/2662",
+                        "createdAt": "2022-03-22T01:01:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "NullPointerException on startup /w whitespace system environment variable",
+                        "url": "https://github.com/liquibase/liquibase/issues/2664",
+                        "createdAt": "2022-03-22T06:24:53Z",
+                        "closedAt": "2022-04-19T16:04:46Z"
+                    },
+                    {
+                        "title": "Default schema is not recognized on latest version",
+                        "url": "https://github.com/liquibase/liquibase/issues/2665",
+                        "createdAt": "2022-03-22T17:11:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SpringResourceAccessor.getCompletePath resolves sql resources incorrectly when changelog is in root",
+                        "url": "https://github.com/liquibase/liquibase/issues/2668",
+                        "createdAt": "2022-03-23T17:37:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "A long issue title goes here. It goes on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on to 250+",
+                        "url": "https://github.com/liquibase/liquibase/issues/2670",
+                        "createdAt": "2022-03-23T20:18:51Z",
+                        "closedAt": "2022-03-23T20:19:13Z"
+                    },
+                    {
+                        "title": "When I was using sqlfile, there was \"\\\\\" in the execution statement, which was incorrectly recognized as an escape character.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2671",
+                        "createdAt": "2022-03-24T04:10:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "4.9.0 MANIFEST.MF has invalid Import-Package instructions",
+                        "url": "https://github.com/liquibase/liquibase/issues/2672",
+                        "createdAt": "2022-03-24T10:22:23Z",
+                        "closedAt": "2022-03-25T18:25:58Z"
+                    },
+                    {
+                        "title": "Migration from 3.3.2 on 3.6.3. Changed sqlFile from old changeSet was re-run without errors.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2673",
+                        "createdAt": "2022-03-24T12:13:55Z",
+                        "closedAt": "2022-05-24T14:32:22Z"
+                    },
+                    {
+                        "title": "In StandardChangeLogHistoryService  SnapshotGeneratorFactory.getInstance().getDatabaseChangeLogTable should return null id table not exist",
+                        "url": "https://github.com/liquibase/liquibase/issues/2674",
+                        "createdAt": "2022-03-24T12:27:32Z",
+                        "closedAt": "2022-06-21T01:02:32Z"
+                    },
+                    {
+                        "title": "Loading CSV file with loadData into Derby DB results in error \"The data type '0' is not supported\"",
+                        "url": "https://github.com/liquibase/liquibase/issues/2676",
+                        "createdAt": "2022-03-24T14:01:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Incompatibility with Spring 4",
+                        "url": "https://github.com/liquibase/liquibase/issues/2677",
+                        "createdAt": "2022-03-24T15:42:06Z",
+                        "closedAt": "2022-04-15T13:30:26Z"
+                    },
+                    {
+                        "title": "customChange with any attribute fails due to SAXParseException",
+                        "url": "https://github.com/liquibase/liquibase/issues/2678",
+                        "createdAt": "2022-03-24T15:43:15Z",
+                        "closedAt": "2022-06-20T14:33:25Z"
+                    },
+                    {
+                        "title": "Create test for OSGI issues",
+                        "url": "https://github.com/liquibase/liquibase/issues/2680",
+                        "createdAt": "2022-03-24T18:32:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Community Request: nobanner cli flag for CLI",
+                        "url": "https://github.com/liquibase/liquibase/issues/2681",
+                        "createdAt": "2022-03-24T19:49:36Z",
+                        "closedAt": "2022-05-31T15:18:00Z"
+                    },
+                    {
+                        "title": "Full path support for spring.liquibase.change-log",
+                        "url": "https://github.com/liquibase/liquibase/issues/2687",
+                        "createdAt": "2022-03-26T09:39:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Liquibase 4.9.0 and \"endDelimiter:/\" recognizes \"/\" used in PL/SQL code for calculation as changeset end delimiter",
+                        "url": "https://github.com/liquibase/liquibase/issues/2688",
+                        "createdAt": "2022-03-27T16:00:03Z",
+                        "closedAt": "2022-08-01T14:56:24Z"
+                    },
+                    {
+                        "title": "Liquibase stripping trailing 0 characters from changset identitiers",
+                        "url": "https://github.com/liquibase/liquibase/issues/2689",
+                        "createdAt": "2022-03-28T14:53:44Z",
+                        "closedAt": "2022-04-04T15:46:41Z"
+                    },
+                    {
+                        "title": "SQL changeSet doesn't  honor \"--precondition-change-log-property-defined\"",
+                        "url": "https://github.com/liquibase/liquibase/issues/2692",
+                        "createdAt": "2022-03-28T21:44:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "diff option with condense of \"Change Stored Procedure(s)\"",
+                        "url": "https://github.com/liquibase/liquibase/issues/2693",
+                        "createdAt": "2022-03-29T06:55:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Liquibase does not wait for CockroachDB schema changes to complete",
+                        "url": "https://github.com/liquibase/liquibase/issues/2694",
+                        "createdAt": "2022-03-29T10:46:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support runWith executors committing after the change set completes",
+                        "url": "https://github.com/liquibase/liquibase/issues/2696",
+                        "createdAt": "2022-03-30T00:41:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Liquibase for Db2z fails to read the view definitions using the diff command",
+                        "url": "https://github.com/liquibase/liquibase/issues/2700",
+                        "createdAt": "2022-03-30T06:42:49Z",
+                        "closedAt": "2022-05-10T18:48:36Z"
+                    },
+                    {
+                        "title": "Liquibase creates table \"user\" in lower case for H2 database",
+                        "url": "https://github.com/liquibase/liquibase/issues/2701",
+                        "createdAt": "2022-03-30T07:10:28Z",
+                        "closedAt": "2022-08-02T13:11:50Z"
+                    },
+                    {
+                        "title": "ClassCastException: class java.util.BitSet cannot be cast to class java.lang.Boolean (java.util.BitSet and java.lang.Boolean",
+                        "url": "https://github.com/liquibase/liquibase/issues/2702",
+                        "createdAt": "2022-03-30T13:26:30Z",
+                        "closedAt": "2022-08-23T11:49:14Z"
+                    },
+                    {
+                        "title": "autoIncrement=\"true\"  lose efficacy (DUPLICATE #2301)",
+                        "url": "https://github.com/liquibase/liquibase/issues/2703",
+                        "createdAt": "2022-03-30T14:31:50Z",
+                        "closedAt": "2022-04-13T22:03:12Z"
+                    },
+                    {
+                        "title": "Samples of changelog.xml in documenation have wrong path to xsd files",
+                        "url": "https://github.com/liquibase/liquibase/issues/2707",
+                        "createdAt": "2022-04-01T06:41:48Z",
+                        "closedAt": "2022-05-12T20:28:06Z"
+                    },
+                    {
+                        "title": "The diff command does not work with diffTypes=views for DB2Z",
+                        "url": "https://github.com/liquibase/liquibase/issues/2710",
+                        "createdAt": "2022-04-03T12:42:44Z",
+                        "closedAt": "2022-07-28T15:15:03Z"
+                    },
+                    {
+                        "title": "Error when calling a procedure with parameters on DB2Z",
+                        "url": "https://github.com/liquibase/liquibase/issues/2711",
+                        "createdAt": "2022-04-03T13:50:59Z",
+                        "closedAt": "2022-07-28T15:17:23Z"
+                    },
+                    {
+                        "title": "Need to suppress extra space generated in resulting scripts of changelog after we ran the changelog against MS SQL Server",
+                        "url": "https://github.com/liquibase/liquibase/issues/2713",
+                        "createdAt": "2022-04-04T08:08:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "After upgrade from 4.3.5 to 4.9.1, change sets have different checksums.",
+                        "url": "https://github.com/liquibase/liquibase/issues/2714",
+                        "createdAt": "2022-04-04T11:30:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migration from 3.10.3 to 4.* failed",
+                        "url": "https://github.com/liquibase/liquibase/issues/2716",
+                        "createdAt": "2022-04-04T13:58:01Z",
+                        "closedAt": "2022-04-08T08:09:42Z"
+                    },
+                    {
+                        "title": "Liquibase Version 4.9+ not respecting the --schemas flag when generating diffChangeLog",
+                        "url": "https://github.com/liquibase/liquibase/issues/2717",
+                        "createdAt": "2022-04-04T14:45:12Z",
+                        "closedAt": "2022-06-27T21:35:15Z"
+                    },
+                    {
+                        "title": "Consider introducing a parameter-aware variant of `liquibase.sql.Sql`",
+                        "url": "https://github.com/liquibase/liquibase/issues/2721",
+                        "createdAt": "2022-04-04T16:40:41Z",
+                        "closedAt": "2022-09-01T14:09:05Z"
+                    },
+                    {
+                        "title": "The type of attributes \"ordered\" and \"cycle\" should be boolean",
+                        "url": "https://github.com/liquibase/liquibase/issues/2724",
+                        "createdAt": "2022-04-05T07:47:06Z",
+                        "closedAt": "2022-05-17T05:46:46Z"
+                    },
+                    {
+                        "title": " liquibase-db2i startup error by creating database-change-log-table",
+                        "url": "https://github.com/liquibase/liquibase/issues/2727",
+                        "createdAt": "2022-04-06T10:00:21Z",
+                        "closedAt": "2022-08-22T13:45:50Z"
+                    },
+                    {
+                        "title": "CustomTaskChange fails for void return",
+                        "url": "https://github.com/liquibase/liquibase/issues/2729",
+                        "createdAt": "2022-04-06T18:51:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "createView with replaceIfExists no-longer (always) works against PostgreSQL (version 12.x)",
+                        "url": "https://github.com/liquibase/liquibase/issues/2732",
+                        "createdAt": "2022-04-07T10:31:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "EDB PostgresSQL driver errors",
+                        "url": "https://github.com/liquibase/liquibase/issues/2734",
+                        "createdAt": "2022-04-07T14:09:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Liquibase-core 4.9.1 includes a shaded jackson-databind 2.9.10.8",
+                        "url": "https://github.com/liquibase/liquibase/issues/2735",
+                        "createdAt": "2022-04-07T19:36:15Z",
+                        "closedAt": "2022-07-05T13:57:47Z"
+                    },
+                    {
+                        "title": "Change max value of @Size generates an empty changelog",
+                        "url": "https://github.com/liquibase/liquibase/issues/2736",
+                        "createdAt": "2022-04-08T08:34:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "CVE-2022-0839 downport fix to 3.x versions of liquibase",
+                        "url": "https://github.com/liquibase/liquibase/issues/2737",
+                        "createdAt": "2022-04-08T08:44:33Z",
+                        "closedAt": "2022-05-10T19:00:05Z"
+                    },
+                    {
+                        "title": "liquibase core tar.gz missing from maven central?",
+                        "url": "https://github.com/liquibase/liquibase/issues/2743",
+                        "createdAt": "2022-04-12T21:49:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "no main manifest attribute, in liquibase-4.9.1.jar",
+                        "url": "https://github.com/liquibase/liquibase/issues/2744",
+                        "createdAt": "2022-04-12T23:41:49Z",
+                        "closedAt": "2022-04-13T19:05:13Z"
+                    },
+                    {
+                        "title": "Make XML schema definition `PreConditionChildren` extensible for extensions",
+                        "url": "https://github.com/liquibase/liquibase/issues/2750",
+                        "createdAt": "2022-04-13T19:29:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Distribute CLI JAR with all dependencies",
+                        "url": "https://github.com/liquibase/liquibase/issues/2751",
+                        "createdAt": "2022-04-13T19:31:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Performance regression in liquibase versions greater than 4.3.5",
+                        "url": "https://github.com/liquibase/liquibase/issues/2756",
+                        "createdAt": "2022-04-14T03:06:58Z",
+                        "closedAt": "2022-05-18T19:26:53Z"
+                    },
+                    {
+                        "title": "Add support for command argument \"aliases\"",
+                        "url": "https://github.com/liquibase/liquibase/issues/2762",
+                        "createdAt": "2022-04-14T21:13:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "logical-file-path not working with Liquibase Community 4.8.0",
+                        "url": "https://github.com/liquibase/liquibase/issues/2775",
+                        "createdAt": "2022-04-20T07:45:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Postgres generateChangeLog includeSchema",
+                        "url": "https://github.com/liquibase/liquibase/issues/2776",
+                        "createdAt": "2022-04-20T18:18:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "AddColumnChange with schema and NOT NULL constraint fails",
+                        "url": "https://github.com/liquibase/liquibase/issues/2780",
+                        "createdAt": "2022-04-21T06:59:24Z",
+                        "closedAt": "2022-05-31T15:19:07Z"
+                    },
+                    {
+                        "title": "Diff changelog generates wrong script when renaming PK",
+                        "url": "https://github.com/liquibase/liquibase/issues/2782",
+                        "createdAt": "2022-04-21T18:28:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Schema name not resolved when using sequence in defaultValueComputed",
+                        "url": "https://github.com/liquibase/liquibase/issues/2786",
+                        "createdAt": "2022-04-22T09:35:13Z",
+                        "closedAt": "2022-08-05T12:29:10Z"
+                    },
+                    {
+                        "title": "Update JDBC drivers to latest releases",
+                        "url": "https://github.com/liquibase/liquibase/issues/2788",
+                        "createdAt": "2022-04-22T17:27:08Z",
+                        "closedAt": "2022-04-27T22:00:28Z"
+                    },
+                    {
+                        "title": "\"includeAll\" Adds changeSet Two Times in updateSQL Mode",
+                        "url": "https://github.com/liquibase/liquibase/issues/2792",
+                        "createdAt": "2022-04-25T10:51:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[PostgreSQL] generateChangeLog command generates prefixed schema name with includeSchema flag set to false for Formatted SQL",
+                        "url": "https://github.com/liquibase/liquibase/issues/2794",
+                        "createdAt": "2022-04-25T19:42:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Change set always failed with `preConditions` contained `- foreignKeyConstraintExists` check",
+                        "url": "https://github.com/liquibase/liquibase/issues/2796",
+                        "createdAt": "2022-04-26T09:13:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "LoadData with Dates Failed while Column Type is From Property",
+                        "url": "https://github.com/liquibase/liquibase/issues/2803",
+                        "createdAt": "2022-04-28T15:39:49Z",
+                        "closedAt": "2022-08-30T17:22:07Z"
+                    },
+                    {
+                        "title": "addColumn for a table with underscore is broken in SQLite",
+                        "url": "https://github.com/liquibase/liquibase/issues/2806",
+                        "createdAt": "2022-04-29T10:18:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Condition or not null columns for unique index ",
+                        "url": "https://github.com/liquibase/liquibase/issues/2808",
+                        "createdAt": "2022-04-29T15:08:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Getting Errror in Liquibase 4.7.1",
+                        "url": "https://github.com/liquibase/liquibase/issues/2811",
+                        "createdAt": "2022-04-29T20:34:15Z",
+                        "closedAt": "2022-06-09T17:35:49Z"
+                    },
+                    {
+                        "title": "Upgrade lock not working correctly due to cache of `ranChangeSetList`",
+                        "url": "https://github.com/liquibase/liquibase/issues/2816",
+                        "createdAt": "2022-05-03T13:14:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Load XSD files under OSGI",
+                        "url": "https://github.com/liquibase/liquibase/issues/2817",
+                        "createdAt": "2022-05-03T17:49:36Z",
+                        "closedAt": "2022-06-21T05:28:00Z"
+                    },
+                    {
+                        "title": "changelog is found twice in classpath",
+                        "url": "https://github.com/liquibase/liquibase/issues/2818",
+                        "createdAt": "2022-05-03T19:35:38Z",
+                        "closedAt": "2022-06-30T15:35:25Z"
+                    },
+                    {
+                        "title": "include labels attribute is not propagating labels",
+                        "url": "https://github.com/liquibase/liquibase/issues/2824",
+                        "createdAt": "2022-05-04T22:07:23Z",
+                        "closedAt": "2022-06-09T14:55:12Z"
+                    },
+                    {
+                        "title": "Invalid SQL for HSQLDB",
+                        "url": "https://github.com/liquibase/liquibase/issues/2826",
+                        "createdAt": "2022-05-05T12:58:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "DAT-9663 Liquibase Snapshot/Diff fails on Postgres with datatype \"real\" with default value \"DEFAULT (0)::real\"",
+                        "url": "https://github.com/liquibase/liquibase/issues/2833",
+                        "createdAt": "2022-05-09T13:56:59Z",
+                        "closedAt": "2022-05-13T19:07:52Z"
+                    },
+                    {
+                        "title": "Remove version from filenames in LIQUIBASE_HOME/lib",
+                        "url": "https://github.com/liquibase/liquibase/issues/2845",
+                        "createdAt": "2022-05-12T19:22:24Z",
+                        "closedAt": "2022-05-19T02:47:09Z"
+                    },
+                    {
+                        "title": "Make the \"status\" command set to verbose by default",
+                        "url": "https://github.com/liquibase/liquibase/issues/2847",
+                        "createdAt": "2022-05-13T13:05:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "dropAll sometimes does not delete all tables",
+                        "url": "https://github.com/liquibase/liquibase/issues/2851",
+                        "createdAt": "2022-05-17T14:18:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Move shaded libraries to be external dependencies",
+                        "url": "https://github.com/liquibase/liquibase/issues/2852",
+                        "createdAt": "2022-05-17T17:05:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "addCheckConstraint fails for CockroachDB with java.lang.IllegalStateException",
+                        "url": "https://github.com/liquibase/liquibase/issues/2857",
+                        "createdAt": "2022-05-19T16:52:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "beforeColumn is not working when column is the first one",
+                        "url": "https://github.com/liquibase/liquibase/issues/2861",
+                        "createdAt": "2022-05-19T23:16:50Z",
+                        "closedAt": "2022-06-16T21:47:16Z"
+                    },
+                    {
+                        "title": "addAutoIncrement isn't working properly for HyperSQL, Mysql, MariaDB and H2",
+                        "url": "https://github.com/liquibase/liquibase/issues/2863",
+                        "createdAt": "2022-05-20T17:48:24Z",
+                        "closedAt": "2022-07-20T14:39:33Z"
+                    },
+                    {
+                        "title": "Postgresql diffChangeLog not quoting jsonb default",
+                        "url": "https://github.com/liquibase/liquibase/issues/2864",
+                        "createdAt": "2022-05-20T19:12:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "autoIncrementInformation in snapshot is not correct",
+                        "url": "https://github.com/liquibase/liquibase/issues/2867",
+                        "createdAt": "2022-05-23T12:48:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Including a Dockerfile in your change log directory causes StackOverflowException",
+                        "url": "https://github.com/liquibase/liquibase/issues/2869",
+                        "createdAt": "2022-05-24T03:06:08Z",
+                        "closedAt": "2022-08-31T12:14:37Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOSkMxZQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

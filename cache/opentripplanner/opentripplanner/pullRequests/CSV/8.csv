@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Slightly relax string match in geocoder test","2019-7/29","2019-7/29","2019-7/29",True,"2019-7/29",3,2,1
+"Fix Failing BANO geocoder test.","2019-7/30","2019-7/30","2019-7/30",True,"2019-7/30",2,15,3
+"Port 1.4 fixes to OTP2","2019-7/30","2019-7/30","2019-7/30",True,"2019-7/30",4,152,14
+"Retry edge traversal if turn restriction encountered while using bike","2019-8/1","null","2019-8/1",False,"null",2,29,1
+"Fix 2804 - Missing platforms for stops in GTFS import causes a NPE","2019-8/2","2019-8/2","2019-8/2",True,"2019-8/2",3,161,39
+"Remove extra djikstra implementations","2019-8/13","2019-8/13","2019-8/13",True,"2019-8/13",2,137,1035
+"Add documentation for PlannerResource#mode","2019-8/16","2019-9/16","2019-8/16",True,"2019-9/16",6,103,4
+"Add Java 11 compatibility","2019-8/24","2021-4/24","2019-8/24",False,"null",3,195,143
+"Add a fix to StreetTransitLink to allow transfers between stops with the same GPS coordinate.","2019-8/29","2019-9/29","2019-8/29",True,"2019-9/29",3,9,2
+"Update tutorial links to documentation, to use version 1.4.0 instead of 1.0.0","2019-8/29","2019-8/29","2019-8/29",True,"2019-8/29",3,6,6
+"Adds UK Way Property Set #2818","2019-8/29","2019-8/29","2019-8/29",True,"2019-8/29",3,76,1
+"Fixes surefire test fail during build #2816","2019-8/29","2019-8/29","2019-8/29",True,"2019-8/29",4,5,0
+"Fixes surefire test file encoding failure during build","2019-9/3","2019-9/3","2019-9/3",True,"2019-9/3",3,2,0
+"Add a fix to StreetTransitLink to allow transfers between stops.","2019-9/4","2019-9/4","2019-9/4",True,"2019-9/4",3,10,2
+"Otp2 netex notices","2019-9/4","2019-10/4","2019-9/4",True,"2019-10/4",3,1832,644
+"Migrate to Java 11 (porting PR #2812, plus a few small changes)","2019-9/11","2019-10/11","2019-9/11",True,"2019-10/11",3,249,180
+"Add documentation for PlannerResource#mode (cherry picked)","2019-9/13","2019-9/13","2019-9/13",True,"2019-9/13",3,103,4
+"Support for Netex Authority on Network and Operator on Route and Trip ","2019-10/8","2019-10/8","2019-10/8",True,"2019-10/8",2,549,108
+"Remove trips added by realtime messages #2810","2019-10/8","null","2019-10/8",False,"null",2,11,2
+"Realtime improvements for dev-2.x","2019-10/8","2019-10/8","2019-10/8",True,"2019-10/8",2,175,63
+"Prepare for StopPlace hierarchy in OTP2","2019-10/9","2019-10/9","2019-10/9",True,"2019-10/9",3,971,2926
+"Fix accept header","2019-10/10","2019-10/10","2019-10/10",True,"2019-10/10",2,9,2
+"Otp2 netex siri updater","2019-10/10","2019-10/10","2019-10/10",True,"2019-10/10",3,5551,644
+"Test OSM Serialization","2019-10/12","2019-10/12","2019-10/12",True,"2019-10/12",2,110,27
+"Remove multi-router system","2019-10/14","2019-10/14","2019-10/14",True,"2019-10/14",2,254,1948
+"Refactor: Moved Transit Entities from edge package to transit model package, and extracted setting transit model entities on the graph from PatternHopFactory","2019-10/14","2019-10/14","2019-10/14",True,"2019-10/14",2,411,388
+"Fix: Netex import fails when Flex Lines exist in zip file. Closes #2851","2019-10/22","2019-10/22","2019-10/22",True,"2019-10/22",3,372,362
+"Null check on gtfs parent station","2019-10/24","2019-11/24","2019-10/24",True,"2019-11/24",3,78,8
+"Update for uk wayPropertySet","2019-10/24","2019-11/24","2019-10/24",True,"2019-11/24",3,2,2
+"Refactor StreetWithElevationEdge and use effectiveDistance for transfers","2019-10/25","2019-10/25","2019-10/25",True,"2019-10/25",3,152,166
+"Otp2 move raptor into otp","2019-10/29","2020-1/29","2019-10/29",True,"2020-1/29",2,18201,401
+"Minor doc update: Change from ""Java 8"" to ""Java 11"" in doc.","2019-10/30","2019-10/30","2019-10/30",True,"2019-10/30",2,3,6
+"Transmodel Graph QL API","2019-10/31","2019-11/31","2019-10/31",True,"2019-11/31",3,6293,86
+"Uk way property set","2019-11/1","2019-11/1","2019-11/1",True,"2019-11/1",3,78,3
+"Ignore this...","2019-11/3","2019-11/3","2019-11/3",False,"null",13,14709,2865
+"WIP: Park and ride","2019-11/3","2020-3/3","2019-11/3",False,"null",13,14709,2865
+"Otp2 new codestyle","2019-11/4","2019-11/4","2019-11/4",True,"2019-11/4",4,565,393
+"Add NeTEx Station extensions","2019-11/6","2019-11/6","2019-11/6",True,"2019-11/6",3,883,257
+"Remove transit logic from A Star related classes","2019-11/7","2019-11/7","2019-11/7",True,"2019-11/7",4,279,1341
+"Refactor GraphBuilderAnnotations","2019-11/7","2019-11/7","2019-11/7",True,"2019-11/7",3,1317,833
+"Parameters for specifing Access egress distance parameter","2019-11/12","2019-11/12","2019-11/12",False,"null",4,200,11
+"Dt 3249","2019-11/13","2019-11/13","2019-11/13",False,"null",12,14597,2860
+"Added option to build a partial graph","2019-11/13","2019-11/13","2019-11/13",True,"2019-11/13",3,32,2
+"Combine all OpenStreetMapProviders and OpenStreetMapContentHandlers","2019-11/15","2019-11/15","2019-11/15",True,"2019-11/15",2,103,906
+"replace Long objects with Trove","2019-11/15","2020-1/15","2019-11/15",True,"2020-1/15",2,134,128
+"AStar multiple start vertices refactor","2019-11/19","2019-11/19","2019-11/19",True,"2019-11/19",3,734,883
+"Update TransmodelAPI sandbox feature as code owner","2019-11/20","2019-11/20","2019-11/20",True,"2019-11/20",3,31,32
+"Bump dependency versions in response to security alerts, closes #2892","2019-11/22","null","2019-11/22",False,"null",2,2,2
+"Dependency security for dev-2.x","2019-11/22","2019-11/22","2019-11/22",True,"2019-11/22",2,3,584
+"Remove Lucene and other dependencies from dev-2.x branch","2019-11/22","2019-11/22","2019-11/22",True,"2019-11/22",2,34,86
+"Fix stop lookup in dev-2.x fare calculation","2019-11/22","2019-11/22","2019-11/22",True,"2019-11/22",3,206,142
+"Update TransmodelAPI sandbox feature as code owner (2)","2019-11/22","2019-11/22","2019-11/22",True,"2019-11/22",3,5,15
+"Health api sandbox extension","2019-11/22","2019-11/22","2019-11/22",True,"2019-11/22",3,76,0
+"Ignore trip with unsupported mode and log a DataImportIssue","2019-11/26","2019-11/26","2019-11/26",True,"2019-11/26",3,35,0
+"Implemented multimodal StopPlace in transmodel api","2019-11/28","2019-12/28","2019-11/28",True,"2019-12/28",3,361,33
+"otp2 ds1 refactor app packages","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,66,78
+"Otp2 ds2 consisten naming","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,103,103
+"Otp2 ds3 bugfixes logging and reflection lib","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,95,16
+"Otp2 ds4 extract otp datastore","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,4187,1326
+"Otp2 ds5 resolve environment variables","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,209,6
+"Otp2 ds6 google cloud storage support","2019-12/17","2020-1/17","2019-12/17",True,"2020-1/17",2,1256,20
+"Otp2 ds7 support for otp sync process file","2019-12/17","2020-9/17","2019-12/17",False,"null",2,364,2
+"Support for turning the fares calculation off, even when fares are","2019-12/18","2020-1/18","2019-12/18",True,"2020-1/18",3,125,64
+"add links to google groups in README","2019-12/31","2020-1/31","2019-12/31",True,"2020-1/31",2,1,1
+"Don't add edge distance twice for new step","2020-1/2","null","2020-1/2",False,"null",3,3,1
+"add links to google groups in README","2020-1/3","2020-1/3","2020-1/3",True,"2020-1/3",3,1,1
+"Faster TransitLayer realtime updater","2020-1/3","2020-1/3","2020-1/3",True,"2020-1/3",3,815,427
+"Otp2 move raptor into otp - cleanup speed test (part 2)","2020-1/3","2020-1/3","2020-1/3",True,"2020-1/3",2,404,597
+"Code cleanup - Number of placeholders does not match number logging args","2020-1/6","2020-1/6","2020-1/6",True,"2020-1/6",2,37,26
+"Make the TransitLayerMapper multi-threaded to decrease startup time.","2020-1/10","2020-2/10","2020-1/10",True,"2020-2/10",3,88,49
+"WIP: changes from @mbta fork","2020-1/11","null","2020-1/11",False,"null",11,8283,6875
+"Otp2 limit transit service period","2020-1/14","2020-1/14","2020-1/14",True,"2020-1/14",2,1169,515
+"Unexpected wait cost between access and transit","2020-1/16","2020-1/16","2020-1/16",True,"2020-1/16",2,101,78
+"Otp2 raptor code cleanup","2020-1/17","2020-1/17","2020-1/17",True,"2020-1/17",2,811,834
+"SW_1 - Implement dynamic computation of EDT, LAT and SearchWindow. ","2020-1/24","2020-2/24","2020-1/24",True,"2020-2/24",2,1382,311
+"SW_2 - Otp2 cleanup routing service","2020-1/28","2020-2/28","2020-1/28",True,"2020-2/28",2,544,507
+"SW_3 - Otp2 support for paging results","2020-1/29","2020-2/29","2020-1/29",True,"2020-2/29",2,412,105
+"SW_4 - Otp2 enable max transfer distance","2020-1/30","2020-2/30","2020-1/30",True,"2020-2/30",2,45,13
+"Add a disclaimer to the fron page of the docs.","2020-1/31","2020-2/31","2020-1/31",True,"2020-2/31",2,9,0
+"Remove a few typos in newly added section in Configuration.md","2020-1/31","2020-1/31","2020-1/31",True,"2020-1/31",2,1,2
+"Add links to master, 1.x and 2.x documentation on the front page","2020-1/31","2020-2/31","2020-1/31",True,"2020-2/31",2,6,0
+"Remove stopIndex being incremented in GraphPathToTripPlanConverter. T…","2020-1/31","2020-2/31","2020-1/31",True,"2020-2/31",3,8,17
+"Added ServiceLinks to NeTEx import","2020-2/3","2020-2/3","2020-2/3",True,"2020-2/3",3,569,110
+"Keep an index of realtime patternsForStop in the TimetableSnapshot.","2020-2/5","2020-2/5","2020-2/5",True,"2020-2/5",4,1376,2334
+"FL_1 - Otp2 filter resutls - clean code","2020-2/5","2020-2/5","2020-2/5",True,"2020-2/5",2,1227,408
+"Add TransferPriority to Stop","2020-2/6","2020-4/6","2020-2/6",False,"null",3,83,13
+"Otp2 negative wait times fix","2020-2/6","2020-2/6","2020-2/6",True,"2020-2/6",3,6,0
+"Do not throw NPE if linestring is null in CompactLineString","2020-2/7","2020-2/7","2020-2/7",True,"2020-2/7",4,3,2
+"Remove link ""a quick introduction"" in readme (which currently is 404)","2020-2/9","2020-10/9","2020-2/9",True,"2020-10/9",3,1,2
+"Optimize copying of states to the next round","2020-2/10","2020-2/10","2020-2/10",True,"2020-2/10",3,67,33
+"FL_2 - Otp2 filter results - clean code 2","2020-2/11","2020-2/11","2020-2/11",True,"2020-2/11",2,595,558
+"FL_3 - Otp2 filter results - Filter chain, walk/wait reluctance, debug","2020-2/11","2020-2/11","2020-2/11",True,"2020-2/11",2,1819,199
+"Otp2 transmodel changes","2020-2/11","2020-2/11","2020-2/11",True,"2020-2/11",2,31,15
+"[SECURITY] Use HTTPS to resolve dependencies in Maven Build","2020-2/11","2020-2/11","2020-2/11",False,"null",4,1,1
+"bug #2968 NullPointer","2020-2/12","2020-2/12","2020-2/12",True,"2020-2/12",4,2,1
+"Otp2 speed test add options","2020-2/13","2020-2/13","2020-2/13",True,"2020-2/13",2,110,41
+"Bugfix on dynamic search-window","2020-2/14","2020-2/14","2020-2/14",True,"2020-2/14",2,152,93
+"Transmodel API - Change searchWindow unit minutes not seconds","2020-2/14","2020-2/14","2020-2/14",True,"2020-2/14",2,14,19
+"NeTEx import: Do not add ServiceJourney if any StopPoints are not found","2020-2/18","2020-2/18","2020-2/18",True,"2020-2/18",3,15,0
+"Otp2 configure raptor search","2020-2/18","2020-2/18","2020-2/18",True,"2020-2/18",2,1610,1042

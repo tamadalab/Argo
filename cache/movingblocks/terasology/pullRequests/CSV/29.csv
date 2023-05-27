@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"chore(ModuleManager): refactor and document engine module setup","2021-6/5","2021-6/5","2021-6/5",True,"2021-6/5",2,118,46
+"chore: consume TeraNUI v3 release","2021-6/5","2021-6/5","2021-6/5",True,"2021-6/5",2,4,4
+"build(Jenkinsfile): improve pipeline performance; add docstrings","2021-6/5","2021-6/5","2021-6/5",True,"2021-6/5",3,49,17
+"chore(rendering): remove usage of GL_ARB_framebuffer and reworked shadowmap and lightpass","2021-6/6","2021-6/6","2021-6/6",True,"2021-6/6",4,118,166
+"fix: world generation with zones","2021-6/6","2021-6/6","2021-6/6",True,"2021-6/6",2,1,1
+"fix: lightgeometrypass to allow shadows to be disabled","2021-6/9","2021-6/9","2021-6/9",True,"2021-6/9",2,1,3
+"feature(ecs-gestalt): Migrate Components to gestalt's Components.","2021-6/9","2021-8/9","2021-6/9",True,"2021-8/9",5,1227,471
+"doc: update minimal system requirements for OpenGL 3.3","2021-6/9","2021-6/9","2021-6/9",True,"2021-6/9",3,4,12
+"feature: migrate RegionOutlineRenderer and allow support to specify AllocationType","2021-6/10","2021-6/10","2021-6/10",True,"2021-6/10",2,161,148
+"chore: replace getAllSides with values()","2021-6/12","2021-6/12","2021-6/12",True,"2021-6/12",2,17,17
+"style: address checkstyle findings","2021-6/12","2021-6/12","2021-6/12",True,"2021-6/12",2,407,403
+"chore: fix PackageDeclarationCheck findings","2021-6/12","2021-6/12","2021-6/12",True,"2021-6/12",2,43,88
+"chore(rendering): migrate use of ARB bind framebuffer EXT and reworked readBackPixels ","2021-6/12","2021-6/12","2021-6/12",True,"2021-6/12",2,14,30
+"chore: upgrade to gestalt 7.1.0 from snapshot","2021-6/12","2021-6/12","2021-6/12",True,"2021-6/12",2,6,7
+"chore: reusue Floatbuffer for uniform","2021-6/13","2021-6/13","2021-6/13",True,"2021-6/13",2,10,8
+"chore: remove check for Opengl33","2021-6/13","2021-6/13","2021-6/13",True,"2021-6/13",2,1,5
+"build: update TeraConfig to 1.6.3 and adjust IntelliJ settings","2021-6/13","2021-6/13","2021-6/13",True,"2021-6/13",2,2,1
+"chore: cleanup migrate shaders into CoreRendering","2021-6/13","2021-6/13","2021-6/13",True,"2021-6/13",2,168,2074
+"fix(rendering): remove unsupported ARB for opengl 2.0","2021-6/13","2021-6/13","2021-6/13",True,"2021-6/13",2,6,25
+"bugfix(rendering): rework glsl for osx","2021-6/14","2021-6/14","2021-6/14",True,"2021-6/14",2,119,187
+"chore: move SideBitFlags into Side","2021-6/14","2022-4/14","2021-6/14",True,"2022-4/14",3,148,62
+"chore: minor cleanup for ChunkProcessingPipeline","2021-6/16","2021-6/16","2021-6/16",True,"2021-6/16",3,4,5
+"chore: cache hashcode for uniform id","2021-6/16","2021-6/16","2021-6/16",True,"2021-6/16",3,3,1
+"feat: order chunks on demand","2021-6/17","2021-7/17","2021-6/17",False,"null",5,461,379
+"Test shearing system","2021-6/17","2021-7/17","2021-6/17",False,"null",2,11,1
+"refactor(bootstrap): remove duplicate registerComponents method","2021-6/18","2021-6/18","2021-6/18",True,"2021-6/18",2,2,17
+"chore: remove DynamicPriorityBlockingQueue","2021-6/19","2021-6/19","2021-6/19",True,"2021-6/19",2,1,187
+"feat: allow character teleport event to set rotation","2021-6/19","2021-8/19","2021-6/19",False,"null",2,19,0
+"fix(audio): skip update when player is invalid","2021-6/20","2021-6/20","2021-6/20",True,"2021-6/20",2,7,3
+"perf: replace stream with for loop  when retrieving facets.","2021-6/20","2021-6/20","2021-6/20",True,"2021-6/20",2,9,7
+"style: fix checkstyle findings","2021-6/20","2021-6/20","2021-6/20",True,"2021-6/20",2,1250,662
+"feat: expose scale for BrownianNoise","2021-6/20","2021-6/20","2021-6/20",True,"2021-6/20",2,7,0
+"refactor(rendering): rework chunk mesh generation with RXJava","2021-6/21","2021-6/21","2021-6/21",False,"null",3,123,316
+"refactor: convert Jenkinsfile to declarative pipeline syntax","2021-6/22","2021-6/22","2021-6/22",True,"2021-6/22",3,115,69
+"chore(rendering): migrate chunk mesh generation Flux","2021-6/23","2022-5/23","2021-6/23",True,"2022-5/23",4,806,455
+"fix: use link to new Jenkins in readme","2021-6/23","2021-6/23","2021-6/23",True,"2021-6/23",2,1,1
+"Revert ""chore: remove finite check from LocalPlayer""","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",3,42,10
+"chore: empty default implementation for RenderSystem interface","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",4,12,97
+"fix(ci): backslash-escape multi-line shell command","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",2,5,5
+"fix: failing publish stage","2021-6/24","2021-6/24","2021-6/24",False,"null",1,6,6
+"chore: minor cleanup Block","2021-6/25","2021-6/25","2021-6/25",True,"2021-6/25",2,3,39
+"perf: improve performance of mesh generator for chunks","2021-6/25","2021-8/25","2021-6/25",True,"2021-8/25",3,102,78
+"chore: remove finite check from LocalPlayer ","2021-6/25","2021-10/25","2021-6/25",True,"2021-10/25",4,14,42
+"test: provide a subsystem to register the unittest module","2021-6/25","2021-6/25","2021-6/25",True,"2021-6/25",2,36,0
+"fix: make BlockArea.iterator() use the same order as noise and facet data","2021-6/25","2021-6/25","2021-6/25",True,"2021-6/25",3,29,4
+"refactor: replace usage of ThreadManagerSubsystem with reactor Scheduler","2021-6/27","2021-8/27","2021-6/27",True,"2021-8/27",5,139,123
+"chore(persistence): replace transaction manager with Reactor","2021-6/28","null","2021-6/28",False,"null",4,27,89
+"feat(noise): Add domain rotation to mitigate Perlin squareness","2021-6/28","2021-7/28","2021-6/28",True,"2021-7/28",4,46,19
+"refactor: rework unloading logic for chunkprovider","2021-6/29","null","2021-6/29",False,"null",2,76,94
+"chore: remove url check when updating repositories","2021-6/30","2021-7/30","2021-6/30",True,"2021-7/30",2,14,13
+"feature: add gooey CLI","2021-7/1","null","2021-7/1",False,"null",5,1713,0
+"test: mockito inline for modules","2021-7/2","2021-7/2","2021-7/2",True,"2021-7/2",2,6,5
+"test: make parts of PathManagerProvider public for use by MTE","2021-7/2","2021-7/2","2021-7/2",True,"2021-7/2",2,5,4
+"build(IntelliJ): update annotation paths and other configurations","2021-7/2","2021-7/2","2021-7/2",True,"2021-7/2",3,11,8
+"refactor(GameState): extract common code from MainMenu and HeadlessSetup","2021-7/3","2021-7/3","2021-7/3",True,"2021-7/3",3,99,144
+"build: avoid transitive dependency on org.reflections","2021-7/4","2021-7/4","2021-7/4",True,"2021-7/4",3,17,1
+"feat(ModuleManager): do not depend on PathManager to load modules from the classpath","2021-7/4","2021-7/4","2021-7/4",True,"2021-7/4",2,188,6
+"perf: avoid calling GLFW.glfwGetWindowSize","2021-7/5","2021-7/5","2021-7/5",True,"2021-7/5",4,21,6
+"chore(rendering): cleanup and remove deprecated glDisabled","2021-7/5","2021-7/5","2021-7/5",True,"2021-7/5",2,0,8
+"fix: resolve problems with gui editor","2021-7/5","2021-7/5","2021-7/5",True,"2021-7/5",3,110,123
+"chore: remove unecessary cast","2021-7/5","2021-7/5","2021-7/5",True,"2021-7/5",2,1,3
+"feat: allow for ranged item activation","2021-7/8","2021-7/8","2021-7/8",True,"2021-7/8",2,106,14
+"perf: upgrade with proto3 and reworked network packets","2021-7/10","2021-11/10","2021-7/10",False,"null",3,185,44740
+"perf(network): replace de-/inflate with lz4 for both directions","2021-7/10","2021-7/10","2021-7/10",True,"2021-7/10",2,22,7
+"perf: remove extra length prepend","2021-7/11","2021-7/11","2021-7/11",True,"2021-7/11",2,6,18
+"feat: rework chunk ordering using Reactor","2021-7/14","null","2021-7/14",False,"null",6,446,482
+"feat: add `SetDirection` event to set player orientation","2021-7/17","2021-7/17","2021-7/17",True,"2021-7/17",3,39,6
+"fix: collide with characters instead of walking through","2021-7/17","2021-8/17","2021-7/17",True,"2021-8/17",2,1,1
+"perf: remove extra locking in pipeline to avoid thread contention","2021-7/18","2021-7/18","2021-7/18",True,"2021-7/18",3,37,50
+"fix: replicate mesh and material over network","2021-7/20","2021-7/20","2021-7/20",True,"2021-7/20",3,3,0
+"fix: flip first two verticies for double sided meshes","2021-7/22","2021-7/22","2021-7/22",True,"2021-7/22",2,1,1
+"feat: restore biome-based grass and foliage tinting","2021-7/24","2021-7/24","2021-7/24",True,"2021-7/24",3,228,11
+"fix: resolve issue when loading a world a second time","2021-7/25","2021-8/25","2021-7/25",True,"2021-8/25",4,77,86
+"test: deprecate WorldProvidingHeadlessEnvironment","2021-7/26","2021-7/26","2021-7/26",True,"2021-7/26",2,10,5
+"feat: add priority to Updates annotation of facet providers","2021-7/27","2021-8/27","2021-7/27",True,"2021-8/27",4,135,72
+"perf: rework with proto3 reworked packing network packets split net messages","2021-8/2","2021-11/2","2021-8/2",False,"null",3,397,44989
+"refactor(GameScheduler): provide ThreadMonitor-compatible schedule method","2021-8/10","2021-8/10","2021-8/10",True,"2021-8/10",2,36,111
+"fix: resolve Advance World Settings issue","2021-8/12","2021-8/12","2021-8/12",True,"2021-8/12",3,1,0
+"fix: Better handling of ComponentSystem loading with optional dependencies","2021-8/13","2021-8/13","2021-8/13",True,"2021-8/13",3,67,8
+"chore: adjust default logback configuration","2021-8/14","2021-8/14","2021-8/14",True,"2021-8/14",2,15,5
+"feat: hide NotificationOverlay (chat box) if HUD is hidden","2021-8/14","2021-8/14","2021-8/14",True,"2021-8/14",4,26,7
+"chore: add maven repo that contains jpastebin","2021-8/15","2021-8/15","2021-8/15",True,"2021-8/15",2,9,0
+"fix(build): use Maps from guava, not Google API Client","2021-8/15","2021-8/15","2021-8/15",True,"2021-8/15",2,1,1
+"test: have IntelliJ ask if tests should be run by itself or gradle","2021-8/15","2021-8/15","2021-8/15",True,"2021-8/15",2,1,1
+"fix: enable block tinting in LOD chunks","2021-8/16","2021-8/16","2021-8/16",True,"2021-8/16",2,23,21
+"feat: add `./gw completion` command.","2021-8/16","2021-8/16","2021-8/16",True,"2021-8/16",2,78,1
+"feat: add random distribution utilities from AnotherWorld","2021-8/16","2021-8/16","2021-8/16",True,"2021-8/16",2,185,0
+"feat: Add parallel module get","2021-8/17","2021-8/17","2021-8/17",True,"2021-8/17",2,100,38
+"refactor: change bullet physics implement into component system","2021-8/18","null","2021-8/18",False,"null",3,701,1265
+"feat: implement progress monitor for monitor jgit command execution.","2021-8/18","null","2021-8/18",False,"null",2,1256,1193
+"feat: add debug bounding box rendering","2021-8/18","2021-9/18","2021-8/18",True,"2021-9/18",3,209,0
+"feat: add commands for visual debugging (bounding boxes, etc.)","2021-8/18","2021-9/18","2021-8/18",True,"2021-9/18",2,55,0
+"feat: make render distance for (partially) transparent blocks adjustable","2021-8/19","2021-8/19","2021-8/19",True,"2021-8/19",4,55,32
+"build(facade): oops, junit was supposed to be a test-only dependency","2021-8/20","2021-8/20","2021-8/20",True,"2021-8/20",2,79,13
+"bugfix: PojoPrefab was getting seriliazed as a value type","2021-8/21","2021-8/21","2021-8/21",True,"2021-8/21",3,1,34
+"bugfix: fix debug for skeleton renderer","2021-8/22","2021-8/22","2021-8/22",True,"2021-8/22",3,65,72
+"chore: stop ignoring checkstyle findings","2021-8/22","2021-8/22","2021-8/22",True,"2021-8/22",2,48,41
+"feat(reactor): make separate graphic scheduler/thread","2021-8/24","null","2021-8/24",False,"null",5,896,606
+"chore: remove SubmersibleCamera abstraction","2021-8/25","2021-10/25","2021-8/25",True,"2021-10/25",3,20,71
+"chore: address some checkstyle warnings","2021-8/26","2021-8/26","2021-8/26",True,"2021-8/26",3,1,17

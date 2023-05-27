@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 741,
+                "nodes": [
+                    {
+                        "title": "Refactor `afi` and `afl` commands code",
+                        "url": "https://github.com/rizinorg/rizin/issues/1117",
+                        "createdAt": "2021-05-10T05:40:29Z",
+                        "closedAt": "2021-12-14T09:49:16Z"
+                    },
+                    {
+                        "title": "Suggestion to move `ib` command",
+                        "url": "https://github.com/rizinorg/rizin/issues/1120",
+                        "createdAt": "2021-05-11T00:42:14Z",
+                        "closedAt": "2021-09-04T14:37:05Z"
+                    },
+                    {
+                        "title": "`Ve` `asm.*` settings preview should use the \"default\" code",
+                        "url": "https://github.com/rizinorg/rizin/issues/1123",
+                        "createdAt": "2021-05-12T06:33:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unrealistic Type Propagation Test",
+                        "url": "https://github.com/rizinorg/rizin/issues/1132",
+                        "createdAt": "2021-05-14T17:58:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "linux static build rizin can not debug",
+                        "url": "https://github.com/rizinorg/rizin/issues/1133",
+                        "createdAt": "2021-05-15T02:51:29Z",
+                        "closedAt": "2021-09-08T09:10:10Z"
+                    },
+                    {
+                        "title": "Update currently broken core_plugin_example.c to Newshell API",
+                        "url": "https://github.com/rizinorg/rizin/issues/1134",
+                        "createdAt": "2021-05-16T15:39:28Z",
+                        "closedAt": "2021-07-28T08:33:33Z"
+                    },
+                    {
+                        "title": "Reference to constant CFStrings in Disassembly are shown just as __CFConstantStringClassReference instead of the string",
+                        "url": "https://github.com/rizinorg/rizin/issues/1135",
+                        "createdAt": "2021-05-16T16:27:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "CFStrings are wrongly shown as actual Strings in Disassembly",
+                        "url": "https://github.com/rizinorg/rizin/issues/1136",
+                        "createdAt": "2021-05-16T16:32:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "use-after-free in pyc parsing",
+                        "url": "https://github.com/rizinorg/rizin/issues/1137",
+                        "createdAt": "2021-05-16T21:43:55Z",
+                        "closedAt": "2021-05-17T04:29:31Z"
+                    },
+                    {
+                        "title": "`Ll~!^c` should print all lines that *aren't* started from `c` but it doesn't",
+                        "url": "https://github.com/rizinorg/rizin/issues/1140",
+                        "createdAt": "2021-05-17T07:06:27Z",
+                        "closedAt": "2021-05-18T09:46:12Z"
+                    },
+                    {
+                        "title": "Split off Relocs Code from bin_elf.inc",
+                        "url": "https://github.com/rizinorg/rizin/issues/1141",
+                        "createdAt": "2021-05-17T08:34:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Stop Analyzing at Tailjump into a Reloc Target",
+                        "url": "https://github.com/rizinorg/rizin/issues/1144",
+                        "createdAt": "2021-05-17T19:14:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "rz-hash <file> coredumps",
+                        "url": "https://github.com/rizinorg/rizin/issues/1145",
+                        "createdAt": "2021-05-18T08:43:16Z",
+                        "closedAt": "2021-05-18T12:48:47Z"
+                    },
+                    {
+                        "title": "Improve rz-diff graph diffing",
+                        "url": "https://github.com/rizinorg/rizin/issues/1147",
+                        "createdAt": "2021-05-18T10:36:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "File is still required when passing one option to rizin",
+                        "url": "https://github.com/rizinorg/rizin/issues/1150",
+                        "createdAt": "2021-05-19T09:04:59Z",
+                        "closedAt": "2021-06-22T08:17:58Z"
+                    },
+                    {
+                        "title": "Possibly wrong `vsize` calculation of `.text` section for the Windows PE file ",
+                        "url": "https://github.com/rizinorg/rizin/issues/1155",
+                        "createdAt": "2021-05-21T05:02:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Artificial sections created by rz_bin_elf_get_sections",
+                        "url": "https://github.com/rizinorg/rizin/issues/1159",
+                        "createdAt": "2021-05-22T13:25:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Write over (wo) commands don't respect block size override",
+                        "url": "https://github.com/rizinorg/rizin/issues/1165",
+                        "createdAt": "2021-05-25T16:07:42Z",
+                        "closedAt": "2021-06-17T11:03:58Z"
+                    },
+                    {
+                        "title": "Jemalloc heap commands cause segfault",
+                        "url": "https://github.com/rizinorg/rizin/issues/1167",
+                        "createdAt": "2021-05-26T08:25:28Z",
+                        "closedAt": "2021-08-12T07:43:21Z"
+                    },
+                    {
+                        "title": "Remove `sdb_fmt` and switch to `rz_strf`/`rz_str_*`/`rz_strbuf_` API depending on the case",
+                        "url": "https://github.com/rizinorg/rizin/issues/1168",
+                        "createdAt": "2021-05-28T03:58:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migrate type links to the hashtable",
+                        "url": "https://github.com/rizinorg/rizin/issues/1169",
+                        "createdAt": "2021-05-28T05:32:14Z",
+                        "closedAt": "2021-07-19T17:51:11Z"
+                    },
+                    {
+                        "title": "Erroneous stack variables in `push [esp+var]` situations",
+                        "url": "https://github.com/rizinorg/rizin/issues/1171",
+                        "createdAt": "2021-05-28T16:59:43Z",
+                        "closedAt": "2021-07-12T08:14:32Z"
+                    },
+                    {
+                        "title": "Resolve the clash between `strdup()`, `rz_str_dup()`, and `rz_str_new()`.",
+                        "url": "https://github.com/rizinorg/rizin/issues/1176",
+                        "createdAt": "2021-05-31T06:37:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "`rz-pm -i rz-ghidra` installs to `/usr/local` instead of `~/.local`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1178",
+                        "createdAt": "2021-05-31T15:06:33Z",
+                        "closedAt": "2021-05-31T15:06:46Z"
+                    },
+                    {
+                        "title": "Rz-diff corner case fail for -S option and parse error for arguments.",
+                        "url": "https://github.com/rizinorg/rizin/issues/1183",
+                        "createdAt": "2021-06-01T22:05:28Z",
+                        "closedAt": "2021-06-04T10:38:38Z"
+                    },
+                    {
+                        "title": "Uncouple ARM's Thumb mode detection from `asm.bits`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1185",
+                        "createdAt": "2021-06-02T05:29:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Refactor type constraints and move to `librz/type`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1188",
+                        "createdAt": "2021-06-03T05:29:53Z",
+                        "closedAt": "2021-08-04T08:08:55Z"
+                    },
+                    {
+                        "title": "`rzpipe` test always fails on a system without `rizin` binary",
+                        "url": "https://github.com/rizinorg/rizin/issues/1192",
+                        "createdAt": "2021-06-04T09:01:41Z",
+                        "closedAt": "2021-06-14T10:32:40Z"
+                    },
+                    {
+                        "title": "Rizin-0.2.1 compilation on Gentoo error: ‘TSLanguage’ has no member named ‘production_id_count’",
+                        "url": "https://github.com/rizinorg/rizin/issues/1194",
+                        "createdAt": "2021-06-06T09:29:39Z",
+                        "closedAt": "2021-06-11T21:58:53Z"
+                    },
+                    {
+                        "title": "ESIL emulation failed when hit reloc functions",
+                        "url": "https://github.com/rizinorg/rizin/issues/1197",
+                        "createdAt": "2021-06-07T12:30:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add support for proper preprocessor in RzType",
+                        "url": "https://github.com/rizinorg/rizin/issues/1204",
+                        "createdAt": "2021-06-10T05:24:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add support for classes and methods in RzType",
+                        "url": "https://github.com/rizinorg/rizin/issues/1205",
+                        "createdAt": "2021-06-10T05:26:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Replace kiwiirc irc links with https://web.libera.chat links",
+                        "url": "https://github.com/rizinorg/rizin/issues/1217",
+                        "createdAt": "2021-06-16T15:31:18Z",
+                        "closedAt": "2021-06-17T10:25:37Z"
+                    },
+                    {
+                        "title": "Refactor to not use calling the external commands unless necessary",
+                        "url": "https://github.com/rizinorg/rizin/issues/1223",
+                        "createdAt": "2021-06-18T03:51:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Refactor and merge `librz/analysis/fcn.c` and `librz/analysis/function.c`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1232",
+                        "createdAt": "2021-06-21T06:26:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add proper bitfields support in RzType",
+                        "url": "https://github.com/rizinorg/rizin/issues/1240",
+                        "createdAt": "2021-06-24T06:48:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for alignment and packing in composite types",
+                        "url": "https://github.com/rizinorg/rizin/issues/1241",
+                        "createdAt": "2021-06-24T08:48:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix `rz_analysis_var_get_argnum` to support stack variables as well",
+                        "url": "https://github.com/rizinorg/rizin/issues/1249",
+                        "createdAt": "2021-06-28T08:29:23Z",
+                        "closedAt": "2021-07-19T17:46:47Z"
+                    },
+                    {
+                        "title": "Calculate default type for variable based on its size",
+                        "url": "https://github.com/rizinorg/rizin/issues/1256",
+                        "createdAt": "2021-07-01T09:16:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add alignment algorithms for binary diffing in `rz-diff`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1257",
+                        "createdAt": "2021-07-02T09:34:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Tcache parsing should be handled on per thread basis",
+                        "url": "https://github.com/rizinorg/rizin/issues/1259",
+                        "createdAt": "2021-07-02T10:42:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make different variables if they are reused differently",
+                        "url": "https://github.com/rizinorg/rizin/issues/1260",
+                        "createdAt": "2021-07-02T11:12:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migrate function checks from headers to Meson",
+                        "url": "https://github.com/rizinorg/rizin/issues/1261",
+                        "createdAt": "2021-07-02T11:50:14Z",
+                        "closedAt": "2021-08-26T09:34:42Z"
+                    },
+                    {
+                        "title": "Minor `clang-cl` warnings",
+                        "url": "https://github.com/rizinorg/rizin/issues/1266",
+                        "createdAt": "2021-07-05T05:17:24Z",
+                        "closedAt": "2021-09-04T16:07:59Z"
+                    },
+                    {
+                        "title": "Elf symbol name are truncated when >= 256",
+                        "url": "https://github.com/rizinorg/rizin/issues/1268",
+                        "createdAt": "2021-07-05T16:06:57Z",
+                        "closedAt": "2021-07-07T10:01:18Z"
+                    },
+                    {
+                        "title": "Support C output of structures of pointers of arrays of nested pointers to functions",
+                        "url": "https://github.com/rizinorg/rizin/issues/1272",
+                        "createdAt": "2021-07-06T05:27:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Missing method references in DEX",
+                        "url": "https://github.com/rizinorg/rizin/issues/1276",
+                        "createdAt": "2021-07-06T13:52:36Z",
+                        "closedAt": "2021-08-24T11:04:09Z"
+                    },
+                    {
+                        "title": "Wrong analysis results of Busybox PowerPC",
+                        "url": "https://github.com/rizinorg/rizin/issues/1282",
+                        "createdAt": "2021-07-08T10:49:51Z",
+                        "closedAt": "2021-12-31T00:18:08Z"
+                    },
+                    {
+                        "title": "Add support for loading debug information from `debuginfod`",
+                        "url": "https://github.com/rizinorg/rizin/issues/1285",
+                        "createdAt": "2021-07-09T10:29:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Allow to visually map assembly and source code (or decompiler output)",
+                        "url": "https://github.com/rizinorg/rizin/issues/1286",
+                        "createdAt": "2021-07-09T11:06:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add vector and control register type",
+                        "url": "https://github.com/rizinorg/rizin/issues/1287",
+                        "createdAt": "2021-07-09T11:48:53Z",
+                        "closedAt": "2022-04-03T16:26:17Z"
+                    },
+                    {
+                        "title": "Migrate ESIL and Debug trace from SDB to hashtable",
+                        "url": "https://github.com/rizinorg/rizin/issues/1294",
+                        "createdAt": "2021-07-12T09:38:35Z",
+                        "closedAt": "2021-08-10T05:03:33Z"
+                    },
+                    {
+                        "title": "Detect `char *` type properly for per-char access in the string for x86",
+                        "url": "https://github.com/rizinorg/rizin/issues/1295",
+                        "createdAt": "2021-07-12T10:38:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix type matching for signatures",
+                        "url": "https://github.com/rizinorg/rizin/issues/1300",
+                        "createdAt": "2021-07-13T06:05:15Z",
+                        "closedAt": "2022-06-28T23:49:44Z"
+                    },
+                    {
+                        "title": "Compress all resoures (SDB files, etc) into binary for static builds",
+                        "url": "https://github.com/rizinorg/rizin/issues/1301",
+                        "createdAt": "2021-07-13T06:18:31Z",
+                        "closedAt": "2021-09-03T23:29:30Z"
+                    },
+                    {
+                        "title": "MIPS pseudo is broken",
+                        "url": "https://github.com/rizinorg/rizin/issues/1305",
+                        "createdAt": "2021-07-14T11:25:31Z",
+                        "closedAt": "2021-07-22T09:55:05Z"
+                    },
+                    {
+                        "title": "PowerPC QPX not supported",
+                        "url": "https://github.com/rizinorg/rizin/issues/1306",
+                        "createdAt": "2021-07-14T12:33:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix or improve non-C type tests",
+                        "url": "https://github.com/rizinorg/rizin/issues/1311",
+                        "createdAt": "2021-07-15T08:35:39Z",
+                        "closedAt": "2022-06-28T23:49:44Z"
+                    },
+                    {
+                        "title": "zfs creates multiple functions with the same name, breaking project opening",
+                        "url": "https://github.com/rizinorg/rizin/issues/1314",
+                        "createdAt": "2021-07-16T04:03:38Z",
+                        "closedAt": "2021-12-23T16:06:55Z"
+                    },
+                    {
+                        "title": "Command `dL native` fails",
+                        "url": "https://github.com/rizinorg/rizin/issues/1317",
+                        "createdAt": "2021-07-16T07:16:43Z",
+                        "closedAt": "2021-07-19T04:17:18Z"
+                    },
+                    {
+                        "title": "Improve Windows `rz-test` performance",
+                        "url": "https://github.com/rizinorg/rizin/issues/1320",
+                        "createdAt": "2021-07-16T10:46:02Z",
+                        "closedAt": "2022-06-10T22:33:44Z"
+                    },
+                    {
+                        "title": "Switch to the new format of types databases and signatures",
+                        "url": "https://github.com/rizinorg/rizin/issues/1322",
+                        "createdAt": "2021-07-19T04:26:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support DWARF `.debug-sup` section parsing",
+                        "url": "https://github.com/rizinorg/rizin/issues/1330",
+                        "createdAt": "2021-07-19T10:47:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix OpenBSD test for bins/pe/maxsecXP.exe",
+                        "url": "https://github.com/rizinorg/rizin/issues/1332",
+                        "createdAt": "2021-07-19T16:10:37Z",
+                        "closedAt": "2021-08-05T13:17:22Z"
+                    },
+                    {
+                        "title": "Mainstream Tree-Sitter issues for Rizin use cases",
+                        "url": "https://github.com/rizinorg/rizin/issues/1337",
+                        "createdAt": "2021-07-20T08:55:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "capstone-next `test_analysis_sign_za_ppc` is broken.",
+                        "url": "https://github.com/rizinorg/rizin/issues/1340",
+                        "createdAt": "2021-07-21T04:24:58Z",
+                        "closedAt": "2021-07-30T05:36:43Z"
+                    },
+                    {
+                        "title": "Fix PE: corkami 65535sects.exe - section list, entrypoint, open and analyze with ASAN build",
+                        "url": "https://github.com/rizinorg/rizin/issues/1341",
+                        "createdAt": "2021-07-21T04:50:29Z",
+                        "closedAt": "2021-08-05T13:17:09Z"
+                    },
+                    {
+                        "title": "Tracking porting the commands parser to the tree-sitter-based one",
+                        "url": "https://github.com/rizinorg/rizin/issues/1342",
+                        "createdAt": "2021-07-21T05:05:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix types test on static build",
+                        "url": "https://github.com/rizinorg/rizin/issues/1344",
+                        "createdAt": "2021-07-21T09:13:51Z",
+                        "closedAt": "2021-07-29T13:46:49Z"
+                    },
+                    {
+                        "title": "Add support for multi-line comments",
+                        "url": "https://github.com/rizinorg/rizin/issues/1356",
+                        "createdAt": "2021-07-24T05:03:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "`aeb` without `aaa` triggers a segmentfault",
+                        "url": "https://github.com/rizinorg/rizin/issues/1365",
+                        "createdAt": "2021-07-27T09:31:59Z",
+                        "closedAt": "2021-07-30T04:59:47Z"
+                    },
+                    {
+                        "title": "Handle forward definitions in PDB parser",
+                        "url": "https://github.com/rizinorg/rizin/issues/1377",
+                        "createdAt": "2021-07-29T08:43:45Z",
+                        "closedAt": "2022-01-05T10:38:03Z"
+                    },
+                    {
+                        "title": "capstone-next tests are broken",
+                        "url": "https://github.com/rizinorg/rizin/issues/1380",
+                        "createdAt": "2021-07-29T10:48:47Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Extract SPP into subproject",
+                        "url": "https://github.com/rizinorg/rizin/issues/1388",
+                        "createdAt": "2021-08-02T06:16:26Z",
+                        "closedAt": "2021-08-06T23:57:59Z"
+                    },
+                    {
+                        "title": "`tsj` output does not match `ts` ",
+                        "url": "https://github.com/rizinorg/rizin/issues/1391",
+                        "createdAt": "2021-08-02T09:40:36Z",
+                        "closedAt": "2021-08-02T14:25:27Z"
+                    },
+                    {
+                        "title": "Refactor RzUtil to remove `RzPrint` and `cb_printf()` usage",
+                        "url": "https://github.com/rizinorg/rizin/issues/1392",
+                        "createdAt": "2021-08-02T10:27:47Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add API for C string representation of types",
+                        "url": "https://github.com/rizinorg/rizin/issues/1399",
+                        "createdAt": "2021-08-04T07:21:49Z",
+                        "closedAt": "2021-08-06T07:34:01Z"
+                    },
+                    {
+                        "title": "RISC-V compiler warnings",
+                        "url": "https://github.com/rizinorg/rizin/issues/1406",
+                        "createdAt": "2021-08-05T16:25:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Resource exhaustion in LE parsing",
+                        "url": "https://github.com/rizinorg/rizin/issues/1409",
+                        "createdAt": "2021-08-07T23:01:52Z",
+                        "closedAt": "2021-08-09T10:14:20Z"
+                    },
+                    {
+                        "title": "Support separate help entries when number of arguments is different",
+                        "url": "https://github.com/rizinorg/rizin/issues/1413",
+                        "createdAt": "2021-08-09T09:44:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "`dte` doesn't show ESIL trace",
+                        "url": "https://github.com/rizinorg/rizin/issues/1416",
+                        "createdAt": "2021-08-10T04:19:13Z",
+                        "closedAt": "2021-08-29T13:45:21Z"
+                    },
+                    {
+                        "title": "Save project in compressed format, to save disk space.",
+                        "url": "https://github.com/rizinorg/rizin/issues/1417",
+                        "createdAt": "2021-08-10T04:38:48Z",
+                        "closedAt": "2021-08-30T08:54:09Z"
+                    },
+                    {
+                        "title": "radareorg/radare2@676cb56",
+                        "url": "https://github.com/rizinorg/rizin/issues/1421",
+                        "createdAt": "2021-08-10T09:02:59Z",
+                        "closedAt": "2021-08-10T09:03:20Z"
+                    },
+                    {
+                        "title": "Backport \"Correct MOVD instruction and SSE registers definition\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1422",
+                        "createdAt": "2021-08-10T09:04:57Z",
+                        "closedAt": "2021-08-18T07:16:26Z"
+                    },
+                    {
+                        "title": "Backport \"Reset certificate search properly\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1423",
+                        "createdAt": "2021-08-10T09:08:55Z",
+                        "closedAt": "2021-08-18T15:22:14Z"
+                    },
+                    {
+                        "title": "Backport \"System LIBRARY_PATH must be honored (not replaced) on HaikuOS\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1424",
+                        "createdAt": "2021-08-10T09:09:22Z",
+                        "closedAt": "2021-08-18T07:16:26Z"
+                    },
+                    {
+                        "title": "Backport \"Fix coverity issue in Mach-O format\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1425",
+                        "createdAt": "2021-08-10T09:09:31Z",
+                        "closedAt": "2021-08-18T07:16:25Z"
+                    },
+                    {
+                        "title": "Backport \"Fix large loading times when parsing encrypted/fuzzed macho\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1426",
+                        "createdAt": "2021-08-10T09:09:33Z",
+                        "closedAt": "2021-08-18T07:16:25Z"
+                    },
+                    {
+                        "title": "Backport \"Dont trust the unaligned rich PEs ##bin\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1427",
+                        "createdAt": "2021-08-10T09:09:37Z",
+                        "closedAt": "2021-08-18T07:16:24Z"
+                    },
+                    {
+                        "title": "Backport \"Fix emulation for ARM's ldrd\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1428",
+                        "createdAt": "2021-08-10T09:09:47Z",
+                        "closedAt": "2021-08-18T07:16:24Z"
+                    },
+                    {
+                        "title": "Backport \"Sort flags by [sections,formats][other][regs]\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1429",
+                        "createdAt": "2021-08-10T09:14:26Z",
+                        "closedAt": "2022-05-13T10:23:42Z"
+                    },
+                    {
+                        "title": "Backport \"Wrong assembly generated for: 'add x0, x0, 1, lsl # 12'\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/1430",
+                        "createdAt": "2021-08-10T09:14:51Z",
+                        "closedAt": "2021-08-18T07:16:23Z"
+                    },
+                    {
+                        "title": "PPC broken test: db/analysis/sysz aoj 4140f008",
+                        "url": "https://github.com/rizinorg/rizin/issues/1431",
+                        "createdAt": "2021-08-10T10:14:45Z",
+                        "closedAt": "2021-08-11T05:18:49Z"
+                    },
+                    {
+                        "title": "PPC broken test: db/tools/rz_gg rz-gg debruijn sequence",
+                        "url": "https://github.com/rizinorg/rizin/issues/1432",
+                        "createdAt": "2021-08-10T10:16:07Z",
+                        "closedAt": "2021-08-18T10:12:02Z"
+                    },
+                    {
+                        "title": "PPC broken test: db/cmd/types tpv",
+                        "url": "https://github.com/rizinorg/rizin/issues/1433",
+                        "createdAt": "2021-08-10T10:17:59Z",
+                        "closedAt": "2021-08-24T16:02:48Z"
+                    },
+                    {
+                        "title": "Remove typelinks (`tl`) in favor of  the global variables",
+                        "url": "https://github.com/rizinorg/rizin/issues/1437",
+                        "createdAt": "2021-08-11T09:18:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Convert analysis `a` (cmd_analysis.c) commands to rzshell",
+                        "url": "https://github.com/rizinorg/rizin/issues/1442",
+                        "createdAt": "2021-08-13T05:28:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Move YXML dependency into RzUtil, like JSON",
+                        "url": "https://github.com/rizinorg/rizin/issues/1445",
+                        "createdAt": "2021-08-13T07:27:43Z",
+                        "closedAt": "2022-04-16T11:21:12Z"
+                    },
+                    {
+                        "title": "Excessive use of builds.sr.ht",
+                        "url": "https://github.com/rizinorg/rizin/issues/1449",
+                        "createdAt": "2021-08-13T09:04:30Z",
+                        "closedAt": "2021-09-13T12:14:29Z"
+                    },
+                    {
+                        "title": "incorrect avr disassembly ",
+                        "url": "https://github.com/rizinorg/rizin/issues/1452",
+                        "createdAt": "2021-08-14T21:37:30Z",
+                        "closedAt": "2021-08-16T04:30:15Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOOeBGCQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}
