@@ -11,6 +11,8 @@ import collections
 import fig_process
 import csv
 
+import FileMake
+
 # データの前処理
 def Prep(file):
     csv_input = pd.read_csv(filepath_or_buffer = file, encoding="UTF-8", sep=",")
@@ -75,18 +77,18 @@ def main(arg, format, dir_path, write_data):
     # 年数リストを取得
     years = []
     for i in range(len(arg)):
-        file = os.path.join("cache", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file) #keys, values, accum, scale, year
         years = Scale(dict[4], years)
 
     # リポジトリの古い順に取得
     files = []
     for i in range(len(arg)):
-        file = os.path.join("cache", arg[i], "stargazers/CSV/total.csv")
+        file = os.path.join("cache", arg[i], "Star/CSV/total.csv")
         dict = Prep(file)
         year = dict[4]
         if year[0] == years[0]:
-            files.insert(0,file)  
+            files.insert(0,file)
         else:
             files.append(file)
 
@@ -96,7 +98,6 @@ def main(arg, format, dir_path, write_data):
         dict = Prep(files[i]) #keys, values, accum, scale, year
         label = re.findall("e/(.*)/s", str(files[i]))
         print(files[i])
-        label = label[0].strip("[""]")
         if write_data is not None:
             fig_process.Print(label, dict[0], dict[2], write_data)
         Com_Plot(label, dict[0], dict[2], dict[3], dict[4]) #比較グラフ作成関数
@@ -105,11 +106,11 @@ def main(arg, format, dir_path, write_data):
     # 推移グラフ
     for i in range(len(files)):
         dict = Prep(files[i]) #keys, values, accum, scale, years
-        label = re.findall("e/(.*)/s", str(files[i]))
+        label = re.findall("e/(.*)/S", str(files[i]))
         label = label[0].strip("[""]")
         Transition_Plot(label, dict[0], dict[1],dict[3], dict[4]) #推移グラフ作成関数
 
-    # グラフ保存
+    # グラフ，csvファイル保存
     fig_process.makedir(dir_path)
     for i in range(len(files)):
         fig_process.savefig(figure, dir_path + '/' + "N_STAR", format)
@@ -117,13 +118,15 @@ def main(arg, format, dir_path, write_data):
         file = os.path.join("cache", arg[i],"N_STAR/plot_data.csv")
         with open(file, "w") as f:
             writer = csv.writer(f)
-            writer.writerow(dict[0])
             writer.writerow(dict[2])
+            writer.writerow(dict[0])
+        FileMake.reverse_csv_rows(file)
 
 
     # グラフ描画
-    plt.tight_layout() #グラフ位置の調整
-    plt.show()
+    plt.tight_layout() # グラフ位置の調整
+    plt.show(block=False) # 画面表示しない
+    #plt.show()
 
 if __name__ == "__main__":
     arg = sys.argv   ## owner/repositoryはrepository[1]以降に格納
