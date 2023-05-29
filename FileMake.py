@@ -89,11 +89,15 @@ def merge(dir_path):
 
     # 全てのcsvファイルを読み込み，total.csvファイルを作成する．
     for i in range(1,len(csv_files)+1):
+        # total.csvファイルが存在しないとき，作成する．
         if os.path.exists(path + "/" + str(i) + ".csv"):
             data_list.append(pd.read_csv(path + "/" + str(i) + ".csv"))
-    df = pd.concat(data_list, axis=0, sort = True)
-    df.to_csv(os.path.join(path, "total.csv"), index=False)
-    
+    df = pd.concat(data_list, axis=0, sort = False)
+    with open(os.path.join(path, "total.csv"), mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(df.columns)  # 列のヘッダーを書き込む
+        for row in df.values:
+            writer.writerow(row)
 def output_data(repository,metrics, plotdata):
     fig_process.makedir("cache/" + repository +"/"+ metrics)
     file = os.path.join("cache", repository, metrics, "/plot_data.csv")
