@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 582,
+                "nodes": [
+                    {
+                        "title": "Cannot create a new service when another one already exists",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5596",
+                        "createdAt": "2018-04-17T04:39:44Z",
+                        "closedAt": "2018-04-18T09:26:35Z"
+                    },
+                    {
+                        "title": "Unclear \"namespacing\" and YQL in docs",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5617",
+                        "createdAt": "2018-04-18T04:50:44Z",
+                        "closedAt": "2018-04-18T12:35:42Z"
+                    },
+                    {
+                        "title": "Fields with no summary in indexing statement are added to default Summary Fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5619",
+                        "createdAt": "2018-04-18T06:37:14Z",
+                        "closedAt": "2018-04-18T12:26:36Z"
+                    },
+                    {
+                        "title": "Docs: Collapsable sections in left (toc) pane",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5622",
+                        "createdAt": "2018-04-18T09:26:18Z",
+                        "closedAt": "2018-04-19T13:54:29Z"
+                    },
+                    {
+                        "title": "Inconsistent handling of floats in result summaries",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5624",
+                        "createdAt": "2018-04-19T00:58:54Z",
+                        "closedAt": "2018-04-19T07:27:15Z"
+                    },
+                    {
+                        "title": "Documentation search doesn't work due to trying to load unsafe scripts",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5661",
+                        "createdAt": "2018-04-22T00:53:48Z",
+                        "closedAt": "2018-04-25T12:12:01Z"
+                    },
+                    {
+                        "title": "Document ranking.matchPhase, ranking.softtimeout and ranking.diversity in the search API reference",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5728",
+                        "createdAt": "2018-04-26T14:31:08Z",
+                        "closedAt": "2019-04-10T20:06:57Z"
+                    },
+                    {
+                        "title": "Add general search latency rank profile metric with rank-profile name as dimension",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5750",
+                        "createdAt": "2018-04-30T11:43:30Z",
+                        "closedAt": "2018-05-15T12:43:02Z"
+                    },
+                    {
+                        "title": "Error logging in Vespa Http Client",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5782",
+                        "createdAt": "2018-05-03T19:16:13Z",
+                        "closedAt": "2018-05-07T09:49:01Z"
+                    },
+                    {
+                        "title": "Distributor should log and emit metrics when it is not able to send bucket info requests to a node ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5793",
+                        "createdAt": "2018-05-04T12:51:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support /document/v1/ root-level visiting across arbitrary document types and namespaces",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5794",
+                        "createdAt": "2018-05-04T13:24:06Z",
+                        "closedAt": "2018-10-09T14:51:41Z"
+                    },
+                    {
+                        "title": "Summarise comparison with similar projects",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5854",
+                        "createdAt": "2018-05-13T11:23:02Z",
+                        "closedAt": "2019-04-10T20:05:18Z"
+                    },
+                    {
+                        "title": "ClientFeederV3 NullPointerException when trying to feed document.",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5865",
+                        "createdAt": "2018-05-14T21:15:51Z",
+                        "closedAt": "2018-05-28T09:22:31Z"
+                    },
+                    {
+                        "title": "Add jdisc support for brotli ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5889",
+                        "createdAt": "2018-05-17T07:40:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How to add a word segmentation plugin on Vespa?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5893",
+                        "createdAt": "2018-05-19T06:28:34Z",
+                        "closedAt": "2018-05-30T12:28:56Z"
+                    },
+                    {
+                        "title": "DocumentOperation created on Processors not persisted in storage",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5898",
+                        "createdAt": "2018-05-22T10:30:27Z",
+                        "closedAt": "2018-05-22T20:18:32Z"
+                    },
+                    {
+                        "title": "why remove nodes from repository when flavor type is DOCKER_CONTAINER",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5901",
+                        "createdAt": "2018-05-22T11:52:57Z",
+                        "closedAt": "2018-05-23T11:41:34Z"
+                    },
+                    {
+                        "title": "count() underreports number of groups in grouping query",
+                        "url": "https://github.com/vespa-engine/vespa/issues/5989",
+                        "createdAt": "2018-05-29T14:27:55Z",
+                        "closedAt": "2018-06-13T12:21:17Z"
+                    },
+                    {
+                        "title": "Ranking feature Emission from query tree clauses for matching ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6009",
+                        "createdAt": "2018-05-30T13:03:09Z",
+                        "closedAt": "2018-06-05T07:32:28Z"
+                    },
+                    {
+                        "title": "Update vespa-http-client example to use SSL",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6094",
+                        "createdAt": "2018-06-05T18:49:00Z",
+                        "closedAt": "2022-01-14T15:09:58Z"
+                    },
+                    {
+                        "title": "How to store intermediate results during getting candidate?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6100",
+                        "createdAt": "2018-06-06T08:48:01Z",
+                        "closedAt": "2018-06-11T01:44:25Z"
+                    },
+                    {
+                        "title": "How well does vespa handle time series data, compared to, say, prometheus?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6144",
+                        "createdAt": "2018-06-10T00:21:43Z",
+                        "closedAt": "2018-06-13T12:20:52Z"
+                    },
+                    {
+                        "title": "Fix searchnode tuning doc options for index ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6152",
+                        "createdAt": "2018-06-11T09:00:13Z",
+                        "closedAt": "2021-06-21T14:35:24Z"
+                    },
+                    {
+                        "title": "Let nativeDotProduct iterate over all query fields if no field is given as argument",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6193",
+                        "createdAt": "2018-06-13T12:25:56Z",
+                        "closedAt": "2018-06-14T12:38:34Z"
+                    },
+                    {
+                        "title": "Wrong spelling in the document.  Bug Data -> Big Data",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6200",
+                        "createdAt": "2018-06-14T00:59:13Z",
+                        "closedAt": "2018-06-14T05:58:37Z"
+                    },
+                    {
+                        "title": "Can Vespa save images/pictures or process image searching?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6218",
+                        "createdAt": "2018-06-16T03:15:56Z",
+                        "closedAt": "2018-06-20T08:30:09Z"
+                    },
+                    {
+                        "title": "Anything like ONEAR/NEAR in reference to PHP?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6251",
+                        "createdAt": "2018-06-20T21:48:28Z",
+                        "closedAt": "2018-06-27T12:25:32Z"
+                    },
+                    {
+                        "title": "What max size is vespa's raw field?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6261",
+                        "createdAt": "2018-06-22T03:36:05Z",
+                        "closedAt": "2018-06-27T12:25:11Z"
+                    },
+                    {
+                        "title": "Access Maps & Structs in Group clause",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6281",
+                        "createdAt": "2018-06-26T10:35:32Z",
+                        "closedAt": "2018-09-13T12:43:22Z"
+                    },
+                    {
+                        "title": "After change the VESPA_HOME from /opt/vespa to /happy-data/app/vespa, the ./vespa-start-configserver can not work well.",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6292",
+                        "createdAt": "2018-06-27T08:22:50Z",
+                        "closedAt": "2018-08-22T13:06:04Z"
+                    },
+                    {
+                        "title": "Can you give me a example for raw field type?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6298",
+                        "createdAt": "2018-06-27T11:29:44Z",
+                        "closedAt": "2018-07-04T12:30:30Z"
+                    },
+                    {
+                        "title": "In DocumentAccess.createDefault(), how to change the connection tcp/localhost:19090?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6304",
+                        "createdAt": "2018-06-28T02:48:54Z",
+                        "closedAt": "2018-07-04T12:30:20Z"
+                    },
+                    {
+                        "title": "Does tensor's label must be an identifier or integer?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6305",
+                        "createdAt": "2018-06-28T09:10:57Z",
+                        "closedAt": "2018-06-28T09:35:52Z"
+                    },
+                    {
+                        "title": "Submit ONNX tutorial for Vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6329",
+                        "createdAt": "2018-07-04T09:29:13Z",
+                        "closedAt": "2021-09-05T18:04:11Z"
+                    },
+                    {
+                        "title": "PMML / PFA support? ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6360",
+                        "createdAt": "2018-07-07T00:39:25Z",
+                        "closedAt": "2018-08-22T13:05:25Z"
+                    },
+                    {
+                        "title": "Vespa 7 OpenNlp for stemming and language detection",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6403",
+                        "createdAt": "2018-07-17T10:16:02Z",
+                        "closedAt": "2019-04-10T19:56:18Z"
+                    },
+                    {
+                        "title": "Can vespa support ik-analyzer?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6445",
+                        "createdAt": "2018-07-23T08:54:48Z",
+                        "closedAt": "2018-08-08T12:39:46Z"
+                    },
+                    {
+                        "title": "Error constructing FilterBindingsProvider after FilterChainRepository removes empty filter chain.",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6516",
+                        "createdAt": "2018-08-07T21:18:44Z",
+                        "closedAt": "2020-01-09T13:38:31Z"
+                    },
+                    {
+                        "title": "After deploying application, service only node reports \"Error writing zookeeper config\"",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6524",
+                        "createdAt": "2018-08-08T18:47:12Z",
+                        "closedAt": "2018-08-09T07:36:02Z"
+                    },
+                    {
+                        "title": "FATAL_ERRORexception='Document type blog_post does not exist",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6528",
+                        "createdAt": "2018-08-09T09:00:05Z",
+                        "closedAt": "2018-08-15T12:09:20Z"
+                    },
+                    {
+                        "title": "Introduce services.xml syntax for setting up container cluster with TLS",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6598",
+                        "createdAt": "2018-08-16T09:05:07Z",
+                        "closedAt": "2018-09-14T06:41:54Z"
+                    },
+                    {
+                        "title": "Vespa should support a boolean field type ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6644",
+                        "createdAt": "2018-08-22T08:27:34Z",
+                        "closedAt": "2019-01-30T14:11:00Z"
+                    },
+                    {
+                        "title": "Deploying application with many document types results in HTTP status code: 504",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6676",
+                        "createdAt": "2018-08-27T05:14:28Z",
+                        "closedAt": "2018-08-31T20:33:16Z"
+                    },
+                    {
+                        "title": "Custom Searching using Searcher class in vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6693",
+                        "createdAt": "2018-08-28T09:07:06Z",
+                        "closedAt": "2018-08-28T11:38:03Z"
+                    },
+                    {
+                        "title": "Predicating the HOME and WORK location by VESPA",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6751",
+                        "createdAt": "2018-08-31T09:46:07Z",
+                        "closedAt": "2018-08-31T12:43:11Z"
+                    },
+                    {
+                        "title": "Abilityt to store only index and not original document source/fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6786",
+                        "createdAt": "2018-09-04T12:49:07Z",
+                        "closedAt": "2018-09-05T13:37:03Z"
+                    },
+                    {
+                        "title": "Multiphased grouping execution in backend",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6810",
+                        "createdAt": "2018-09-05T12:31:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How to deploy multiple application on same container in vespa?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/6917",
+                        "createdAt": "2018-09-12T06:56:36Z",
+                        "closedAt": "2018-09-12T08:59:26Z"
+                    },
+                    {
+                        "title": "Intercommunication between Vespa application",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7008",
+                        "createdAt": "2018-09-19T09:31:17Z",
+                        "closedAt": "2018-09-19T14:07:44Z"
+                    },
+                    {
+                        "title": "Auto Increment of Document id in Vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7057",
+                        "createdAt": "2018-09-24T06:54:07Z",
+                        "closedAt": "2018-09-24T09:34:18Z"
+                    },
+                    {
+                        "title": "Invalid package when indexing expression `get_field` is used in a search definition",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7115",
+                        "createdAt": "2018-09-26T17:36:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Verify quick start tutorial on latest Docker on Mac",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7153",
+                        "createdAt": "2018-10-01T10:42:03Z",
+                        "closedAt": "2018-10-03T12:50:57Z"
+                    },
+                    {
+                        "title": "Build fails with Plugin not found",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7166",
+                        "createdAt": "2018-10-01T15:27:10Z",
+                        "closedAt": "2018-10-01T16:35:30Z"
+                    },
+                    {
+                        "title": "Building config-model takes long time",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7168",
+                        "createdAt": "2018-10-01T17:07:58Z",
+                        "closedAt": "2018-10-03T12:11:16Z"
+                    },
+                    {
+                        "title": "Potential lack of synchronization accessing snapshots in MetricManager",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7169",
+                        "createdAt": "2018-10-01T20:46:46Z",
+                        "closedAt": "2018-10-03T10:44:55Z"
+                    },
+                    {
+                        "title": "Wrong variable name in CacheControlSearcher trace",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7170",
+                        "createdAt": "2018-10-01T20:50:39Z",
+                        "closedAt": "2018-10-03T07:59:22Z"
+                    },
+                    {
+                        "title": "Consider using google re2j",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7171",
+                        "createdAt": "2018-10-02T01:27:47Z",
+                        "closedAt": "2018-10-17T12:24:10Z"
+                    },
+                    {
+                        "title": "Add support for importing array of struct and map attributes from a parent when using parent-child relationships",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7206",
+                        "createdAt": "2018-10-04T13:51:57Z",
+                        "closedAt": "2018-12-12T21:36:50Z"
+                    },
+                    {
+                        "title": "All internal Vespa communication protocols should run over TLS only",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7219",
+                        "createdAt": "2018-10-05T12:40:50Z",
+                        "closedAt": "2021-08-30T09:08:27Z"
+                    },
+                    {
+                        "title": "Third Party API calling in Vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7278",
+                        "createdAt": "2018-10-11T06:56:50Z",
+                        "closedAt": "2018-10-11T07:19:52Z"
+                    },
+                    {
+                        "title": "HitGroup.getFilled() sometimes fails to intersect",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7283",
+                        "createdAt": "2018-10-11T14:44:24Z",
+                        "closedAt": "2018-10-12T11:05:18Z"
+                    },
+                    {
+                        "title": "Add onear grammar value to userInput()",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7294",
+                        "createdAt": "2018-10-12T13:01:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Use JavaCPP Preset for ONNX",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7326",
+                        "createdAt": "2018-10-16T14:58:56Z",
+                        "closedAt": "2020-10-27T20:07:11Z"
+                    },
+                    {
+                        "title": "MergeHandler should expose metrics for SPI operations performed internally",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7367",
+                        "createdAt": "2018-10-18T13:52:29Z",
+                        "closedAt": "2020-07-16T11:36:27Z"
+                    },
+                    {
+                        "title": "Add support for importing position fields from parent document type",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7573",
+                        "createdAt": "2018-11-05T14:46:26Z",
+                        "closedAt": "2018-12-12T21:37:17Z"
+                    },
+                    {
+                        "title": "Blog Search tutorial broken?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7686",
+                        "createdAt": "2018-11-17T20:24:26Z",
+                        "closedAt": "2018-11-19T20:13:45Z"
+                    },
+                    {
+                        "title": "Global purge doc",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7757",
+                        "createdAt": "2018-11-23T13:55:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Tensorflow model loading fails when there are three or more inputs",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7799",
+                        "createdAt": "2018-11-28T12:19:26Z",
+                        "closedAt": "2018-12-17T15:07:57Z"
+                    },
+                    {
+                        "title": "How to apply now() function in yql query",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7825",
+                        "createdAt": "2018-11-30T12:29:00Z",
+                        "closedAt": "2018-11-30T16:43:13Z"
+                    },
+                    {
+                        "title": "Auto update of document in vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7840",
+                        "createdAt": "2018-12-03T07:26:53Z",
+                        "closedAt": "2018-12-03T07:57:46Z"
+                    },
+                    {
+                        "title": "Update document in Processor on the condition based",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7870",
+                        "createdAt": "2018-12-05T08:01:00Z",
+                        "closedAt": "2018-12-10T09:49:35Z"
+                    },
+                    {
+                        "title": "Support of different languages in vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7883",
+                        "createdAt": "2018-12-06T09:29:13Z",
+                        "closedAt": "2018-12-06T11:21:33Z"
+                    },
+                    {
+                        "title": "Vespa configserver throws an IllegalStateException on startup",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7913",
+                        "createdAt": "2018-12-09T21:29:21Z",
+                        "closedAt": "2018-12-10T17:49:29Z"
+                    },
+                    {
+                        "title": "Add support for importing complex fields (array of struct, map of struct and position fields) from grandparent via imported field in parent",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7930",
+                        "createdAt": "2018-12-12T21:37:53Z",
+                        "closedAt": "2019-01-21T11:47:03Z"
+                    },
+                    {
+                        "title": "Support signed application packages and JARs",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7932",
+                        "createdAt": "2018-12-13T08:23:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Enable CORS in vespa",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7942",
+                        "createdAt": "2018-12-17T09:26:02Z",
+                        "closedAt": "2019-01-02T13:08:56Z"
+                    },
+                    {
+                        "title": "model-integration unit tests are language dependent",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7949",
+                        "createdAt": "2018-12-17T14:24:15Z",
+                        "closedAt": "2018-12-19T12:17:45Z"
+                    },
+                    {
+                        "title": "Grouping all max issues ",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7981",
+                        "createdAt": "2018-12-20T13:04:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Content-Type: application/json;charset=utf-8 make queries fails",
+                        "url": "https://github.com/vespa-engine/vespa/issues/7983",
+                        "createdAt": "2018-12-21T09:27:54Z",
+                        "closedAt": "2019-02-12T09:37:04Z"
+                    },
+                    {
+                        "title": "Select API does not rank matched documents",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8060",
+                        "createdAt": "2019-01-08T16:25:58Z",
+                        "closedAt": "2019-01-09T14:33:28Z"
+                    },
+                    {
+                        "title": "Seniors, hello! Ask a question, whether the distributed storage under vespa is suitable for use as object storage (store file data through the raw field); if appropriate, the range storage needs to support the range function (get the file specified location specified) Length data) How to implement it in the vespa storage layer?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8099",
+                        "createdAt": "2019-01-11T09:37:20Z",
+                        "closedAt": "2019-01-16T12:38:31Z"
+                    },
+                    {
+                        "title": "Understanding when to use Predicate Fields",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8182",
+                        "createdAt": "2019-01-17T09:55:49Z",
+                        "closedAt": "2019-01-18T15:06:56Z"
+                    },
+                    {
+                        "title": "cannot get or visit documents with bool field",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8199",
+                        "createdAt": "2019-01-21T20:12:03Z",
+                        "closedAt": "2019-01-30T14:11:25Z"
+                    },
+                    {
+                        "title": "Vespa 8: Weighted set representation differs in document API and search results",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8251",
+                        "createdAt": "2019-01-28T08:47:49Z",
+                        "closedAt": "2022-06-01T11:36:56Z"
+                    },
+                    {
+                        "title": "Clarify limitations of fieldupdate versus fieldpathupdate with mode index and reject unsupported operations",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8258",
+                        "createdAt": "2019-01-28T11:57:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make rendering of arrays independent of whether they are marked as attribute",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8289",
+                        "createdAt": "2019-01-30T09:05:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Consider separating between empty strings and null",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8290",
+                        "createdAt": "2019-01-30T09:07:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How to set query term weights in yql",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8354",
+                        "createdAt": "2019-02-02T10:53:27Z",
+                        "closedAt": "2019-02-06T13:27:12Z"
+                    },
+                    {
+                        "title": "Vespa 8: Remove attribute: huge from SD parser",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8376",
+                        "createdAt": "2019-02-05T08:11:41Z",
+                        "closedAt": "2022-06-03T11:28:11Z"
+                    },
+                    {
+                        "title": "Cannot download vespa-http-client-jar-with-dependencies.jar",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8377",
+                        "createdAt": "2019-02-05T10:16:13Z",
+                        "closedAt": "2021-03-07T20:23:37Z"
+                    },
+                    {
+                        "title": "Is there any documentation about how to migrate to vespa7?",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8394",
+                        "createdAt": "2019-02-06T07:11:52Z",
+                        "closedAt": "2019-02-08T06:37:36Z"
+                    },
+                    {
+                        "title": "Suboptimal interaction between orchestrated distributor down state and client operation routing",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8448",
+                        "createdAt": "2019-02-08T15:32:45Z",
+                        "closedAt": "2019-02-25T09:49:24Z"
+                    },
+                    {
+                        "title": "Using global documents in grouped cluster topology triggers bug that may cause reduced replication for subset of data",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8475",
+                        "createdAt": "2019-02-12T13:41:46Z",
+                        "closedAt": "2019-03-04T16:50:32Z"
+                    },
+                    {
+                        "title": "Vespa 8: Remove attribute: 'tensor-type' from SD parser",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8492",
+                        "createdAt": "2019-02-13T14:49:32Z",
+                        "closedAt": "2022-06-03T09:57:52Z"
+                    },
+                    {
+                        "title": "Could Vespa set field weight in query",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8556",
+                        "createdAt": "2019-02-20T09:28:33Z",
+                        "closedAt": "2019-03-19T13:44:52Z"
+                    },
+                    {
+                        "title": "[Feature Request] grouping on aggregators",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8566",
+                        "createdAt": "2019-02-20T15:21:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Not able to use vespa version 7 or latest",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8581",
+                        "createdAt": "2019-02-22T09:18:42Z",
+                        "closedAt": "2019-02-22T09:22:46Z"
+                    },
+                    {
+                        "title": "Indexing For Imported Reference Field Doesn't Appear To Be Working",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8590",
+                        "createdAt": "2019-02-22T20:57:51Z",
+                        "closedAt": "2019-02-26T15:02:13Z"
+                    },
+                    {
+                        "title": "Support Servlet filters in JDisc",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8624",
+                        "createdAt": "2019-02-27T11:22:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Download ML models during deploy",
+                        "url": "https://github.com/vespa-engine/vespa/issues/8649",
+                        "createdAt": "2019-03-01T11:54:52Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOGMy5YQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

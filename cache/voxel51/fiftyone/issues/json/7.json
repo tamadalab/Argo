@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 902,
+                "nodes": [
+                    {
+                        "title": "[FR] Return info for unexpected labels",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1477",
+                        "createdAt": "2021-12-16T11:00:13Z",
+                        "closedAt": "2021-12-28T04:22:32Z"
+                    },
+                    {
+                        "title": "[BUG] Solidify and document path restrictions and behavior",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1479",
+                        "createdAt": "2021-12-17T22:51:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] [Urgent] Cifar-10/100 sample dataset can not be loaded in 0.14.2",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1480",
+                        "createdAt": "2021-12-20T03:01:19Z",
+                        "closedAt": "2021-12-20T03:30:08Z"
+                    },
+                    {
+                        "title": "[BUG] Lightning Flash integration doesn't work with current Flash version",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1482",
+                        "createdAt": "2021-12-23T16:50:11Z",
+                        "closedAt": "2022-04-08T16:43:04Z"
+                    },
+                    {
+                        "title": "[BUG] Authentication failed when trying to connect to custom MongoDB deployment",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1484",
+                        "createdAt": "2021-12-24T02:02:43Z",
+                        "closedAt": "2022-01-04T10:06:27Z"
+                    },
+                    {
+                        "title": "[BUG] I cannot import a simple YOLOv5 dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1487",
+                        "createdAt": "2021-12-24T21:43:13Z",
+                        "closedAt": "2021-12-27T16:28:46Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot download large zoo dataset to mounted Google Drive from Colab",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1488",
+                        "createdAt": "2021-12-25T21:41:33Z",
+                        "closedAt": "2021-12-26T03:03:35Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot import name '_registerMatType' from 'cv2.cv2'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1494",
+                        "createdAt": "2021-12-29T07:11:06Z",
+                        "closedAt": "2022-01-13T06:48:13Z"
+                    },
+                    {
+                        "title": "[BUG] IndexError when use compute_patch_embeddings() with polylines label type, fiftyone 0.14.2",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1496",
+                        "createdAt": "2021-12-30T09:06:41Z",
+                        "closedAt": "2022-01-03T16:56:15Z"
+                    },
+                    {
+                        "title": "[BUG] UnicodeDecodeError when running add_yolo_labels()",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1497",
+                        "createdAt": "2021-12-30T09:35:37Z",
+                        "closedAt": "2022-01-03T17:38:50Z"
+                    },
+                    {
+                        "title": "[BUG] fiftyone.core.service.DatabaseService failed to bind to port",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1499",
+                        "createdAt": "2022-01-02T13:10:30Z",
+                        "closedAt": "2022-01-08T07:05:43Z"
+                    },
+                    {
+                        "title": "[FR] Maintain scroll position when tagging in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1500",
+                        "createdAt": "2022-01-02T18:24:40Z",
+                        "closedAt": "2022-01-03T14:39:44Z"
+                    },
+                    {
+                        "title": "[BUG] Dataset Creation - AttibuteError: module 'fiftyone' has no attribute 'config'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1501",
+                        "createdAt": "2022-01-03T08:21:26Z",
+                        "closedAt": "2022-01-03T11:44:51Z"
+                    },
+                    {
+                        "title": "[BUG] Filtering by a datetime field near the epoch raises an exception",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1502",
+                        "createdAt": "2022-01-03T16:24:54Z",
+                        "closedAt": "2022-01-04T20:23:23Z"
+                    },
+                    {
+                        "title": "[BUG] App cannot render empty heatmaps",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1503",
+                        "createdAt": "2022-01-03T17:09:29Z",
+                        "closedAt": "2022-05-23T19:23:26Z"
+                    },
+                    {
+                        "title": "[BUG] TypeError: '<' not supported between instances of 'str' and 'NoneType' when trying to create a dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1507",
+                        "createdAt": "2022-01-04T12:41:30Z",
+                        "closedAt": "2022-01-07T21:36:44Z"
+                    },
+                    {
+                        "title": "[BUG] The epoch incorrectly renders as 0 in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1509",
+                        "createdAt": "2022-01-04T20:22:01Z",
+                        "closedAt": "2022-05-23T19:23:25Z"
+                    },
+                    {
+                        "title": "[?] How to exclude iscrowd objects from COCO-2017 dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1512",
+                        "createdAt": "2022-01-05T18:11:02Z",
+                        "closedAt": "2022-01-05T18:48:50Z"
+                    },
+                    {
+                        "title": "[FR] Add support for importing/exporting segmentation data in VOCDetectionDataset format?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1514",
+                        "createdAt": "2022-01-06T19:04:56Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Customize colors of semantics segmentation masks in App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1515",
+                        "createdAt": "2022-01-07T00:02:58Z",
+                        "closedAt": "2022-01-07T10:16:05Z"
+                    },
+                    {
+                        "title": "[BUG] Export relative paths in COCO `file_name` field",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1516",
+                        "createdAt": "2022-01-07T09:14:30Z",
+                        "closedAt": "2022-01-07T14:59:23Z"
+                    },
+                    {
+                        "title": "[DOCUMENTATION] More elegant COCO bbox format.",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1517",
+                        "createdAt": "2022-01-07T13:12:13Z",
+                        "closedAt": "2022-01-07T15:38:50Z"
+                    },
+                    {
+                        "title": "[?] How to run evaluation on subsets of categories and labels",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1519",
+                        "createdAt": "2022-01-07T23:29:07Z",
+                        "closedAt": "2022-03-10T14:32:43Z"
+                    },
+                    {
+                        "title": "[FR] Add support for alternate media filepaths in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1520",
+                        "createdAt": "2022-01-10T00:22:23Z",
+                        "closedAt": "2022-06-01T23:17:40Z"
+                    },
+                    {
+                        "title": "[BUG] Gracefully handle attempts to load a deleted dataset in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1521",
+                        "createdAt": "2022-01-10T15:10:50Z",
+                        "closedAt": "2022-05-23T19:23:25Z"
+                    },
+                    {
+                        "title": "[FR] Resolve inconsistencies in label names when importing multiple fields versus a single field",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1522",
+                        "createdAt": "2022-01-10T16:46:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Exception raised when finding duplicates on dataset view",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1527",
+                        "createdAt": "2022-01-12T15:16:35Z",
+                        "closedAt": "2022-01-12T22:41:29Z"
+                    },
+                    {
+                        "title": "[BUG] dataset.apply_model AttributeError: Can't pickle local object '_make_data_loader.<locals>.collate_fn'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1531",
+                        "createdAt": "2022-01-12T22:34:15Z",
+                        "closedAt": "2022-01-13T00:48:27Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot load zoo model centernet-mobilenet-v2-fpn-512-coco-tf2",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1536",
+                        "createdAt": "2022-01-13T02:43:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Have some problems with Windows but works fine with Ubuntu",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1539",
+                        "createdAt": "2022-01-14T08:46:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] mAP and Confusion Matrix are not wrongly calculated!",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1541",
+                        "createdAt": "2022-01-17T22:13:00Z",
+                        "closedAt": "2022-01-18T15:37:02Z"
+                    },
+                    {
+                        "title": "[BUG] Compute mistakenness cannot handle None-valued predictions",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1543",
+                        "createdAt": "2022-01-18T07:16:26Z",
+                        "closedAt": "2022-01-21T00:16:18Z"
+                    },
+                    {
+                        "title": "[FR] harcode colors in my run ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1544",
+                        "createdAt": "2022-01-18T17:20:50Z",
+                        "closedAt": "2022-01-18T17:25:04Z"
+                    },
+                    {
+                        "title": "[FR] Display similarity score in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1545",
+                        "createdAt": "2022-01-19T06:23:12Z",
+                        "closedAt": "2022-01-20T06:51:08Z"
+                    },
+                    {
+                        "title": "[FR] Import tags when loading a CVATImageDataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1546",
+                        "createdAt": "2022-01-19T16:34:15Z",
+                        "closedAt": "2022-01-31T13:15:47Z"
+                    },
+                    {
+                        "title": "[BUG] Unable to download OpenImage Dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1550",
+                        "createdAt": "2022-01-20T09:44:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] increase brightness",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1551",
+                        "createdAt": "2022-01-20T14:05:08Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Docs section highlight is not working",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1552",
+                        "createdAt": "2022-01-20T14:41:17Z",
+                        "closedAt": "2022-06-17T14:24:16Z"
+                    },
+                    {
+                        "title": "[FR] Add keyboard shortcut to hide all visible labels in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1553",
+                        "createdAt": "2022-01-20T22:51:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Change order of precedence of zoom and frame scrubbing for videos ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1554",
+                        "createdAt": "2022-01-21T00:06:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Unable to download the cifar10 dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1557",
+                        "createdAt": "2022-01-21T12:10:21Z",
+                        "closedAt": "2022-01-31T16:43:00Z"
+                    },
+                    {
+                        "title": "[BUG] Unable to donwload the mnist dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1558",
+                        "createdAt": "2022-01-21T12:13:26Z",
+                        "closedAt": "2022-01-31T16:39:36Z"
+                    },
+                    {
+                        "title": "CVAT credentials not found",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1559",
+                        "createdAt": "2022-01-21T18:56:23Z",
+                        "closedAt": "2022-01-21T20:28:41Z"
+                    },
+                    {
+                        "title": "[FR] Grid Zoom: Smallest images still too large",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1561",
+                        "createdAt": "2022-01-23T16:48:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] App can't render samples with empty Keypoint data",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1562",
+                        "createdAt": "2022-01-24T15:41:13Z",
+                        "closedAt": "2022-02-01T20:42:17Z"
+                    },
+                    {
+                        "title": "[FR] Add support for storing and rendering skeletons for keypoint fields",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1563",
+                        "createdAt": "2022-01-24T16:40:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Improve relationship loading logic when downloading Open Images V6",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1565",
+                        "createdAt": "2022-01-26T15:38:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[?] How can I find duplicate samples in my dataset?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1567",
+                        "createdAt": "2022-01-27T09:25:53Z",
+                        "closedAt": "2022-01-29T02:47:49Z"
+                    },
+                    {
+                        "title": "[BUG] Too many open files",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1568",
+                        "createdAt": "2022-01-27T14:18:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG]ServiceListenTimeout: fiftyone.core.service.DatabaseService failed to bind to port",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1570",
+                        "createdAt": "2022-01-28T09:29:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] App fails to load media filepaths that need encoding",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1571",
+                        "createdAt": "2022-01-28T14:34:27Z",
+                        "closedAt": "2022-01-28T21:35:27Z"
+                    },
+                    {
+                        "title": "[FR] Python 3.10 Support",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1574",
+                        "createdAt": "2022-01-28T21:57:17Z",
+                        "closedAt": "2022-08-04T20:25:45Z"
+                    },
+                    {
+                        "title": "Frontend Is Undocumented ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1579",
+                        "createdAt": "2022-02-02T23:51:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add support for per-point confidence/visibility ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1581",
+                        "createdAt": "2022-02-03T18:02:04Z",
+                        "closedAt": "2022-04-21T15:37:09Z"
+                    },
+                    {
+                        "title": "[SETUP-BUG] Installation of developer build fails on Apple Silicon Mac",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1584",
+                        "createdAt": "2022-02-04T00:20:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[SETUP-BUG] Pre-commit fails (Apple Silicon Mac)",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1585",
+                        "createdAt": "2022-02-04T00:26:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ConnectionError",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1590",
+                        "createdAt": "2022-02-08T03:37:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Cannot encode object fiftyone.utils.cvat.CVATAnnotationResults",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1591",
+                        "createdAt": "2022-02-08T17:30:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Handle CVAT character limit",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1592",
+                        "createdAt": "2022-02-08T20:46:19Z",
+                        "closedAt": "2022-03-23T21:38:50Z"
+                    },
+                    {
+                        "title": "[FR] None vs empty list when importing annotations",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1593",
+                        "createdAt": "2022-02-08T21:41:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add patch padding slider to App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1594",
+                        "createdAt": "2022-02-09T14:02:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] oh-my-zsh plugin for cli",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1596",
+                        "createdAt": "2022-02-11T06:21:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add dataset export for dataset selected with lasso within the interactive plot",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1597",
+                        "createdAt": "2022-02-11T07:35:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add a Select All Sample Button or Checkbox for the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1598",
+                        "createdAt": "2022-02-11T08:30:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG]  Not Found for url: https://cvat.org/api/v1/auth/login",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1599",
+                        "createdAt": "2022-02-13T09:55:58Z",
+                        "closedAt": "2022-03-23T21:38:50Z"
+                    },
+                    {
+                        "title": "[BUG] import fiftyone.brain fails on Apple Silicon Mac",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1600",
+                        "createdAt": "2022-02-14T20:19:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Cannot load Regression labels in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1602",
+                        "createdAt": "2022-02-16T17:56:23Z",
+                        "closedAt": "2022-02-17T14:55:40Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot locate my database directory on disk",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1603",
+                        "createdAt": "2022-02-16T18:07:12Z",
+                        "closedAt": "2022-02-16T18:14:27Z"
+                    },
+                    {
+                        "title": "[FR] Load/Create Dataset from xarray",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1605",
+                        "createdAt": "2022-02-16T19:11:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG]Unhandled expcetion with convert",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1606",
+                        "createdAt": "2022-02-17T15:51:21Z",
+                        "closedAt": "2022-03-03T20:10:25Z"
+                    },
+                    {
+                        "title": "[BUG] OperationFailure: BSONObj size is invalid (video datasets with lots of frame labels)",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1607",
+                        "createdAt": "2022-02-17T17:49:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add a report_dict return in case of reuse ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1608",
+                        "createdAt": "2022-02-18T01:56:54Z",
+                        "closedAt": "2022-02-18T02:26:17Z"
+                    },
+                    {
+                        "title": "[FR] Support for keypoint annotations inside a Detection instance",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1610",
+                        "createdAt": "2022-02-20T10:50:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Reaching CVAT server from fiftyone Python core package, at Linux machine, behind company VPN",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1611",
+                        "createdAt": "2022-02-21T14:45:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR]Chinese users cannot download demo data",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1613",
+                        "createdAt": "2022-02-22T07:52:16Z",
+                        "closedAt": "2022-02-25T15:05:54Z"
+                    },
+                    {
+                        "title": "[BUG] BadZipFile: File is not a zip file",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1620",
+                        "createdAt": "2022-02-28T22:10:17Z",
+                        "closedAt": "2022-02-28T22:18:49Z"
+                    },
+                    {
+                        "title": "[BUG] App auto loads more pages then gets blank",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1621",
+                        "createdAt": "2022-03-01T05:19:20Z",
+                        "closedAt": "2022-03-22T01:36:56Z"
+                    },
+                    {
+                        "title": "Can't see annotation in CVAT after view.annotate(...)",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1622",
+                        "createdAt": "2022-03-01T07:02:03Z",
+                        "closedAt": "2022-03-01T07:46:40Z"
+                    },
+                    {
+                        "title": "[Errno 24] Too many open files when call view.annotate(...) with 2000 `Open-Image` images",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1623",
+                        "createdAt": "2022-03-01T08:32:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Skip samples for which metadata cannot be computed when annotating with CVAT",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1624",
+                        "createdAt": "2022-03-01T14:13:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] [DOCUMENTATION]: Cannot load models - \"You must run `eta install models` in order to use this model\" and \"module 'eta' has no attribute 'config'\"",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1626",
+                        "createdAt": "2022-03-03T14:27:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Coco Object Detection Data Loader fails to read annotation json files if it contains \"info\":  NULL",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1629",
+                        "createdAt": "2022-03-04T05:50:32Z",
+                        "closedAt": "2022-03-16T23:00:47Z"
+                    },
+                    {
+                        "title": "[BUG] compute_similarity fails to process TIFF images on Windows",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1631",
+                        "createdAt": "2022-03-05T21:35:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] 404: Not Found when launching the app",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1633",
+                        "createdAt": "2022-03-07T23:27:25Z",
+                        "closedAt": "2022-03-09T00:10:58Z"
+                    },
+                    {
+                        "title": "[BUG] missing annotations when using import_annotations with CVAT video task and exporting to CVAT video format",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1634",
+                        "createdAt": "2022-03-08T15:16:22Z",
+                        "closedAt": "2022-03-23T21:38:50Z"
+                    },
+                    {
+                        "title": "[?] How to visualize small AND large variations in confusion matrices",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1635",
+                        "createdAt": "2022-03-09T17:29:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[?] When and where are images on disk read into memory by FiftyOne?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1636",
+                        "createdAt": "2022-03-10T11:20:13Z",
+                        "closedAt": "2022-03-15T07:06:19Z"
+                    },
+                    {
+                        "title": "[BUG] module 'fiftyone.utils' has no attribute 'coco'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1637",
+                        "createdAt": "2022-03-11T01:22:47Z",
+                        "closedAt": "2022-03-11T02:22:45Z"
+                    },
+                    {
+                        "title": "[FR] Add support for subclassing `Sample`",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1643",
+                        "createdAt": "2022-03-16T11:04:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] mongodb connection issues when merging several datasets",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1645",
+                        "createdAt": "2022-03-17T08:33:05Z",
+                        "closedAt": "2022-03-17T15:28:52Z"
+                    },
+                    {
+                        "title": "[FR] Add interpolation method to transform_images funciton",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1648",
+                        "createdAt": "2022-03-18T12:05:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] `ImportError: cannot import name 'soft_unicode' from 'markupsafe'`",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1651",
+                        "createdAt": "2022-03-18T23:01:11Z",
+                        "closedAt": "2022-03-23T17:24:03Z"
+                    },
+                    {
+                        "title": "[BUG] __call__() got multiple values for argument 'name'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1653",
+                        "createdAt": "2022-03-19T09:39:16Z",
+                        "closedAt": "2022-03-19T15:16:22Z"
+                    },
+                    {
+                        "title": "[BUG] Error when annotating sample-level video label with Labelbox",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1654",
+                        "createdAt": "2022-03-22T21:29:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Support Fortran ordered masks in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1657",
+                        "createdAt": "2022-03-24T15:36:15Z",
+                        "closedAt": "2022-03-29T18:28:12Z"
+                    },
+                    {
+                        "title": "[SETUP-BUG] Installation is finished successfully, but dir ~/.fiftyone is absent.",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1661",
+                        "createdAt": "2022-03-28T14:09:06Z",
+                        "closedAt": "2022-03-28T14:27:00Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot connect to Desktop App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1665",
+                        "createdAt": "2022-03-31T14:59:14Z",
+                        "closedAt": "2022-04-11T13:00:38Z"
+                    },
+                    {
+                        "title": "[BUG] CSRF Failed when connecting to CVAT servers",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1668",
+                        "createdAt": "2022-04-05T13:46:23Z",
+                        "closedAt": "2022-04-08T16:42:48Z"
+                    },
+                    {
+                        "title": "Wrong mention of the function name [DOCUMENTATION]",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1669",
+                        "createdAt": "2022-04-06T11:01:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Tie scatter points and image together on click in visualize embedding setup",
+                        "url": "https://github.com/voxel51/fiftyone/issues/1672",
+                        "createdAt": "2022-04-06T19:28:24Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHORztr4g==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

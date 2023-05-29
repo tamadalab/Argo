@@ -24,8 +24,8 @@ def Prep(file):
 
     # cratedAt, closedAtの読み込み
     for i in range(0, len(csv_input.index)):
-        additions.append(csv_input.iat[i,5])
-        deletions.append(csv_input.iat[i,0])
+        additions.append(csv_input.iat[i,0])
+        deletions.append(csv_input.iat[i,3])
         create_list.append(re.findall("(.*)/", csv_input.iat[i,2]))
     create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
     c = collections.Counter(create_list) #辞書型  c = {"~~" : n ,,,} 
@@ -51,7 +51,7 @@ def Prep(file):
         # コードの増減計算
         for m in range(value):
             temp = additions[n] + deletions[n]
-            value_tmp = value 
+            value_tmp = value
             amount += temp
             n = n + 1
         code_amount.append(amount)

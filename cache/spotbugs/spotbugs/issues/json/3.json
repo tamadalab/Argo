@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 960,
+                "nodes": [
+                    {
+                        "title": "Too loud output",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/506",
+                        "createdAt": "2017-11-29T04:13:53Z",
+                        "closedAt": "2018-02-20T00:06:39Z"
+                    },
+                    {
+                        "title": "False positive with @RequestParam NP_NULL_PARAM_DEREF_ALL_TARGETS_DANGEROUS",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/508",
+                        "createdAt": "2017-12-07T16:00:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Eclipse plugin: Finished dialog comes up early",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/509",
+                        "createdAt": "2017-12-08T14:17:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "The download site for the Eclipse plugin is dead",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/510",
+                        "createdAt": "2017-12-14T07:23:05Z",
+                        "closedAt": "2017-12-14T07:36:55Z"
+                    },
+                    {
+                        "title": "Adhering to EQ_DOESNT_OVERRIDE_EQUALS requires violation of equals method contract",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/511",
+                        "createdAt": "2017-12-18T11:43:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Feature request: Collectors.toMap + null",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/513",
+                        "createdAt": "2017-12-27T21:10:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Initial migration of the FindBugs-IDEA plugin to SpotBugs",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/515",
+                        "createdAt": "2018-01-02T17:20:14Z",
+                        "closedAt": "2020-03-27T08:02:05Z"
+                    },
+                    {
+                        "title": "Unused variable reported with wrong name",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/516",
+                        "createdAt": "2018-01-03T12:13:02Z",
+                        "closedAt": "2018-02-12T12:08:51Z"
+                    },
+                    {
+                        "title": "RV_RETURN_VALUE_IGNORED should check com.google.errorprone.annotations.CanIgnoreReturnValue",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/518",
+                        "createdAt": "2018-01-04T09:28:14Z",
+                        "closedAt": "2018-02-25T08:42:39Z"
+                    },
+                    {
+                        "title": "Merge 3.1.x fixes into 4.0",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/519",
+                        "createdAt": "2018-01-04T16:27:20Z",
+                        "closedAt": "2018-01-13T08:04:18Z"
+                    },
+                    {
+                        "title": "Maven plugin spot-bugs leads to mvn incompatibilities in other plugins",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/521",
+                        "createdAt": "2018-01-05T12:20:17Z",
+                        "closedAt": "2018-01-07T13:51:23Z"
+                    },
+                    {
+                        "title": "Supported annotations are not documented?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/522",
+                        "createdAt": "2018-01-06T10:21:59Z",
+                        "closedAt": "2021-09-06T00:47:46Z"
+                    },
+                    {
+                        "title": "Support @org.checkerframework.checker.nullness.compatqual.NullableDecl etc.",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/523",
+                        "createdAt": "2018-01-08T08:20:12Z",
+                        "closedAt": "2018-01-30T08:59:03Z"
+                    },
+                    {
+                        "title": "Gradle Plugin 1.6 does not seem to be working with android",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/524",
+                        "createdAt": "2018-01-08T13:43:03Z",
+                        "closedAt": "2018-02-09T19:03:00Z"
+                    },
+                    {
+                        "title": "Should not fail when there are no classes for inspection",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/525",
+                        "createdAt": "2018-01-09T13:04:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Lambda methods reported as missing classes",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/527",
+                        "createdAt": "2018-01-11T19:59:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Gradle build failing with \"Failed to run Gradle SpotBugs Worker\"",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/530",
+                        "createdAt": "2018-01-12T19:39:07Z",
+                        "closedAt": "2018-04-28T10:13:59Z"
+                    },
+                    {
+                        "title": "Error during deployment to eclipse daily site ",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/531",
+                        "createdAt": "2018-01-13T08:30:01Z",
+                        "closedAt": "2018-01-13T11:06:54Z"
+                    },
+                    {
+                        "title": "must be non-null but is marked as nullable with StringUtils.isBlank() check",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/536",
+                        "createdAt": "2018-01-16T10:04:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Document how to integrate FInd Security Bugs + FB-Contrib into Maven & Gradle plugins",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/540",
+                        "createdAt": "2018-01-19T17:57:03Z",
+                        "closedAt": "2021-11-11T10:27:25Z"
+                    },
+                    {
+                        "title": "Program code is not showing on spotbugs gui source code pane",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/542",
+                        "createdAt": "2018-01-21T23:08:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for filtering by annotation",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/543",
+                        "createdAt": "2018-01-22T05:50:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[Eclipse] Spotbugs perspective not opened after analysis",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/544",
+                        "createdAt": "2018-01-22T10:58:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Should error when trying to pass null value from a list  as @NonNull parameter",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/545",
+                        "createdAt": "2018-01-23T10:25:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Should error when checking for null even though parameter is annotated with @NonNull",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/546",
+                        "createdAt": "2018-01-23T10:53:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Error on lambda analysis: \"Constant pool at index 0 is null.\"",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/547",
+                        "createdAt": "2018-01-23T13:42:54Z",
+                        "closedAt": "2018-01-30T08:58:13Z"
+                    },
+                    {
+                        "title": "java.lang.IllegalArgumentException: Unable to register token in file WebContent/chilexpress/reportes.jsp",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/548",
+                        "createdAt": "2018-01-24T13:55:20Z",
+                        "closedAt": "2018-01-28T08:15:22Z"
+                    },
+                    {
+                        "title": "Exception processing 'pushByLongMath' with opcode 109, lhs < J, 0, cbz > and rhs < J, 0, cbz >",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/549",
+                        "createdAt": "2018-01-24T14:05:27Z",
+                        "closedAt": "2018-01-28T08:13:30Z"
+                    },
+                    {
+                        "title": "Nullable check fails when referenced inside a lambda",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/552",
+                        "createdAt": "2018-01-31T14:09:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add ability to specify annotation type in filter file.",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/553",
+                        "createdAt": "2018-02-05T17:41:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SpotBugs lifecycle and event when a scan completed",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/555",
+                        "createdAt": "2018-02-05T21:24:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Eclipse plugin does not detect any bugs",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/556",
+                        "createdAt": "2018-02-07T14:48:44Z",
+                        "closedAt": "2018-09-17T04:00:24Z"
+                    },
+                    {
+                        "title": "java.io.IOException: Wrong magic bytes of 4a4d4820 for zip file",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/557",
+                        "createdAt": "2018-02-13T08:44:12Z",
+                        "closedAt": "2018-02-25T08:36:35Z"
+                    },
+                    {
+                        "title": "Add explanation about -pluginList option",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/558",
+                        "createdAt": "2018-02-18T11:42:35Z",
+                        "closedAt": "2018-05-09T09:04:15Z"
+                    },
+                    {
+                        "title": "No warning about unnecessary un-/boxing when incrementing Integer",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/559",
+                        "createdAt": "2018-02-19T08:44:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SIC_INNER_SHOULD_BE_STATIC: should be ignored on classes with JUnit5's @Nested",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/560",
+                        "createdAt": "2018-02-19T12:40:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Objects.deepEquals with known types",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/561",
+                        "createdAt": "2018-02-20T19:57:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "NP_NONNULL_RETURN_VIOLATION: Inconsistent reporting",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/562",
+                        "createdAt": "2018-02-21T13:01:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Question about 549 and 413",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/563",
+                        "createdAt": "2018-02-21T15:49:03Z",
+                        "closedAt": "2018-04-14T09:11:35Z"
+                    },
+                    {
+                        "title": "Rank matcher and its documentation do not match",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/566",
+                        "createdAt": "2018-02-23T10:07:45Z",
+                        "closedAt": "2020-11-28T00:16:23Z"
+                    },
+                    {
+                        "title": "UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR: false positive",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/567",
+                        "createdAt": "2018-02-23T11:25:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[3.1.2] DLS_DEAD_LOCAL_STORE false-positive (regression)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/571",
+                        "createdAt": "2018-02-25T13:21:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "LO_INVALID_STRING_FORMAT_NOTATION should handle Log4j2 formatter logger",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/572",
+                        "createdAt": "2018-02-26T09:10:29Z",
+                        "closedAt": "2018-05-08T04:05:21Z"
+                    },
+                    {
+                        "title": "Any plans to support kotlin?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/573",
+                        "createdAt": "2018-02-27T03:21:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "URF_UNREAD_FIELD: should be ignored on test class fields annotated with JUnit5's @RegisterExtension",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/574",
+                        "createdAt": "2018-02-28T12:50:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Manifest missing from jar after ./gradlew build",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/575",
+                        "createdAt": "2018-03-02T23:57:53Z",
+                        "closedAt": "2018-03-12T20:08:23Z"
+                    },
+                    {
+                        "title": "404",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/577",
+                        "createdAt": "2018-03-07T16:07:54Z",
+                        "closedAt": "2018-03-10T00:46:50Z"
+                    },
+                    {
+                        "title": "False positive: 'return value ignored' on Guavas Preconditions.checkNotNull()",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/578",
+                        "createdAt": "2018-03-09T07:23:31Z",
+                        "closedAt": "2018-06-08T04:44:41Z"
+                    },
+                    {
+                        "title": "False positive: 'parameter must be non null' even though parameter was checked by Guavas Preconditions.checkNotNull()",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/580",
+                        "createdAt": "2018-03-09T07:34:20Z",
+                        "closedAt": "2018-05-13T02:55:29Z"
+                    },
+                    {
+                        "title": "Support for error_prone's @CanIgnoreReturnValue does not work for guava < 23.6-jre",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/582",
+                        "createdAt": "2018-03-09T10:39:23Z",
+                        "closedAt": "2018-04-03T06:04:22Z"
+                    },
+                    {
+                        "title": "Dead links in Eclipse Marketplace",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/583",
+                        "createdAt": "2018-03-09T14:55:05Z",
+                        "closedAt": "2018-03-12T02:05:32Z"
+                    },
+                    {
+                        "title": "Is it possible to develop a new spotbugs plugin to analyze XML configuration files?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/585",
+                        "createdAt": "2018-03-12T15:20:41Z",
+                        "closedAt": "2018-05-08T04:16:29Z"
+                    },
+                    {
+                        "title": "Null Boolean autoboxing to boolean",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/586",
+                        "createdAt": "2018-03-12T16:45:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add a detector to check if placeholder correct when call log.[info|error|warn|debug|trace].",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/587",
+                        "createdAt": "2018-03-16T07:06:02Z",
+                        "closedAt": "2018-03-20T03:44:54Z"
+                    },
+                    {
+                        "title": "Plugin file handles are leaking",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/589",
+                        "createdAt": "2018-03-17T21:22:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Is there a detector that detects the problem of synchronized on local variables?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/590",
+                        "createdAt": "2018-03-19T02:03:17Z",
+                        "closedAt": "2018-10-19T07:38:23Z"
+                    },
+                    {
+                        "title": "Spotbugs 3.1.2 don't run in Java 10",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/593",
+                        "createdAt": "2018-03-21T19:14:34Z",
+                        "closedAt": "2018-04-09T08:40:13Z"
+                    },
+                    {
+                        "title": "Java 9 Illegal reflective access warning",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/594",
+                        "createdAt": "2018-03-21T23:25:41Z",
+                        "closedAt": "2018-03-22T02:20:31Z"
+                    },
+                    {
+                        "title": "RANGE_ARRAY_LENGHT and RANGE_ARRAY_OFFSET false negative",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/595",
+                        "createdAt": "2018-03-23T15:02:55Z",
+                        "closedAt": "2018-05-07T11:45:31Z"
+                    },
+                    {
+                        "title": "Java 9 Illegal reflective access groovy 2.4.13",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/598",
+                        "createdAt": "2018-03-24T15:09:36Z",
+                        "closedAt": "2018-04-28T21:35:43Z"
+                    },
+                    {
+                        "title": "redundant null check doesn't recognize new pattern generated by javac in JDK 11",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/600",
+                        "createdAt": "2018-03-28T11:40:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Dataflow generates too much log",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/601",
+                        "createdAt": "2018-03-29T06:56:17Z",
+                        "closedAt": "2018-11-23T13:02:42Z"
+                    },
+                    {
+                        "title": "EI_EXPOSE_REP2: Inconsistent reporting",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/603",
+                        "createdAt": "2018-03-30T13:55:04Z",
+                        "closedAt": "2018-05-07T11:03:33Z"
+                    },
+                    {
+                        "title": "CNT_ROUGH_CONSTANT_VALUE fires on float constants defined with predefined library constants",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/604",
+                        "createdAt": "2018-03-30T21:05:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unit test ClassFactoryTest.ignoreUnreadableFile fails on Windows",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/605",
+                        "createdAt": "2018-03-30T23:54:20Z",
+                        "closedAt": "2018-04-02T09:48:40Z"
+                    },
+                    {
+                        "title": "Exception analyzing ... using detector edu.umd.cs.findbugs.detect.RedundantConditions",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/608",
+                        "createdAt": "2018-04-05T16:00:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Java9 Cannot omit visitor SerializableIdiom",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/611",
+                        "createdAt": "2018-04-11T16:59:27Z",
+                        "closedAt": "2018-04-12T08:09:27Z"
+                    },
+                    {
+                        "title": "Adding SpotBugs as plugin causes JavaCC compile failure",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/612",
+                        "createdAt": "2018-04-16T23:05:17Z",
+                        "closedAt": "2018-04-28T09:33:53Z"
+                    },
+                    {
+                        "title": "Regression in 3.1.3: false alarm for \"Parameter must be non-null but is marked as nullable\"",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/616",
+                        "createdAt": "2018-04-26T12:57:39Z",
+                        "closedAt": "2020-06-10T06:43:45Z"
+                    },
+                    {
+                        "title": "Encountering false positives with newer versions of Guava that use @NullableDecl",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/621",
+                        "createdAt": "2018-05-03T02:08:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add PMD self-checks",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/623",
+                        "createdAt": "2018-05-03T02:21:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Project structure for eclipse plugin",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/625",
+                        "createdAt": "2018-05-04T19:58:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Possible logic error: UselessSubclassMethod.differentAttributes",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/626",
+                        "createdAt": "2018-05-05T12:28:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for Kotlin precondition methods",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/628",
+                        "createdAt": "2018-05-07T15:57:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Useless assertion in FindInconsistentSync2",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/629",
+                        "createdAt": "2018-05-07T20:16:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "NP_METHOD_PARAMETER_TIGHTENS_ANNOTATION erroneously issued",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/631",
+                        "createdAt": "2018-05-08T21:27:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "UncallableMethodOfAnonymousClass logic error regarding multiple matches",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/632",
+                        "createdAt": "2018-05-09T00:03:13Z",
+                        "closedAt": "2018-05-09T00:03:50Z"
+                    },
+                    {
+                        "title": "NP_METHOD_PARAMETER_TIGHTENS_ANNOTATION erroneously issued on equals(@Nullable Object)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/633",
+                        "createdAt": "2018-05-09T15:21:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Need to choose a cloning strategy",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/634",
+                        "createdAt": "2018-05-09T22:54:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Need to choose a logging strategy",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/635",
+                        "createdAt": "2018-05-10T02:57:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "JDK 6 compatibility",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/636",
+                        "createdAt": "2018-05-11T11:57:19Z",
+                        "closedAt": "2018-05-11T13:00:20Z"
+                    },
+                    {
+                        "title": "SimpleDateFormat string checks",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/637",
+                        "createdAt": "2018-05-14T19:09:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Need to increase test coverage",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/639",
+                        "createdAt": "2018-05-14T22:27:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "OS_OPEN_STREAM erroneously issued",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/640",
+                        "createdAt": "2018-05-15T01:31:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "A checker that for unnecessary @SuppressFBWarnings ?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/641",
+                        "createdAt": "2018-05-16T19:21:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Null passed for non-null parameter  in MapSqlParameterSource",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/642",
+                        "createdAt": "2018-05-17T16:51:24Z",
+                        "closedAt": "2018-05-18T11:30:25Z"
+                    },
+                    {
+                        "title": "Support for JSR308 type annotations in nullness checker",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/643",
+                        "createdAt": "2018-05-25T08:58:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "False positive RCN_REDUNDANT_NULLCHECK_OF_NONNULL_VALUE and NP_LOAD_OF_KNOWN_NULL_VALUE when using empty try-with-resources",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/647",
+                        "createdAt": "2018-06-01T16:09:53Z",
+                        "closedAt": "2020-09-25T07:41:38Z"
+                    },
+                    {
+                        "title": "Update to ASM 6.2",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/648",
+                        "createdAt": "2018-06-03T09:09:22Z",
+                        "closedAt": "2018-06-04T05:56:52Z"
+                    },
+                    {
+                        "title": "SpotBugs should warn about file descriptor leak for Files.list().forEach() unclosed stream",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/650",
+                        "createdAt": "2018-06-04T21:09:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "findbugs:NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE does not consider null validation",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/651",
+                        "createdAt": "2018-06-05T13:16:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "spotbugs-ant Ant dependency in wrong scope",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/655",
+                        "createdAt": "2018-06-08T14:45:32Z",
+                        "closedAt": "2018-06-11T07:07:46Z"
+                    },
+                    {
+                        "title": "Best way to add detection of a specific bug to spotbugs?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/660",
+                        "createdAt": "2018-06-11T13:55:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Need both of IO.close(Closeable) and IO.close(AutoCloseable)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/661",
+                        "createdAt": "2018-06-12T03:55:57Z",
+                        "closedAt": "2018-06-12T21:09:37Z"
+                    },
+                    {
+                        "title": "PluginLoader throws NPE",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/663",
+                        "createdAt": "2018-06-12T07:11:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How do I have gradle show the long names of codes?",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/664",
+                        "createdAt": "2018-06-13T03:32:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "run error",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/669",
+                        "createdAt": "2018-06-14T17:33:38Z",
+                        "closedAt": "2018-06-15T18:27:22Z"
+                    },
+                    {
+                        "title": "Potential NPE in test-harness-core",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/671",
+                        "createdAt": "2018-06-19T05:21:11Z",
+                        "closedAt": "2018-07-03T03:31:02Z"
+                    },
+                    {
+                        "title": "Unable to read repository",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/674",
+                        "createdAt": "2018-06-19T17:34:04Z",
+                        "closedAt": "2018-07-05T12:47:14Z"
+                    },
+                    {
+                        "title": "Spotbugs does not find some warnings/errors within class that extends some other class",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/675",
+                        "createdAt": "2018-06-20T13:52:23Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOE-nJPQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

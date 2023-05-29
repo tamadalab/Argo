@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Improve lb responsiveness","2017-10/28","2017-10/28","2017-10/28",True,"2017-10/28",4,66,17
+"Forward add_routing_for_appserver","2017-10/30","2017-10/30","2017-10/30",True,"2017-10/30",3,17,8
+"Handle UpdateCron requests","2017-10/31","2018-1/31","2017-10/31",True,"2018-1/31",4,236,134
+"Remote profiler","2017-10/31","2018-1/31","2017-10/31",False,"null",2,1001,735
+"Retrieve inbound services from ZooKeeper","2017-10/31","2017-11/31","2017-10/31",True,"2017-11/31",3,21,36
+"Ensure lb has latest source","2017-11/2","2017-11/2","2017-11/2",True,"2017-11/2",3,10,32
+"Specify full path to appscale-stop-instance","2017-11/2","2017-12/2","2017-11/2",True,"2017-12/2",3,10,2
+"Use current login option","2017-11/3","2017-11/3","2017-11/3",True,"2017-11/3",3,15,9
+"Ruby codestyle changes","2017-11/3","2017-11/3","2017-11/3",True,"2017-11/3",4,1384,1865
+"Simplify datastore error handling","2017-11/6","2018-3/6","2017-11/6",True,"2018-3/6",3,108,170
+"Wait after a restore for cluster to be ready","2017-11/7","2017-11/7","2017-11/7",True,"2017-11/7",4,30,0
+"Set up blobstore routing on each load balancer","2017-11/7","2017-11/7","2017-11/7",True,"2017-11/7",3,6,2
+"Avoid warning message from ssh-keygen","2017-11/7","2018-1/7","2017-11/7",True,"2018-1/7",4,30,23
+"Keep track of ZooKeeper state with TransactionManager","2017-11/8","2017-11/8","2017-11/8",True,"2017-11/8",3,773,1580
+"Remove support for precise","2017-11/8","2017-12/8","2017-11/8",True,"2017-12/8",4,11,243
+"Fixed typo during codestyle changes","2017-11/9","2017-11/9","2017-11/9",True,"2017-11/9",4,1,1
+"Add bin, bout, hrsp_4xx, hrsp_5xx to proxy.frontend include list","2017-11/9","2017-12/9","2017-11/9",True,"2017-12/9",4,2,1
+"Add support for Jessie","2017-11/10","2017-12/10","2017-11/10",True,"2017-12/10",4,151,18
+"Start proper epmd service even without RabbitMQ","2017-11/10","2017-11/10","2017-11/10",True,"2017-11/10",3,26,20
+"Kill instances when they exceed memory limit","2017-11/11","2017-11/11","2017-11/11",True,"2017-11/11",4,34,6
+"Treat HAProxy 'DOWN' states the same","2017-11/11","2017-11/11","2017-11/11",True,"2017-11/11",4,1,1
+"Set log after restart","2017-11/11","2017-12/11","2017-11/11",True,"2017-12/11",4,3,0
+"Move AppControllerClient to separate package","2017-11/13","2017-11/13","2017-11/13",True,"2017-11/13",4,43,42
+"Catch error when removing pidfile in case pidfile has been removed","2017-11/14","2017-12/14","2017-11/14",True,"2017-12/14",3,9,1
+"Perform ZK operations off of the Kazoo thread","2017-11/17","2017-11/17","2017-11/17",True,"2017-11/17",3,23,8
+"Install older rake for older ruby versions","2017-11/17","2017-12/17","2017-11/17",True,"2017-12/17",3,9,2
+"Add external API server","2017-11/24","2018-1/24","2017-11/24",True,"2018-1/24",3,1084,36
+"Differentiate between project IDs and version keys","2017-11/26","2018-1/26","2017-11/26",True,"2018-1/26",3,73,68
+"Write request logs to file monitored by filebeat","2017-11/27","2018-5/27","2017-11/27",False,"null",2,241,20
+"Hermes autorebuild","2017-12/5","2017-12/5","2017-12/5",True,"2017-12/5",2,20,29
+"Use datastore proxy on load balancer","2017-12/5","2017-12/5","2017-12/5",True,"2017-12/5",3,9,6
+"Avoid mutation during iteration","2017-12/7","2017-12/7","2017-12/7",True,"2017-12/7",4,1,1
+"Clear logs when flushing","2017-12/8","2017-12/8","2017-12/8",True,"2017-12/8",5,1,0
+"Autoscale with N load balancer nodes","2017-12/8","2017-12/8","2017-12/8",True,"2017-12/8",4,413,285
+"Add a datastore viewer to the dashboard","2017-12/14","2018-1/14","2017-12/14",True,"2018-1/14",3,1452,140
+"Add option to update all composite indexes","2017-12/15","2018-3/15","2017-12/15",True,"2018-3/15",3,20,33
+"Fix JSP compilation under Java 8","2017-12/20","2018-1/20","2017-12/20",True,"2018-1/20",3,12,0
+"Don't wait for taskqueue master to start rabbitmq","2017-12/22","2017-12/22","2017-12/22",True,"2017-12/22",3,4,3
+"Allow Java AppServer to use an external API Server","2017-12/26","2018-4/26","2017-12/26",True,"2018-4/26",3,1068,782
+"Rsync appcontroller client","2017-12/28","2018-1/28","2017-12/28",True,"2018-1/28",4,18,1
+"Capture Net::ReadTimeout when using Net::HTTP","2018-1/5","2018-2/5","2018-1/5",True,"2018-2/5",5,2,2
+"Account properly for pending AppServer.","2018-1/6","2018-1/6","2018-1/6",True,"2018-1/6",4,31,27
+"Whitelist inbound service warmup","2018-1/9","2018-2/9","2018-1/9",True,"2018-2/9",4,2,1
+"Encode entity names when acquiring lock","2018-1/9","2018-1/9","2018-1/9",True,"2018-1/9",4,5,1
+"Register running instances with ZooKeeper","2018-1/10","2018-1/10","2018-1/10",False,"null",3,317,142
+"Add GQL query to datastore viewer","2018-1/10","2018-1/10","2018-1/10",True,"2018-1/10",3,132,83
+"Allow Hermes to check RabbitMQ status","2018-1/12","2018-1/12","2018-1/12",True,"2018-1/12",3,117,4
+"Fixed overzealous ruby code checker","2018-1/12","2018-1/12","2018-1/12",True,"2018-1/12",3,2,2
+"Fix AppControllerClient update_cron method","2018-1/12","2018-1/12","2018-1/12",True,"2018-1/12",3,7,8
+"Reduce Cassandra memory if running other services","2018-1/12","2018-2/12","2018-1/12",True,"2018-2/12",3,38,8
+"Service statistics","2018-1/17","2018-2/17","2018-1/17",True,"2018-2/17",4,1352,7
+"Add push queue stats to Hermes","2018-1/17","2018-1/17","2018-1/17",True,"2018-1/17",3,88,2
+"Respect defective 3rd-party tools and allow post requests","2018-1/17","2018-1/17","2018-1/17",False,"null",3,7,0
+"Update blob_servers lists on scaling events","2018-1/22","2018-2/22","2018-1/22",True,"2018-2/22",4,19,6
+"Allow the dashboard to be updated","2018-1/22","2018-1/22","2018-1/22",True,"2018-1/22",4,88,30
+"Pin eventlet version","2018-1/24","2018-3/24","2018-1/24",True,"2018-3/24",3,1,1
+"Handle key inequality filter within property value","2018-1/26","2018-2/26","2018-1/26",True,"2018-2/26",3,42,15
+"Improve comment in fast-start script","2018-1/28","2018-2/28","2018-1/28",False,"null",3,5,7
+"Fix references to non-existent method","2018-1/30","2018-1/30","2018-1/30",True,"2018-1/30",3,2,2
+"Register instances with ZooKeeper","2018-1/31","2018-4/31","2018-1/31",True,"2018-4/31",3,403,250
+"Allow Go instances to use external API server","2018-2/1","2018-5/1","2018-2/1",True,"2018-5/1",3,16,13
+"Allow PHP instances to use external API server","2018-2/1","2018-5/1","2018-2/1",True,"2018-5/1",3,23,4
+"Haproxy consolidate apps","2018-2/2","2018-2/2","2018-2/2",True,"2018-2/2",3,66,85
+"Upgrade pip in virtualenv","2018-2/2","2018-2/2","2018-2/2",True,"2018-2/2",3,1,0
+"Execute tar command with environment variable","2018-2/3","2018-2/3","2018-2/3",True,"2018-2/3",4,4,2
+"Install php-bcmath","2018-2/3","2018-2/3","2018-2/3",True,"2018-2/3",3,1,0
+"Remove unnecessary JSON serialization","2018-2/5","2018-2/5","2018-2/5",True,"2018-2/5",3,2,2
+"Updated overview section text.","2018-2/6","2018-2/6","2018-2/6",True,"2018-2/6",4,4,2
+"Replace reference to deprecated role","2018-2/6","2018-2/6","2018-2/6",True,"2018-2/6",3,1,1
+"Taskqueue service stats","2018-2/7","2018-2/7","2018-2/7",True,"2018-2/7",3,517,121
+"Hermes taskqueue service stats","2018-2/7","2018-2/7","2018-2/7",False,"null",1,645,100
+"Remove tcp_tw_recycle option","2018-2/7","2018-2/7","2018-2/7",True,"2018-2/7",3,12,10
+"RM-565 - Script to automate version bump.","2018-2/7","2018-2/7","2018-2/7",True,"2018-2/7",3,109,0
+"Install packages needed to build posixpsutil gem","2018-2/7","2018-2/7","2018-2/7",True,"2018-2/7",4,2,0
+"Catch correct BadStatusLine exception","2018-2/9","2018-2/9","2018-2/9",True,"2018-2/9",3,1,1
+"Don't clear cron jobs during an up","2018-2/9","2018-2/9","2018-2/9",True,"2018-2/9",3,0,1
+"Allow different instance type per role","2018-2/12","2018-3/12","2018-2/12",True,"2018-3/12",5,58,23
+"Wait for all load balancers to route instances","2018-2/13","2018-3/13","2018-2/13",True,"2018-3/13",4,15,1
+"Define the Cassandra cluster load balancing policy","2018-2/13","2018-4/13","2018-2/13",True,"2018-4/13",4,17,8
+"Fix posixpsutil build","2018-2/15","2018-2/15","2018-2/15",True,"2018-2/15",3,6,1
+"Stick to the duty cycle length","2018-2/16","2018-2/16","2018-2/16",True,"2018-2/16",3,10,1
+"Don't silently ignore uncaught thread exceptions","2018-2/19","2018-5/19","2018-2/19",True,"2018-5/19",5,33,19
+"Prevent ProjectGroomer worker from stopping","2018-2/21","2018-2/21","2018-2/21",True,"2018-2/21",3,7,1
+"Fix calls to master from others ACs.","2018-2/22","2018-2/22","2018-2/22",True,"2018-2/22",4,51,5
+"RM-550 Hermes taskqueue stats","2018-2/22","2018-5/22","2018-2/22",True,"2018-5/22",3,648,105
+"Run apps without application element in app.yaml","2018-2/22","2018-2/22","2018-2/22",True,"2018-2/22",4,61,28
+"Error handling for starting or terminating instances","2018-2/23","2018-8/23","2018-2/23",True,"2018-8/23",5,285,301
+"Use prefix for the haproxy app config file","2018-2/24","2018-2/24","2018-2/24",True,"2018-2/24",3,5,3
+"Allow group locks to persist when commits fail","2018-2/27","2018-3/27","2018-2/27",True,"2018-3/27",3,289,160
+"Don't allow editing entities with datastore viewer","2018-3/2","2018-3/2","2018-3/2",True,"2018-3/2",5,5,61
+"RM-587 - 3.5.0 Version bump","2018-3/2","2018-3/2","2018-3/2",True,"2018-3/2",3,1,1
+"RM-589 handle failure on fetching local stats","2018-3/2","2018-3/2","2018-3/2",True,"2018-3/2",3,34,8
+"RM-592 - Ensure haproxy configuration is up-to-date","2018-3/3","2018-3/3","2018-3/3",True,"2018-3/3",4,7,8
+"RM-587 - 3.5.0 Version bump - Release Notes","2018-3/6","2018-3/6","2018-3/6",True,"2018-3/6",4,65,1
+"Skip stats generation on undeployed projects","2018-3/10","2018-5/10","2018-3/10",True,"2018-5/10",3,32,53
+"Handle docker as a provider","2018-3/12","2018-3/12","2018-3/12",True,"2018-3/12",3,1,1
+"Use datastore server registry to toggle read-only mode","2018-3/14","2018-3/14","2018-3/14",True,"2018-3/14",3,19,14
+"Remove dead code","2018-3/16","2018-3/16","2018-3/16",True,"2018-3/16",4,4,119
+"Adjustable max appservers","2018-3/16","2018-3/16","2018-3/16",True,"2018-3/16",3,64,31
+"Replace usages of execute_concurrent","2018-3/19","2018-3/19","2018-3/19",True,"2018-3/19",3,23,17

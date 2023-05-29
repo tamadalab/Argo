@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"4.1.x","2014-12/31","2014-12/31","2014-12/31",False,"null",3,283,307
+"Revisit empty body response support in HTTP client","2014-12/31","2015-1/31","2014-12/31",False,"null",2,184,70
+"Add 'public' visibility to facilitate tags (such as Select) extension.","2014-12/31","2021-4/31","2014-12/31",False,"null",6,1,1
+"Fix typo","2015-1/7","2015-1/7","2015-1/7",True,"2015-1/7",2,1,1
+"spring3.2.x","2015-1/14","2015-1/14","2015-1/14",False,"null",10,25245,16146
+"Improve Netty4ClientHttpRequestFactory configurability and memory usage (SPR-12623)","2015-1/14","2021-11/14","2015-1/14",False,"null",3,87,7
+"4.1.x","2015-1/15","2015-1/15","2015-1/15",False,"null",4,408,356
+"Fixed examples in java docs in class ResultActions.","2015-1/17","2015-1/17","2015-1/17",False,"null",2,2,2
+"SPR-12639 : Corrected the method name in Spring JDBC section","2015-1/20","2015-1/20","2015-1/20",False,"null",2,1,1
+"Make TransactionAwareCacheDecorator.clear synchronized with transaction","2015-1/22","2015-2/22","2015-1/22",False,"null",2,43,6
+"Add Optional Support to JdbcTemplate","2015-1/24","2021-11/24","2015-1/24",False,"null",7,273,3
+"Fix bug for build file.","2015-1/25","2015-1/25","2015-1/25",False,"null",2,1,1
+"SPR-6343 ChildOf annotation.","2015-1/25","2015-1/25","2015-1/25",False,"null",1,227,0
+"4.1.x","2015-1/26","2015-1/26","2015-1/26",False,"null",5,749,446
+"Fixed bug for build file.","2015-1/26","2016-1/26","2015-1/26",False,"null",2,20,8
+"SPR-5580 Adding ChildOf annotation to apply MergedBeanDefinition to annotated beans.","2015-1/31","2018-6/31","2015-1/31",False,"null",4,294,0
+"Fix javadoc","2015-2/2","2015-2/2","2015-2/2",False,"null",2,2,2
+"allow overriding AbstractTestContextBootstrapper.resolveContextLoader method","2015-2/3","2015-4/3","2015-2/3",False,"null",2,12,6
+"allow passing a TestContext and TestContextBootstrapper instance to TestContextManager","2015-2/3","2019-2/3","2015-2/3",False,"null",3,19,1
+"4.0.x","2015-2/4","2015-2/4","2015-2/4",False,"null",8,17051,10351
+"4.1.x","2015-2/4","2015-2/4","2015-2/4",False,"null",5,821,462
+"Fix reserved set definition according to appendix A of RFC 3986","2015-2/10","2015-2/10","2015-2/10",True,"2015-2/10",2,2,2
+"access user-agent via requestContext","2015-2/11","2020-6/11","2015-2/11",False,"null",4,11,0
+"Fix Animal Sniffer","2015-2/11","2015-2/11","2015-2/11",False,"null",2,2,1
+"fix javadoc typo","2015-2/11","2015-2/11","2015-2/11",False,"null",2,1,1
+"Fix copy/paste error in Javadoc","2015-2/19","2015-2/19","2015-2/19",False,"null",2,4,3
+"4.1.x","2015-2/22","2015-2/22","2015-2/22",False,"null",9,3405,1473
+"Support the meta annotation at @NumberFormat","2015-2/22","2015-3/22","2015-2/22",False,"null",2,33,5
+"Add strategy for handling Stomp client errors (SPR-12732)","2015-2/23","2015-2/23","2015-2/23",False,"null",9,3596,1496
+"Add strategy for handling Stomp client errors (SPR-12732)","2015-2/23","2015-6/23","2015-2/23",False,"null",2,191,23
+"Permit easier overriding of mapping","2015-2/23","2015-2/23","2015-2/23",False,"null",2,9,1
+"Provide access to tasks scheduled with the ScheduledTaskRegistrar","2015-2/24","2015-2/24","2015-2/24",False,"null",2,186,1
+"@AuthenticationPrincipal in handler parameters","2015-2/25","2015-2/25","2015-2/25",False,"null",4,1,0
+"Fix SPR-11759, added support of List<String> injection from YAML propert...","2015-2/27","2015-2/27","2015-2/27",False,"null",3,11,1
+"Fix SpEL Compilation mode IMMEDIATE.","2015-2/27","2021-11/27","2015-2/27",False,"null",4,1,1
+"Add connect/read timeout to Netty RequestFactory","2015-2/27","2015-2/27","2015-2/27",False,"null",2,43,0
+"HttpMessageConverters should support streaming","2015-3/2","2015-3/2","2015-3/2",False,"null",2,98,11
+"Organize reference documentation","2015-3/3","2015-3/3","2015-3/3",True,"2015-3/3",3,52678,52797
+"SPR-12771 The builder port must always be set","2015-3/5","2019-1/5","2015-3/5",False,"null",6,1,3
+"Ignore null in HeadersBuilder#headers","2015-3/7","2015-3/7","2015-3/7",False,"null",2,38,3
+"Support byte ranges in ResourceHttpRequestHandler","2015-3/13","2015-3/13","2015-3/13",False,"null",5,640,35
+"fix minor typo in testing documentation","2015-3/14","2015-3/14","2015-3/14",True,"2015-3/14",2,1,1
+"Add methods for creating error object in SpringValidatorAdapter","2015-3/15","2015-3/15","2015-3/15",False,"null",1,42,6
+"Fix StackOverflowError due to recursion in DefaultManagedAwareThreadFactory","2015-3/18","2015-3/18","2015-3/18",False,"null",2,6,2
+"Allow subclass adaptation of @Scheduled runnable creation.","2015-3/19","2018-7/19","2015-3/19",False,"null",4,5,1
+"Support {/...} patterns in UriComponents(Builder)","2015-3/20","2015-4/20","2015-3/20",False,"null",2,233,10
+"Merge pull request #1 from spring-projects/master","2015-3/22","2015-3/22","2015-3/22",False,"null",2,0,0
+"4.1.x","2015-3/25","2015-3/25","2015-3/25",False,"null",10,5942,3440
+"Override properties using system properties in PropertyOverrideConfigurer","2015-3/26","2021-11/26","2015-3/26",False,"null",4,94,1
+"SPR-12801 Support for named parameters in SimpleJdbcCall","2015-3/29","2015-5/29","2015-3/29",False,"null",2,119,6
+"4.1.x","2015-3/31","2015-3/31","2015-3/31",False,"null",9,6016,3470
+"Netty4ClientHttpRequest ignores query params","2015-4/1","2015-4/1","2015-4/1",True,"2015-4/1",2,42,2
+"Fix typo.","2015-4/2","2015-4/2","2015-4/2",True,"2015-4/2",2,1,1
+"Document @Bean definitions via default methods","2015-4/2","2021-11/2","2015-4/2",False,"null",4,19,0
+"Expose SimpleCommandLineArgsParser methods and fields","2015-4/3","2021-11/3","2015-4/3",False,"null",6,48,19
+"4.1.x","2015-4/4","2015-4/4","2015-4/4",False,"null",10,6317,3661
+"Improve RedirectAttributes reference docs","2015-4/7","2015-4/7","2015-4/7",False,"null",1,34,49
+"Improve RedirectAttributes reference docs","2015-4/7","2015-4/7","2015-4/7",False,"null",3,34,49
+"SPR-12893 Support OkHttp as an implementation for ClientHttpRequestFactory / AsyncClientHttpRequestFactory","2015-4/7","2015-6/7","2015-4/7",False,"null",2,535,0
+"Performance Optimization on getResultSetValue","2015-4/9","2015-7/9","2015-4/9",False,"null",4,45,46
+"3.2.x","2015-4/9","2015-4/9","2015-4/9",False,"null",10,26409,17266
+"Add isNotEmpty convenience method to StringUtils","2015-4/10","2015-4/10","2015-4/10",False,"null",2,21,0
+"FutureAdapter should wrap RuntimeExceptions","2015-4/10","2015-4/10","2015-4/10",True,"2015-4/10",2,50,9
+"Fix javadoc error with multiple profiles","2015-4/15","2015-4/15","2015-4/15",False,"null",2,2,2
+"SPR-12003 StringUtils.commaDelimitedListToSet sorts resulting list","2015-4/17","2015-5/17","2015-4/17",False,"null",2,4,2
+"HttpMessageConverterExtractor.extractData should TRY each HttpMessageConverter","2015-4/18","2015-4/18","2015-4/18",False,"null",10,6317,3661
+"Spr 12683","2015-4/19","2015-4/19","2015-4/19",True,"2015-4/19",1,666,331
+"update from spring-framework","2015-4/22","2015-4/22","2015-4/22",False,"null",2,0,0
+"SPR-12945: Add merged RequestPostProcessor to front on merge","2015-4/22","2015-4/22","2015-4/22",False,"null",2,49,3
+"Upgrade to Reactor 2","2015-4/23","2015-4/23","2015-4/23",False,"null",2,388,306
+"Reactor2 net update","2015-4/27","2015-4/27","2015-4/27",False,"null",2,150,105
+"Fixes description of JdbcTemplate#setResultsMapCaseInsensitive","2015-5/5","2015-5/5","2015-5/5",True,"2015-5/5",2,4,6
+"Fixes bad grammar in reference document","2015-5/5","2015-5/5","2015-5/5",True,"2015-5/5",2,3,3
+"Change to the BeanPropertyRowMapper from the ParameterizedBeanPropertyRowMapper","2015-5/5","2015-5/5","2015-5/5",True,"2015-5/5",2,2,2
+"Improve description of DefaultLobHandler","2015-5/5","2015-5/5","2015-5/5",False,"null",2,11,0
+"Remove descriptions of classic ORM API(JDO/JPA)","2015-5/5","2015-5/5","2015-5/5",True,"2015-5/5",2,7,189
+"JpaDialect description replace to EclipseLink from Toplink","2015-5/5","2015-5/5","2015-5/5",True,"2015-5/5",2,2,2
+"Modify to disply the image of oxm exceptions hierarchy","2015-5/6","2015-5/6","2015-5/6",True,"2015-5/6",2,1,0
+"Remove the RemoteAccountService","2015-5/6","2015-5/6","2015-5/6",True,"2015-5/6",2,0,12
+"Modify typo in reference document","2015-5/6","2015-5/6","2015-5/6",True,"2015-5/6",2,1,1
+"Introduce Marshalling MessageConverter","2015-5/7","2015-5/7","2015-5/7",False,"null",2,312,0
+"Remove duplicate separators when combining","2015-5/8","2015-5/8","2015-5/8",False,"null",2,39,8
+"Modify to use the ConfigurableApplicationContext in reference document","2015-5/9","2015-5/9","2015-5/9",True,"2015-5/9",2,3,3
+"Conditional Error Message Formatting","2015-5/10","2015-5/10","2015-5/10",False,"null",2,16,10
+"Wanglifeng patch 1","2015-5/11","2015-5/11","2015-5/11",False,"null",1,2,0
+"SPR-13033: Use @RequestMapping of correct class","2015-5/15","2015-5/15","2015-5/15",False,"null",2,33,3
+"Support OkHttp as (Async)ClientHttpRequestFactory","2015-5/18","2015-5/18","2015-5/18",False,"null",2,433,0
+"Parse @Scheduled attributes as long instead of int.","2015-5/19","2015-5/19","2015-5/19",False,"null",2,3,3
+"Fix missing space in assertion message","2015-5/19","2015-6/19","2015-5/19",False,"null",2,1,1
+"4.1.x","2015-5/19","2015-5/19","2015-5/19",False,"null",10,7159,4138
+"Support Forwarded-Header in UriComponentsBuilder","2015-5/21","2015-6/21","2015-5/21",False,"null",2,113,21
+"4.1.4","2015-5/24","2015-5/24","2015-5/24",False,"null",10,7826,4380
+"3.2.x","2015-5/25","2015-5/25","2015-5/25",False,"null",9,26836,17559
+"4.1.x","2015-5/27","2015-5/27","2015-5/27",False,"null",10,7826,4380
+"SPR-13080 SseEventBuilder needs event rather than name","2015-5/28","2015-6/28","2015-5/28",False,"null",2,4,4
+"Long waiting on jms connection recovering when stopping application","2015-5/29","2016-10/29","2015-5/29",False,"null",2,13,1
+"Add nullToEmpty convenience method to StringUtils","2015-5/30","2020-6/30","2015-5/30",False,"null",3,19,0
+"Fix typo.","2015-5/31","2015-6/31","2015-5/31",False,"null",2,2,2
+"SPR-13099: Prevent class leak in GenericConversionService","2015-6/5","2015-6/5","2015-6/5",False,"null",2,5,1
+"4.1.x","2015-6/5","2015-6/5","2015-6/5",False,"null",11,8465,4588

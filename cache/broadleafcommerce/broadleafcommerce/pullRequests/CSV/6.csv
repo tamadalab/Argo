@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Use extended class name instead of ceiling class in Map Metadata","2018-4/26","2018-4/26","2018-4/26",False,"null",1,1,1
+"Merge removal log4j dependency","2018-4/27","2018-4/27","2018-4/27",True,"2018-4/27",3,830,219
+"Provide a convenience method for obtaining the topmost production clone ID in a multitenant hierarchy","2018-4/27","2018-4/27","2018-4/27",True,"2018-4/27",1,46,2
+"Modal's tabs are not populated when modal displays more then once","2018-4/30","2018-5/30","2018-4/30",True,"2018-5/30",3,1,1
+"fix admin JS edit filter errors caused when subRules are undefined","2018-4/30","2018-4/30","2018-4/30",True,"2018-4/30",4,1,1
+"Ensure the confirm password field is ordered directly after the password","2018-5/3","2018-5/3","2018-5/3",True,"2018-5/3",2,9,6
+"Ensure that dynamic forms in the admin respect field ordering in their field definitions","2018-5/3","2018-5/3","2018-5/3",True,"2018-5/3",1,7,12
+"Enable creating SystemEvents without a dependency on the ScheduledJobsAndEvents module","2018-5/3","2018-5/3","2018-5/3",True,"2018-5/3",2,253,0
+"Fixed issue where the query cache wasn't invalidated when OMS updated sku inventory","2018-5/3","2018-5/3","2018-5/3",True,"2018-5/3",2,72,0
+"Validation not happening on dynamic forms (pages and structured content)","2018-5/4","2018-5/4","2018-5/4",True,"2018-5/4",2,26,23
+"Use INFO-level logging for sequence generator corruption that gets auto-fixed","2018-5/4","2018-5/4","2018-5/4",True,"2018-5/4",1,8,11
+"Always keep translations disabled on adds","2018-5/4","2018-5/4","2018-5/4",True,"2018-5/4",1,12,7
+"Auto-generate URLs for base products","2018-5/4","2018-5/4","2018-5/4",True,"2018-5/4",2,55,0
+"Fixes the issue where adding condition on cart rules break the page.","2018-5/8","2018-5/8","2018-5/8",True,"2018-5/8",2,2,2
+"URL encode square brackets in facet range filters to support Tomcat 8.5.31","2018-5/9","2018-5/9","2018-5/9",True,"2018-5/9",2,13,1
+"Add a helper class to support setting QueryHints across Hibernate 4.1 and 5.2","2018-5/10","2018-5/10","2018-5/10",True,"2018-5/10",1,157,0
+"On Offer form reset the offer template responds correctly to Discount Price List functionality","2018-5/11","2018-5/11","2018-5/11",False,"null",1,1,1
+"Resolve the StaticAssetView immediately from the asset controller without going through the view resolver chain","2018-5/11","2018-5/11","2018-5/11",True,"2018-5/11",1,7,1
+"Fix UseShippingAddress for mixed Shippable/Nonshippable orders","2018-5/11","2018-5/11","2018-5/11",True,"2018-5/11",2,6,2
+"Rebaseline across library upgrades - Spring 5, Spring Boot 2, Hibernate 5, JDK 8","2018-5/14","2018-5/14","2018-5/14",True,"2018-5/14",2,890,2762
+"BroadleafCommerce/QA#3310 - initial commit to fix the alternate theme…","2018-5/14","2018-5/14","2018-5/14",True,"2018-5/14",1,9,4
+"Add Support for the Java bin RequestWriter during Solr indexing","2018-5/14","2018-5/14","2018-5/14",True,"2018-5/14",2,9,0
+"Upgrade Solr client to 7.3.1 and remove remaining support for Sku indexing via solr.index.use.sku","2018-5/14","2018-5/14","2018-5/14",True,"2018-5/14",2,125,372
+"Fixes the ability to sort by price after adding a price filter.","2018-5/16","2018-9/16","2018-5/16",False,"null",3,7,0
+"Fix for error cause by empty collectionRecords in populateEntityForm","2018-5/17","2018-9/17","2018-5/17",True,"2018-9/17",2,1,1
+" Fixed an incompatible cast in the equals method of ProratedOrderItemAdjustmentImpl","2018-5/18","2018-5/18","2018-5/18",True,"2018-5/18",1,1,1
+"Archived search facets no longer show up in the site","2018-5/21","2018-9/21","2018-5/21",True,"2018-9/21",2,15,5
+"Offer start and end dates not applied correctly if admin user TZ is different than server TZ","2018-5/22","2018-8/22","2018-5/22",True,"2018-8/22",2,69,45
+"Internalization enhancements","2018-5/29","2018-5/29","2018-5/29",True,"2018-5/29",2,14,12
+"Include the alt text of the static assets on the CMS Pages.","2018-5/29","2018-5/29","2018-5/29",True,"2018-5/29",3,10,2
+"Bundle Dependency Management Enhancements and Preloading","2018-5/29","2018-5/29","2018-5/29",True,"2018-5/29",3,1152,209
+"Add ability to batch fetching the SKU fields","2018-5/30","2018-6/30","2018-5/30",True,"2018-6/30",3,19,0
+"Updated FilterBuilder to validate that a filter Operator and Value exist before Applying the filter","2018-5/31","2018-6/31","2018-5/31",True,"2018-6/31",2,35,2
+"Rule's restrictions do not show the value properly","2018-6/1","2018-6/1","2018-6/1",True,"2018-6/1",2,39,33
+"Changed the Google Closure Compiler artifact to the unshaded version","2018-6/5","2018-6/5","2018-6/5",True,"2018-6/5",1,4,4
+"Upgrade framework libraries due to security vulnerabilities","2018-6/5","2018-7/5","2018-6/5",True,"2018-7/5",2,170,19
+"Fix ClassCastException in the RatingsProcessor","2018-6/6","2018-6/6","2018-6/6",True,"2018-6/6",2,2,1
+"Added missing admin presentation on fulfillmentOption fields","2018-6/6","2018-6/6","2018-6/6",True,"2018-6/6",2,52,16
+"Remove deprecated Runtime Environment Property Configurer / Manager, Key Resolver","2018-6/6","2018-6/6","2018-6/6",True,"2018-6/6",2,12,651
+"Remove YUICompressor Javascript minification support","2018-6/6","2018-6/6","2018-6/6",True,"2018-6/6",1,1,160
+"Move Tika dependency to CMS only, and remove the MimeUtils dependency","2018-6/6","2018-6/6","2018-6/6",True,"2018-6/6",2,0,23
+"Introduce Minimum Order Quantity Validation for Skus","2018-6/7","2018-6/7","2018-6/7",True,"2018-6/7",2,444,6
+"Add dependentFieldHandler for defaultSku's min order quantity fields in the Admin","2018-6/8","2018-6/8","2018-6/8",True,"2018-6/8",1,5,2
+"Fixed issue where the RuleBuilder Selectize Component was not loading additional rows from the server beyond the original initialized list","2018-6/8","2018-6/8","2018-6/8",True,"2018-6/8",1,1,1
+"Add externalId to Customer core domain","2018-6/8","2018-6/8","2018-6/8",True,"2018-6/8",2,28,16
+"QA-3354 Product groups/add-ons not working correctly","2018-6/11","2018-6/11","2018-6/11",True,"2018-6/11",2,45,30
+"Convert Hibernate's deprecated session.createCriteria() with JPA criteria","2018-6/12","2018-6/12","2018-6/12",True,"2018-6/12",2,80,49
+"NPE when show translation for not existing locale","2018-6/13","2018-9/13","2018-6/13",True,"2018-9/13",2,17,16
+"When searching, removing ""system"" parameters (e.g. blLocale) so they do not influence the primary search parameter","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",3,1,0
+"Page Translation Cache Invalidation Event","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",2,16,0
+"fix offer does not apply when edited by a CSR","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",2,1,1
+"Added more exception context when an EntityNotFoundException occurs","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",2,5,2
+"Fix PostgreSQL Clob error with custom PostgreSQLDialect","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",3,113,0
+"Page Translations are not evicted from the cache when deploying changes to the site","2018-6/13","2018-6/13","2018-6/13",True,"2018-6/13",2,67,15
+"Normalized uploaded file assets to lowercase the extension","2018-6/15","2018-6/15","2018-6/15",True,"2018-6/15",2,34,31
+"Fixed archived search facet ranges not being filtered out","2018-6/18","2018-6/18","2018-6/18",True,"2018-6/18",2,9,6
+"Add AdminPresentation annotations to reviews domain","2018-6/19","2018-6/19","2018-6/19",True,"2018-6/19",1,167,42
+"Revert ""BroadleafCommerce/QA#3310 - initial commit to fix the alternate theme…""","2018-6/19","2018-6/19","2018-6/19",True,"2018-6/19",1,4,9
+"Overrode default Hibernate naming strategies","2018-6/19","2018-6/19","2018-6/19",True,"2018-6/19",2,18,0
+"Added explicit join column names where missing","2018-6/19","2018-6/19","2018-6/19",True,"2018-6/19",2,6,3
+"Update Spring, Spring Boot and Spring Security versions to 4.3.18, 1.5.14 and 4.2.7","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",1,3,3
+"Update to Spring 5.0.7, Boot 2.0.3, Spring Security 5.0.6 and Jackson 2.9.6","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",1,4,4
+"BroadleafCommerce/QA#3403 - Evict environment prefixed cache key","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",2,35,16
+"Consider the super class when obtaining a property iterator from Hibernate metadata","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",2,3,3
+"Fix issue where multiple bundles with same name get the same file lists","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",2,140,59
+"Reenable save button after to-one selection","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",2,13,1
+"Added minimum quantity exception and removed error logging","2018-6/20","2018-6/20","2018-6/20",True,"2018-6/20",2,41,4
+"Multiple Validation Errors Creating a Product Breaks Selecting a Category","2018-6/21","2018-6/21","2018-6/21",True,"2018-6/21",2,2,2
+"Merge 5.2 into 5.3","2018-6/21","2018-6/21","2018-6/21",True,"2018-6/21",16,2261,399
+"AdornedTargetCollections on a Sku do not work in the admin when viewing the main product page","2018-6/21","2018-10/21","2018-6/21",True,"2018-10/21",2,9,0
+"6.0 Community Uploading a large asset causes generic error message","2018-6/22","2018-6/22","2018-6/22",True,"2018-6/22",2,43,0
+"Added functionality to combine the indexes defined on the weave class with the target classes @Table annotation","2018-6/22","2018-6/22","2018-6/22",True,"2018-6/22",2,111,0
+"Added null check for order when DatabaseOrderLockManager is configured to throw exception instead of queueing the lock attempt","2018-6/25","2018-6/25","2018-6/25",True,"2018-6/25",2,2,2
+"Add support for overriding generated index names for Broadleaf Filter columns","2018-6/25","2018-10/25","2018-6/25",True,"2018-10/25",2,48,0
+"Need to be able to view added filters","2018-6/27","2018-7/27","2018-6/27",True,"2018-7/27",2,106,6
+"Changed redirect path for AJAX requests.","2018-6/27","2018-9/27","2018-6/27",True,"2018-9/27",2,1,1
+"Cleaned up AdminUserDetails, Service, and AdminProvisioningService","2018-6/27","2018-7/27","2018-6/27",True,"2018-7/27",3,163,78
+"Cart rule item added ""After Pricing"" cannot be removed","2018-6/28","2018-7/28","2018-6/28",False,"null",2,23,12
+"getSelectizeCollectionOptions overrides customCriteria from property metadata","2018-6/28","2018-12/28","2018-6/28",True,"2018-12/28",2,7,2
+"Added null check when ValidateAddActivity evaluates the order currency","2018-6/28","2018-6/28","2018-6/28",True,"2018-6/28",1,1,1
+"Updated EntityDuplicator domain to be more generic and extinsible","2018-6/29","2018-7/29","2018-6/29",True,"2018-7/29",2,688,325
+"Allow AdornedTargetCollection fields to have i18n translatable values","2018-6/29","2018-7/29","2018-6/29",True,"2018-7/29",2,38,5
+"Generic Foldering Feature","2018-7/3","2018-7/3","2018-7/3",True,"2018-7/3",2,471,36
+"Library security upgrades","2018-7/3","2018-7/3","2018-7/3",True,"2018-7/3",1,145,4
+"Performance improvements for building metadata","2018-7/6","2018-7/6","2018-7/6",True,"2018-7/6",2,38,23
+"Change `receiveEmail` on Customers to default to `false`","2018-7/9","2018-7/9","2018-7/9",True,"2018-7/9",1,1,1
+"Add `FulfillmentGroupItem`s for any child `OrderItems`","2018-7/10","2018-7/10","2018-7/10",True,"2018-7/10",2,11,1
+"OrderMultishipOption's OrderItem's children aren't added to fulfillment groups","2018-7/10","2018-7/10","2018-7/10",True,"2018-7/10",2,48,50
+"Fixed an issue where we can not remove the item from the cart","2018-7/11","2018-7/11","2018-7/11",True,"2018-7/11",2,2,2
+"Add item attributes to orderItemRequestDTO on update","2018-7/13","2019-2/13","2018-7/13",True,"2019-2/13",3,17,0
+"Clear the FieldManager's middle fields on a call to `getFieldManager()`","2018-7/24","2018-7/24","2018-7/24",True,"2018-7/24",3,36,30
+"System properties are being replaced by site overrides when running a job (jobs and events module)","2018-8/2","2018-8/2","2018-8/2",True,"2018-8/2",2,13,3
+"Dependency version updates (Spring Boot to 1.5.15, Lombok and Groovy to the latest)","2018-8/3","2018-8/3","2018-8/3",True,"2018-8/3",1,41,7
+"Dependency version updates - (Spring to 5.0.8, Spring Boot to 2.0.4, Spring Security to 5.0.7)","2018-8/3","2018-8/3","2018-8/3",True,"2018-8/3",1,4,4
+"Upgrade framework library due to security vulnerabilities","2018-8/7","2018-8/7","2018-8/7",True,"2018-8/7",2,1,1
+"Fixed the offer code with named ""$item"" that can not be stored in a cookie","2018-8/9","2018-8/9","2018-8/9",True,"2018-8/9",2,5,1
+"PriceList sandbox changes to not reflect the correct entity link in Approvals","2018-8/14","2018-8/14","2018-8/14",True,"2018-8/14",2,27,2
+"Fixed an issue when instead of Category name the id is displayed in the Offer rule builder.","2018-8/15","2018-8/15","2018-8/15",True,"2018-8/15",2,15,2
+"Forcing Admin images extension to be lowercase","2018-8/17","2018-11/17","2018-8/17",True,"2018-11/17",3,1,1
+"Add AdminPresentation fields to admin user to trigger Oracle handling of blank fields","2018-8/17","2018-9/17","2018-8/17",True,"2018-9/17",2,3,1

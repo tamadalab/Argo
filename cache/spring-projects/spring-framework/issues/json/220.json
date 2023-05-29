@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Support for Jakarta Concurrency 3.0",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28400",
+                        "createdAt": "2022-04-29T23:23:14Z",
+                        "closedAt": "2022-05-05T15:28:23Z"
+                    },
+                    {
+                        "title": "jsonPath().value ResultMatcher fails for nested objects",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28405",
+                        "createdAt": "2022-05-01T23:35:21Z",
+                        "closedAt": "2022-05-03T23:52:21Z"
+                    },
+                    {
+                        "title": "spring-projects/spring-framework Spring AOP support for prototype-scoped advice ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28407",
+                        "createdAt": "2022-05-02T13:20:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unexpected and inconsistent behavior when dealing with Kotlin data classes and null values in a request body",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28408",
+                        "createdAt": "2022-05-02T20:27:56Z",
+                        "closedAt": "2022-05-21T22:41:28Z"
+                    },
+                    {
+                        "title": "Documentation needs to be updated with instructions for STOMP Client",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28409",
+                        "createdAt": "2022-05-03T13:12:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Check that nullable annotations are from org.springframework.lang",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28410",
+                        "createdAt": "2022-05-03T18:13:35Z",
+                        "closedAt": "2022-05-03T18:15:37Z"
+                    },
+                    {
+                        "title": "No warnings when beans not found due to circular references being disabled",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28412",
+                        "createdAt": "2022-05-04T11:19:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spring webflux : Using JSR-380 validation.xml file to disable a @Valid annotation in a controller method dont work",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28413",
+                        "createdAt": "2022-05-04T17:34:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Refactor AOT code to reduce coupling and improve generated code",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28414",
+                        "createdAt": "2022-05-05T06:13:02Z",
+                        "closedAt": "2022-05-05T20:35:48Z"
+                    },
+                    {
+                        "title": "Add position variant of ObjectUtils.addObjectToArray",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28415",
+                        "createdAt": "2022-05-05T06:15:20Z",
+                        "closedAt": "2022-05-05T20:35:46Z"
+                    },
+                    {
+                        "title": "Support multiple SpringFactoriesLoader files",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28416",
+                        "createdAt": "2022-05-05T06:18:07Z",
+                        "closedAt": "2022-05-05T20:35:47Z"
+                    },
+                    {
+                        "title": "Add Throwable functional interfaces",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28417",
+                        "createdAt": "2022-05-05T06:21:25Z",
+                        "closedAt": "2022-05-05T20:35:47Z"
+                    },
+                    {
+                        "title": "Add RootBeanDefinition constructor that accepts a ResolvableType",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28418",
+                        "createdAt": "2022-05-05T06:29:05Z",
+                        "closedAt": "2022-05-05T20:35:48Z"
+                    },
+                    {
+                        "title": "Accept BCP 47 language tags in LocaleEditor",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28419",
+                        "createdAt": "2022-05-05T06:29:10Z",
+                        "closedAt": "2022-05-09T16:39:17Z"
+                    },
+                    {
+                        "title": "Add byte[] to supported types in SimpleJmsHeaderMapper",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28421",
+                        "createdAt": "2022-05-05T16:44:57Z",
+                        "closedAt": "2022-05-06T14:26:38Z"
+                    },
+                    {
+                        "title": "@ModelAttribute name attribute is not supported in WebFlux",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28423",
+                        "createdAt": "2022-05-07T15:11:47Z",
+                        "closedAt": "2022-05-07T15:25:11Z"
+                    },
+                    {
+                        "title": "Remove obsolete SpEL expression grammar file",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28425",
+                        "createdAt": "2022-05-08T08:55:12Z",
+                        "closedAt": "2022-05-10T10:51:56Z"
+                    },
+                    {
+                        "title": "Option to toggle off CSRF token as url parameter",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28429",
+                        "createdAt": "2022-05-09T07:52:34Z",
+                        "closedAt": "2022-05-09T07:55:59Z"
+                    },
+                    {
+                        "title": "Scheduled task was not triggered after DST",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28430",
+                        "createdAt": "2022-05-09T10:39:28Z",
+                        "closedAt": "2022-05-23T13:10:23Z"
+                    },
+                    {
+                        "title": "sun.nio.fs.WindowsPath$WindowsPathWithAttributes error while upgrading Batch with Spring boot from 2.1.8.RELEASE to 2.6.7",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28432",
+                        "createdAt": "2022-05-09T17:56:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "spring webflux gets http header data",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28435",
+                        "createdAt": "2022-05-10T06:50:59Z",
+                        "closedAt": "2022-05-10T06:52:23Z"
+                    },
+                    {
+                        "title": "SimpleMessageListenerContainer disconnects from message provider",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28436",
+                        "createdAt": "2022-05-10T07:37:48Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Upgrade to Reactor 2020.0.19",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28437",
+                        "createdAt": "2022-05-10T10:18:03Z",
+                        "closedAt": "2022-05-10T11:43:27Z"
+                    },
+                    {
+                        "title": "Update documentation for RFC 7807 support",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28438",
+                        "createdAt": "2022-05-10T11:36:41Z",
+                        "closedAt": "2022-07-13T12:12:28Z"
+                    },
+                    {
+                        "title": "Add WebFlux equivalent of ResponseEntityExceptionHandler",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28439",
+                        "createdAt": "2022-05-10T11:39:32Z",
+                        "closedAt": "2022-07-13T10:00:20Z"
+                    },
+                    {
+                        "title": "Content type multipart/mixed not supported / 415 UNSUPPORTED_MEDIA_TYPE (after Spring + Spring Boot upgrade)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28441",
+                        "createdAt": "2022-05-10T18:09:49Z",
+                        "closedAt": "2022-05-10T19:00:47Z"
+                    },
+                    {
+                        "title": "Add native hints for core annotations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28442",
+                        "createdAt": "2022-05-10T23:13:49Z",
+                        "closedAt": "2022-05-11T00:10:26Z"
+                    },
+                    {
+                        "title": "Ignore invalid STOMP frame",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28443",
+                        "createdAt": "2022-05-11T06:19:29Z",
+                        "closedAt": "2022-05-11T06:57:13Z"
+                    },
+                    {
+                        "title": "Ignore invalid STOMP frame",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28444",
+                        "createdAt": "2022-05-11T06:24:56Z",
+                        "closedAt": "2022-05-11T06:28:33Z"
+                    },
+                    {
+                        "title": "Refine CachedIntrospectionResults property introspection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28445",
+                        "createdAt": "2022-05-11T06:25:35Z",
+                        "closedAt": "2022-05-11T06:57:13Z"
+                    },
+                    {
+                        "title": "Refine CachedIntrospectionResults property introspection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28446",
+                        "createdAt": "2022-05-11T06:26:45Z",
+                        "closedAt": "2022-05-11T06:53:19Z"
+                    },
+                    {
+                        "title": "Facing SQL state [25P02]; error code [0] in spring integration flow while performing update",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28447",
+                        "createdAt": "2022-05-11T10:59:15Z",
+                        "closedAt": "2022-05-11T11:07:30Z"
+                    },
+                    {
+                        "title": "Reference PDF containing full docs not available",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28451",
+                        "createdAt": "2022-05-12T07:01:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "SPEL: In the map, variables are used as keys to obtain value, and unexpected results occur",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28452",
+                        "createdAt": "2022-05-12T07:24:40Z",
+                        "closedAt": "2022-05-13T08:19:49Z"
+                    },
+                    {
+                        "title": "Resolve package cycle around MissingServletRequestPartException",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28455",
+                        "createdAt": "2022-05-12T11:47:43Z",
+                        "closedAt": "2022-06-01T17:19:09Z"
+                    },
+                    {
+                        "title": "SPEL: Not unique cache key for PropertyOrFieldReference when evaluating fragment",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28456",
+                        "createdAt": "2022-05-12T12:46:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add resolver for request attributes for `@HttpExchange` methods",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28458",
+                        "createdAt": "2022-05-13T14:11:19Z",
+                        "closedAt": "2022-05-23T10:25:50Z"
+                    },
+                    {
+                        "title": "Reduce visibility of methods from ExitCodeGenerators to package private",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28460",
+                        "createdAt": "2022-05-14T13:14:03Z",
+                        "closedAt": "2022-05-14T13:24:55Z"
+                    },
+                    {
+                        "title": "Spring rsocket not works properly in request Channel mode after version 2.5 of the spring framework",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28462",
+                        "createdAt": "2022-05-15T10:20:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Circular bean reference error in Spring Boot v2.6.0 and above",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28463",
+                        "createdAt": "2022-05-15T12:44:25Z",
+                        "closedAt": "2022-05-15T13:00:13Z"
+                    },
+                    {
+                        "title": "CookieWebSessionIdResolver will never expire since maxAge is set in initSessionCookie()",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28464",
+                        "createdAt": "2022-05-15T17:59:30Z",
+                        "closedAt": "2022-05-16T09:12:30Z"
+                    },
+                    {
+                        "title": "Provide guidance on using @Nested within test classes with complex inheritance and annotation arrangements",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28466",
+                        "createdAt": "2022-04-09T19:05:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Scheduled method runs twice when setting cron to run every 59 seconds",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28467",
+                        "createdAt": "2022-05-15T23:00:53Z",
+                        "closedAt": "2022-05-16T13:44:05Z"
+                    },
+                    {
+                        "title": "Introduce a meta-annotation that indicates the annotated element requires reflection hints",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28469",
+                        "createdAt": "2022-05-17T07:17:03Z",
+                        "closedAt": "2022-05-20T13:23:05Z"
+                    },
+                    {
+                        "title": "Introduce a way to indicate that an annotation needs to be visible at runtime",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28470",
+                        "createdAt": "2022-05-17T07:27:32Z",
+                        "closedAt": "2022-06-08T12:01:13Z"
+                    },
+                    {
+                        "title": "hello   您对spring bean的生命周期怎么看",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28471",
+                        "createdAt": "2022-05-17T11:35:22Z",
+                        "closedAt": "2022-05-17T11:37:45Z"
+                    },
+                    {
+                        "title": "Failed to create AnnotationConfigApplicationContext instance",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28473",
+                        "createdAt": "2022-05-18T03:26:47Z",
+                        "closedAt": "2022-05-18T05:50:31Z"
+                    },
+                    {
+                        "title": "Introduce AotDetector mode",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28474",
+                        "createdAt": "2022-05-18T13:20:36Z",
+                        "closedAt": "2022-06-02T12:58:25Z"
+                    },
+                    {
+                        "title": "AOT contribution for @EventListener",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28475",
+                        "createdAt": "2022-05-18T13:25:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Allow changes to `org.springframework.web` log category at runtime",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28477",
+                        "createdAt": "2022-05-18T21:07:04Z",
+                        "closedAt": "2022-06-08T09:44:50Z"
+                    },
+                    {
+                        "title": "spring5.1.x error",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28481",
+                        "createdAt": "2022-05-19T06:04:35Z",
+                        "closedAt": "2022-05-19T07:01:20Z"
+                    },
+                    {
+                        "title": "The problem that field must be all capitalized when use Constants",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28483",
+                        "createdAt": "2022-05-19T08:07:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Is it possible to use @Autowired like annotations instead of getBeansWithAnnotation",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28484",
+                        "createdAt": "2022-05-19T07:32:03Z",
+                        "closedAt": "2022-05-19T08:39:16Z"
+                    },
+                    {
+                        "title": "Do you consider using annotations to register web interceptors",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28485",
+                        "createdAt": "2022-05-19T06:36:38Z",
+                        "closedAt": "2022-05-20T09:55:01Z"
+                    },
+                    {
+                        "title": "Add support for child contexts in AOT",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28486",
+                        "createdAt": "2022-05-19T14:56:38Z",
+                        "closedAt": "2022-08-31T14:46:55Z"
+                    },
+                    {
+                        "title": "Add support for programmatically registered beans in AOT",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28487",
+                        "createdAt": "2022-05-19T15:15:06Z",
+                        "closedAt": "2022-05-20T14:07:54Z"
+                    },
+                    {
+                        "title": "I need help",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28489",
+                        "createdAt": "2022-05-20T01:09:02Z",
+                        "closedAt": "2022-05-20T05:18:43Z"
+                    },
+                    {
+                        "title": "ServerHttpRequest.getCookies() can only get the first cookie value when multiple cookies with the same name exist",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28490",
+                        "createdAt": "2022-05-20T01:43:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support default methods in `@HttpExchange` interface",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28491",
+                        "createdAt": "2022-05-20T01:59:58Z",
+                        "closedAt": "2022-06-01T17:19:09Z"
+                    },
+                    {
+                        "title": "Support property placeholders in url attribute of @HttpExchange",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28492",
+                        "createdAt": "2022-05-20T04:11:24Z",
+                        "closedAt": "2022-05-23T10:25:50Z"
+                    },
+                    {
+                        "title": "All Spring 5 versions are vulnerable to  RCE - CVE-2016-100002",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28494",
+                        "createdAt": "2022-05-20T07:54:52Z",
+                        "closedAt": "2022-05-20T07:59:46Z"
+                    },
+                    {
+                        "title": "Invoke default methods in dynamic proxies automatically",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28495",
+                        "createdAt": "2022-05-20T11:18:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Break package tangle between o.s.aot and o.s.core",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28496",
+                        "createdAt": "2022-05-20T12:07:00Z",
+                        "closedAt": "2022-06-08T09:54:08Z"
+                    },
+                    {
+                        "title": "Introduce utility to register hints for an annotation that uses AliasFor",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28497",
+                        "createdAt": "2022-05-20T12:15:52Z",
+                        "closedAt": "2022-05-20T13:23:05Z"
+                    },
+                    {
+                        "title": "The url attribute of PutExchange and DeleteExchange does not match the url type in HttpExchange",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28499",
+                        "createdAt": "2022-05-22T09:28:56Z",
+                        "closedAt": "2022-05-22T09:44:30Z"
+                    },
+                    {
+                        "title": "CachingConnectionFactory with WebLogic JMS not caching producers nor consumers",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28500",
+                        "createdAt": "2022-05-22T16:18:58Z",
+                        "closedAt": "2022-06-14T13:30:58Z"
+                    },
+                    {
+                        "title": "Create UrlResource factory methods that throw unchecked exceptions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28501",
+                        "createdAt": "2022-05-22T16:57:15Z",
+                        "closedAt": "2022-05-23T12:30:00Z"
+                    },
+                    {
+                        "title": "javax.persistence.TransactionRequiredException: no transaction is in progress",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28502",
+                        "createdAt": "2022-05-23T02:32:33Z",
+                        "closedAt": "2022-05-23T03:35:49Z"
+                    },
+                    {
+                        "title": "Allow custom HTTP method with @HttpExchange methods",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28504",
+                        "createdAt": "2022-05-23T15:23:25Z",
+                        "closedAt": "2022-05-24T08:28:41Z"
+                    },
+                    {
+                        "title": "Refactor HttpServiceProxyFactory to be suitable as an infrastructure bean",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28505",
+                        "createdAt": "2022-05-23T15:30:33Z",
+                        "closedAt": "2022-05-24T08:28:40Z"
+                    },
+                    {
+                        "title": "Support module path scanning for \"classpath*:\" resource prefix",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28506",
+                        "createdAt": "2022-05-23T16:50:34Z",
+                        "closedAt": "2022-05-24T10:14:43Z"
+                    },
+                    {
+                        "title": "Introduce ModulePathResource for resources loaded from the module path",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28507",
+                        "createdAt": "2022-05-23T16:52:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Official website not working properly",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28508",
+                        "createdAt": "2022-05-23T21:25:20Z",
+                        "closedAt": "2022-05-23T21:34:19Z"
+                    },
+                    {
+                        "title": "Spring Boot creates a lot of unused dependencies, resulting in a large deployment file. Is there any solution for this in upcoming releases?",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28509",
+                        "createdAt": "2022-05-24T07:24:23Z",
+                        "closedAt": "2022-05-29T13:37:45Z"
+                    },
+                    {
+                        "title": "Currently there is a complex and time-consuming process of converting a legacy or an existing Spring project to a Spring Boot application. Any api planned in upcoming releases to solve this",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28510",
+                        "createdAt": "2022-05-24T07:28:41Z",
+                        "closedAt": "2022-05-29T13:40:17Z"
+                    },
+                    {
+                        "title": "Seems bit aggressive to announce for the enforcement of java 17 in spring6",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28511",
+                        "createdAt": "2022-05-24T07:41:54Z",
+                        "closedAt": "2022-05-24T07:57:48Z"
+                    },
+                    {
+                        "title": "Alternative for ServletContextListener while using webflux/netty",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28512",
+                        "createdAt": "2022-05-24T08:17:53Z",
+                        "closedAt": "2022-05-24T08:42:34Z"
+                    },
+                    {
+                        "title": "Getting Internal Error 500 response in Spring 5 when url contains semicolon.",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28513",
+                        "createdAt": "2022-05-24T08:24:00Z",
+                        "closedAt": "2022-06-05T15:43:00Z"
+                    },
+                    {
+                        "title": "Spring 5 backward compatible to spring 4",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28514",
+                        "createdAt": "2022-05-24T08:30:34Z",
+                        "closedAt": "2022-05-31T07:59:03Z"
+                    },
+                    {
+                        "title": "Bean definition contribution includes attributes that are not used at runtime",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28516",
+                        "createdAt": "2022-05-24T09:42:21Z",
+                        "closedAt": "2022-07-27T13:02:37Z"
+                    },
+                    {
+                        "title": "Ambiguous behavior for ClassNameGenerator::generateClassName",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28517",
+                        "createdAt": "2022-05-24T11:52:11Z",
+                        "closedAt": "2022-06-20T09:17:05Z"
+                    },
+                    {
+                        "title": "Add reflection hints for Web controllers",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28518",
+                        "createdAt": "2022-05-24T14:07:30Z",
+                        "closedAt": "2022-06-13T13:29:35Z"
+                    },
+                    {
+                        "title": "Testing transaction rollbacks without polluting other tests using Propagation.NESTED",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28519",
+                        "createdAt": "2022-05-24T14:09:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "HierarchicalUriComponents::getPort() throws NumberFormatException with invalid port in URI",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28521",
+                        "createdAt": "2022-05-25T06:37:38Z",
+                        "closedAt": "2022-05-25T09:33:17Z"
+                    },
+                    {
+                        "title": "Creating relative resource for URL resource does not create relative Resource if relative path has URL in it",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28522",
+                        "createdAt": "2022-05-25T10:21:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "When initializing DispatcherServlet multiple times, its internal states like handlerAdapters etc. will be cleared first and then set",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28523",
+                        "createdAt": "2022-05-25T12:03:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ConnectionManagerSupport must also provide a ctor for the URI which will be created and encoded respectively by end-user upfront.",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28524",
+                        "createdAt": "2022-05-25T14:45:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ApplicationContextAotGenerator should return the initializer class name",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28525",
+                        "createdAt": "2022-05-25T22:17:33Z",
+                        "closedAt": "2022-05-31T17:55:58Z"
+                    },
+                    {
+                        "title": "Filtering of BeanRegistrationAotProcessor beans should be optional",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28526",
+                        "createdAt": "2022-05-25T22:22:29Z",
+                        "closedAt": "2022-07-18T10:06:47Z"
+                    },
+                    {
+                        "title": "Made BeanPropertySqlParameterSource.beanWrapper protected",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28527",
+                        "createdAt": "2022-05-26T11:05:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Proxy hint missing when `AliasFor` is used on the annotation itself",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28528",
+                        "createdAt": "2022-05-26T13:10:35Z",
+                        "closedAt": "2022-05-26T13:58:22Z"
+                    },
+                    {
+                        "title": "Pageable request query column name mismatch in sortBy section",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28529",
+                        "createdAt": "2022-05-27T00:37:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for CGLIB BeanCopier utility on JDK 17",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28530",
+                        "createdAt": "2022-05-27T03:46:54Z",
+                        "closedAt": "2022-06-14T13:30:58Z"
+                    },
+                    {
+                        "title": "WS: SimpMessagingTemplate.convertAndSend*(...) should allow for null payloads",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28531",
+                        "createdAt": "2022-05-27T01:49:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": ".",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28532",
+                        "createdAt": "2022-05-27T11:09:36Z",
+                        "closedAt": "2022-05-30T07:23:49Z"
+                    },
+                    {
+                        "title": "Improve options for exception handling in HTTP interface client ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28533",
+                        "createdAt": "2022-05-27T15:48:06Z",
+                        "closedAt": "2022-06-24T14:55:55Z"
+                    },
+                    {
+                        "title": "OncePerRequestFilter gets hit over and over when batching using a FORWARD",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28534",
+                        "createdAt": "2022-05-27T17:57:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "The OkHttp3ClientHttpRequestFactory caches the request body. When the request body is too large, an OOM occurs.",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28535",
+                        "createdAt": "2022-05-28T07:32:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Which version of hibernate is suitable for spring framework 5.0.2?",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28536",
+                        "createdAt": "2022-05-29T04:28:07Z",
+                        "closedAt": "2022-05-29T05:55:12Z"
+                    },
+                    {
+                        "title": "Which version of JBoss eap is the minimum requirement of Spring framework upgrade from 3 to 5 please?",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28537",
+                        "createdAt": "2022-05-29T04:29:41Z",
+                        "closedAt": "2022-05-29T05:53:01Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOSpy4HQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

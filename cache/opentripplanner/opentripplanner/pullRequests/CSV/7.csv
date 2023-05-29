@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"add Atlanta to list of deployments","2018-4/18","2018-4/18","2018-4/18",True,"2018-4/18",3,1,0
+"Add Puget Sound and Tampa for OneBusAway","2018-4/19","2018-6/19","2018-4/19",True,"2018-6/19",2,2,1
+"Move property 'stopClusterMode' from routing config to build config.","2018-4/23","2018-7/23","2018-4/23",True,"2018-7/23",3,103,40
+"Fake station gen","2018-4/25","2018-4/25","2018-4/25",False,"null",2,71488,25
+"CAP-1499: Env var for access key.","2018-4/26","2018-4/26","2018-4/26",False,"null",3,112913,42
+"CAP-1509: Kube setup.","2018-4/27","2018-4/27","2018-4/27",False,"null",2,113057,42
+"Cost bounded path generation","2018-4/30","2018-4/30","2018-4/30",False,"null",1,156,93
+"CAP-1413: Use larger DC metro.","2018-5/1","2018-5/1","2018-5/1",False,"null",2,113208,44
+"CAP-1531: Load new service areas.","2018-5/2","2018-5/2","2018-5/2",False,"null",2,346393,44
+"CAP-1536: Visualize all added fake_stations.","2018-5/2","2018-9/2","2018-5/2",False,"null",3,346497,44
+"Add Dutch fare service","2018-5/19","2018-5/19","2018-5/19",True,"2018-5/19",3,341,11
+"Re #2753 Upgrade Apache Deps","2018-6/14","2018-7/14","2018-6/14",True,"2018-7/14",3,8,3
+"Also link transport platforms that are not railway (#2576)","2018-6/21","2018-8/21","2018-6/21",True,"2018-8/21",3,2,3
+"TimedTransfers should not dominate other states (#2502)","2018-6/21","2018-7/21","2018-6/21",True,"2018-7/21",4,82,0
+"Changed calculation of slope costs (#2579)","2018-6/21","2019-1/21","2018-6/21",True,"2019-1/21",5,631,340
+"Implemented ""ride and kiss"" feature (#2581)","2018-6/21","2019-6/21","2018-6/21",False,"null",5,179,8
+"Prepare for netex import","2018-6/21","2019-5/21","2018-6/21",True,"2019-5/21",3,1994,1261
+"Split graph bulding into two parts (OSM/transit) (#2583)","2018-6/22","2019-11/22","2018-6/22",False,"null",4,86,53
+"Whitelisting (#2586)","2018-6/22","2018-9/22","2018-6/22",True,"2018-9/22",5,158,35
+"Also search street network when searching from transit stop (#2588)","2018-6/22","2019-5/22","2018-6/22",False,"null",3,10,2
+"serviceDayLookout: add parameter to look more days out in future (or past, for arriveBy=true)","2018-6/27","2019-2/27","2018-6/27",True,"2019-2/27",5,147,12
+"Allow itinerary in response to be sorted by duration","2018-6/27","2018-10/27","2018-6/27",True,"2018-10/27",3,124,9
+"UPDATE: TRANS-44 add timetable, timepoint, maxTransfer, schoolbus to OTP","2018-6/28","2018-6/28","2018-6/28",False,"null",1,473,23
+"Allow Passing Time Zone in Request","2018-6/28","null","2018-6/28",False,"null",3,15,8
+"Implement dockless bikes and connect to Coord API","2018-6/29","2021-9/29","2018-6/29",False,"null",1,1376,431
+"Micro-optimalization: Create CSV reader directly from InputStream when reading GTFS feed info","2018-7/10","2018-7/10","2018-7/10",True,"2018-7/10",4,9,7
+"GBFS service hours","2018-7/17","null","2018-7/17",False,"null",8,227,29
+"GTFS flex support: flag stops, deviated-route service, call-and-ride","2018-7/18","2019-2/18","2018-7/18",True,"2019-2/18",9,4470,127
+"PRs will now be reviewed & approved by PLC","2018-7/18","2018-7/18","2018-7/18",True,"2018-7/18",1,8,0
+"add a PR template","2018-7/20","2018-7/20","2018-7/20",True,"2018-7/20",3,12,0
+"Bugfixes in GTFS-RT Alerts handling","2018-7/20","null","2018-7/20",False,"null",6,155,3
+"Replace id-generator with AtomicInteger","2018-7/24","2018-7/24","2018-7/24",False,"null",4,8,128
+"Microoptimalization: Refactor PathComparator to start- and end-time variants","2018-7/28","2018-10/28","2018-7/28",False,"null",4,53,29
+"Microoptimalization: Less costly / lazy init of RoutingRequest instances","2018-7/28","2018-10/28","2018-7/28",False,"null",3,67,24
+"Remove Analysis functionality and integer indexes from 1.x","2018-7/31","2022-7/31","2018-7/31",False,"null",2,131,26461
+"Addresses #2636: Update onebusaway-gtfs to latest version from OBA project","2018-8/15","2018-8/15","2018-8/15",True,"2018-8/15",4,10,1
+"Deploy builds to s3","2018-9/11","2018-12/11","2018-9/11",True,"2018-12/11",7,22,1
+"Separate graph serialization/deserialization from Graph","2018-9/28","2018-10/28","2018-9/28",False,"null",2,430,188
+"Add elevationUnitMultiplier builder parameter","2018-10/5","2018-12/5","2018-10/5",True,"2018-12/5",3,35,5
+"Fix to a reverse optimization bug","2018-10/8","2019-2/8","2018-10/8",True,"2019-2/8",4,7,5
+"Fix memory leak in routing context destroy.","2018-10/15","2018-12/15","2018-10/15",True,"2018-12/15",3,553,140
+"upgrade jackson and commons-compress ","2018-10/17","2018-11/17","2018-10/17",True,"2018-11/17",6,12,6
+"Support OSM highway=razed tag","2018-10/23","2018-12/23","2018-10/23",True,"2018-12/23",3,15,8
+"Add new features from work on TriMet’s OpenTripPlanner Shared-Use Mobility (OTP SUM) project.  Resolves #2642","2018-11/1","2019-5/1","2018-11/1",False,"null",5,6425,270
+"Island pruning improvements","2018-11/15","2021-10/15","2018-11/15",False,"null",7,170,43
+"Add improvements to heuristic for bike rental and car modes (Fixes #2671)","2018-11/19","2019-5/19","2018-11/19",True,"2019-5/19",5,291,60
+"Transportation network company routing (closes #2642)","2018-11/21","null","2018-11/21",False,"null",4,2664,114
+"Car rental routing (fixes #2672)","2018-11/22","null","2018-11/22",False,"null",2,5154,201
+"Replace Java serialization with Kryo","2018-11/22","2018-12/22","2018-11/22",True,"2018-12/22",6,336,168
+"Fix dutchfareservice","2018-11/22","2019-1/22","2018-11/22",True,"2019-1/22",2,21,10
+"test with more JDK (open and Oracle)","2018-12/11","2019-2/11","2018-12/11",False,"null",3,18,0
+"add missing version #2688 (3.0.1)","2018-12/11","2019-1/11","2018-12/11",True,"2019-1/11",3,1,0
+"test upgrade GeoTools to compile in JDK9+","2018-12/11","2019-2/11","2018-12/11",False,"null",3,564,488
+"fix regex in GenericLocation.java","2018-12/11","2019-1/11","2018-12/11",True,"2019-1/11",3,4,2
+"Improve configuration docs","2018-12/11","2018-12/11","2018-12/11",True,"2018-12/11",4,51,2
+"Remove Open Traffic prototype code","2018-12/13","2019-1/13","2018-12/13",True,"2019-1/13",5,2,531
+"Remove R5 and gtfs-lib dependencies, using kryo-tools dependency","2018-12/18","2019-2/18","2018-12/18",False,"null",3,49,2386
+"Configuration documentation tables -- mention in PR checklist & add a missing row","2018-12/20","2018-12/20","2018-12/20",True,"2018-12/20",3,2,0
+"Alternate fix to memory leak (#2655)","2018-12/24","2019-1/24","2018-12/24",False,"null",3,133,155
+"Update Sun Java code conventions link","2019-1/22","2019-1/22","2019-1/22",True,"2019-1/22",2,1,1
+"TranslatedString does not check emptiness of input map","2019-1/22","2019-2/22","2019-1/22",True,"2019-2/22",3,17,2
+"Method `getSomeOSMObject()` does not check the emptiness of member collection `areas`","2019-1/23","2019-2/23","2019-1/23",False,"null",3,3,0
+"Upgrade Geotools, steps toward targeting JDK 11","2019-1/23","2019-2/23","2019-1/23",True,"2019-2/23",5,1037,3002
+"Remove AWS dependencies, fixes #2713","2019-1/23","2019-1/23","2019-1/23",True,"2019-1/23",3,0,1910
+"Added the safeRun() method - avoiding the System.exit(-1) call","2019-2/11","2019-2/11","2019-2/11",True,"2019-2/11",3,12,6
+"PR submitter should add to changelog","2019-2/12","2019-2/12","2019-2/12",True,"2019-2/12",3,2,2
+"Add unit tests for org.opentripplanner.common.geometry.Subgraph (Fixes #2723)","2019-2/19","2019-2/19","2019-2/19",False,"null",2,55,0
+"Subgraph fix","2019-2/22","null","2019-2/22",False,"null",3,58,10
+"Remove CarFreeAtoZ from list of deployments","2019-2/27","2019-2/27","2019-2/27",True,"2019-2/27",2,1,1
+"Remove analysis from 2.x","2019-3/7","2019-3/7","2019-3/7",True,"2019-3/7",2,151,21739
+"Add support for GTFS-rt TripUpdate delay field. Closes #2733.","2019-3/16","null","2019-3/16",False,"null",2,55,3
+"Fix bike rented though no bikes/spaces are available (Closes #2735)","2019-3/16","null","2019-3/16",False,"null",3,133,2
+"Feature/triptimes graphql api","2019-3/18","2019-3/18","2019-3/18",False,"null",10,13917,2932
+"allow big GTFS-realtime feeds by increasing protobuf size limit to 2G","2019-3/20","2019-7/20","2019-3/20",True,"2019-7/20",2,12,5
+"Fix #2685: Remove XML annotations from response objects","2019-3/29","2019-4/29","2019-3/29",True,"2019-4/29",4,6,196
+"Remove XML annotations from response objects 2.x","2019-4/9","2019-5/9","2019-4/9",False,"null",3,26,220
+"Improve narrative directions for walking with elevators","2019-4/22","null","2019-4/22",False,"null",3,13,11
+"Add API endpoint for Park and Rides","2019-4/22","null","2019-4/22",False,"null",2,113,1
+"Add ability to define custom walk comfort rules","2019-4/23","null","2019-4/23",False,"null",4,629,1
+"Correctly calculate elevation profile for partial street edges","2019-4/23","null","2019-4/23",False,"null",3,71,0
+" Integrate RAPTOR search algorithm","2019-4/24","2019-5/24","2019-4/24",True,"2019-5/24",5,1697,21
+"Initial OTP Sandbox Extension","2019-4/25","2019-5/25","2019-4/25",True,"2019-5/25",2,1525,568
+"Splitter refactor","2019-5/7","null","2019-5/7",False,"null",4,828,778
+"added 'Trolley' and 'Shared Taxi' types","2019-5/8","2019-5/8","2019-5/8",False,"null",2,164,13
+"Update OTP version to 2.0.0-SNAPSHOT","2019-5/10","2019-5/10","2019-5/10",True,"2019-5/10",2,1,1
+"Clearify coding standards","2019-5/20","2022-3/20","2019-5/20",False,"null",2,263,0
+"NeTEx import","2019-5/21","2019-9/21","2019-5/21",True,"2019-9/21",3,6980,877
+"Added javadoc to the Raptor integration","2019-5/22","2019-5/22","2019-5/22",True,"2019-5/22",2,38,3
+"Direct transfer analyzer graph builder module","2019-5/22","2019-5/22","2019-5/22",True,"2019-5/22",3,302,1
+"Remove repo, add https","2019-5/29","2019-7/29","2019-5/29",True,"2019-7/29",2,6,10
+"Remove repo, add https for 2.0","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",2,1,6
+" Restore support for non transit itineraries in 2.x","2019-5/29","2019-6/29","2019-5/29",True,"2019-6/29",3,71,36
+"Extend 2.x itinerary decoration to better match 1.x","2019-6/7","2019-6/7","2019-6/7",True,"2019-6/7",2,153,113
+"Mark deprecated fields in the RoutingRequest","2019-6/18","2019-11/18","2019-6/18",True,"2019-11/18",4,652,368
+"Fix JTS coordinate order for Polygons/Polylines","2019-6/19","2019-7/19","2019-6/19",True,"2019-7/19",3,34,3
+"Raptor router bugfix - prevent cleaning up temporary edges twice","2019-7/4","2019-10/4","2019-7/4",True,"2019-10/4",3,33,6
+"Bike rental edge split refactor","2019-7/16","null","2019-7/16",False,"null",4,2044,972
+"Use realtime data in TransitLayerMapper. Eliminate onboard edges from Graph.","2019-7/24","2019-8/24","2019-7/24",True,"2019-8/24",2,1303,5768
+"Remove redundant LineStrings in order to save memory","2019-7/25","2019-8/25","2019-7/25",True,"2019-8/25",3,269,196
+"Send an Accept: header appropriate for a protobuf response.","2019-7/29","2019-7/29","2019-7/29",True,"2019-7/29",3,3,2

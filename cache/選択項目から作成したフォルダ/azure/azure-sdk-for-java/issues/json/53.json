@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 8231,
+                "nodes": [
+                    {
+                        "title": "[BUG] Infinite Loop in BlobContainerClient.listBlobs",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20515",
+                        "createdAt": "2021-04-09T18:03:20Z",
+                        "closedAt": "2021-05-28T08:00:19Z"
+                    },
+                    {
+                        "title": "[BUG] BlobContainerClient.listBlobsByHierarchy throws StackOverflowError",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20523",
+                        "createdAt": "2021-04-09T23:56:38Z",
+                        "closedAt": "2021-04-22T19:51:29Z"
+                    },
+                    {
+                        "title": "[BUG] ServiceBusSenderAsyncClient logging very verbose at INFO level",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20527",
+                        "createdAt": "2021-04-10T22:18:57Z",
+                        "closedAt": "2021-10-05T18:23:08Z"
+                    },
+                    {
+                        "title": "[QUERY]  blobClient.upload(inputStream, -1) not working",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20528",
+                        "createdAt": "2021-04-11T07:51:40Z",
+                        "closedAt": "2021-04-22T19:51:40Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] PK-based findAllById + deleteAllById methods in CosmosRepository",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20529",
+                        "createdAt": "2021-04-11T15:15:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "InteractiveBrowserCredential usage throws error",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20546",
+                        "createdAt": "2021-04-12T07:58:50Z",
+                        "closedAt": "2021-08-02T21:35:59Z"
+                    },
+                    {
+                        "title": "[BUG] BlobStorageClient.Delete() Throws InterruptedException on Existing Blob",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20551",
+                        "createdAt": "2021-04-12T10:32:54Z",
+                        "closedAt": "2021-05-05T08:00:28Z"
+                    },
+                    {
+                        "title": "[Event Hub]Intermittent connectivity problems when sending events.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20557",
+                        "createdAt": "2021-04-12T15:20:28Z",
+                        "closedAt": "2021-06-02T08:00:12Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] `azure.core.credential.AzureSasCredential` Sanitize SAS for URIs",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20561",
+                        "createdAt": "2021-04-12T17:36:35Z",
+                        "closedAt": "2021-07-19T21:49:24Z"
+                    },
+                    {
+                        "title": "Add support for tenant discovery in ClientCredentials",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20564",
+                        "createdAt": "2021-04-12T17:52:26Z",
+                        "closedAt": "2021-08-02T21:37:48Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] BlobClient.upload(InputStream, ...) shouldn't require a known length",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20567",
+                        "createdAt": "2021-04-12T18:24:19Z",
+                        "closedAt": "2021-06-28T19:12:40Z"
+                    },
+                    {
+                        "title": "[BUG] Get Exception in thread \"main\" java.lang.NoSuchMethodError: 'java.lang.String com.azure.core.util.CoreUtils.getApplicationId(com.azure.core.util.ClientOptions, com.azure.core.http.policy.HttpLogOptions)' when create the client",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20569",
+                        "createdAt": "2021-04-12T19:07:54Z",
+                        "closedAt": "2021-04-15T17:01:23Z"
+                    },
+                    {
+                        "title": "Form Recognizer Beta 4",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20570",
+                        "createdAt": "2021-04-12T19:19:49Z",
+                        "closedAt": "2021-05-26T06:14:14Z"
+                    },
+                    {
+                        "title": " Support code written customization to minimize handwritten translation layers",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20572",
+                        "createdAt": "2021-04-12T19:22:42Z",
+                        "closedAt": "2022-08-26T17:45:44Z"
+                    },
+                    {
+                        "title": " Support code written customization to minimize handwritten translation layers",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20574",
+                        "createdAt": "2021-04-12T19:26:32Z",
+                        "closedAt": "2022-08-26T17:46:06Z"
+                    },
+                    {
+                        "title": "Add index utilization details to query metrics",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20576",
+                        "createdAt": "2021-04-12T20:09:37Z",
+                        "closedAt": "2022-06-13T23:18:05Z"
+                    },
+                    {
+                        "title": "Move ACR to use BearerTokenChallengeBasedAuthenticationPolicy from Core",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20578",
+                        "createdAt": "2021-04-12T20:32:44Z",
+                        "closedAt": "2021-04-21T17:03:43Z"
+                    },
+                    {
+                        "title": "Add more tests for azure-security-keyvault-jca",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20589",
+                        "createdAt": "2021-04-13T00:36:05Z",
+                        "closedAt": "2021-06-02T09:25:02Z"
+                    },
+                    {
+                        "title": "Write tutorial about how to use azure-spring-boot-starter-keyvault-certificates",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20590",
+                        "createdAt": "2021-04-13T00:39:46Z",
+                        "closedAt": "2021-05-28T08:44:07Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] Support whole cert chain in azure-security-keyvault-jca",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20591",
+                        "createdAt": "2021-04-13T00:43:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "For key-vault-jca, load / refresh from key vault service",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20592",
+                        "createdAt": "2021-04-13T00:47:42Z",
+                        "closedAt": "2021-05-28T09:08:22Z"
+                    },
+                    {
+                        "title": "For key-vault-jca, investigate what is KeyVaultTrustManager used for.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20593",
+                        "createdAt": "2021-04-13T00:56:41Z",
+                        "closedAt": "2021-04-29T05:59:36Z"
+                    },
+                    {
+                        "title": "Finish all todos in keyvault-jca's first PR.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20597",
+                        "createdAt": "2021-04-13T01:36:11Z",
+                        "closedAt": "2021-04-20T07:09:33Z"
+                    },
+                    {
+                        "title": "Enable BI usage tracking for JCA",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20598",
+                        "createdAt": "2021-04-13T01:41:41Z",
+                        "closedAt": "2021-04-29T02:30:05Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] Cache OBO token for resource server",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20599",
+                        "createdAt": "2021-04-13T01:54:50Z",
+                        "closedAt": "2021-04-13T01:58:28Z"
+                    },
+                    {
+                        "title": "[BUG] ServiceBus docs have invalid link to exception handling section",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20601",
+                        "createdAt": "2021-04-13T02:20:50Z",
+                        "closedAt": "2021-05-06T22:14:53Z"
+                    },
+                    {
+                        "title": "[BUG] ServiceBus docs don't explain the difference between receiver & processor and why to use one over the other",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20602",
+                        "createdAt": "2021-04-13T02:32:02Z",
+                        "closedAt": "2021-05-18T17:40:04Z"
+                    },
+                    {
+                        "title": "[BUG] ServiceBusReceiverClientBuilder allows to specify maxAutoLockRenewDuration, ServiceBusProcessorClientBuilder does not",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20603",
+                        "createdAt": "2021-04-13T02:35:55Z",
+                        "closedAt": "2021-04-19T22:42:11Z"
+                    },
+                    {
+                        "title": "[BUG] Update net.minidev:json-smart in com.azure.spring:azure-spring-boot to v2.4.x",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20611",
+                        "createdAt": "2021-04-13T09:20:53Z",
+                        "closedAt": "2021-06-30T07:33:05Z"
+                    },
+                    {
+                        "title": "[BUG] Cannot acquire token with UsernamePasswordCredential",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20617",
+                        "createdAt": "2021-04-13T14:58:29Z",
+                        "closedAt": "2021-04-19T08:37:57Z"
+                    },
+                    {
+                        "title": "Azure Blob - leaseID mandatory for deleting leased blob with new SDK?",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20620",
+                        "createdAt": "2021-04-13T16:35:44Z",
+                        "closedAt": "2021-04-23T17:07:51Z"
+                    },
+                    {
+                        "title": "Azure Blob - failed to delete blob with breakLease - 'There is currently a lease on the blob and no lease ID was specified in the request. RequestId'",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20621",
+                        "createdAt": "2021-04-13T16:52:08Z",
+                        "closedAt": "2021-04-16T10:38:29Z"
+                    },
+                    {
+                        "title": "[BUG] Azure-storage-blob Hitting PoolAcquireTimeoutException on getAccountInfo call.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20624",
+                        "createdAt": "2021-04-13T18:38:09Z",
+                        "closedAt": "2021-06-02T08:00:11Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] Create AzureApplicationCredential",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20629",
+                        "createdAt": "2021-04-13T21:15:47Z",
+                        "closedAt": "2021-10-25T09:57:12Z"
+                    },
+                    {
+                        "title": "Update Key Vault Administration README with assignment recommendations",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20631",
+                        "createdAt": "2021-04-13T21:27:16Z",
+                        "closedAt": "2021-04-14T20:48:00Z"
+                    },
+                    {
+                        "title": "[QUERY] How to Set a Custom Property on a Service Bus Message",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20632",
+                        "createdAt": "2021-04-13T22:06:52Z",
+                        "closedAt": "2021-04-19T22:39:50Z"
+                    },
+                    {
+                        "title": "[QUERY] Workaround for Java Data Lake SDK 5000 max results limit?",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20634",
+                        "createdAt": "2021-04-13T22:27:21Z",
+                        "closedAt": "2021-06-23T18:45:24Z"
+                    },
+                    {
+                        "title": "BUG: Fix the transient error with invalid json in ChangeFeedState",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20635",
+                        "createdAt": "2021-04-13T23:49:49Z",
+                        "closedAt": "2021-12-17T11:19:01Z"
+                    },
+                    {
+                        "title": "BUG: Ingestion (Cmd10 of Sample 01_Ingestion) sometimes hangs when limiting the input DF to 10 million rows instead of 1 million rows. Due to ThroughputControl or an issue in Bulk?",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20636",
+                        "createdAt": "2021-04-13T23:49:58Z",
+                        "closedAt": "2021-04-29T00:10:07Z"
+                    },
+                    {
+                        "title": "BUG: ClientRetryPolicy (throttling retries) not wired up correctly for ChangeFeed pull model",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20637",
+                        "createdAt": "2021-04-13T23:50:23Z",
+                        "closedAt": "2021-12-17T11:21:49Z"
+                    },
+                    {
+                        "title": "[BUG] ServiceBus SDK constantly fails on complete() action with invalid lock, even for no-op subscribers",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20640",
+                        "createdAt": "2021-04-14T00:39:17Z",
+                        "closedAt": "2021-05-21T20:28:33Z"
+                    },
+                    {
+                        "title": "[BUG] Illegal connection string parameter name: SharedAccessSignatureToken ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20643",
+                        "createdAt": "2021-04-14T01:34:44Z",
+                        "closedAt": "2021-04-19T21:26:35Z"
+                    },
+                    {
+                        "title": "[QUERY] : How to get started with this consumption library ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20652",
+                        "createdAt": "2021-04-14T07:53:06Z",
+                        "closedAt": "2021-05-06T23:07:01Z"
+                    },
+                    {
+                        "title": "[QUERY]: how to check client has been authenticated. ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20655",
+                        "createdAt": "2021-04-14T09:17:25Z",
+                        "closedAt": "2021-08-02T21:33:09Z"
+                    },
+                    {
+                        "title": "BUG: Evaluate whether we should allow keeping schema reference for a container to allow for better Spark-sql integration",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20658",
+                        "createdAt": "2021-04-14T12:25:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG]After closing the ServiceBusSenderClient instance the program still keeps running",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20660",
+                        "createdAt": "2021-04-14T13:13:44Z",
+                        "closedAt": "2021-10-05T21:26:44Z"
+                    },
+                    {
+                        "title": "Managed Identity Authentication",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20661",
+                        "createdAt": "2021-04-14T13:34:12Z",
+                        "closedAt": "2021-04-26T05:42:00Z"
+                    },
+                    {
+                        "title": "[Storage] Does BlobClient.Exists() function correctly for blobs encrypted with CPK?",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20663",
+                        "createdAt": "2021-04-14T13:49:01Z",
+                        "closedAt": "2022-08-30T22:28:01Z"
+                    },
+                    {
+                        "title": "Spring Developer Experience Improvements",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20681",
+                        "createdAt": "2021-04-14T22:45:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migrate start.spring.io to use Track 2 libraries",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20682",
+                        "createdAt": "2021-04-14T23:34:06Z",
+                        "closedAt": "2021-06-16T00:05:47Z"
+                    },
+                    {
+                        "title": "[BUG] Spring Service Bus Topic Auto Create Subscriptions",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20683",
+                        "createdAt": "2021-04-14T23:36:16Z",
+                        "closedAt": "2022-01-27T10:02:08Z"
+                    },
+                    {
+                        "title": "Hook up validate-samples.yml",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20684",
+                        "createdAt": "2021-04-15T00:28:00Z",
+                        "closedAt": "2021-04-15T21:58:59Z"
+                    },
+                    {
+                        "title": "Some samples have invalid product slugs",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20685",
+                        "createdAt": "2021-04-15T00:30:32Z",
+                        "closedAt": "2021-04-15T23:58:38Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] [Identity] Support cancel in device code login",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20686",
+                        "createdAt": "2021-04-15T00:49:05Z",
+                        "closedAt": "2021-05-07T00:01:24Z"
+                    },
+                    {
+                        "title": "[BUG] com.azure:azure-core-http-netty uses io.netty-components with multiple vulnerabilities",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20706",
+                        "createdAt": "2021-04-15T14:49:05Z",
+                        "closedAt": "2021-04-23T06:52:17Z"
+                    },
+                    {
+                        "title": "[BUG] NoClassDefFoundError: com/azure/core/util/Binary with EventHubAsyncConsumer",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20707",
+                        "createdAt": "2021-04-15T15:47:28Z",
+                        "closedAt": "2021-04-15T16:56:15Z"
+                    },
+                    {
+                        "title": "Improvement to perf analysis and testing Form Recognizer",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20708",
+                        "createdAt": "2021-04-15T17:50:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Cache search answers if the first paged is already retrieved ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20709",
+                        "createdAt": "2021-04-15T18:34:27Z",
+                        "closedAt": "2021-08-20T19:13:21Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] Add AzureCliCredential to possible Key Vault authentication methods",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20710",
+                        "createdAt": "2021-04-15T19:26:11Z",
+                        "closedAt": "2021-11-07T10:14:09Z"
+                    },
+                    {
+                        "title": "[FEATURE REQ] Need a way to test scenarios that run with restricted resource settings",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20712",
+                        "createdAt": "2021-04-15T20:15:57Z",
+                        "closedAt": "2021-08-19T18:01:33Z"
+                    },
+                    {
+                        "title": "List Spring sample README to the doc site",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20718",
+                        "createdAt": "2021-04-15T23:09:18Z",
+                        "closedAt": "2021-08-04T07:13:42Z"
+                    },
+                    {
+                        "title": "[QUERY] Spring Data Cosmos deleteById throw exception",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20727",
+                        "createdAt": "2021-04-16T05:23:37Z",
+                        "closedAt": "2021-06-03T17:13:10Z"
+                    },
+                    {
+                        "title": "[BUG] maxTries and tryTimeoutInSeconds are not applied expectedly when using RequestRetryOptions.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20729",
+                        "createdAt": "2021-04-16T06:00:14Z",
+                        "closedAt": "2021-04-22T19:54:24Z"
+                    },
+                    {
+                        "title": "Fix integration test: AADB2CIT.testSignIn()",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20732",
+                        "createdAt": "2021-04-16T07:03:23Z",
+                        "closedAt": "2021-04-27T00:17:31Z"
+                    },
+                    {
+                        "title": "[BUG] NullPointerException when using CosmosAsyncContainer.readAllItems(partitionKey,options,classType) when CosmosQueryRequestOptions is null",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20743",
+                        "createdAt": "2021-04-16T14:44:10Z",
+                        "closedAt": "2021-04-28T15:44:14Z"
+                    },
+                    {
+                        "title": "[BUG] azure-spring-boot-starter-keyvault-secrets hangs with spring-boot 2.4.4",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20759",
+                        "createdAt": "2021-04-17T16:39:42Z",
+                        "closedAt": "2021-05-26T02:26:25Z"
+                    },
+                    {
+                        "title": "[BUG] CosmosAsyncClient does not recognize built-in roles",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20781",
+                        "createdAt": "2021-04-19T15:47:29Z",
+                        "closedAt": "2021-11-10T16:34:00Z"
+                    },
+                    {
+                        "title": "[BUG] QueryItems method does not work if CosmosAsyncClient was created with token ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20783",
+                        "createdAt": "2021-04-19T16:16:42Z",
+                        "closedAt": "2022-07-22T18:46:34Z"
+                    },
+                    {
+                        "title": "Event Hubs: Create Long Running Tests",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20784",
+                        "createdAt": "2021-04-19T17:08:03Z",
+                        "closedAt": "2021-05-25T18:15:46Z"
+                    },
+                    {
+                        "title": "Send first client telemetry request between 10-20 min randomly",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20787",
+                        "createdAt": "2021-04-19T18:39:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Investigate Event Hub service stress test failures",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20788",
+                        "createdAt": "2021-04-19T18:41:37Z",
+                        "closedAt": "2021-08-24T18:05:49Z"
+                    },
+                    {
+                        "title": "Add Compatibility Switch to Disable CAE",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20789",
+                        "createdAt": "2021-04-19T18:44:00Z",
+                        "closedAt": "2021-05-06T22:51:39Z"
+                    },
+                    {
+                        "title": "[BUG] EventHubs OutOfMemoryError after long running with large amounts of Event in backlog. It recovers though.",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20790",
+                        "createdAt": "2021-04-19T19:21:49Z",
+                        "closedAt": "2021-04-23T00:27:49Z"
+                    },
+                    {
+                        "title": "Event Hubs: Create performance tests for Track 1 vs Track 2",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20791",
+                        "createdAt": "2021-04-19T19:37:01Z",
+                        "closedAt": "2021-05-27T18:06:34Z"
+                    },
+                    {
+                        "title": "Remove/redact credentials in Storage SDK playback files ",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20801",
+                        "createdAt": "2021-04-19T22:50:59Z",
+                        "closedAt": "2021-08-26T20:20:42Z"
+                    },
+                    {
+                        "title": "ShareDirectoryClient of root folder in File Share cannot access subdirectories [BUG]",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20811",
+                        "createdAt": "2021-04-20T07:00:15Z",
+                        "closedAt": "2021-04-22T20:11:38Z"
+                    },
+                    {
+                        "title": "[BUG] CosmosDB SQL API ReadAllItems method does not return results",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20814",
+                        "createdAt": "2021-04-20T07:53:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "is OAuth 2.0 SDK with OpenID Connect Extensions » 5.30 is safe to use (no security vulnerabilities)",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20815",
+                        "createdAt": "2021-04-20T08:30:22Z",
+                        "closedAt": "2021-06-26T08:00:16Z"
+                    },
+                    {
+                        "title": "[BUG] Support Needed: [invalid_token_response] -> OAuth 2.0 Access Token Response: 401 Unauthorized: [no body]",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20823",
+                        "createdAt": "2021-04-20T15:00:38Z",
+                        "closedAt": "2021-04-28T13:46:59Z"
+                    },
+                    {
+                        "title": "[BUG] azure-spring-boot-starter-active-directory-b2c cannot validate access token from client",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20824",
+                        "createdAt": "2021-04-20T15:10:25Z",
+                        "closedAt": "2021-05-27T08:37:15Z"
+                    },
+                    {
+                        "title": "Integrate proton-j logging to use ClientLogger",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20825",
+                        "createdAt": "2021-04-20T15:39:16Z",
+                        "closedAt": "2021-05-12T17:49:57Z"
+                    },
+                    {
+                        "title": "Event Hubs: Investigate Stress test results",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20826",
+                        "createdAt": "2021-04-20T15:41:54Z",
+                        "closedAt": "2021-08-24T18:04:18Z"
+                    },
+                    {
+                        "title": "Event Hubs: Investigate performance test results",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20828",
+                        "createdAt": "2021-04-20T15:48:40Z",
+                        "closedAt": "2021-09-02T19:01:11Z"
+                    },
+                    {
+                        "title": "Investigate Event Hubs Service Stress test failures",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20829",
+                        "createdAt": "2021-04-20T15:50:30Z",
+                        "closedAt": "2021-04-27T20:11:24Z"
+                    },
+                    {
+                        "title": "Make PagedFlux an Interface",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20830",
+                        "createdAt": "2021-04-20T16:21:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Azure Container Registry for Java (June 2021)",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20833",
+                        "createdAt": "2021-04-20T17:28:44Z",
+                        "closedAt": "2021-07-27T22:32:48Z"
+                    },
+                    {
+                        "title": "[ServiceBus] Create long running test",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20834",
+                        "createdAt": "2021-04-20T17:31:29Z",
+                        "closedAt": "2021-05-25T18:15:13Z"
+                    },
+                    {
+                        "title": "Improve observability of the internal state of the EH/SB/AMQP system for DEBUG/FULL log mode",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20835",
+                        "createdAt": "2021-04-20T18:14:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Log only what we need in INFO (too much logging by default)",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20836",
+                        "createdAt": "2021-04-20T18:16:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FAQ or instructions for customers/service engineers to troubleshoot (self-serve)",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20837",
+                        "createdAt": "2021-04-20T18:19:52Z",
+                        "closedAt": "2022-08-23T18:11:22Z"
+                    },
+                    {
+                        "title": "Investigate whether we need some sort of framework for executing long-running tests",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20838",
+                        "createdAt": "2021-04-20T18:25:03Z",
+                        "closedAt": "2021-05-25T18:23:57Z"
+                    },
+                    {
+                        "title": "Event Hubs: Performance degradation between 5.6.0 and 5.7.0",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20841",
+                        "createdAt": "2021-04-20T19:35:20Z",
+                        "closedAt": "2021-09-21T00:04:44Z"
+                    },
+                    {
+                        "title": "[BUG] Azure KeyVault call to retreive secret Hangs",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20842",
+                        "createdAt": "2021-04-20T19:38:59Z",
+                        "closedAt": "2021-05-25T00:49:19Z"
+                    },
+                    {
+                        "title": "Planning and Roadmap Feedback - Second Half 2021",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20846",
+                        "createdAt": "2021-04-20T22:03:39Z",
+                        "closedAt": "2022-04-19T13:06:13Z"
+                    },
+                    {
+                        "title": "Update README.md of aad-starter",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20851",
+                        "createdAt": "2021-04-21T00:02:56Z",
+                        "closedAt": "2021-05-27T09:01:22Z"
+                    },
+                    {
+                        "title": "[TEST]  Service Bus Update Service Bus Performance Tests and measure the performance",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20852",
+                        "createdAt": "2021-04-21T00:53:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implement ACR API Updates",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20872",
+                        "createdAt": "2021-04-21T15:26:17Z",
+                        "closedAt": "2021-06-01T20:11:46Z"
+                    },
+                    {
+                        "title": "[BUG]queryItems not working in kotlin with cosmos 4.12.0",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20873",
+                        "createdAt": "2021-04-21T18:27:30Z",
+                        "closedAt": "2021-05-01T09:06:30Z"
+                    },
+                    {
+                        "title": "Encryption create item throw error for nested object array field encryption",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20875",
+                        "createdAt": "2021-04-21T19:33:14Z",
+                        "closedAt": "2021-04-23T00:35:18Z"
+                    },
+                    {
+                        "title": "Announcement: Renaming \"master\" to \"main\" in this repository",
+                        "url": "https://github.com/Azure/azure-sdk-for-java/issues/20878",
+                        "createdAt": "2021-04-22T00:57:10Z",
+                        "closedAt": "2021-06-24T21:33:14Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOM4YqoQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

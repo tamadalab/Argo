@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"INT-3917: Gemfire tests polishing","2016-2/2","2016-2/2","2016-2/2",True,"2016-2/2",2,74,63
+"INT-3949: `FileWritingMH`: use `Files.move()`","2016-2/5","2016-2/5","2016-2/5",False,"null",2,19,3
+"INT-3950: Fix `Aggregator` documentation","2016-2/5","2016-2/5","2016-2/5",True,"2016-2/5",2,27,17
+"INT-3919: FTP: allow `null` for remote directory","2016-2/5","2016-2/5","2016-2/5",False,"null",2,293,129
+"Fix Amqp Header Mapper MimeType","2016-2/10","2016-2/10","2016-2/10",True,"2016-2/10",2,12,6
+"INT-3952: TCP: Add Local IP Address Header","2016-2/11","2016-2/11","2016-2/11",False,"null",2,198,22
+"INT-3811: Support Negative Matches on Header Map","2016-2/11","2016-2/11","2016-2/11",False,"null",2,266,30
+"Travis Debug","2016-2/11","2016-2/11","2016-2/11",False,"null",1,2,2
+"INT-3953: AMQP Delay Header Mapping","2016-2/12","2016-2/12","2016-2/12",False,"null",2,39,3
+"Fix missing space in doc","2016-2/15","2016-2/15","2016-2/15",False,"null",2,3,3
+"INT-3954: Nested Exception in SFTP remove()","2016-2/15","2016-2/15","2016-2/15",False,"null",2,2,1
+"INT-3955: Upgrade to Spring Data Hopper","2016-2/16","2016-2/16","2016-2/16",False,"null",2,4,4
+"Upgrade to ZooKeeper-3.4.7","2016-2/16","2016-2/16","2016-2/16",True,"2016-2/16",2,12,2
+"Fix TCP Cache Race Condition","2016-2/16","2016-2/16","2016-2/16",True,"2016-2/16",2,6,6
+"INT-3956 use Deque.peekLast() for timeSinceLastSend on channel metrics.","2016-2/17","2016-2/17","2016-2/17",False,"null",3,70,7
+"The attempts to overcome the Travis issue","2016-2/17","2016-2/17","2016-2/17",False,"null",1,9,2
+"Move `BigMGetTests` out of the `main`","2016-2/24","2016-2/24","2016-2/24",True,"2016-2/24",2,14,11
+"INT-3958: Groovy Compiler customization support","2016-2/29","2016-3/29","2016-2/29",False,"null",2,237,53
+"INT-3943: AMQP Async Outbound Gateway","2016-3/1","2016-3/1","2016-3/1",False,"null",2,1359,443
+"Checkstyle - Phase I - Unused Imports","2016-3/4","2016-3/4","2016-3/4",True,"2016-3/4",2,236,87
+"Add check `header` rule and `fixHeaders` task","2016-3/5","2016-3/5","2016-3/5",False,"null",2,56,5
+"INT-3961: Add channel late-binding for `@ICA`","2016-3/7","2016-3/7","2016-3/7",False,"null",2,89,15
+"Fix FTP Tests","2016-3/11","2016-3/11","2016-3/11",True,"2016-3/11",2,11,1
+"INT-3965: AMQP Header Mapping Changes","2016-3/12","2016-3/12","2016-3/12",False,"null",2,198,57
+"INT-3963: Add XMPP Extensions support","2016-3/14","2016-3/14","2016-3/14",False,"null",3,444,56
+"Make `PublisherDelegate` as `public`","2016-3/15","2016-3/15","2016-3/15",True,"2016-3/15",2,11,5
+"Enable `RedundantModifier` checkstyle, add fixer","2016-3/16","2016-3/16","2016-3/16",False,"null",3,119,1
+"RequireThis rule and `fixThis` Gradle task","2016-3/17","2016-3/17","2016-3/17",False,"null",2,65,68
+"INT-3964: More `@EnableIntegration` documentation","2016-3/18","2016-3/18","2016-3/18",False,"null",2,725,303
+"INT-3973: SFTP - Support chmod","2016-3/21","2016-3/21","2016-3/21",False,"null",2,392,39
+"INT-3970: Fix `ScriptExecutor` for wrong `lang`","2016-3/22","2016-3/22","2016-3/22",False,"null",2,26,33
+"INT-3968: Map JmsDestination Header (Inbound)","2016-3/22","2016-3/22","2016-3/22",False,"null",2,36,20
+"Duplicate statement in TestReceivingMessageSourceParserTests.java","2016-3/23","2016-3/23","2016-3/23",False,"null",2,0,1
+"INT-3944: Async JMS Outbound Gateway","2016-3/23","2016-3/23","2016-3/23",False,"null",3,538,324
+"INT-3960: File Outbound - Preserve Timestamp","2016-3/23","2016-3/23","2016-3/23",False,"null",2,80,7
+"INT-3945: Async Service Activator","2016-3/23","2016-3/23","2016-3/23",False,"null",2,279,62
+"INT-3974: Document SOAP Header Mapping","2016-3/24","2016-3/24","2016-3/24",False,"null",2,101,4
+"INT-3959: Move JMX Stuff classes to the top level","2016-3/24","2016-3/24","2016-3/24",False,"null",2,196,70
+"Fix `fixedDelay` typo in the `file.adoc`","2016-3/24","2016-3/24","2016-3/24",True,"2016-3/24",1,1,1
+"TCP Connection Factory FactoryBean Improvements","2016-3/25","2016-3/25","2016-3/25",False,"null",2,42,8
+"INT-3972: Allow to disable Roster subscriptions","2016-3/25","2016-3/25","2016-3/25",False,"null",2,33,9
+"INT-3541: The XMPP Extension support on outbound","2016-3/25","2016-4/25","2016-3/25",False,"null",2,192,26
+"INT-3591: Upgrade to `commons-net-3.4`","2016-3/25","2016-3/25","2016-3/25",False,"null",2,11,11
+"INT-3937: Deprecate Reactor Environment usage","2016-3/28","2016-3/28","2016-3/28",True,"2016-3/28",2,41,87
+"INT-3975: AMQP Channels: Support extract-payload","2016-3/29","2016-3/29","2016-3/29",False,"null",2,687,66
+"INT-3976: Remove an explicit `scriptClassName`","2016-3/30","2016-4/30","2016-3/30",True,"2016-4/30",2,24,52
+"checkstyle HideUtilityClassConstructor","2016-4/1","2016-4/1","2016-4/1",False,"null",2,230,83
+"checkstyle FinalClassCheck","2016-4/2","2016-4/2","2016-4/2",False,"null",2,737,526
+"Improve Spring Integration documentation","2016-4/3","2016-4/3","2016-4/3",False,"null",2,85,94
+"Checkstyle Rules","2016-4/5","2016-4/5","2016-4/5",False,"null",2,1096,821
+"INT-3977: Improve `LoggingHandler` for JavaConfig","2016-4/5","2016-4/5","2016-4/5",True,"2016-4/5",2,108,17
+"checkstyle WhiteAround","2016-4/5","2016-4/5","2016-4/5",True,"2016-4/5",2,2029,1918
+"Checkstyle Misc Rules","2016-4/5","2016-4/5","2016-4/5",False,"null",2,743,634
+"GH-1757: Add Code Style Wiki page","2016-4/6","2016-4/6","2016-4/6",False,"null",2,15,51
+"INT-3981: Add a couple `<chain>` tests","2016-4/6","2016-4/6","2016-4/6",False,"null",2,181,141
+"INT-3980: Don't require @Component for messaging","2016-4/6","2016-4/6","2016-4/6",False,"null",2,121,63
+"INT-3979: Properly handle `MBuilder` in splitter","2016-4/6","2016-4/6","2016-4/6",False,"null",2,53,8
+"Sonar Fixes after Checkstyle Updates","2016-4/7","2016-4/7","2016-4/7",True,"2016-4/7",2,5,8
+"INT-3978 Fix `MessageHistory` for `Message` types","2016-4/7","2016-4/7","2016-4/7",False,"null",2,152,51
+"INT-3984: Fix the `BFPP`s order","2016-4/10","2016-4/10","2016-4/10",False,"null",2,30,23
+"INT-3909: Upgrade to Tomcat-8.0.33","2016-4/11","2016-4/11","2016-4/11",False,"null",2,25,5
+"INT-3985: Upgrade to Spring-WS-2.3.0","2016-4/11","2016-4/11","2016-4/11",False,"null",2,22,22
+"INT-3387: MessageGroupStore improvements","2016-4/13","2016-4/13","2016-4/13",False,"null",2,1083,503
+"INT-3967: Expose Runtime Object Model","2016-4/13","2016-4/13","2016-4/13",False,"null",2,1083,11
+"Remove System.out/.err Calls From All Tests","2016-4/14","2016-4/14","2016-4/14",True,"2016-4/14",2,164,89
+"INT-3994: DetatchedMimeMessage Transformer","2016-4/16","2016-4/16","2016-4/16",False,"null",2,470,1
+"INT-3996: Fix JdbcChannelMessageStore Javadoc","2016-4/18","2016-4/18","2016-4/18",False,"null",2,6,18
+"INT-3998: Channel Late-Binding for WireTap","2016-4/18","2016-4/18","2016-4/18",False,"null",2,114,14
+"INT-3989: Add `FileReadingMessageSource.WatchServiceDirectoryScanner`","2016-4/19","2016-4/19","2016-4/19",False,"null",2,496,56
+"INT-3982: Fix XSD declaration ambiguity","2016-4/19","2016-4/19","2016-4/19",True,"2016-4/19",1,13,21
+"INT-3999: Avoid ""hard"" references from schedulers","2016-4/20","2016-4/20","2016-4/20",False,"null",2,76,25
+"INT-4001 Disable some Jackson features by default","2016-4/20","2016-4/20","2016-4/20",False,"null",2,86,37
+"INT-3994: Add Option to Map MimeMessage","2016-4/21","2016-4/21","2016-4/21",False,"null",2,652,181
+"INT-3991: Add `IntegrationGraphController`","2016-4/22","2016-4/22","2016-4/22",False,"null",2,569,12
+"INT-3967: Add contentDescriptor to Object Model","2016-4/22","2016-4/22","2016-4/22",False,"null",2,55,13
+"INT-3993: Add Error Flow Logic to Object Map","2016-4/23","2016-4/23","2016-4/23",False,"null",2,266,40
+"Remove Gradle ""fix""-scripts for Checkstyle rules","2016-4/25","2016-4/25","2016-4/25",True,"2016-4/25",2,0,413
+"INT-4009: Support Composite Handler in Graph","2016-4/25","2016-4/25","2016-4/25",False,"null",2,402,32
+"INT-3943: Fix Race in Async AMQP Gateway Test","2016-4/25","2016-4/25","2016-4/25",False,"null",2,29,6
+"Modifications to channels.doc","2016-4/26","2016-4/26","2016-4/26",False,"null",2,1,1
+"Some various upgrades, fixes and refactoring","2016-4/26","2016-4/26","2016-4/26",True,"2016-4/26",2,422,484
+"INT-4011: Fix `jdbc.adoc` for wrong `m-s` attr","2016-4/27","2016-4/27","2016-4/27",True,"2016-4/27",2,1,1
+"INT-4006: Upgrade to `rometools-1.6.0`","2016-4/27","2016-4/27","2016-4/27",False,"null",2,30,29
+"INT-4006-4.2.x: Upgrade to `rometools-1.5.1`","2016-4/27","2016-4/27","2016-4/27",True,"2016-4/27",1,1,1
+"INT-4015: Streaming Remote File Inbound Adapter","2016-4/27","2016-4/27","2016-4/27",False,"null",2,728,0
+"INT-4005: Do `capacity` attr invalid (persistence)","2016-4/27","2016-4/27","2016-4/27",False,"null",3,166,13
+"INT-4015: Streaming Remote File Inbound Adapter","2016-4/28","2016-4/28","2016-4/28",False,"null",2,2701,916
+"INT-4017: Fix `If-None-Match` HTTP header tests","2016-4/29","2016-4/29","2016-4/29",True,"2016-4/29",2,15,15
+"INT-4019: Upgrade to Gradle-2.13","2016-4/29","2016-4/29","2016-4/29",False,"null",3,40,31
+"INT-4020: Fix `unnamed` global wire-taps","2016-4/30","2016-4/30","2016-4/30",False,"null",2,23,5
+"Fix `feed` module and downgrade to curator-2.10.0","2016-5/2","2016-5/2","2016-5/2",False,"null",2,14,25
+"INT-4021: SimpleMessageStore: Disable `lazy-load`","2016-5/2","2016-5/2","2016-5/2",True,"2016-5/2",2,60,21
+"Fix Call Overridable Method From Ctor","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",2,7,7
+"Fix Final ""Available Socket"" Tests","2016-5/3","2016-5/3","2016-5/3",True,"2016-5/3",2,22,25
+"Add `-processing` compiler option","2016-5/4","2016-5/4","2016-5/4",False,"null",2,12,13
+"INT-4023: Fix MongoDB MGSs timing issue","2016-5/6","2016-5/6","2016-5/6",True,"2016-5/6",2,7,7
+"INT-4016: Improve `channel.adoc` for cross-links","2016-5/10","2016-5/10","2016-5/10",False,"null",2,8,7
+"INT-4024: TcpNetConnection Do Not Cache Listener","2016-5/10","2016-5/10","2016-5/10",False,"null",2,57,1
+"INT-4028: Fix ClientWebSocketContainer start/stop","2016-5/11","2016-5/11","2016-5/11",False,"null",2,97,20
+"INT-4029: TCP: Add Buffer Pooling to Deserializers","2016-5/11","2016-5/11","2016-5/11",False,"null",2,229,44

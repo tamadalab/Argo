@@ -1,10 +1,10 @@
-from sre_parse import Verbose
+#!/usr/bin/env python3
 import click
 from cli import cli1, cli2, cli3
 
 
 @click.command(
-            cls = click.CommandCollection, 
+            cls = click.CommandCollection,
             sources = [cli1.cli1, cli2.cli2, cli3.cli3]
 )
 #optionを追加すると以下のエラーが発生する

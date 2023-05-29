@@ -1,0 +1,405 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 3030,
+                "pageInfo": {
+                    "hasNextPage": false,
+                    "endCursor": "Y3Vyc29yOnYyOpHOPlEt5w=="
+                },
+                "nodes": [
+                    {
+                        "title": "performance(network): shutdown faster with parallelization",
+                        "closedAt": "2022-06-26T21:44:36Z",
+                        "createdAt": "2022-05-30T00:19:45Z",
+                        "publishedAt": "2022-05-30T00:19:45Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-26T21:44:36Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 41,
+                        "deletions": 21
+                    },
+                    {
+                        "title": "chore: CoreRegistry removal from engine.network",
+                        "closedAt": "2022-06-06T15:41:16Z",
+                        "createdAt": "2022-05-30T02:48:35Z",
+                        "publishedAt": "2022-05-30T02:48:35Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-06T15:41:15Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 203,
+                        "deletions": 125
+                    },
+                    {
+                        "title": "fix(templates): replace perlin with simplex as the default override.cfg",
+                        "closedAt": "2022-06-04T15:38:00Z",
+                        "createdAt": "2022-05-31T00:31:55Z",
+                        "publishedAt": "2022-05-31T00:31:55Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-04T15:38:00Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fix(PathManager): allow paths to be symlinks",
+                        "closedAt": "2022-06-04T18:57:32Z",
+                        "createdAt": "2022-05-31T00:38:57Z",
+                        "publishedAt": "2022-05-31T00:38:57Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-04T18:57:32Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 12,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "test: add NetworkMode setting to MTE",
+                        "closedAt": "2022-06-05T11:50:23Z",
+                        "createdAt": "2022-06-01T01:20:49Z",
+                        "publishedAt": "2022-06-01T01:20:49Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-05T11:50:23Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 161,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "test(MTE): replace IsolatedMTEExtension with JUnit's TestInstance.Lifecycle",
+                        "closedAt": "2022-06-11T12:13:42Z",
+                        "createdAt": "2022-06-01T20:50:30Z",
+                        "publishedAt": "2022-06-01T20:50:30Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-11T12:13:42Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 319,
+                        "deletions": 208
+                    },
+                    {
+                        "title": "test: add info logs to help track down sporadic",
+                        "closedAt": "2022-06-04T14:38:41Z",
+                        "createdAt": "2022-06-04T12:18:05Z",
+                        "publishedAt": "2022-06-04T12:18:05Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-04T14:38:41Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 41,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "test(MTE)! set default NetworkMode to NONE",
+                        "closedAt": "2022-06-07T23:52:26Z",
+                        "createdAt": "2022-06-05T15:54:26Z",
+                        "publishedAt": "2022-06-05T15:54:26Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-07T23:52:26Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fix: take child result into account in ConditionAction::modify",
+                        "closedAt": null,
+                        "createdAt": "2022-06-06T15:50:57Z",
+                        "publishedAt": "2022-06-06T15:50:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fixup! test(MTE)! set default NetworkMode to NONE (#5041)",
+                        "closedAt": "2022-06-11T11:40:51Z",
+                        "createdAt": "2022-06-11T11:17:40Z",
+                        "publishedAt": "2022-06-11T11:17:40Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-11T11:40:51Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "test(MTE): allow a test to add its own EngineSubsystem",
+                        "closedAt": "2022-06-12T23:44:39Z",
+                        "createdAt": "2022-06-11T17:10:39Z",
+                        "publishedAt": "2022-06-11T17:10:39Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-12T23:44:39Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 243,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "test(StorageManager): Convert TTE tests to MTE",
+                        "closedAt": "2022-10-01T23:40:17Z",
+                        "createdAt": "2022-06-11T21:39:37Z",
+                        "publishedAt": "2022-06-11T21:39:37Z",
+                        "merged": true,
+                        "mergedAt": "2022-10-01T23:40:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 97,
+                        "deletions": 126
+                    },
+                    {
+                        "title": "test(MTE): IntegrationEnvironment is the only annotation you need (maybe)",
+                        "closedAt": null,
+                        "createdAt": "2022-06-12T01:09:50Z",
+                        "publishedAt": "2022-06-12T01:09:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 114,
+                        "deletions": 122
+                    },
+                    {
+                        "title": "chore(behavior): remove some CoreRegistry usage",
+                        "closedAt": null,
+                        "createdAt": "2022-06-14T20:58:21Z",
+                        "publishedAt": "2022-06-14T20:58:21Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 69,
+                        "deletions": 61
+                    },
+                    {
+                        "title": "fix(TypeHandlerLibrary): fix error-during-error-logging in GenericMap",
+                        "closedAt": "2022-06-14T22:46:02Z",
+                        "createdAt": "2022-06-14T21:13:55Z",
+                        "publishedAt": "2022-06-14T21:13:55Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-14T22:46:02Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 139,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "chore(TypeHandlerLibrary)! make Serializer more type-safe",
+                        "closedAt": null,
+                        "createdAt": "2022-06-15T05:54:50Z",
+                        "publishedAt": "2022-06-15T05:54:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 210,
+                        "deletions": 248
+                    },
+                    {
+                        "title": "chore(EntityPool): workaround \"unchecked generics array creation\" for getEntitiesWith",
+                        "closedAt": "2022-06-26T19:20:56Z",
+                        "createdAt": "2022-06-21T00:07:35Z",
+                        "publishedAt": "2022-06-21T00:07:35Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-26T19:20:56Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 23,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fix(facade): fix broken --load-last-game",
+                        "closedAt": "2022-07-05T18:07:59Z",
+                        "createdAt": "2022-06-21T02:37:49Z",
+                        "publishedAt": "2022-06-21T02:37:49Z",
+                        "merged": true,
+                        "mergedAt": "2022-07-05T18:07:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 65,
+                        "deletions": 28
+                    },
+                    {
+                        "title": "fix: do not run behavior simulation while paused",
+                        "closedAt": "2022-06-26T20:54:56Z",
+                        "createdAt": "2022-06-22T20:57:12Z",
+                        "publishedAt": "2022-06-22T20:57:12Z",
+                        "merged": true,
+                        "mergedAt": "2022-06-26T20:54:56Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "feat: add type handlers for SimpleUri and BlockUri",
+                        "closedAt": "2022-08-23T08:27:49Z",
+                        "createdAt": "2022-08-15T20:59:37Z",
+                        "publishedAt": "2022-08-15T20:59:37Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-23T08:27:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 158,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "fix: do not crash on unexpected map format in GenericMapTypeHandler",
+                        "closedAt": "2022-08-22T22:10:43Z",
+                        "createdAt": "2022-08-15T21:31:46Z",
+                        "publishedAt": "2022-08-15T21:31:46Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-22T22:10:43Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 175,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "chore(subsystems/discord): catch runtime exception and log only message",
+                        "closedAt": "2022-08-26T19:28:14Z",
+                        "createdAt": "2022-08-21T17:19:25Z",
+                        "publishedAt": "2022-08-21T17:19:25Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-26T19:28:14Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "chore: simplify implementation in Assets to one-liners",
+                        "closedAt": "2022-08-21T18:20:32Z",
+                        "createdAt": "2022-08-21T17:32:00Z",
+                        "publishedAt": "2022-08-21T17:32:00Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-21T18:20:32Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "build(idea): fix parameters in run configurations",
+                        "closedAt": "2022-08-21T18:13:45Z",
+                        "createdAt": "2022-08-21T17:41:25Z",
+                        "publishedAt": "2022-08-21T17:41:25Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-21T18:13:45Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "fix(rendering): Don't try to set window icon on macOS",
+                        "closedAt": "2022-08-22T06:48:06Z",
+                        "createdAt": "2022-08-21T17:50:08Z",
+                        "publishedAt": "2022-08-21T17:50:08Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-22T06:48:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 21,
+                        "deletions": 17
+                    },
+                    {
+                        "title": "chore(world): improve logging for BlockManager",
+                        "closedAt": "2022-08-22T06:51:26Z",
+                        "createdAt": "2022-08-21T17:54:12Z",
+                        "publishedAt": "2022-08-21T17:54:12Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-22T06:51:26Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "build(idea): exclude some things from import suggestions",
+                        "closedAt": "2022-08-21T21:36:51Z",
+                        "createdAt": "2022-08-21T19:33:42Z",
+                        "publishedAt": "2022-08-21T19:33:42Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-21T21:36:51Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 15,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "ci: add workflow to auto-add issues and PRs to projects",
+                        "closedAt": null,
+                        "createdAt": "2022-08-27T11:40:16Z",
+                        "publishedAt": "2022-08-27T11:40:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 55,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "ci: add workflow autoclosing issues with unresponsive authors",
+                        "closedAt": null,
+                        "createdAt": "2022-08-27T12:27:00Z",
+                        "publishedAt": "2022-08-27T12:27:00Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 24,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add check for facet provider requirements",
+                        "closedAt": null,
+                        "createdAt": "2022-09-03T15:58:07Z",
+                        "publishedAt": "2022-09-03T15:58:07Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 12,
+                        "deletions": 7
+                    }
+                ]
+            }
+        }
+    }
+}

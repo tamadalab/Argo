@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 968,
+                "nodes": [
+                    {
+                        "title": "Python error IndexError: list index out of range",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/15",
+                        "createdAt": "2019-12-19T06:37:54Z",
+                        "closedAt": "2020-01-06T20:10:15Z"
+                    },
+                    {
+                        "title": "Please add a CONTRIBUTING.md file",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/16",
+                        "createdAt": "2019-12-19T14:20:07Z",
+                        "closedAt": "2019-12-24T13:52:54Z"
+                    },
+                    {
+                        "title": "Implement user-defined loadable checks",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/19",
+                        "createdAt": "2019-12-20T14:55:38Z",
+                        "closedAt": "2019-12-21T00:19:27Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure CloudTrail log file validation is enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/25",
+                        "createdAt": "2019-12-25T08:55:15Z",
+                        "closedAt": "2020-01-19T19:56:33Z"
+                    },
+                    {
+                        "title": "Add new check:  Ensure CloudTrail logs are encrypted at rest using KMS CMKs ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/26",
+                        "createdAt": "2019-12-25T09:47:53Z",
+                        "closedAt": "2020-01-19T19:56:26Z"
+                    },
+                    {
+                        "title": "Add new check: Check if CloudFront distributions are set to HTTPS",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/27",
+                        "createdAt": "2019-12-25T10:06:42Z",
+                        "closedAt": "2020-01-19T19:19:52Z"
+                    },
+                    {
+                        "title": "Error in password complexity check",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/28",
+                        "createdAt": "2019-12-25T23:18:22Z",
+                        "closedAt": "2019-12-26T08:09:55Z"
+                    },
+                    {
+                        "title": "Add cli switch to inspect a file",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/31",
+                        "createdAt": "2019-12-31T21:12:43Z",
+                        "closedAt": "2020-01-11T20:48:36Z"
+                    },
+                    {
+                        "title": "Add documentation on Jenkins Integration",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/32",
+                        "createdAt": "2020-01-01T08:32:12Z",
+                        "closedAt": "2020-01-02T09:02:46Z"
+                    },
+                    {
+                        "title": "Add CVK_AWS_## number in CLI output",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/34",
+                        "createdAt": "2020-01-02T18:36:59Z",
+                        "closedAt": "2020-01-03T18:51:22Z"
+                    },
+                    {
+                        "title": "Checkov should not exit success (0) on parsing errors",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/35",
+                        "createdAt": "2020-01-02T23:30:37Z",
+                        "closedAt": "2021-04-06T22:50:33Z"
+                    },
+                    {
+                        "title": "security_groups in aws_security_group rule not supported",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/38",
+                        "createdAt": "2020-01-03T14:03:20Z",
+                        "closedAt": "2020-01-03T19:46:30Z"
+                    },
+                    {
+                        "title": "Add documentation on CircleCI Integration",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/40",
+                        "createdAt": "2020-01-03T19:48:51Z",
+                        "closedAt": "2020-01-03T20:55:24Z"
+                    },
+                    {
+                        "title": "Allow Global Suppression",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/41",
+                        "createdAt": "2020-01-03T20:33:32Z",
+                        "closedAt": "2020-06-04T21:14:19Z"
+                    },
+                    {
+                        "title": "Add scanning cloudformation support",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/42",
+                        "createdAt": "2020-01-06T06:42:01Z",
+                        "closedAt": "2020-03-10T21:28:32Z"
+                    },
+                    {
+                        "title": "Add new check: Check if all Elasticache Replication Group encryption parameters are enabled and set",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/43",
+                        "createdAt": "2020-01-06T18:00:59Z",
+                        "closedAt": "2020-01-11T21:32:20Z"
+                    },
+                    {
+                        "title": "Add documentation: How to contribute a new Check",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/44",
+                        "createdAt": "2020-01-06T20:06:46Z",
+                        "closedAt": "2020-01-08T19:19:17Z"
+                    },
+                    {
+                        "title": "Allow checks to run globally across all resources",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/45",
+                        "createdAt": "2020-01-07T19:52:36Z",
+                        "closedAt": "2021-04-06T22:50:36Z"
+                    },
+                    {
+                        "title": "Check rational",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/46",
+                        "createdAt": "2020-01-08T13:21:56Z",
+                        "closedAt": "2020-02-24T12:41:26Z"
+                    },
+                    {
+                        "title": "Integrate with tf-parliament",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/47",
+                        "createdAt": "2020-01-08T17:35:30Z",
+                        "closedAt": "2021-04-06T21:50:54Z"
+                    },
+                    {
+                        "title": "Checkov Docker Image",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/50",
+                        "createdAt": "2020-01-10T14:58:41Z",
+                        "closedAt": "2020-01-11T20:20:15Z"
+                    },
+                    {
+                        "title": "Support for ARM template in Azure DevOps",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/51",
+                        "createdAt": "2020-01-10T16:42:25Z",
+                        "closedAt": "2021-04-06T21:51:20Z"
+                    },
+                    {
+                        "title": "Add new check: IAM policies should only be attached to groups or roles",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/56",
+                        "createdAt": "2020-01-12T11:35:18Z",
+                        "closedAt": "2020-01-27T16:51:53Z"
+                    },
+                    {
+                        "title": "Add new check: Enable ECR image scanning on push ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/57",
+                        "createdAt": "2020-01-12T11:36:31Z",
+                        "closedAt": "2020-01-19T12:33:59Z"
+                    },
+                    {
+                        "title": "Add new check: public access to an ECR repo",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/58",
+                        "createdAt": "2020-01-12T11:38:01Z",
+                        "closedAt": "2020-01-19T12:33:44Z"
+                    },
+                    {
+                        "title": "Add new check: File system should be encrypted at rest ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/59",
+                        "createdAt": "2020-01-12T11:39:23Z",
+                        "closedAt": "2020-03-09T21:01:12Z"
+                    },
+                    {
+                        "title": "Add new check: codebuild encryption at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/60",
+                        "createdAt": "2020-01-12T11:42:02Z",
+                        "closedAt": "2020-08-31T04:48:12Z"
+                    },
+                    {
+                        "title": "Add new checks: redshift encryption at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/61",
+                        "createdAt": "2020-01-12T11:42:59Z",
+                        "closedAt": "2020-05-22T07:06:39Z"
+                    },
+                    {
+                        "title": "Add new check: Neptune encryption at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/62",
+                        "createdAt": "2020-01-12T11:43:45Z",
+                        "closedAt": "2020-03-16T20:37:07Z"
+                    },
+                    {
+                        "title": "Add new check: Kinesis encryption at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/63",
+                        "createdAt": "2020-01-12T11:46:31Z",
+                        "closedAt": "2020-03-15T13:16:16Z"
+                    },
+                    {
+                        "title": "Add Support for Ansible",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/64",
+                        "createdAt": "2020-01-12T22:12:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support multi files scanner",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/68",
+                        "createdAt": "2020-01-16T12:56:13Z",
+                        "closedAt": "2020-01-19T11:12:10Z"
+                    },
+                    {
+                        "title": "GoogleComputeFirewallUnrestrictedIngress - KeyError on parsing",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/75",
+                        "createdAt": "2020-01-20T02:32:24Z",
+                        "closedAt": "2020-01-20T12:59:55Z"
+                    },
+                    {
+                        "title": "Add --version flag",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/77",
+                        "createdAt": "2020-01-20T23:40:38Z",
+                        "closedAt": "2020-01-21T07:25:19Z"
+                    },
+                    {
+                        "title": "Checkov doesn't seem to support variables for aws_ebs_volume / encrypted",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/81",
+                        "createdAt": "2020-01-23T12:04:30Z",
+                        "closedAt": "2020-01-23T14:57:06Z"
+                    },
+                    {
+                        "title": "Add new check: Check for backups of GCP cloud sql",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/85",
+                        "createdAt": "2020-01-27T14:14:43Z",
+                        "closedAt": "2020-01-27T14:30:19Z"
+                    },
+                    {
+                        "title": "Versioned Rulesets",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/88",
+                        "createdAt": "2020-01-27T19:08:34Z",
+                        "closedAt": "2021-04-06T21:51:09Z"
+                    },
+                    {
+                        "title": "Document reasoning behind rule checks",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/89",
+                        "createdAt": "2020-02-04T16:10:15Z",
+                        "closedAt": "2020-07-02T19:49:17Z"
+                    },
+                    {
+                        "title": "Rule check suppression comments do not work",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/90",
+                        "createdAt": "2020-02-04T17:00:37Z",
+                        "closedAt": "2020-02-04T20:43:08Z"
+                    },
+                    {
+                        "title": "Dynamic blocks handling is partial",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/91",
+                        "createdAt": "2020-02-05T11:16:45Z",
+                        "closedAt": "2020-02-07T11:26:09Z"
+                    },
+                    {
+                        "title": "Docker command in README.md is wrong",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/92",
+                        "createdAt": "2020-02-06T14:27:24Z",
+                        "closedAt": "2020-02-07T11:26:09Z"
+                    },
+                    {
+                        "title": "Four checks, three empty?",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/95",
+                        "createdAt": "2020-02-06T18:02:02Z",
+                        "closedAt": "2020-06-04T21:13:26Z"
+                    },
+                    {
+                        "title": "Checkov fails to start in Windows environments ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/99",
+                        "createdAt": "2020-02-19T15:12:11Z",
+                        "closedAt": "2020-02-26T16:54:14Z"
+                    },
+                    {
+                        "title": "GCP cloudSQL check failing even though should pass - rule bug???",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/100",
+                        "createdAt": "2020-02-21T13:41:36Z",
+                        "closedAt": "2020-02-21T16:50:29Z"
+                    },
+                    {
+                        "title": "Ability to disable some rules globally",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/102",
+                        "createdAt": "2020-02-21T14:38:30Z",
+                        "closedAt": "2020-05-06T16:17:48Z"
+                    },
+                    {
+                        "title": "Check fails if you have different objects with the same name",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/103",
+                        "createdAt": "2020-02-23T14:18:22Z",
+                        "closedAt": "2020-02-26T11:55:29Z"
+                    },
+                    {
+                        "title": "Ability to run Checkov with 'quiet mode'",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/110",
+                        "createdAt": "2020-03-02T14:28:27Z",
+                        "closedAt": "2020-05-17T17:22:24Z"
+                    },
+                    {
+                        "title": "Option to display parsing errors",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/111",
+                        "createdAt": "2020-03-03T19:23:53Z",
+                        "closedAt": "2020-05-31T21:56:46Z"
+                    },
+                    {
+                        "title": "checkov directory switch not repeatable",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/115",
+                        "createdAt": "2020-03-09T17:48:46Z",
+                        "closedAt": "2021-12-01T14:34:07Z"
+                    },
+                    {
+                        "title": "The releases of checkov since 1.0.188 are broken",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/118",
+                        "createdAt": "2020-03-11T09:28:25Z",
+                        "closedAt": "2020-03-11T12:38:52Z"
+                    },
+                    {
+                        "title": "Bug when running checkov with official docker image",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/119",
+                        "createdAt": "2020-03-11T10:43:48Z",
+                        "closedAt": "2020-03-11T11:13:08Z"
+                    },
+                    {
+                        "title": "add secrets detection ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/123",
+                        "createdAt": "2020-03-12T14:23:44Z",
+                        "closedAt": "2020-03-14T12:31:43Z"
+                    },
+                    {
+                        "title": "Add new check: Documentdb encryption",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/129",
+                        "createdAt": "2020-03-16T20:45:38Z",
+                        "closedAt": "2020-08-30T18:32:28Z"
+                    },
+                    {
+                        "title": "Add new check: DocDB snapshot encryption",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/130",
+                        "createdAt": "2020-03-16T20:47:01Z",
+                        "closedAt": "2020-10-28T19:48:29Z"
+                    },
+                    {
+                        "title": "SemVer tagging of new docker images in dockerhub",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/131",
+                        "createdAt": "2020-03-16T22:20:22Z",
+                        "closedAt": "2020-03-17T06:55:47Z"
+                    },
+                    {
+                        "title": "file_path result is empty for flag -f",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/133",
+                        "createdAt": "2020-03-18T09:05:22Z",
+                        "closedAt": "2020-03-18T09:35:16Z"
+                    },
+                    {
+                        "title": "file_path result is different for -d flag depends on the path of the folder",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/134",
+                        "createdAt": "2020-03-18T09:13:24Z",
+                        "closedAt": "2020-03-18T09:35:16Z"
+                    },
+                    {
+                        "title": "Add new check: MSK - Check encryption at rest and in transit ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/137",
+                        "createdAt": "2020-03-25T22:10:16Z",
+                        "closedAt": "2020-09-05T17:09:30Z"
+                    },
+                    {
+                        "title": "Add new check: MSK - Ensure Broker logging enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/138",
+                        "createdAt": "2020-03-25T22:13:08Z",
+                        "closedAt": "2020-09-05T21:20:56Z"
+                    },
+                    {
+                        "title": "Add new check: RDS - Check encryption at rest for database cluster",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/139",
+                        "createdAt": "2020-03-25T22:13:51Z",
+                        "closedAt": "2020-12-27T15:42:31Z"
+                    },
+                    {
+                        "title": "Add new check: RDS - Enable Logging for RDS instances ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/140",
+                        "createdAt": "2020-03-25T22:14:25Z",
+                        "closedAt": "2021-04-06T21:50:55Z"
+                    },
+                    {
+                        "title": "Add new check: Amazon WorkSpaces - Check encryption at rest ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/141",
+                        "createdAt": "2020-03-25T22:15:02Z",
+                        "closedAt": "2021-04-06T21:51:05Z"
+                    },
+                    {
+                        "title": "Add new check: S3 - Check to ensure bucket policy does not allow anonymous access or all actions",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/142",
+                        "createdAt": "2020-03-25T22:15:56Z",
+                        "closedAt": "2021-04-06T21:51:04Z"
+                    },
+                    {
+                        "title": "Add new check: CloudFront Distribution - Access Logging Enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/143",
+                        "createdAt": "2020-03-25T22:16:40Z",
+                        "closedAt": "2020-09-07T08:06:57Z"
+                    },
+                    {
+                        "title": "Add new check: Classic ELB - Access Logging Enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/144",
+                        "createdAt": "2020-03-25T22:17:40Z",
+                        "closedAt": "2020-10-25T05:38:28Z"
+                    },
+                    {
+                        "title": "Add new check: ELB v2 - Access Logging Enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/145",
+                        "createdAt": "2020-03-25T22:18:05Z",
+                        "closedAt": "2021-04-06T21:50:57Z"
+                    },
+                    {
+                        "title": "Add new check: CloudFront Distribution should have WAF enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/146",
+                        "createdAt": "2020-03-25T22:18:31Z",
+                        "closedAt": "2020-12-20T07:48:57Z"
+                    },
+                    {
+                        "title": "Add new check: ALB should have WAF enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/147",
+                        "createdAt": "2020-03-25T22:19:02Z",
+                        "closedAt": "2021-04-06T21:51:08Z"
+                    },
+                    {
+                        "title": "Add new check: Athena Database Encryption at rest ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/148",
+                        "createdAt": "2020-03-25T22:20:05Z",
+                        "closedAt": "2020-08-30T19:14:12Z"
+                    },
+                    {
+                        "title": "Add new check: Athena Workgroup should have encryption enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/149",
+                        "createdAt": "2020-03-25T22:20:43Z",
+                        "closedAt": "2020-12-28T15:45:49Z"
+                    },
+                    {
+                        "title": "Add new check: Athena Workgroup should enforce configuration to prevent client disabling encryption ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/150",
+                        "createdAt": "2020-03-25T22:21:24Z",
+                        "closedAt": "2020-09-06T09:07:30Z"
+                    },
+                    {
+                        "title": "Add new check: CloudFront S3 Origin should use Origin Access Identity",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/151",
+                        "createdAt": "2020-03-25T22:22:06Z",
+                        "closedAt": "2021-04-06T21:50:56Z"
+                    },
+                    {
+                        "title": "Add new check: Enforce IMDSv2 in EC2 instance and Launch Configuration",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/152",
+                        "createdAt": "2020-03-25T22:22:47Z",
+                        "closedAt": "2021-12-01T14:43:16Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure S3 has block public access enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/153",
+                        "createdAt": "2020-03-25T22:23:09Z",
+                        "closedAt": "2021-04-06T21:50:59Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure VPC Flow Logs Enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/154",
+                        "createdAt": "2020-03-25T22:23:59Z",
+                        "closedAt": "2021-04-06T21:50:58Z"
+                    },
+                    {
+                        "title": "Enable correlation of multiple resources ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/155",
+                        "createdAt": "2020-03-25T22:25:08Z",
+                        "closedAt": "2021-06-28T07:11:29Z"
+                    },
+                    {
+                        "title": "Add new check: EC2 instance should use IAM role and not hardcoded credentials ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/156",
+                        "createdAt": "2020-03-25T22:25:37Z",
+                        "closedAt": "2021-04-06T21:51:06Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure ECR Image Tags are immutable",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/157",
+                        "createdAt": "2020-03-25T22:26:10Z",
+                        "closedAt": "2020-11-22T09:13:48Z"
+                    },
+                    {
+                        "title": "Add new check: Elasticsearch ensure logging enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/158",
+                        "createdAt": "2020-03-25T22:26:35Z",
+                        "closedAt": "2020-09-06T06:59:31Z"
+                    },
+                    {
+                        "title": "Add new check: Elasticsearch enforce HTTPS",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/159",
+                        "createdAt": "2020-03-25T22:27:00Z",
+                        "closedAt": "2020-09-06T06:43:34Z"
+                    },
+                    {
+                        "title": "Add new check: Firehose Delivery Stream S3 Destination Encrypted",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/160",
+                        "createdAt": "2020-03-25T22:27:34Z",
+                        "closedAt": "2021-04-06T22:50:32Z"
+                    },
+                    {
+                        "title": "Add new check: Firehose Data at Rest Encrypted",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/161",
+                        "createdAt": "2020-03-25T22:28:33Z",
+                        "closedAt": "2021-04-06T21:51:01Z"
+                    },
+                    {
+                        "title": "Add new check: Redshift cluster should not be publicly accessible",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/162",
+                        "createdAt": "2020-03-25T22:33:06Z",
+                        "closedAt": "2020-10-01T19:57:31Z"
+                    },
+                    {
+                        "title": "Add new check: DMS Replication Instance should not be publicly accessible",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/163",
+                        "createdAt": "2020-03-25T22:33:31Z",
+                        "closedAt": "2020-10-23T12:49:51Z"
+                    },
+                    {
+                        "title": "Add new check: DynamoDB Accelerator (DAX) encryption at rest enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/164",
+                        "createdAt": "2020-03-25T22:33:53Z",
+                        "closedAt": "2020-03-29T19:12:41Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure DocumentDB Encryption in transit is NOT disabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/165",
+                        "createdAt": "2020-03-25T22:34:26Z",
+                        "closedAt": "2020-11-04T22:39:35Z"
+                    },
+                    {
+                        "title": "Add new check: DocumentDB Enable Logging ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/166",
+                        "createdAt": "2020-03-25T22:34:54Z",
+                        "closedAt": "2020-09-06T18:14:38Z"
+                    },
+                    {
+                        "title": "Add new check: ECS ensure container insights is enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/167",
+                        "createdAt": "2020-03-25T22:35:36Z",
+                        "closedAt": "2020-05-22T20:34:32Z"
+                    },
+                    {
+                        "title": "Add new check: EMR Enable Encryption in transit and at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/168",
+                        "createdAt": "2020-03-25T22:36:07Z",
+                        "closedAt": "2021-04-06T21:51:00Z"
+                    },
+                    {
+                        "title": "Add new check: Glue Data Catalog Encryption at rest and connection parameter encryption",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/169",
+                        "createdAt": "2020-03-25T22:36:41Z",
+                        "closedAt": "2020-11-10T21:11:15Z"
+                    },
+                    {
+                        "title": "Add new check: Glue Enable Encryption of data at rest",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/170",
+                        "createdAt": "2020-03-25T22:37:25Z",
+                        "closedAt": "2022-01-16T11:48:19Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure Amazon MQ Brokers are not publicly exposed ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/171",
+                        "createdAt": "2020-03-25T22:37:52Z",
+                        "closedAt": "2021-04-06T21:51:02Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure Amazon MQ Broker has logging enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/172",
+                        "createdAt": "2020-03-25T22:38:18Z",
+                        "closedAt": "2021-04-06T21:51:03Z"
+                    },
+                    {
+                        "title": "Add new check: Ensure Redshift Cluster logging is enabled ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/173",
+                        "createdAt": "2020-03-25T22:38:43Z",
+                        "closedAt": "2020-08-26T13:44:53Z"
+                    },
+                    {
+                        "title": "Add new check: S3 bucket enable MFA delete",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/174",
+                        "createdAt": "2020-03-25T22:39:05Z",
+                        "closedAt": "2020-06-10T06:37:51Z"
+                    },
+                    {
+                        "title": "Add new check: Secrets Manager secrets should have a rotation schedule set",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/175",
+                        "createdAt": "2020-03-25T22:39:38Z",
+                        "closedAt": "2021-04-06T21:51:07Z"
+                    },
+                    {
+                        "title": "Add new check: SNS Policy should not be exposed to everyone",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/176",
+                        "createdAt": "2020-03-26T15:39:05Z",
+                        "closedAt": "2021-04-06T21:51:18Z"
+                    },
+                    {
+                        "title": "Add new check: SNS Policy should not allow ALL actions ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/177",
+                        "createdAt": "2020-03-26T15:39:37Z",
+                        "closedAt": "2021-04-06T21:51:19Z"
+                    },
+                    {
+                        "title": "Add new check: SQS Policy should not be exposed to everyone ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/178",
+                        "createdAt": "2020-03-26T15:40:39Z",
+                        "closedAt": "2021-04-06T21:51:13Z"
+                    },
+                    {
+                        "title": "Add new check: SQS Policy should not allow ALL actions ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/179",
+                        "createdAt": "2020-03-26T15:41:27Z",
+                        "closedAt": "2020-08-26T13:44:39Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOIxQUPw==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

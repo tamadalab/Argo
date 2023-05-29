@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Spring Web Client is not using proxy if its configured",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25673",
+                        "createdAt": "2020-09-01T15:00:05Z",
+                        "closedAt": "2020-09-01T15:19:17Z"
+                    },
+                    {
+                        "title": "Eager cancellation fails with WebClient",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25674",
+                        "createdAt": "2020-09-01T23:28:46Z",
+                        "closedAt": "2020-09-25T20:26:01Z"
+                    },
+                    {
+                        "title": "Make \"org.springframework.util.unit.DataSize\" class Serializable",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25675",
+                        "createdAt": "2020-09-02T09:22:08Z",
+                        "closedAt": "2020-09-02T12:44:35Z"
+                    },
+                    {
+                        "title": "Make \"org.springframework.util.unit.DataSize\" class Serializable",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25676",
+                        "createdAt": "2020-09-02T09:31:43Z",
+                        "closedAt": "2020-09-02T12:46:08Z"
+                    },
+                    {
+                        "title": "Insecure use UUID as request parameter",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25677",
+                        "createdAt": "2020-09-02T13:02:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Polish StartupStep interface \"tags\" method",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25678",
+                        "createdAt": "2020-09-02T15:57:19Z",
+                        "closedAt": "2020-09-02T15:59:35Z"
+                    },
+                    {
+                        "title": "Revise database defaults for setNull handling (e.g. for NamedParameterJdbcTemplate batch updates)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25679",
+                        "createdAt": "2020-09-02T18:46:47Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Convert java.util.Date to java.time.*",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25680",
+                        "createdAt": "2020-09-03T02:21:53Z",
+                        "closedAt": "2020-09-03T09:05:21Z"
+                    },
+                    {
+                        "title": "SQLErrorCodesFactory.getErrorCodes(DataSource) returns empty error codes if access to transactional connection fails",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25681",
+                        "createdAt": "2020-09-03T03:59:10Z",
+                        "closedAt": "2020-09-03T17:22:53Z"
+                    },
+                    {
+                        "title": "Support for beans of a generic type in BeanFactoryAnnotationUtils",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25682",
+                        "createdAt": "2020-09-03T06:24:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Deprecate JdbcUtils.extractDatabaseMetaData(DataSource, String)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25686",
+                        "createdAt": "2020-09-03T11:12:10Z",
+                        "closedAt": "2020-09-03T17:22:53Z"
+                    },
+                    {
+                        "title": "Upgrading from Boot 2.3.3 or 2.4-M1 to Boot 2.4-M2 uses 125mb heap in BitsCronField",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25687",
+                        "createdAt": "2020-09-03T11:58:01Z",
+                        "closedAt": "2020-09-08T08:17:52Z"
+                    },
+                    {
+                        "title": "BeanFactoryUtils.beanNamesForTypeIncludingAncestors doesn't find name for existing bean if proxied",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25689",
+                        "createdAt": "2020-09-03T18:44:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Backport UrlPathHelper optimizations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25690",
+                        "createdAt": "2020-09-03T19:52:46Z",
+                        "closedAt": "2020-09-07T20:46:17Z"
+                    },
+                    {
+                        "title": "Expose protected method to determine charset in AbstractJackson2HttpMessageConverter",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25691",
+                        "createdAt": "2020-09-03T20:26:03Z",
+                        "closedAt": "2020-09-08T10:35:59Z"
+                    },
+                    {
+                        "title": "SQLErrorCodesFactory.getErrorCodes(DataSource) returns empty error codes if access to transactional connection fails",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25692",
+                        "createdAt": "2020-09-03T21:10:46Z",
+                        "closedAt": "2020-09-03T21:15:37Z"
+                    },
+                    {
+                        "title": "SQLErrorCodesFactory.getErrorCodes(DataSource) returns empty error codes if access to transactional connection fails",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25693",
+                        "createdAt": "2020-09-03T21:10:53Z",
+                        "closedAt": "2020-09-03T21:22:30Z"
+                    },
+                    {
+                        "title": "SQLErrorCodesFactory.getErrorCodes(DataSource) returns empty error codes if access to transactional connection fails",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25694",
+                        "createdAt": "2020-09-03T21:11:00Z",
+                        "closedAt": "2020-09-03T21:30:36Z"
+                    },
+                    {
+                        "title": "Avoid full singleton lock for DefaultSingletonBeanRegistry.getSingleton(beanName, false)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25695",
+                        "createdAt": "2020-09-03T22:42:22Z",
+                        "closedAt": "2020-09-03T22:43:23Z"
+                    },
+                    {
+                        "title": "Backport UrlPathHelper optimizations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25698",
+                        "createdAt": "2020-09-04T07:00:55Z",
+                        "closedAt": "2020-09-08T10:35:58Z"
+                    },
+                    {
+                        "title": "Backport UrlPathHelper optimizations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25699",
+                        "createdAt": "2020-09-04T07:00:55Z",
+                        "closedAt": "2020-09-08T11:03:30Z"
+                    },
+                    {
+                        "title": "Backport UrlPathHelper optimizations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25700",
+                        "createdAt": "2020-09-04T07:00:56Z",
+                        "closedAt": "2020-09-08T11:32:43Z"
+                    },
+                    {
+                        "title": "Prevent confusion about build(boolean) method in UriComponentsBuilder",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25701",
+                        "createdAt": "2020-09-04T07:12:23Z",
+                        "closedAt": "2020-09-08T10:35:59Z"
+                    },
+                    {
+                        "title": "Prevent confusion about build(boolean) method in UriComponentsBuilder",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25702",
+                        "createdAt": "2020-09-04T07:12:44Z",
+                        "closedAt": "2020-09-08T11:03:30Z"
+                    },
+                    {
+                        "title": "Prevent confusion about build(boolean) method in UriComponentsBuilder",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25703",
+                        "createdAt": "2020-09-04T07:12:50Z",
+                        "closedAt": "2020-09-08T11:32:44Z"
+                    },
+                    {
+                        "title": "Document how to specify Jackson JSON view serialization hints with @RestController and Webflux",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25704",
+                        "createdAt": "2020-09-04T07:15:29Z",
+                        "closedAt": "2020-09-08T10:35:59Z"
+                    },
+                    {
+                        "title": "Document how to specify Jackson JSON view serialization hints with @RestController and Webflux",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25705",
+                        "createdAt": "2020-09-04T07:15:36Z",
+                        "closedAt": "2020-09-08T11:03:30Z"
+                    },
+                    {
+                        "title": "VerifyErrors when using SpEL compilation with Thymeleaf when invoking a default method defined in an interface",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25706",
+                        "createdAt": "2020-09-04T15:45:13Z",
+                        "closedAt": "2020-09-05T11:13:05Z"
+                    },
+                    {
+                        "title": "CallMetaDataContext.reconcileParameters overwrites cursor name",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25707",
+                        "createdAt": "2020-09-04T17:31:56Z",
+                        "closedAt": "2020-09-05T11:13:05Z"
+                    },
+                    {
+                        "title": "CallMetaDataContext.reconcileParameters overwrites cursor name",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25708",
+                        "createdAt": "2020-09-04T19:46:18Z",
+                        "closedAt": "2020-09-05T11:30:56Z"
+                    },
+                    {
+                        "title": "CallMetaDataContext.reconcileParameters overwrites cursor name",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25709",
+                        "createdAt": "2020-09-04T19:46:25Z",
+                        "closedAt": "2020-09-05T11:56:12Z"
+                    },
+                    {
+                        "title": "Mechanism to access request bound objects in WebClient filter in servlet env",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25710",
+                        "createdAt": "2020-09-05T00:14:48Z",
+                        "closedAt": "2020-11-23T21:59:56Z"
+                    },
+                    {
+                        "title": "VerifyErrors when using SpEL compilation with Thymeleaf when invoking a default method defined in an interface",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25711",
+                        "createdAt": "2020-09-05T10:35:55Z",
+                        "closedAt": "2020-09-05T11:30:56Z"
+                    },
+                    {
+                        "title": "VerifyErrors when using SpEL compilation with Thymeleaf when invoking a default method defined in an interface",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25712",
+                        "createdAt": "2020-09-05T10:36:04Z",
+                        "closedAt": "2020-09-05T11:56:11Z"
+                    },
+                    {
+                        "title": "VerifyErrors when using SpEL compilation with Thymeleaf when invoking a default method defined in an interface",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25713",
+                        "createdAt": "2020-09-05T10:36:10Z",
+                        "closedAt": "2020-09-05T12:29:34Z"
+                    },
+                    {
+                        "title": "Easing the application of CORS default settings through the WebMvcConfigurer#corsConfigurer method",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25716",
+                        "createdAt": "2020-09-07T06:37:41Z",
+                        "closedAt": "2020-09-25T20:55:03Z"
+                    },
+                    {
+                        "title": "PropertiesLoaderSupport should ignore socket/connect exceptions as well",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25717",
+                        "createdAt": "2020-09-07T06:57:36Z",
+                        "closedAt": "2020-09-07T16:04:47Z"
+                    },
+                    {
+                        "title": "Early configuration of ApplicationStartup on BeanFactory",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25718",
+                        "createdAt": "2020-09-07T08:47:07Z",
+                        "closedAt": "2020-09-07T08:49:16Z"
+                    },
+                    {
+                        "title": "Source code build error",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25719",
+                        "createdAt": "2020-09-07T09:23:36Z",
+                        "closedAt": "2020-09-08T08:22:51Z"
+                    },
+                    {
+                        "title": "PropertiesLoaderSupport should ignore socket/connect exceptions as well",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25720",
+                        "createdAt": "2020-09-07T09:33:02Z",
+                        "closedAt": "2020-09-07T16:21:56Z"
+                    },
+                    {
+                        "title": "PropertiesLoaderSupport should ignore socket/connect exceptions as well",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25721",
+                        "createdAt": "2020-09-07T09:33:19Z",
+                        "closedAt": "2020-09-07T16:27:55Z"
+                    },
+                    {
+                        "title": "PropertiesLoaderSupport should ignore socket/connect exceptions as well",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25722",
+                        "createdAt": "2020-09-07T09:33:27Z",
+                        "closedAt": "2020-09-07T16:51:04Z"
+                    },
+                    {
+                        "title": "ClassPathScanningCandidateComponentProvider behaviour not scanning annotated classes anymore (spring-context 5.1.17 -> 5.2.8)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25726",
+                        "createdAt": "2020-09-07T13:34:45Z",
+                        "closedAt": "2020-09-07T13:44:57Z"
+                    },
+                    {
+                        "title": "Upgrade to Reactor 2020 RC1",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25728",
+                        "createdAt": "2020-09-07T15:34:04Z",
+                        "closedAt": "2020-09-14T19:12:44Z"
+                    },
+                    {
+                        "title": "Upgrade to RSocket 1.1 M2",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25729",
+                        "createdAt": "2020-09-07T15:35:40Z",
+                        "closedAt": "2020-09-14T19:12:44Z"
+                    },
+                    {
+                        "title": "Upgrade to Reactor Dysprosium-SR12",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25730",
+                        "createdAt": "2020-09-07T15:38:42Z",
+                        "closedAt": "2020-09-14T14:44:41Z"
+                    },
+                    {
+                        "title": "Upgrade to Reactor Californium-SR21",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25731",
+                        "createdAt": "2020-09-07T15:40:33Z",
+                        "closedAt": "2020-09-14T21:25:25Z"
+                    },
+                    {
+                        "title": "Deprecate AppCacheManifestTransformer",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25733",
+                        "createdAt": "2020-09-08T05:48:09Z",
+                        "closedAt": "2020-09-08T12:47:20Z"
+                    },
+                    {
+                        "title": "Redundant code in PostProcessorRegistrationDelegate that reduces performance",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25734",
+                        "createdAt": "2020-09-08T06:58:25Z",
+                        "closedAt": "2020-09-11T09:24:49Z"
+                    },
+                    {
+                        "title": "Deprecate Joda-Time support",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25736",
+                        "createdAt": "2020-09-08T08:15:09Z",
+                        "closedAt": "2020-09-08T12:47:19Z"
+                    },
+                    {
+                        "title": "Issue with Forwarded Header and Multiple Values",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25737",
+                        "createdAt": "2020-09-08T09:37:08Z",
+                        "closedAt": "2020-09-10T09:35:46Z"
+                    },
+                    {
+                        "title": "Optimize ConfigurationClassPostProcessor#enhanceConfigurationClasses method to shorten startup time",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25738",
+                        "createdAt": "2020-09-08T10:01:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FileUrlResource isWritable method returns true if URL protocol is not indicating a file",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25739",
+                        "createdAt": "2020-09-08T10:03:35Z",
+                        "closedAt": "2020-09-08T10:43:50Z"
+                    },
+                    {
+                        "title": "FileUrlResource isWritable method returns true if URL protocol is not indicating a file",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25740",
+                        "createdAt": "2020-09-08T10:03:44Z",
+                        "closedAt": "2020-09-08T11:20:13Z"
+                    },
+                    {
+                        "title": "Current log level not checked by LogAccessor supplier-enabled logging methods",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25741",
+                        "createdAt": "2020-09-08T12:43:46Z",
+                        "closedAt": "2020-09-08T15:19:43Z"
+                    },
+                    {
+                        "title": "Cancellation behaviour when input client requests are terminated prematurely",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25744",
+                        "createdAt": "2020-09-09T09:11:36Z",
+                        "closedAt": "2021-02-17T10:18:33Z"
+                    },
+                    {
+                        "title": "Spring boot Bean Validation on @NotNull Boolean field fails",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25745",
+                        "createdAt": "2020-09-09T10:36:56Z",
+                        "closedAt": "2020-09-09T11:49:06Z"
+                    },
+                    {
+                        "title": "ReactiveElasticsearchOperations: UncategorizedElasticsearchException",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25746",
+                        "createdAt": "2020-09-09T13:04:10Z",
+                        "closedAt": "2020-09-09T13:13:01Z"
+                    },
+                    {
+                        "title": "Error build spring-oxm by executing \"gradlew.bat :spring-oxm:check\" after executing task \"gradlew.bat\"",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25748",
+                        "createdAt": "2020-09-10T03:10:46Z",
+                        "closedAt": "2020-09-10T05:18:15Z"
+                    },
+                    {
+                        "title": "@Lookup doesn't work in case of AbstractBeanFactory's cacheBeanMetadata=false",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25749",
+                        "createdAt": "2020-09-10T07:28:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "DispatcherServlet.doDispatch.cleanupMultipart",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25750",
+                        "createdAt": "2020-09-10T15:58:21Z",
+                        "closedAt": "2020-09-11T10:35:36Z"
+                    },
+                    {
+                        "title": "Deprecate WebClient#exchange() and provide safer alternatives",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25751",
+                        "createdAt": "2020-09-10T16:04:42Z",
+                        "closedAt": "2020-10-07T09:10:18Z"
+                    },
+                    {
+                        "title": "Make path pattern optional in router functions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25752",
+                        "createdAt": "2020-09-10T19:56:33Z",
+                        "closedAt": "2020-10-06T09:02:52Z"
+                    },
+                    {
+                        "title": "A beforeCommit chain failure invariably results in a 500 response",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25753",
+                        "createdAt": "2020-09-11T04:37:52Z",
+                        "closedAt": "2020-09-13T20:30:51Z"
+                    },
+                    {
+                        "title": "@Autowired/@Resource dose not work when bean implements BeanFactoryPostProcessor ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25754",
+                        "createdAt": "2020-09-11T08:26:51Z",
+                        "closedAt": "2020-09-11T08:34:20Z"
+                    },
+                    {
+                        "title": "MimeMessageHelper.addAttachment: configurable encoding of attachment filename",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25755",
+                        "createdAt": "2020-09-11T09:18:00Z",
+                        "closedAt": "2020-09-14T20:42:43Z"
+                    },
+                    {
+                        "title": "Spring Integration Issue With Latest XXE Patch and WebSphere 9.0",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25756",
+                        "createdAt": "2020-09-11T13:40:00Z",
+                        "closedAt": "2020-09-11T13:48:15Z"
+                    },
+                    {
+                        "title": "the type of the attribute \"configurationClasses\"  of class ConfigurationClassParser is LinkedHashMap",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25761",
+                        "createdAt": "2020-09-12T14:34:25Z",
+                        "closedAt": "2020-09-12T14:51:14Z"
+                    },
+                    {
+                        "title": "StringDecoder does not provide a way to configure the default charset",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25762",
+                        "createdAt": "2020-09-13T08:49:11Z",
+                        "closedAt": "2020-09-14T14:44:42Z"
+                    },
+                    {
+                        "title": "S",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25764",
+                        "createdAt": "2020-09-14T03:22:24Z",
+                        "closedAt": "2020-09-14T03:22:42Z"
+                    },
+                    {
+                        "title": "Support registration of null reference for BeanFactoryPostProcessor",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25765",
+                        "createdAt": "2020-09-14T08:17:41Z",
+                        "closedAt": "2020-09-17T12:45:19Z"
+                    },
+                    {
+                        "title": "Support interception of calls to the underlying cache",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25766",
+                        "createdAt": "2020-09-14T11:23:26Z",
+                        "closedAt": "2020-09-22T12:55:13Z"
+                    },
+                    {
+                        "title": "WebClient/MockMVC issue with jquery ajax post",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25768",
+                        "createdAt": "2020-09-14T17:05:22Z",
+                        "closedAt": "2020-10-23T11:53:10Z"
+                    },
+                    {
+                        "title": "HttpHeaders.setContentDispositionFormData should ignore empty filename",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25769",
+                        "createdAt": "2020-09-14T19:24:11Z",
+                        "closedAt": "2020-09-14T20:42:44Z"
+                    },
+                    {
+                        "title": "MimeMessageHelper should not encode attachment filenames by default",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25770",
+                        "createdAt": "2020-09-14T19:55:11Z",
+                        "closedAt": "2020-09-14T20:42:44Z"
+                    },
+                    {
+                        "title": "Add kotlinx.serialization JSON support to Spring WebFlux",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25771",
+                        "createdAt": "2020-09-14T21:34:37Z",
+                        "closedAt": "2020-10-06T21:03:17Z"
+                    },
+                    {
+                        "title": "Document functional bean registration in the reference manual",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25773",
+                        "createdAt": "2020-09-15T11:50:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Incorrect example in javadocs of Assert.notNull(object, messageSupplier)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25774",
+                        "createdAt": "2020-09-15T13:13:24Z",
+                        "closedAt": "2020-09-15T15:19:30Z"
+                    },
+                    {
+                        "title": "Incorrect example in javadocs of Assert.notNull(object, messageSupplier)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25775",
+                        "createdAt": "2020-09-15T13:18:45Z",
+                        "closedAt": "2020-09-15T14:31:34Z"
+                    },
+                    {
+                        "title": "Use the function endpoint, filter the handler function, and find that remoteAddress is null, params is empty",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25776",
+                        "createdAt": "2020-09-15T14:35:23Z",
+                        "closedAt": "2020-10-07T08:37:49Z"
+                    },
+                    {
+                        "title": "Add a PropertySource/Environment.getProperty interceptor ( != ConversionService )",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25778",
+                        "createdAt": "2020-09-16T00:57:45Z",
+                        "closedAt": "2022-06-07T11:05:30Z"
+                    },
+                    {
+                        "title": "Upgrade to Kotlin 1.4.10",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25779",
+                        "createdAt": "2020-09-16T12:11:34Z",
+                        "closedAt": "2020-09-16T12:13:10Z"
+                    },
+                    {
+                        "title": "Websockets ExecutorSubscribableChannel class keeps on sending heartbeat every 15 sec.",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25781",
+                        "createdAt": "2020-09-16T16:23:05Z",
+                        "closedAt": "2020-10-02T09:10:16Z"
+                    },
+                    {
+                        "title": "Unable to change Clock for spring framework scheduling",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25782",
+                        "createdAt": "2020-09-17T09:42:21Z",
+                        "closedAt": "2020-09-18T08:31:43Z"
+                    },
+                    {
+                        "title": "Published reference documentation contains unnecessary folders and files",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25783",
+                        "createdAt": "2020-09-18T08:28:29Z",
+                        "closedAt": "2020-09-24T16:11:52Z"
+                    },
+                    {
+                        "title": "UriComponentsBuilder should not treat a dot followed by a number as illegal",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25784",
+                        "createdAt": "2020-09-18T10:21:10Z",
+                        "closedAt": "2020-09-22T16:21:00Z"
+                    },
+                    {
+                        "title": "Set the sameSite cookie attribute in ClientHttpResponse implementations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25785",
+                        "createdAt": "2020-09-18T12:36:42Z",
+                        "closedAt": "2020-09-22T06:37:27Z"
+                    },
+                    {
+                        "title": "ClientHttpRequestInterceptor does not work for Resttemplate when http 422",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25786",
+                        "createdAt": "2020-09-18T13:09:32Z",
+                        "closedAt": "2020-09-24T18:27:19Z"
+                    },
+                    {
+                        "title": "Use Gradle Toolchains for JVM projects to test on unsupported JDK versions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25787",
+                        "createdAt": "2020-09-18T13:50:22Z",
+                        "closedAt": "2021-03-15T13:58:14Z"
+                    },
+                    {
+                        "title": "Extending abstract class does not expose parameter annotations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25788",
+                        "createdAt": "2020-09-18T15:37:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Construct StringWriter instances with appropriate initial size",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25789",
+                        "createdAt": "2020-09-18T16:08:35Z",
+                        "closedAt": "2020-09-18T16:17:43Z"
+                    },
+                    {
+                        "title": "Construct StringWriter instances with appropriate initial size",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25790",
+                        "createdAt": "2020-09-18T16:09:19Z",
+                        "closedAt": "2020-09-18T16:36:02Z"
+                    },
+                    {
+                        "title": "Provide path-based locale change interceptor in Spring MVC",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25791",
+                        "createdAt": "2020-09-18T20:39:59Z",
+                        "closedAt": "2022-05-31T11:15:31Z"
+                    },
+                    {
+                        "title": "Potential bug in getBean(Class<T>) for ProxyFactoryBean and target bean regarding @Priority",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25792",
+                        "createdAt": "2020-09-19T16:25:29Z",
+                        "closedAt": "2020-09-23T13:46:50Z"
+                    },
+                    {
+                        "title": "sorry",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25793",
+                        "createdAt": "2020-09-20T09:16:00Z",
+                        "closedAt": "2020-09-20T09:16:40Z"
+                    },
+                    {
+                        "title": "Published reference documentation contains unnecessary folders and files",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25794",
+                        "createdAt": "2020-09-21T09:33:35Z",
+                        "closedAt": "2020-09-21T15:21:41Z"
+                    },
+                    {
+                        "title": "Introduce a NativeDetector utility class",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25795",
+                        "createdAt": "2020-09-21T14:43:43Z",
+                        "closedAt": "2021-02-15T15:36:54Z"
+                    },
+                    {
+                        "title": "This is not a problem, but I am curious. ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25796",
+                        "createdAt": "2020-09-22T01:24:39Z",
+                        "closedAt": "2020-09-22T03:31:55Z"
+                    },
+                    {
+                        "title": "Support for HTTP Request Method: SEARCH",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25797",
+                        "createdAt": "2020-09-22T10:35:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Sending an event as part of the EMF lock triggers a deadlock",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/25799",
+                        "createdAt": "2020-09-22T13:29:46Z",
+                        "closedAt": "2020-09-25T09:44:53Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOKhqZkQ==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

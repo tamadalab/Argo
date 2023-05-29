@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"small sizing fixes","2014-1/17","2014-1/17","2014-1/17",False,"null",1,7,2
+"Allow null as enum value in serialization","2014-1/17","2014-1/17","2014-1/17",True,"2014-1/17",2,60,3
+"Differentiate local player by item block selection","2014-1/17","2014-1/17","2014-1/17",True,"2014-1/17",2,23,1
+"BlockSelectionRender shouldn't care about startPosition, only currentSel...","2014-1/18","2014-1/18","2014-1/18",True,"2014-1/18",2,13,15
+"Behavior tree implementation","2014-1/19","2014-1/19","2014-1/19",True,"2014-1/19",2,7398,23
+"An event is fired when player picks up an item from the ground.","2014-1/20","2014-1/20","2014-1/20",True,"2014-1/20",2,37,4
+"Reduce initial window size","2014-1/20","2014-1/20","2014-1/20",True,"2014-1/20",3,2,2
+"Adds specification language to testUtils ","2014-1/20","2014-1/20","2014-1/20",False,"null",2,198,0
+"Adding module context while loading block definitions to avoid problems,...","2014-1/21","2014-1/21","2014-1/21",True,"2014-1/21",2,3,3
+"Ordinal Indicators","2014-1/21","2014-1/21","2014-1/21",True,"2014-1/21",2,71,0
+"Added permissions for guava and awt","2014-1/21","2014-1/21","2014-1/21",False,"null",2,4,0
+"fixed Actor.component() method","2014-1/23","2014-1/23","2014-1/23",True,"2014-1/23",2,9,9
+"Behavior","2014-1/24","2014-1/24","2014-1/24",True,"2014-1/24",2,19,14
+"Fix to make new console + behavior editor working","2014-1/24","2014-1/24","2014-1/24",True,"2014-1/24",2,83,40
+"Split TerasologyTestingEnvironment into smaller units","2014-1/25","2014-1/25","2014-1/25",True,"2014-1/25",2,1326,449
+"Behavior","2014-1/25","2014-1/25","2014-1/25",True,"2014-1/25",3,480,265
+"Remove lwjgl dependencies from Texture","2014-1/25","2014-1/25","2014-1/25",True,"2014-1/25",2,52,46
+"added some icons","2014-1/25","2014-1/25","2014-1/25",True,"2014-1/25",3,11,0
+"Create Headless and Base graphic-related assets","2014-1/25","2014-1/25","2014-1/25",True,"2014-1/25",2,833,330
+"Remove unnecessary (per Immortius) lwjgl calls in StateMainMenu.java","2014-1/26","2014-1/26","2014-1/26",True,"2014-1/26",2,0,8
+"Make ShaderManager an interface","2014-1/26","2014-1/26","2014-1/26",True,"2014-1/26",2,243,147
+"Pass CanvasRenderer into NUIManager constructor to remove Lwjgl dependency","2014-1/26","2014-1/26","2014-1/26",True,"2014-1/26",2,50,3
+"Make into interfaces to remove lwjgl dependencies from GUIManager and UIDisplayRenderer","2014-1/26","2014-1/26","2014-1/26",False,"null",1,1226,433
+"Possible way to have Time work without lwjgl","2014-1/26","2014-1/26","2014-1/26",False,"null",3,162,0
+"Engine Tests: removed default module activation","2014-1/26","2014-1/26","2014-1/26",True,"2014-1/26",2,5,13
+"Behavior","2014-1/26","2014-1/26","2014-1/26",True,"2014-1/26",2,968,355
+"Modular arithmetic","2014-1/27","2014-1/27","2014-1/27",True,"2014-1/27",3,103,0
+"Checkstyle fixes I should have run at the time of the PR","2014-1/27","2014-1/27","2014-1/27",True,"2014-1/27",2,10,11
+"Remove lwjgl dependencies from GUIManager by making it into an interface","2014-1/27","2014-1/27","2014-1/27",True,"2014-1/27",2,649,348
+"Use Sweet Gooey Icon set","2014-1/27","2014-1/27","2014-1/27",True,"2014-1/27",2,25,0
+"Create LWJGL EngineSubsystem","2014-1/28","2014-1/28","2014-1/28",True,"2014-1/28",2,834,347
+"Fix wrong Jenkins envirenment GIT_BRANCH","2014-1/29","2014-1/29","2014-1/29",True,"2014-1/29",2,11,2
+"Icon fix, as well as 2 new features.","2014-1/29","2014-1/29","2014-1/29",True,"2014-1/29",3,134,12
+"Split InitialiseWorld to enable access WorldEntity during world gen","2014-1/29","2014-1/29","2014-1/29",True,"2014-1/29",2,65,2
+"Mesh generated for icons scales properly with their size.","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,3,1
+"Fix for: NUI - modules should activate/deactivate on double-click #845","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,29,4
+"TeraMath isPowerOfTwo and ceilPowerOfTwo","2014-1/31","2014-2/31","2014-1/31",True,"2014-2/31",2,74,8
+"Behavior tree + skeletal mesh","2014-1/31","2014-2/31","2014-1/31",True,"2014-2/31",2,29,16
+"Major sub systems headless","2014-1/31","2014-2/31","2014-1/31",False,"null",1,571,6
+"Added Camera Click Noise","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,9,0
+"Adding @API to logic.delay package.","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,18,0
+"Removing the DelayActionComponent, when the delayed action is triggered.","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,1,0
+"Added ""Enable All"" and ""Disable All"" to the modules select screen","2014-1/31","2014-1/31","2014-1/31",True,"2014-1/31",2,84,6
+"Add config dialog for WorldGenerators","2014-2/1","2014-2/1","2014-2/1",True,"2014-2/1",3,550,29
+"Converted PlaTec heightmap to texture","2014-2/2","2014-2/2","2014-2/2",True,"2014-2/2",2,75,263179
+"Behavior","2014-2/2","2014-2/2","2014-2/2",True,"2014-2/2",2,321,109
+"Got fences working.","2014-2/2","2014-2/2","2014-2/2",True,"2014-2/2",2,58,26
+"Fixing incorrect method used.","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,1,1
+"Move cropping and texture and font rendering into CanvasRenderer","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,165,114
+"Handle case where there is no GUI hud","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,6,2
+"Replace Sys calls with EngineTime getRawTimeInMs","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,9,6
+"Pr headless bug fixes","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,2,2
+"Added the two most common interpolation functions","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,25,0
+"Make WorldRenderer into an interface.","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,1451,1308
+"Adding double sliders","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,395,0
+"Use DisplayDevice isHeadless for registering systems","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,54,37
+"Isolate lwjgl timer specifics","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,161,139
+"Tick limiter","2014-2/5","2014-2/5","2014-2/5",True,"2014-2/5",2,170,139
+"Items and blocks can now once again be dropped directly into instigator'...","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",2,75,46
+"Non-lwjgl timer -- identical functionality to lwjgl on Mac/Linux","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",2,23,0
+"Simplification of StateMainMenu to be used as a base","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",2,109,0
+"Pr headless support","2014-2/6","2014-2/6","2014-2/6",False,"null",2,2255,1320
+"Verify required system exist","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",2,13,1
+"Pr headless support","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",5,790,11
+"Move lwjgl native loading from graphics to timer","2014-2/6","2014-2/6","2014-2/6",True,"2014-2/6",5,30,27
+"allow subsystems to register systems","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",2,57,1
+"fix my flawed attempt to recompute the delta","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",2,1,0
+"Pull some chunk updating code in from the lwjgl version to fix chunk loading","2014-2/7","2014-2/7","2014-2/7",False,"null",1,163,1
+"Pull some chunk updating code in from the lwjgl version to fix chunk loading","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",2,163,1
+"Fixing bug with drop logic.","2014-2/7","2014-2/7","2014-2/7",True,"2014-2/7",2,1,2
+"Refactoring Inventory related classes","2014-2/8","2014-2/8","2014-2/8",True,"2014-2/8",3,1021,872
+"Change Terasology to MovingBlocks for facade locations","2014-2/9","2014-2/9","2014-2/9",True,"2014-2/9",2,3,2
+"Eclipse awt launch fix","2014-2/9","2014-2/9","2014-2/9",True,"2014-2/9",2,20,2
+"Behavior","2014-2/9","2014-2/9","2014-2/9",True,"2014-2/9",2,9,9
+"HUD api changes","2014-2/10","2014-2/10","2014-2/10",False,"null",2,52,3
+"Support for mods to render any inventories","2014-2/10","2014-2/10","2014-2/10",True,"2014-2/10",2,19,0
+"Adding hook for rendering inventory cell overlays for items.","2014-2/10","2014-2/10","2014-2/10",True,"2014-2/10",2,33,0
+"Add @API to BlockDefinition so that modules can define block families","2014-2/11","2014-2/11","2014-2/11",True,"2014-2/11",2,3,0
+"Add relative side convenience method","2014-2/11","2014-2/11","2014-2/11",True,"2014-2/11",2,27,0
+"Refactored Profiler to Timer","2014-2/11","2014-2/11","2014-2/11",False,"null",3,207,146
+"Sound & Music node","2014-2/11","2014-3/11","2014-2/11",True,"2014-3/11",3,272,26
+"Remove lwjgl dependency from Performance Monitor","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",2,9,4
+"Move headless classes into headless subsystem","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",2,26,20
+"Using wrong CanvasRenderer","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",2,2,2
+"Adding missing consume()-s for inventory events.","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",2,3,2
+"Cinematic (Smooth) camera video setting to use during recording presenta...","2014-2/12","2014-2/12","2014-2/12",True,"2014-2/12",3,313,116
+"Provide an AssetSource which is the combination of two other asset sources","2014-2/13","2014-2/13","2014-2/13",False,"null",2,95,0
+"Adding last one missing consume() (I hope).","2014-2/13","2014-2/13","2014-2/13",True,"2014-2/13",2,3,1
+"Fix for timing inventory changed events","2014-2/13","2014-2/13","2014-2/13",True,"2014-2/13",2,2,2
+"Reworked ColumnLayout into a RowLayout","2014-2/14","2014-2/14","2014-2/14",True,"2014-2/14",2,356,0
+"Support asset loading from a facade","2014-2/14","2014-2/14","2014-2/14",True,"2014-2/14",2,111,3
+"added framebuffer to canvas","2014-2/14","2014-4/14","2014-2/14",True,"2014-4/14",3,276,77
+"Fixed clicking in the scroll bar area so it pages the display.","2014-2/14","2014-3/14","2014-2/14",False,"null",2,18,19
+"Added partial support for DVORAK key layouts.","2014-2/15","2014-2/15","2014-2/15",True,"2014-2/15",3,12,0
+"Items can contain components that differentiate them, even though they h...","2014-2/15","2014-2/15","2014-2/15",True,"2014-2/15",2,102,10
+"Restore hook for custom subsystem Font support","2014-2/16","2014-2/16","2014-2/16",True,"2014-2/16",2,18,9
+"Fixed transposed x and y coordinates","2014-2/19","2014-2/19","2014-2/19",True,"2014-2/19",2,1,1
+"Drain input queues when changing state","2014-2/19","2014-2/19","2014-2/19",True,"2014-2/19",2,4,0
+"Capture mouse position at time of event creation rather than at time of event processing","2014-2/19","2014-2/19","2014-2/19",True,"2014-2/19",2,24,8
+"Fix TimeLwjgl ref","2014-2/19","2014-2/19","2014-2/19",True,"2014-2/19",2,1,1

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"remove Transfrom from MeshRenderer","2020-11/21","2020-12/21","2020-11/21",True,"2020-12/21",2,23,15
+"feat(JOML): migrate camera target system","2020-11/21","2020-12/21","2020-11/21",True,"2020-12/21",2,17,11
+"feat(JOML): migrate block selection component","2020-11/21","2020-12/21","2020-11/21",False,"null",3,61,61
+"doc: fix some JavaDoc errors","2020-11/22","2020-11/22","2020-11/22",True,"2020-11/22",3,9,9
+"fix(networking-timeout): graceful shutdown after failed connection","2020-11/23","2020-11/23","2020-11/23",True,"2020-11/23",3,16,9
+"fix(network): fix server info request and ping error handling","2020-11/23","2020-11/23","2020-11/23",True,"2020-11/23",2,18,18
+"Fix some misspells / typing errors in czech translation","2020-11/23","2020-11/23","2020-11/23",True,"2020-11/23",2,12,12
+"Drop creation of unnecessary array on new chunk event","2020-11/24","2020-11/24","2020-11/24",True,"2020-11/24",7,8,18
+"feat(subsystems): Extract GsonSerializer","2020-11/24","2021-3/24","2020-11/24",False,"null",3,461,440
+"feat(discord-rpc): improve the system","2020-11/24","2021-3/24","2020-11/24",True,"2021-3/24",6,605,269
+"feat(BlockRegion): add BlockRegion helpers","2020-11/24","2020-11/24","2020-11/24",True,"2020-11/24",3,402,199
+"feat(JOML): migrate CharacterTeleportEvent","2020-11/25","2020-11/25","2020-11/25",True,"2020-11/25",2,30,28
+"feat(subsystems): add creating and loading `reflections.cache` for subsystems","2020-11/25","2020-11/25","2020-11/25",True,"2020-11/25",4,81,46
+"feat(JOML): migrate `AudioManager`","2020-11/25","2020-11/25","2020-11/25",True,"2020-11/25",2,8,65
+"feat(player): increase player's eye height 0.7 >>> 0.85","2020-11/25","2020-11/25","2020-11/25",True,"2020-11/25",2,1,1
+"fix: prevent NPE during movement interpolation","2020-11/25","2020-11/25","2020-11/25",True,"2020-11/25",3,28,34
+"feat(JOML): migrate `character` package events and systems","2020-11/25","2020-12/25","2020-11/25",True,"2020-12/25",3,64,62
+"perf(chunkprovider): add sorting for incoming request on chunk loading/generation.","2020-11/26","2020-12/26","2020-11/26",True,"2020-12/26",2,21,6
+"feat(JOML): migrate player spawn component and logic","2020-11/27","2020-11/27","2020-11/27",True,"2020-11/27",2,32,30
+"fix: item pickup radius (again)","2020-11/27","2020-11/27","2020-11/27",True,"2020-11/27",3,1,1
+"feat(JOML): migrate SkeletonRenderer","2020-11/27","2020-11/27","2020-11/27",True,"2020-11/27",2,47,46
+"feat(JOML): add util for `Region3i` from `BlockRegion`","2020-11/28","2020-11/28","2020-11/28",True,"2020-11/28",2,9,0
+"fix: tweak lighting for over exposure problem","2020-11/28","2020-11/28","2020-11/28",True,"2020-11/28",3,3,3
+"chore(nui/widgets): add unbounded wildcards for type parameters","2020-11/28","2020-12/28","2020-11/28",False,"null",2,5,5
+"add standard and performant options for blockregion iteration","2020-11/28","2020-11/28","2020-11/28",False,"null",2,36,5
+"feat: Remove weird features near the origin from BrownianNoise","2020-11/28","2020-11/28","2020-11/28",True,"2020-11/28",4,4,0
+"feat(JOML): migrate gltf and rendering","2020-11/29","2020-12/29","2020-11/29",True,"2020-12/29",4,145,153
+"chore: Remove all the remaining occurences of SurfaceHeightFacet","2020-11/29","2020-12/29","2020-11/29",True,"2020-12/29",3,23,125
+"feat(nui): allow batch-adding multiple paragraphs to HTMLDocument","2020-11/29","2020-11/29","2020-11/29",True,"2020-11/29",2,4,0
+"fix: Time out of sync for players in multiplayer","2020-11/30","2020-12/30","2020-11/30",True,"2020-12/30",3,123,42
+"feat: replace deprecated md5 assets with new gltf floating cube","2020-11/30","2020-12/30","2020-11/30",True,"2020-12/30",2,198,1112
+"chore: remove some of the most noisy debug logs","2020-11/30","2020-12/30","2020-11/30",True,"2020-12/30",3,2,21
+"feat(JOML): migrate BlockRegionComponent logic","2020-12/1","2020-12/1","2020-12/1",True,"2020-12/1",3,166,53
+"fix(world/chunks): make GenerateQueueEntity as Concurrent Collection","2020-12/1","2020-12/1","2020-12/1",True,"2020-12/1",3,2,2
+"fix: reduce volume and overmodulation of main theme","2020-12/1","2020-12/1","2020-12/1",True,"2020-12/1",2,1,6
+"fix: dispose physic's natives, stop threads.","2020-12/3","2020-12/3","2020-12/3",True,"2020-12/3",3,12,19
+"fix(BlockRegion): correct center calculation for BlockRegion","2020-12/6","2020-12/6","2020-12/6",True,"2020-12/6",2,3,3
+"feat(JOML): migrate ThirdPersonRemoteClientSystem","2020-12/6","2020-12/6","2020-12/6",True,"2020-12/6",2,23,23
+"feat(JOML): migrate character movment","2020-12/6","2020-12/6","2020-12/6",True,"2020-12/6",2,73,51
+"feat(JOML): migrate placeBlocks","2020-12/8","2020-12/8","2020-12/8",False,"null",2,0,2
+"feat(JOML): Chunks Standardization ","2020-12/9","2020-12/9","2020-12/9",True,"2020-12/9",3,414,73
+"ci(subsystems): Make TypeHandlerLibrary publishable with engine's version","2020-12/9","2020-12/9","2020-12/9",True,"2020-12/9",4,5,2
+"chore: removed count field for issue #4242","2020-12/9","2020-12/9","2020-12/9",True,"2020-12/9",3,2,7
+"fix: don't delete camera during purgeWorld command","2020-12/10","2020-12/10","2020-12/10",True,"2020-12/10",3,2,0
+"Add borders to atlas subtextures","2020-12/11","2020-12/11","2020-12/11",True,"2020-12/11",3,14,3
+"fix(world): Compute border requests from rasterizers and `@Updates` annotations.","2020-12/11","2020-12/11","2020-12/11",True,"2020-12/11",4,74,81
+"chore(joml): add toBlockMapping utility","2020-12/12","2020-12/12","2020-12/12",True,"2020-12/12",2,8,0
+"feat(JOML): migrate placed block","2020-12/12","2020-12/12","2020-12/12",False,"null",1,27,1
+"add joml snapshot 1.9.26 and start migrate mesh","2020-12/12","2020-12/12","2020-12/12",False,"null",1,62,34
+"chore (idea): ignore some user-specific plugin data","2020-12/12","2020-12/12","2020-12/12",True,"2020-12/12",4,8,0
+"feat(JOML): add replacment methods and deprecates methods in MeshBuilder","2020-12/12","2020-12/12","2020-12/12",True,"2020-12/12",3,66,17
+"feat(JOML): migrate joml to 1.10.0 and 1.0.0-SNAPSHOT for geometry","2020-12/13","2021-1/13","2020-12/13",False,"null",1,77,76
+"fix!(BlockRegion): Rewrite of BlockRegion","2020-12/13","2020-12/13","2020-12/13",True,"2020-12/13",5,1258,689
+"feat(JOML): migrate world gen","2020-12/13","2020-12/13","2020-12/13",True,"2020-12/13",4,337,319
+"feature(subsystem-prepare): extract Network and R&R code from EventSystemImpl","2020-12/15","2021-3/15","2020-12/15",False,"null",3,327,368
+"feat(TypeHandlerLibrary): Add generic Serializer for TypeHandlerLibrary.","2020-12/16","2021-3/16","2020-12/16",True,"2021-3/16",5,688,633
+"add missing absolute value for box collider extent","2020-12/19","2020-12/19","2020-12/19",True,"2020-12/19",2,1,1
+"refactor!(BlockRegion): full API overhaul","2020-12/20","2020-12/20","2020-12/20",True,"2020-12/20",3,1341,1349
+"TeraEd: Run Terasology in Swing/AWT","2020-12/21","2021-1/21","2020-12/21",True,"2021-1/21",4,1561,470
+"fix(publish): don't try to figure out the repository to publish to until after the version is set","2020-12/22","2020-12/22","2020-12/22",True,"2020-12/22",2,48,59
+"DISCUSSION: API for BlockRegion","2020-12/22","2020-12/22","2020-12/22",False,"null",3,142,227
+"chore(gradle): remove mavenLocal from project repositories","2020-12/22","2020-12/22","2020-12/22",True,"2020-12/22",4,2,19
+"doc: add system requirements to README","2020-12/26","2020-12/26","2020-12/26",True,"2020-12/26",2,41,1
+"feat(JOML): migrate world renderer","2020-12/26","2020-12/26","2020-12/26",True,"2020-12/26",3,43,45
+"chore: remove SubSampledNoise2D/3D","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",2,0,267
+"feat(JOML): migrate chunkview and tests cases","2020-12/27","2021-1/27","2020-12/27",True,"2021-1/27",2,101,131
+"feat(JOML): migrate BlockSelection","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",2,65,53
+"fix: casing fix for homedir arg from Gradle","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",2,1,1
+"feat: Add BlockAreaTypeHandler for serilization","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",2,185,2
+"feat(JOML): migrate SubSampledNoise for BlockArea","2020-12/27","2021-1/27","2020-12/27",True,"2021-1/27",3,33,19
+"feat(JOML): migrate Voronoi","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",3,7,6
+"feat(JOML): migrate to Rectanglei nui.animation","2020-12/27","2020-12/27","2020-12/27",True,"2020-12/27",2,12,11
+"build: save build time by not checking jcenter for terasology dependencies","2020-12/28","2020-12/28","2020-12/28",True,"2020-12/28",2,10,9
+"Fix/transient deps","2020-12/28","2021-1/28","2020-12/28",True,"2021-1/28",2,36,23
+"feat(JOML): migrate FloatingTextRenderer","2020-12/28","2020-12/28","2020-12/28",True,"2020-12/28",3,18,28
+"feat(JOML): migrate LightComponent","2020-12/28","2020-12/28","2020-12/28",True,"2020-12/28",3,1,1
+"feat(JOML): migrate ParicleUpdateImpl","2020-12/28","2020-12/28","2020-12/28",True,"2020-12/28",3,21,32
+"build(facades.PC): tidy distribution tasks","2020-12/29","2021-2/29","2020-12/29",True,"2021-2/29",3,510,254
+"feat(JOML): migrate BulletPhysics","2020-12/29","2020-12/29","2020-12/29",True,"2020-12/29",3,16,14
+"feat(JOML): migrate CharacterSystem","2020-12/29","2020-12/29","2020-12/29",True,"2020-12/29",2,3,5
+"feat(JOML): migrate BlockEntitySystem","2020-12/29","2020-12/29","2020-12/29",True,"2020-12/29",3,11,12
+"fix(#4319): add attchmentSide to getBlockForPlacement","2020-12/29","2020-12/29","2020-12/29",True,"2020-12/29",2,1,1
+"Mark new chunks ready before triggering OnChunkLoaded events.","2020-12/29","2020-12/29","2020-12/29",True,"2020-12/29",2,3,3
+"feat(JOML): migrate OnBlockItemPlaced","2020-12/30","2020-12/30","2020-12/30",True,"2020-12/30",2,45,26
+"feat(JOML): migrate EntityMotionState","2020-12/31","2020-12/31","2020-12/31",True,"2020-12/31",3,5,6
+"feat(JOML): migrate WorldProviderCore#isBlockRelevant","2020-12/31","2020-12/31","2020-12/31",True,"2020-12/31",3,61,2
+"feat(JOML): migrate NameTagClientSystem","2020-12/31","2020-12/31","2020-12/31",True,"2020-12/31",3,3,3
+"feat(JOML): migrate LocationComponent constructor","2020-12/31","2020-12/31","2020-12/31",True,"2020-12/31",3,10,1
+"feat(JOML): migrate DebugOverlay","2020-12/31","2021-1/31","2020-12/31",True,"2021-1/31",2,32,35
+"feat(JOML): migrate VisualCharacterSystem","2020-12/31","2021-1/31","2020-12/31",True,"2021-1/31",2,9,9
+"add Chunks#toChunkPos(Vector3ic, Vector3i)","2020-12/31","2021-1/31","2020-12/31",True,"2021-1/31",2,15,0
+"feat(JOML): migrate Direction","2021-1/1","2021-1/1","2021-1/1",True,"2021-1/1",3,23,23
+"feat(JOML): migrate BaseFacet2D for BlockArea","2021-1/1","2021-1/1","2021-1/1",True,"2021-1/1",2,108,109
+"chore: Couple minor tweaks - logic hardening and memory","2021-1/2","2021-1/2","2021-1/2",True,"2021-1/2",2,7,1
+"fix: Move the final stage of chunk loading back to the main thread.","2021-1/3","2021-1/3","2021-1/3",True,"2021-1/3",3,31,49
+"fix: remove reflection for gson deserilization in GsonTypeHandlerAdapter","2021-1/3","2021-1/3","2021-1/3",True,"2021-1/3",4,2,22
+"Fix LocalChunkProviderTest","2021-1/3","2021-1/3","2021-1/3",True,"2021-1/3",2,4,0
+"Bugfix/remove classpath","2021-1/3","2021-1/3","2021-1/3",False,"null",3,5,6
+"feat: add Chunks#toRelative(x,y,z,dest)","2021-1/4","2021-1/4","2021-1/4",True,"2021-1/4",2,14,2
+"feat(JOML): migrate CharacterMoveInputEvent","2021-1/5","2021-1/5","2021-1/5",True,"2021-1/5",3,13,11

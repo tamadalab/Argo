@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"INT-4204: Introduce `ExpressionFileListFilter`","2017-1/16","2017-1/16","2017-1/16",False,"null",2,482,60
+"INT-4210: DSL: Make a final `.log()` Terminal","2017-1/19","2017-1/19","2017-1/19",False,"null",2,55,22
+"INT-4212: FileWritingMessageHandler.flushWhenIdle","2017-1/20","2017-1/20","2017-1/20",False,"null",2,83,7
+"INT-4212: FWMH Predicates and DSL: flushWhenIdle","2017-1/23","2017-1/23","2017-1/23",True,"2017-1/23",2,52,21
+"Fix Compiled SpEL Test","2017-1/24","2017-1/24","2017-1/24",False,"null",2,15,11
+"INT-4215: CompositeFileListFilter runs all files through all filters","2017-1/24","2017-1/24","2017-1/24",False,"null",2,15,0
+"INT-4215: Add `ChainFileListFilter`","2017-1/25","2017-1/25","2017-1/25",False,"null",2,79,5
+"INT-4216: Fix occurrence of ClassCastException in ChainFileListFilter","2017-1/26","2017-1/26","2017-1/26",False,"null",2,103,1
+"INT-4217: SpEL Compilable for Required Header Args","2017-1/27","2017-1/27","2017-1/27",False,"null",2,166,11
+"DSL-140: Improve logic for outputChannel in DSL","2017-1/30","2017-1/30","2017-1/30",False,"null",2,64,9
+"INT-4208: Support for AsycRestTemplate and thus noblocking IO","2017-1/31","2017-2/31","2017-1/31",False,"null",2,1935,831
+"Contribution: Change `merge` to `push --force`","2017-1/31","2017-2/31","2017-1/31",False,"null",2,2,5
+"INT-4220: Leaders: warn event publishing errors","2017-1/31","2017-1/31","2017-1/31",True,"2017-1/31",2,140,70
+"INT-3923: Fix MQTT Reconnect Logic","2017-2/2","2017-2/2","2017-2/2",True,"2017-2/2",2,51,12
+"INT-4218: MessagingMethodInvokerHelp improvements","2017-2/2","2017-2/2","2017-2/2",False,"null",2,145,62
+"INT-4115: (S)FtpPersistentFileFilter by default","2017-2/6","2017-3/6","2017-2/6",False,"null",3,329,113
+"MMIH: Use original method for InvocableHandMethod","2017-2/7","2017-2/7","2017-2/7",False,"null",2,35,1
+"INT-4225: Add MessageConverters infrastructure","2017-2/11","2017-3/11","2017-2/11",False,"null",2,436,23
+"INT-4227: Allow custom Messaging Annotations","2017-2/13","2017-2/13","2017-2/13",False,"null",2,239,56
+"Introduce MockIntegration Framework","2017-2/13","2017-3/13","2017-2/13",False,"null",3,1160,33
+"[doc] Fix incorrect package name for logging of SFTP","2017-2/14","2017-2/14","2017-2/14",True,"2017-2/14",3,1,1
+"[doc] Fix incorrect package name of PropertiesPersistingMetadataStore","2017-2/14","2017-2/14","2017-2/14",True,"2017-2/14",2,1,1
+"INT-4228: Fix Hidden Channel Bean Defition Error","2017-2/14","2017-2/14","2017-2/14",False,"null",2,105,5
+"INT-3561: WS: add `web-service-template` attr","2017-2/14","2017-2/14","2017-2/14",False,"null",2,95,86
+"INT-4089 Add Source support for WS header mapping","2017-2/15","2017-2/15","2017-2/15",False,"null",2,114,3
+"INT-2655: (un)marshal only via WebServiceTemplate","2017-2/16","2017-2/16","2017-2/16",False,"null",2,75,58
+"INT-1800: Add MTOM Support for WS","2017-2/17","2017-3/17","2017-2/17",False,"null",2,374,112
+"INT-4230: Fix (S)FTP Preserve Timestamp on MGET","2017-2/19","2017-2/19","2017-2/19",True,"2017-2/19",2,106,40
+"INT-4231: Add FileExistsMode.REPLACE_IF_MODIFIED","2017-2/21","2017-2/21","2017-2/21",False,"null",2,217,44
+"INT-4232: (S)FTP inbound: fix lastModified logic","2017-2/22","2017-2/22","2017-2/22",False,"null",2,44,14
+"INT-4226: Fix PollableAmqpChannel.receive(timeout)","2017-2/22","2017-2/22","2017-2/22",False,"null",2,57,195
+"INT-4233: Add (S)FTP FileInfo Header (Streaming)","2017-2/22","2017-2/22","2017-2/22",False,"null",2,349,29
+"INT-4236: Status for SmartLifecycleRoleControlller","2017-2/23","2017-2/23","2017-2/23",False,"null",2,117,2
+"INT-4236: Status for SmartLifecycleRoleControlller [4.3.x]","2017-2/23","2017-2/23","2017-2/23",True,"2017-2/23",2,133,7
+"INT-4233: Prework - Simple JSON Serializer","2017-2/23","2017-2/23","2017-2/23",False,"null",2,171,0
+"INT-4227: (4.3) Allow Custom Messaging Annotations","2017-2/24","2017-2/24","2017-2/24",True,"2017-2/24",2,264,72
+"INT-4224: Improve Direct Handler Binding Docs","2017-2/24","2017-2/24","2017-2/24",True,"2017-2/24",2,30,4
+"INT-4234: Fix LambdaMessageProcessor logic","2017-2/24","2017-3/24","2017-2/24",True,"2017-3/24",2,25,2
+"INT-4229: SpEL customization via Java Config","2017-2/27","2017-3/27","2017-2/27",False,"null",2,152,65
+"INT-4237: FWMH: Acquire Lock Before Flushing","2017-3/1","2017-3/1","2017-3/1",True,"2017-3/1",2,97,13
+"INT-4219: Add @UseSpelInvoker","2017-3/1","2017-3/1","2017-3/1",False,"null",2,427,54
+"INT-4100: Improve `RequestReplyExchanger`","2017-3/2","2017-3/2","2017-3/2",False,"null",2,102,35
+"INT-3746: (S)FTP outbound: support `InputStream`","2017-3/3","2017-3/3","2017-3/3",True,"2017-3/3",2,26,17
+"INT-4238: MQTT Doesn't Detect a Subscription Error","2017-3/5","2017-3/5","2017-3/5",False,"null",4,12,2
+"INT-4101 MessagingException to include failedMessage","2017-3/5","2017-3/5","2017-3/5",False,"null",3,225,27
+"INT-4219: Test Polishing","2017-3/6","2017-3/6","2017-3/6",True,"2017-3/6",2,70,52
+"INT-4086: (S)FTP: Add local file tree support","2017-3/6","2017-4/6","2017-3/6",False,"null",2,289,31
+"INT-4238: Detect Subscription Failures and QOS","2017-3/6","2017-3/6","2017-3/6",False,"null",2,167,58
+"INT-4241: JsonPropertyAccessor cannot return array values","2017-3/6","2017-3/6","2017-3/6",False,"null",3,121,22
+"INT-4192: Improve ExprEvaluatingReleaseStrategy","2017-3/7","2017-3/7","2017-3/7",False,"null",2,37,24
+"INT-4018: Resolve some TODOs","2017-3/7","2017-3/7","2017-3/7",True,"2017-3/7",2,10,14
+"fix a typo","2017-3/8","2017-3/8","2017-3/8",True,"2017-3/8",2,1,1
+"INT-4242: Don't send body for HEAD and TRACE, too","2017-3/8","2017-3/8","2017-3/8",True,"2017-3/8",2,9,8
+"INT-4243: Upgrade to sshd 1.4","2017-3/10","2017-3/10","2017-3/10",False,"null",2,74,31
+"INT-4257: Introduce ErrorMessagePublishingRecoveryCallback","2017-3/10","2017-4/10","2017-3/10",False,"null",3,550,52
+"INT-4244: Optimize JpaOutboundGateway for message","2017-3/16","2017-3/16","2017-3/16",False,"null",2,121,110
+"Add JavaConfig Docs for Delayer","2017-3/17","2017-3/17","2017-3/17",True,"2017-3/17",2,52,6
+"JavaConfig/DSL Docs for Routers (Part 1)","2017-3/17","2017-3/17","2017-3/17",False,"null",2,164,18
+"Refactoring for some DSL methods","2017-3/20","2017-3/20","2017-3/20",True,"2017-3/20",2,454,294
+"Java DSL polishing around `HeaderEnricherSpec`","2017-3/21","2017-3/21","2017-3/21",True,"2017-3/21",2,47,58
+"Support for sub flows in defining content enricher","2017-3/21","2017-3/21","2017-3/21",False,"null",2,108,0
+"INT-4246: Revoke leadership when `LockRegistryLeaderInitiator` is unable to acquire lock","2017-3/22","2017-3/22","2017-3/22",False,"null",3,93,20
+"Gateway Error Channel Doc Polishing","2017-3/23","2017-3/23","2017-3/23",True,"2017-3/23",2,13,4
+"Removing misnamed channel","2017-3/24","2017-3/24","2017-3/24",False,"null",3,2,7
+"Http Java/DSL Configuration Docs","2017-3/29","2017-3/29","2017-3/29",True,"2017-3/29",2,82,18
+"INT-4250: Fix Statistics Mean Decay with Time","2017-3/29","2017-3/29","2017-3/29",True,"2017-3/29",2,53,17
+"JavaConfig/DSL Docs for Routers (Part 2)","2017-3/30","2017-3/30","2017-3/30",True,"2017-3/30",2,99,4
+"Add support for CacheRequestHandlerAdvice","2017-3/31","2019-4/31","2017-3/31",False,"null",2,488,12
+"INT-4249: AMQP: Configurable Header Mapping Order","2017-4/2","2017-4/2","2017-4/2",False,"null",2,260,21
+"Upgrade to Reactor-3.0.6","2017-4/3","2017-4/3","2017-4/3",False,"null",2,66,72
+"Fix DisposableBean omission for Java DSL","2017-4/3","2017-4/3","2017-4/3",True,"2017-4/3",2,27,3
+"INT-4208: Add WebFlux based HttpMessageHandler","2017-4/4","2017-4/4","2017-4/4",False,"null",2,912,788
+"#2110 Refactor MessageGroupMetadata to be compatible with Jackson serialization","2017-4/6","2017-5/6","2017-4/6",False,"null",3,82,12
+"ARFOGateway: Directory LiteralExpression->Value...","2017-4/6","2017-4/6","2017-4/6",True,"2017-4/6",2,74,47
+"INT-4248: Refactor `RedisLockRegistry`","2017-4/6","2017-4/6","2017-4/6",False,"null",4,155,518
+"Upgrade to the SF and SA BUILD-SNAPSHOTs","2017-4/7","2017-4/7","2017-4/7",True,"2017-4/7",2,98,117
+"INT-4254: LockRegLInit: Fix unconditional unlock","2017-4/11","2017-4/11","2017-4/11",True,"2017-4/11",2,54,2
+"INT-4050: Refactoring for JDBC schema scripts","2017-4/12","2017-4/12","2017-4/12",False,"null",3,464,482
+"[Discussion Only] Upgrade to Reactor 3.1","2017-4/14","2017-4/14","2017-4/14",False,"null",1,70,35
+"Reactor 3.1 Polishing","2017-4/16","2017-4/16","2017-4/16",False,"null",1,15,16
+"INT-2625(4.3.x): Refactoring for JdbcMessageStore","2017-4/18","2017-4/18","2017-4/18",True,"2017-4/18",2,39,29
+"INT-4248-4.3.x: Fix LockRegistryLeaderInitiator","2017-4/18","2017-4/18","2017-4/18",True,"2017-4/18",2,197,9
+"INT-4248-4.3: Deprecate RedisLockRegistry methods","2017-4/19","2017-4/19","2017-4/19",True,"2017-4/19",2,12,22
+"INT-4257-2: Document ErrorMessagePublisher","2017-4/19","2017-4/19","2017-4/19",False,"null",2,21,84
+"INT-4260: MessagePublishingErrorHandler Orig. Msg.","2017-4/20","2017-5/20","2017-4/20",False,"null",3,172,91
+"INT-4261: Do not register resource to TX twice","2017-4/20","2017-4/20","2017-4/20",False,"null",2,80,49
+"Harmonize `LockRegistry#obtain` implementations","2017-4/21","2017-4/21","2017-4/21",False,"null",2,12,31
+"INT-4262-4.3: Fix SQL scripts for `IF EXISTS`","2017-4/24","2017-4/24","2017-4/24",True,"2017-4/24",2,29,25
+"INT-4260: MessagePublishingErrorHandler Orig. Msg. [Backport]","2017-4/24","2017-4/24","2017-4/24",False,"null",2,181,31
+"INT-4262: Fix SQL scripts for `IF EXISTS` clause","2017-4/24","2017-4/24","2017-4/24",True,"2017-4/24",2,29,12
+"INT-4257 Polishing - Subclasses: buildErrorMessage","2017-4/24","2017-4/24","2017-4/24",False,"null",2,52,9
+"INT-4257: Polishing","2017-4/24","2017-4/24","2017-4/24",False,"null",2,4,4
+"INT-4263 Added MessagingAnnotationUtils.getValue() operation","2017-4/25","2017-4/25","2017-4/25",False,"null",2,111,2
+"INT-4264: `.publishSubscribeChannel()`: fix order","2017-4/25","2017-4/25","2017-4/25",False,"null",2,115,2
+"Rename ReactiveChannel","2017-4/26","2017-5/26","2017-4/26",False,"null",3,58,54
+"INT-4265: Add Java DSL .routeByError() EIP-method","2017-4/26","2017-5/26","2017-4/26",False,"null",2,152,41
+"INT-4266: Disable multicast for Gemfire tests","2017-5/1","2017-5/1","2017-5/1",True,"2017-5/1",2,90,41
+"INT-4267: Add JSON (De)Serializers for Messaging","2017-5/2","2017-5/2","2017-5/2",False,"null",3,496,18
+"INT-4259: ACorrelationMH: WARN group reschedule","2017-5/2","2017-5/2","2017-5/2",True,"2017-5/2",2,4,4
+"INT-4258: Redis: Make ZADD INCR false by default","2017-5/3","2017-5/3","2017-5/3",False,"null",2,143,80

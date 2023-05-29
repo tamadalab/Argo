@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 3927,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOMFjg-w=="
+                },
+                "nodes": [
+                    {
+                        "title": "Merge pull request #1 from spring-projects/master",
+                        "closedAt": "2021-10-09T13:48:30Z",
+                        "createdAt": "2021-10-09T13:47:59Z",
+                        "publishedAt": "2021-10-09T13:47:59Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Use Arrays.hashCode() in ByteArrayResource.hashCode()",
+                        "closedAt": "2021-10-11T19:05:33Z",
+                        "createdAt": "2021-10-11T07:59:16Z",
+                        "publishedAt": "2021-10-11T07:59:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Include correct keyword in CookieAssertions failure messages",
+                        "closedAt": "2021-10-13T12:00:29Z",
+                        "createdAt": "2021-10-12T20:41:06Z",
+                        "publishedAt": "2021-10-12T20:41:06Z",
+                        "merged": true,
+                        "mergedAt": "2021-10-13T12:00:29Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use Charset variants of URLEncoder and URLDecoder methods",
+                        "closedAt": "2021-11-10T15:12:11Z",
+                        "createdAt": "2021-10-13T12:41:58Z",
+                        "publishedAt": "2021-10-13T12:41:58Z",
+                        "merged": true,
+                        "mergedAt": "2021-11-10T15:12:11Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 27,
+                        "deletions": 46
+                    },
+                    {
+                        "title": "Upgrade to SmallRye Mutiny 1.1.1",
+                        "closedAt": "2021-10-13T13:27:02Z",
+                        "createdAt": "2021-10-13T12:59:24Z",
+                        "publishedAt": "2021-10-13T12:59:24Z",
+                        "merged": true,
+                        "mergedAt": "2021-10-13T13:27:02Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Avoid double toString call when joining collections",
+                        "closedAt": "2021-10-22T16:55:16Z",
+                        "createdAt": "2021-10-13T19:32:14Z",
+                        "publishedAt": "2021-10-13T19:32:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 43,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "Use LocalDataSourceJobStore only if one is not specified via Quartz properties",
+                        "closedAt": "2021-10-23T14:10:40Z",
+                        "createdAt": "2021-10-14T14:32:12Z",
+                        "publishedAt": "2021-10-14T14:32:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 28,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "mark function resolveType as private",
+                        "closedAt": "2021-10-15T07:05:59Z",
+                        "createdAt": "2021-10-15T03:14:59Z",
+                        "publishedAt": "2021-10-15T03:14:59Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "use URLEncoder/URLDecoder new method to simplify the code. Fix #27554",
+                        "closedAt": "2021-10-16T10:26:10Z",
+                        "createdAt": "2021-10-16T09:39:49Z",
+                        "publishedAt": "2021-10-16T09:39:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 43,
+                        "deletions": 93
+                    },
+                    {
+                        "title": "Fix assertion failure messages in DefaultDataBuffer.checkIndex()",
+                        "closedAt": "2021-10-18T15:56:22Z",
+                        "createdAt": "2021-10-17T17:21:25Z",
+                        "publishedAt": "2021-10-17T17:21:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "DefaultResponseErrorHandler update javadoc comment",
+                        "closedAt": "2021-10-18T15:27:54Z",
+                        "createdAt": "2021-10-18T04:59:19Z",
+                        "publishedAt": "2021-10-18T04:59:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Avoid rollback after a commit failure in `TransactionalOperator`",
+                        "closedAt": null,
+                        "createdAt": "2021-10-18T10:32:28Z",
+                        "publishedAt": "2021-10-18T10:32:28Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 175,
+                        "deletions": 96
+                    },
+                    {
+                        "title": "invoke BeanFactoryPostProcessors with explicit order",
+                        "closedAt": "2022-06-08T00:29:38Z",
+                        "createdAt": "2021-10-19T08:11:15Z",
+                        "publishedAt": "2021-10-19T08:11:15Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Improve example in Javadoc for HttpEntity",
+                        "closedAt": "2021-10-21T10:42:49Z",
+                        "createdAt": "2021-10-21T07:22:18Z",
+                        "publishedAt": "2021-10-21T07:22:18Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "111",
+                        "closedAt": "2021-10-22T03:26:39Z",
+                        "createdAt": "2021-10-22T03:23:03Z",
+                        "publishedAt": "2021-10-22T03:23:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 656,
+                        "deletions": 46
+                    },
+                    {
+                        "title": "Fix typo in HeaderAssertions",
+                        "closedAt": "2021-10-22T13:30:00Z",
+                        "createdAt": "2021-10-22T07:48:56Z",
+                        "publishedAt": "2021-10-22T07:48:56Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Iterate over Map.entrySet() instead of Map.keySet() in PropertyEditorRegistrySupport",
+                        "closedAt": "2021-10-22T12:37:11Z",
+                        "createdAt": "2021-10-22T12:05:54Z",
+                        "publishedAt": "2021-10-22T12:05:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Update AbstractAdvisingBeanPostProcessor.java",
+                        "closedAt": "2021-10-24T05:23:11Z",
+                        "createdAt": "2021-10-24T05:07:40Z",
+                        "publishedAt": "2021-10-24T05:07:40Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 43,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update AbstractAdvisingBeanPostProcessor.java",
+                        "closedAt": "2021-10-24T06:45:15Z",
+                        "createdAt": "2021-10-24T05:24:53Z",
+                        "publishedAt": "2021-10-24T05:24:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 45,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update AbstractAdvisingBeanPostProcessor.java",
+                        "closedAt": "2021-10-24T07:04:17Z",
+                        "createdAt": "2021-10-24T06:47:50Z",
+                        "publishedAt": "2021-10-24T06:47:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 45,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update AbstractAdvisingBeanPostProcessor.java",
+                        "closedAt": "2021-10-25T00:52:53Z",
+                        "createdAt": "2021-10-24T07:06:24Z",
+                        "publishedAt": "2021-10-24T07:06:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 45,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add support for custom expression parsing in CachedExpressionEvaluator",
+                        "closedAt": "2021-10-28T12:22:46Z",
+                        "createdAt": "2021-10-24T10:51:26Z",
+                        "publishedAt": "2021-10-24T10:51:26Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 8,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update AbstractAdvisingBeanPostProcessor.java",
+                        "closedAt": null,
+                        "createdAt": "2021-10-25T00:57:02Z",
+                        "publishedAt": "2021-10-25T00:57:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 122,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Support coma delimited list of origin patterns in @CrossOrigin",
+                        "closedAt": "2022-09-27T13:49:30Z",
+                        "createdAt": "2021-10-25T06:13:50Z",
+                        "publishedAt": "2021-10-25T06:13:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 125,
+                        "deletions": 14
+                    },
+                    {
+                        "title": " Simplify default locale/timezone resolution in cookie/session locale resolvers",
+                        "closedAt": "2022-06-03T12:02:02Z",
+                        "createdAt": "2021-10-25T22:53:20Z",
+                        "publishedAt": "2021-10-25T22:53:20Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 167,
+                        "deletions": 73
+                    },
+                    {
+                        "title": "modfiy invokeBeanFactoryPostProcessors method",
+                        "closedAt": "2021-10-27T14:05:34Z",
+                        "createdAt": "2021-10-27T08:58:33Z",
+                        "publishedAt": "2021-10-27T08:58:33Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 4,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Use toUnmodifiableSet and toList instead of collectingAndThen",
+                        "closedAt": "2021-10-28T14:49:44Z",
+                        "createdAt": "2021-10-28T06:33:58Z",
+                        "publishedAt": "2021-10-28T06:33:58Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Improve the efficiency of UrlPathHelper.getSanitizedPath()",
+                        "closedAt": "2021-11-09T10:23:53Z",
+                        "createdAt": "2021-10-29T09:48:06Z",
+                        "publishedAt": "2021-10-29T09:48:06Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "Implement support for Kotlin Serialization of CBOR and Protocol Buffers",
+                        "closedAt": null,
+                        "createdAt": "2021-11-01T10:59:19Z",
+                        "publishedAt": "2021-11-01T10:59:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 7
+                        },
+                        "additions": 2284,
+                        "deletions": 404
+                    },
+                    {
+                        "title": "Ensure SpEL allows only well formed qualified IDs",
+                        "closedAt": "2022-05-22T13:42:29Z",
+                        "createdAt": "2021-11-02T05:09:04Z",
+                        "publishedAt": "2021-11-02T05:09:04Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 41,
+                        "deletions": 17
+                    },
+                    {
+                        "title": "fix ColumnMapRowMapper.java #apply Method Result KeyValue Not corresponding",
+                        "closedAt": null,
+                        "createdAt": "2021-11-05T02:57:50Z",
+                        "publishedAt": "2021-11-05T02:57:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 18,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "add CodeFlow#toPrimitiveTargetDesc Nullable",
+                        "closedAt": "2021-11-08T02:51:55Z",
+                        "createdAt": "2021-11-05T09:59:10Z",
+                        "publishedAt": "2021-11-05T09:59:10Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 4,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Fix incorrect example of error handling in WebClient Javadoc",
+                        "closedAt": "2021-12-02T12:47:02Z",
+                        "createdAt": "2021-11-05T16:14:39Z",
+                        "publishedAt": "2021-11-05T16:14:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use 'toString(Charset)' instead of 'toString(String)' for encodings",
+                        "closedAt": "2021-11-10T14:11:33Z",
+                        "createdAt": "2021-11-06T09:01:11Z",
+                        "publishedAt": "2021-11-06T09:01:11Z",
+                        "merged": true,
+                        "mergedAt": "2021-11-10T14:11:33Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 45,
+                        "deletions": 62
+                    },
+                    {
+                        "title": "RFC: resttemplate builder",
+                        "closedAt": "2022-09-26T08:01:45Z",
+                        "createdAt": "2021-11-08T17:15:50Z",
+                        "publishedAt": "2021-11-08T17:15:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 661,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix grammar in webflux-webclient.adoc",
+                        "closedAt": "2021-11-09T13:24:03Z",
+                        "createdAt": "2021-11-09T12:18:47Z",
+                        "publishedAt": "2021-11-09T12:18:47Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "use Arrays.deepToString for toString in SimpleKey",
+                        "closedAt": "2021-11-11T01:13:44Z",
+                        "createdAt": "2021-11-11T01:12:41Z",
+                        "publishedAt": "2021-11-11T01:12:41Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "use Arrays.deepToString for toString in SimpleKey",
+                        "closedAt": null,
+                        "createdAt": "2021-11-11T01:14:50Z",
+                        "publishedAt": "2021-11-11T01:14:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Change configureAndRefreshWebApplicationContext change to requireNonNullElseGet if use jdk 17",
+                        "closedAt": "2021-11-17T11:06:56Z",
+                        "createdAt": "2021-11-11T02:27:02Z",
+                        "publishedAt": "2021-11-11T02:27:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 4,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "fix atomicity operation",
+                        "closedAt": "2021-11-11T09:44:16Z",
+                        "createdAt": "2021-11-11T09:22:01Z",
+                        "publishedAt": "2021-11-11T09:22:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 49,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "atomicity operation for BeanFactory",
+                        "closedAt": "2021-11-11T12:56:01Z",
+                        "createdAt": "2021-11-11T09:51:55Z",
+                        "publishedAt": "2021-11-11T09:51:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 51,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "fix: the basePackage do not have META-INF/spring.component then switc…",
+                        "closedAt": null,
+                        "createdAt": "2021-11-11T12:54:12Z",
+                        "publishedAt": "2021-11-11T12:54:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 10,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "atomicity operation for BeanFactory",
+                        "closedAt": "2021-11-11T13:30:21Z",
+                        "createdAt": "2021-11-11T12:56:08Z",
+                        "publishedAt": "2021-11-11T12:56:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 51,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "atomicity operation for BeanFactory",
+                        "closedAt": "2021-11-11T15:05:22Z",
+                        "createdAt": "2021-11-11T13:31:07Z",
+                        "publishedAt": "2021-11-11T13:31:07Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 51,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "Update aspectj-plugin to 6.3.0",
+                        "closedAt": "2021-11-25T21:20:14Z",
+                        "createdAt": "2021-11-11T22:51:08Z",
+                        "publishedAt": "2021-11-11T22:51:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "fix :  the same method was cached twice in the \"attributeCache\", changed to once",
+                        "closedAt": null,
+                        "createdAt": "2021-11-12T03:54:57Z",
+                        "publishedAt": "2021-11-12T03:54:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use parseInt without substring method",
+                        "closedAt": "2021-11-25T15:35:58Z",
+                        "createdAt": "2021-11-12T06:06:11Z",
+                        "publishedAt": "2021-11-12T06:06:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 24,
+                        "deletions": 24
+                    },
+                    {
+                        "title": "Fix javax.servlet doc to jakarta.servlet",
+                        "closedAt": "2021-11-17T10:29:54Z",
+                        "createdAt": "2021-11-17T06:41:16Z",
+                        "publishedAt": "2021-11-17T06:41:16Z",
+                        "merged": true,
+                        "mergedAt": "2021-11-17T10:29:54Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 17,
+                        "deletions": 17
+                    },
+                    {
+                        "title": "Apply \"instanceof pattern matching\" in additional locations",
+                        "closedAt": "2022-01-03T15:59:03Z",
+                        "createdAt": "2021-11-18T12:14:12Z",
+                        "publishedAt": "2021-11-18T12:14:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 7,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "Fix typo",
+                        "closedAt": "2021-11-22T09:31:53Z",
+                        "createdAt": "2021-11-19T00:59:11Z",
+                        "publishedAt": "2021-11-19T00:59:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Apply \"instanceof pattern matching\" in spring-beans",
+                        "closedAt": "2021-12-15T12:14:42Z",
+                        "createdAt": "2021-11-19T06:37:58Z",
+                        "publishedAt": "2021-11-19T06:37:58Z",
+                        "merged": true,
+                        "mergedAt": "2021-12-15T12:14:42Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 13,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "Use InputStream's new methods instead of StreamUtils",
+                        "closedAt": "2022-09-12T08:28:04Z",
+                        "createdAt": "2021-11-19T08:33:43Z",
+                        "publishedAt": "2021-11-19T08:33:43Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 8
+                        },
+                        "additions": 14,
+                        "deletions": 31
+                    },
+                    {
+                        "title": "Change StringUtils trimWhitespace to String.strip()",
+                        "closedAt": "2021-12-06T12:40:11Z",
+                        "createdAt": "2021-11-19T09:35:36Z",
+                        "publishedAt": "2021-11-19T09:35:36Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 22
+                    },
+                    {
+                        "title": "Bump up Gradle enterprise plugin to 3.7.2",
+                        "closedAt": "2021-11-19T14:20:17Z",
+                        "createdAt": "2021-11-19T13:37:22Z",
+                        "publishedAt": "2021-11-19T13:37:22Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "rr",
+                        "closedAt": "2021-11-19T17:48:00Z",
+                        "createdAt": "2021-11-19T17:27:16Z",
+                        "publishedAt": "2021-11-19T17:27:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 37,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add support for bytes literal of spring expression",
+                        "closedAt": "2021-11-21T09:59:09Z",
+                        "createdAt": "2021-11-21T07:57:12Z",
+                        "publishedAt": "2021-11-21T07:57:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add support for bytes literal of spring expression",
+                        "closedAt": "2021-11-21T11:15:47Z",
+                        "createdAt": "2021-11-21T11:01:58Z",
+                        "publishedAt": "2021-11-21T11:01:58Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 225,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add support for bytes literal in SpEL expressions",
+                        "closedAt": null,
+                        "createdAt": "2021-11-21T11:17:11Z",
+                        "publishedAt": "2021-11-21T11:17:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 179,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Support SQUARE brackets [] around NAMED parameter",
+                        "closedAt": "2021-12-14T10:24:38Z",
+                        "createdAt": "2021-11-22T07:05:05Z",
+                        "publishedAt": "2021-11-22T07:05:05Z",
+                        "merged": true,
+                        "mergedAt": "2021-12-14T10:24:38Z",
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 15,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Avoid unescape when CONNECT and CONNECTED frames",
+                        "closedAt": "2021-12-14T07:11:11Z",
+                        "createdAt": "2021-11-24T06:55:41Z",
+                        "publishedAt": "2021-11-24T06:55:41Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 23,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Add getter for RequestMappingInfo builder config",
+                        "closedAt": "2021-11-24T13:15:14Z",
+                        "createdAt": "2021-11-24T06:58:05Z",
+                        "publishedAt": "2021-11-24T06:58:05Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 22,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Adjust to match the order of message converters(see #27724)",
+                        "closedAt": "2021-11-24T13:21:02Z",
+                        "createdAt": "2021-11-24T07:18:17Z",
+                        "publishedAt": "2021-11-24T07:18:17Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Clarify that interface-level cache annotations work for target-class proxies as well",
+                        "closedAt": "2021-12-14T12:51:20Z",
+                        "createdAt": "2021-11-24T07:46:42Z",
+                        "publishedAt": "2021-11-24T07:46:42Z",
+                        "merged": true,
+                        "mergedAt": "2021-12-14T12:51:20Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 41,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "DataAccessUtils result accessors with Optional return value",
+                        "closedAt": null,
+                        "createdAt": "2021-11-26T00:46:59Z",
+                        "publishedAt": "2021-11-26T00:46:59Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 8
+                        },
+                        "additions": 150,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Update private methods to be protected in AbstractJackson2Decoder to allow extended classes to access the methods",
+                        "closedAt": "2021-11-30T19:09:29Z",
+                        "createdAt": "2021-11-30T16:48:13Z",
+                        "publishedAt": "2021-11-30T16:48:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 4,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fix transitive dependency on  Java EE 8 JAX-B API in spring-webmvc test compile classpath",
+                        "closedAt": "2021-12-02T13:24:23Z",
+                        "createdAt": "2021-12-01T11:14:37Z",
+                        "publishedAt": "2021-12-01T11:14:37Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update private methods to be protected",
+                        "closedAt": "2021-12-01T14:17:09Z",
+                        "createdAt": "2021-12-01T14:06:35Z",
+                        "publishedAt": "2021-12-01T14:06:35Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 4,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Update private methods to protected in AbstractJacskon2Decoder",
+                        "closedAt": "2021-12-06T11:40:45Z",
+                        "createdAt": "2021-12-01T14:31:29Z",
+                        "publishedAt": "2021-12-01T14:31:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 4,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "selfCoders → Split the RequestBodyAdvice.supports method into Request…",
+                        "closedAt": "2021-12-04T01:14:56Z",
+                        "createdAt": "2021-12-04T01:01:13Z",
+                        "publishedAt": "2021-12-04T01:01:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 58,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "selfCoders → Split the RequestBodyAdvice.supports method into Request…",
+                        "closedAt": "2021-12-04T01:22:40Z",
+                        "createdAt": "2021-12-04T01:16:01Z",
+                        "publishedAt": "2021-12-04T01:16:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 58,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "Update spring-webmvc RequestBodyAdvice.supports method",
+                        "closedAt": "2021-12-06T08:34:23Z",
+                        "createdAt": "2021-12-04T01:43:17Z",
+                        "publishedAt": "2021-12-04T01:43:17Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 57,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "Expose headers from native client request after request is committed",
+                        "closedAt": "2022-01-11T18:49:47Z",
+                        "createdAt": "2021-12-06T09:40:53Z",
+                        "publishedAt": "2021-12-06T09:40:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 42,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "Adding observability of application context startup",
+                        "closedAt": "2022-01-25T09:03:53Z",
+                        "createdAt": "2021-12-07T11:15:56Z",
+                        "publishedAt": "2021-12-07T11:15:56Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 8
+                        },
+                        "additions": 269,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Feature/add methods validate collections",
+                        "closedAt": "2021-12-10T10:19:20Z",
+                        "createdAt": "2021-12-09T22:00:34Z",
+                        "publishedAt": "2021-12-09T22:00:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 36,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Polish",
+                        "closedAt": "2021-12-13T14:03:18Z",
+                        "createdAt": "2021-12-11T03:08:06Z",
+                        "publishedAt": "2021-12-11T03:08:06Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "pull",
+                        "closedAt": "2021-12-11T15:33:37Z",
+                        "createdAt": "2021-12-11T14:35:46Z",
+                        "publishedAt": "2021-12-11T14:35:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": " Polish ExceptionHandlerMethodResolver mapping",
+                        "closedAt": "2021-12-13T15:02:51Z",
+                        "createdAt": "2021-12-11T15:52:14Z",
+                        "publishedAt": "2021-12-11T15:52:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Fix javadoc reference to ThrowsAdvice",
+                        "closedAt": "2021-12-12T15:34:43Z",
+                        "createdAt": "2021-12-12T12:19:49Z",
+                        "publishedAt": "2021-12-12T12:19:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Remove unnecessary @SuppressWarnings",
+                        "closedAt": "2021-12-13T08:37:26Z",
+                        "createdAt": "2021-12-13T08:05:25Z",
+                        "publishedAt": "2021-12-13T08:05:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Allow `@Async` qualifier to be declared with a placeholder or SpEL expression",
+                        "closedAt": "2022-02-19T15:06:02Z",
+                        "createdAt": "2021-12-15T05:34:21Z",
+                        "publishedAt": "2021-12-15T05:34:21Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 72,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "update code",
+                        "closedAt": "2021-12-16T05:16:52Z",
+                        "createdAt": "2021-12-16T05:14:27Z",
+                        "publishedAt": "2021-12-16T05:14:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 12
+                        },
+                        "additions": 7275,
+                        "deletions": 51161
+                    },
+                    {
+                        "title": "Replace use of StringBuffer with StringBuilder",
+                        "closedAt": "2022-01-04T12:15:05Z",
+                        "createdAt": "2021-12-16T06:05:29Z",
+                        "publishedAt": "2021-12-16T06:05:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use try-with-resources for AutoClosables",
+                        "closedAt": "2022-01-04T14:18:01Z",
+                        "createdAt": "2021-12-16T06:28:55Z",
+                        "publishedAt": "2021-12-16T06:28:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 11,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Use Collection factory methods",
+                        "closedAt": "2022-01-04T11:03:57Z",
+                        "createdAt": "2021-12-16T06:51:34Z",
+                        "publishedAt": "2021-12-16T06:51:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 68,
+                        "deletions": 138
+                    },
+                    {
+                        "title": "Add CacheErrorHandler implementation that logs exceptions rather than rethrowing them",
+                        "closedAt": "2022-01-26T13:12:58Z",
+                        "createdAt": "2021-12-16T10:18:35Z",
+                        "publishedAt": "2021-12-16T10:18:35Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 174,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Polish",
+                        "closedAt": "2021-12-21T08:37:23Z",
+                        "createdAt": "2021-12-16T14:17:38Z",
+                        "publishedAt": "2021-12-16T14:17:38Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 4,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Improve tests and Javadoc on binding to a property of type javax.servlet.Part",
+                        "closedAt": "2022-04-28T10:41:01Z",
+                        "createdAt": "2021-12-17T07:50:28Z",
+                        "publishedAt": "2021-12-17T07:50:28Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 112,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Working POST ajax requests sent by HtmlUnit",
+                        "closedAt": "2022-02-18T20:05:18Z",
+                        "createdAt": "2021-12-17T11:44:40Z",
+                        "publishedAt": "2021-12-17T11:44:40Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 7
+                        },
+                        "additions": 9,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Polish HtmlCharacterEntityDecoder",
+                        "closedAt": "2021-12-21T08:36:00Z",
+                        "createdAt": "2021-12-17T14:12:54Z",
+                        "publishedAt": "2021-12-17T14:12:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 4,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Use String.repeat() and pattern matching instanceof",
+                        "closedAt": "2022-01-03T16:12:07Z",
+                        "createdAt": "2021-12-17T18:33:34Z",
+                        "publishedAt": "2021-12-17T18:33:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Polish HttpMethod",
+                        "closedAt": "2021-12-21T08:27:32Z",
+                        "createdAt": "2021-12-18T03:04:20Z",
+                        "publishedAt": "2021-12-18T03:04:20Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 7,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Fix the issue#27683",
+                        "closedAt": "2022-01-05T16:26:30Z",
+                        "createdAt": "2021-12-18T15:20:21Z",
+                        "publishedAt": "2021-12-18T15:20:21Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Use UTF-8 for application/json in MockHttpServletResponse",
+                        "closedAt": "2022-01-12T15:53:48Z",
+                        "createdAt": "2021-12-23T05:55:09Z",
+                        "publishedAt": "2021-12-23T05:55:09Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 21,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add Javadoc @since tag to new PayloadApplicationEvent constructor",
+                        "closedAt": "2021-12-27T11:18:11Z",
+                        "createdAt": "2021-12-23T11:02:24Z",
+                        "publishedAt": "2021-12-23T11:02:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix typo and use of componentry",
+                        "closedAt": "2021-12-29T10:06:32Z",
+                        "createdAt": "2021-12-24T03:16:12Z",
+                        "publishedAt": "2021-12-24T03:16:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 6,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Optimize initialization of HttpMessageConverter's",
+                        "closedAt": "2022-09-27T10:50:06Z",
+                        "createdAt": "2021-12-24T13:40:28Z",
+                        "publishedAt": "2021-12-24T13:40:28Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 8,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "perf: Conditional Judgment Modification",
+                        "closedAt": "2022-01-04T14:54:29Z",
+                        "createdAt": "2021-12-25T06:38:15Z",
+                        "publishedAt": "2021-12-25T06:38:15Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Make task executors implement ExecutorService or ScheduledExecutorService",
+                        "closedAt": null,
+                        "createdAt": "2021-12-27T08:42:34Z",
+                        "publishedAt": "2021-12-27T08:42:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 188,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Remove unnecessary check in isBridgedCandidateFor()",
+                        "closedAt": "2022-01-11T13:21:11Z",
+                        "createdAt": "2021-12-28T07:24:08Z",
+                        "publishedAt": "2021-12-28T07:24:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Remove references to JCacheConfigurerSupport and CachingConfigurerSupport",
+                        "closedAt": "2021-12-29T09:56:57Z",
+                        "createdAt": "2021-12-28T20:15:13Z",
+                        "publishedAt": "2021-12-28T20:15:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 13
+                    }
+                ]
+            }
+        }
+    }
+}

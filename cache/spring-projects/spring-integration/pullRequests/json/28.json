@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 3277,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOElIdmg=="
+                },
+                "nodes": [
+                    {
+                        "title": "INT-4299: Add AbstractMailReceiver.autoCloseFolder",
+                        "closedAt": "2019-04-09T16:17:43Z",
+                        "createdAt": "2019-04-08T21:49:48Z",
+                        "publishedAt": "2019-04-08T21:49:48Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-09T16:17:42Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 179,
+                        "deletions": 43
+                    },
+                    {
+                        "title": "Fix race condition around `sharedJschSession`",
+                        "closedAt": "2019-04-09T13:21:55Z",
+                        "createdAt": "2019-04-08T22:11:30Z",
+                        "publishedAt": "2019-04-08T22:11:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-09T13:21:55Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 6,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "GH-2803: Deprecate legacy metrics",
+                        "closedAt": "2019-04-10T14:48:34Z",
+                        "createdAt": "2019-04-08T22:36:24Z",
+                        "publishedAt": "2019-04-08T22:36:24Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-10T14:48:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 660,
+                        "deletions": 279
+                    },
+                    {
+                        "title": "GH-2890: Avoid unnecessary bridge [PoC Only]",
+                        "closedAt": "2019-04-10T14:17:54Z",
+                        "createdAt": "2019-04-09T20:15:10Z",
+                        "publishedAt": "2019-04-09T20:15:10Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 70,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Resolve new tangles",
+                        "closedAt": "2019-04-10T18:53:21Z",
+                        "createdAt": "2019-04-10T16:34:43Z",
+                        "publishedAt": "2019-04-10T16:34:43Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-10T18:53:21Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 146,
+                        "deletions": 71
+                    },
+                    {
+                        "title": "GH-2792: HEnrichSpec: Add hooks for common headers",
+                        "closedAt": "2019-04-12T16:57:58Z",
+                        "createdAt": "2019-04-11T21:26:57Z",
+                        "publishedAt": "2019-04-11T21:26:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-12T16:57:57Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 443,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Optimize DefaultSftpSessionFactory",
+                        "closedAt": "2019-04-15T15:41:17Z",
+                        "createdAt": "2019-04-15T14:37:09Z",
+                        "publishedAt": "2019-04-15T14:37:09Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-15T15:41:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 57,
+                        "deletions": 65
+                    },
+                    {
+                        "title": "Add support for Kotlin JSR223 scripts",
+                        "closedAt": "2019-04-19T16:29:09Z",
+                        "createdAt": "2019-04-18T22:31:25Z",
+                        "publishedAt": "2019-04-18T22:31:25Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-19T16:29:09Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 272,
+                        "deletions": 135
+                    },
+                    {
+                        "title": "Support non-Object types for WebFlux requests",
+                        "closedAt": "2019-04-22T13:36:33Z",
+                        "createdAt": "2019-04-19T23:01:45Z",
+                        "publishedAt": "2019-04-19T23:01:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 279,
+                        "deletions": 89
+                    },
+                    {
+                        "title": "Add caught exception as suppressed in SftpSession",
+                        "closedAt": "2019-04-29T21:43:27Z",
+                        "createdAt": "2019-04-24T16:12:54Z",
+                        "publishedAt": "2019-04-24T16:12:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 6,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Add initial support for RSockets",
+                        "closedAt": "2019-04-25T18:07:56Z",
+                        "createdAt": "2019-04-25T15:23:36Z",
+                        "publishedAt": "2019-04-25T15:23:36Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T18:07:56Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 846,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "GH-2901: Add missed delegates into JmsInGateway",
+                        "closedAt": "2019-04-25T18:10:17Z",
+                        "createdAt": "2019-04-25T17:09:47Z",
+                        "publishedAt": "2019-04-25T17:09:47Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T18:10:16Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 49,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add missed options into WebFluxMessageHandlerSpec",
+                        "closedAt": "2019-04-25T19:58:07Z",
+                        "createdAt": "2019-04-25T17:53:55Z",
+                        "publishedAt": "2019-04-25T17:53:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T19:58:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 55,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix Sonar complexity issues",
+                        "closedAt": "2019-04-25T19:21:28Z",
+                        "createdAt": "2019-04-25T18:06:21Z",
+                        "publishedAt": "2019-04-25T18:06:21Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T19:21:28Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 108,
+                        "deletions": 170
+                    },
+                    {
+                        "title": "Fix Sonar complexity issues",
+                        "closedAt": "2019-04-25T21:29:39Z",
+                        "createdAt": "2019-04-25T21:01:16Z",
+                        "publishedAt": "2019-04-25T21:01:16Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T21:29:39Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 69,
+                        "deletions": 141
+                    },
+                    {
+                        "title": "Convert Lambdas to Method References",
+                        "closedAt": "2019-04-25T22:56:08Z",
+                        "createdAt": "2019-04-25T22:33:55Z",
+                        "publishedAt": "2019-04-25T22:33:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-25T22:56:08Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 18,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "make sure the attribute  is taken into account in @Header annotation",
+                        "closedAt": "2019-04-29T22:25:01Z",
+                        "createdAt": "2019-04-29T15:31:22Z",
+                        "publishedAt": "2019-04-29T15:31:22Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-29T22:25:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 28,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Sonar complexity issues",
+                        "closedAt": "2019-04-29T19:12:29Z",
+                        "createdAt": "2019-04-29T17:52:37Z",
+                        "publishedAt": "2019-04-29T17:52:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-29T19:12:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 371,
+                        "deletions": 255
+                    },
+                    {
+                        "title": "Sonar fixes",
+                        "closedAt": "2019-04-29T22:20:41Z",
+                        "createdAt": "2019-04-29T21:41:49Z",
+                        "publishedAt": "2019-04-29T21:41:49Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-29T22:20:41Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 134,
+                        "deletions": 114
+                    },
+                    {
+                        "title": "Make `RSocketOutboundGateway` for server side ",
+                        "closedAt": "2019-04-30T16:07:47Z",
+                        "createdAt": "2019-04-30T14:30:47Z",
+                        "publishedAt": "2019-04-30T14:30:47Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 470,
+                        "deletions": 108
+                    },
+                    {
+                        "title": "Sonar fixes",
+                        "closedAt": "2019-04-30T17:57:13Z",
+                        "createdAt": "2019-04-30T16:57:10Z",
+                        "publishedAt": "2019-04-30T16:57:10Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-30T17:57:13Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 269,
+                        "deletions": 224
+                    },
+                    {
+                        "title": "Use MergedAnnotations in MethodAnnPublisher",
+                        "closedAt": "2019-05-01T18:11:20Z",
+                        "createdAt": "2019-04-30T17:38:08Z",
+                        "publishedAt": "2019-04-30T17:38:08Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-01T18:11:20Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 91,
+                        "deletions": 206
+                    },
+                    {
+                        "title": "Synchronize RemoteFileUtils.makeDirectories()",
+                        "closedAt": "2019-04-30T18:09:46Z",
+                        "createdAt": "2019-04-30T18:07:15Z",
+                        "publishedAt": "2019-04-30T18:07:15Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-30T18:09:46Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Sonar fixes",
+                        "closedAt": "2019-04-30T22:47:44Z",
+                        "createdAt": "2019-04-30T20:55:48Z",
+                        "publishedAt": "2019-04-30T20:55:48Z",
+                        "merged": true,
+                        "mergedAt": "2019-04-30T22:47:44Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 98,
+                        "deletions": 87
+                    },
+                    {
+                        "title": "Sonar fixes",
+                        "closedAt": "2019-05-01T18:13:43Z",
+                        "createdAt": "2019-05-01T16:59:30Z",
+                        "publishedAt": "2019-05-01T16:59:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-01T18:13:43Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 128,
+                        "deletions": 102
+                    },
+                    {
+                        "title": "Sonar - protected fields",
+                        "closedAt": "2019-05-01T21:28:44Z",
+                        "createdAt": "2019-05-01T20:32:50Z",
+                        "publishedAt": "2019-05-01T20:32:50Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-01T21:28:44Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 254,
+                        "deletions": 237
+                    },
+                    {
+                        "title": "Sonar: repeated literals",
+                        "closedAt": "2019-05-03T16:39:03Z",
+                        "createdAt": "2019-05-01T21:45:27Z",
+                        "publishedAt": "2019-05-01T21:45:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-03T16:39:03Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 382,
+                        "deletions": 281
+                    },
+                    {
+                        "title": "Get an OS-assigned port in RmiOutboundGatewayTests",
+                        "closedAt": "2019-05-21T18:13:58Z",
+                        "createdAt": "2019-05-01T22:28:35Z",
+                        "publishedAt": "2019-05-01T22:28:35Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-21T18:13:58Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 59,
+                        "deletions": 71
+                    },
+                    {
+                        "title": "Move SF dependencies to the latest BUILD-SNAPSHOT",
+                        "closedAt": "2019-05-03T14:33:07Z",
+                        "createdAt": "2019-05-02T16:57:37Z",
+                        "publishedAt": "2019-05-02T16:57:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-03T14:33:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 62,
+                        "deletions": 80
+                    },
+                    {
+                        "title": "Sonar issues - complexity",
+                        "closedAt": "2019-05-04T00:05:17Z",
+                        "createdAt": "2019-05-03T21:36:42Z",
+                        "publishedAt": "2019-05-03T21:36:42Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-04T00:05:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 999,
+                        "deletions": 806
+                    },
+                    {
+                        "title": "Add `RSocketInboundGateway`; refactoring",
+                        "closedAt": "2019-05-10T21:20:20Z",
+                        "createdAt": "2019-05-08T16:43:55Z",
+                        "publishedAt": "2019-05-08T16:43:55Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-10T21:20:20Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1364,
+                        "deletions": 39
+                    },
+                    {
+                        "title": "Add `AnnotationMetadataAdapter`",
+                        "closedAt": "2019-05-08T17:57:03Z",
+                        "createdAt": "2019-05-08T17:25:30Z",
+                        "publishedAt": "2019-05-08T17:25:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-08T17:57:03Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 121,
+                        "deletions": 24
+                    },
+                    {
+                        "title": "Fix MessagingGatewaySupport implementors",
+                        "closedAt": "2019-05-08T17:58:57Z",
+                        "createdAt": "2019-05-08T17:35:33Z",
+                        "publishedAt": "2019-05-08T17:35:33Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-08T17:58:57Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 17,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "SFTP: Add channelConnectTimeout",
+                        "closedAt": "2019-05-09T16:44:15Z",
+                        "createdAt": "2019-05-09T16:04:00Z",
+                        "publishedAt": "2019-05-09T16:04:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-09T16:44:15Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 41,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Fix package tangle in CacheRequestHandlerAdvice",
+                        "closedAt": "2019-05-10T21:44:25Z",
+                        "createdAt": "2019-05-10T17:22:44Z",
+                        "publishedAt": "2019-05-10T17:22:44Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-10T21:44:25Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 25,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Polishing for RSocket channel adapter",
+                        "closedAt": "2019-05-12T15:25:59Z",
+                        "createdAt": "2019-05-10T21:48:57Z",
+                        "publishedAt": "2019-05-10T21:48:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-12T15:25:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 95,
+                        "deletions": 24
+                    },
+                    {
+                        "title": "Encoding in AbstractHttpRequestExecutingMessageHandler.java is now done when flag is set",
+                        "closedAt": "2019-05-16T17:50:03Z",
+                        "createdAt": "2019-05-14T07:22:32Z",
+                        "publishedAt": "2019-05-14T07:22:32Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-16T17:50:03Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 51,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "GH-2931: AMQP De-Batching as List<?> Payload",
+                        "closedAt": "2019-05-14T20:01:01Z",
+                        "createdAt": "2019-05-14T19:18:01Z",
+                        "publishedAt": "2019-05-14T19:18:01Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-14T20:01:00Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 202,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "RSocket XML Config support",
+                        "closedAt": "2019-05-17T15:45:05Z",
+                        "createdAt": "2019-05-16T19:23:19Z",
+                        "publishedAt": "2019-05-16T19:23:19Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-17T15:45:05Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 537,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "fixed misaligned source code snippet in JMS documentation",
+                        "closedAt": "2019-05-28T17:10:59Z",
+                        "createdAt": "2019-05-24T12:11:14Z",
+                        "publishedAt": "2019-05-24T12:11:14Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-28T17:10:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Fix TcpNioConnection timedOut set when close.",
+                        "closedAt": "2019-05-28T18:34:45Z",
+                        "createdAt": "2019-05-25T12:29:00Z",
+                        "publishedAt": "2019-05-25T12:29:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-28T18:34:45Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Test for GH-2938",
+                        "closedAt": "2019-05-28T20:25:32Z",
+                        "createdAt": "2019-05-28T20:00:06Z",
+                        "publishedAt": "2019-05-28T20:00:06Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-28T20:25:32Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "GH-2880: Handle `Pausable` in Control Bus",
+                        "closedAt": "2019-05-30T18:10:02Z",
+                        "createdAt": "2019-05-28T21:41:37Z",
+                        "publishedAt": "2019-05-28T21:41:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T18:10:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 54,
+                        "deletions": 28
+                    },
+                    {
+                        "title": "Fix Sonar vulnerabilities for varargs",
+                        "closedAt": "2019-05-30T19:41:54Z",
+                        "createdAt": "2019-05-29T17:46:39Z",
+                        "publishedAt": "2019-05-29T17:46:39Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T19:41:54Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 186,
+                        "deletions": 166
+                    },
+                    {
+                        "title": "Add Multi-Page HTML Reference",
+                        "closedAt": "2019-05-29T21:47:35Z",
+                        "createdAt": "2019-05-29T18:23:45Z",
+                        "publishedAt": "2019-05-29T18:23:45Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-29T21:47:35Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1112,
+                        "deletions": 1022
+                    },
+                    {
+                        "title": "Enable nohttp Gradle plugin",
+                        "closedAt": "2019-05-30T13:32:27Z",
+                        "createdAt": "2019-05-29T18:59:30Z",
+                        "publishedAt": "2019-05-29T18:59:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T13:32:27Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 73,
+                        "deletions": 58
+                    },
+                    {
+                        "title": "GH-2936: Add custom converters for MongoDbMS",
+                        "closedAt": "2019-05-30T14:36:38Z",
+                        "createdAt": "2019-05-29T21:46:35Z",
+                        "publishedAt": "2019-05-29T21:46:35Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T14:36:38Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 104,
+                        "deletions": 17
+                    },
+                    {
+                        "title": "Build: check external asciidoc links",
+                        "closedAt": "2019-05-30T19:09:46Z",
+                        "createdAt": "2019-05-30T16:24:30Z",
+                        "publishedAt": "2019-05-30T16:24:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T19:09:46Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 40,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Make spring-ws-core optional for SI-xml",
+                        "closedAt": "2019-05-30T18:08:16Z",
+                        "createdAt": "2019-05-30T17:06:27Z",
+                        "publishedAt": "2019-05-30T17:06:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T18:08:16Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 26,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Build: asciidoc link check improvement",
+                        "closedAt": "2019-05-30T22:14:40Z",
+                        "createdAt": "2019-05-30T20:36:51Z",
+                        "publishedAt": "2019-05-30T20:36:51Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-30T22:14:40Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 9,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fix Sonar smells for XML module",
+                        "closedAt": "2019-05-31T14:44:38Z",
+                        "createdAt": "2019-05-31T13:20:02Z",
+                        "publishedAt": "2019-05-31T13:20:02Z",
+                        "merged": true,
+                        "mergedAt": "2019-05-31T14:44:37Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 17
+                    },
+                    {
+                        "title": "Add RSocket Java DSL",
+                        "closedAt": "2019-06-04T17:50:33Z",
+                        "createdAt": "2019-06-04T17:06:30Z",
+                        "publishedAt": "2019-06-04T17:06:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-04T17:50:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 527,
+                        "deletions": 15
+                    },
+                    {
+                        "title": "Reinstate DSL File Transformer Factory",
+                        "closedAt": "2019-06-04T18:39:27Z",
+                        "createdAt": "2019-06-04T17:55:11Z",
+                        "publishedAt": "2019-06-04T17:55:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 47,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "TCP: Connect Timeout; Close Stream",
+                        "closedAt": "2019-06-05T18:38:14Z",
+                        "createdAt": "2019-06-05T17:03:48Z",
+                        "publishedAt": "2019-06-05T17:03:48Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-05T18:38:14Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 417,
+                        "deletions": 51
+                    },
+                    {
+                        "title": "Reverse check/checkAsciidocLinks order",
+                        "closedAt": "2019-06-05T19:16:52Z",
+                        "createdAt": "2019-06-05T19:00:11Z",
+                        "publishedAt": "2019-06-05T19:00:11Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-05T19:16:52Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "INT-3073: Add FluxAggregatorMessageHandler",
+                        "closedAt": "2019-06-13T15:13:49Z",
+                        "createdAt": "2019-06-06T21:07:08Z",
+                        "publishedAt": "2019-06-06T21:07:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 603,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Polishing for nohttp plugin",
+                        "closedAt": "2019-06-10T17:59:31Z",
+                        "createdAt": "2019-06-10T17:35:57Z",
+                        "publishedAt": "2019-06-10T17:35:57Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-10T17:59:31Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 19,
+                        "deletions": 21
+                    },
+                    {
+                        "title": "AMQP: Add bindSourceMessage property (inbound)",
+                        "closedAt": "2019-06-10T22:09:49Z",
+                        "createdAt": "2019-06-10T21:40:49Z",
+                        "publishedAt": "2019-06-10T21:40:49Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-10T22:09:49Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 73,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Added getMetricsCaptor method to AbstractMessageHandler",
+                        "closedAt": "2019-06-11T14:27:55Z",
+                        "createdAt": "2019-06-11T09:51:37Z",
+                        "publishedAt": "2019-06-11T09:51:37Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-11T14:27:55Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 7,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "GH-2958: Also Add to Common Header in AMHEMS",
+                        "closedAt": "2019-06-11T14:14:46Z",
+                        "createdAt": "2019-06-11T13:10:33Z",
+                        "publishedAt": "2019-06-11T13:10:33Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-11T14:14:45Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 6,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "[2962] Mismatch between mechanism to check if nullChannel bean exists and mechanism to fetch that bean",
+                        "closedAt": "2019-06-13T15:59:45Z",
+                        "createdAt": "2019-06-11T22:20:04Z",
+                        "publishedAt": "2019-06-11T22:20:04Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-13T15:59:44Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 47,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Fix SplitterMH for primitive arrays cast",
+                        "closedAt": "2019-06-13T15:15:07Z",
+                        "createdAt": "2019-06-12T21:49:05Z",
+                        "publishedAt": "2019-06-12T21:49:05Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-13T15:15:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 9,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Fix new tangle introduced by Control Bus changes",
+                        "closedAt": "2019-06-14T15:17:35Z",
+                        "createdAt": "2019-06-14T15:00:25Z",
+                        "publishedAt": "2019-06-14T15:00:25Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-14T15:17:35Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 8,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Add Docs for Flux Aggregator",
+                        "closedAt": "2019-06-14T15:33:54Z",
+                        "createdAt": "2019-06-14T15:15:55Z",
+                        "publishedAt": "2019-06-14T15:15:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 77,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "GH-2967: Fix ScatterGatherH for headers copy",
+                        "closedAt": "2019-06-19T20:14:13Z",
+                        "createdAt": "2019-06-19T18:34:05Z",
+                        "publishedAt": "2019-06-19T18:34:05Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-19T20:14:12Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 79,
+                        "deletions": 56
+                    },
+                    {
+                        "title": "[WIP] JmsMessageDrivenChannelAdapterDefaultListenerContainerSpec",
+                        "closedAt": "2019-06-23T14:12:00Z",
+                        "createdAt": "2019-06-19T18:47:04Z",
+                        "publishedAt": "2019-06-19T18:47:04Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 21,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix HttpHeaderMapper to support MimeType",
+                        "closedAt": "2019-06-21T20:45:33Z",
+                        "createdAt": "2019-06-21T16:46:00Z",
+                        "publishedAt": "2019-06-21T16:46:00Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-21T20:45:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 22,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Fix `SmartLifecycle.stop(Runnable)` usage",
+                        "closedAt": "2019-06-21T20:50:39Z",
+                        "createdAt": "2019-06-21T19:24:01Z",
+                        "publishedAt": "2019-06-21T19:24:01Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-21T20:50:39Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 78,
+                        "deletions": 151
+                    },
+                    {
+                        "title": "GH-2974: Fix race in TcpNetConnection.getPayload()",
+                        "closedAt": "2019-06-26T15:15:35Z",
+                        "createdAt": "2019-06-25T15:01:13Z",
+                        "publishedAt": "2019-06-25T15:01:13Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-26T15:15:35Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 69,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "GH-2974: Fix race in TcpNetConnection.getPayload() [51x]",
+                        "closedAt": "2019-06-26T15:17:44Z",
+                        "createdAt": "2019-06-25T15:02:21Z",
+                        "publishedAt": "2019-06-25T15:02:21Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-26T15:17:44Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 65,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Add validation support into WebFlux Inbound",
+                        "closedAt": "2019-06-26T15:11:33Z",
+                        "createdAt": "2019-06-26T14:17:23Z",
+                        "publishedAt": "2019-06-26T14:17:23Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-26T15:11:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 231,
+                        "deletions": 46
+                    },
+                    {
+                        "title": "Add Validation to HTTP Inbound",
+                        "closedAt": "2019-06-27T13:47:46Z",
+                        "createdAt": "2019-06-26T20:03:50Z",
+                        "publishedAt": "2019-06-26T20:03:50Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-27T13:47:46Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 293,
+                        "deletions": 130
+                    },
+                    {
+                        "title": "Fix Redis components for JDK deserialization",
+                        "closedAt": "2019-06-28T20:16:06Z",
+                        "createdAt": "2019-06-28T19:52:24Z",
+                        "publishedAt": "2019-06-28T19:52:24Z",
+                        "merged": true,
+                        "mergedAt": "2019-06-28T20:16:06Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 91,
+                        "deletions": 62
+                    },
+                    {
+                        "title": "Fix race condition around Redis key",
+                        "closedAt": "2019-07-01T18:36:28Z",
+                        "createdAt": "2019-07-01T18:13:21Z",
+                        "publishedAt": "2019-07-01T18:13:21Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-01T18:36:28Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 46,
+                        "deletions": 27
+                    },
+                    {
+                        "title": "INT-2480: Add aggregate headers strategy",
+                        "closedAt": "2019-07-03T20:33:31Z",
+                        "createdAt": "2019-07-02T21:12:13Z",
+                        "publishedAt": "2019-07-02T21:12:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 535,
+                        "deletions": 219
+                    },
+                    {
+                        "title": "Add simple Avro transformers",
+                        "closedAt": "2019-07-09T18:59:02Z",
+                        "createdAt": "2019-07-08T21:47:38Z",
+                        "publishedAt": "2019-07-08T21:47:38Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-09T18:59:02Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1097,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "GH-2748: Add bean definition info into exceptions",
+                        "closedAt": "2019-07-17T19:11:11Z",
+                        "createdAt": "2019-07-12T17:59:23Z",
+                        "publishedAt": "2019-07-12T17:59:23Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-17T19:11:11Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 319,
+                        "deletions": 191
+                    },
+                    {
+                        "title": "GH-2988: Use `@Config(proxyBeanMethods=false)`",
+                        "closedAt": "2019-07-22T17:59:24Z",
+                        "createdAt": "2019-07-18T15:11:08Z",
+                        "publishedAt": "2019-07-18T15:11:08Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-22T17:59:23Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "GH-2987: Add HTTPS entries into spring.schemas",
+                        "closedAt": "2019-07-18T18:05:20Z",
+                        "createdAt": "2019-07-18T16:58:34Z",
+                        "publishedAt": "2019-07-18T16:58:34Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-18T18:05:19Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 71,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add type mapping to SimpleToAvroTransformer",
+                        "closedAt": "2019-07-18T20:40:07Z",
+                        "createdAt": "2019-07-18T20:03:09Z",
+                        "publishedAt": "2019-07-18T20:03:09Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-18T20:40:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 167,
+                        "deletions": 18
+                    },
+                    {
+                        "title": "GH-2993: Catch and log unsupported XML attributes",
+                        "closedAt": "2019-07-22T13:41:05Z",
+                        "createdAt": "2019-07-19T21:49:30Z",
+                        "publishedAt": "2019-07-19T21:49:30Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-22T13:41:05Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 101,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Upgrade dependencies, including Gradle",
+                        "closedAt": "2019-07-22T19:12:29Z",
+                        "createdAt": "2019-07-22T18:24:03Z",
+                        "publishedAt": "2019-07-22T18:24:03Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-22T19:12:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 50,
+                        "deletions": 43
+                    },
+                    {
+                        "title": "Clear lock cache in NioFileLocker",
+                        "closedAt": "2019-07-22T19:10:19Z",
+                        "createdAt": "2019-07-22T18:46:48Z",
+                        "publishedAt": "2019-07-22T18:46:48Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-22T19:10:19Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 15,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Fix TimeoutCountSequenceSizeReleaseStrategy (#2999)",
+                        "closedAt": "2019-07-23T16:33:12Z",
+                        "createdAt": "2019-07-23T15:47:53Z",
+                        "publishedAt": "2019-07-23T15:47:53Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-23T16:33:12Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 17,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "GH-2748: More bean definitions into exceptions",
+                        "closedAt": "2019-07-23T19:19:58Z",
+                        "createdAt": "2019-07-23T18:01:22Z",
+                        "publishedAt": "2019-07-23T18:01:22Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-23T19:19:57Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 352,
+                        "deletions": 370
+                    },
+                    {
+                        "title": "GH-3003: Fix pub/sub with dynamic DSL flows",
+                        "closedAt": "2019-07-27T12:49:18Z",
+                        "createdAt": "2019-07-24T16:05:35Z",
+                        "publishedAt": "2019-07-24T16:05:35Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-27T12:49:17Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 26,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "GH-3004: Fix MMIH argument resolution",
+                        "closedAt": "2019-07-27T12:51:29Z",
+                        "createdAt": "2019-07-24T17:52:50Z",
+                        "publishedAt": "2019-07-24T17:52:50Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-27T12:51:28Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 99,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add Apache MINA SftpEventListener",
+                        "closedAt": "2019-07-30T14:31:24Z",
+                        "createdAt": "2019-07-26T20:27:43Z",
+                        "publishedAt": "2019-07-26T20:27:43Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-30T14:31:24Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1481,
+                        "deletions": 19
+                    },
+                    {
+                        "title": "INT-1926: Option to disallow arbitrary routing",
+                        "closedAt": "2019-07-30T13:44:37Z",
+                        "createdAt": "2019-07-29T18:16:59Z",
+                        "publishedAt": "2019-07-29T18:16:59Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-30T13:44:37Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 125,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "Fix nullability issue in queuechannel",
+                        "closedAt": "2019-07-29T20:27:17Z",
+                        "createdAt": "2019-07-29T18:25:24Z",
+                        "publishedAt": "2019-07-29T18:25:24Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-29T20:27:17Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fix JavaDoc code snippet on `PayloadMatcher`",
+                        "closedAt": "2019-07-30T16:47:13Z",
+                        "createdAt": "2019-07-30T15:31:27Z",
+                        "publishedAt": "2019-07-30T15:31:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-07-30T16:47:13Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Usage clarification of the group-timeout property.",
+                        "closedAt": "2019-08-20T14:07:19Z",
+                        "createdAt": "2019-08-07T13:15:40Z",
+                        "publishedAt": "2019-08-07T13:15:40Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-20T14:07:19Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 5,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "GH-3018: Fix Http NPE when no application context",
+                        "closedAt": "2019-08-08T20:20:35Z",
+                        "createdAt": "2019-08-08T13:37:27Z",
+                        "publishedAt": "2019-08-08T13:37:27Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-08T20:20:35Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "GH-3020: QueueChannel doc polishing",
+                        "closedAt": "2019-08-08T20:19:58Z",
+                        "createdAt": "2019-08-08T13:45:05Z",
+                        "publishedAt": "2019-08-08T13:45:05Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-08T20:19:58Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "AMQP OB Adapter - option to wait for confirms",
+                        "closedAt": "2019-08-15T21:19:00Z",
+                        "createdAt": "2019-08-08T17:41:29Z",
+                        "publishedAt": "2019-08-08T17:41:29Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-15T21:18:59Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 241,
+                        "deletions": 14
+                    },
+                    {
+                        "title": "JUnit 5 Log Level Adjuster",
+                        "closedAt": "2019-08-16T14:36:23Z",
+                        "createdAt": "2019-08-12T19:05:32Z",
+                        "publishedAt": "2019-08-12T19:05:32Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-16T14:36:23Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 290,
+                        "deletions": 70
+                    },
+                    {
+                        "title": "Implement RotatingServerAdvice enhancements",
+                        "closedAt": "2019-08-14T18:06:45Z",
+                        "createdAt": "2019-08-13T15:47:59Z",
+                        "publishedAt": "2019-08-13T15:47:59Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 246,
+                        "deletions": 151
+                    },
+                    {
+                        "title": "Implement enhancements to RotatingServerAdvice",
+                        "closedAt": "2019-08-14T17:47:04Z",
+                        "createdAt": "2019-08-13T15:49:04Z",
+                        "publishedAt": "2019-08-13T15:49:04Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 246,
+                        "deletions": 151
+                    },
+                    {
+                        "title": "GH-3026 Support chmod with FTP",
+                        "closedAt": "2019-08-15T21:38:25Z",
+                        "createdAt": "2019-08-13T22:10:42Z",
+                        "publishedAt": "2019-08-13T22:10:42Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-15T21:38:25Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 99,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Upgrade Jackson version and use BOM for deps",
+                        "closedAt": "2019-08-15T19:28:24Z",
+                        "createdAt": "2019-08-14T15:02:50Z",
+                        "publishedAt": "2019-08-14T15:02:50Z",
+                        "merged": true,
+                        "mergedAt": "2019-08-15T19:28:24Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 93,
+                        "deletions": 66
+                    }
+                ]
+            }
+        }
+    }
+}

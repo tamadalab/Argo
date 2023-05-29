@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "@Scheduled's int attributes do not allow for placeholder values [SPR-8067]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12722",
+                        "createdAt": "2011-03-20T08:15:17Z",
+                        "closedAt": "2013-02-07T15:58:38Z"
+                    },
+                    {
+                        "title": "Provide programmatic access to inner beans [SPR-8068]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12723",
+                        "createdAt": "2011-03-20T21:54:28Z",
+                        "closedAt": "2019-01-12T00:28:59Z"
+                    },
+                    {
+                        "title": "@Configuration classes are not enhanced with @ComponentScan [SPR-8069]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12724",
+                        "createdAt": "2011-03-21T08:17:33Z",
+                        "closedAt": "2011-05-08T01:22:21Z"
+                    },
+                    {
+                        "title": "Race condition in AspectJ pointuct resolution when 'prototype' beans of same type are initialized concurrently [SPR-8070]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12725",
+                        "createdAt": "2011-03-21T08:52:46Z",
+                        "closedAt": "2015-09-22T17:34:39Z"
+                    },
+                    {
+                        "title": "BeanUtils.getPropertyDescriptors(...) suffers from bug in java.beans.Introspector [SPR-8071]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12726",
+                        "createdAt": "2011-03-22T01:47:25Z",
+                        "closedAt": "2015-09-22T18:20:31Z"
+                    },
+                    {
+                        "title": "NPE in OracleLobHandler with releaseResourcesAfterRead enabled [SPR-8072]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12727",
+                        "createdAt": "2011-03-22T03:06:13Z",
+                        "closedAt": "2015-09-22T16:55:22Z"
+                    },
+                    {
+                        "title": "SybaseMaxValueIncrementer causes db deadlock in multiple processes [SPR-8073]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12728",
+                        "createdAt": "2011-03-22T03:31:07Z",
+                        "closedAt": "2015-09-22T16:55:22Z"
+                    },
+                    {
+                        "title": "There are no getters on the methods added by ServletWrappingController [SPR-8074]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12729",
+                        "createdAt": "2011-03-22T06:31:12Z",
+                        "closedAt": "2018-12-28T10:08:26Z"
+                    },
+                    {
+                        "title": "Provide simple bean definition refreshability [SPR-8075]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12730",
+                        "createdAt": "2011-03-22T07:13:10Z",
+                        "closedAt": "2015-09-22T19:28:16Z"
+                    },
+                    {
+                        "title": "Introduce HibernateExceptionTranslator [SPR-8076]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12731",
+                        "createdAt": "2011-03-22T07:19:45Z",
+                        "closedAt": "2012-06-19T03:39:42Z"
+                    },
+                    {
+                        "title": "Provide Java main() for launching Spring applications [SPR-8077]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12732",
+                        "createdAt": "2011-03-22T07:28:12Z",
+                        "closedAt": "2015-09-22T19:26:35Z"
+                    },
+                    {
+                        "title": "Build fails against IcedTea6 on Ubuntu [SPR-8078]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12733",
+                        "createdAt": "2011-03-22T23:09:49Z",
+                        "closedAt": "2012-06-19T03:39:24Z"
+                    },
+                    {
+                        "title": "Support injection against setter methods with non-void return types [SPR-8079]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12734",
+                        "createdAt": "2011-03-22T23:50:32Z",
+                        "closedAt": "2012-11-25T04:33:49Z"
+                    },
+                    {
+                        "title": "javaconf + @Autowired + @PostConstruct + deep context import bug [SPR-8080]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12735",
+                        "createdAt": "2011-03-23T13:39:14Z",
+                        "closedAt": "2014-09-02T11:23:54Z"
+                    },
+                    {
+                        "title": "CacheManager abstraction not working well with caches defined as beans [SPR-8081]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12736",
+                        "createdAt": "2011-03-23T15:34:11Z",
+                        "closedAt": "2015-03-05T02:35:59Z"
+                    },
+                    {
+                        "title": "Multiple @CacheEvict meta-annotated annotations not recognized [SPR-8082]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12737",
+                        "createdAt": "2011-03-23T16:21:28Z",
+                        "closedAt": "2012-06-19T03:39:10Z"
+                    },
+                    {
+                        "title": "HttpInvokerServiceExporter in combination with autowire autodetect [SPR-8083]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12738",
+                        "createdAt": "2011-03-24T05:20:33Z",
+                        "closedAt": "2011-04-03T22:01:30Z"
+                    },
+                    {
+                        "title": "Add ConverterBackedWebArgumentResolver [SPR-8084]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12739",
+                        "createdAt": "2011-03-24T12:54:58Z",
+                        "closedAt": "2012-05-18T15:41:59Z"
+                    },
+                    {
+                        "title": "Add [logger.isDebugEnabled] checks to [org.springframework.web.servlet.FrameworkServlet] [SPR-8085]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12740",
+                        "createdAt": "2011-03-24T22:27:13Z",
+                        "closedAt": "2012-06-19T03:39:40Z"
+                    },
+                    {
+                        "title": "Spring ORM 3_0_5 does not set the JPA timeout in milliseconds [SPR-8086]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12741",
+                        "createdAt": "2011-03-25T07:52:11Z",
+                        "closedAt": "2012-06-19T03:39:52Z"
+                    },
+                    {
+                        "title": "REQUIRES_NEW creates 2 extra transactions [SPR-8087]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12742",
+                        "createdAt": "2011-03-25T09:08:44Z",
+                        "closedAt": "2018-12-26T10:23:32Z"
+                    },
+                    {
+                        "title": "TypeMismatchException thrown by business code cause 400 (Bad Request) [SPR-8088]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12743",
+                        "createdAt": "2011-03-27T08:06:25Z",
+                        "closedAt": "2018-12-26T10:20:41Z"
+                    },
+                    {
+                        "title": "Clean up ignored JMX tests [SPR-8089]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12744",
+                        "createdAt": "2011-03-28T07:52:21Z",
+                        "closedAt": "2013-02-26T07:54:37Z"
+                    },
+                    {
+                        "title": "Fix broken tests in Log4jWebConfigurerTests [SPR-8090]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12745",
+                        "createdAt": "2011-03-28T08:27:48Z",
+                        "closedAt": "2012-06-19T03:39:22Z"
+                    },
+                    {
+                        "title": "NotificationListenerBean constructor accepts null NotificationListener [SPR-8091]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12746",
+                        "createdAt": "2011-03-28T11:07:25Z",
+                        "closedAt": "2012-06-19T03:39:27Z"
+                    },
+                    {
+                        "title": "Clean up ignored ORM tests [SPR-8092]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12747",
+                        "createdAt": "2011-03-28T11:15:56Z",
+                        "closedAt": "2012-06-19T03:39:53Z"
+                    },
+                    {
+                        "title": "Install jmxremote_optional.jar in JVM used for Spring CI builds [SPR-8093]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12748",
+                        "createdAt": "2011-03-28T11:53:54Z",
+                        "closedAt": "2012-06-19T03:39:18Z"
+                    },
+                    {
+                        "title": "Mapped interceptors are lost from AbstractUrlHandlerMapping [SPR-8094]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12749",
+                        "createdAt": "2011-03-29T04:51:22Z",
+                        "closedAt": "2012-06-19T03:39:03Z"
+                    },
+                    {
+                        "title": "Improve performance of bean lookup by type for DefaultListableBeanFactory [SPR-8095]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12750",
+                        "createdAt": "2011-03-29T06:51:31Z",
+                        "closedAt": "2012-05-27T09:06:25Z"
+                    },
+                    {
+                        "title": "Support Hibernate 4.0.x [SPR-8096]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12751",
+                        "createdAt": "2011-03-29T07:00:25Z",
+                        "closedAt": "2012-06-19T03:39:19Z"
+                    },
+                    {
+                        "title": "Polymorphism for BeanWrapperImpl [SPR-8097]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12752",
+                        "createdAt": "2011-03-29T07:29:48Z",
+                        "closedAt": "2019-01-12T00:28:56Z"
+                    },
+                    {
+                        "title": "Remove support for Hibernate 3.2.x [SPR-8098]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12753",
+                        "createdAt": "2011-03-29T07:43:52Z",
+                        "closedAt": "2011-03-30T07:08:48Z"
+                    },
+                    {
+                        "title": "LocaleEditor does not work with some locale strings [SPR-8099]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12754",
+                        "createdAt": "2011-03-29T08:42:52Z",
+                        "closedAt": "2018-07-17T16:10:44Z"
+                    },
+                    {
+                        "title": "Support Hibernate 3.6.x [SPR-8100]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12755",
+                        "createdAt": "2011-03-30T00:18:41Z",
+                        "closedAt": "2012-06-19T03:39:05Z"
+                    },
+                    {
+                        "title": "Support JSF 2.1 (JSR-314) [SPR-8102]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12756",
+                        "createdAt": "2011-03-30T04:16:52Z",
+                        "closedAt": "2014-08-21T07:26:16Z"
+                    },
+                    {
+                        "title": "Original exception shadowed [SPR-8103]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12757",
+                        "createdAt": "2011-03-30T07:20:28Z",
+                        "closedAt": "2011-04-08T20:23:04Z"
+                    },
+                    {
+                        "title": "Specific support for JSF 2.2 / 2.3 [SPR-8104]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12758",
+                        "createdAt": "2011-03-30T07:36:05Z",
+                        "closedAt": "2019-01-12T00:28:54Z"
+                    },
+                    {
+                        "title": "Support DI 1.1 (JSR-TBD) [SPR-8105]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12759",
+                        "createdAt": "2011-03-30T07:55:02Z",
+                        "closedAt": "2013-01-24T01:47:45Z"
+                    },
+                    {
+                        "title": "Test STS support for Spring 3.1 features [SPR-8106]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12760",
+                        "createdAt": "2011-03-30T20:15:12Z",
+                        "closedAt": "2018-12-09T22:37:56Z"
+                    },
+                    {
+                        "title": "MapPropertySource constructor should have public visibility [SPR-8107]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12761",
+                        "createdAt": "2011-03-30T21:35:28Z",
+                        "closedAt": "2012-06-19T03:39:23Z"
+                    },
+                    {
+                        "title": "Replace all <pre> with <pre class=\"code\"> in JavaDoc [SPR-8108]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12762",
+                        "createdAt": "2011-03-31T00:59:59Z",
+                        "closedAt": "2013-05-07T12:29:58Z"
+                    },
+                    {
+                        "title": "Test Spring 3.1 compatibility with Hibernate 3.2.x [SPR-8109]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12763",
+                        "createdAt": "2011-03-31T01:00:34Z",
+                        "closedAt": "2011-10-11T09:04:45Z"
+                    },
+                    {
+                        "title": "Test Spring 3.1 compatibility with Hibernate 3.5.x [SPR-8110]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12764",
+                        "createdAt": "2011-03-31T01:00:34Z",
+                        "closedAt": "2011-10-11T09:05:25Z"
+                    },
+                    {
+                        "title": "Test Spring 3.1 compatibility with Hibernate 3.6.x [SPR-8111]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12765",
+                        "createdAt": "2011-03-31T01:00:41Z",
+                        "closedAt": "2011-10-11T09:05:23Z"
+                    },
+                    {
+                        "title": "Test *SessionFactoryBean compatibility with earlier versions of Spring [SPR-8112]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12766",
+                        "createdAt": "2011-03-31T05:44:45Z",
+                        "closedAt": "2011-10-11T08:59:48Z"
+                    },
+                    {
+                        "title": "Analyze Spring Framework 3.1 backward compatibility with CLIRR [SPR-8113]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12767",
+                        "createdAt": "2011-03-31T05:49:48Z",
+                        "closedAt": "2012-11-05T03:04:05Z"
+                    },
+                    {
+                        "title": "Support automatic detection of close methods [SPR-8114]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12768",
+                        "createdAt": "2011-03-31T06:10:46Z",
+                        "closedAt": "2012-06-19T03:39:19Z"
+                    },
+                    {
+                        "title": "Sharing parent context between web apps broken when sharing the Spring libraries between applications [SPR-8115]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12769",
+                        "createdAt": "2011-03-31T06:28:45Z",
+                        "closedAt": "2018-12-28T11:55:15Z"
+                    },
+                    {
+                        "title": "Migrate Spring build system to Gradle [SPR-8116]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12770",
+                        "createdAt": "2011-03-31T06:46:11Z",
+                        "closedAt": "2012-12-05T01:41:58Z"
+                    },
+                    {
+                        "title": "Migrate Spring source control to Git(Hub) [SPR-8117]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12771",
+                        "createdAt": "2011-03-31T06:58:21Z",
+                        "closedAt": "2012-06-19T03:39:46Z"
+                    },
+                    {
+                        "title": "Migrate Bamboo build plans to work against new Git repository [SPR-8118]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12772",
+                        "createdAt": "2011-03-31T06:59:54Z",
+                        "closedAt": "2011-12-21T05:25:34Z"
+                    },
+                    {
+                        "title": "Improve build system and source control infrastructure [SPR-8120]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12773",
+                        "createdAt": "2011-03-31T07:29:22Z",
+                        "closedAt": "2012-06-19T03:39:25Z"
+                    },
+                    {
+                        "title": "Revisit subsystem-oriented logging [SPR-8122]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12774",
+                        "createdAt": "2011-03-31T07:35:50Z",
+                        "closedAt": "2020-03-31T16:41:40Z"
+                    },
+                    {
+                        "title": "SimpleClientHttpResponse disconnects the underlying HttpURLConnection when closing [SPR-8123]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12775",
+                        "createdAt": "2011-03-31T08:58:03Z",
+                        "closedAt": "2018-08-14T15:53:47Z"
+                    },
+                    {
+                        "title": "@ExceptionHandler doesn't handle exceptions from other controllers [SPR-8124]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12776",
+                        "createdAt": "2011-03-31T12:30:42Z",
+                        "closedAt": "2012-06-19T02:28:20Z"
+                    },
+                    {
+                        "title": "Correct SQL error codes for Sybase in sql-error-codes.xml [SPR-8125]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12777",
+                        "createdAt": "2011-03-31T14:36:31Z",
+                        "closedAt": "2012-06-19T03:39:07Z"
+                    },
+                    {
+                        "title": "Allow @Feature methods to be declared within @Configuration classes [SPR-8126]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12778",
+                        "createdAt": "2011-03-31T20:09:44Z",
+                        "closedAt": "2012-06-19T02:28:27Z"
+                    },
+                    {
+                        "title": "Introduce EntityManagerFactoryBuilder types [SPR-8128]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12779",
+                        "createdAt": "2011-03-31T22:34:08Z",
+                        "closedAt": "2011-12-06T05:45:25Z"
+                    },
+                    {
+                        "title": "Document @Bean alternatives to JndiObjectFactoryBean [SPR-8129]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12780",
+                        "createdAt": "2011-03-31T22:34:58Z",
+                        "closedAt": "2015-11-15T17:03:13Z"
+                    },
+                    {
+                        "title": "Introduce QuartzSchedulerBuilder as @Bean alternative to SchedulerFactoryBean [SPR-8130]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12781",
+                        "createdAt": "2011-03-31T22:57:01Z",
+                        "closedAt": "2011-12-06T05:41:32Z"
+                    },
+                    {
+                        "title": "Document @Bean alternatives to ScheduledExecutor and ThreadPoolExecutor FactoryBean types [SPR-8131]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12782",
+                        "createdAt": "2011-03-31T23:54:46Z",
+                        "closedAt": "2015-11-15T17:03:12Z"
+                    },
+                    {
+                        "title": "Introduce RmiRegistryBuilder as @Bean alternative to RmiRegistryFactoryBean [SPR-8132]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12783",
+                        "createdAt": "2011-04-01T00:11:46Z",
+                        "closedAt": "2011-12-06T05:40:45Z"
+                    },
+                    {
+                        "title": "Introduce RmiProxyBuilder as @Bean alternative to RmiProxyFactoryBean [SPR-8133]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12784",
+                        "createdAt": "2011-04-01T00:12:57Z",
+                        "closedAt": "2011-12-06T05:40:46Z"
+                    },
+                    {
+                        "title": "Introduce HessianProxyBuilder as @Bean alternative to HessianProxyFactoryBean [SPR-8134]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12785",
+                        "createdAt": "2011-04-01T00:27:43Z",
+                        "closedAt": "2011-12-06T05:40:45Z"
+                    },
+                    {
+                        "title": "Introduce BurlapProxyBuilder as @Bean alternative to BurlapProxyFactoryBean [SPR-8135]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12786",
+                        "createdAt": "2011-04-01T00:28:18Z",
+                        "closedAt": "2011-12-06T05:40:46Z"
+                    },
+                    {
+                        "title": "Introduce HttpInvokerProxyBuilder as @Bean alternative to HttpInvokerProxyFactoryBean [SPR-8136]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12787",
+                        "createdAt": "2011-04-01T00:28:55Z",
+                        "closedAt": "2011-12-06T05:40:46Z"
+                    },
+                    {
+                        "title": "Introduce CacheAnnotationDriven for AnnotationDrivenCacheBeanDefinitionParser (cache:annotation-driven) [SPR-8137]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12788",
+                        "createdAt": "2011-04-01T02:39:44Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Introduce @EnableAspectJAutoProxy (equivalent to aop:aspectj-autoproxy) [SPR-8138]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12789",
+                        "createdAt": "2011-04-01T02:42:58Z",
+                        "closedAt": "2012-06-19T03:39:54Z"
+                    },
+                    {
+                        "title": "SpringConfiguredBeanDefinitionParser (aop:spring-configured) [SPR-8139]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12790",
+                        "createdAt": "2011-04-01T02:44:11Z",
+                        "closedAt": "2011-04-01T03:02:34Z"
+                    },
+                    {
+                        "title": "LoadTimeWeaverBeanDefinitionParser (context:load-time-weaver) [SPR-8140]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12791",
+                        "createdAt": "2011-04-01T02:48:25Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "SpringConfiguredBeanDefinitionParser (context:spring-configured) [SPR-8141]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12792",
+                        "createdAt": "2011-04-01T02:52:02Z",
+                        "closedAt": "2011-04-01T03:02:49Z"
+                    },
+                    {
+                        "title": "Introduce MvcAnnotationDriven for AnnotationDrivenBeanDefinitionParser (mvc:annotation-driven) [SPR-8142]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12793",
+                        "createdAt": "2011-04-01T03:10:30Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Introduce ComponentScanSpec for ComponentScanBeanDefinitionParser (context:component-scan) [SPR-8143]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12794",
+                        "createdAt": "2011-04-01T03:11:46Z",
+                        "closedAt": "2011-12-06T05:58:43Z"
+                    },
+                    {
+                        "title": "Introduce MvcDefaultServletHandler for DefaultServletHandlerBeanDefinitionParser (mvc:default-servlet-handler) [SPR-8144]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12795",
+                        "createdAt": "2011-04-01T03:12:48Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Introduce MvcViewControllers for ViewControllersBeanDefinitionParser (mvc:view-controllers) [SPR-8145]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12796",
+                        "createdAt": "2011-04-01T03:13:37Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Introduce TxAnnotationDriven for AnnotationDrivenBeanDefinitionParser (tx:annotation-driven) [SPR-8146]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12797",
+                        "createdAt": "2011-04-01T03:14:37Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Introduce TaskAnnotationDriven for AnnotationDrivenBeanDefinitionParser (task:annotation-driven) [SPR-8147]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12798",
+                        "createdAt": "2011-04-01T03:19:36Z",
+                        "closedAt": "2011-04-19T01:58:54Z"
+                    },
+                    {
+                        "title": "Introduce @Configuration-based equivalent to aop:config XML element [SPR-8148]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12799",
+                        "createdAt": "2011-04-01T03:20:14Z",
+                        "closedAt": "2014-03-18T08:15:29Z"
+                    },
+                    {
+                        "title": "Investigate MBeanExportBeanDefinitionParser (context:mbean-server) [SPR-8149]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12800",
+                        "createdAt": "2011-04-01T03:27:31Z",
+                        "closedAt": "2011-12-06T05:58:43Z"
+                    },
+                    {
+                        "title": "Investigate MBeanExportBeanDefinitionParser (context:mbean-export) [SPR-8150]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12801",
+                        "createdAt": "2011-04-01T03:34:01Z",
+                        "closedAt": "2011-12-06T05:58:43Z"
+                    },
+                    {
+                        "title": "Investigate MBeanServerBeanDefinitionParser (context:mbean-server) [SPR-8151]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12802",
+                        "createdAt": "2011-04-01T03:34:30Z",
+                        "closedAt": "2011-12-06T05:58:43Z"
+                    },
+                    {
+                        "title": "Investigate JndiLookupBeanDefinitionParser (jee:jndi-lookup) [SPR-8152]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12803",
+                        "createdAt": "2011-04-01T03:34:35Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "Investigate LocalStatelessSessionBeanDefinitionParser (jee:local-slsb) [SPR-8153]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12804",
+                        "createdAt": "2011-04-01T03:34:40Z",
+                        "closedAt": "2011-12-06T05:58:43Z"
+                    },
+                    {
+                        "title": "Investigate RemoteStatelessSessionBeanDefinitionParser (jee:remote-slsb) [SPR-8154]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12805",
+                        "createdAt": "2011-04-01T03:34:45Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Investigate ExecutorBeanDefinitionParser (task:executor) [SPR-8155]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12806",
+                        "createdAt": "2011-04-01T03:34:49Z",
+                        "closedAt": "2011-04-19T02:00:34Z"
+                    },
+                    {
+                        "title": "Investigate ScheduledTasksBeanDefinitionParser (task:scheduled) [SPR-8156]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12807",
+                        "createdAt": "2011-04-01T03:34:54Z",
+                        "closedAt": "2011-04-19T01:59:42Z"
+                    },
+                    {
+                        "title": "Investigate SchedulerBeanDefinitionParser (task:scheduler) [SPR-8157]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12808",
+                        "createdAt": "2011-04-01T03:34:59Z",
+                        "closedAt": "2011-04-19T01:57:28Z"
+                    },
+                    {
+                        "title": "Investigate ScriptBeanDefinitionParser (lang:*) [SPR-8158]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12809",
+                        "createdAt": "2011-04-01T03:35:04Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "Investigate TxAdviceBeanDefinitionParser (tx:advice) [SPR-8159]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12810",
+                        "createdAt": "2011-04-01T03:35:09Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "Investigate JtaTransactionManagerBeanDefinitionParser (tx:jta-transaction-manager) [SPR-8160]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12811",
+                        "createdAt": "2011-04-01T03:35:13Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Investigate Jaxb2MarshallerBeanDefinitionParser (oxm:jaxb2-marshaller) [SPR-8161]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12812",
+                        "createdAt": "2011-04-01T03:35:19Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Investigate JibxMarshallerBeanDefinitionParser (oxm:jibx-marshaller) [SPR-8162]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12813",
+                        "createdAt": "2011-04-01T03:35:25Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    },
+                    {
+                        "title": "Investigate XmlBeansMarshallerBeanDefinitionParser (oxm:xmlbeans-marshaller) [SPR-8163]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12814",
+                        "createdAt": "2011-04-01T03:35:31Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "Introduce FeatureSpecification for PropertyOverrideBeanDefinitionParser (context:property-override) [SPR-8164]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12815",
+                        "createdAt": "2011-04-01T03:44:28Z",
+                        "closedAt": "2014-01-31T13:27:24Z"
+                    },
+                    {
+                        "title": "Introduce FeatureSpecification for PropertyPlaceholderBeanDefinitionParser (context:property-placeholder) [SPR-8165]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12816",
+                        "createdAt": "2011-04-01T03:45:28Z",
+                        "closedAt": "2011-04-01T04:08:38Z"
+                    },
+                    {
+                        "title": "Introduce FeatureSpecification for EmbeddedDatabaseBeanDefinitionParser (jdbc:embedded-database) [SPR-8166]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12817",
+                        "createdAt": "2011-04-01T03:49:42Z",
+                        "closedAt": "2011-04-01T03:59:31Z"
+                    },
+                    {
+                        "title": "Introduce FeatureSpecification for InitializeDatabaseBeanDefinitionParser (jdbc:initialize-database) [SPR-8167]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12818",
+                        "createdAt": "2011-04-01T03:50:13Z",
+                        "closedAt": "2011-04-01T04:02:16Z"
+                    },
+                    {
+                        "title": "Introduce FeatureSpecification for AnnotationDrivenBeanDefinitionParser (context:annotation-driven) [SPR-8168]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12819",
+                        "createdAt": "2011-04-01T03:52:19Z",
+                        "closedAt": "2011-04-01T04:04:34Z"
+                    },
+                    {
+                        "title": "Introduce JmsListenerContainer for JmsListenerContainerParser (jms:listener-container) [SPR-8169]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12820",
+                        "createdAt": "2011-04-01T05:03:36Z",
+                        "closedAt": "2011-12-06T05:58:45Z"
+                    },
+                    {
+                        "title": "Introduce JcaListenerContainer for JcaListenerContainerParser (jms:jca-listener-container) [SPR-8170]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/12821",
+                        "createdAt": "2011-04-01T05:04:28Z",
+                        "closedAt": "2011-12-06T05:58:44Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7qydw==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Build ec2 image update","2012-12/28","2012-12/28","2012-12/28",True,"2012-12/28",2,6,1
+"Use email address instead of session id to identify users","2012-12/29","2013-1/29","2012-12/29",True,"2013-1/29",2,44,24
+"Explicitly stating not to build thrift with php support","2012-12/31","2013-1/31","2012-12/31",True,"2013-1/31",2,1,1
+"Deleting cookies via the same IP they are set with","2013-1/2","2013-1/2","2013-1/2",True,"2013-1/2",2,3,3
+"Build without unsupported DBs","2013-1/2","2013-1/2","2013-1/2",True,"2013-1/2",3,8,1001
+"not building unsupported databases","2013-1/3","2013-1/3","2013-1/3",False,"null",2,1,200
+"Watchfile","2013-1/3","2013-1/3","2013-1/3",True,"2013-1/3",2,25,1
+"Supporting the secure: never and secure: always Options in app.yaml","2013-1/4","2013-1/4","2013-1/4",True,"2013-1/4",2,164,6
+"Removing Query Params When Redirecting from HTTPS to HTTP","2013-1/5","2013-1/5","2013-1/5",True,"2013-1/5",2,2,2
+"using getOrCreateSubMap method to avoid nullpointer error","2013-1/7","2013-1/7","2013-1/7",True,"2013-1/7",2,15,2
+"Install pycrypto and lxml","2013-1/7","2013-2/7","2013-1/7",False,"null",2,26,3
+"Transaction Support","2013-1/7","2013-1/7","2013-1/7",True,"2013-1/7",2,1377,409
+"Fixing a bug related to securing the default '/' location","2013-1/8","2013-1/8","2013-1/8",True,"2013-1/8",2,63,44
+"Bulkloader support fix getting more entities than the specified batch size","2013-1/8","2013-1/8","2013-1/8",True,"2013-1/8",2,46,16
+"Retry logic for taskqueue and removed latency annotations","2013-1/9","2013-1/9","2013-1/9",True,"2013-1/9",2,26,32
+"Obscure EC2 creds","2013-1/9","2013-1/9","2013-1/9",True,"2013-1/9",2,15,13
+"Nginx upgrade, removed some unused build files, updated a print statement","2013-1/9","2013-1/9","2013-1/9",True,"2013-1/9",3,102,457
+"correctly not writing full proxy app config on one node deployment","2013-1/10","2013-1/10","2013-1/10",True,"2013-1/10",2,1,1
+"Start services in parallel","2013-1/10","2013-1/10","2013-1/10",True,"2013-1/10",2,112,64
+"Removed python test script and move it to rake. Fixed import issue with ...","2013-1/11","2013-1/11","2013-1/11",True,"2013-1/11",2,30,16
+"Hbase & hypertable fix","2013-1/14","2013-1/14","2013-1/14",True,"2013-1/14",2,80,60
+"Fix for kind queries and their cursors","2013-1/14","2013-1/14","2013-1/14",True,"2013-1/14",2,3,5
+"Remove latency from memcache","2013-1/14","2013-1/14","2013-1/14",True,"2013-1/14",2,3,7
+"Adding start key for java for query cursors","2013-1/15","2013-1/15","2013-1/15",True,"2013-1/15",2,13,6
+"Fix for nginx on a multinode with reload missing pid issue","2013-1/15","2013-1/15","2013-1/15",True,"2013-1/15",2,6,1
+"Not requiring user to be logged in as admin to send mail, breaks apps","2013-1/16","2013-1/16","2013-1/16",True,"2013-1/16",2,0,4
+"Removed Python and Ruby CCT code","2013-1/16","2013-1/16","2013-1/16",True,"2013-1/16",2,0,65892
+"updated license files and removed unnecessary duplicate license files","2013-1/16","2013-1/16","2013-1/16",True,"2013-1/16",2,12,160
+"bumped version number to 1.6.6, and updated license again","2013-1/16","2013-1/16","2013-1/16",True,"2013-1/16",2,54,27
+"Possible solution to nodes dying prematurely","2013-1/17","2013-7/17","2013-1/17",True,"2013-7/17",3,56,45
+"Merged changes from 1.6.5 to 1.6.6","2013-1/18","2013-1/18","2013-1/18",True,"2013-1/18",3,4452,78923
+"Lock around god when starting processes","2013-1/18","2013-1/18","2013-1/18",True,"2013-1/18",3,40,33
+"Fix for hbase classpath issue","2013-1/19","2013-1/19","2013-1/19",True,"2013-1/19",2,3,1
+"Upgrade to pika 0.9.9p0","2013-1/22","2013-1/22","2013-1/22",True,"2013-1/22",2,6,6
+"Not copying over datanucleus jars because we don't modify them","2013-1/22","2013-1/22","2013-1/22",True,"2013-1/22",2,0,11
+"Removed god from starting ejabberd","2013-1/23","2013-1/23","2013-1/23",False,"null",1,6,4
+"Adding encoding to memcache keys to allow special characters","2013-1/23","2013-1/23","2013-1/23",True,"2013-1/23",2,9,1
+"Better handling of RabbitMQ failures, better retry logic of erlang processes.","2013-1/23","2013-1/23","2013-1/23",True,"2013-1/23",2,91,30
+"Encoding memcache keys because sdk allows special characters","2013-1/24","2013-1/24","2013-1/24",True,"2013-1/24",2,21,10
+"Fix for kind queries where we set the __key__","2013-1/24","2013-1/24","2013-1/24",True,"2013-1/24",2,34,1
+"Adding celery install process into AppScale","2013-1/25","2013-2/25","2013-1/25",False,"null",3,9,0
+"TaskQueue server","2013-1/26","2013-3/26","2013-1/26",True,"2013-3/26",3,35,12
+"Distributed memcache fixes","2013-1/29","2013-1/29","2013-1/29",True,"2013-1/29",2,33,7
+"If a user tries to hit an https port with http, redirect them to the sam...","2013-1/30","2013-1/30","2013-1/30",True,"2013-1/30",3,3,0
+"AppController SOAP functions return JSON","2013-1/31","2013-2/31","2013-1/31",True,"2013-2/31",2,32,23
+"Terminate script kills RabbitMQ / Ejabberd","2013-2/1","2013-2/1","2013-2/1",True,"2013-2/1",2,3,1
+"Making nginx locations for secure/nonsecure URLs use regular expressions...","2013-2/5","2013-2/5","2013-2/5",True,"2013-2/5",2,1,1
+"removed jenkins build script","2013-2/7","2013-2/7","2013-2/7",True,"2013-2/7",2,0,23
+"bumped version number to 1.6.7","2013-2/11","2013-2/11","2013-2/11",True,"2013-2/11",2,16,6
+"Fixed broken unit tests","2013-2/12","2013-2/12","2013-2/12",True,"2013-2/12",1,15,5
+"Release 1.6.7","2013-2/13","2013-2/13","2013-2/13",True,"2013-2/13",4,267,127
+"Retry when starting other AppControllers","2013-2/14","2013-2/14","2013-2/14",True,"2013-2/14",2,18,7
+"Appcontroller not using iaas tools","2013-2/14","2013-2/14","2013-2/14",True,"2013-2/14",2,12,71
+"Nginx test fix","2013-2/14","2013-2/14","2013-2/14",True,"2013-2/14",3,2,0
+"Timeout on RabbitMQ startup","2013-2/15","2013-2/15","2013-2/15",True,"2013-2/15",2,27,74
+"more logging on ip mapping","2013-2/18","2013-2/18","2013-2/18",True,"2013-2/18",1,4,1
+"Removed unnecessary AppManager test","2013-2/18","2013-2/18","2013-2/18",True,"2013-2/18",1,0,6
+"Whitelist disabled","2013-2/19","2013-2/19","2013-2/19",True,"2013-2/19",2,27,8
+"Fixed XMPP in Python 2.7","2013-2/19","2013-2/19","2013-2/19",True,"2013-2/19",2,1,1
+"New status page","2013-2/21","2013-2/21","2013-2/21",True,"2013-2/21",1,524,73
+"Fixes for status page","2013-2/21","2013-2/21","2013-2/21",True,"2013-2/21",1,73,524
+"Fixed deferred auth problem","2013-2/25","2013-2/25","2013-2/25",True,"2013-2/25",2,2,1
+"Xmemcached changes","2013-2/25","2013-2/25","2013-2/25",True,"2013-2/25",2,232,65
+"New UI for browser management of AppScale","2013-2/27","2013-2/27","2013-2/27",False,"null",3,476,546
+"Fixes for complex deployment strategy","2013-2/28","2013-3/28","2013-2/28",True,"2013-3/28",3,213,70
+"Tqserver2","2013-2/28","2013-3/28","2013-2/28",True,"2013-3/28",2,4546,3817
+"Fixed XMPP in EC2","2013-3/1","2013-3/1","2013-3/1",True,"2013-3/1",2,382,105
+"Query count fix","2013-3/4","2013-3/4","2013-3/4",True,"2013-3/4",2,5,1
+"made unused variable an anonymous var","2013-3/5","2013-3/5","2013-3/5",True,"2013-3/5",1,1,1
+"added initial coverage for xmpp receiver","2013-3/5","2013-3/5","2013-3/5",True,"2013-3/5",1,1554,0
+"Updated AppScale UI","2013-3/5","2013-3/5","2013-3/5",True,"2013-3/5",2,133001,854
+"Bootstrap.js edit","2013-3/5","2013-3/5","2013-3/5",True,"2013-3/5",2,2032,0
+"Changed favicon path","2013-3/6","2013-3/6","2013-3/6",True,"2013-3/6",3,42,14
+"Open firewall for XMPP","2013-3/6","2013-3/6","2013-3/6",True,"2013-3/6",2,1,0
+"Kind ordered ancestor queries","2013-3/6","2013-3/6","2013-3/6",True,"2013-3/6",2,225,62
+"Java tq","2013-3/6","2013-3/6","2013-3/6",True,"2013-3/6",2,219,46
+"Fixed unit test check","2013-3/7","2013-3/7","2013-3/7",True,"2013-3/7",2,2,1
+"bumped version number to 1.6.8","2013-3/7","2013-3/7","2013-3/7",True,"2013-3/7",2,25,9
+"Fixed broken unit tests","2013-3/8","2013-3/8","2013-3/8",True,"2013-3/8",1,2,0
+"Spot instance support","2013-3/8","2013-3/8","2013-3/8",True,"2013-3/8",2,139,44
+"not printing out unfiltered credentials","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,0,2
+"CSS formatting fixes, minor tweaks to app","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,48,64
+"Fixed invalid cookie check","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,2,0
+"turn off the firewall when we terminate appscale","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,2,0
+"Removed check for transactional task","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,3,7
+"Updated release date / feature list","2013-3/11","2013-3/11","2013-3/11",True,"2013-3/11",2,5,1
+"Having the ejabberd authentication script connect to the userappserver","2013-3/12","2013-3/12","2013-3/12",True,"2013-3/12",1,5,4
+"only scaling apps down if they are currently hosted","2013-3/12","2013-3/12","2013-3/12",True,"2013-3/12",2,35,22
+"Merging 1.6.8 into master","2013-3/13","2013-3/13","2013-3/13",True,"2013-3/13",3,142524,5104
+"Set the number of datastore servers to the number of processors","2013-3/14","2013-3/14","2013-3/14",True,"2013-3/14",2,16,7
+"Channel API fix","2013-3/14","2013-3/14","2013-3/14",True,"2013-3/14",2,141,3
+"fix for 0 result query","2013-3/15","2013-3/15","2013-3/15",True,"2013-3/15",2,6,4
+"Cross group transaction support","2013-3/15","2013-3/15","2013-3/15",True,"2013-3/15",2,1579,549
+"Changed location we grab build files from to be s3 instead of ucsb","2013-3/18","2013-3/18","2013-3/18",True,"2013-3/18",2,33,44
+"Memcache incr cas","2013-3/19","2013-3/19","2013-3/19",True,"2013-3/19",2,410,215
+"Memcache incr cas","2013-3/20","2013-3/20","2013-3/20",True,"2013-3/20",2,37,35
+"Ntp fix","2013-3/20","2013-3/20","2013-3/20",True,"2013-3/20",2,14,2
+"removing tmp file","2013-3/20","2013-3/20","2013-3/20",True,"2013-3/20",2,1,0
+"having god monitor haproxy in a similar way as for ejabberd","2013-3/21","2013-3/21","2013-3/21",True,"2013-3/21",2,19,1
+"Instead of always starting the xmpp receiver for java apps","2013-3/21","2013-3/21","2013-3/21",True,"2013-3/21",2,7,3

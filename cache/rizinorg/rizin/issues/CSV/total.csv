@@ -1,0 +1,701 @@
+['closedAt'],['createdAt'],['title'],['url']
+2021-1/16,2020-10/3,Adapt release pipeline to include submodules code in the src tarball,https://github.com/rizinorg/rizin/issues/13
+2021-1/21,2020-10/20,Use clang-format to format code and make an automatic check on PRs,https://github.com/rizinorg/rizin/issues/36
+,2020-10/20,Meaningless strings are printed,https://github.com/rizinorg/rizin/issues/38
+2021-2/3,2020-10/20,Remove IP (Instruction Pointer) flag pointed to entry point when not in debug mode,https://github.com/rizinorg/rizin/issues/39
+2020-12/15,2020-10/20,disable asm.bytes by default,https://github.com/rizinorg/rizin/issues/40
+,2020-10/20,remove annoying [0xabcdef:4]=0x1234 from comments,https://github.com/rizinorg/rizin/issues/41
+2022-5/10,2020-10/20,Tons of flags are shown at offset 0x00,https://github.com/rizinorg/rizin/issues/42
+2020-12/9,2020-10/20,Weird output for dotnet files,https://github.com/rizinorg/rizin/issues/43
+2020-11/12,2020-10/20,create a new Readme file ,https://github.com/rizinorg/rizin/issues/44
+2021-8/16,2020-10/20,"PE files with function names ""section..text""",https://github.com/rizinorg/rizin/issues/45
+,2020-10/20,Smart correction of flags usage,https://github.com/rizinorg/rizin/issues/46
+,2020-11/1,Function names are shown in comments when realname enabled,https://github.com/rizinorg/rizin/issues/60
+2021-8/10,2020-11/2,grep regex,https://github.com/rizinorg/rizin/issues/64
+2022-1/13,2020-11/5,Rewrite/remove GPL-only code from core Rizin parts,https://github.com/rizinorg/rizin/issues/70
+2020-11/13,2020-11/9,.(? wrongly parsed by newshell,https://github.com/rizinorg/rizin/issues/76
+2021-2/26,2020-11/12,"newshell: when details are available for a group, they should be shown/added for all sub-commands",https://github.com/rizinorg/rizin/issues/81
+2021-1/20,2020-11/13,[XX] db/archos/darwin-x64/http rizin remote webserver two,https://github.com/rizinorg/rizin/issues/82
+2020-11/27,2020-11/16,Remove pdc,https://github.com/rizinorg/rizin/issues/89
+,2020-11/17,Remove `system` from RzIoPlugins and use RzCorePlugins,https://github.com/rizinorg/rizin/issues/92
+,2020-11/19,"Test external tools separately, without running `rizin` first",https://github.com/rizinorg/rizin/issues/95
+2020-12/17,2020-11/19,cmd_identifier with `\` are not supported ##newshell,https://github.com/rizinorg/rizin/issues/97
+,2020-11/25,Save linked files into the project database.,https://github.com/rizinorg/rizin/issues/102
+,2020-11/27,Provide SVD handling out of the box.,https://github.com/rizinorg/rizin/issues/103
+2020-12/8,2020-11/27,Rename all *_anal_* to Analysis,https://github.com/rizinorg/rizin/issues/107
+2020-12/11,2020-12/1,Make sure to use the x64 Command Prompt for Visual studio,https://github.com/rizinorg/rizin/issues/112
+2021-3/23,2020-12/3,Expand the testsuite,https://github.com/rizinorg/rizin/issues/114
+2021-1/6,2020-12/4,Autocomplete for `e asm.` doesn't work,https://github.com/rizinorg/rizin/issues/115
+2021-1/14,2020-12/8, Show possible variable values in `Ve` interface,https://github.com/rizinorg/rizin/issues/125
+2021-6/24,2020-12/8,Split-view visual hex diff mode for rz-diff,https://github.com/rizinorg/rizin/issues/126
+2021-8/21,2020-12/8,Better representation of the long function names (e.g. from C++),https://github.com/rizinorg/rizin/issues/127
+,2020-12/8,Add visual `p=` scrolling mode,https://github.com/rizinorg/rizin/issues/128
+,2020-12/8,Add a ruler to horizontal histogram output (e.g. `p==`),https://github.com/rizinorg/rizin/issues/129
+,2020-12/8,Visual `p==` mode,https://github.com/rizinorg/rizin/issues/130
+,2020-12/8,Add entropy edges printing mode,https://github.com/rizinorg/rizin/issues/131
+2020-12/8,2020-12/8,"Default page of this project now says ""anal"" many times, as well as git history.",https://github.com/rizinorg/rizin/issues/136
+2020-12/12,2020-12/9,Document how to update or remove the installation of Rizin,https://github.com/rizinorg/rizin/issues/146
+2021-8/10,2020-12/10,Add higher order functions in rizin shell,https://github.com/rizinorg/rizin/issues/152
+,2020-12/10,PLT stub names not being resolved properly,https://github.com/rizinorg/rizin/issues/153
+2022-6/8,2020-12/10,Update shellforge (for rz-gg/rzegg),https://github.com/rizinorg/rizin/issues/154
+,2020-12/10,Refactor heap parsing code,https://github.com/rizinorg/rizin/issues/157
+,2020-12/10,Add Windows and Jemalloc heap parsing tests,https://github.com/rizinorg/rizin/issues/158
+2021-1/22,2020-12/10,macOS homebrew support,https://github.com/rizinorg/rizin/issues/160
+2020-12/11,2020-12/10,Automatically use RPATH when not installing in /usr prefix,https://github.com/rizinorg/rizin/issues/162
+2020-12/18,2020-12/10,"Fix Windows installer icon, path and info",https://github.com/rizinorg/rizin/issues/167
+,2020-12/11,Consider to use external library for the web-server ,https://github.com/rizinorg/rizin/issues/168
+2020-12/12,2020-12/12, Consistency of coding styles,https://github.com/rizinorg/rizin/issues/171
+2020-12/14,2020-12/13,[question] how to drop `-git` from `rizin_libversion`,https://github.com/rizinorg/rizin/issues/174
+2022-8/2,2020-12/13,Cleanup RzThread,https://github.com/rizinorg/rizin/issues/175
+2021-1/6,2020-12/14,Is a rizin installation side by side possible with radare2?,https://github.com/rizinorg/rizin/issues/179
+2021-1/7,2020-12/14,Static analysis or linting tools for the project (and CI),https://github.com/rizinorg/rizin/issues/187
+2021-2/4,2020-12/15,Allow to specify the option for Meson/Ninja build to use wget/curl instead of git,https://github.com/rizinorg/rizin/issues/188
+,2020-12/15,Improve Windows kernel dumps parsing and loading,https://github.com/rizinorg/rizin/issues/189
+2021-8/10,2020-12/16,Use PJ everywhere (JSON),https://github.com/rizinorg/rizin/issues/200
+2022-1/13,2020-12/17,Enumerate all third-party code and libraries used in Rizin,https://github.com/rizinorg/rizin/issues/209
+2020-12/18,2020-12/17,Fortunes install directory,https://github.com/rizinorg/rizin/issues/210
+2020-12/21,2020-12/18,Buggy formatting of disassembling output,https://github.com/rizinorg/rizin/issues/218
+,2020-12/21,Print complete file header in `rz-bin -H` output,https://github.com/rizinorg/rizin/issues/232
+,2020-12/21,"Enable FreeBSD support for ARM, MIPS, PowerPC, SPARC",https://github.com/rizinorg/rizin/issues/233
+2021-1/10,2020-12/21,Add test for arS,https://github.com/rizinorg/rizin/issues/236
+2021-3/3,2020-12/21,`afist` command UAF,https://github.com/rizinorg/rizin/issues/237
+2021-12/21,2020-12/21,afls command family not working and aren't tested,https://github.com/rizinorg/rizin/issues/238
+2021-1/21,2020-12/21,Check old uses of `@@`/`@@@`,https://github.com/rizinorg/rizin/issues/240
+2021-3/10,2020-12/24,Set default meson buildtype to debugoptimized?,https://github.com/rizinorg/rizin/issues/256
+2020-12/27,2020-12/26,jump arrows are missing when opening back a project,https://github.com/rizinorg/rizin/issues/266
+2022-6/28,2020-12/27,Zignatures search during aaa gives wrong result,https://github.com/rizinorg/rizin/issues/272
+2021-1/18,2020-12/27,Switch from a mono repository to a multi repository,https://github.com/rizinorg/rizin/issues/273
+2021-4/9,2020-12/27,Is the SDB dependency necessary?,https://github.com/rizinorg/rizin/issues/274
+2021-7/19,2020-12/27,Replace TCC Header Parser by Tree-Sitter based one,https://github.com/rizinorg/rizin/issues/275
+,2020-12/27,`librz/cons/*` (TUI library/) - remove global state,https://github.com/rizinorg/rizin/issues/276
+2021-10/9,2020-12/27,"Redesign of ESIL, or use of alternatives",https://github.com/rizinorg/rizin/issues/277
+2021-10/9,2020-12/28,Failing unit tests on System Z (S390) platform,https://github.com/rizinorg/rizin/issues/279
+2021-8/10,2020-12/29,clang-cl build: unknown escape sequence `\p` in RZ_PREFIX,https://github.com/rizinorg/rizin/issues/280
+2022-4/24,2020-12/30,Fix test_r_analysis_var test,https://github.com/rizinorg/rizin/issues/282
+2022-7/17,2021-1/2,"Change ""opcode"" output on pdj and add ""operands"" field.",https://github.com/rizinorg/rizin/issues/284
+,2021-1/3,Create documentation for code structure and librz modules overview,https://github.com/rizinorg/rizin/issues/286
+2021-1/3,2021-1/3,Dictionary spelling of `signature` vs `zignature`.,https://github.com/rizinorg/rizin/issues/291
+,2021-1/4,Visual preview for the `graph.*` variables changes in `Ve` mode,https://github.com/rizinorg/rizin/issues/295
+,2021-1/4,Fix broken tests on SystemZ platform,https://github.com/rizinorg/rizin/issues/297
+2021-1/5,2021-1/4,False UTF16 positive in strings detection,https://github.com/rizinorg/rizin/issues/298
+,2021-1/4,Remove `e search.in=??` syntax and just keep `e search.in=?`,https://github.com/rizinorg/rizin/issues/301
+2021-1/7,2021-1/4,Function modified detect when rendering graph,https://github.com/rizinorg/rizin/issues/302
+2021-1/27,2021-1/4,Switch statement edges duplicated and attached in wrong place,https://github.com/rizinorg/rizin/issues/304
+2021-1/21,2021-1/6,Autocompletion for the `s` commands,https://github.com/rizinorg/rizin/issues/311
+2021-7/20,2021-1/6,Pointers inside structs do not take asm.bits into account when calculating offsets,https://github.com/rizinorg/rizin/issues/312
+,2021-1/6,"Reference constant string (""%s"") in format string of the scanf family function",https://github.com/rizinorg/rizin/issues/313
+,2021-1/6,Extend `t` and `pf` commands to support bitfields printing,https://github.com/rizinorg/rizin/issues/314
+,2021-1/6,Constrained types enhancements,https://github.com/rizinorg/rizin/issues/315
+,2021-1/6,Allow to set multiple directories for `dir.types`,https://github.com/rizinorg/rizin/issues/316
+,2021-1/6,Using `tp` when sizeof(type) > block size results in zeros in values,https://github.com/rizinorg/rizin/issues/317
+,2021-1/7,Rizin report warning messages increasely when repeated run `aaa`,https://github.com/rizinorg/rizin/issues/329
+2021-4/9,2021-1/7,Split `afvx` to two commands - one for variables and one for function arguments,https://github.com/rizinorg/rizin/issues/332
+,2021-1/7,Rizin should have the concept of Global Variables,https://github.com/rizinorg/rizin/issues/333
+,2021-1/8,Resolve data relocations in 32bit position-independent binaries,https://github.com/rizinorg/rizin/issues/334
+2022-3/24,2021-1/8,Allow to disable debug tests in `rz-test` command line,https://github.com/rizinorg/rizin/issues/336
+,2021-1/8,MSYS2 failure to build: ../librz/socket/socket.c:275: undefined reference to `rz_sys_signal' ,https://github.com/rizinorg/rizin/issues/337
+2021-1/13,2021-1/11,Migrate static build to Meson,https://github.com/rizinorg/rizin/issues/340
+,2021-1/11,Better default settings for the build system,https://github.com/rizinorg/rizin/issues/346
+2021-1/20,2021-1/13,test/unit/test_dwarf and test/unit/test_dwarf_info fail on Alpine Linux static build,https://github.com/rizinorg/rizin/issues/350
+2021-1/13,2021-1/13,`cmd~word?` should return an error (right syntax is `cmd~?word`),https://github.com/rizinorg/rizin/issues/352
+2021-1/16,2021-1/14,??? not working in newshell,https://github.com/rizinorg/rizin/issues/363
+2021-4/19,2021-1/16,Refactor all base type accesses to use the RzAnalysisBaseType API,https://github.com/rizinorg/rizin/issues/368
+2021-4/6,2021-1/16,Bundle all types functionality in a new module RzTypes,https://github.com/rizinorg/rizin/issues/369
+2021-7/19,2021-1/16,Add Conversion to String for RzParseCTypeType,https://github.com/rizinorg/rizin/issues/370
+2021-7/19,2021-1/16,Refactor all places where CTypes are used as strings to RzParseCTypeType instead.,https://github.com/rizinorg/rizin/issues/371
+2021-7/19,2021-1/16,"Re-think Function Types and Callable ""Things""",https://github.com/rizinorg/rizin/issues/373
+,2021-1/18,Refactor Visual mode (`librz/core/tui/visual.c`) to use API instead of commands,https://github.com/rizinorg/rizin/issues/382
+,2021-1/18,Refactor Panels mode (`librz/core/tui/panels.c`) to use API instead of commands,https://github.com/rizinorg/rizin/issues/383
+,2021-1/18,Refactor/merge Visual and Panels mode,https://github.com/rizinorg/rizin/issues/384
+2022-5/6,2021-1/18,Configure repositories to deliver Rizin to linux distro users,https://github.com/rizinorg/rizin/issues/387
+2021-2/25,2021-1/19,Make Rizin work when the whole install dir is moved,https://github.com/rizinorg/rizin/issues/392
+2021-1/28,2021-1/19,Kill ACR/Make and switch completely to Meson,https://github.com/rizinorg/rizin/issues/393
+2021-1/21,2021-1/19,Convert Debian CI jobs from ACR to Meson,https://github.com/rizinorg/rizin/issues/394
+,2021-1/20,Refactor Graph mode (`librz/core/agraph.c`) to use API instead of commands,https://github.com/rizinorg/rizin/issues/397
+2021-8/10,2021-1/20,TinyCC failing debugging tests,https://github.com/rizinorg/rizin/issues/398
+2021-3/12,2021-1/20,Preserve valid names for symbols and sections,https://github.com/rizinorg/rizin/issues/400
+2021-4/26,2021-1/20,"Add file offset and memory alignment for the ELF segments information (""iSS"")",https://github.com/rizinorg/rizin/issues/403
+2021-3/16,2021-1/20,"Add file section type and  more flags for the ELF sections information (""iS"") ",https://github.com/rizinorg/rizin/issues/404
+2021-1/24,2021-1/20,Selective history filtering,https://github.com/rizinorg/rizin/issues/407
+2021-11/15,2021-1/21,Implement basefind feature,https://github.com/rizinorg/rizin/issues/413
+,2021-1/21,Devirtualize method calls using class vtables,https://github.com/rizinorg/rizin/issues/414
+,2021-1/21,"Improve vtable detection for C++, ObjectiveC, Dlang and Swift binaries",https://github.com/rizinorg/rizin/issues/416
+2021-7/27,2021-1/21,IDA .sig files with version 5 compression not supported,https://github.com/rizinorg/rizin/issues/417
+2022-5/2,2021-1/21,Add tests for `s` commands,https://github.com/rizinorg/rizin/issues/419
+2021-1/28,2021-1/22,Use `v` prefix in all release artifacts,https://github.com/rizinorg/rizin/issues/432
+2022-9/3,2021-1/23,Add alias for rz_list_newf(free),https://github.com/rizinorg/rizin/issues/439
+2021-1/25,2021-1/23,newshell fails to parse expressions with spaces and parentheses,https://github.com/rizinorg/rizin/issues/441
+2021-1/28,2021-1/25,Add tag or commit hash to submodules ,https://github.com/rizinorg/rizin/issues/453
+2021-1/27,2021-1/25,No commit sha comes from `rizin -v`,https://github.com/rizinorg/rizin/issues/454
+2021-1/27,2021-1/25,"""afl."" caused segmentation fault at middle of function",https://github.com/rizinorg/rizin/issues/455
+2021-1/26,2021-1/25,iCj prints invalid json,https://github.com/rizinorg/rizin/issues/458
+2021-10/13,2021-1/26,`aar` ignores `analysis.jmp.cref` value,https://github.com/rizinorg/rizin/issues/469
+,2021-1/26,"""iI"" command enhancement",https://github.com/rizinorg/rizin/issues/470
+,2021-1/29,Refactor output modes to use enum,https://github.com/rizinorg/rizin/issues/489
+,2021-1/29,Refactor Visual Menus `/librz/core/tui/vmenus*` to use API instead of commands,https://github.com/rizinorg/rizin/issues/491
+,2021-1/30,Visual Debug to have stack and register telescoping by default,https://github.com/rizinorg/rizin/issues/497
+2021-2/13,2021-2/2,Add CI job to install with a regular `meson build` and check tools + libraries,https://github.com/rizinorg/rizin/issues/513
+2021-2/9,2021-2/8,Windows 32 bit builds,https://github.com/rizinorg/rizin/issues/546
+2021-2/10,2021-2/9,"`tar.gz` release assets are not ""gzipped"", they are just `tar` archives",https://github.com/rizinorg/rizin/issues/547
+2021-2/9,2021-2/9,Symlink rizin to rz - Package releases,https://github.com/rizinorg/rizin/issues/550
+2021-2/9,2021-2/9,Mini-map/graph view - Shift-TAB doesn't go to the previous node,https://github.com/rizinorg/rizin/issues/551
+2021-2/10,2021-2/9,Remote cmd mode - Unable to pass a descriptor,https://github.com/rizinorg/rizin/issues/552
+2022-8/31,2021-2/9,Background server blocks Rizin,https://github.com/rizinorg/rizin/issues/554
+2022-4/19,2021-2/9,Start a raps server without requiring a file,https://github.com/rizinorg/rizin/issues/555
+2022-4/19,2021-2/9,Interactively starting a TCP server doesn't allow parameters,https://github.com/rizinorg/rizin/issues/559
+,2021-2/9,Stderr is not passed to remote session,https://github.com/rizinorg/rizin/issues/560
+,2021-2/9,User-friendly syntax for connecting to TCP/UDP servers,https://github.com/rizinorg/rizin/issues/561
+2022-4/19,2021-2/9,Allow skipping trailing slash in non-RAP URLs,https://github.com/rizinorg/rizin/issues/562
+2022-5/3,2021-2/9,Remote interactive connections - Unify == and =!=,https://github.com/rizinorg/rizin/issues/563
+,2021-2/9,Hide/remove the commands for starting a webserver,https://github.com/rizinorg/rizin/issues/564
+2022-5/3,2021-2/9,-= flag - Use-case scenario?,https://github.com/rizinorg/rizin/issues/566
+2021-3/23,2021-2/10,Java bytecode disassembly/analysis/binary parsing code refactoring,https://github.com/rizinorg/rizin/issues/569
+,2021-2/10,Reverse remote capabilities,https://github.com/rizinorg/rizin/issues/570
+2021-8/23,2021-2/10,Ctrl+S - Forward-search,https://github.com/rizinorg/rizin/issues/571
+,2021-2/10,Ctrl-_/Ctrl-/ and Meta-_/Meta-/ - Undo and Redo,https://github.com/rizinorg/rizin/issues/572
+,2021-2/10,Escape key exits backward-search,https://github.com/rizinorg/rizin/issues/573
+,2021-2/10,Alias Ctrl-G to Escape,https://github.com/rizinorg/rizin/issues/574
+2021-2/16,2021-2/10,Syscall flag by aae is wrong,https://github.com/rizinorg/rizin/issues/576
+2022-2/21,2021-2/10,Ctrl-O - History execute command in-place,https://github.com/rizinorg/rizin/issues/578
+,2021-2/10,_ (underscore) command wrongly updated if previous output was filtered,https://github.com/rizinorg/rizin/issues/579
+2022-2/21,2021-2/10,Ctrl-Q - Temporarily save the currently written command to execute something else before issuing it,https://github.com/rizinorg/rizin/issues/580
+,2021-2/10,Ctrl-U - Flush from cursor to beginning of prompt - Opposite of Ctrl-K,https://github.com/rizinorg/rizin/issues/581
+2022-2/21,2021-2/10,Ctrl-T and Meta-T - Transpose characters and words,https://github.com/rizinorg/rizin/issues/582
+,2021-2/10,"Meta-C, Meta-U, and Meta-L - Capitalize, Uppercase, and Lowercase the following word",https://github.com/rizinorg/rizin/issues/583
+2021-2/11,2021-2/10,Memory leak in rz_config_set_i(),https://github.com/rizinorg/rizin/issues/584
+,2021-2/11,Support remote connection to the WinDbg user mode,https://github.com/rizinorg/rizin/issues/590
+2021-8/19,2021-2/11,built-in gdb server segfaults when using -- (double dash) as Rizin's file parameter,https://github.com/rizinorg/rizin/issues/591
+2022-8/31,2021-2/11,Unable to connect to a GDB server,https://github.com/rizinorg/rizin/issues/592
+2021-2/13,2021-2/11,Use the same protocols in =+ and <file> Rizin's parameter,https://github.com/rizinorg/rizin/issues/593
+2022-4/29,2021-2/11,Ctrl-R - Case insensitive backward search,https://github.com/rizinorg/rizin/issues/594
+2021-2/11,2021-2/11,u/U - undo/redo seek - Documented but not working,https://github.com/rizinorg/rizin/issues/595
+2021-2/20,2021-2/12,sH => sh - Move seek history to sh,https://github.com/rizinorg/rizin/issues/605
+2021-3/30,2021-2/12,Command 'exit' does not exist,https://github.com/rizinorg/rizin/issues/607
+2021-2/13,2021-2/12,Add conditional check specific to a file extension.,https://github.com/rizinorg/rizin/issues/609
+2021-2/12,2021-2/12,Filtering ?* is broken,https://github.com/rizinorg/rizin/issues/611
+2021-3/16,2021-2/12,Ctrl-J doesn't add a newline before the command's output,https://github.com/rizinorg/rizin/issues/612
+2022-1/27,2021-2/12,Add ** (exponentiation/power) to ? math operations,https://github.com/rizinorg/rizin/issues/613
+2022-6/23,2021-2/13,Rizin server - Add --server/-S flags - Remove opening a rap server,https://github.com/rizinorg/rizin/issues/614
+2021-4/21,2021-2/13,"-- (double dash) should be treated as ""end of flags"" | Allow launching Rizin without a <file>",https://github.com/rizinorg/rizin/issues/615
+2021-4/21,2021-2/13,Swap - (single dash) and = (equal sign) meaning,https://github.com/rizinorg/rizin/issues/616
+,2021-2/13,Reading data from stdin (= special flag) doesn't work and mangles the terminal,https://github.com/rizinorg/rizin/issues/617
+,2021-2/13,Sudden color change in rainbow address,https://github.com/rizinorg/rizin/issues/619
+2021-2/15,2021-2/14,Remove broken tail command or alias to cat <file> ~:-5..,https://github.com/rizinorg/rizin/issues/623
+2022-4/24,2021-2/15,Circular dependencies with mig_index.h,https://github.com/rizinorg/rizin/issues/630
+,2021-2/15,Replace mpc.h in librz/egg/rlcc/rlcc.c with tree-sitter,https://github.com/rizinorg/rizin/issues/631
+2021-4/27,2021-2/15,Replace librz/crypto with an external library,https://github.com/rizinorg/rizin/issues/632
+,2021-2/16,Interrupting the http server breaks the command prompt,https://github.com/rizinorg/rizin/issues/635
+2021-8/1,2021-2/17,Check if build_mig_index and related scripts still work,https://github.com/rizinorg/rizin/issues/645
+,2021-2/18,Add the possibility to disable dwarf source line information,https://github.com/rizinorg/rizin/issues/653
+2021-2/23,2021-2/19,Split cmd_descs.yaml in sub-files,https://github.com/rizinorg/rizin/issues/656
+2021-10/20,2021-2/19,Commands that are both groups and have multi-mode cannot be listed,https://github.com/rizinorg/rizin/issues/657
+2021-2/23,2021-2/19,Make cmd_descs_generate automatically set LAST flag when the arg is last,https://github.com/rizinorg/rizin/issues/658
+2022-4/29,2021-2/19,Provides keybinding to use cmd.repeat (e.g. CTRL-Enter),https://github.com/rizinorg/rizin/issues/660
+2021-2/20,2021-2/20,Fix `:>` command,https://github.com/rizinorg/rizin/issues/666
+,2021-2/21,Long loading time when working with large executables,https://github.com/rizinorg/rizin/issues/676
+,2021-2/21,Memory telescoping enhancement,https://github.com/rizinorg/rizin/issues/677
+2021-7/9,2021-2/21,`dmh` command doesn't work properly,https://github.com/rizinorg/rizin/issues/678
+2021-5/19,2021-2/21,`dmha` command doesn't work properly,https://github.com/rizinorg/rizin/issues/679
+2021-3/24,2021-2/21,`dmh` output enhancement,https://github.com/rizinorg/rizin/issues/680
+2021-9/2,2021-2/22,Add SPDX linter CI job,https://github.com/rizinorg/rizin/issues/683
+2021-10/20,2021-2/23,Add a helper script for quick finding of command handlers,https://github.com/rizinorg/rizin/issues/691
+,2021-2/24,Allow to set the enum value for the operand.,https://github.com/rizinorg/rizin/issues/697
+2022-1/8,2021-2/24,Sort out the `ah*` commands,https://github.com/rizinorg/rizin/issues/698
+2021-3/2,2021-2/24,core plugins should be registered *after* the basic commands are registered,https://github.com/rizinorg/rizin/issues/701
+2021-12/11,2021-2/24,Diff between local run and CI run (rz-test),https://github.com/rizinorg/rizin/issues/702
+,2021-2/24,Documentation - Creating a Rizin plugin,https://github.com/rizinorg/rizin/issues/704
+2021-9/24,2021-2/23,Serialize Breakpoints to Projects,https://github.com/rizinorg/rizin/issues/707
+,2021-2/24,Serialize RzIO to Projects,https://github.com/rizinorg/rizin/issues/713
+,2021-2/24,Serialize RzBin to Projects,https://github.com/rizinorg/rizin/issues/714
+2021-2/26,2021-2/25,RzCmd allows to set `default_value` property to an optional argument but does not pass that value,https://github.com/rizinorg/rizin/issues/718
+,2021-2/25,Update `librz/magic` to the latest from OpenBSD,https://github.com/rizinorg/rizin/issues/721
+2021-12/2,2021-2/26,Windows 10 x86 - Building Rizin with clang-cl is not possible,https://github.com/rizinorg/rizin/issues/726
+2022-1/25,2021-2/26,Add an API for the C syntax output,https://github.com/rizinorg/rizin/issues/727
+2022-3/21,2021-2/26,Windows 10 x86 - Building Rizin with clang and llvm-rc linker is not possible,https://github.com/rizinorg/rizin/issues/730
+2021-3/3,2021-2/27,Linux x64 - Cross-arch static compilation to x86 requires static_runtime=true,https://github.com/rizinorg/rizin/issues/735
+,2021-2/28,Onboading guide to aid newbies understand the codebase,https://github.com/rizinorg/rizin/issues/736
+2022-5/6,2021-3/1,Group dist files under dist/ directory,https://github.com/rizinorg/rizin/issues/743
+2021-3/16,2021-3/1,The configuration variable `asm.fcn.signature` is not working properly,https://github.com/rizinorg/rizin/issues/744
+2022-7/2,2021-3/2,Backports from radare2,https://github.com/rizinorg/rizin/issues/747
+2021-3/5,2021-3/2,Remove io_rbuf,https://github.com/rizinorg/rizin/issues/751
+,2021-3/2,There seems to be no way to determine the base of a number when there are no analysis hints defined,https://github.com/rizinorg/rizin/issues/752
+2021-3/29,2021-3/3,Rizin segfaults with Tree-Sitter 0.19.x,https://github.com/rizinorg/rizin/issues/755
+2021-6/29,2021-3/3,Segfault when printing disassembly ,https://github.com/rizinorg/rizin/issues/759
+2021-3/4,2021-3/4,Debugger stepping - `ds` => step opcode - `dsi` => step instruction,https://github.com/rizinorg/rizin/issues/761
+,2021-3/4,Debug - Use a trailing `b` to perform the action backwards,https://github.com/rizinorg/rizin/issues/762
+,2021-3/4,Debug persistent tracing - `-t` flag,https://github.com/rizinorg/rizin/issues/765
+2022-5/11,2021-3/4,User friendly way for searching in a defined memory map,https://github.com/rizinorg/rizin/issues/766
+2021-4/22,2021-3/4,Meta-D - Delete the content under the cursor until the next word boundary to the right,https://github.com/rizinorg/rizin/issues/767
+2021-3/9,2021-3/5,"`/a jmp rsp @{$(dmm ~rizin[0,1])}` is not working",https://github.com/rizinorg/rizin/issues/773
+2021-3/7,2021-3/7,pyc related plugins are not loaded,https://github.com/rizinorg/rizin/issues/780
+,2021-3/8,Colorize the `pf` output (especially in `rizin -nn binary` case) ,https://github.com/rizinorg/rizin/issues/782
+,2021-3/8,`pf` enhancements,https://github.com/rizinorg/rizin/issues/783
+2021-9/4,2021-3/8,Convert `i` commands to newshell,https://github.com/rizinorg/rizin/issues/786
+2021-10/15,2021-3/8,Convert `C` (cmd_meta.c) commands to rzshell,https://github.com/rizinorg/rizin/issues/792
+2022-1/13,2021-3/9,4-byte strings (`wchar*`) recognized inconsistently,https://github.com/rizinorg/rizin/issues/802
+2021-3/16,2021-3/9,rz-asm crashed when parsing python bytecode,https://github.com/rizinorg/rizin/issues/803
+2021-3/18,2021-3/10,"Add tests for ""pyc"" (python bytecode) plugins",https://github.com/rizinorg/rizin/issues/805
+2021-9/17,2021-3/10,debugger uses cmd.prompt/dbg.status to update flags,https://github.com/rizinorg/rizin/issues/807
+,2021-3/12,Update binutils code to the latest binutils,https://github.com/rizinorg/rizin/issues/814
+,2021-3/12,Relocate automatically overlapping sections in object files.,https://github.com/rizinorg/rizin/issues/815
+2021-12/15,2021-3/12,FLIRT implementation and testing signatures,https://github.com/rizinorg/rizin/issues/817
+,2021-3/15,Allow user to configure runtime exceptions to intercept,https://github.com/rizinorg/rizin/issues/823
+2021-3/17,2021-3/9,asm.size leads to wrong string length being displayed,https://github.com/rizinorg/rizin/issues/827
+2021-8/19,2021-3/15,Non-deterministic test failure in db/cmd/write,https://github.com/rizinorg/rizin/issues/828
+,2021-3/16,Unbreak broken tests,https://github.com/rizinorg/rizin/issues/834
+2021-3/16,2021-3/16,The testsuite if broken on some architectures,https://github.com/rizinorg/rizin/issues/837
+2021-3/30,2021-3/16,Refactor RzBinFile.sdb_addrinfo out of Sdb,https://github.com/rizinorg/rizin/issues/843
+2021-4/2,2021-3/17,Wrong demangling of `__TIFFSwab16BitData`,https://github.com/rizinorg/rizin/issues/851
+,2021-3/17,Unreliable HTTP Test,https://github.com/rizinorg/rizin/issues/854
+2021-3/25,2021-3/19,"Explain RZ_OWN, RZ_BORROW, etc in developers documentation",https://github.com/rizinorg/rizin/issues/863
+2022-5/16,2021-3/19,"Show current flag in the command prompt, near the address",https://github.com/rizinorg/rizin/issues/866
+,2021-3/20,Rizin didn't detect the correct language of binary,https://github.com/rizinorg/rizin/issues/878
+,2021-3/20,Rizin navigates to a strange address when seek to pascal main,https://github.com/rizinorg/rizin/issues/879
+2022-2/14,2021-3/21,Missing arguments or redundant arguments for main function,https://github.com/rizinorg/rizin/issues/882
+2021-5/20,2021-3/21,Map_dwarf_reg_to_x86_reg warnings when processing a modified binary,https://github.com/rizinorg/rizin/issues/883
+2021-4/15,2021-3/21,Merge LUA53 (in extras) with LUA54 (in core),https://github.com/rizinorg/rizin/issues/886
+,2021-3/24,"Combine output of `ir`, `is`, `ii` commands into one table with multiple columns for symbols that are in all three.",https://github.com/rizinorg/rizin/issues/900
+2021-4/29,2021-3/24,Output enhancement of `dmh` family of commands,https://github.com/rizinorg/rizin/issues/902
+,2021-3/25,Nested `~{0}~{}` doesn't work,https://github.com/rizinorg/rizin/issues/904
+,2021-3/25,Rewrite `pf` formats parser,https://github.com/rizinorg/rizin/issues/905
+,2021-3/26,"Unify code of source information access for DWARF, PDB, dSYM",https://github.com/rizinorg/rizin/issues/907
+2021-8/19,2021-3/28,"RZ_GITTIP is ""unknown"" when built from Cutter with Release 0.1.1",https://github.com/rizinorg/rizin/issues/920
+,2021-3/29,Port `test/unit/legacy_unit` tests to the current unit test framework,https://github.com/rizinorg/rizin/issues/923
+,2021-3/31,Document release process,https://github.com/rizinorg/rizin/issues/942
+2021-4/6,2021-4/1,"Undefined symbols: ""_environ""",https://github.com/rizinorg/rizin/issues/952
+,2021-3/30,PDB parser loses information about certain method overrides,https://github.com/rizinorg/rizin/issues/955
+2021-4/8,2021-4/7,Static build and old Debian tests stuck,https://github.com/rizinorg/rizin/issues/972
+2022-6/28,2021-4/7,"Remove legacy signatures (""zignatures"") support",https://github.com/rizinorg/rizin/issues/973
+,2021-4/9,Fix broken tests on Alpine linux,https://github.com/rizinorg/rizin/issues/982
+2022-7/12,2021-4/9,Remove the use of `sdb_json_*` API,https://github.com/rizinorg/rizin/issues/985
+,2021-4/11,"An API to get the function BB graph, callgraph, etc",https://github.com/rizinorg/rizin/issues/992
+,2021-4/11,Some bug with `aaef` by `aaa`,https://github.com/rizinorg/rizin/issues/995
+2021-4/13,2021-4/11,Build error: ‘RZ_CRYPTO_STATIC_PLUGINS’ undeclared here,https://github.com/rizinorg/rizin/issues/996
+2021-5/7,2021-4/12,Load Layout in Visual Panels doesn't request a path for the file,https://github.com/rizinorg/rizin/issues/999
+,2021-4/12,Detect structure member shadowing another variable,https://github.com/rizinorg/rizin/issues/1004
+2021-6/17,2021-4/12,Tool inclusion in Parrot Security,https://github.com/rizinorg/rizin/issues/1006
+,2021-4/13,Implement Visual Types mode,https://github.com/rizinorg/rizin/issues/1009
+2021-4/16,2021-4/13,Bundle RzGhidra into official Docker image,https://github.com/rizinorg/rizin/issues/1011
+2022-2/16,2021-4/13,Create system plugin path for rizin for more friendly Debian packaging,https://github.com/rizinorg/rizin/issues/1013
+2021-4/19,2021-4/14,Custom magic files do not work with GNU magic,https://github.com/rizinorg/rizin/issues/1017
+,2021-4/15,Better support for debugging for FreeBSD,https://github.com/rizinorg/rizin/issues/1025
+2021-9/4,2021-4/15,API for the `i` (file information) commands,https://github.com/rizinorg/rizin/issues/1027
+2021-4/21,2021-4/16,"Wrong use of `sz = wcstombs(NULL, buf, len);` in `librz/util/str.c`",https://github.com/rizinorg/rizin/issues/1032
+2021-4/19,2021-4/16,Failed to install RzGhidra using rz-pm inside docker: fatal error: rz_type.h: No such file or directory,https://github.com/rizinorg/rizin/issues/1036
+2021-7/22,2021-4/18,Endless 'Exceeded analysis threshold' while diffing windows executable ,https://github.com/rizinorg/rizin/issues/1044
+2021-4/20,2021-4/19,RzBin/RzIO MSVC 2019 warnings,https://github.com/rizinorg/rizin/issues/1048
+2021-9/17,2021-4/20,"Add support for UTF-16 BE, UTF-32 BE strings detection",https://github.com/rizinorg/rizin/issues/1052
+2022-3/15,2021-4/21,Migrate from `wcstombs()` function since is not thread-safe,https://github.com/rizinorg/rizin/issues/1058
+2021-7/20,2021-4/22,Support for nested structures and unions,https://github.com/rizinorg/rizin/issues/1064
+,2021-4/22,Test and Fix SNES ROM Loading,https://github.com/rizinorg/rizin/issues/1067
+,2021-4/26,Add type renaming command,https://github.com/rizinorg/rizin/issues/1078
+,2021-4/27,Add API for getting an atomic RzBaseType with certain characteristics,https://github.com/rizinorg/rizin/issues/1080
+2021-4/27,2021-4/27,Add underlying type to Enum RzBaseType,https://github.com/rizinorg/rizin/issues/1081
+2021-8/17,2021-4/28,New GCC 11.0.1 (Fedora 34) build warnings,https://github.com/rizinorg/rizin/issues/1084
+2021-7/16,2021-4/29,Fix Heap commands for different versions of glibc,https://github.com/rizinorg/rizin/issues/1088
+2021-7/8,2021-4/30,Integration Test test_open_analyse_save_load_project only works a single time,https://github.com/rizinorg/rizin/issues/1093
+2021-5/1,2021-4/30,Proposal: write meson command line flags to build rizin for each linux distro,https://github.com/rizinorg/rizin/issues/1094
+2021-6/7,2021-5/3,rz-asm show a detailed description for a single opcode,https://github.com/rizinorg/rizin/issues/1100
+2021-6/29,2021-5/6,axgj command returns an invalid JSON if a new code ref was added manually,https://github.com/rizinorg/rizin/issues/1106
+2021-5/6,2021-5/6,rz_core_file_close removed from API list,https://github.com/rizinorg/rizin/issues/1107
+2021-5/10,2021-5/7,Support JSON Path in `librz/util/json_parser.c`,https://github.com/rizinorg/rizin/issues/1108
+2021-12/14,2021-5/10,Refactor `afi` and `afl` commands code,https://github.com/rizinorg/rizin/issues/1117
+2021-9/4,2021-5/11,Suggestion to move `ib` command,https://github.com/rizinorg/rizin/issues/1120
+,2021-5/12,"`Ve` `asm.*` settings preview should use the ""default"" code",https://github.com/rizinorg/rizin/issues/1123
+,2021-5/14,Unrealistic Type Propagation Test,https://github.com/rizinorg/rizin/issues/1132
+2021-9/8,2021-5/15,linux static build rizin can not debug,https://github.com/rizinorg/rizin/issues/1133
+2021-7/28,2021-5/16,Update currently broken core_plugin_example.c to Newshell API,https://github.com/rizinorg/rizin/issues/1134
+,2021-5/16,Reference to constant CFStrings in Disassembly are shown just as __CFConstantStringClassReference instead of the string,https://github.com/rizinorg/rizin/issues/1135
+,2021-5/16,CFStrings are wrongly shown as actual Strings in Disassembly,https://github.com/rizinorg/rizin/issues/1136
+2021-5/17,2021-5/16,use-after-free in pyc parsing,https://github.com/rizinorg/rizin/issues/1137
+2021-5/18,2021-5/17,`Ll~!^c` should print all lines that *aren't* started from `c` but it doesn't,https://github.com/rizinorg/rizin/issues/1140
+,2021-5/17,Split off Relocs Code from bin_elf.inc,https://github.com/rizinorg/rizin/issues/1141
+,2021-5/17,Stop Analyzing at Tailjump into a Reloc Target,https://github.com/rizinorg/rizin/issues/1144
+2021-5/18,2021-5/18,rz-hash <file> coredumps,https://github.com/rizinorg/rizin/issues/1145
+,2021-5/18,Improve rz-diff graph diffing,https://github.com/rizinorg/rizin/issues/1147
+2021-6/22,2021-5/19,File is still required when passing one option to rizin,https://github.com/rizinorg/rizin/issues/1150
+,2021-5/21,Possibly wrong `vsize` calculation of `.text` section for the Windows PE file ,https://github.com/rizinorg/rizin/issues/1155
+,2021-5/22,Artificial sections created by rz_bin_elf_get_sections,https://github.com/rizinorg/rizin/issues/1159
+2021-6/17,2021-5/25,Write over (wo) commands don't respect block size override,https://github.com/rizinorg/rizin/issues/1165
+2021-8/12,2021-5/26,Jemalloc heap commands cause segfault,https://github.com/rizinorg/rizin/issues/1167
+,2021-5/28,Remove `sdb_fmt` and switch to `rz_strf`/`rz_str_*`/`rz_strbuf_` API depending on the case,https://github.com/rizinorg/rizin/issues/1168
+2021-7/19,2021-5/28,Migrate type links to the hashtable,https://github.com/rizinorg/rizin/issues/1169
+2021-7/12,2021-5/28,Erroneous stack variables in `push [esp+var]` situations,https://github.com/rizinorg/rizin/issues/1171
+,2021-5/31,"Resolve the clash between `strdup()`, `rz_str_dup()`, and `rz_str_new()`.",https://github.com/rizinorg/rizin/issues/1176
+2021-5/31,2021-5/31,`rz-pm -i rz-ghidra` installs to `/usr/local` instead of `~/.local`,https://github.com/rizinorg/rizin/issues/1178
+2021-6/4,2021-6/1,Rz-diff corner case fail for -S option and parse error for arguments.,https://github.com/rizinorg/rizin/issues/1183
+,2021-6/2,Uncouple ARM's Thumb mode detection from `asm.bits`,https://github.com/rizinorg/rizin/issues/1185
+2021-8/4,2021-6/3,Refactor type constraints and move to `librz/type`,https://github.com/rizinorg/rizin/issues/1188
+2021-6/14,2021-6/4,`rzpipe` test always fails on a system without `rizin` binary,https://github.com/rizinorg/rizin/issues/1192
+2021-6/11,2021-6/6,Rizin-0.2.1 compilation on Gentoo error: ‘TSLanguage’ has no member named ‘production_id_count’,https://github.com/rizinorg/rizin/issues/1194
+,2021-6/7,ESIL emulation failed when hit reloc functions,https://github.com/rizinorg/rizin/issues/1197
+,2021-6/10,Add support for proper preprocessor in RzType,https://github.com/rizinorg/rizin/issues/1204
+,2021-6/10,Add support for classes and methods in RzType,https://github.com/rizinorg/rizin/issues/1205
+2021-6/17,2021-6/16,Replace kiwiirc irc links with https://web.libera.chat links,https://github.com/rizinorg/rizin/issues/1217
+,2021-6/18,Refactor to not use calling the external commands unless necessary,https://github.com/rizinorg/rizin/issues/1223
+,2021-6/21,Refactor and merge `librz/analysis/fcn.c` and `librz/analysis/function.c`,https://github.com/rizinorg/rizin/issues/1232
+,2021-6/24,Add proper bitfields support in RzType,https://github.com/rizinorg/rizin/issues/1240
+,2021-6/24,Support for alignment and packing in composite types,https://github.com/rizinorg/rizin/issues/1241
+2021-7/19,2021-6/28,Fix `rz_analysis_var_get_argnum` to support stack variables as well,https://github.com/rizinorg/rizin/issues/1249
+,2021-7/1,Calculate default type for variable based on its size,https://github.com/rizinorg/rizin/issues/1256
+,2021-7/2,Add alignment algorithms for binary diffing in `rz-diff`,https://github.com/rizinorg/rizin/issues/1257
+,2021-7/2,Tcache parsing should be handled on per thread basis,https://github.com/rizinorg/rizin/issues/1259
+,2021-7/2,Make different variables if they are reused differently,https://github.com/rizinorg/rizin/issues/1260
+2021-8/26,2021-7/2,Migrate function checks from headers to Meson,https://github.com/rizinorg/rizin/issues/1261
+2021-9/4,2021-7/5,Minor `clang-cl` warnings,https://github.com/rizinorg/rizin/issues/1266
+2021-7/7,2021-7/5,Elf symbol name are truncated when >= 256,https://github.com/rizinorg/rizin/issues/1268
+,2021-7/6,Support C output of structures of pointers of arrays of nested pointers to functions,https://github.com/rizinorg/rizin/issues/1272
+2021-8/24,2021-7/6,Missing method references in DEX,https://github.com/rizinorg/rizin/issues/1276
+2021-12/31,2021-7/8,Wrong analysis results of Busybox PowerPC,https://github.com/rizinorg/rizin/issues/1282
+,2021-7/9,Add support for loading debug information from `debuginfod`,https://github.com/rizinorg/rizin/issues/1285
+,2021-7/9,Allow to visually map assembly and source code (or decompiler output),https://github.com/rizinorg/rizin/issues/1286
+2022-4/3,2021-7/9,Add vector and control register type,https://github.com/rizinorg/rizin/issues/1287
+2021-8/10,2021-7/12,Migrate ESIL and Debug trace from SDB to hashtable,https://github.com/rizinorg/rizin/issues/1294
+,2021-7/12,Detect `char *` type properly for per-char access in the string for x86,https://github.com/rizinorg/rizin/issues/1295
+2022-6/28,2021-7/13,Fix type matching for signatures,https://github.com/rizinorg/rizin/issues/1300
+2021-9/3,2021-7/13,"Compress all resoures (SDB files, etc) into binary for static builds",https://github.com/rizinorg/rizin/issues/1301
+2021-7/22,2021-7/14,MIPS pseudo is broken,https://github.com/rizinorg/rizin/issues/1305
+,2021-7/14,PowerPC QPX not supported,https://github.com/rizinorg/rizin/issues/1306
+2022-6/28,2021-7/15,Fix or improve non-C type tests,https://github.com/rizinorg/rizin/issues/1311
+2021-12/23,2021-7/16,"zfs creates multiple functions with the same name, breaking project opening",https://github.com/rizinorg/rizin/issues/1314
+2021-7/19,2021-7/16,Command `dL native` fails,https://github.com/rizinorg/rizin/issues/1317
+2022-6/10,2021-7/16,Improve Windows `rz-test` performance,https://github.com/rizinorg/rizin/issues/1320
+,2021-7/19,Switch to the new format of types databases and signatures,https://github.com/rizinorg/rizin/issues/1322
+,2021-7/19,Support DWARF `.debug-sup` section parsing,https://github.com/rizinorg/rizin/issues/1330
+2021-8/5,2021-7/19,Fix OpenBSD test for bins/pe/maxsecXP.exe,https://github.com/rizinorg/rizin/issues/1332
+,2021-7/20,Mainstream Tree-Sitter issues for Rizin use cases,https://github.com/rizinorg/rizin/issues/1337
+2021-7/30,2021-7/21,capstone-next `test_analysis_sign_za_ppc` is broken.,https://github.com/rizinorg/rizin/issues/1340
+2021-8/5,2021-7/21,"Fix PE: corkami 65535sects.exe - section list, entrypoint, open and analyze with ASAN build",https://github.com/rizinorg/rizin/issues/1341
+,2021-7/21,Tracking porting the commands parser to the tree-sitter-based one,https://github.com/rizinorg/rizin/issues/1342
+2021-7/29,2021-7/21,Fix types test on static build,https://github.com/rizinorg/rizin/issues/1344
+,2021-7/24,Add support for multi-line comments,https://github.com/rizinorg/rizin/issues/1356
+2021-7/30,2021-7/27,`aeb` without `aaa` triggers a segmentfault,https://github.com/rizinorg/rizin/issues/1365
+2022-1/5,2021-7/29,Handle forward definitions in PDB parser,https://github.com/rizinorg/rizin/issues/1377
+,2021-7/29,capstone-next tests are broken,https://github.com/rizinorg/rizin/issues/1380
+2021-8/6,2021-8/2,Extract SPP into subproject,https://github.com/rizinorg/rizin/issues/1388
+2021-8/2,2021-8/2,`tsj` output does not match `ts` ,https://github.com/rizinorg/rizin/issues/1391
+,2021-8/2,Refactor RzUtil to remove `RzPrint` and `cb_printf()` usage,https://github.com/rizinorg/rizin/issues/1392
+2021-8/6,2021-8/4,Add API for C string representation of types,https://github.com/rizinorg/rizin/issues/1399
+,2021-8/5,RISC-V compiler warnings,https://github.com/rizinorg/rizin/issues/1406
+2021-8/9,2021-8/7,Resource exhaustion in LE parsing,https://github.com/rizinorg/rizin/issues/1409
+,2021-8/9,Support separate help entries when number of arguments is different,https://github.com/rizinorg/rizin/issues/1413
+2021-8/29,2021-8/10,`dte` doesn't show ESIL trace,https://github.com/rizinorg/rizin/issues/1416
+2021-8/30,2021-8/10,"Save project in compressed format, to save disk space.",https://github.com/rizinorg/rizin/issues/1417
+2021-8/10,2021-8/10,radareorg/radare2@676cb56,https://github.com/rizinorg/rizin/issues/1421
+2021-8/18,2021-8/10,"Backport ""Correct MOVD instruction and SSE registers definition""",https://github.com/rizinorg/rizin/issues/1422
+2021-8/18,2021-8/10,"Backport ""Reset certificate search properly""",https://github.com/rizinorg/rizin/issues/1423
+2021-8/18,2021-8/10,"Backport ""System LIBRARY_PATH must be honored (not replaced) on HaikuOS""",https://github.com/rizinorg/rizin/issues/1424
+2021-8/18,2021-8/10,"Backport ""Fix coverity issue in Mach-O format""",https://github.com/rizinorg/rizin/issues/1425
+2021-8/18,2021-8/10,"Backport ""Fix large loading times when parsing encrypted/fuzzed macho""",https://github.com/rizinorg/rizin/issues/1426
+2021-8/18,2021-8/10,"Backport ""Dont trust the unaligned rich PEs ##bin""",https://github.com/rizinorg/rizin/issues/1427
+2021-8/18,2021-8/10,"Backport ""Fix emulation for ARM's ldrd""",https://github.com/rizinorg/rizin/issues/1428
+2022-5/13,2021-8/10,"Backport ""Sort flags by [sections,formats][other][regs]""",https://github.com/rizinorg/rizin/issues/1429
+2021-8/18,2021-8/10,"Backport ""Wrong assembly generated for: 'add x0, x0, 1, lsl # 12'""",https://github.com/rizinorg/rizin/issues/1430
+2021-8/11,2021-8/10,PPC broken test: db/analysis/sysz aoj 4140f008,https://github.com/rizinorg/rizin/issues/1431
+2021-8/18,2021-8/10,PPC broken test: db/tools/rz_gg rz-gg debruijn sequence,https://github.com/rizinorg/rizin/issues/1432
+2021-8/24,2021-8/10,PPC broken test: db/cmd/types tpv,https://github.com/rizinorg/rizin/issues/1433
+,2021-8/11,Remove typelinks (`tl`) in favor of  the global variables,https://github.com/rizinorg/rizin/issues/1437
+,2021-8/13,Convert analysis `a` (cmd_analysis.c) commands to rzshell,https://github.com/rizinorg/rizin/issues/1442
+2022-4/16,2021-8/13,"Move YXML dependency into RzUtil, like JSON",https://github.com/rizinorg/rizin/issues/1445
+2021-9/13,2021-8/13,Excessive use of builds.sr.ht,https://github.com/rizinorg/rizin/issues/1449
+2021-8/16,2021-8/14,incorrect avr disassembly ,https://github.com/rizinorg/rizin/issues/1452
+2021-9/23,2021-8/16,Move all printing functions from `librz/core/*.c` into one file `librz/core/print.c`,https://github.com/rizinorg/rizin/issues/1458
+,2021-8/16,Add Float and Trans theories into RZIL,https://github.com/rizinorg/rizin/issues/1461
+,2021-8/18,Convert `i`/`rz-bin` calls inside Rizin to the API calls,https://github.com/rizinorg/rizin/issues/1475
+2021-8/23,2021-8/19,Support for more than 65535 segments in ELF64,https://github.com/rizinorg/rizin/issues/1485
+2021-8/25,2021-8/20,avg <non-existing-var> does not return an error,https://github.com/rizinorg/rizin/issues/1493
+2021-9/2,2021-8/20,Global variables should be valid addresses ,https://github.com/rizinorg/rizin/issues/1494
+,2021-8/20,Global variables should be replaced in disassembly,https://github.com/rizinorg/rizin/issues/1495
+2021-9/3,2021-8/20,"avgt should specify var_name as VAR_TYPE, not STRING",https://github.com/rizinorg/rizin/issues/1496
+2021-9/6,2021-8/20,"project saved in 0.2.1, opened with 0.3.0-git, base types cannot be found",https://github.com/rizinorg/rizin/issues/1497
+2021-8/27,2021-8/23,"`rz-bin` crashes in RzCoreSymbolication, Mach-O and Python bytecode",https://github.com/rizinorg/rizin/issues/1504
+2021-8/25,2021-8/23,io.cache: oob-read when reading from cache,https://github.com/rizinorg/rizin/issues/1506
+2021-9/1,2021-8/23,pipe to head/tail crashes rizin because of SIGPIPE,https://github.com/rizinorg/rizin/issues/1507
+2021-8/24,2021-8/23,Fuzzed test fails on dev branch,https://github.com/rizinorg/rizin/issues/1508
+2022-3/2,2021-8/24,def-use analysis capabilities,https://github.com/rizinorg/rizin/issues/1511
+2022-5/6,2021-8/24,`izzz` reports wrong addresses,https://github.com/rizinorg/rizin/issues/1514
+2021-9/4,2021-8/24,"Also, `iHH` should be killed in profit of `iH` only.",https://github.com/rizinorg/rizin/issues/1516
+2021-9/30,2021-8/25,Couldn't get the node inside the RBTree via `rz_rbtree_find()`,https://github.com/rizinorg/rizin/issues/1523
+,2021-8/25,Integrate Rizin with oss-fuzz,https://github.com/rizinorg/rizin/issues/1527
+,2021-8/25,Rewrite bin plugins,https://github.com/rizinorg/rizin/issues/1530
+,2021-8/26,Migrate `ae` commands to the rzshell,https://github.com/rizinorg/rizin/issues/1533
+2021-9/6,2021-8/27,Detect Groovy & Kotlin on dex binaries,https://github.com/rizinorg/rizin/issues/1537
+2021-8/30,2021-8/30,Android packages build error,https://github.com/rizinorg/rizin/issues/1548
+2021-9/3,2021-8/30,Autocomplete global variable names,https://github.com/rizinorg/rizin/issues/1551
+2021-8/31,2021-8/30,Do not compress files by default,https://github.com/rizinorg/rizin/issues/1555
+2022-3/6,2021-8/30,Show the `mu_*` asserts in the AppVeyor (Windows) logs,https://github.com/rizinorg/rizin/issues/1556
+2021-9/7,2021-8/31,Non existing types are saved in a project,https://github.com/rizinorg/rizin/issues/1560
+,2021-9/1,`icc` command prints wrong objc code,https://github.com/rizinorg/rizin/issues/1567
+2021-9/2,2021-9/2,SEGV on ld-linux loading,https://github.com/rizinorg/rizin/issues/1572
+2022-6/28,2021-9/3,Script to detect unused RZ_API functions,https://github.com/rizinorg/rizin/issues/1580
+,2021-9/3,Port `$` (aliases) to rzshell,https://github.com/rizinorg/rizin/issues/1583
+2022-8/25,2021-9/3,Port `(` (macroses) to rzshell,https://github.com/rizinorg/rizin/issues/1584
+2021-9/8,2021-9/3,Port `-` (open editor) to rzshell,https://github.com/rizinorg/rizin/issues/1585
+,2021-9/3,Port `/` (search) to rzshell,https://github.com/rizinorg/rizin/issues/1586
+2022-2/3,2021-9/3,Port `f` (flags) to rzshell,https://github.com/rizinorg/rizin/issues/1587
+2022-1/3,2021-9/3,Port `m` to rzshell,https://github.com/rizinorg/rizin/issues/1588
+2022-2/7,2021-9/3,Port `o` (open) to rzshell,https://github.com/rizinorg/rizin/issues/1589
+,2021-9/3,Port `p` (print) to rzshell,https://github.com/rizinorg/rizin/issues/1590
+2022-5/8,2021-9/4,Provide command output modes as `:<mode>` instead of suffix letter,https://github.com/rizinorg/rizin/issues/1591
+,2021-9/4,ELF gnu_hash not correctly detected,https://github.com/rizinorg/rizin/issues/1592
+2021-9/6,2021-9/5,"`db/cmd/feat_yank` ""yank-segfault4"" test failure on FreeBSD",https://github.com/rizinorg/rizin/issues/1597
+2021-10/1,2021-9/6,Extract demangling code into the separate library,https://github.com/rizinorg/rizin/issues/1600
+2021-9/7,2021-9/7,types not correctly autocompleted,https://github.com/rizinorg/rizin/issues/1607
+2021-9/7,2021-9/7,`t*` available but not working,https://github.com/rizinorg/rizin/issues/1611
+2021-9/8,2021-9/7,RZ_LOG_DEBUG should not be compiled in releases mode,https://github.com/rizinorg/rizin/issues/1612
+2021-9/27,2021-9/8,Provide `rz_type_as_string_pretty` API for Cutter and others to pretty-print a type,https://github.com/rizinorg/rizin/issues/1624
+,2021-9/8,Provide variable to disable RzBinMap patching,https://github.com/rizinorg/rizin/issues/1626
+2021-9/9,2021-9/8,Upgrade tree-sitter dependency to 0.19.5,https://github.com/rizinorg/rizin/issues/1629
+,2021-9/8,CPU profiles improvements,https://github.com/rizinorg/rizin/issues/1632
+2021-9/10,2021-9/9,RzType: struct with an array as member generate wrong string in rz_type_db_base_type_as_string,https://github.com/rizinorg/rizin/issues/1636
+2021-9/10,2021-9/9,"`pf` prints error messages like `Cannot find format ""3xi foo bar""`",https://github.com/rizinorg/rizin/issues/1640
+2021-9/13,2021-9/9,toe does not load existing type in editor and it does not change it afterward,https://github.com/rizinorg/rizin/issues/1642
+,2021-9/10,oob breaks analysis,https://github.com/rizinorg/rizin/issues/1651
+,2021-9/12,ELF: relocations are not re-patched on rebase,https://github.com/rizinorg/rizin/issues/1661
+2021-9/13,2021-9/12,Printing a type makes Rizin crash,https://github.com/rizinorg/rizin/issues/1662
+,2021-9/13,Support types with multiple declarators,https://github.com/rizinorg/rizin/issues/1666
+2021-9/15,2021-9/13,rz-test: Segmentation fault if optional flags are added without assignment,https://github.com/rizinorg/rizin/issues/1670
+,2021-9/13,"CPU profiles: add the `.comment` value as rizin comment near the flag, if defined",https://github.com/rizinorg/rizin/issues/1671
+,2021-9/13,CPU profiles: use `io`/`mem`/`io-mem` types,https://github.com/rizinorg/rizin/issues/1672
+2022-3/24,2021-9/13,Add -Wimplicit-fallthrough to meson.build,https://github.com/rizinorg/rizin/issues/1674
+2022-1/8,2021-9/14,Convert `ec` commands to the newshell and proper API,https://github.com/rizinorg/rizin/issues/1676
+2021-9/15,2021-9/15,`aaa` crash on `rizin.exe`,https://github.com/rizinorg/rizin/issues/1691
+2021-9/18,2021-9/15,Analysis of binary with `aaa` resulting in segfault.,https://github.com/rizinorg/rizin/issues/1696
+,2021-9/16,Fail to load ARMv8 ELF file properly,https://github.com/rizinorg/rizin/issues/1698
+,2021-9/16,Multiple input in rizin,https://github.com/rizinorg/rizin/issues/1702
+2021-10/4,2021-9/17,unable to change rflags register via dr,https://github.com/rizinorg/rizin/issues/1710
+2021-9/28,2021-9/18,Do not print too much registers in `Vpp` mode,https://github.com/rizinorg/rizin/issues/1716
+2021-9/27,2021-9/18,Visual two-column mode leaves junk on the screen upon scrolling,https://github.com/rizinorg/rizin/issues/1717
+,2021-7/15,Errors parsing types from `Windows.h`,https://github.com/rizinorg/rizin/issues/1720
+,2021-9/20,"Assembly of `lea rXX, XXX` instructions produces wrong machine code.",https://github.com/rizinorg/rizin/issues/1724
+,2021-3/5,String displayed with wrong offset ,https://github.com/rizinorg/rizin/issues/1725
+,2021-9/20,Wrong assembly of `nop dword [rax + rax]`.,https://github.com/rizinorg/rizin/issues/1726
+,2021-9/22,Fail to load ELF ARM binary,https://github.com/rizinorg/rizin/issues/1729
+,2021-9/23,Convert `bin_versioninfo()` from `librz/core/cbin.c` into the proper API,https://github.com/rizinorg/rizin/issues/1732
+2021-10/8,2021-9/23,Convert `bin_resources()` from `librz/core/cbin.c` into the proper API,https://github.com/rizinorg/rizin/issues/1733
+2021-10/15,2021-9/24,Different color in help for the referenced arguments,https://github.com/rizinorg/rizin/issues/1746
+2021-9/26,2021-9/26,Faster way to iterate all operands and of instructions?,https://github.com/rizinorg/rizin/issues/1751
+2021-10/15,2021-9/26,Make `args: []` optional in YAML files for cmd_descs,https://github.com/rizinorg/rizin/issues/1754
+,2021-9/26,Bad pkg-config files in the official `static-x86_64` release artifacts,https://github.com/rizinorg/rizin/issues/1755
+2022-5/31,2021-9/27,Refactor GDB client parsing to use YXML,https://github.com/rizinorg/rizin/issues/1756
+2021-11/26,2021-9/27,Support Windows for `shm://` RzIO plugin,https://github.com/rizinorg/rizin/issues/1758
+2022-1/3,2021-9/29,rz-diff -H view is wrong when one file is much shorter than the other,https://github.com/rizinorg/rizin/issues/1770
+2021-10/2,2021-9/30,Port `librz/core/ctypes.c` type printing functions to the new `rz_type_as_pretty_string` API,https://github.com/rizinorg/rizin/issues/1775
+,2021-9/14,incorrect assembly code in masm syntax,https://github.com/rizinorg/rizin/issues/1776
+,2021-9/30,"`Vv` mode left/right arrows should scroll the function name, not switch to the variables",https://github.com/rizinorg/rizin/issues/1779
+2021-10/6,2021-10/1,Project loading does not reopen all previously opened files.,https://github.com/rizinorg/rizin/issues/1782
+2021-10/2,2021-10/1,"afvd Cannot find base type ""char [20]""",https://github.com/rizinorg/rizin/issues/1784
+2022-5/10,2021-10/2,Not all unit test requiring install accept the RZ_PREFIX env var,https://github.com/rizinorg/rizin/issues/1789
+2022-1/5,2021-10/4,`af` interprets conditional jumps as end of function,https://github.com/rizinorg/rizin/issues/1796
+2021-10/8,2021-10/4,test_autocmplt segfaults in Rizin 0.3.0 when built via Gentoo ebuild,https://github.com/rizinorg/rizin/issues/1797
+,2021-10/5,Fail opening a fatmacho,https://github.com/rizinorg/rizin/issues/1800
+,2021-10/6,PowerPC Linux build warnings,https://github.com/rizinorg/rizin/issues/1803
+,2021-10/8,Allow loading DWARF information from the separate files,https://github.com/rizinorg/rizin/issues/1805
+2021-10/27,2021-10/8,RzShell add auto-completion support for @,https://github.com/rizinorg/rizin/issues/1807
+2021-10/28,2021-10/8,RzShell add auto-completion support for @ and @@ modifiers,https://github.com/rizinorg/rizin/issues/1808
+,2021-10/11,mips function call represented as **(code **),https://github.com/rizinorg/rizin/issues/1812
+2021-12/16,2021-10/11,rizin-src tarball in releases include .git directories of subprojects,https://github.com/rizinorg/rizin/issues/1814
+,2021-10/12,Move `librz/cons/grep.c` (`~`) command from the RzCons to the RzCore,https://github.com/rizinorg/rizin/issues/1824
+,2021-10/6,double-clicking address or name in PIE binary seeks to the wrong address,https://github.com/rizinorg/rizin/issues/1828
+2022-4/27,2021-10/13,`i` commands return strings with a lot of trailing space,https://github.com/rizinorg/rizin/issues/1831
+,2021-10/14,`rz-asm` assembly results may be not correct,https://github.com/rizinorg/rizin/issues/1834
+2022-3/27,2021-10/14,Wrong default bitness while analyzing arm32 ELF binary,https://github.com/rizinorg/rizin/issues/1835
+2022-6/14,2021-10/14,Fix UTF-64LE string detection when contains `\xa1` character,https://github.com/rizinorg/rizin/issues/1836
+,2021-10/15,Provide a `help` command that can be used to provide help for common topics,https://github.com/rizinorg/rizin/issues/1837
+2021-10/26,2021-10/15,"Create special category for ""system"" commands",https://github.com/rizinorg/rizin/issues/1840
+2021-10/15,2021-10/15,File autocompletion for ~ ($HOME) does not work,https://github.com/rizinorg/rizin/issues/1841
+2021-10/18,2021-10/16,`vw?` results in a black screen,https://github.com/rizinorg/rizin/issues/1845
+,2021-10/19,Types: allow mixed size pointers,https://github.com/rizinorg/rizin/issues/1856
+2021-11/15,2021-10/20,Make RzILBitVector not use heap for <=64bits,https://github.com/rizinorg/rizin/issues/1858
+2021-11/2,2021-10/20,Use RzILBitVector directly in rzil_op_int_t,https://github.com/rizinorg/rizin/issues/1859
+2021-10/23,2021-10/21,Rizin cannot find `main()` function in the `/bin/ls` binary from Fedora 35 x86_64,https://github.com/rizinorg/rizin/issues/1864
+2021-11/8,2021-10/21,`ecn`/`ecp` do not work when starting from default theme,https://github.com/rizinorg/rizin/issues/1866
+,2021-10/22,NetBSD build warnings,https://github.com/rizinorg/rizin/issues/1873
+,2021-10/22,Remove global state from TUI modes,https://github.com/rizinorg/rizin/issues/1874
+,2021-10/22,Split predefined `$variables` into categories,https://github.com/rizinorg/rizin/issues/1877
+2021-11/17,2021-10/24,"dist\windows\rizin.iss: No files found matching ""C:\Users\RUNNER~1\AppData\Local\Temp\rizin-win-installer\*""",https://github.com/rizinorg/rizin/issues/1881
+,2021-10/24,Is it possible to provide some preset configuration files for Visual Panels?,https://github.com/rizinorg/rizin/issues/1882
+,2021-10/25,"Add an option to show instruction numbers in `pd`, `pi` commands, various visual modes",https://github.com/rizinorg/rizin/issues/1883
+2021-10/30,2021-10/25,Number of added OK tests by `rz-test -L` for testfile is inconsistent,https://github.com/rizinorg/rizin/issues/1887
+,2021-10/26,Failure to generate 32bit Linux shellcode from 'raw' sources,https://github.com/rizinorg/rizin/issues/1889
+2021-11/1,2021-10/27,`V?` does not print the help,https://github.com/rizinorg/rizin/issues/1892
+2022-5/26,2021-10/29,Add rz-ghidra to docker container,https://github.com/rizinorg/rizin/issues/1903
+,2021-10/31,"Arbitrarily high hit counts / high allocation counts hurts search performance, refactor search hits to use rz_vector?",https://github.com/rizinorg/rizin/issues/1909
+2022-1/3,2021-11/1,Implement missing RZIL operation handlers,https://github.com/rizinorg/rizin/issues/1918
+2021-11/4,2021-11/1,Make it mandatory to document modified or newly created functions/structs in PRs,https://github.com/rizinorg/rizin/issues/1919
+2022-5/2,2021-11/1,"Support for Python 3.9, 3.10 bytecode",https://github.com/rizinorg/rizin/issues/1921
+,2021-11/2,Alpha linux: linux_debug.c:1170:17: error: unknown type name ‘RZ_DEBUG_REG_T’; did you mean ‘RZ_DEBUG_H’?,https://github.com/rizinorg/rizin/issues/1925
+,2021-11/2,RISC-V Linux debug support,https://github.com/rizinorg/rizin/issues/1926
+,2021-11/2,HPPA (PARISC) Linux support,https://github.com/rizinorg/rizin/issues/1927
+2021-11/3,2021-11/2,"Problem building in Windows 10, Visual Studio 2019",https://github.com/rizinorg/rizin/issues/1928
+,2021-11/3,SPARC Linux support,https://github.com/rizinorg/rizin/issues/1931
+2021-11/15,2021-11/5,Segfault opening riscv64 elf binary with debug symbols,https://github.com/rizinorg/rizin/issues/1943
+,2021-11/7,Unable to correctly retype a var as struct on binary,https://github.com/rizinorg/rizin/issues/1944
+,2021-11/8,"No way to distinguish between ""core files"" and ""other files"".",https://github.com/rizinorg/rizin/issues/1947
+,2021-11/9,Allow to list all settings effecting a command,https://github.com/rizinorg/rizin/issues/1951
+2021-11/15,2021-11/9,iR <hashalgo>,https://github.com/rizinorg/rizin/issues/1952
+2022-6/28,2021-11/10,Provide rz_msg_digest API to compute digests from RzBuffer,https://github.com/rizinorg/rizin/issues/1956
+2021-11/11,2021-11/10,`Failed to load project: invalid content encountered` when file is moved,https://github.com/rizinorg/rizin/issues/1957
+,2021-11/11,Refactor `RzTable` API and implementation,https://github.com/rizinorg/rizin/issues/1961
+2021-11/14,2021-11/11,Provide an `e` option for the default visual view.,https://github.com/rizinorg/rizin/issues/1963
+,2021-11/14,iH - add JSON output,https://github.com/rizinorg/rizin/issues/1978
+2022-6/10,2021-11/15,Make a dummy PDB symbol server just for CI tests,https://github.com/rizinorg/rizin/issues/1981
+2021-11/24,2021-11/15,`double free or corruption (fasttop)` if analysing unstripped binary,https://github.com/rizinorg/rizin/issues/1982
+2021-11/20,2021-11/19,Adding Comments from Visual Mode is broken,https://github.com/rizinorg/rizin/issues/1999
+2021-12/1,2021-11/22,Move RzILBitVector to RzUtil,https://github.com/rizinorg/rizin/issues/2010
+2021-11/24,2021-11/23,Build Improvements for Packaging,https://github.com/rizinorg/rizin/issues/2013
+2022-5/30,2021-11/23,Trailing nibble causes any disasm to fail,https://github.com/rizinorg/rizin/issues/2014
+2021-11/26,2021-11/23,CVE-2021-4022: Segfault when analyzing an ELF64 for HPPA architecture,https://github.com/rizinorg/rizin/issues/2015
+,2021-11/24,Wrong x86_64 assembly due to the handmade assembler,https://github.com/rizinorg/rizin/issues/2021
+2022-6/16,2021-11/26,Allow to set expected value of tests to fail in `rz-test`,https://github.com/rizinorg/rizin/issues/2029
+,2021-11/29,Remove RZ_HOME_OLD_PLUGINS after 0.4.0 is released,https://github.com/rizinorg/rizin/issues/2046
+2022-1/5,2021-11/29,`run_basic_block_analysis` ignores `analysis.jmp.after` flag.,https://github.com/rizinorg/rizin/issues/2047
+,2021-11/30,Add test for `rz_agent`,https://github.com/rizinorg/rizin/issues/2049
+2021-12/1,2021-11/30,Wrong resolution of R_ARM_RELATIVE relocations,https://github.com/rizinorg/rizin/issues/2052
+2022-3/2,2021-12/2,Wrong message / Command 'P' does not exist.,https://github.com/rizinorg/rizin/issues/2059
+2021-12/28,2021-12/4,NULL pointer dereference in rz_analysis_block_recurse_depth_first,https://github.com/rizinorg/rizin/issues/2065
+2022-2/14,2021-12/6,Failure to detect `main` function in GraalVM-compiled Java ELF,https://github.com/rizinorg/rizin/issues/2072
+,2021-12/8,Rizin cannot guess the calling convention correctly,https://github.com/rizinorg/rizin/issues/2078
+,2021-12/9,ESIL to RZIL conversion,https://github.com/rizinorg/rizin/issues/2080
+2022-4/12,2021-12/9,Multiple heap-based OOB reads when disassemblying opcodes,https://github.com/rizinorg/rizin/issues/2082
+2021-12/10,2021-12/9,Heap-based OOB write when parsing dwarf die info,https://github.com/rizinorg/rizin/issues/2083
+2021-12/17,2021-12/10,Incompatible (L)GPL licenses,https://github.com/rizinorg/rizin/issues/2084
+2022-4/3,2021-12/10,Reading oversized debug section causes system resource exhaustion,https://github.com/rizinorg/rizin/issues/2088
+2021-12/14,2021-12/10,Access to dwarf attribute value without kind checking leads to segfault,https://github.com/rizinorg/rizin/issues/2089
+,2021-12/14,Remove python script for calculating PACKAGE_RELATIVE_PATH for cmake config files,https://github.com/rizinorg/rizin/issues/2102
+2022-4/3,2021-12/20,Windows paths are using unix slash,https://github.com/rizinorg/rizin/issues/2124
+,2021-12/21,Wrong calculation of the string length in Visual Graphs,https://github.com/rizinorg/rizin/issues/2125
+2022-5/3,2021-12/21,Version Information for go binary 1.18,https://github.com/rizinorg/rizin/issues/2128
+,2021-12/21,Unify assignment command code,https://github.com/rizinorg/rizin/issues/2129
+2021-12/23,2021-12/21,Self-referential type crashes Rizin,https://github.com/rizinorg/rizin/issues/2133
+2022-1/13,2021-12/23,Add `..(` cmd that runs a macro multiple times with different args,https://github.com/rizinorg/rizin/issues/2135
+,2021-12/28,MSVC 32bit COFF & demangle issues,https://github.com/rizinorg/rizin/issues/2145
+2022-2/11,2021-12/28,Invalid Memory Access in rz_core_analysis_type_match,https://github.com/rizinorg/rizin/issues/2149
+2022-2/25,2022-1/3,Shell autocompletion for `iD` should be based on available demangler plugins,https://github.com/rizinorg/rizin/issues/2167
+,2022-1/4,Allow to fine grade branching analysis to fit each architecture.,https://github.com/rizinorg/rizin/issues/2172
+2022-1/31,2022-1/4,Segfault when running aaa against sample,https://github.com/rizinorg/rizin/issues/2173
+2022-1/14,2022-1/5,aaa adding temporary esil stack that breaks UX,https://github.com/rizinorg/rizin/issues/2179
+2022-1/10,2022-1/8,Meson failed TypeError not 'File',https://github.com/rizinorg/rizin/issues/2183
+2022-4/7,2022-1/8,Deleting arch hint does not work,https://github.com/rizinorg/rizin/issues/2185
+2022-1/9,2022-1/9,Rewrite or remove the ELF section prefix test,https://github.com/rizinorg/rizin/issues/2188
+,2022-1/10,`rz_type_parse_string_single` segfaults when parsing a complex type,https://github.com/rizinorg/rizin/issues/2190
+2022-4/13,2022-1/11,Allow to search for symbols/imports/exports with `rz-find`.,https://github.com/rizinorg/rizin/issues/2195
+,2022-1/14,Wrong `__stack_chk_guard` naming in ARMv7 binaries,https://github.com/rizinorg/rizin/issues/2205
+2022-5/3,2022-1/14,i386 librz/debug/p/debug_native.c:1533:8: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast],https://github.com/rizinorg/rizin/issues/2210
+2022-1/26,2022-1/17,Visual panels mode sometimes doesn't restore terminal modes correctly,https://github.com/rizinorg/rizin/issues/2216
+2022-2/13,2022-1/17,Setting `scr.pager=less` on Windows causes rizin to hang,https://github.com/rizinorg/rizin/issues/2217
+2022-1/22,2022-1/17,`.bf` extension should identify file as bf if contents are not recognized,https://github.com/rizinorg/rizin/issues/2218
+2022-5/15,2022-1/20,Support yara in rz-sign,https://github.com/rizinorg/rizin/issues/2227
+2022-3/18,2022-1/23,Update Tree-Sitter to 0.20.x series,https://github.com/rizinorg/rizin/issues/2239
+,2022-1/24,Not analyzing an x64 SEH handler after RaiseException,https://github.com/rizinorg/rizin/issues/2247
+2022-2/7,2022-1/26,Math operations: integrate floating point support,https://github.com/rizinorg/rizin/issues/2253
+2022-3/10,2022-1/28,WARNING: (../../../../rizin/librz/type/helpers.c:516):rz_type_cond_invert: code should not be reached,https://github.com/rizinorg/rizin/issues/2265
+2022-3/14,2022-1/29,"td, to: Does not print any errors",https://github.com/rizinorg/rizin/issues/2267
+,2022-1/29,"Support defining `t` types from `pf` format strings, including from existing saved ones",https://github.com/rizinorg/rizin/issues/2268
+2022-7/18,2022-1/29,Jumping by mouse click in visual panels mode doesn't add to seek history,https://github.com/rizinorg/rizin/issues/2269
+2022-2/25,2022-1/29,Rizin errors/crashes when parsing a specific PDB generated by MSVC2019,https://github.com/rizinorg/rizin/issues/2270
+,2022-1/31,Analyze Windows x86 (32-Bit) MSVC C++ and SEH exception handling,https://github.com/rizinorg/rizin/issues/2271
+2022-4/27,2022-2/2,Relocations are sometimes not patched correctly in the dissassembly,https://github.com/rizinorg/rizin/issues/2277
+2022-2/7,2022-2/3,Install plugins on Windows,https://github.com/rizinorg/rizin/issues/2280
+2022-2/8,2022-2/6,pdf: Incorrect disassembly after `..`,https://github.com/rizinorg/rizin/issues/2288
+2022-5/10,2022-2/7,Libs should have the right soversion,https://github.com/rizinorg/rizin/issues/2290
+2022-2/13,2022-2/7,"""aaa"" causes warning eprintf ""Register wasn't found at the given delta"" when analyzing KernelBase.dll",https://github.com/rizinorg/rizin/issues/2291
+2022-2/14,2022-2/10,API for the graph access,https://github.com/rizinorg/rizin/issues/2298
+2022-2/11,2022-2/10,`?p` should be independent of `io.va`,https://github.com/rizinorg/rizin/issues/2299
+2022-2/11,2022-2/10,[FLIRT] - zfs not completing,https://github.com/rizinorg/rizin/issues/2300
+2022-5/10,2022-2/12,Two small memory leaks,https://github.com/rizinorg/rizin/issues/2307
+,2022-2/13,Support packing and alignment in C data structures (RzTypes) properly,https://github.com/rizinorg/rizin/issues/2308
+2022-2/15,2022-2/13,Fix Windows `clang-cl` installer builds,https://github.com/rizinorg/rizin/issues/2313
+,2022-2/14,Rizin cannot find `main` or `sym.main` function in V850 ELF,https://github.com/rizinorg/rizin/issues/2316
+,2022-2/14,Rizin cannot detect variables in NEC (Renesas) V850 ELF binary,https://github.com/rizinorg/rizin/issues/2317
+,2022-2/16,Tracing back doesn't restore memory,https://github.com/rizinorg/rizin/issues/2327
+2022-3/4,2022-2/19,pswj does not return 16-bit wide string as expected,https://github.com/rizinorg/rizin/issues/2338
+,2022-2/20,Add default enums to database,https://github.com/rizinorg/rizin/issues/2342
+,2022-2/21,Command `aht` doesn't work for custom enum type,https://github.com/rizinorg/rizin/issues/2344
+2022-6/7,2022-2/23,libzip subproject - cannot find size of the `off_t` type with Muon,https://github.com/rizinorg/rizin/issues/2357
+2022-2/25,2022-2/23,Generate help of a command at runtime,https://github.com/rizinorg/rizin/issues/2359
+2022-3/9,2022-2/24,Remove command `0` (alias for `s 0x...`),https://github.com/rizinorg/rizin/issues/2363
+,2022-3/16,cannot do xref on string,https://github.com/rizinorg/rizin/issues/2413
+2022-4/2,2022-3/16,Some method references in Dex are missing,https://github.com/rizinorg/rizin/issues/2416
+2022-3/26,2022-3/25,Heap buffer overread in bin_symbols.c:parseDragons,https://github.com/rizinorg/rizin/issues/2448
+2022-4/12,2022-3/28,Binary mask output/input for `rz-ax`.,https://github.com/rizinorg/rizin/issues/2458
+2022-4/5,2022-3/30,Debugging in rizin and strange warnings about ptrace_getregset,https://github.com/rizinorg/rizin/issues/2470
+2022-4/4,2022-3/31,C parser fails to load ELF file format,https://github.com/rizinorg/rizin/issues/2474
+2022-4/1,2022-4/1,Include the library name of symbol in command `isj`,https://github.com/rizinorg/rizin/issues/2475
+2022-4/3,2022-4/1,"../subprojects/rzwinkd/winkd.c:652:19: runtime error: load of value 32, which is not a valid value for type 'bool'",https://github.com/rizinorg/rizin/issues/2476
+2022-4/1,2022-4/1,Is it convenient to provide static library SDK in release version?,https://github.com/rizinorg/rizin/issues/2477
+2022-4/1,2022-4/1,Append descriptor to the method name in command `icmj`,https://github.com/rizinorg/rizin/issues/2479
+2022-4/12,2022-4/6,move bin -> str to rz_util,https://github.com/rizinorg/rizin/issues/2512
+2022-5/10,2022-4/13,12kb memory leak via non-freed sdb object,https://github.com/rizinorg/rizin/issues/2540
+2022-5/25,2022-4/15,Off_t undefined when writing plugin in Windows,https://github.com/rizinorg/rizin/issues/2544
+2022-4/19,2022-4/18,VS Code as editor throws error on Windows,https://github.com/rizinorg/rizin/issues/2551
+,2022-4/21,rewrite `rz_core_print_disasm_json` and `rz_core_print_disasm`,https://github.com/rizinorg/rizin/issues/2554
+2022-5/10,2022-4/23,Microsoft Windows 10 Pro for Workstations (Version 10.0.19044 Build 19044) missing KD profile.,https://github.com/rizinorg/rizin/issues/2560
+2022-5/3,2022-4/23,afs/afsj return different argument count,https://github.com/rizinorg/rizin/issues/2561
+2022-4/28,2022-4/27,Installer detected in VirusTotal (Cynet) as malicious,https://github.com/rizinorg/rizin/issues/2568
+2022-5/5,2022-5/3,test_rz_buf_fwd_scan test fails on System Z ,https://github.com/rizinorg/rizin/issues/2582
+,2022-5/3,Fix the `rz_core_syscall_*()` and `rz_syscall_*()` syscall resolution,https://github.com/rizinorg/rizin/issues/2583
+2022-5/12,2022-5/3,Dalvik - Resolve also xrefs that points to unknown functions due malicious code,https://github.com/rizinorg/rizin/issues/2587
+,2022-5/4,Failed to specify which Dex to parse in a multidex APK,https://github.com/rizinorg/rizin/issues/2588
+,2022-5/7,Support anterior comments ,https://github.com/rizinorg/rizin/issues/2593
+2022-5/11,2022-5/10,Unable to connect to winkd (Windows 11 Pro for Workstations Build 22000.co_release.210604-1628),https://github.com/rizinorg/rizin/issues/2596
+,2022-5/12,Support single step debugging for winkd,https://github.com/rizinorg/rizin/issues/2608
+,2022-5/12,Missing methods in multidex APK,https://github.com/rizinorg/rizin/issues/2609
+2022-5/25,2022-5/13,Windows dynamic releases,https://github.com/rizinorg/rizin/issues/2611
+,2022-5/14,Split RzBin PE parser into pieces and refactor to be endianness-indepentent,https://github.com/rizinorg/rizin/issues/2614
+2022-6/4,2022-5/20,WinKD (WinDbg backend) `dcu` (debug continue until) to address broken,https://github.com/rizinorg/rizin/issues/2627
+,2022-5/26,Fix: format PE32+ baddr,https://github.com/rizinorg/rizin/issues/2640
+,2020-12/6,Go binaries - breakpoint does not work,https://github.com/rizinorg/rizin/issues/2643
+2022-6/6,2022-5/30,WARNING: Library target 'rz_util' has 'name_prefix' set. Compilers may not find it from its '-lrz_util' linker flag in the 'rz_util.pc' pkg-config file.,https://github.com/rizinorg/rizin/issues/2647
+,2022-5/30,Command `is` gives inaccurate information for methods in APK,https://github.com/rizinorg/rizin/issues/2648
+,2022-6/8,Follow child doest not work ,https://github.com/rizinorg/rizin/issues/2675
+2022-7/22,2022-6/8,Project ignores custom binary base address,https://github.com/rizinorg/rizin/issues/2676
+,2022-6/8,Fix broken `rz-gg` tests,https://github.com/rizinorg/rizin/issues/2679
+2022-6/13,2022-6/8,ELF arch handling,https://github.com/rizinorg/rizin/issues/2680
+,2022-6/10,Wrong method references in multidex APK,https://github.com/rizinorg/rizin/issues/2685
+2022-6/14,2022-6/14,"Debugger disassembly problem after ""continue""",https://github.com/rizinorg/rizin/issues/2692
+,2022-6/14,Refactor use of `core->block` to the transparent IO access,https://github.com/rizinorg/rizin/issues/2695
+,2022-6/14,"Debugging is broken on MacOS x86 and ARMv8, Linux ARMv8",https://github.com/rizinorg/rizin/issues/2696
+2022-6/17,2022-6/15,RIP register not tracked on 32bit binary on Windows x64,https://github.com/rizinorg/rizin/issues/2699
+2022-6/20,2022-6/17,Fix Android NDK builds,https://github.com/rizinorg/rizin/issues/2703
+,2022-6/18,Rewrite GPL-only code,https://github.com/rizinorg/rizin/issues/2704
+,2022-6/20,Add test for wai command,https://github.com/rizinorg/rizin/issues/2714
+,2022-6/22,No-return functions info are not correctly used/propagated,https://github.com/rizinorg/rizin/issues/2725
+,2022-6/22,Implement RZ_CMD_ARG_TYPE_FOLDER,https://github.com/rizinorg/rizin/issues/2727
+2022-6/25,2022-6/25,An integer overflow is found in get_long_object(),https://github.com/rizinorg/rizin/issues/2738
+,2022-6/25,is: Repeated symbols,https://github.com/rizinorg/rizin/issues/2740
+,2022-6/25,pdJ produces too few lines if blocksize is too small,https://github.com/rizinorg/rizin/issues/2741
+2022-6/26,2022-6/26,Analysis got the wrong Jump value,https://github.com/rizinorg/rizin/issues/2742
+2022-6/28,2022-6/27,Dump some bytes to file,https://github.com/rizinorg/rizin/issues/2744
+2022-7/5,2022-6/27,Building with Muon: /subprojects/libzip-1.7.3/lib/zip_name_locate.c:65:41: error: ‘strcasecmp’ undeclared (first use in this function); did you mean ‘strncmp’?,https://github.com/rizinorg/rizin/issues/2749
+2022-7/6,2022-6/28,In `Vv` mode allow filter flags in the left column,https://github.com/rizinorg/rizin/issues/2750
+,2022-6/28,"`v` mode starts from the offset entered before going to `V` mode, not the current selected function",https://github.com/rizinorg/rizin/issues/2751
+2022-6/29,2022-6/28,A heap buffer overflow is found in tui,https://github.com/rizinorg/rizin/issues/2752
+2022-7/2,2022-6/29,PPC big-endian VLE incorrectly disassemble,https://github.com/rizinorg/rizin/issues/2756
+2022-7/8,2022-6/30,Add command to generate a C/C++ string ,https://github.com/rizinorg/rizin/issues/2760
+,2022-7/2,Rewrite `filter.c`,https://github.com/rizinorg/rizin/issues/2766
+,2022-7/3,"Update the ""cannot attach"" message on macOS with more info",https://github.com/rizinorg/rizin/issues/2774
+2022-7/11,2022-7/7,SystemZ - LZMA unit test fail,https://github.com/rizinorg/rizin/issues/2788
+,2022-7/8,The command line prompt will cover the last line when the last line doesn't end with \n,https://github.com/rizinorg/rizin/issues/2792
+,2022-7/9,Add xrefs support for switch statements in Dex,https://github.com/rizinorg/rizin/issues/2794
+,2022-7/20,Problems debuggin with watchpoints,https://github.com/rizinorg/rizin/issues/2829
+2022-8/8,2022-7/21,Repeated mouse click handling causes chaos in panel mode,https://github.com/rizinorg/rizin/issues/2831
+2022-7/31,2022-7/22,test/bins/fuzzed/pe12 test failure,https://github.com/rizinorg/rizin/issues/2833
+,2022-7/22,Port `?` (help) to rzshell,https://github.com/rizinorg/rizin/issues/2834
+2022-7/23,2022-7/23,"axtg gives ""fd"" error",https://github.com/rizinorg/rizin/issues/2836
+,2022-7/26,RzType: allow to load sdb file also for functions of a particular language,https://github.com/rizinorg/rizin/issues/2844
+,2022-7/27,cannot detect datarefs correctly like IDA on arm32,https://github.com/rizinorg/rizin/issues/2845
+,2022-7/29,Incorrect flow analysis on avr2560,https://github.com/rizinorg/rizin/issues/2851
+2022-8/18,2022-7/31,"Console on Windows through OpenSSH incorrectly detected as ""xterm"", breaking Ctrl+C and others",https://github.com/rizinorg/rizin/issues/2856
+,2022-7/31,rz-bin -z -N 1 on ELF fails to find strings of length < 4,https://github.com/rizinorg/rizin/issues/2859
+2022-8/13,2022-8/1,Disassembly Colors are broken with latest rizin dev,https://github.com/rizinorg/rizin/issues/2864
+2022-8/11,2022-8/3,[build] meson_git_wrapper.py called against build dir instead of source dir,https://github.com/rizinorg/rizin/issues/2865
+,2022-8/4,Insert in visual mode doesn't give correct feedback.,https://github.com/rizinorg/rizin/issues/2871
+,2022-8/10,PPC: Add `cache_line_block_size` configs to PPC plugin,https://github.com/rizinorg/rizin/issues/2899
+,2022-8/10,PPC: `ca32` and `ov32` flags and `ppr32` missing,https://github.com/rizinorg/rizin/issues/2900
+,2022-8/10,PPC: Broken RZIL instructions,https://github.com/rizinorg/rizin/issues/2901
+,2022-8/10,PPC: RZIL suppport for VLE,https://github.com/rizinorg/rizin/issues/2902
+,2022-8/10,PPC: No exception handling in RZIL,https://github.com/rizinorg/rizin/issues/2903
+2022-8/11,2022-8/11,Fix PPC RzIL code compilation with capstone '3' and 'next',https://github.com/rizinorg/rizin/issues/2904
+,2022-8/11,"release v0.4.0 have 2 tests (analysis_global_var, sign_integration) failure",https://github.com/rizinorg/rizin/issues/2905
+,2022-8/11,Most Rizin functions which force caller to temporary change seek is bad API and indicator that those functions should probably have offset argument.,https://github.com/rizinorg/rizin/issues/2906

@@ -12,6 +12,8 @@ import collections
 import fig_process
 import itertools
 
+import FileMake
+
 
 # データの前処理
 def Prep(file):
@@ -25,11 +27,11 @@ def Prep(file):
 
 
     for i in range(0, len(csv_input.index)):
-        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
-        if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,0]))
+        if isinstance(csv_input.iat[i,1], float): # closeされていないときは現在時刻(YYYY-MM)を格納
             close_list.append(now_date)
         else:
-            close_month = re.findall("(.*)/", csv_input.iat[i,0])
+            close_month = re.findall("(.*)/", csv_input.iat[i,1])
             close_list.append(close_month)
     create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
     close_list = list(itertools.chain.from_iterable(close_list)) # itertoolsでcreate_listを平坦化する．
@@ -47,8 +49,7 @@ def Prep(file):
             month = create_list[0][idx_create+1:]
         else:
             keys.append(str(year) + "-" + str(month))
-        
-        if month == 12:
+        if month == 12 or month == "12":
             year = int(year) + 1
             month = 1
         else:
@@ -64,8 +65,6 @@ def Prep(file):
     # 月毎の残イシュー数をカウント, Scaleリストに格納する
     for i in range(len(create_list)):
         start_num = Diff(create_list[i], create_list[0])
-        print(create_list[i])
-        print(create_list[0])
         for n in range(remIssue_prd[i]+1):
             values[start_num] = values[start_num] + 1
             start_num = start_num + 1
@@ -116,7 +115,6 @@ def Diff(now_create, first_create):
     diff = 12 * Year + Month
     return diff
 
-
 def Com_Plot(file, keys, values):
     plt.plot(keys, values, label = file, marker = ".",)
     plt.legend() #ラベルの表示
@@ -143,6 +141,7 @@ def main(arg, format, dir_path, write_data):
     years = []
     for i in range(len(arg)):
         file = os.path.join("cache", arg[i], "issues/CSV/total.csv")
+        print("Draw repository : " + arg[i])
         dict = Prep(file)
         years = Scale(dict[3], years)
 
@@ -176,12 +175,14 @@ def main(arg, format, dir_path, write_data):
         file = os.path.join("cache", arg[i],"N_RIS/plot_data.csv")
         with open(file, "w") as f:
             writer = csv.writer(f)
-            writer.writerow(dict[0])
             writer.writerow(dict[1])
+            writer.writerow(dict[0])
+        FileMake.reverse_csv_rows(file)
 
     # グラフ描画
     plt.tight_layout() #グラフ位置の調整
-    plt.show()
+    plt.show(block=False) # 画面表示しない
+    #plt.show()
 
 
 if __name__ == "__main__":

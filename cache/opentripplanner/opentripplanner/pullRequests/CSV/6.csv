@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Updated to 2.18 of Jersey to fix hanging threads in Grizzly. ","2016-7/6","2016-7/6","2016-7/6",True,"2016-7/6",2,4,4
+"Changed so that headsign for a leg is not always the last stop.","2016-7/6","2016-7/6","2016-7/6",True,"2016-7/6",2,3,3
+"Fixed so that we dont get a forced travel in the opposite direction.","2016-7/6","2016-7/6","2016-7/6",False,"null",2,2,2
+"Fix dead links to internal docs and logo","2016-7/13","2016-7/13","2016-7/13",False,"null",2,8,8
+"Fix links","2016-7/14","2016-7/14","2016-7/14",False,"null",2,1,1
+"Removing test redundant for org.opentripplanner.openstreetmap.model.OSMWayTest.testMotorCarTagDeniedPermissions","2016-7/15","2016-7/15","2016-7/15",False,"null",2,1,1
+"Sharebike: fix URL parsing when no parameters given","2016-8/1","2016-9/1","2016-8/1",True,"2016-9/1",3,25,11
+"Makes PR #1591 mergable","2016-8/1","2016-9/1","2016-8/1",True,"2016-9/1",3,36,10
+"OpenData/GBFS Bike Rental Updater","2016-8/3","2018-9/3","2016-8/3",False,"null",3,315,0
+"Fix logging messages that were being swallowed by JUL.","2016-8/5","2016-9/5","2016-8/5",True,"2016-9/5",2,16,5
+"Fix frequency time calculations","2016-8/11","2018-3/11","2016-8/11",False,"null",3,190,6
+"Fix exception when building graph","2016-8/12","2016-9/12","2016-8/12",True,"2016-9/12",3,1,1
+"Fixed broken link to configuration page","2016-8/23","2016-9/23","2016-8/23",False,"null",3,1,1
+"Add Vehicle Positions GTFS-RT updater ","2016-8/24","2018-9/24","2016-8/24",False,"null",4,508,4
+"Add USF Maps App to Deployments docs","2016-8/30","2016-9/30","2016-8/30",True,"2016-9/30",2,1,0
+"Load embedded config for existing graphs","2016-9/5","2016-9/5","2016-9/5",True,"2016-9/5",2,37,33
+"Fix for #2339","2016-9/13","2016-9/13","2016-9/13",True,"2016-9/13",2,29,13
+"When creating backStreet AreaEdge, wheelchairAccessible is set twice …","2016-9/15","2016-12/15","2016-9/15",True,"2016-12/15",2,1,1
+"Web Link Typo","2016-9/24","2016-12/24","2016-9/24",True,"2016-12/24",2,1,1
+"Fix OUTSIDE_BOUNDS no longer being returned","2016-10/14","2021-4/14","2016-10/14",False,"null",2,1,0
+"Added headsign attribute for stoptimes in GraphQL+ filtering non-pickup calls","2016-10/21","2016-12/21","2016-10/21",False,"null",1,8,1
+"Merge inn siste versjon av OTP master","2016-10/25","2016-10/25","2016-10/25",False,"null",1,7,7
+"Update GraphQL to latest version and improve support for arguments","2016-11/14","2017-3/14","2016-11/14",True,"2017-3/14",3,35,27
+"Do not re-link stops that were already linked by TransitToTaggedStopsModule","2016-12/2","2019-10/2","2016-12/2",False,"null",5,117,48
+"Basic support for for taxi traverse mode","2016-12/4","null","2016-12/4",False,"null",6,22,5
+"Re #2374. Allow Cars on highway=*;bicycle=designated","2016-12/7","2016-12/7","2016-12/7",True,"2016-12/7",2,1,1
+"Added headsign attribute for stoptimes in GraphQL","2016-12/8","2016-12/8","2016-12/8",True,"2016-12/8",2,6,0
+"Filtering non-pickup calls","2016-12/8","2017-6/8","2016-12/8",True,"2017-6/8",4,29,11
+"PruneFloatingIslands with build parameters","2016-12/8","2016-12/8","2016-12/8",True,"2016-12/8",2,28,5
+"Compute isochrone feature collection synchronously","2016-12/16","2016-12/16","2016-12/16",False,"null",3,1,1
+"Optional stop clustering by parent station or geography","2016-12/19","2017-1/19","2016-12/19",True,"2017-1/19",2,81,34
+"Add shutdown hook to gracefully shut down Grizzly","2016-12/23","2016-12/23","2016-12/23",True,"2016-12/23",3,10,3
+"Bugfix in GraphIndex.stopTimesForStop","2017-1/2","2017-3/2","2017-1/2",True,"2017-3/2",2,3,1
+"Make osm highway=corridor pedestrian routable","2017-1/4","2017-3/4","2017-1/4",True,"2017-3/4",2,1,0
+"Adding mechanism for overriding OSM WayPropertySetSource in build-config.json","2017-1/4","2017-8/4","2017-1/4",True,"2017-8/4",3,422,346
+"Accept extended TPEG route types (modes) in API","2017-1/9","2018-9/9","2017-1/9",False,"null",3,33,0
+"Use equals() when comparing Stop objects in index API.","2017-1/13","2017-1/13","2017-1/13",False,"null",2,1,1
+"Fixed NullPointerException if clustering before graph creation","2017-1/16","2017-1/16","2017-1/16",True,"2017-1/16",2,14,10
+"Fix preferred/unpreferred agency matching","2017-1/17","2017-3/17","2017-1/17",True,"2017-3/17",2,4,1
+"Otp ruter 1.1.1","2017-1/30","2017-1/30","2017-1/30",False,"null",2,2595,68
+"Keep sort order when converting from path to trip plan","2017-1/30","2017-3/30","2017-1/30",False,"null",2,4,1
+"Spanish translation","2017-1/31","2017-1/31","2017-1/31",False,"null",1,1571,1
+"Spanish Translation","2017-1/31","2017-3/31","2017-1/31",True,"2017-3/31",3,1572,2
+"Portuguese Translation","2017-2/1","2017-3/1","2017-2/1",True,"2017-3/1",3,1577,2
+"Fix VCub updater using new API variable names.","2017-2/17","2017-2/17","2017-2/17",True,"2017-2/17",2,8,8
+"switch maven repositories to use SSL where possible.","2017-2/27","2017-2/27","2017-2/27",True,"2017-2/27",2,4,4
+"replaced link to 0.19 jar with 1.0 jar.","2017-3/1","2017-3/1","2017-3/1",False,"null",2,1,1
+"Add code to expand transfers to/from stations.","2017-3/1","2017-3/1","2017-3/1",True,"2017-3/1",5,104,42
+"recompressed test resources","2017-3/7","2017-5/7","2017-3/7",False,"null",3,0,0
+"Serialize times from ResultSet","2017-3/14","2017-3/14","2017-3/14",True,"2017-3/14",2,22,16
+"Fix bugs in park and ride search","2017-3/21","2017-5/21","2017-3/21",True,"2017-5/21",2,93,4
+"Script to add links to GitHub issues in Changelog","2017-3/22","2017-3/22","2017-3/22",True,"2017-3/22",2,106,20
+"Platform entries linking","2017-3/28","2017-6/28","2017-3/28",True,"2017-6/28",3,349,7
+"Add trip_id information involved in trips matching using GTFS-RT feed.","2017-4/15","2017-5/15","2017-4/15",True,"2017-5/15",2,3,3
+"Fix link to geoserver website","2017-4/27","2017-5/27","2017-4/27",True,"2017-5/27",2,1,1
+"Fix javadoc URL in scripting documentation.","2017-5/11","2017-5/11","2017-5/11",True,"2017-5/11",1,1,1
+"Fix #2438 - update BANO data.gouv.fr geocoder URL.","2017-5/11","2017-5/11","2017-5/11",True,"2017-5/11",1,1,1
+"Don't attempt to decrypt keys on PRs; it'll just make the build fail","2017-5/12","2017-5/12","2017-5/12",True,"2017-5/12",2,2,3
+"Test pull request","2017-5/12","2017-5/12","2017-5/12",False,"null",1,57,57
+"Update data container paths","2017-5/18","2017-5/18","2017-5/18",False,"null",11,5679,408
+"RoutingRequest.java line 729 [#40]","2017-5/21","2018-9/21","2017-5/21",False,"null",3,1,0
+"Clustering by parent station fix","2017-5/24","2017-8/24","2017-5/24",True,"2017-8/24",3,23,5
+"Add updater for urbaninfrastructure city bikes","2017-5/24","2017-8/24","2017-5/24",True,"2017-8/24",4,96,13
+"Compact legs by reversed search","2017-5/24","2017-8/24","2017-5/24",True,"2017-8/24",8,157,5
+"remove/update deprecated HTTPClient code, adding missing ciphers for SSL","2017-5/24","2018-3/24","2017-5/24",True,"2018-3/24",2,10,12
+"Documentation has correct path now","2017-5/25","2018-10/25","2017-5/25",True,"2018-10/25",3,4,1
+"Updated GBFS setup in Real-Time documentation.","2017-5/30","2017-6/30","2017-5/30",False,"null",2,86,54
+"Expose FeedInfo objects via IndexAPI","2017-6/14","2017-8/14","2017-6/14",True,"2017-8/14",3,34,0
+"Add flag for including requested start/end time in maxHours","2017-6/15","2017-6/15","2017-6/15",True,"2017-6/15",3,17,1
+"GBFS import support","2017-6/15","2017-6/15","2017-6/15",True,"2017-6/15",1,151,0
+"Included GBFS documentation to the master branch.","2017-6/17","2017-6/17","2017-6/17",True,"2017-6/17",2,88,54
+"Added HTML report for stops with a snap distance over 20m","2017-6/22","2017-9/22","2017-6/22",True,"2017-9/22",2,66,4
+"Update fares in NycFareServiceImpl","2017-7/11","2017-9/11","2017-7/11",True,"2017-9/11",2,2,2
+"Fixed name of the class in the logger and fix a possible NPE","2017-7/12","null","2017-7/12",False,"null",3,9,5
+"Italian translation added and fixed some","2017-7/13","null","2017-7/13",False,"null",4,76,8
+"Fix scripts when entity IDs contain colons. Should fix #2474","2017-7/21","2017-9/21","2017-7/21",True,"2017-9/21",2,19,7
+"Add the ability to switch routers in the client UI","2017-8/11","null","2017-8/11",False,"null",2,109,16
+"KCM transfers - use maximum fare of two adjacent legs ","2017-8/16","2017-8/16","2017-8/16",True,"2017-8/16",2,30,131
+"Fixed stop linking to only one edge of platform (#2472)","2017-8/22","2018-7/22","2017-8/22",True,"2018-7/22",4,176,5
+"Router compact legs NPE fix in AStar search. Bug fix on #2449","2017-8/29","2017-9/29","2017-8/29",False,"null",2,4,0
+"Refactor OTP to have new OTP classes to replace the OBA GTFS classes","2017-9/12","2018-8/12","2017-9/12",True,"2018-8/12",7,7811,11839
+"Added new test that tests bigger times matrix for PropagatedTimesStore","2017-9/24","2018-9/24","2017-9/24",False,"null",3,30,1
+"New translation strings for German","2017-9/25","null","2017-9/25",False,"null",4,191,192
+"Add bicimad bike rental updater","2017-10/29","2018-9/29","2017-10/29",False,"null",3,249,0
+"Changed directory structure of mkdocs and content of mkdock.yml #2505","2017-11/3","2018-4/3","2017-11/3",False,"null",2,1,1
+"Make maxTransfer* options configurable through scripting api (#2507)","2017-11/9","2017-12/9","2017-11/9",True,"2017-12/9",2,8,0
+"Configurable HTTP timeout from JSON config","2017-11/13","null","2017-11/13",False,"null",4,56,28
+"Removed double cast in stopsByBbox field","2017-11/16","2018-7/16","2017-11/16",True,"2018-7/16",4,2,4
+"Update from upstream","2017-12/7","2017-12/7","2017-12/7",False,"null",10,6759,694
+"Add Smoove citybikes updater","2017-12/7","2018-8/7","2017-12/7",True,"2018-8/7",5,157,0
+"Add a MQTT GTFS-RT trip update updater","2017-12/7","2021-9/7","2017-12/7",False,"null",6,158,0
+"Add max slope param and slope factor","2017-12/10","2017-12/10","2017-12/10",False,"null",2,95869,11
+"Some additions to the basic useage docs","2017-12/11","2018-4/11","2017-12/11",True,"2018-4/11",3,60,11
+"Update import elevation data configuration documentation","2018-1/19","2018-3/19","2018-1/19",True,"2018-3/19",2,3,0
+"Bugfix: access=private means OSM way should not be accessed.","2018-1/22","2018-7/22","2018-1/22",False,"null",3,1,1
+"Preferred Start/End Routes are now treated as Constraints and not Penalties","2018-2/2","2018-2/2","2018-2/2",False,"null",4,4320,21223
+"Fix frequency bounds checking","2018-3/23","2019-7/23","2018-3/23",True,"2019-7/23",3,132,4
+"Fix NPE when handling bad date in request","2018-3/23","2021-10/23","2018-3/23",False,"null",3,80,34
+"Fix IndexOutOfBounds for directionless transfers","2018-3/27","2018-4/27","2018-3/27",False,"null",2,1,1
+"Support for headers in RT update url for TripUpdates and ServiceAlerts","2018-3/28","null","2018-3/28",False,"null",4,45,2

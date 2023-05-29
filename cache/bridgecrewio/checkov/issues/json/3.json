@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 968,
+                "nodes": [
+                    {
+                        "title": "Feature request: Integration with Reviewdog",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/510",
+                        "createdAt": "2020-08-21T17:02:17Z",
+                        "closedAt": "2021-04-06T22:50:34Z"
+                    },
+                    {
+                        "title": "External check logic was rolled back",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/511",
+                        "createdAt": "2020-08-21T22:03:49Z",
+                        "closedAt": "2020-08-24T16:46:41Z"
+                    },
+                    {
+                        "title": "Junitxml output returns multiple files ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/518",
+                        "createdAt": "2020-08-26T13:36:42Z",
+                        "closedAt": "2020-12-02T09:04:41Z"
+                    },
+                    {
+                        "title": "Why is not scanning the PSP Yaml file?",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/519",
+                        "createdAt": "2020-08-27T00:25:38Z",
+                        "closedAt": "2020-10-15T11:46:54Z"
+                    },
+                    {
+                        "title": "Have checkov be callable from Python",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/530",
+                        "createdAt": "2020-08-31T23:35:19Z",
+                        "closedAt": "2021-04-27T20:08:08Z"
+                    },
+                    {
+                        "title": "LaunchConfigurationEBSEncryption gives false-positives, due to not checking snapshot_id",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/532",
+                        "createdAt": "2020-09-02T18:22:56Z",
+                        "closedAt": "2020-09-03T05:03:41Z"
+                    },
+                    {
+                        "title": "Git executable required to start",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/533",
+                        "createdAt": "2020-09-02T19:36:03Z",
+                        "closedAt": "2020-09-02T20:20:42Z"
+                    },
+                    {
+                        "title": "False positive: CKV_K8S_14 - Pulling images from their digest should be allowed",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/535",
+                        "createdAt": "2020-09-02T21:26:17Z",
+                        "closedAt": "2020-12-28T15:29:02Z"
+                    },
+                    {
+                        "title": "add support for -o output in checkstyle XML format",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/537",
+                        "createdAt": "2020-09-03T13:01:30Z",
+                        "closedAt": "2021-04-06T22:50:37Z"
+                    },
+                    {
+                        "title": "Can't install via HomeBrew",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/558",
+                        "createdAt": "2020-09-07T13:24:41Z",
+                        "closedAt": "2020-09-08T10:26:11Z"
+                    },
+                    {
+                        "title": "junit ouptut format - add context information",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/559",
+                        "createdAt": "2020-09-07T19:58:07Z",
+                        "closedAt": "2022-02-22T13:54:33Z"
+                    },
+                    {
+                        "title": "--check and --skip-check lists defined in files",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/560",
+                        "createdAt": "2020-09-07T20:01:18Z",
+                        "closedAt": "2022-07-12T00:03:36Z"
+                    },
+                    {
+                        "title": "Scanning multiple Directories with Docker image",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/561",
+                        "createdAt": "2020-09-09T08:53:48Z",
+                        "closedAt": "2020-09-09T15:02:32Z"
+                    },
+                    {
+                        "title": "exclude a family of checks: --skip-checks-prefix",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/563",
+                        "createdAt": "2020-09-09T23:37:43Z",
+                        "closedAt": "2021-12-01T15:22:45Z"
+                    },
+                    {
+                        "title": "Azure NSG Security rule loop error",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/566",
+                        "createdAt": "2020-09-11T11:27:41Z",
+                        "closedAt": "2020-10-21T08:38:51Z"
+                    },
+                    {
+                        "title": "Support Pulumi",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/568",
+                        "createdAt": "2020-09-13T10:13:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "GoogleCloudMySqlLocalInfileOff.py - local_inline check",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/572",
+                        "createdAt": "2020-09-17T10:25:07Z",
+                        "closedAt": "2020-09-22T17:06:03Z"
+                    },
+                    {
+                        "title": "GitLab SAST Reports JSON format",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/573",
+                        "createdAt": "2020-09-17T13:45:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "dataclasses backport required for Python 3.6",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/575",
+                        "createdAt": "2020-09-21T12:16:26Z",
+                        "closedAt": "2020-09-21T14:40:13Z"
+                    },
+                    {
+                        "title": "checkov.cloudformation.parser.node.TemplateAttributeError: list_node.items is invalid",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/578",
+                        "createdAt": "2020-09-23T17:39:19Z",
+                        "closedAt": "2020-10-29T22:53:29Z"
+                    },
+                    {
+                        "title": "Checkov gets stuck on regex into TF variables.tf ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/579",
+                        "createdAt": "2020-09-24T08:59:54Z",
+                        "closedAt": "2020-09-30T08:37:29Z"
+                    },
+                    {
+                        "title": "CKV_AWS_16 Encryption at rest Incorrect for Aurora ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/586",
+                        "createdAt": "2020-09-28T13:49:45Z",
+                        "closedAt": "2020-12-15T14:22:00Z"
+                    },
+                    {
+                        "title": "CKV_GCP_29 - Checks failed after GCP resource renamed",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/589",
+                        "createdAt": "2020-09-30T12:58:56Z",
+                        "closedAt": "2020-10-01T16:37:30Z"
+                    },
+                    {
+                        "title": "Gitlab-CI Job passes with failures present when emulating TTY for color output.",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/590",
+                        "createdAt": "2020-09-30T18:36:28Z",
+                        "closedAt": "2020-10-01T01:51:27Z"
+                    },
+                    {
+                        "title": "Create ASDF plugin for Checkov",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/591",
+                        "createdAt": "2020-09-30T21:53:24Z",
+                        "closedAt": "2021-04-12T22:40:48Z"
+                    },
+                    {
+                        "title": "Update urllib3: HTTP Header Injection vuln",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/593",
+                        "createdAt": "2020-10-02T17:50:15Z",
+                        "closedAt": "2020-10-08T06:13:56Z"
+                    },
+                    {
+                        "title": "CKV_AWS_20 should also look for `authenticated-read`",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/596",
+                        "createdAt": "2020-10-06T21:50:49Z",
+                        "closedAt": "2020-10-07T11:47:45Z"
+                    },
+                    {
+                        "title": "CKV_GCP_16 (GoogleCloudDNSSECEnabled) Incorrect suggests DNSSEC for private DNS zones",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/600",
+                        "createdAt": "2020-10-07T16:03:16Z",
+                        "closedAt": "2021-04-19T18:43:07Z"
+                    },
+                    {
+                        "title": "CKV_AZURE_9 & CKV_AZURE_10 - Scan fails if protocol value doesn't match TCP",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/601",
+                        "createdAt": "2020-10-08T16:12:46Z",
+                        "closedAt": "2020-10-08T20:35:44Z"
+                    },
+                    {
+                        "title": "Check: CKV_GCP_26 False positive on Load Balancer proxy network",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/603",
+                        "createdAt": "2020-10-09T14:58:15Z",
+                        "closedAt": "2021-04-21T17:29:15Z"
+                    },
+                    {
+                        "title": "No flag for non-interactive mode",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/609",
+                        "createdAt": "2020-10-12T08:39:21Z",
+                        "closedAt": "2020-10-12T08:59:59Z"
+                    },
+                    {
+                        "title": "Suppressing/Ignoring a check on Terraform Module level",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/610",
+                        "createdAt": "2020-10-12T13:59:45Z",
+                        "closedAt": "2021-09-22T06:56:38Z"
+                    },
+                    {
+                        "title": "Remediation guide not shown in 1.0.585 version",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/612",
+                        "createdAt": "2020-10-16T09:44:20Z",
+                        "closedAt": "2020-10-16T15:28:21Z"
+                    },
+                    {
+                        "title": "Check: CKV_GCP_19 False positive",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/613",
+                        "createdAt": "2020-10-17T14:26:44Z",
+                        "closedAt": "2020-10-19T22:25:50Z"
+                    },
+                    {
+                        "title": "Check CKV_AZURE_44 point to the wrong guide link",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/617",
+                        "createdAt": "2020-10-20T20:46:41Z",
+                        "closedAt": "2020-10-21T08:16:26Z"
+                    },
+                    {
+                        "title": "Expand check BC_GCP_GENERAL_3 - GKE cluster should have shielded nodes ",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/618",
+                        "createdAt": "2020-10-20T23:04:26Z",
+                        "closedAt": "2021-05-03T01:50:23Z"
+                    },
+                    {
+                        "title": "Crash when a custom check on a Terraform module returns CheckResult.SKIPPED",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/621",
+                        "createdAt": "2020-10-21T14:02:55Z",
+                        "closedAt": "2020-12-21T15:49:15Z"
+                    },
+                    {
+                        "title": "Can't evaluate terraform list(string) default variable value",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/622",
+                        "createdAt": "2020-10-21T22:18:26Z",
+                        "closedAt": "2020-12-08T23:13:05Z"
+                    },
+                    {
+                        "title": "CKV_GCP_5 Fails even if encryption is enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/623",
+                        "createdAt": "2020-10-22T05:01:00Z",
+                        "closedAt": "2021-02-19T19:00:18Z"
+                    },
+                    {
+                        "title": "Error while installing checkov in Azure pipelines",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/629",
+                        "createdAt": "2020-10-23T07:35:48Z",
+                        "closedAt": "2020-10-23T11:53:33Z"
+                    },
+                    {
+                        "title": "Summary of test results at the end of the run",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/631",
+                        "createdAt": "2020-10-23T15:38:50Z",
+                        "closedAt": "2021-05-05T18:16:51Z"
+                    },
+                    {
+                        "title": "Consider integrating with duo-labs/parliament",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/643",
+                        "createdAt": "2020-10-27T19:30:34Z",
+                        "closedAt": "2021-12-27T15:23:27Z"
+                    },
+                    {
+                        "title": "Does not evaluate Terraform null variable default values",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/651",
+                        "createdAt": "2020-11-04T10:19:06Z",
+                        "closedAt": "2020-11-19T13:33:32Z"
+                    },
+                    {
+                        "title": "Inline Terraform Skips Broken – v1.0.612",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/652",
+                        "createdAt": "2020-11-04T16:21:23Z",
+                        "closedAt": "2020-11-04T16:44:53Z"
+                    },
+                    {
+                        "title": "BC_AZR_KUBERNETES_1 support for new Terraform provider syntax",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/656",
+                        "createdAt": "2020-11-06T15:53:29Z",
+                        "closedAt": "2021-01-07T21:24:31Z"
+                    },
+                    {
+                        "title": "CloudfrontDistributionEncryption fails with Terraform 0.12+ dynamic blocks",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/658",
+                        "createdAt": "2020-11-09T02:18:27Z",
+                        "closedAt": "2021-05-22T03:55:48Z"
+                    },
+                    {
+                        "title": "Pre-commit should scan non-Terraform files",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/661",
+                        "createdAt": "2020-11-10T19:07:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Checkov oddity scanning a directory containing relative Terraform modules",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/678",
+                        "createdAt": "2020-11-20T01:12:41Z",
+                        "closedAt": "2020-11-20T05:23:12Z"
+                    },
+                    {
+                        "title": "Missing `protocol` key for `aws_lb_listener`",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/680",
+                        "createdAt": "2020-11-20T20:16:18Z",
+                        "closedAt": "2020-12-02T11:47:41Z"
+                    },
+                    {
+                        "title": "Terraform 0.11 Support Redux",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/681",
+                        "createdAt": "2020-11-20T21:46:00Z",
+                        "closedAt": "2021-06-03T17:09:41Z"
+                    },
+                    {
+                        "title": "No module named 'packaging'",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/685",
+                        "createdAt": "2020-11-23T16:18:39Z",
+                        "closedAt": "2020-11-23T17:27:08Z"
+                    },
+                    {
+                        "title": "Harmonize Python versions",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/688",
+                        "createdAt": "2020-11-24T10:11:57Z",
+                        "closedAt": "2021-12-10T18:14:57Z"
+                    },
+                    {
+                        "title": "Consider Shannon entropy when detecting secrets",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/690",
+                        "createdAt": "2020-11-25T07:52:34Z",
+                        "closedAt": "2022-01-13T15:06:10Z"
+                    },
+                    {
+                        "title": "terraform_plan can't detect failed checks that reported in .tf files.",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/691",
+                        "createdAt": "2020-11-25T09:19:49Z",
+                        "closedAt": "2020-11-29T07:59:45Z"
+                    },
+                    {
+                        "title": "Add skip-check read config feature",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/698",
+                        "createdAt": "2020-11-30T12:39:10Z",
+                        "closedAt": "2021-12-10T18:16:40Z"
+                    },
+                    {
+                        "title": "Feature Request: another flag to display failed checks",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/704",
+                        "createdAt": "2020-12-01T20:03:03Z",
+                        "closedAt": "2021-02-10T15:19:10Z"
+                    },
+                    {
+                        "title": "Brew upgrade 1.0.649 -> 1.0.657 error",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/707",
+                        "createdAt": "2020-12-02T09:06:29Z",
+                        "closedAt": "2020-12-02T09:21:04Z"
+                    },
+                    {
+                        "title": "CKV_K8S_31 failure with RuntimeDefault configured",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/710",
+                        "createdAt": "2020-12-02T10:05:23Z",
+                        "closedAt": "2020-12-02T11:47:41Z"
+                    },
+                    {
+                        "title": "ImagePullPolicy complains about parameterized entries",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/712",
+                        "createdAt": "2020-12-02T22:50:31Z",
+                        "closedAt": "2021-06-15T16:27:22Z"
+                    },
+                    {
+                        "title": "CKV_K8S_40 check failing even when using a high UID",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/713",
+                        "createdAt": "2020-12-03T19:55:51Z",
+                        "closedAt": "2021-12-10T18:24:40Z"
+                    },
+                    {
+                        "title": "CKV_GIT_1 fails when github_repository visibility is \"private\"",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/714",
+                        "createdAt": "2020-12-03T22:14:33Z",
+                        "closedAt": "2020-12-10T20:44:34Z"
+                    },
+                    {
+                        "title": "CKV_K8S_31 failure with RuntimeDefault configured for workloads",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/719",
+                        "createdAt": "2020-12-07T16:37:14Z",
+                        "closedAt": "2021-02-01T17:44:40Z"
+                    },
+                    {
+                        "title": "Feature Request : Add the ability to use only custom check",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/722",
+                        "createdAt": "2020-12-08T15:18:48Z",
+                        "closedAt": "2021-02-10T11:19:36Z"
+                    },
+                    {
+                        "title": "setup.py very out of sync with Pipfile & pinning deps",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/724",
+                        "createdAt": "2020-12-08T20:34:25Z",
+                        "closedAt": "2020-12-14T08:31:50Z"
+                    },
+                    {
+                        "title": "False positive on CKV_GCP_14 - Requires backup configuration enabled on read replica",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/727",
+                        "createdAt": "2020-12-09T13:36:48Z",
+                        "closedAt": "2021-12-10T18:26:54Z"
+                    },
+                    {
+                        "title": "Output Results in SARIF Format",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/735",
+                        "createdAt": "2020-12-15T19:24:05Z",
+                        "closedAt": "2021-07-29T08:38:08Z"
+                    },
+                    {
+                        "title": "Create a tunable \"too open ingress\" rule / Community rules collections",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/738",
+                        "createdAt": "2020-12-18T22:27:17Z",
+                        "closedAt": "2022-07-12T00:03:37Z"
+                    },
+                    {
+                        "title": "ImportError: cannot import name util",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/739",
+                        "createdAt": "2020-12-18T23:41:20Z",
+                        "closedAt": "2021-12-01T15:26:12Z"
+                    },
+                    {
+                        "title": "False positive for CKV_AZURE_43: check storage account name",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/741",
+                        "createdAt": "2020-12-21T09:42:16Z",
+                        "closedAt": "2021-12-12T21:42:58Z"
+                    },
+                    {
+                        "title": "checkov silently returns [] when an `--external-checks-dir` doesn't have an init file",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/743",
+                        "createdAt": "2020-12-22T07:16:23Z",
+                        "closedAt": "2021-10-25T06:44:30Z"
+                    },
+                    {
+                        "title": "Bad rule w/ Cloudwatch Log Encryption",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/744",
+                        "createdAt": "2020-12-22T14:32:12Z",
+                        "closedAt": "2021-01-05T20:53:04Z"
+                    },
+                    {
+                        "title": "False positive for check 'MSKClusterEncryption' (CKV_AWS_81)",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/747",
+                        "createdAt": "2020-12-23T14:46:53Z",
+                        "closedAt": "2020-12-23T17:54:57Z"
+                    },
+                    {
+                        "title": "AWS Security Hub Integration",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/753",
+                        "createdAt": "2020-12-28T16:36:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "False positive for CKV_AWS_46: \"Ensure no hard coded AWS access key and secret key exists in EC2 user data\" 1",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/754",
+                        "createdAt": "2020-12-29T10:24:05Z",
+                        "closedAt": "2021-01-07T22:15:14Z"
+                    },
+                    {
+                        "title": "Checkov test in Restricted Environment",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/759",
+                        "createdAt": "2021-01-03T07:20:35Z",
+                        "closedAt": "2021-02-26T18:04:38Z"
+                    },
+                    {
+                        "title": "Allow for checks which are not enabled by default",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/761",
+                        "createdAt": "2021-01-04T18:44:45Z",
+                        "closedAt": "2022-04-01T11:14:45Z"
+                    },
+                    {
+                        "title": "Add the support for the Kubernetes Terraform provider",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/762",
+                        "createdAt": "2021-01-05T15:23:32Z",
+                        "closedAt": "2022-04-01T07:42:55Z"
+                    },
+                    {
+                        "title": "Support merge function",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/764",
+                        "createdAt": "2021-01-05T21:00:18Z",
+                        "closedAt": "2021-01-12T12:56:57Z"
+                    },
+                    {
+                        "title": "Feature request: report full module name if module instead of just the resource name",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/772",
+                        "createdAt": "2021-01-08T12:28:55Z",
+                        "closedAt": "2021-03-01T07:11:53Z"
+                    },
+                    {
+                        "title": "Terraform \"filesystem\" function handling",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/773",
+                        "createdAt": "2021-01-08T17:38:13Z",
+                        "closedAt": "2022-07-12T00:03:41Z"
+                    },
+                    {
+                        "title": "Dynamic block for Terraform AWS ALB access_logs",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/776",
+                        "createdAt": "2021-01-11T06:35:03Z",
+                        "closedAt": "2021-02-03T07:00:15Z"
+                    },
+                    {
+                        "title": "Feature request: Support checkov:skip in modules",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/777",
+                        "createdAt": "2021-01-11T13:08:12Z",
+                        "closedAt": "2021-09-22T06:56:54Z"
+                    },
+                    {
+                        "title": "Checkov return empty result",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/778",
+                        "createdAt": "2021-01-11T14:09:44Z",
+                        "closedAt": "2021-12-27T15:16:48Z"
+                    },
+                    {
+                        "title": "Parsing error when using terraform `null` provider",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/781",
+                        "createdAt": "2021-01-12T15:34:37Z",
+                        "closedAt": "2021-01-12T22:09:01Z"
+                    },
+                    {
+                        "title": "CKV_GCP_33 reports a false positive `true` vs `\"TRUE\"`",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/790",
+                        "createdAt": "2021-01-18T09:03:12Z",
+                        "closedAt": "2021-01-18T16:16:58Z"
+                    },
+                    {
+                        "title": "Checkov doesn't evaluate simple ternary operation",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/793",
+                        "createdAt": "2021-01-18T16:17:00Z",
+                        "closedAt": "2021-02-17T08:08:47Z"
+                    },
+                    {
+                        "title": "Check: CKV_AWS_26: \"Ensure all data stored in the SNS topic is encrypted\" fails for terraform plan  if kms_master_key_id is reference",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/799",
+                        "createdAt": "2021-01-20T21:13:02Z",
+                        "closedAt": "2022-07-12T00:03:42Z"
+                    },
+                    {
+                        "title": "Check: CKV_AWS_35: \"Ensure CloudTrail logs are encrypted at rest using KMS CMKs\" for terraform plan if kms_key_id is a reference to kms resource",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/800",
+                        "createdAt": "2021-01-20T21:38:54Z",
+                        "closedAt": "2022-07-09T20:13:41Z"
+                    },
+                    {
+                        "title": "ERROR:checkov.terraform.checks.resource.aws.IAMPolicyAttachedToGroupOrRoles:Failed to run check for terraform plan",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/802",
+                        "createdAt": "2021-01-21T05:55:16Z",
+                        "closedAt": "2021-01-21T10:24:33Z"
+                    },
+                    {
+                        "title": "Checkov fails to parse tf.json sources and returns an error to the console",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/807",
+                        "createdAt": "2021-01-21T22:19:00Z",
+                        "closedAt": "2021-02-26T17:46:03Z"
+                    },
+                    {
+                        "title": "Document \"__resolved__\" OR promote \"scanned_file\" to the actual module/resource check",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/813",
+                        "createdAt": "2021-01-24T01:42:33Z",
+                        "closedAt": "2022-07-09T20:13:42Z"
+                    },
+                    {
+                        "title": "TF parser: support partial line resolution",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/816",
+                        "createdAt": "2021-01-26T03:57:41Z",
+                        "closedAt": "2021-02-02T08:21:01Z"
+                    },
+                    {
+                        "title": "Multiple skip checks in string now throws exception",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/818",
+                        "createdAt": "2021-01-26T20:46:19Z",
+                        "closedAt": "2021-01-26T21:09:26Z"
+                    },
+                    {
+                        "title": "add intergration tests on multiple supressions via cli",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/821",
+                        "createdAt": "2021-01-27T10:23:48Z",
+                        "closedAt": "2021-01-31T21:32:32Z"
+                    },
+                    {
+                        "title": "Unbalanced eval brackets causes TF parser loop",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/822",
+                        "createdAt": "2021-01-27T16:05:33Z",
+                        "closedAt": "2021-12-24T22:29:25Z"
+                    },
+                    {
+                        "title": "Checkov does not handle multi yaml documents where a document may not be a dict",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/824",
+                        "createdAt": "2021-01-27T20:38:31Z",
+                        "closedAt": "2022-07-09T20:13:43Z"
+                    },
+                    {
+                        "title": "Unable to install encprops via HomeBrew",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/834",
+                        "createdAt": "2021-02-02T00:58:40Z",
+                        "closedAt": "2021-02-02T09:28:00Z"
+                    },
+                    {
+                        "title": "CKV_GCP_33 reports a false positive while oslogin is enabled",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/835",
+                        "createdAt": "2021-02-02T08:25:43Z",
+                        "closedAt": "2021-02-02T16:23:48Z"
+                    },
+                    {
+                        "title": "CKV_AWS_103 on HTTP -> HTTPS redirect",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/837",
+                        "createdAt": "2021-02-03T07:42:08Z",
+                        "closedAt": "2021-02-03T07:57:14Z"
+                    },
+                    {
+                        "title": "AWS CIS 1.3.0 Benchmark checks support",
+                        "url": "https://github.com/bridgecrewio/checkov/issues/853",
+                        "createdAt": "2021-02-10T11:18:50Z",
+                        "closedAt": "2022-07-09T20:13:44Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOMAHA8w==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

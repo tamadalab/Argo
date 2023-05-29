@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 3927,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHOPw486g=="
+                },
+                "nodes": [
+                    {
+                        "title": "Add Javadoc `@since` tag for `CannotGetJdbcConnectionException(String, IllegalStateException)`",
+                        "closedAt": "2022-07-01T08:44:41Z",
+                        "createdAt": "2022-06-30T15:37:56Z",
+                        "publishedAt": "2022-06-30T15:37:56Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Spring WebFlux - Provide LocaleContext for validation message interpolator",
+                        "closedAt": null,
+                        "createdAt": "2022-07-01T07:42:03Z",
+                        "publishedAt": "2022-07-01T07:42:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 28,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Remove code duplication in AopUtils.isAopProxy() to improve readability",
+                        "closedAt": "2022-07-02T11:21:28Z",
+                        "createdAt": "2022-07-01T18:53:24Z",
+                        "publishedAt": "2022-07-01T18:53:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Polish",
+                        "closedAt": "2022-07-02T07:41:23Z",
+                        "createdAt": "2022-07-02T05:42:15Z",
+                        "publishedAt": "2022-07-02T05:42:15Z",
+                        "merged": true,
+                        "mergedAt": "2022-07-02T07:41:22Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 24,
+                        "deletions": 21
+                    },
+                    {
+                        "title": "Fix GenericApplicationContextTests on Microsoft Windows",
+                        "closedAt": "2022-07-03T12:56:07Z",
+                        "createdAt": "2022-07-02T14:34:39Z",
+                        "publishedAt": "2022-07-02T14:34:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 5,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Simplify @EneabledIfRuntimeHintsAgent support",
+                        "closedAt": "2022-07-15T12:37:14Z",
+                        "createdAt": "2022-07-03T18:36:03Z",
+                        "publishedAt": "2022-07-03T18:36:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 52
+                    },
+                    {
+                        "title": "Fix WebClientAdapter.createHttpServiceProxyFactory() example in ref docs",
+                        "closedAt": "2022-07-04T17:47:23Z",
+                        "createdAt": "2022-07-03T20:08:56Z",
+                        "publishedAt": "2022-07-03T20:08:56Z",
+                        "merged": true,
+                        "mergedAt": "2022-07-04T17:47:23Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Correctly identify MaxUploadSizeExceededException through keywords in message from Jetty 9.4.x",
+                        "closedAt": "2022-07-13T11:23:54Z",
+                        "createdAt": "2022-07-05T13:13:08Z",
+                        "publishedAt": "2022-07-05T13:13:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 5,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Use MediaType.APPLICATION_FORM_URLENCODED_VALUE constant",
+                        "closedAt": "2022-07-29T13:21:50Z",
+                        "createdAt": "2022-07-07T12:59:11Z",
+                        "publishedAt": "2022-07-07T12:59:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 5,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "add support for record value injection",
+                        "closedAt": null,
+                        "createdAt": "2022-07-08T03:08:44Z",
+                        "publishedAt": "2022-07-08T03:08:44Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 18,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "@AliasFor may have a bug when dealing with repeated annotations",
+                        "closedAt": "2022-07-08T13:31:42Z",
+                        "createdAt": "2022-07-08T03:39:08Z",
+                        "publishedAt": "2022-07-08T03:39:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Revise `CookieLocaleResolver` to use `ResponseCookie`",
+                        "closedAt": "2022-09-28T15:24:28Z",
+                        "createdAt": "2022-07-08T18:59:34Z",
+                        "publishedAt": "2022-07-08T18:59:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 200,
+                        "deletions": 105
+                    },
+                    {
+                        "title": "ResponseCookie does not declare nullability annotations consistently for domain and path",
+                        "closedAt": "2022-07-29T15:02:27Z",
+                        "createdAt": "2022-07-08T20:21:03Z",
+                        "publishedAt": "2022-07-08T20:21:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 6,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Reduce synchronization scope in AbstractAspectJAdvice#calculateArgumentBindings",
+                        "closedAt": "2022-07-13T10:36:35Z",
+                        "createdAt": "2022-07-11T08:00:51Z",
+                        "publishedAt": "2022-07-11T08:00:51Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 7
+                        },
+                        "additions": 16,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Make isConnected() in WebSocketConnectionManager public",
+                        "closedAt": "2022-09-12T11:28:14Z",
+                        "createdAt": "2022-07-11T13:29:46Z",
+                        "publishedAt": "2022-07-11T13:29:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-websocket",
+                        "closedAt": "2022-07-11T19:37:37Z",
+                        "createdAt": "2022-07-11T17:27:55Z",
+                        "publishedAt": "2022-07-11T17:27:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 34,
+                        "deletions": 34
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-webmvc",
+                        "closedAt": "2022-07-12T08:49:20Z",
+                        "createdAt": "2022-07-11T20:56:31Z",
+                        "publishedAt": "2022-07-11T20:56:31Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 86,
+                        "deletions": 86
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-webflux",
+                        "closedAt": "2022-07-12T10:01:58Z",
+                        "createdAt": "2022-07-11T21:16:55Z",
+                        "publishedAt": "2022-07-11T21:16:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 44,
+                        "deletions": 44
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-web",
+                        "closedAt": "2022-07-12T10:17:07Z",
+                        "createdAt": "2022-07-11T21:31:08Z",
+                        "publishedAt": "2022-07-11T21:31:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 101,
+                        "deletions": 101
+                    },
+                    {
+                        "title": "try",
+                        "closedAt": "2022-07-12T06:35:15Z",
+                        "createdAt": "2022-07-12T06:30:02Z",
+                        "publishedAt": "2022-07-12T06:30:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 2,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-tx",
+                        "closedAt": "2022-07-12T10:43:03Z",
+                        "createdAt": "2022-07-12T09:54:22Z",
+                        "publishedAt": "2022-07-12T09:54:22Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 28,
+                        "deletions": 28
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-test",
+                        "closedAt": "2022-07-12T11:06:21Z",
+                        "createdAt": "2022-07-12T10:23:08Z",
+                        "publishedAt": "2022-07-12T10:23:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 63,
+                        "deletions": 63
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-r2dbc, spring-oxm, spring-orm and spring-jdbc",
+                        "closedAt": "2022-07-13T11:46:48Z",
+                        "createdAt": "2022-07-12T12:27:45Z",
+                        "publishedAt": "2022-07-12T12:27:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 88,
+                        "deletions": 88
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-messaging, spring-jms and spring-expression",
+                        "closedAt": "2022-07-13T12:07:15Z",
+                        "createdAt": "2022-07-12T13:58:37Z",
+                        "publishedAt": "2022-07-12T13:58:37Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 89,
+                        "deletions": 88
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-core and spring-context",
+                        "closedAt": "2022-07-13T12:58:48Z",
+                        "createdAt": "2022-07-12T15:28:53Z",
+                        "publishedAt": "2022-07-12T15:28:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 246,
+                        "deletions": 246
+                    },
+                    {
+                        "title": "Fix and improve Javadoc in spring-beans and spring-aop",
+                        "closedAt": "2022-07-13T14:14:33Z",
+                        "createdAt": "2022-07-12T16:00:29Z",
+                        "publishedAt": "2022-07-12T16:00:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 70,
+                        "deletions": 70
+                    },
+                    {
+                        "title": "Support infix expression calculation in NumberUtils",
+                        "closedAt": "2022-07-13T11:27:57Z",
+                        "createdAt": "2022-07-12T17:17:36Z",
+                        "publishedAt": "2022-07-12T17:17:36Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 156,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix typos in reference docs and project documentation",
+                        "closedAt": "2022-07-13T13:14:06Z",
+                        "createdAt": "2022-07-12T17:34:24Z",
+                        "publishedAt": "2022-07-12T17:34:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 32,
+                        "deletions": 32
+                    },
+                    {
+                        "title": "Fix typos in test code",
+                        "closedAt": "2022-07-13T14:36:36Z",
+                        "createdAt": "2022-07-12T18:26:50Z",
+                        "publishedAt": "2022-07-12T18:26:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 48,
+                        "deletions": 48
+                    },
+                    {
+                        "title": "Fix broken link in rsocket documentation",
+                        "closedAt": "2022-07-19T08:54:32Z",
+                        "createdAt": "2022-07-14T01:45:13Z",
+                        "publishedAt": "2022-07-14T01:45:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Replace use of the <tt> HTML tag in Javadoc",
+                        "closedAt": "2022-09-14T14:16:31Z",
+                        "createdAt": "2022-07-14T10:47:50Z",
+                        "publishedAt": "2022-07-14T10:47:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 20,
+                        "deletions": 20
+                    },
+                    {
+                        "title": "Use `{@code}` instead of HTML entities in Javadoc",
+                        "closedAt": "2022-07-18T18:36:57Z",
+                        "createdAt": "2022-07-14T11:00:11Z",
+                        "publishedAt": "2022-07-14T11:00:11Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 22,
+                        "deletions": 22
+                    },
+                    {
+                        "title": "Fix typos in Javadoc, reference docs, and code",
+                        "closedAt": "2022-09-14T14:58:20Z",
+                        "createdAt": "2022-07-14T11:05:10Z",
+                        "publishedAt": "2022-07-14T11:05:10Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 29,
+                        "deletions": 29
+                    },
+                    {
+                        "title": "Make ResourcePatternHints.Builder.build public",
+                        "closedAt": "2022-07-18T11:59:46Z",
+                        "createdAt": "2022-07-18T11:45:23Z",
+                        "publishedAt": "2022-07-18T11:45:23Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Avoid IllegalArgumentException when setting WebSocket error status",
+                        "closedAt": "2022-07-29T13:21:50Z",
+                        "createdAt": "2022-07-18T14:56:03Z",
+                        "publishedAt": "2022-07-18T14:56:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 7,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Reintroduce Javadoc links to Apache HttpClient 5.1 APIs",
+                        "closedAt": "2022-07-19T13:39:59Z",
+                        "createdAt": "2022-07-19T12:24:46Z",
+                        "publishedAt": "2022-07-19T12:24:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix inferred methods code generation",
+                        "closedAt": "2022-07-20T08:47:38Z",
+                        "createdAt": "2022-07-19T17:41:01Z",
+                        "publishedAt": "2022-07-19T17:41:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 22,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Improve resource handling for empty files contained in jars",
+                        "closedAt": "2022-09-26T07:55:11Z",
+                        "createdAt": "2022-07-21T19:33:54Z",
+                        "publishedAt": "2022-07-21T19:33:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 48,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "added missing @Nullable annotations to methods that may return null and are overridden by methods already using @Nullable",
+                        "closedAt": "2022-07-22T07:43:19Z",
+                        "createdAt": "2022-07-21T21:57:14Z",
+                        "publishedAt": "2022-07-21T21:57:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 10,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "SockJsServiceRegistration#setSupressCors has a typo and should be deprecated",
+                        "closedAt": "2022-07-22T14:17:20Z",
+                        "createdAt": "2022-07-21T21:57:52Z",
+                        "publishedAt": "2022-07-21T21:57:52Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 14,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "spring-orm mvp conversion to hibernate6",
+                        "closedAt": "2022-07-25T07:14:46Z",
+                        "createdAt": "2022-07-22T14:18:55Z",
+                        "publishedAt": "2022-07-22T14:18:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 102,
+                        "deletions": 766
+                    },
+                    {
+                        "title": "5.3.x",
+                        "closedAt": "2022-07-23T13:45:35Z",
+                        "createdAt": "2022-07-23T12:07:57Z",
+                        "publishedAt": "2022-07-23T12:07:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 246,
+                        "deletions": 11
+                    },
+                    {
+                        "title": "Remove clear() call to release method of WeakEntryReference and SoftEntryReference",
+                        "closedAt": null,
+                        "createdAt": "2022-07-25T05:25:12Z",
+                        "publishedAt": "2022-07-25T05:25:12Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Add missing closing parenthesis in reference doc",
+                        "closedAt": "2022-07-25T11:33:31Z",
+                        "createdAt": "2022-07-25T10:20:49Z",
+                        "publishedAt": "2022-07-25T10:20:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Deprecate CookieGenerator",
+                        "closedAt": "2022-09-28T15:24:29Z",
+                        "createdAt": "2022-07-25T20:01:42Z",
+                        "publishedAt": "2022-07-25T20:01:42Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 6,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix links in Javadoc and reference docs",
+                        "closedAt": "2022-09-14T15:22:02Z",
+                        "createdAt": "2022-07-26T13:48:34Z",
+                        "publishedAt": "2022-07-26T13:48:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 40,
+                        "deletions": 63
+                    },
+                    {
+                        "title": "Fix typos in Javadoc of class AbstractEncoder",
+                        "closedAt": "2022-07-29T07:32:14Z",
+                        "createdAt": "2022-07-29T05:29:54Z",
+                        "publishedAt": "2022-07-29T05:29:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Fix memory leak with CglibAopProxy$ProxyCallbackFilter",
+                        "closedAt": null,
+                        "createdAt": "2022-07-29T16:19:17Z",
+                        "publishedAt": "2022-07-29T16:19:17Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 82,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Fix typo in BasicJsonWriter.java",
+                        "closedAt": "2022-08-01T07:18:04Z",
+                        "createdAt": "2022-07-30T03:41:53Z",
+                        "publishedAt": "2022-07-30T03:41:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Make AnnotationsUtils::findAnnotation recognize annotations on anonymous classes again",
+                        "closedAt": null,
+                        "createdAt": "2022-07-31T12:08:34Z",
+                        "publishedAt": "2022-07-31T12:08:34Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 36,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Use Jakarta EE XML namespaces instead of Java EE",
+                        "closedAt": "2022-08-04T11:33:45Z",
+                        "createdAt": "2022-08-01T10:14:38Z",
+                        "publishedAt": "2022-08-01T10:14:38Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 12,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "Fix broken kdoc-api links in kotlin.adoc",
+                        "closedAt": "2022-08-04T09:03:17Z",
+                        "createdAt": "2022-08-02T05:44:16Z",
+                        "publishedAt": "2022-08-02T05:44:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Upgrade to Dokka Gradle plugin 1.7.10",
+                        "closedAt": "2022-08-04T09:37:56Z",
+                        "createdAt": "2022-08-02T12:27:19Z",
+                        "publishedAt": "2022-08-02T12:27:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Fix Javadoc since for new modules() and modulesToInstall()",
+                        "closedAt": "2022-08-02T14:11:55Z",
+                        "createdAt": "2022-08-02T13:48:33Z",
+                        "publishedAt": "2022-08-02T13:48:33Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "day1",
+                        "closedAt": "2022-08-03T07:05:25Z",
+                        "createdAt": "2022-08-03T07:03:18Z",
+                        "publishedAt": "2022-08-03T07:03:18Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 87,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "New stuff",
+                        "closedAt": "2022-08-04T10:29:49Z",
+                        "createdAt": "2022-08-04T10:29:39Z",
+                        "publishedAt": "2022-08-04T10:29:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 33,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "New stuff",
+                        "closedAt": "2022-08-04T10:34:17Z",
+                        "createdAt": "2022-08-04T10:33:25Z",
+                        "publishedAt": "2022-08-04T10:33:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 33,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add reflection runtime hints for OptionalValidatorFactoryBean.",
+                        "closedAt": "2022-08-08T15:00:39Z",
+                        "createdAt": "2022-08-08T11:51:45Z",
+                        "publishedAt": "2022-08-08T11:51:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Correct description of @RequestParam with WebFlux",
+                        "closedAt": "2022-08-09T13:32:55Z",
+                        "createdAt": "2022-08-09T13:16:58Z",
+                        "publishedAt": "2022-08-09T13:16:58Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Support TreeSet collection type in CollectionFactory.createCollection() without using reflection",
+                        "closedAt": "2022-08-11T08:45:10Z",
+                        "createdAt": "2022-08-10T15:11:19Z",
+                        "publishedAt": "2022-08-10T15:11:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "URL and HTTP method in rest client exception message",
+                        "closedAt": null,
+                        "createdAt": "2022-08-12T18:42:23Z",
+                        "publishedAt": "2022-08-12T18:42:23Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 82,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "Dev",
+                        "closedAt": "2022-08-13T04:30:33Z",
+                        "createdAt": "2022-08-13T00:01:39Z",
+                        "publishedAt": "2022-08-13T00:01:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 5921,
+                        "deletions": 85
+                    },
+                    {
+                        "title": "Update StreamUtils drain and emptyInput to use JDK builtins",
+                        "closedAt": "2022-09-12T08:28:03Z",
+                        "createdAt": "2022-08-13T21:43:18Z",
+                        "publishedAt": "2022-08-13T21:43:18Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 9,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "Adding JCStress support for ConcurrentLruCache",
+                        "closedAt": "2022-09-26T07:11:16Z",
+                        "createdAt": "2022-08-15T15:32:24Z",
+                        "publishedAt": "2022-08-15T15:32:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 172,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Increase StreamUtils.BUFFER_SIZE to 8192",
+                        "closedAt": "2022-09-09T20:16:54Z",
+                        "createdAt": "2022-08-15T23:13:06Z",
+                        "publishedAt": "2022-08-15T23:13:06Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Small polish of code of spring-aop",
+                        "closedAt": null,
+                        "createdAt": "2022-08-21T15:28:37Z",
+                        "publishedAt": "2022-08-21T15:28:37Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 149,
+                        "deletions": 167
+                    },
+                    {
+                        "title": "change method to public and use quartz's default value to eanable transactionable",
+                        "closedAt": "2022-09-05T05:10:08Z",
+                        "createdAt": "2022-08-21T17:02:07Z",
+                        "publishedAt": "2022-08-21T17:02:07Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Introduce andPerformRequest() method in ResponseActions",
+                        "closedAt": null,
+                        "createdAt": "2022-08-21T20:07:01Z",
+                        "publishedAt": "2022-08-21T20:07:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 40,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Improve so that KotlinSerialization can be applied before Jackson2",
+                        "closedAt": "2022-09-02T09:25:45Z",
+                        "createdAt": "2022-08-24T14:23:51Z",
+                        "publishedAt": "2022-08-24T14:23:51Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 44,
+                        "deletions": 21
+                    },
+                    {
+                        "title": "Update ClassUtils.java",
+                        "closedAt": "2022-08-25T03:16:14Z",
+                        "createdAt": "2022-08-25T03:07:06Z",
+                        "publishedAt": "2022-08-25T03:07:06Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 0,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix nesting of headings in RestTemplate section of integration.adoc",
+                        "closedAt": "2022-09-12T11:28:13Z",
+                        "createdAt": "2022-08-25T18:33:05Z",
+                        "publishedAt": "2022-08-25T18:33:05Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Refactor CodeFlow class. Replace if else with switch expression.",
+                        "closedAt": null,
+                        "createdAt": "2022-08-26T10:55:43Z",
+                        "publishedAt": "2022-08-26T10:55:43Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 150,
+                        "deletions": 248
+                    },
+                    {
+                        "title": "5.0.x note",
+                        "closedAt": "2022-08-27T14:36:49Z",
+                        "createdAt": "2022-08-27T14:35:38Z",
+                        "publishedAt": "2022-08-27T14:35:38Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 82,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Stop implementing SynthesizedAnnotation in annotation proxies",
+                        "closedAt": "2022-09-02T09:38:45Z",
+                        "createdAt": "2022-08-29T16:57:03Z",
+                        "publishedAt": "2022-08-29T16:57:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 90,
+                        "deletions": 55
+                    },
+                    {
+                        "title": "Replace dependency management plugin with built-in platform support",
+                        "closedAt": "2022-08-30T20:00:50Z",
+                        "createdAt": "2022-08-30T16:03:37Z",
+                        "publishedAt": "2022-08-30T16:03:37Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-30T20:00:50Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 189,
+                        "deletions": 244
+                    },
+                    {
+                        "title": "Fix typo in data-access section",
+                        "closedAt": "2022-09-05T05:24:46Z",
+                        "createdAt": "2022-08-31T14:55:14Z",
+                        "publishedAt": "2022-08-31T14:55:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Polish",
+                        "closedAt": "2022-08-31T16:42:33Z",
+                        "createdAt": "2022-08-31T15:00:33Z",
+                        "publishedAt": "2022-08-31T15:00:33Z",
+                        "merged": true,
+                        "mergedAt": "2022-08-31T16:42:33Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "RelativeRedirectResponseWrapper does not commit response in sendRedirect",
+                        "closedAt": "2022-09-07T15:01:27Z",
+                        "createdAt": "2022-08-31T15:15:36Z",
+                        "publishedAt": "2022-08-31T15:15:36Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 5,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update CacheAspectSupport.java",
+                        "closedAt": "2022-09-05T05:45:59Z",
+                        "createdAt": "2022-09-02T07:19:33Z",
+                        "publishedAt": "2022-09-02T07:19:33Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 5,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fix Transaction already completed issue",
+                        "closedAt": null,
+                        "createdAt": "2022-09-02T19:00:44Z",
+                        "publishedAt": "2022-09-02T19:00:44Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 117,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "Make QDox an implementation detail of spring-core-test",
+                        "closedAt": "2022-09-03T14:57:01Z",
+                        "createdAt": "2022-09-03T07:30:50Z",
+                        "publishedAt": "2022-09-03T07:30:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add `application/zip` mime type",
+                        "closedAt": "2022-09-05T06:56:15Z",
+                        "createdAt": "2022-09-04T22:02:45Z",
+                        "publishedAt": "2022-09-04T22:02:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 22,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add examples to Javadoc for Throwing*.of factory methods",
+                        "closedAt": "2022-09-08T16:31:25Z",
+                        "createdAt": "2022-09-05T10:09:53Z",
+                        "publishedAt": "2022-09-05T10:09:53Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 141,
+                        "deletions": 49
+                    },
+                    {
+                        "title": "Introduce registerResource(Resource) in ResourceHints",
+                        "closedAt": "2022-09-10T17:53:02Z",
+                        "createdAt": "2022-09-05T15:10:08Z",
+                        "publishedAt": "2022-09-05T15:10:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 50,
+                        "deletions": 26
+                    },
+                    {
+                        "title": "Add support for providing JNI runtime hints",
+                        "closedAt": "2022-09-06T10:23:32Z",
+                        "createdAt": "2022-09-06T07:43:27Z",
+                        "publishedAt": "2022-09-06T07:43:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 41,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Restrict permissions for GitHub action",
+                        "closedAt": "2022-09-08T07:04:50Z",
+                        "createdAt": "2022-09-08T05:04:44Z",
+                        "publishedAt": "2022-09-08T05:04:44Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 5
+                        },
+                        "additions": 3,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Add examples to Javadoc for Throwing*.of factory methods",
+                        "closedAt": "2022-09-09T16:37:11Z",
+                        "createdAt": "2022-09-08T17:19:16Z",
+                        "publishedAt": "2022-09-08T17:19:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 24,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Deprecate support for theme",
+                        "closedAt": "2022-09-09T09:34:31Z",
+                        "createdAt": "2022-09-09T07:34:46Z",
+                        "publishedAt": "2022-09-09T07:34:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 120,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "Fix creation of new JMS connection",
+                        "closedAt": null,
+                        "createdAt": "2022-09-09T08:28:40Z",
+                        "publishedAt": "2022-09-09T08:28:40Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 94,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "update",
+                        "closedAt": "2022-09-09T12:39:49Z",
+                        "createdAt": "2022-09-09T12:36:54Z",
+                        "publishedAt": "2022-09-09T12:36:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Adapt FieldHint to recent GraalVM versions",
+                        "closedAt": "2022-09-12T12:51:52Z",
+                        "createdAt": "2022-09-10T13:28:20Z",
+                        "publishedAt": "2022-09-10T13:28:20Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 173
+                    },
+                    {
+                        "title": "Add TestSocketUtils to spring-test",
+                        "closedAt": null,
+                        "createdAt": "2022-09-11T04:27:49Z",
+                        "publishedAt": "2022-09-11T04:27:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 165,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "5.1.x",
+                        "closedAt": "2022-09-12T06:06:19Z",
+                        "createdAt": "2022-09-12T06:00:39Z",
+                        "publishedAt": "2022-09-12T06:00:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 15
+                        },
+                        "additions": 10321,
+                        "deletions": 3681
+                    },
+                    {
+                        "title": "5.0.x",
+                        "closedAt": "2022-09-12T12:19:59Z",
+                        "createdAt": "2022-09-12T12:18:29Z",
+                        "publishedAt": "2022-09-12T12:18:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 15
+                        },
+                        "additions": 35253,
+                        "deletions": 27831
+                    },
+                    {
+                        "title": "Add runtime hints for WebFlux's WebSocket upgrade strategies",
+                        "closedAt": "2022-09-14T04:23:42Z",
+                        "createdAt": "2022-09-12T14:17:30Z",
+                        "publishedAt": "2022-09-12T14:17:30Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 49,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix SimpleMailMessage nullability annotations",
+                        "closedAt": null,
+                        "createdAt": "2022-09-13T01:26:49Z",
+                        "publishedAt": "2022-09-13T01:26:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 244,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Add missing @Nullable in SettableListenableFuture",
+                        "closedAt": "2022-09-14T12:38:38Z",
+                        "createdAt": "2022-09-14T01:45:41Z",
+                        "publishedAt": "2022-09-14T01:45:41Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Fix Javadoc since tag for AbstractGenericWebContextLoader.createContext()",
+                        "closedAt": "2022-09-14T13:54:57Z",
+                        "createdAt": "2022-09-14T13:26:19Z",
+                        "publishedAt": "2022-09-14T13:26:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Shutdown tasks annotated with @Scheduled when waitForTasksToCompleteOnShutdown is true",
+                        "closedAt": null,
+                        "createdAt": "2022-09-14T15:10:49Z",
+                        "publishedAt": "2022-09-14T15:10:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Switch to spring-asciidoctor-backends",
+                        "closedAt": "2022-09-19T11:21:40Z",
+                        "createdAt": "2022-09-15T21:15:00Z",
+                        "publishedAt": "2022-09-15T21:15:00Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 7,
+                        "deletions": 22
+                    }
+                ]
+            }
+        }
+    }
+}

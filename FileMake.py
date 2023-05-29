@@ -2,7 +2,6 @@ import os
 import re
 import glob
 import json
-from pandas.io.json import json_normalize
 import pandas as pd
 import csv
 import fig_process
@@ -90,14 +89,44 @@ def merge(dir_path):
 
     # 全てのcsvファイルを読み込み，total.csvファイルを作成する．
     for i in range(1,len(csv_files)+1):
+        # total.csvファイルが存在しないとき，作成する．
         if os.path.exists(path + "/" + str(i) + ".csv"):
             data_list.append(pd.read_csv(path + "/" + str(i) + ".csv"))
-    df = pd.concat(data_list, axis=0, sort = True)
-    df.to_csv(os.path.join(path, "total.csv"), index=False)
-    
+    df = pd.concat(data_list, axis=0, sort = False)
+    with open(os.path.join(path, "total.csv"), mode='w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(df.columns)  # 列のヘッダーを書き込む
+        for row in df.values:
+            writer.writerow(row)
+
 def output_data(repository,metrics, plotdata):
     fig_process.makedir("cache/" + repository +"/"+ metrics)
     file = os.path.join("cache", repository, metrics, "/plot_data.csv")
     with open(file, "a") as f:
         writer = csv.writer(f)
         writer.writerow(plotdata)
+
+def reverse_csv_rows(csv_file):
+    with open(csv_file, 'r') as f:
+        rows = list(csv.reader(f))
+
+    reversed_rows = list(zip(*rows[::-1]))
+
+    with open(csv_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(reversed_rows)
+
+def sort_csvfile(csv_file):
+
+    # データを読み込む
+    data = pd.read_csv(csv_file)
+
+    # createdAt列を年月のデータとして解釈し、ソートする
+    data['createdAt'] = pd.to_datetime(data['createdAt'], format='%Y-%m/%d')
+    data_sorted = data.sort_values('createdAt')
+
+    # createdAt列の形式を元に戻す
+    data_sorted['createdAt'] = data_sorted['createdAt'].dt.strftime('%Y-%m/%d')
+
+    # ソート結果を元のCSVファイルに上書きする
+    data_sorted.to_csv(csv_file, index=False)

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fix crash on remote clien by initializing the CelestialSystem on remote clients too.","2014-11/7","2014-11/7","2014-11/7",True,"2014-11/7",2,7,0
+"Added some javadoc","2014-11/8","2014-11/8","2014-11/8",True,"2014-11/8",4,52,0
+"Round one of Gradle / Artifactory / Jenkins overhaul","2014-11/10","2014-11/10","2014-11/10",True,"2014-11/10",2,270,250
+"Increase world timer tick frequency","2014-11/10","2014-11/10","2014-11/10",False,"null",3,1,1
+"Update FPS display only twice per second","2014-11/10","2014-11/10","2014-11/10",True,"2014-11/10",2,86,5
+"Fixed issue with border determination - #1358","2014-11/11","2014-11/11","2014-11/11",True,"2014-11/11",3,228,23
+"Fixing TreeProvider to extend the borders of BiomeFacet, as it is needed...","2014-11/13","2014-11/13","2014-11/13",True,"2014-11/13",2,3,1
+"Introducing periodic scheduled actions to DelayManager","2014-11/13","2014-11/13","2014-11/13",True,"2014-11/13",3,316,35
+"Adding permissions to Terasology.","2014-11/14","2014-11/14","2014-11/14",True,"2014-11/14",6,336,24
+"Update versioneye plugin to 1.0.0 (requires Gradle 2.1)","2014-11/15","2014-11/15","2014-11/15",True,"2014-11/15",2,5,12
+"Reimplement the purgeWorld command on top of the new auto save system.","2014-11/15","2014-11/15","2014-11/15",True,"2014-11/15",3,70,0
+"Quick fix junit test that broke with #1366","2014-11/15","2014-11/15","2014-11/15",True,"2014-11/15",2,15,13
+"Toggle running","2014-11/15","2014-11/15","2014-11/15",True,"2014-11/15",2,53,20
+"Added sparse implementations for 3D facets (and unit tests)","2014-11/16","2014-11/16","2014-11/16",True,"2014-11/16",3,1193,10
+"Make player system facet agnostic","2014-11/19","2014-11/19","2014-11/19",True,"2014-11/19",4,18,11
+"Chunk update occlusion detection","2014-11/20","2014-11/20","2014-11/20",False,"null",2,74,8
+"Fix NPE in DebugOverlay. ","2014-11/21","2014-11/21","2014-11/21",True,"2014-11/21",3,2,1
+"Fix checkstyle errors and related warnings","2014-11/21","2014-11/21","2014-11/21",True,"2014-11/21",2,67,42
+"Fix an issue where the FPS counter stops updating and make it update per each draw again.","2014-11/22","2014-11/22","2014-11/22",True,"2014-11/22",3,5,80
+"Make the isChunkValidForRender check a lot faster.","2014-11/22","2014-11/22","2014-11/22",True,"2014-11/22",2,0,0
+"Add linux protobuf compiler and make the grandlew task runProtobufLinux working","2014-11/22","2014-11/22","2014-11/22",True,"2014-11/22",2,37,5
+"Fix storage manager tests and the loading of uncompressed chunks","2014-11/22","2014-11/22","2014-11/22",True,"2014-11/22",2,4,1
+"StateMainMenu, Minor Refactoring","2014-11/22","2014-11/22","2014-11/22",True,"2014-11/22",3,8,3
+"Fixing NPE in DelayedActionSystem.","2014-11/23","2014-11/23","2014-11/23",True,"2014-11/23",2,4,0
+"Fix Rect2i.encompasses()","2014-11/23","2014-11/23","2014-11/23",True,"2014-11/23",2,13,1
+"Small set of changes salvaged from PR #1108.","2014-11/23","2014-11/23","2014-11/23",True,"2014-11/23",2,14,8
+"Fix NetworkOwnershipTest unit tests","2014-11/24","2014-11/24","2014-11/24",True,"2014-11/24",2,1,0
+"PC Facade Improvements: Javadoc, launch args and usage requests.","2014-11/24","2014-11/24","2014-11/24",True,"2014-11/24",4,97,12
+"PC Facade Improvements: argument handling, exception logging, using AutoCloseable engine","2014-11/25","2014-11/25","2014-11/25",True,"2014-11/25",3,83,70
+"Use headless env. for testing","2014-11/25","2014-11/25","2014-11/25",True,"2014-11/25",2,2,2
+"Added a command for automatically reloading screens when their ui file changed.","2014-11/25","2014-11/25","2014-11/25",True,"2014-11/25",3,139,13
+"Small tweaks for water in Core","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",4,9,1
+"First person rendered items avoid crashing the client","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",5,23,21
+"Call initializeWithInteractionTarget each time when a BaseInteractionScreen opens.","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",2,2,9
+"Properly deactivate entites when their chunks get unloaded.","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",2,5,1
+"Added an item for inspecting entities powered by an external reference.","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",3,197,0
+"TerasologyEngine, some refactoring","2014-11/27","2014-11/27","2014-11/27",True,"2014-11/27",3,180,134
+"Fix ColumnLayout unit tests","2014-11/28","2014-11/28","2014-11/28",True,"2014-11/28",2,41,27
+"Fix code analytics","2014-11/28","2014-11/28","2014-11/28",True,"2014-11/28",2,148,160
+"Change the entity id type to long and simplify the entity handling","2014-11/29","2014-12/29","2014-11/29",True,"2014-12/29",4,618,2335
+"TerasologyEngine, added javadocs and a few more minor changes","2014-11/30","2014-11/30","2014-11/30",True,"2014-11/30",3,78,14
+"TerasologyEngine, reordering of methods","2014-11/30","2014-12/30","2014-11/30",True,"2014-12/30",3,150,150
+"Updated trees and better depth of field effect.","2014-12/1","2014-12/1","2014-12/1",False,"null",5,24,10
+"Replace VecMath with TeraMath","2014-12/1","2015-1/1","2014-12/1",True,"2015-1/1",5,1161,842
+"Fix some unit tests","2014-12/2","2014-12/2","2014-12/2",True,"2014-12/2",3,15,17
+"Upgrade versions","2014-12/3","2014-12/3","2014-12/3",True,"2014-12/3",5,1096,1197
+"Prevent reads during the merge of the prepared world changes.","2014-12/3","2014-12/3","2014-12/3",True,"2014-12/3",3,66,25
+"Improved Depth of Field Effect","2014-12/6","2014-12/6","2014-12/6",False,"null",2,32,32
+"Retry merge folder rename if it doesn't work for the first time after one second.","2014-12/6","2014-12/6","2014-12/6",True,"2014-12/6",4,18,0
+"Add settings for the core module to prevent giving start items","2014-12/6","2014-12/6","2014-12/6",False,"null",5,35,0
+"Improved Depth of Field Effect","2014-12/7","2014-12/7","2014-12/7",True,"2014-12/7",4,32,32
+"For discussion: Init systems fix","2014-12/7","2014-12/7","2014-12/7",False,"null",4,90,17
+"Make it possible to become op on a headless server.","2014-12/7","2014-12/7","2014-12/7",True,"2014-12/7",3,92,0
+"Chunk mesh update improvements","2014-12/9","2014-12/9","2014-12/9",False,"null",7,74,8
+"Upgraded te protoc linux version to 2.6.1.","2014-12/9","2014-12/9","2014-12/9",True,"2014-12/9",3,0,0
+"Reworked the command registration system","2014-12/10","2014-12/10","2014-12/10",True,"2014-12/10",7,3422,1346
+"Remove unnecessary usage of Serializable to fix a permission issue.","2014-12/10","2014-12/10","2014-12/10",True,"2014-12/10",3,2,8
+"Make it possible to attack and interact with characters.","2014-12/13","2014-12/13","2014-12/13",True,"2014-12/13",5,6,4
+"Behavior system for servers","2014-12/14","2014-12/14","2014-12/14",True,"2014-12/14",3,11,5
+"Add 2D boolean facets","2014-12/15","2014-12/15","2014-12/15",True,"2014-12/15",3,146,0
+"Provide relevant regions to modules","2014-12/19","2014-12/19","2014-12/19",True,"2014-12/19",4,59,0
+"Make the passing of the camera position to the ChunkMeshUpdateManager more robust and clear.","2014-12/20","2014-12/20","2014-12/20",True,"2014-12/20",5,91,8
+"Add engine module as dependency for all modules","2014-12/22","2014-12/22","2014-12/22",True,"2014-12/22",3,22,3
+"Removed WorldTime, and instead introduced the use of CelestialModel","2014-12/22","2014-12/22","2014-12/22",False,"null",3,103,450
+"Reordered methods in WorldRendererLwjgl class. No functional changes.","2014-12/23","2014-12/23","2014-12/23",True,"2014-12/23",4,256,256
+"Moved part of WorldRendererLwjgl's functionality into new class RenderableWorldImpl ","2014-12/25","2014-12/25","2014-12/25",True,"2014-12/25",3,592,391
+"RenderableWorld changes","2014-12/27","2014-12/27","2014-12/27",True,"2014-12/27",5,186,159
+"Animated Splash screen","2014-12/27","2015-1/27","2014-12/27",True,"2015-1/27",3,349,17
+"Disable storing worlds through command-line flag","2014-12/27","2015-1/27","2014-12/27",True,"2015-1/27",6,433,191
+"New behavior node for playing (random) animations from a pool of animations..","2014-12/28","2014-12/28","2014-12/28",True,"2014-12/28",3,478,29
+"Add adjustable sea level height","2014-12/30","2014-12/30","2014-12/30",False,"null",5,93,61
+"Remove usage of com.sun.istack.internal.NotNull","2014-12/31","2014-12/31","2014-12/31",True,"2014-12/31",4,42,22
+"Use block hints to specify water surface height","2014-12/31","2015-1/31","2014-12/31",True,"2015-1/31",3,25,26
+"Remove Reflections.cache after jar build","2014-12/31","2015-1/31","2014-12/31",True,"2015-1/31",3,6,0
+"Command system cleanup","2014-12/31","2015-1/31","2014-12/31",True,"2015-1/31",3,1414,1249
+"Command parameter handling simplification","2015-1/1","2015-1/1","2015-1/1",True,"2015-1/1",4,1473,1412
+"Support different camera reflection heights","2015-1/1","2015-1/1","2015-1/1",True,"2015-1/1",3,180,42
+"Added a option to change the size of the screenshots you take.","2015-1/2","2015-1/2","2015-1/2",True,"2015-1/2",3,151,0
+"World renderer lwjgl refactoring","2015-1/2","2015-1/2","2015-1/2",True,"2015-1/2",4,128,200
+"Option for screenshot format","2015-1/3","2015-1/3","2015-1/3",True,"2015-1/3",3,129,14
+"Make o.t.world.sun available for modules","2015-1/3","2015-1/3","2015-1/3",True,"2015-1/3",3,19,0
+"Removed .toString from screenshot dateformat","2015-1/4","2015-1/4","2015-1/4",True,"2015-1/4",2,1,1
+"Multiplayer commands fix","2015-1/4","2015-1/4","2015-1/4",False,"null",4,119,205
+"Make landing sound volume depend on the velocity","2015-1/4","2015-1/4","2015-1/4",True,"2015-1/4",3,13,3
+"Fixed an issue with lists of entity ref being loaded twice","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",4,49,27
+"Corrected the usage string for vararg/array parameters.","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",3,4,10
+"try-with-resources support for PerformanceMonitor.beginActivity","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",5,95,24
+"Inventory and Container Tweaks","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",4,23,18
+"Fix for #1482 - Multiplayer commands","2015-1/5","2015-1/5","2015-1/5",True,"2015-1/5",4,10,26
+"cell remove fix","2015-1/6","2015-1/6","2015-1/6",True,"2015-1/6",3,1,1
+"Defer reading sea level until after world gen init.","2015-1/6","2015-1/6","2015-1/6",True,"2015-1/6",3,10,14
+"Updated lwjgl, slf4j, miglayout, netty, groovy","2015-1/6","2015-1/6","2015-1/6",True,"2015-1/6",4,20,10
+"Disable splashscreen in headless mode","2015-1/7","2015-1/7","2015-1/7",True,"2015-1/7",3,2,1
+"Hack/fix to stop unavaible chunk log flooding","2015-1/8","2015-1/8","2015-1/8",False,"null",5,16,5
+"Fix resource classpath in gradle runs","2015-1/8","2015-1/8","2015-1/8",True,"2015-1/8",3,3,0
+"Fix flora generation for Perlin worlds","2015-1/8","2015-1/8","2015-1/8",True,"2015-1/8",3,50,74
+"Add more logging info when hosting a server","2015-1/9","2015-1/9","2015-1/9",True,"2015-1/9",3,25,3
+"WorldRendererLwjgl.render() method refactoring","2015-1/10","2015-1/10","2015-1/10",True,"2015-1/10",5,186,172
+"Fix autosave spikes","2015-1/10","2015-1/10","2015-1/10",True,"2015-1/10",4,1215,358
+"Fix for #1516","2015-1/12","2015-1/12","2015-1/12",True,"2015-1/12",4,156,66

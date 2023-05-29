@@ -1,0 +1,801 @@
+['closedAt'],['createdAt'],['title'],['url']
+2020-7/23,2020-7/21,"""Unsupported machine type"" XQEMU gives this error when I try to run it. (Detailed: xbox,accel=kvm:hax:whpx,kernel_irqchip=off,bootrom=/home/barant/Desktop/xboxemu/xBios/mcpx_1.0.bin,short_animation: unsupported machine type)",https://github.com/mborgerson/xemu/issues/14
+2020-7/24,2020-7/23,Xbox 360 Controller support on macOS,https://github.com/mborgerson/xemu/issues/15
+2020-10/5,2020-10/5,allow loading default.xbe directly from extracted isos,https://github.com/mborgerson/xemu/issues/19
+2020-12/20,2020-10/6,Support specifying path to disc ISO from launch arguments,https://github.com/mborgerson/xemu/issues/20
+2020-10/24,2020-10/24,Support formats other than iso (jtag),https://github.com/mborgerson/xemu/issues/31
+,2020-10/25,Textures may extend beyond TOM,https://github.com/mborgerson/xemu/issues/34
+,2020-10/26,Linear textures are unhandled for various texture modes,https://github.com/mborgerson/xemu/issues/35
+2020-11/2,2020-10/28,NV_texture_compression_vtc is assumed to be present,https://github.com/mborgerson/xemu/issues/40
+2020-11/1,2020-10/28,EEPROM data should be propagated back to file,https://github.com/mborgerson/xemu/issues/43
+2020-12/31,2020-10/29,Allow unfocused main window to receive gamepad input,https://github.com/mborgerson/xemu/issues/44
+2021-6/3,2020-10/29,Trying to `cont` after failed `loadvm` will crash,https://github.com/mborgerson/xemu/issues/46
+2020-11/20,2020-10/30,Force feedback functionality is intermittent,https://github.com/mborgerson/xemu/issues/49
+,2020-10/30,Force feedback isn't auto-disabled after closing input window during test,https://github.com/mborgerson/xemu/issues/50
+2022-4/24,2020-10/30,Some Halo:CE fog effects broken,https://github.com/mborgerson/xemu/issues/51
+,2020-10/30,Halo:CE water is not blending as expected,https://github.com/mborgerson/xemu/issues/52
+2022-4/24,2020-10/30,Halo:CE laser effect missing parts,https://github.com/mborgerson/xemu/issues/53
+2022-5/6,2020-10/30,Generated frag shader may assign alpha channel of dot product statement,https://github.com/mborgerson/xemu/issues/54
+,2020-10/30,Halo 2: Able to see other objects through objects close to you,https://github.com/mborgerson/xemu/issues/55
+2020-12/21,2020-10/30,Framebuffer upload during `pgraph_gl_sync` can fail,https://github.com/mborgerson/xemu/issues/56
+,2020-10/30,Visual artifacts along screen margins,https://github.com/mborgerson/xemu/issues/57
+2020-10/30,2020-10/30,Halo: CE doesn't go ingame,https://github.com/mborgerson/xemu/issues/58
+2020-10/31,2020-10/31,Steel Battalion Crash on Start,https://github.com/mborgerson/xemu/issues/59
+2021-11/18,2020-10/31,NV097_SET_SURFACE_FORMAT_ZETA_Z16 needs verification,https://github.com/mborgerson/xemu/issues/60
+2021-11/20,2020-11/1,Input fails to work on Xbox bios revisions 3944 and 4034.,https://github.com/mborgerson/xemu/issues/61
+2020-11/3,2020-11/3,Jet Set Radio Future [U]: does not start,https://github.com/mborgerson/xemu/issues/62
+2020-11/12,2020-11/3,"Kernel ""5713"" fails to boot",https://github.com/mborgerson/xemu/issues/63
+2020-11/7,2020-11/4,Commas in file names are unsupported by the Qemu command line interface potentially breaking xemu startup.,https://github.com/mborgerson/xemu/issues/65
+,2020-11/4,Halo:CE specular breaking during UI events,https://github.com/mborgerson/xemu/issues/66
+2020-11/12,2020-11/12,MCPX 1.1 kernels fail to boot when treating flash memory like RAM,https://github.com/mborgerson/xemu/issues/71
+2022-4/26,2020-11/13,"HDTV 1080i issues, and observations",https://github.com/mborgerson/xemu/issues/73
+2021-9/22,2020-11/15,Forza Motorsport: Black areas when EEPROM set to non-English,https://github.com/mborgerson/xemu/issues/75
+2022-3/9,2020-11/16,Soul Calibur 2: 2nd player not rendering,https://github.com/mborgerson/xemu/issues/76
+2021-7/2,2020-11/16,THPS2X: Misplaced/clipped geometry,https://github.com/mborgerson/xemu/issues/77
+2020-11/18,2020-11/17,Rumble not working on Xbox Controller Windows 10,https://github.com/mborgerson/xemu/issues/80
+,2020-11/20,Shader Linking / Out of Resource Issue,https://github.com/mborgerson/xemu/issues/84
+2021-5/19,2020-11/22,Serial is broken,https://github.com/mborgerson/xemu/issues/86
+2020-11/22,2020-11/22,Intel HAXM Acceleration broken,https://github.com/mborgerson/xemu/issues/87
+2020-11/24,2020-11/22,Xbox disc not recognized on Linux,https://github.com/mborgerson/xemu/issues/88
+2022-6/28,2020-11/29,Support attaching Xbox Memory Units (XMU),https://github.com/mborgerson/xemu/issues/90
+2020-12/2,2020-12/2,Could the file paths/config be stored in another file?,https://github.com/mborgerson/xemu/issues/92
+2021-6/2,2020-12/13,Non-latinic filepath,https://github.com/mborgerson/xemu/issues/99
+2021-5/31,2020-12/16,XEMU crashes upon startup on M1 Mac,https://github.com/mborgerson/xemu/issues/101
+2021-3/12,2020-12/21,Assertion for non-dword aligned inline array offset (Conker L&R),https://github.com/mborgerson/xemu/issues/104
+2021-1/6,2020-12/23,Allow launching in fullscreen,https://github.com/mborgerson/xemu/issues/106
+2020-12/23,2020-12/23,Iron Phoenix,https://github.com/mborgerson/xemu/issues/107
+,2020-12/24,Implement missing DSP instructions,https://github.com/mborgerson/xemu/issues/108
+2020-12/24,2020-12/24,[Feature Request] Add Vulkan support,https://github.com/mborgerson/xemu/issues/109
+2021-7/10,2020-12/25,Fuzion Frenzy menu text is overlapping,https://github.com/mborgerson/xemu/issues/111
+2021-2/15,2020-12/28,[Feature Request] Fps Counter,https://github.com/mborgerson/xemu/issues/112
+2020-12/28,2020-12/28,Change console / system language or region,https://github.com/mborgerson/xemu/issues/113
+2022-6/6,2020-12/30,Darkwatch missing GFX,https://github.com/mborgerson/xemu/issues/114
+2020-12/30,2020-12/30,xemu won't play anything anymore,https://github.com/mborgerson/xemu/issues/115
+2022-5/27,2020-12/30,Handle color/zeta overlap,https://github.com/mborgerson/xemu/issues/116
+2021-2/11,2020-12/30,Fix flip overflow due to surface pitch vs width inconsistency,https://github.com/mborgerson/xemu/issues/117
+2020-12/30,2020-12/30,Handle surface download race condition,https://github.com/mborgerson/xemu/issues/118
+,2020-12/30,Possible memory corruption bug,https://github.com/mborgerson/xemu/issues/119
+2020-12/31,2020-12/31,Insert Xbox disc after loading iso,https://github.com/mborgerson/xemu/issues/123
+2021-1/1,2021-1/1,Linux Guest has not initialized the display yet,https://github.com/mborgerson/xemu/issues/126
+2021-1/4,2021-1/1,Reading SMC Version is broken,https://github.com/mborgerson/xemu/issues/128
+2021-1/8,2021-1/2,[Feature Request] CHD support,https://github.com/mborgerson/xemu/issues/129
+2021-1/20,2021-1/4,Rasperry Pi4 issue,https://github.com/mborgerson/xemu/issues/133
+2021-1/5,2021-1/5,Assertion issue.,https://github.com/mborgerson/xemu/issues/134
+,2021-1/5,Possible duplicate joypad rumble requests?,https://github.com/mborgerson/xemu/issues/135
+,2021-1/5,Implement gamepad button/axis remapping,https://github.com/mborgerson/xemu/issues/136
+2021-6/17,2021-1/6,Severe application instability with Intel Iris Xe Graphics,https://github.com/mborgerson/xemu/issues/137
+2021-2/18,2021-1/6,Implement portable mode,https://github.com/mborgerson/xemu/issues/138
+,2021-1/6,[Feature Request] Game save management,https://github.com/mborgerson/xemu/issues/139
+,2021-1/6,SpongeBob SquarePants: BFBB: pgraph_render_surface_to_texture assertion,https://github.com/mborgerson/xemu/issues/140
+,2021-1/7,Halo:CE dropped sounds and corrupt textures,https://github.com/mborgerson/xemu/issues/143
+2021-1/20,2021-1/8,Serious Sam textures problem,https://github.com/mborgerson/xemu/issues/146
+,2021-1/8,[Crimson Skies: High Road to Revenge] Incorrect Audio Sample Rate,https://github.com/mborgerson/xemu/issues/147
+2021-9/5,2021-1/9,[Mercenaries][Destroy All Humans! 2] UI focusing issue,https://github.com/mborgerson/xemu/issues/148
+2021-1/9,2021-1/9,"Found possible source of ""Intel Iris Xe instability"".",https://github.com/mborgerson/xemu/issues/149
+,2021-1/9,Please add Chinese language packs（And more languages）,https://github.com/mborgerson/xemu/issues/150
+,2021-1/10,Crimson Skies: High Road to Revenge - Multiplayer redering issues,https://github.com/mborgerson/xemu/issues/151
+,2021-1/10,Optionally bind any connected controller to an available port,https://github.com/mborgerson/xemu/issues/152
+2021-11/14,2021-1/10,XMV videos in Conan cause game to crash,https://github.com/mborgerson/xemu/issues/153
+2021-1/20,2021-1/14,Crash when launching from WSL after recent audio work,https://github.com/mborgerson/xemu/issues/155
+2022-5/26,2021-1/16,Midnight Club 3 DUB Edition Remix Crashes when Creating Save Game,https://github.com/mborgerson/xemu/issues/156
+2021-1/20,2021-1/16,Building aborted when not inside git repo,https://github.com/mborgerson/xemu/issues/157
+,2021-1/20,Building on 32bit OS broken since APU changes,https://github.com/mborgerson/xemu/issues/159
+,2021-1/20,Feature Request: LED Status,https://github.com/mborgerson/xemu/issues/160
+2021-3/13,2021-1/22,Surface format X1R5G5B5_Z1R5G5B5 needs verification,https://github.com/mborgerson/xemu/issues/161
+2021-5/18,2021-1/22,FFP LIGHT_SPOT needs to be implemented,https://github.com/mborgerson/xemu/issues/162
+,2021-1/24,[Feature Request] I/O Throttling,https://github.com/mborgerson/xemu/issues/164
+2021-1/25,2021-1/24,Fullscreen Shortcuts,https://github.com/mborgerson/xemu/issues/165
+,2021-1/27,Crash on startup,https://github.com/mborgerson/xemu/issues/166
+,2021-1/27,Metal Gear Solid 2: Substance - Characters & interactables on a different plane,https://github.com/mborgerson/xemu/issues/167
+2021-1/29,2021-1/29,Hard Disc image vs folder structure,https://github.com/mborgerson/xemu/issues/170
+2021-1/29,2021-1/29,XBE support.,https://github.com/mborgerson/xemu/issues/172
+2021-1/29,2021-1/29,Xbox Playback DVD Kit Support,https://github.com/mborgerson/xemu/issues/173
+2022-3/23,2021-1/29,SSX Tricky - Totally messed up graphics,https://github.com/mborgerson/xemu/issues/174
+2021-1/30,2021-1/30,Starting from the command line,https://github.com/mborgerson/xemu/issues/175
+2021-2/3,2021-2/3,Get Otogi and Grand theft auto 3 running on xemu,https://github.com/mborgerson/xemu/issues/176
+2021-2/4,2021-2/4,(Feature Request) Disc support,https://github.com/mborgerson/xemu/issues/177
+2021-2/4,2021-2/4,Guest has not initialized the display (yet),https://github.com/mborgerson/xemu/issues/178
+2021-2/8,2021-2/8,Add soul calibur II to the compatability list for xemu,https://github.com/mborgerson/xemu/issues/179
+2021-2/11,2021-2/11,Is there a Patreon where I can directly support the creators ,https://github.com/mborgerson/xemu/issues/182
+2021-2/11,2021-2/11,Video diagnostics image from Conker during War Section (Very Low FPS),https://github.com/mborgerson/xemu/issues/189
+2021-2/12,2021-2/12,"Opening ""Video"" graph crashes while paused",https://github.com/mborgerson/xemu/issues/194
+2021-2/15,2021-2/15,Possible retroarch core?,https://github.com/mborgerson/xemu/issues/198
+2021-2/15,2021-2/15,Sky looks orange in GTA vice city,https://github.com/mborgerson/xemu/issues/199
+,2021-2/19,"Investigate write enable gate, specifically clear",https://github.com/mborgerson/xemu/issues/204
+2021-3/3,2021-2/23,Compilation fails with recent binutils,https://github.com/mborgerson/xemu/issues/206
+2021-2/25,2021-2/25,Possible Debug build for Xemu?,https://github.com/mborgerson/xemu/issues/207
+2021-2/25,2021-2/25,Any way to reconfigure control mapping in Xemu?,https://github.com/mborgerson/xemu/issues/208
+2021-2/25,2021-2/25,Any way to directly launch .xbe files on Xemu?,https://github.com/mborgerson/xemu/issues/209
+2021-3/5,2021-3/2,glDrawElements GL error,https://github.com/mborgerson/xemu/issues/214
+2021-3/3,2021-3/2,Fix FIFO issues,https://github.com/mborgerson/xemu/issues/215
+2021-3/8,2021-3/2,Some title FMVs can soft lock,https://github.com/mborgerson/xemu/issues/216
+2021-5/24,2021-3/3,Remove console-showing xemu.exe from Windows distribution,https://github.com/mborgerson/xemu/issues/221
+2021-5/20,2021-3/3,xemu for Windows shows QEMU branding,https://github.com/mborgerson/xemu/issues/222
+2021-3/7,2021-3/4,[Bug] Incorrect Texture Transforms in Halo 2,https://github.com/mborgerson/xemu/issues/225
+2021-3/7,2021-3/4,[Bug] Clipping in Halo 2,https://github.com/mborgerson/xemu/issues/226
+,2021-3/4,"[Bug] Incorrect Shading, Over/Under saturated in Halo 2",https://github.com/mborgerson/xemu/issues/227
+,2021-3/4,[Fixes & Regressions] Halo 2 Clipping. (Not #226),https://github.com/mborgerson/xemu/issues/228
+,2021-3/4,[Bug] Halo 2 Missing Skybox?,https://github.com/mborgerson/xemu/issues/229
+2021-3/6,2021-3/6,xemu (early xqemu) not work on Intel HD GT1,https://github.com/mborgerson/xemu/issues/235
+2021-6/2,2021-3/6,Controller hotplug broken on Windows,https://github.com/mborgerson/xemu/issues/236
+,2021-3/7,[Feature request] CHD support for XISO games,https://github.com/mborgerson/xemu/issues/238
+2021-6/2,2021-3/8,end cutscene metropolis halo 2 1.5 update gl crash,https://github.com/mborgerson/xemu/issues/240
+2022-2/5,2021-3/8,[Bug] Some textures not rendered properly in MagiDeathFight!,https://github.com/mborgerson/xemu/issues/242
+2021-3/24,2021-3/11,Debug Kernels broken after MCPX overlay fix,https://github.com/mborgerson/xemu/issues/243
+2021-3/11,2021-3/11,Controller not connecting issue. ,https://github.com/mborgerson/xemu/issues/244
+2021-3/11,2021-3/11,Regression in dashboard clock settings,https://github.com/mborgerson/xemu/issues/249
+2021-3/11,2021-3/11,ToeJam & Earl III worked once but every time since I get black screen after hitting any button ,https://github.com/mborgerson/xemu/issues/251
+2022-5/4,2021-3/12,Miscolored (rainbow) elements in Conker L&R,https://github.com/mborgerson/xemu/issues/254
+2021-11/20,2021-3/13,Eject disks during intro crashes xemu,https://github.com/mborgerson/xemu/issues/255
+2021-3/27,2021-3/13,ToeJam & Earl III black screen when entering 2nd stage (Funk Fu Yu),https://github.com/mborgerson/xemu/issues/257
+2021-3/20,2021-3/20,Save States Support,https://github.com/mborgerson/xemu/issues/263
+2021-3/20,2021-3/20,Game folder support,https://github.com/mborgerson/xemu/issues/264
+,2021-3/20,FPS rergression in Dragons Lair 3D Windows 10,https://github.com/mborgerson/xemu/issues/265
+2021-3/21,2021-3/21,[Feature request] Snapshot option in main menu,https://github.com/mborgerson/xemu/issues/267
+2021-3/21,2021-3/21,[Feature request] add internal resolution modes (for more quality),https://github.com/mborgerson/xemu/issues/268
+,2021-3/22,Maximizing after launch causes dithering,https://github.com/mborgerson/xemu/issues/269
+2022-3/17,2021-3/23,graphics issues in Ninja Gaiden black and DOA2U,https://github.com/mborgerson/xemu/issues/270
+2021-3/29,2021-3/29,Feature Request: make a UWP version to run on xbox one dev mode,https://github.com/mborgerson/xemu/issues/272
+2021-5/7,2021-5/7,Wiki Instructions for Building on Ubuntu,https://github.com/mborgerson/xemu/issues/276
+,2021-5/12,Z24S8 surface upload/download slow on mesa radeonsi,https://github.com/mborgerson/xemu/issues/278
+2021-5/15,2021-5/13,Bruce Lee: Quest of the dragon: No graphics ,https://github.com/mborgerson/xemu/issues/279
+2021-5/18,2021-5/18,Changing between input devices causes crash,https://github.com/mborgerson/xemu/issues/280
+2022-5/24,2021-5/19,Graphical issues in 'Grabbed by the Ghoulies',https://github.com/mborgerson/xemu/issues/286
+2021-5/19,2021-5/19,Test: Test,https://github.com/mborgerson/xemu/issues/287
+2022-7/4,2021-5/21,Halo 2 v1.0: Assertion failed! ,https://github.com/mborgerson/xemu/issues/288
+,2021-5/21,Halo 2 Game Version 1.5 softlocks at random,https://github.com/mborgerson/xemu/issues/290
+2021-10/5,2021-5/23,Buffy the vampire Slayer: Background graphics are not rendered correctly ,https://github.com/mborgerson/xemu/issues/292
+2021-5/23,2021-5/23,Save state feature request,https://github.com/mborgerson/xemu/issues/293
+2021-5/25,2021-5/24,Release does not include licenses,https://github.com/mborgerson/xemu/issues/296
+,2021-5/24,Build Artifacts have 2 .Zip Files,https://github.com/mborgerson/xemu/issues/297
+2021-6/2,2021-5/25,Crash Twinsanity : Missing/Hidden Geometry,https://github.com/mborgerson/xemu/issues/299
+2021-5/25,2021-5/25,Def Jam Fight For NY SSX Tricky Ssx tours and the sims bustin out broken ,https://github.com/mborgerson/xemu/issues/301
+2021-5/25,2021-5/25,These games is broken,https://github.com/mborgerson/xemu/issues/302
+2021-5/25,2021-5/25,SSX Tricky And Malice Is broken And Def Jam Fight For Ny,https://github.com/mborgerson/xemu/issues/303
+2022-5/4,2021-5/27,Amped 2 (MS-065 [4d530041]): Some 3D objects misplaced,https://github.com/mborgerson/xemu/issues/304
+,2021-5/27,Dead or alive 3 freezing on team match,https://github.com/mborgerson/xemu/issues/305
+2021-11/7,2021-5/28,pfifo.c:423 assertion,https://github.com/mborgerson/xemu/issues/306
+2021-5/31,2021-5/31,Ninja Gaiden Black visual artifacts in ch. 12,https://github.com/mborgerson/xemu/issues/308
+,2021-5/31,Menu Stretching/Distortion and/or Glitches in Games,https://github.com/mborgerson/xemu/issues/309
+,2021-6/1,xemu crashes upon idling for a period of time,https://github.com/mborgerson/xemu/issues/310
+,2021-6/1,Resetting xemu is inconsistent,https://github.com/mborgerson/xemu/issues/311
+,2021-6/2,Some titles have scissor issues,https://github.com/mborgerson/xemu/issues/312
+2021-10/12,2021-6/2,Unknown Blend Source Factor assertion in some games,https://github.com/mborgerson/xemu/issues/313
+2022-7/17,2021-6/2,Meta: Shader compilation failures,https://github.com/mborgerson/xemu/issues/315
+2021-6/2,2021-6/2,Ford racing 2 crashes due to shader compilation failure,https://github.com/mborgerson/xemu/issues/316
+2021-10/12,2021-6/2,"NV097, SET_TEXTURE_SET_BUMP_ENV_MAT Assertion",https://github.com/mborgerson/xemu/issues/317
+2021-6/3,2021-6/2,State.psh.window_clip_exclusive is Untested,https://github.com/mborgerson/xemu/issues/318
+2021-7/11,2021-6/2,"texture color formats 0x17, 0x2c, 0x25, 0x31,0x3b are not implemented",https://github.com/mborgerson/xemu/issues/320
+2021-11/19,2021-6/2,Unknown front face,https://github.com/mborgerson/xemu/issues/321
+2022-5/26,2021-6/2,[Assertion] Zeta surface clear for Z24S8 (float) is untested,https://github.com/mborgerson/xemu/issues/322
+2021-10/12,2021-6/2,Unknown vs param,https://github.com/mborgerson/xemu/issues/323
+2022-1/9,2021-6/2,Unhandled NV_IMAGE_BLIT methods,https://github.com/mborgerson/xemu/issues/324
+,2021-6/3,"F1 2002 crashes, (value & 0xFF000000) == 0",https://github.com/mborgerson/xemu/issues/325
+,2021-6/3,[Assertion] surface->offset <= dma.limit ,https://github.com/mborgerson/xemu/issues/326
+2022-5/27,2021-6/3,Broken games catgory megathread.,https://github.com/mborgerson/xemu/issues/328
+2022-6/15,2021-6/3,[Assertion] pg->inline_elements_length == 0,https://github.com/mborgerson/xemu/issues/329
+2022-7/18,2021-6/3,[Assertion] in_pitch >= in_width * 2,https://github.com/mborgerson/xemu/issues/330
+2022-2/11,2021-6/3,Append_skinning_code is Untested,https://github.com/mborgerson/xemu/issues/331
+,2021-6/3,[Assertion] address < DSP_YRAM_SIZE,https://github.com/mborgerson/xemu/issues/332
+,2021-6/3,build.sh fails on Linux when symlink involved in pwd,https://github.com/mborgerson/xemu/issues/333
+2022-6/2,2021-6/3,[Assertion] TEXGEN_REFLECTION_MAP,https://github.com/mborgerson/xemu/issues/334
+,2021-6/4,DOAX: Black screen on initial video,https://github.com/mborgerson/xemu/issues/335
+2021-6/5,2021-6/4,surface != d->pgraph.color_binding Assertion,https://github.com/mborgerson/xemu/issues/336
+2021-6/5,2021-6/5,surface != d->pgraph.color_binding Assertion,https://github.com/mborgerson/xemu/issues/337
+2021-6/17,2021-6/5,surface != d->pgraph.color_binding Assertion,https://github.com/mborgerson/xemu/issues/338
+,2021-6/6,Jet Set Radio Future: Audio Crackling,https://github.com/mborgerson/xemu/issues/339
+2021-11/30,2021-6/6,Halo CE: High pitch sound in Level 2,https://github.com/mborgerson/xemu/issues/340
+2021-6/11,2021-6/11,To add file access/transfer between xbox HDD cow2 image file and host file system,https://github.com/mborgerson/xemu/issues/342
+,2021-6/12,Auto-updater may temporarily grab old releases upon new release,https://github.com/mborgerson/xemu/issues/344
+2021-6/17,2021-6/13,Log file should include additional important information,https://github.com/mborgerson/xemu/issues/345
+2022-2/23,2021-6/13,Dead or Alive 3: Object transparency issue,https://github.com/mborgerson/xemu/issues/346
+,2021-6/15,XEMU may become an unkillable process after assertion.,https://github.com/mborgerson/xemu/issues/348
+2022-5/18,2021-6/15,"Midnight Club 3 DUB Edition: pgraph_surface_invalidate: assertion ""surface != d->pgraph.zeta_binding""",https://github.com/mborgerson/xemu/issues/349
+,2021-6/16,File-Browse Dialog not accessible while Fullscreen is enabled ,https://github.com/mborgerson/xemu/issues/350
+,2021-6/18,Crashes without an available audio device,https://github.com/mborgerson/xemu/issues/354
+2021-7/2,2021-6/18,Dead or Alive 3 / Dead or Alive 2 Ultimate: Character Select displays out of position,https://github.com/mborgerson/xemu/issues/355
+2022-4/28,2021-6/18,Blinx: Some textures aren't displayed,https://github.com/mborgerson/xemu/issues/356
+,2021-6/19,Capcom Classics Collection Vol. 2:  Street Fighter II Champion Edition is running slow,https://github.com/mborgerson/xemu/issues/357
+2021-7/3,2021-6/19,Kung Fu Chaos: Camera Filter Issue ,https://github.com/mborgerson/xemu/issues/358
+,2021-6/20,The Hobbit: Main character sometimes invisible,https://github.com/mborgerson/xemu/issues/359
+2021-11/14,2021-6/21,The Wild Rings: Crash upon loading,https://github.com/mborgerson/xemu/issues/360
+,2021-6/21,Airforce Delta Storm/Deadly Skies: Hangs when Certain Audio Plays,https://github.com/mborgerson/xemu/issues/361
+,2021-6/21,Configurable shotcuts,https://github.com/mborgerson/xemu/issues/362
+2021-6/21,2021-6/21,Change the game directly - whitout need to manually reset everytime,https://github.com/mborgerson/xemu/issues/363
+2022-6/10,2021-6/21,[Assertion] (pg->draw_arrays_length < ARRAY_SIZE(pg->gl_draw_arrays_start)),https://github.com/mborgerson/xemu/issues/364
+,2021-6/21,Blackened Texture Issues and Documentation,https://github.com/mborgerson/xemu/issues/365
+2022-6/2,2021-6/21,SSX On Tour crashes when trying to make it in-game,https://github.com/mborgerson/xemu/issues/366
+2022-1/9,2021-6/21,NV097_SET_VERTEX_DATA4S_M is untested,https://github.com/mborgerson/xemu/issues/367
+2022-4/13,2021-6/21,pgraph_update_surface_part Assertion,https://github.com/mborgerson/xemu/issues/368
+,2021-6/23,Show proper error message when failing to initialize,https://github.com/mborgerson/xemu/issues/370
+,2021-6/24,Add menu setting to choose the audio backend,https://github.com/mborgerson/xemu/issues/371
+2022-5/27,2021-6/27,Metal Arms: Title Screen Assertions,https://github.com/mborgerson/xemu/issues/373
+,2021-6/28,Psychonaunts: Floating point execption crash,https://github.com/mborgerson/xemu/issues/374
+2022-6/26,2021-6/28,Meta: Crashes from Malloc Issues,https://github.com/mborgerson/xemu/issues/375
+,2021-6/28, Games which have currently unexplainable crashes,https://github.com/mborgerson/xemu/issues/376
+,2021-6/29,Xemu debug build updates to non debug,https://github.com/mborgerson/xemu/issues/377
+2021-6/30,2021-6/29,ERROR:../ui/xemu.c:855:sdl2_display_very_early_init: assertion failed: (m_context != ((void *)0)),https://github.com/mborgerson/xemu/issues/378
+,2021-6/29,TEXGEN_OBJECT_LINEAR is Untested,https://github.com/mborgerson/xemu/issues/379
+,2021-6/29,[Assertion] segment_offset != 0,https://github.com/mborgerson/xemu/issues/380
+2022-6/2,2021-6/29,Cold Fear: Crashes when open a door in the first level. Assert(glGetError() == GL_NO_ERROR),https://github.com/mborgerson/xemu/issues/381
+2022-5/18,2021-6/29,Murakumo: Renegade Mech Pursuit: Crash when going in-game,https://github.com/mborgerson/xemu/issues/382
+2022-6/2,2021-6/29,Backyard Wrestling: Don't Try This at Home: Crash when going in-game,https://github.com/mborgerson/xemu/issues/383
+2021-7/7,2021-6/29,[Regression]Project Gotham Racing 2: Crash when going in-game,https://github.com/mborgerson/xemu/issues/384
+2022-5/27,2021-6/29,Marvel Nemesis: Rise of the Imperfects crashes with assertion  paddr + bytes_to_copy < memory_region_size(d->ram),https://github.com/mborgerson/xemu/issues/385
+2021-11/12,2021-6/29,Nobunaga no Yabou: Ranseiki: Crashes during intro(Needs retesting) ,https://github.com/mborgerson/xemu/issues/386
+2022-5/19,2021-6/30,DreamWorks Madagascar: Crashes after Intro screen.,https://github.com/mborgerson/xemu/issues/387
+2021-12/2,2021-6/30,[Regression] Kingdom Under Fire: The Crusaders: Crashes when start a new game,https://github.com/mborgerson/xemu/issues/388
+,2021-6/30,Adding missing peripherals ,https://github.com/mborgerson/xemu/issues/389
+,2021-7/1,Simulate network link status and events,https://github.com/mborgerson/xemu/issues/391
+,2021-7/1,"nvnet ring index, size state vars possibly incorrect",https://github.com/mborgerson/xemu/issues/392
+2022-4/22,2021-7/2,Star Wars - Knights of the Old Republic: Hangs at load screen,https://github.com/mborgerson/xemu/issues/393
+2022-1/8,2021-7/4,Flatpak build,https://github.com/mborgerson/xemu/issues/396
+2022-2/5,2021-7/7,Jet Set Radio Future: Map Bug,https://github.com/mborgerson/xemu/issues/397
+,2021-7/10,"Metal Wolf Chaos: Texture Issues When Viewing Some Objects Up Close, From The Sides, Etc. ",https://github.com/mborgerson/xemu/issues/400
+,2021-7/10,"(Regression) Dinosaur Hunting: On Linux, Game Crashes With Segmentation Fault Error ",https://github.com/mborgerson/xemu/issues/403
+2022-5/18,2021-7/11,Van Helsing: Title Screen Assertion (Regression),https://github.com/mborgerson/xemu/issues/405
+2021-11/14,2021-7/11,Operation Flashpoint: Segfault on Windows/NVIDIA,https://github.com/mborgerson/xemu/issues/406
+2021-7/12,2021-7/12,Last version that supports OpenGL 3.3?,https://github.com/mborgerson/xemu/issues/408
+,2021-7/12,Anisotropic filtering option,https://github.com/mborgerson/xemu/issues/409
+,2021-7/12,(Regression) Genma Onimusha: Title Screen And Gameplay Do Not Display In Linux,https://github.com/mborgerson/xemu/issues/410
+,2021-7/14,(Regression) Project Gotham Racing 2: Crashes the emulator or the game under certain circumstances,https://github.com/mborgerson/xemu/issues/412
+2021-9/16,2021-7/16,Support explicit aspect ratio display scaling for widescreen support,https://github.com/mborgerson/xemu/issues/413
+2022-5/24,2021-7/18,(Regression) Brute Force: Game Crashes With Seg. Fault Error In Linux Before 1st Mission Starts ,https://github.com/mborgerson/xemu/issues/414
+,2021-7/21,Castlevania - Curse Of Darkness: Game Not Affected By Increased Resolution Settings ,https://github.com/mborgerson/xemu/issues/417
+2022-1/9,2021-7/21,Timesplitters: Future Perfect - Gun on First Story Mission Causing FPS drop. ,https://github.com/mborgerson/xemu/issues/418
+2022-5/31,2021-7/21,"Magatama: Environment Becomes Extremely Bright At Certain Camera Angles, Main Character Textures Also Darken",https://github.com/mborgerson/xemu/issues/419
+2022-5/20,2021-7/21,Failed assertion of bound surface size comparison,https://github.com/mborgerson/xemu/issues/420
+2021-7/22,2021-7/21,Xbox series x controller disconnecting in bluetooth mode,https://github.com/mborgerson/xemu/issues/421
+2022-6/15,2021-7/22,"Whacked!: Video freezes on first frame, associated audio continues playing",https://github.com/mborgerson/xemu/issues/422
+,2021-7/22,Shenmue 2: Assertion failed!,https://github.com/mborgerson/xemu/issues/423
+2022-5/28,2021-7/23,Conker Live and Reloaded - Assertion Failed,https://github.com/mborgerson/xemu/issues/424
+,2021-7/24,Metal Gear Solid 2: Substance - no picture on Mac M1,https://github.com/mborgerson/xemu/issues/425
+2021-7/25,2021-7/25,Conker Live and Reloaded - Crashed on mac m1,https://github.com/mborgerson/xemu/issues/427
+,2021-7/26,Arctic Thunder: Emulator Reset upon loading a course (Mac M1),https://github.com/mborgerson/xemu/issues/429
+,2021-7/28,Black with missing lighting effects,https://github.com/mborgerson/xemu/issues/432
+,2021-7/28,Crash Tag Team Racing surface scaling does not work correctly,https://github.com/mborgerson/xemu/issues/433
+2022-5/19,2021-7/28,Sonic Heroes crashes on loading screen,https://github.com/mborgerson/xemu/issues/434
+,2021-7/28,Audio CD Support,https://github.com/mborgerson/xemu/issues/435
+,2021-7/29,[Regression] Harry Potter and the Chamber of Secrets: Performance slowdown,https://github.com/mborgerson/xemu/issues/436
+2021-9/4,2021-8/2,Title Name: Short Description,https://github.com/mborgerson/xemu/issues/440
+2021-9/5,2021-8/7,Destroy All Humans! 2: No in-game models.,https://github.com/mborgerson/xemu/issues/441
+2021-10/1,2021-8/11,Npcap bridged network - failed to open interface 'xxx' for capture: winpcap library is not loaded,https://github.com/mborgerson/xemu/issues/442
+2021-9/4,2021-8/13,Advent Rising: Freezing when attempting gameplay,https://github.com/mborgerson/xemu/issues/443
+,2021-8/15,Dave Mirra Freestyle BMX 2: xemu may crash when entering gameplay in Proquest mode,https://github.com/mborgerson/xemu/issues/444
+,2021-8/23,ReShade Support - Crashes in ../hw/xbox/nv2a/pgraph.c - glGetError() == GL_NO_ERROR,https://github.com/mborgerson/xemu/issues/446
+,2021-9/1,True Crime: New York City - Background/Low Detail objects render in front of all other 3D.,https://github.com/mborgerson/xemu/issues/448
+,2021-9/4,pgraph.c error while on boot screen and trying to swap disc.,https://github.com/mborgerson/xemu/issues/449
+2021-9/5,2021-9/5,`savevm` monitor command causes crash,https://github.com/mborgerson/xemu/issues/450
+,2021-9/8,[Regression] Ninja Gaiden: Performance slowdown ,https://github.com/mborgerson/xemu/issues/453
+2021-9/14,2021-9/14,32 bit?,https://github.com/mborgerson/xemu/issues/454
+2021-9/16,2021-9/16,Clang Compiler LTO Linker Error with Xemu,https://github.com/mborgerson/xemu/issues/456
+2022-6/3,2021-9/16,Futurama: FMV videos are broken,https://github.com/mborgerson/xemu/issues/457
+,2021-9/16,Far Cry Instincts: Some 3D objects and water are broken in some frames,https://github.com/mborgerson/xemu/issues/458
+,2021-9/18,Crimson Skies: High Road to Revenge - Intel Xe Iris Graphics issue,https://github.com/mborgerson/xemu/issues/459
+,2021-9/20,Burnout 3 Takedown: Broken Splitscreen,https://github.com/mborgerson/xemu/issues/460
+2021-9/24,2021-9/21,JET SET RADIO FUTURE: Cannot Save ,https://github.com/mborgerson/xemu/issues/461
+,2021-9/29,"OS, CPU model not shown in log file",https://github.com/mborgerson/xemu/issues/462
+,2021-9/30,Benchmark Mode: Recording FPS and MSPF values and providing Averages,https://github.com/mborgerson/xemu/issues/465
+,2021-10/3,Performance issue with savevm and loadvm,https://github.com/mborgerson/xemu/issues/468
+2022-2/6,2021-10/3,"Title Name: Elder Scrolls III, The Morrowind - Game of the Year Edition (USA)",https://github.com/mborgerson/xemu/issues/469
+2021-10/7,2021-10/4,Assert when saving xemu settings (user folder containing cyrillic characters),https://github.com/mborgerson/xemu/issues/470
+,2021-10/5,Excessive memory usage when opening Xemu,https://github.com/mborgerson/xemu/issues/471
+,2021-10/6,Super Monkey Ball Deluxe: cutscenes not rendering,https://github.com/mborgerson/xemu/issues/472
+,2021-10/6,UI shortcut to report issue,https://github.com/mborgerson/xemu/issues/473
+2021-10/12,2021-10/6,xemu crashed after launch,https://github.com/mborgerson/xemu/issues/475
+2021-10/7,2021-10/6,filed to generate eppromfiles,https://github.com/mborgerson/xemu/issues/476
+,2021-10/6,Doom 3: Main Menu - Game Freezes After 10 seconds in the menu,https://github.com/mborgerson/xemu/issues/477
+2021-10/7,2021-10/7,XEMU crashes on launch if no audio device detected - SDL_OpenAudioDevice failed,https://github.com/mborgerson/xemu/issues/478
+2021-10/24,2021-10/7,File paths containing non-ASCII characters are unsupported,https://github.com/mborgerson/xemu/issues/479
+2022-5/24,2021-10/7,Project Gotham Racing running in severely low frame rates,https://github.com/mborgerson/xemu/issues/480
+2021-10/8,2021-10/7,Widescreen or 720p not available in games,https://github.com/mborgerson/xemu/issues/481
+2021-10/12,2021-10/12,Make a UWP build of xemu to run non-backwards compatible games on the xbox one / series x|s,https://github.com/mborgerson/xemu/issues/487
+2022-5/26,2021-10/12,Unimplemented texture color format 0x2f,https://github.com/mborgerson/xemu/issues/491
+2022-6/15,2021-10/12,Beyond Good & Evil gets glGetError() == GL_NO_ERROR after first wave of enemies,https://github.com/mborgerson/xemu/issues/492
+,2021-10/12,Dead or Alive 3: Performance drops to half speed on any stage with character reflections,https://github.com/mborgerson/xemu/issues/493
+2022-2/23,2021-10/12,Dead or Alive 3: Sunburst texture is obscuring view in the Iron Hell stage,https://github.com/mborgerson/xemu/issues/494
+2022-8/5,2021-10/14,Serial broken on Windows,https://github.com/mborgerson/xemu/issues/498
+2022-5/24,2021-10/18,Title Name: SSX 3 In Game Error,https://github.com/mborgerson/xemu/issues/500
+2021-10/18,2021-10/18,Port To Android,https://github.com/mborgerson/xemu/issues/501
+2021-10/22,2021-10/22,HeXen + XBMC + DVD2XBOX Visual C++  Assertion Failed,https://github.com/mborgerson/xemu/issues/502
+2021-12/28,2021-10/23,SpongeBob: Battle for Bikini Bottom: Error pg-> color_binding || pg-> zeta_binding,https://github.com/mborgerson/xemu/issues/503
+,2021-10/24,Non-ASCII characters are not displayed properly,https://github.com/mborgerson/xemu/issues/504
+,2021-10/26,Unreal Championship assert fail on linux,https://github.com/mborgerson/xemu/issues/507
+,2021-10/27,"Starting xemu with a Rendering Scale greater than ""native"" creates pixel line of artifacts at top of screen",https://github.com/mborgerson/xemu/issues/508
+2021-10/30,2021-10/28,"Return To Castle Wolfenstein: Crash in VM due to null pointer exception, possibly triggered by difference in `cpuid` handling",https://github.com/mborgerson/xemu/issues/509
+2021-11/14,2021-10/30,Incorrect video rendering in pre-menu FMV,https://github.com/mborgerson/xemu/issues/511
+2021-10/30,2021-10/30,Incorrect video rendering in pre-menu FMV,https://github.com/mborgerson/xemu/issues/512
+2021-10/31,2021-10/31,Center scaling mode is broken when using rendering scale,https://github.com/mborgerson/xemu/issues/515
+2021-10/31,2021-10/31,Ejecting disks during FMV Causes an assertion,https://github.com/mborgerson/xemu/issues/516
+2021-10/31,2021-10/31,"implement ""Auto (Window Size)"" Internal Resolution Rendering / Widescreen Hack",https://github.com/mborgerson/xemu/issues/517
+,2021-10/31,Apply Widescreen Hacks from a database,https://github.com/mborgerson/xemu/issues/518
+2022-1/8,2021-11/1,Hexen 2021 Iso no longer booting (Bios shadow booting???),https://github.com/mborgerson/xemu/issues/519
+2022-6/2,2021-11/1,upscaling certain games crashes the emulator.,https://github.com/mborgerson/xemu/issues/520
+,2021-11/2,Gauntlet Seven Sorrows and Tiger Woods PGA Tour 2005 Audio bug,https://github.com/mborgerson/xemu/issues/521
+,2021-11/2,macOS 'receive keystrokes from any application' popup,https://github.com/mborgerson/xemu/issues/522
+,2021-11/2,Halo: Cortana flickering,https://github.com/mborgerson/xemu/issues/523
+,2021-11/2,Halo 2: Flickering/depth issues on Apple M1 Macs,https://github.com/mborgerson/xemu/issues/524
+2022-1/9,2021-11/2,"Audio, Graphics  and Video issues with Capcom vs. SNK 2 EO",https://github.com/mborgerson/xemu/issues/525
+,2021-11/2,Capcom vs. SNK 2 EO: Sound effects and voices are missing ,https://github.com/mborgerson/xemu/issues/526
+,2021-11/2,The dashboard crashes in xemu,https://github.com/mborgerson/xemu/issues/527
+2021-11/2,2021-11/2,Second Sight and Link 2004 is affected with malloc(): invalid size (unsorted),https://github.com/mborgerson/xemu/issues/528
+2021-11/2,2021-11/2,Second Sight is affected with malloc.c:2379: sysmalloc: Assertion ,https://github.com/mborgerson/xemu/issues/529
+2022-5/26,2021-11/3,Heroes of the Pacific crashes with an assertion:pgraph.c:4629,https://github.com/mborgerson/xemu/issues/530
+,2021-11/4,Neighbours From Hell Glitched FMV's + Slow-mo glitch + Audio glitch,https://github.com/mborgerson/xemu/issues/531
+2021-11/4,2021-11/4,[fix/hard-scale] Spyro: A Heros Tail Assertion Error ,https://github.com/mborgerson/xemu/issues/532
+2022-3/30,2021-11/4,Mercenaries: Playground of Destruction: Draw distance too short,https://github.com/mborgerson/xemu/issues/533
+2022-4/26,2021-11/5,"Phantom Crash: Working audio, controller input, but no video.",https://github.com/mborgerson/xemu/issues/534
+2021-11/14,2021-11/5,There are some game that crash on window's during FMV's for unknown reasons,https://github.com/mborgerson/xemu/issues/535
+,2021-11/7,NHL Rivals 2004 Freezes after the first intro,https://github.com/mborgerson/xemu/issues/536
+2022-6/25,2021-11/7,Some title have heavy exploding geometry ingame and menus,https://github.com/mborgerson/xemu/issues/537
+,2021-11/7,Cutscenes doesn't work on Apple Silicon Mac,https://github.com/mborgerson/xemu/issues/538
+,2021-11/9,Lord of the rings: Return of the king - the picture doesn't allign the screen. Blue strip on the left.,https://github.com/mborgerson/xemu/issues/540
+,2021-11/9,Lord of the rings: Return of the king - Load state strange behaviour,https://github.com/mborgerson/xemu/issues/541
+,2021-11/9,Direct work with Dualshock 4 or correct work with Dualshock 4 + DS4windows,https://github.com/mborgerson/xemu/issues/542
+,2021-11/10,[Intel/Linux] The wild ring Intro and title screen background does'nt display,https://github.com/mborgerson/xemu/issues/543
+,2021-11/10,Pirates of the Caribbean menus Artifacting,https://github.com/mborgerson/xemu/issues/544
+,2021-11/10,somes menus have a vertical line across left side of the menu,https://github.com/mborgerson/xemu/issues/545
+,2021-11/10,[Feature Request] Netplay for xemu,https://github.com/mborgerson/xemu/issues/546
+2022-1/22,2021-11/12,Seablade and Nba jam menu is not fully rendered,https://github.com/mborgerson/xemu/issues/547
+,2021-11/13,Strange work of save/load snapshots,https://github.com/mborgerson/xemu/issues/548
+,2021-11/15,Fatal frame 2 crashes the emulator,https://github.com/mborgerson/xemu/issues/549
+,2021-11/18,Handling of infinite z-clip max in floating point z-buffer modes differs from hardware,https://github.com/mborgerson/xemu/issues/551
+2021-11/20,2021-11/19,Braveknight: Lieveland Eiyuuden: NV097_SET_SURFACE_FORMAT_ZETA_Z24S8 assertion failed,https://github.com/mborgerson/xemu/issues/554
+2021-11/19,2021-11/19,Booting MCPX 1.1 kernels broken again,https://github.com/mborgerson/xemu/issues/555
+2021-11/20,2021-11/20,there's any advantage to change 64MB to 128MB in Settings?,https://github.com/mborgerson/xemu/issues/558
+,2021-11/20, pfifo.c:424 assertion,https://github.com/mborgerson/xemu/issues/559
+2022-7/23,2021-11/20, Intro games catgory megathread,https://github.com/mborgerson/xemu/issues/560
+2022-5/11,2021-11/20,Batman: Rise of Sin Tzu Crashes before going in-game.,https://github.com/mborgerson/xemu/issues/561
+2021-11/21,2021-11/21,The Suffering <Assertion Failed>,https://github.com/mborgerson/xemu/issues/562
+,2021-11/21,Dead Or Alive Xtreme Beach Volleyball,https://github.com/mborgerson/xemu/issues/563
+2022-4/24,2021-11/21,The need for speed series(excluding Need for Speed: Hot Pursuit 2) and MTX motorcross dont render correctly,https://github.com/mborgerson/xemu/issues/564
+,2021-11/23,Star Wars: Obi-Wan crashes with ((seg_spb + 1) == samples_per_block),https://github.com/mborgerson/xemu/issues/566
+2022-2/1,2021-11/23,Palettized volume texture format conversion is unimplemented,https://github.com/mborgerson/xemu/issues/567
+,2021-11/24,Some game don't render on intel Integrated graphics ,https://github.com/mborgerson/xemu/issues/571
+,2021-11/25,FMV have green Encoding artifacting,https://github.com/mborgerson/xemu/issues/572
+,2021-11/26,Laggy FMVs,https://github.com/mborgerson/xemu/issues/573
+,2021-11/27,Y axis of right analog not detected on USB controller,https://github.com/mborgerson/xemu/issues/574
+,2021-11/28,Conker Live Reloaded Z-fighting issues when upscaling,https://github.com/mborgerson/xemu/issues/575
+,2021-11/30,Rendered text glyphs apparently offset in various titles,https://github.com/mborgerson/xemu/issues/576
+,2021-12/1,some games shadows are broken or missing,https://github.com/mborgerson/xemu/issues/577
+2022-1/8,2021-12/1,SURFACE_2D_FORMAT_X8R8G8B8_Z8R8G8B8 Is unimpletemented ,https://github.com/mborgerson/xemu/issues/578
+,2021-12/1,Ultra Bust A Move and the Outlaw golf have an audio bug which freezes the game,https://github.com/mborgerson/xemu/issues/579
+,2021-12/1,Lighting problems,https://github.com/mborgerson/xemu/issues/580
+,2021-12/2,[Feature Request] Retro Achievements Support,https://github.com/mborgerson/xemu/issues/582
+,2021-12/2,Brothers in Arms Series MMU fault causing the games to crash,https://github.com/mborgerson/xemu/issues/583
+,2021-12/2,Rolling menus are broken,https://github.com/mborgerson/xemu/issues/584
+,2021-12/4,Some games lighting effects dont render correctly.,https://github.com/mborgerson/xemu/issues/586
+,2021-12/4,NV_PGRAPH_TEXFILTER_SIGNED not supported,https://github.com/mborgerson/xemu/issues/587
+2021-12/6,2021-12/5, nv2a PIO is not emulated yet,https://github.com/mborgerson/xemu/issues/588
+2021-12/6,2021-12/5,Huge performance issues and crashes.,https://github.com/mborgerson/xemu/issues/590
+2021-12/6,2021-12/6,xemu does not fully load or no xbox logo,https://github.com/mborgerson/xemu/issues/592
+2021-12/29,2021-12/9,JSRF: Cannot enter sewer area,https://github.com/mborgerson/xemu/issues/594
+,2021-12/10,Hunter The Reckoning  + Hunter The Reckoning Redeemer missing fighting sounds,https://github.com/mborgerson/xemu/issues/595
+2021-12/20,2021-12/12,Support for emulated memory cards,https://github.com/mborgerson/xemu/issues/596
+2022-6/26,2021-12/12,Conan viewport issues,https://github.com/mborgerson/xemu/issues/597
+,2021-12/12,C.A.T: Cyber Attack Team: Texture sampling Issue,https://github.com/mborgerson/xemu/issues/598
+2022-2/22,2021-12/20,Jet Set Radio Future [JSRF]: Incorrect rendering of progress indicator panel,https://github.com/mborgerson/xemu/issues/601
+,2021-12/23,Bug: Issue with scaling some objects and or textures,https://github.com/mborgerson/xemu/issues/602
+,2021-12/28,[Feature Request] Support for pressure-sensitive face buttons,https://github.com/mborgerson/xemu/issues/606
+2021-12/29,2021-12/29,New MacOS compiles are damaged and not open on Big Sur 11.2,https://github.com/mborgerson/xemu/issues/609
+2022-3/20,2021-12/29,Capcom vs. SNK 2 EO: Some visual elements are missing ,https://github.com/mborgerson/xemu/issues/610
+2022-1/10,2021-12/31,Marvel vs. Capcom 2 starts in Xemu‘s latest versions ,https://github.com/mborgerson/xemu/issues/614
+2022-1/3,2022-1/3,mem_dirty in pgraph_update_surface_part is always false under TCG,https://github.com/mborgerson/xemu/issues/615
+,2022-1/5,Title Name: Kakuto Kojin,https://github.com/mborgerson/xemu/issues/617
+2022-3/2,2022-1/5,Dead or Alive 3,https://github.com/mborgerson/xemu/issues/618
+,2022-1/5,Shikigami no Shiro 2,https://github.com/mborgerson/xemu/issues/619
+2022-4/22,2022-1/7,KOTOR hangs just after character creation,https://github.com/mborgerson/xemu/issues/620
+,2022-1/7,Jet Set Radio Future: Lighting Issue,https://github.com/mborgerson/xemu/issues/621
+2022-1/9,2022-1/8,nxdk binaries using NV097 methods with minimal changes to surface pitch/format leads to corrupted display,https://github.com/mborgerson/xemu/issues/626
+,2022-1/9,Miscellaneous Assertions,https://github.com/mborgerson/xemu/issues/628
+,2022-1/9,SNK vs. Capcom: SVC Chaos: Run at 3 fps (very slow),https://github.com/mborgerson/xemu/issues/630
+2022-6/14,2022-1/9,Halo: Beta 1749 - Game doesn't start. ,https://github.com/mborgerson/xemu/issues/631
+,2022-1/9,Capcom vs. SNK 2 EO: Some visual elements are missing ,https://github.com/mborgerson/xemu/issues/632
+2022-6/15,2022-1/9,nv2a: color_binding || zeta_binding assertion failure,https://github.com/mborgerson/xemu/issues/635
+2022-1/10,2022-1/10,Marvel vs. Capcom 2: The game don't pass from the menu screen,https://github.com/mborgerson/xemu/issues/637
+,2022-1/10,Missing PCI devices,https://github.com/mborgerson/xemu/issues/638
+,2022-1/10,Rallisport Challenge 2: High Sound FX levels ,https://github.com/mborgerson/xemu/issues/639
+,2022-1/10,Rallisport Challenge 2: Water rendering bug ,https://github.com/mborgerson/xemu/issues/640
+2022-3/6,2022-1/11,Max Payne: Lighting issue with models,https://github.com/mborgerson/xemu/issues/641
+2022-4/24,2022-1/11,[Feature Request] DualSense support,https://github.com/mborgerson/xemu/issues/642
+,2022-1/11,Midtown Madness 3: Freezes at a specific point in the game,https://github.com/mborgerson/xemu/issues/643
+2022-1/11,2022-1/11,New pgraph named debug output produces incorrect/misleading names for looped handlers,https://github.com/mborgerson/xemu/issues/644
+,2022-1/11,nv2a: Logging improvements,https://github.com/mborgerson/xemu/issues/646
+,2022-1/13,Pirates: The Legend of Black Kat - FMVs are rendered as side-by-side duplicates,https://github.com/mborgerson/xemu/issues/652
+2022-1/19,2022-1/14,Mechassault: Fog code causes intro videos to be rendered as a blank greyish screen,https://github.com/mborgerson/xemu/issues/653
+,2022-1/14,[Amd/Intel] Knight's Apprentice: Memorick's Adventures Graphic bug,https://github.com/mborgerson/xemu/issues/655
+,2022-1/15,Please add support for Xbox hardware revision 1.x (whatever revision that supports 5838 BIOS),https://github.com/mborgerson/xemu/issues/656
+,2022-1/17,Crash Twinsanity Game Screen Spazzes out,https://github.com/mborgerson/xemu/issues/658
+,2022-1/18,Halo CE: slow downs on some visual effects.,https://github.com/mborgerson/xemu/issues/659
+2022-1/19,2022-1/19,a software that will make finding compatability problems 500x possibly more quick,https://github.com/mborgerson/xemu/issues/662
+2022-1/20,2022-1/19,Internal USB hub commit causes major performance drops for NXDK apps using SDL event polling,https://github.com/mborgerson/xemu/issues/663
+,2022-1/19,Counter Terrorist Special Forces: loading animation corrupts title screen,https://github.com/mborgerson/xemu/issues/665
+,2022-1/21,Mechassault: water doesn’t seem to be right,https://github.com/mborgerson/xemu/issues/666
+,2022-1/21,Incorrect shading when using a shader with explicit w-params,https://github.com/mborgerson/xemu/issues/667
+2022-4/27,2022-1/21,Add machine information to Help->About screen,https://github.com/mborgerson/xemu/issues/668
+2022-6/25,2022-1/22,Nba jam menu Only renders the background,https://github.com/mborgerson/xemu/issues/670
+2022-2/10,2022-1/24,pgraph: Several inline buffer vertex attribute setters are not implemented,https://github.com/mborgerson/xemu/issues/671
+2022-4/24,2022-1/24,Need for Speed Underground: FMVs not rendered to screen,https://github.com/mborgerson/xemu/issues/673
+,2022-1/26,The Incredible Hulk: Ultimate Destruction: Hulk Texture Collision Issues,https://github.com/mborgerson/xemu/issues/678
+,2022-1/27,MagiDeathFight! has broken textures when first character select screen,https://github.com/mborgerson/xemu/issues/679
+,2022-1/27,Xemu assert when doing video test with res scaling on unleashX.,https://github.com/mborgerson/xemu/issues/680
+,2022-1/28,007: Nightfire Doesn't play Video and blacks out (Macbook),https://github.com/mborgerson/xemu/issues/682
+2022-3/23,2022-1/28,SSX Tricky: Stage select missing foreground graphics,https://github.com/mborgerson/xemu/issues/686
+,2022-1/28,Use of `DEBUG_NV2A` can lead to assert in `mttcg_cpu_thread_fn`,https://github.com/mborgerson/xemu/issues/687
+2022-5/29,2022-2/1,disk eject assert,https://github.com/mborgerson/xemu/issues/689
+2022-3/15,2022-2/1,Unhandled PGRAPH methods,https://github.com/mborgerson/xemu/issues/690
+2022-2/1,2022-2/1,Additional Info,https://github.com/mborgerson/xemu/issues/691
+2022-6/26,2022-2/1,nv2a 0x97 -> 0x037c (glShadeModel?) unhandled,https://github.com/mborgerson/xemu/issues/692
+2022-5/26,2022-2/1,Jade Empire Assertion Failed nv2a/pgraph.c,https://github.com/mborgerson/xemu/issues/694
+2022-2/2,2022-2/2,I want Translate UI for Russian Language,https://github.com/mborgerson/xemu/issues/695
+,2022-2/2,nv2a 0x97 -> 0x0294 (glLightModel?) unhandled,https://github.com/mborgerson/xemu/issues/697
+,2022-2/2,nv2a 0x97 -> 0x0380 (glLineWidth?) unhandled,https://github.com/mborgerson/xemu/issues/698
+2022-2/5,2022-2/2,nv2a 0x97 -> 0x03b4 (3D_MATERIAL_FACTOR_FRONT_A?) unhandled,https://github.com/mborgerson/xemu/issues/700
+,2022-2/2,nv2a 0x97 -> 0x03b8 (3D_SEPARATE_SPECULAR_ENABLE) unhandled,https://github.com/mborgerson/xemu/issues/701
+,2022-2/2,nv2a 0x97 -> 0x09f8 (Unknown?) unhandled,https://github.com/mborgerson/xemu/issues/702
+,2022-2/2,nv2a 0x97 -> 0x1d7c (glEnable(GL_MULTISAMPLE)?) unhandled,https://github.com/mborgerson/xemu/issues/703
+,2022-2/2,nv2a 0x97 -> 0x09fc (Unknown?) unhandled,https://github.com/mborgerson/xemu/issues/704
+,2022-2/2,nv2a 0x97 -> 0x147c (glEnable(GL_POLYGON_STIPPLE)?) unhandled,https://github.com/mborgerson/xemu/issues/705
+,2022-2/2,nv2a 0x97 -> 0x16bc (glEdgeFlag?) unhandled,https://github.com/mborgerson/xemu/issues/706
+,2022-2/2,nv2a 0x97 -> 0x1710 (3D_VTXBUF_VALIDATE?) unhandled,https://github.com/mborgerson/xemu/issues/707
+,2022-2/2," nv2a 0x97 -> 0x17c4 (glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE)?) unhandled",https://github.com/mborgerson/xemu/issues/708
+,2022-2/2,nv2a 0x97 -> 0x1d78 (glEnable(GL_DEPTH_CLAMP)?) unhandled,https://github.com/mborgerson/xemu/issues/709
+,2022-2/2,nv2a 0x97 -> 0x1d80 (Unknown?) unhandled,https://github.com/mborgerson/xemu/issues/710
+,2022-2/2,nv2a 0x97 -> 0x1d84 (Unknown?) unhandled,https://github.com/mborgerson/xemu/issues/711
+2022-5/18,2022-2/2,nv2a 0x97 -> 0x1e6c (3D_TEX_RCOMP?) unhandled,https://github.com/mborgerson/xemu/issues/712
+,2022-2/2,nv2a 0x97 -> 0x0ae* (Unidentified) unhandled,https://github.com/mborgerson/xemu/issues/713
+,2022-2/2,Burnout 3: Takedown: boost bar not rendering correctly,https://github.com/mborgerson/xemu/issues/714
+,2022-2/2,nv2a 0x97 -> 0x1480 - 0x14fc (3D_POLYGON_STIPPLE_PATTERN?) unhandled,https://github.com/mborgerson/xemu/issues/715
+2022-3/19,2022-2/3,Handling of combiner control mux LSB/MSB flag is incorrect,https://github.com/mborgerson/xemu/issues/716
+,2022-2/5,Porting to the android operating system,https://github.com/mborgerson/xemu/issues/719
+2022-4/24,2022-2/5,Grabbed by the Ghoulies: Missing geometry,https://github.com/mborgerson/xemu/issues/721
+2022-5/5,2022-2/6,Timesplitters: Future Perfect: Shadow Bugs,https://github.com/mborgerson/xemu/issues/722
+2022-2/6,2022-2/6,Front panel eject button led display,https://github.com/mborgerson/xemu/issues/723
+,2022-2/7,nv2a: stencil test with replace stencil op is not correctly applied,https://github.com/mborgerson/xemu/issues/724
+,2022-2/7,"The Elder Scrolls III: Morrowind: GOTY Edition: water is bugged, shows up in a grid pattern",https://github.com/mborgerson/xemu/issues/725
+,2022-2/7,The Elder Scrolls III: Morrowind: GOTY Edition: crash when sleeping on a bed (under specific circumstances),https://github.com/mborgerson/xemu/issues/728
+,2022-2/7,The Elder Scrolls III: Morrowind: GOTY Edition: player inventory screen rendering bug,https://github.com/mborgerson/xemu/issues/729
+2022-4/24,2022-2/9,Half-Life 2: Assertion failed!,https://github.com/mborgerson/xemu/issues/730
+,2022-2/10,Dark Alliance 2: Long Loading Times,https://github.com/mborgerson/xemu/issues/731
+,2022-2/15,Surface render target does not work on M1 mac,https://github.com/mborgerson/xemu/issues/734
+2022-2/15,2022-2/15,xemu: invalid accelerator kvm,https://github.com/mborgerson/xemu/issues/736
+2022-6/9,2022-2/17,Halo 2: invisible floor/ground,https://github.com/mborgerson/xemu/issues/737
+,2022-2/20,Startup showing corner gaps,https://github.com/mborgerson/xemu/issues/739
+,2022-2/20,Halo 2 not properly rendering some areas and areas flickers,https://github.com/mborgerson/xemu/issues/740
+2022-2/22,2022-2/21,nv2a/mcpx: Loading nonexistent save state freezes the guest,https://github.com/mborgerson/xemu/issues/741
+2022-3/19,2022-2/23,Audio track volume not accounted for,https://github.com/mborgerson/xemu/issues/744
+2022-5/5,2022-2/23,ts fp asserts,https://github.com/mborgerson/xemu/issues/745
+,2022-2/24,Improve controller input latency,https://github.com/mborgerson/xemu/issues/746
+,2022-2/24,Thrillville - Vertex explosions resolved by changing render scale,https://github.com/mborgerson/xemu/issues/747
+2022-2/27,2022-2/26,Crash during start up Read-only image ,https://github.com/mborgerson/xemu/issues/748
+,2022-2/28,Rainbow Six 3 / Rainbow Six Black Arrow / Ghost Recon Advanced Warfighter: Character models and lightsources are rendered through walls and objects,https://github.com/mborgerson/xemu/issues/749
+,2022-2/28,"Ghost Recon 2 / Ghost Recon 2 Summit Strike: Gamemode ""Defend"" is freezing the game",https://github.com/mborgerson/xemu/issues/750
+2022-4/25,2022-3/2,remove gh-release/ from tag,https://github.com/mborgerson/xemu/issues/754
+,2022-3/6,TC: Streets of NY M1 Max Rendering issues,https://github.com/mborgerson/xemu/issues/758
+2022-4/25,2022-3/6,Halo 2 v1.0: Assertion Failed! Line 5986,https://github.com/mborgerson/xemu/issues/759
+,2022-3/7,CoD Finest Hour freezes,https://github.com/mborgerson/xemu/issues/760
+,2022-3/8,Networking: Add readout for MAC Address on EEPROM,https://github.com/mborgerson/xemu/issues/761
+,2022-3/8,Networking: Wifi Card Issues,https://github.com/mborgerson/xemu/issues/762
+,2022-3/9,Improve gfx resource deallocation,https://github.com/mborgerson/xemu/issues/763
+2022-6/6,2022-3/11,Terminator Redemption Graphic Error,https://github.com/mborgerson/xemu/issues/764
+2022-3/17,2022-3/12,Handling of final combiner flags is silently unimplemented,https://github.com/mborgerson/xemu/issues/765
+2022-8/3,2022-3/12,QueryPerformanceCounter always returns max value,https://github.com/mborgerson/xemu/issues/766
+,2022-3/13,Handling of LOD bias is silently unimplemented,https://github.com/mborgerson/xemu/issues/767
+2022-3/18,2022-3/14,Oddworld: Stranger's Wrath - Foggy graphic,https://github.com/mborgerson/xemu/issues/769
+,2022-3/15,nv2a: Warning unconfirmed feature: EMPTY NV097_SET_BEGIN_END,https://github.com/mborgerson/xemu/issues/771
+2022-5/2,2022-3/15,nv2a: pgraph_method_unhandled 0: 0x97 -> 0x0294 0x20001,https://github.com/mborgerson/xemu/issues/772
+,2022-3/16,`screendump` has cached image of Xbox logo,https://github.com/mborgerson/xemu/issues/774
+,2022-3/16,nv2a: Warning unimplemented feature: Same color & zeta surface offset,https://github.com/mborgerson/xemu/issues/775
+2022-3/16,2022-3/16,Msys2 compilation issues,https://github.com/mborgerson/xemu/issues/776
+,2022-3/16,"Panzer Dragoon Orta very Slow in Ubuntu 18.04, 20.04, using a modern hardware.",https://github.com/mborgerson/xemu/issues/777
+,2022-3/17,The Fairly Oddparents: Breakin' Da Rules: Visual bugs with the trees,https://github.com/mborgerson/xemu/issues/779
+,2022-3/17,Speedrun Feature,https://github.com/mborgerson/xemu/issues/780
+2022-5/18,2022-3/17,Ninja Gaiden Black shadow problem,https://github.com/mborgerson/xemu/issues/781
+,2022-3/17,Ninja gaiden black specular and bloom effects of skin and armor are missing,https://github.com/mborgerson/xemu/issues/783
+,2022-3/17,Ninja gaiden black particle effects glitch,https://github.com/mborgerson/xemu/issues/784
+2022-5/18,2022-3/18,Splinter cell double agent: steam heat waves effect not handled correctly without goggles,https://github.com/mborgerson/xemu/issues/786
+2022-5/18,2022-3/18,Splinter cell Double Agent: surface lights being rendered in distance only,https://github.com/mborgerson/xemu/issues/787
+2022-5/17,2022-3/18,Splinter cell double agent: Goggles filter not handled properly,https://github.com/mborgerson/xemu/issues/788
+2022-4/24,2022-3/18,Splinter cell double agent: Texture rendering popup,https://github.com/mborgerson/xemu/issues/789
+2022-5/18,2022-3/18,Splinter cell double agent: Nightvision filter displaying artifacts,https://github.com/mborgerson/xemu/issues/790
+,2022-3/18,Windows ARM support,https://github.com/mborgerson/xemu/issues/791
+2022-5/19,2022-3/18,Splinter cell double agent: lock pick and bomb panel not diisplaying correctly,https://github.com/mborgerson/xemu/issues/792
+2022-3/19,2022-3/18,Splinter cell double agent Issue #7: weird FPS uncap in a specific zone,https://github.com/mborgerson/xemu/issues/793
+2022-4/25,2022-3/19,Fable - The Lost Chapters: Glowing surfaces,https://github.com/mborgerson/xemu/issues/796
+,2022-3/19,NFL Fever 2004: Game crashes on XBOX logo screen,https://github.com/mborgerson/xemu/issues/797
+2022-5/26,2022-3/19,Project Snowblind: Crash when pressing start on the intro screen,https://github.com/mborgerson/xemu/issues/798
+,2022-3/19,Serious Sam: glitching during the name entry screen (due to race condition),https://github.com/mborgerson/xemu/issues/799
+2022-5/10,2022-3/19,Serious Sam: Incorrect display of the map flythrough during the loading screen,https://github.com/mborgerson/xemu/issues/800
+,2022-3/19,Serious Sam: Skybox is broken,https://github.com/mborgerson/xemu/issues/801
+,2022-3/19,Serious Sam: Items are rendered through geometry that should occlude them,https://github.com/mborgerson/xemu/issues/802
+,2022-3/19,Splinter cell: NIght vision goggles broken and blurry,https://github.com/mborgerson/xemu/issues/803
+,2022-3/19,Splinter cell: Character and environment not rendered properly,https://github.com/mborgerson/xemu/issues/804
+,2022-3/20,loading many games in the same session an cause performance loss over time,https://github.com/mborgerson/xemu/issues/806
+2022-5/18,2022-3/20,Splinter cell double agent: Dynamic lights not being rendered on surfaces,https://github.com/mborgerson/xemu/issues/807
+2022-5/18,2022-3/20,Splinter cell chaos theory versus: torch light not rendered,https://github.com/mborgerson/xemu/issues/808
+,2022-3/20,007 - Nightfire : The European version of the game freezes when starting the tutorial,https://github.com/mborgerson/xemu/issues/809
+,2022-3/20,Splinter cell chaos theory versus: loading screen background not loaded correctly,https://github.com/mborgerson/xemu/issues/810
+,2022-3/20,Colin mcrae rally 3: slowmotion in cockpit view,https://github.com/mborgerson/xemu/issues/811
+,2022-3/20,Fable:  audio lags for video intro,https://github.com/mborgerson/xemu/issues/812
+2022-3/21,2022-3/20,Elder scrolls Morrowind: rendering covered by black screen,https://github.com/mborgerson/xemu/issues/813
+2022-3/21,2022-3/20,splinter cell chaos theory versus: green flickering,https://github.com/mborgerson/xemu/issues/814
+2022-3/22,2022-3/21,Virtua Cop 3: Heat wave effect not cleared properly,https://github.com/mborgerson/xemu/issues/815
+,2022-3/21,Virtua Cop 3: Memory leak (or similar) leads to 5 fps near end of missions,https://github.com/mborgerson/xemu/issues/816
+,2022-3/21,nv2a: Creating save states while the VM is paused does not preserve the paused frame,https://github.com/mborgerson/xemu/issues/818
+2022-3/21,2022-3/21,"Can not open HDD Image : ""Read-only file system""",https://github.com/mborgerson/xemu/issues/820
+2022-3/22,2022-3/21,Ice Age 2: red artifacts on right screen side,https://github.com/mborgerson/xemu/issues/821
+,2022-3/21,Ultra Bust-a-Move: Hard lockup in demo and after intro,https://github.com/mborgerson/xemu/issues/822
+,2022-3/22,Splinter cell pandora tomorrow: Character is not visible,https://github.com/mborgerson/xemu/issues/823
+2022-3/23,2022-3/22,-config_path is broken,https://github.com/mborgerson/xemu/issues/824
+,2022-3/22,Hide Mouse Cursor,https://github.com/mborgerson/xemu/issues/825
+2022-3/23,2022-3/23,"Mouse support, keyboard and profile remapping",https://github.com/mborgerson/xemu/issues/827
+,2022-3/24,Quantum Redshift: Depth/Clipping Issues,https://github.com/mborgerson/xemu/issues/828
+2022-6/3,2022-3/26,Obi-Wan Lighting issues,https://github.com/mborgerson/xemu/issues/829
+,2022-3/27,Robotech Battlecry no longer loads levels properly,https://github.com/mborgerson/xemu/issues/830
+2022-5/18,2022-4/7,Splinter cell Double Agent: Shadows not being rendered on surfaces/objects,https://github.com/mborgerson/xemu/issues/833
+2022-4/13,2022-4/8,Sphinx and the cursed mummy: dsp56k_read_memory: Assertion `address < DSP_YRAM_SIZE' failed,https://github.com/mborgerson/xemu/issues/834
+2022-4/12,2022-4/8,sonic riders corruption on display in cutscene,https://github.com/mborgerson/xemu/issues/836
+,2022-4/9,Ninja Gaiden Black experiencing water texture issues.,https://github.com/mborgerson/xemu/issues/837
+,2022-4/12,Sonic riders no shine/specular,https://github.com/mborgerson/xemu/issues/838
+2022-5/20,2022-4/12,Sonic heroes Big the cats eyes,https://github.com/mborgerson/xemu/issues/839
+2022-5/20,2022-4/13,"Juiced: Game is now Broken, Does not start",https://github.com/mborgerson/xemu/issues/841
+,2022-4/21,Depth values generated in fixed function pipeline with modified `SET_CLIP_MIN` / `SET_CLIP_MAX` lead to incorrect depth buffer values,https://github.com/mborgerson/xemu/issues/843
+,2022-4/23,Z-depth calculation errors on Nightfire,https://github.com/mborgerson/xemu/issues/844
+2022-4/23,2022-4/23,ALT+ENTER to toggle full screen.,https://github.com/mborgerson/xemu/issues/845
+2022-4/23,2022-4/23,"If no audio device detected, XEMU silently fails.",https://github.com/mborgerson/xemu/issues/846
+2022-6/26,2022-4/25,Oddworld: Stranger's Wrath - Black/green splotches on characters,https://github.com/mborgerson/xemu/issues/851
+2022-5/24,2022-4/25,Oddworld: Stranger's Wrath - Broken pause menu background in first person view,https://github.com/mborgerson/xemu/issues/852
+2022-4/25,2022-4/25,xemu failing to compile due to Meson,https://github.com/mborgerson/xemu/issues/854
+2022-4/29,2022-4/26,Star Wars Obi-Wan Music did Not play,https://github.com/mborgerson/xemu/issues/855
+,2022-4/26,Star Wars Revenge of Sith green bars in fmvs,https://github.com/mborgerson/xemu/issues/856
+2022-4/26,2022-4/26,Xemu on ARM,https://github.com/mborgerson/xemu/issues/857
+,2022-4/26,Blinx 2 Masters Of TIme and Space: Sweepers 3 crash,https://github.com/mborgerson/xemu/issues/858
+,2022-4/26,The Godfather The Game: graphical issue,https://github.com/mborgerson/xemu/issues/859
+,2022-4/26,License dist needs update,https://github.com/mborgerson/xemu/issues/862
+,2022-4/27,Halo: Combat Evolved Visual Water Texture Bug,https://github.com/mborgerson/xemu/issues/865
+,2022-4/27,Halo: Combat Evolved weird lines following game objects,https://github.com/mborgerson/xemu/issues/866
+,2022-4/28,Splinter cell double agent: libnvidia-glcore.so crash,https://github.com/mborgerson/xemu/issues/869
+2022-6/5,2022-4/29,Outrun 2 - Missing screen filter ,https://github.com/mborgerson/xemu/issues/870
+,2022-4/29,Splinter cell chaos theory Versus: grey flickering while using torchlight near raindrops.,https://github.com/mborgerson/xemu/issues/871
+2022-8/5,2022-4/29,Hello Kitty: Mission Rescue Shadow bugs,https://github.com/mborgerson/xemu/issues/872
+,2022-4/29,Prince of Persia: The Two Thrones: Bloom issue,https://github.com/mborgerson/xemu/issues/873
+,2022-4/30,Need for Speed: Most Wanted - Rain bugs,https://github.com/mborgerson/xemu/issues/875
+2022-7/6,2022-4/30,Need for Speed: Most Wanted - Map doesn't render,https://github.com/mborgerson/xemu/issues/876
+,2022-5/2,House Of The Dead 3: Black screen in game,https://github.com/mborgerson/xemu/issues/878
+2022-5/24,2022-5/4,"Fatal Frame: Black screen on main menu, missing effects in-game",https://github.com/mborgerson/xemu/issues/880
+2022-6/15,2022-5/4,Forza: No text on main menu,https://github.com/mborgerson/xemu/issues/881
+,2022-5/5,darkwatch: freezes,https://github.com/mborgerson/xemu/issues/882
+2022-6/15,2022-5/5,Forza: cars do not appear in game,https://github.com/mborgerson/xemu/issues/884
+2022-5/31,2022-5/5,Forza Motorsport: Incorrect lighting in car selection screen,https://github.com/mborgerson/xemu/issues/886
+,2022-5/6,V-Rally 3: incorrect depth view,https://github.com/mborgerson/xemu/issues/887
+2022-6/26,2022-5/6,Dreamfall - The Longest Journey: Crash after chaper 6,https://github.com/mborgerson/xemu/issues/888
+2022-5/30,2022-5/6,Need for Speed Most Wanted: Missing orange/yellow color filter,https://github.com/mborgerson/xemu/issues/890
+,2022-5/8,"Driv3r | Skybox is visible at all times, weird character lighting",https://github.com/mborgerson/xemu/issues/891
+2022-5/20,2022-5/8,Steel Battalion & Line of Contact: pgraph_surface_invalidate: Assertion `surface != d->pgraph.zeta_binding' failed.,https://github.com/mborgerson/xemu/issues/893
+2022-6/3,2022-5/8,MechAssault 2: Lone Wolf,https://github.com/mborgerson/xemu/issues/897
+,2022-5/8,Check for updates option only does something on Windows,https://github.com/mborgerson/xemu/issues/900
+,2022-5/8,Oddworld: Munch's Oddysee - Broken audio causes severe slowdowns,https://github.com/mborgerson/xemu/issues/901
+2022-5/25,2022-5/8,"""Invalid Boot ROM file...",https://github.com/mborgerson/xemu/issues/902
+,2022-5/8,Netmix (Sneakers) during loading xemu was terminated,https://github.com/mborgerson/xemu/issues/903
+,2022-5/8,Meta: Audio Issues ,https://github.com/mborgerson/xemu/issues/904
+2022-5/9,2022-5/8,Game screen only in quarter of total window/screen,https://github.com/mborgerson/xemu/issues/905
+2022-5/11,2022-5/9,Phantom Dust: malloc.c:2394: sysmalloc: Assertion `(old_top == initial_top (av) && old_size == 0) || ((unsigned long) (old_size) >= MINSIZE && prev_inuse (old_top) && ((unsigned long) old_end & (pagesize - 1)) == 0)' failed.,https://github.com/mborgerson/xemu/issues/906
+2022-5/10,2022-5/9,Behavior when setting `NV097_SET_WINDOW_CLIP_*` does not match HW,https://github.com/mborgerson/xemu/issues/907
+2022-6/26,2022-5/10,Use of geometry shader for quads leads to behavior that diverges from HW in boundary conditions,https://github.com/mborgerson/xemu/issues/912
+,2022-5/12,Crash Twinsanity Constantly glitches,https://github.com/mborgerson/xemu/issues/914
+,2022-5/12,(macOS) Need For Speed: Most Wanted (2005) Blank Video While playing game,https://github.com/mborgerson/xemu/issues/915
+,2022-5/12,Segfaults in Conker: Live & Reloaded,https://github.com/mborgerson/xemu/issues/916
+2022-5/17,2022-5/14,Gladius Lucas Arts,https://github.com/mborgerson/xemu/issues/917
+2022-5/16,2022-5/16,ZetaIntoColor pgraph test triggers `GL_INVALID_FRAMEBUFFER_OPERATION` error in xemu due to same color & zeta surface offset path,https://github.com/mborgerson/xemu/issues/918
+,2022-5/18,NV2A MMIO register memory is 4x as large as it should be,https://github.com/mborgerson/xemu/issues/924
+2022-6/3,2022-5/18,[Assertion] (index_count*vertex_size) == (pg->inline_array_length*4),https://github.com/mborgerson/xemu/issues/926
+,2022-5/18,Phantasy Star Online Episode I & II: Extreme slowdowns on Apple M1 when menus/hud's are present in game,https://github.com/mborgerson/xemu/issues/928
+,2022-5/18,Tenchu Return from Darkness: Stuttering Videos and Audio,https://github.com/mborgerson/xemu/issues/929
+,2022-5/18,"Xemu Freezes on Startup, Crashes on Restart",https://github.com/mborgerson/xemu/issues/930
+2022-5/20,2022-5/18,SoulCalibur II: Crash on Launch,https://github.com/mborgerson/xemu/issues/931
+2022-5/20,2022-5/18,"Splinter cell:  pgraph_surface_invalidate: assertion ""surface != d->pgraph.zeta_binding"" failed",https://github.com/mborgerson/xemu/issues/932
+,2022-5/19,Antialiasing can trigger erroneous surface overlap detection on tightly packed surfaces,https://github.com/mborgerson/xemu/issues/936
+2022-6/3,2022-5/19,Splinter cell: Broken loading screen image,https://github.com/mborgerson/xemu/issues/937
+2022-5/27,2022-5/19,Steel Battalion + Line of Contact: NV097_CLEAR_SURFACE_handler causing severe performance hit,https://github.com/mborgerson/xemu/issues/939
+,2022-5/20,SoulCalibur II: Regressed Performance with Renderscale > 1,https://github.com/mborgerson/xemu/issues/940
+,2022-5/20,Splinter Cell: Dynamic lights and shadows display on everything but walls/floors/ceilings,https://github.com/mborgerson/xemu/issues/941
+,2022-5/20,"Voodoo Vince: Models, textures and sprites do not render correctly",https://github.com/mborgerson/xemu/issues/943
+2022-5/21,2022-5/20,Sonic Heroes and Mortal Kombat Shaolin Monks do not create files saved in Xemu emulator storage.,https://github.com/mborgerson/xemu/issues/945
+,2022-5/20,xemu: UI always accepts xinput even when controller is set to none,https://github.com/mborgerson/xemu/issues/946
+2022-5/27,2022-5/21,pgraph_render_display_pvideo_overlay: Assertion in_pitch >= in_width * 2' failed.,https://github.com/mborgerson/xemu/issues/947
+,2022-5/21,Splinter Cell: Pandora Tomorrow shadows don't render properly ,https://github.com/mborgerson/xemu/issues/948
+,2022-5/21,Splinter Cell: Double Agent resolution scaling not working properly in single player,https://github.com/mborgerson/xemu/issues/949
+,2022-5/21,Splinter Cell: Pandora Tomorrow fire effects cause artefacts ,https://github.com/mborgerson/xemu/issues/950
+,2022-5/22,Splinter Cell broken water rendering ,https://github.com/mborgerson/xemu/issues/951
+,2022-5/22,Halo 2: HUD UI Elements Missing,https://github.com/mborgerson/xemu/issues/952
+2022-8/6,2022-5/22,Phantasy Star Online Episode I & II: Stretched / Corrupted Textures,https://github.com/mborgerson/xemu/issues/953
+2022-5/23,2022-5/23,Star Wars: Jedi Starfighter - crashing on mission start,https://github.com/mborgerson/xemu/issues/954
+,2022-5/23,Add more window sizes ,https://github.com/mborgerson/xemu/issues/955
+,2022-5/23,Configurable scale/zoom of displayed framebuffer,https://github.com/mborgerson/xemu/issues/956
+2022-5/23,2022-5/23,Xemu lagging on mac,https://github.com/mborgerson/xemu/issues/957
+2022-5/25,2022-5/23,Shadow map for PROJECT2D not implemented,https://github.com/mborgerson/xemu/issues/958
+,2022-5/23, Predator Concrete Jungle: Black ground depending on camera position,https://github.com/mborgerson/xemu/issues/959
+2022-5/24,2022-5/24,Brute Force: HUD graphics are all black,https://github.com/mborgerson/xemu/issues/960
+2022-5/24,2022-5/24,Grabbed by the Ghoulies: In-game lighting is extremely dark,https://github.com/mborgerson/xemu/issues/961
+,2022-5/24,Deadly Skies : Emulator crash when enemy attack you with missile,https://github.com/mborgerson/xemu/issues/964
+,2022-5/24,Fatal Frame: Scaling breaks gameplay,https://github.com/mborgerson/xemu/issues/966
+,2022-5/24,[MAC OS]Xemu keeps crashing when loading an iso,https://github.com/mborgerson/xemu/issues/967
+,2022-5/25,Grand Theft Auto III and Vice City: Performance tanks at certain points,https://github.com/mborgerson/xemu/issues/968
+,2022-5/25,Windows post-update relaunch can fail,https://github.com/mborgerson/xemu/issues/969
+2022-8/6,2022-5/25,Circus Maximus: Overshadowed Track,https://github.com/mborgerson/xemu/issues/970
+,2022-5/25,Merge the FPS and MSPF counter with the screen and be able to configure it,https://github.com/mborgerson/xemu/issues/971
+,2022-5/25,Need For Speed: Hot Pursuit 2 graphical glitch,https://github.com/mborgerson/xemu/issues/972
+,2022-5/25,Fatal Frame black lines next to the hair,https://github.com/mborgerson/xemu/issues/973
+2022-6/25,2022-5/26,Generated shaders and config file errors with comma separated float locale,https://github.com/mborgerson/xemu/issues/975
+,2022-5/26,The House Of The Dead 3: Texture issues,https://github.com/mborgerson/xemu/issues/976
+,2022-5/26,Incorporate a list of games with their respective covers,https://github.com/mborgerson/xemu/issues/977
+2022-6/3,2022-5/26,Vertex shader `_in` expansion leads to incorrect behavior in `MOV` w/ a mask that does not include `x`,https://github.com/mborgerson/xemu/issues/978
+,2022-5/26,Meta: Texture Sampling Misalignment ,https://github.com/mborgerson/xemu/issues/979
+,2022-5/26,Reign of Fire: Glitched Lighting and Shadow effects,https://github.com/mborgerson/xemu/issues/980
+2022-5/28,2022-5/27,various games crashes newly on 0.7.2 nv2a locale related?,https://github.com/mborgerson/xemu/issues/983
+,2022-5/27,NFL Primetime 2002 - Invisible Pitch,https://github.com/mborgerson/xemu/issues/984
+,2022-5/28,Marvel Nemesis Glitches/Bugs,https://github.com/mborgerson/xemu/issues/986
+,2022-5/28,Dennou Taisen DroneZ: Sound Issue,https://github.com/mborgerson/xemu/issues/987
+,2022-5/28,Shenmue II: Graphical Bugs,https://github.com/mborgerson/xemu/issues/988
+,2022-5/28,Ninja Gaiden Black: Intro video does not render on M1 mac,https://github.com/mborgerson/xemu/issues/991
+,2022-5/29,Blinx Upscale artifacting ,https://github.com/mborgerson/xemu/issues/993
+,2022-5/29,Xebian 1.1.4: Asserts soon after loading ISO because PIO Mode is not emulated,https://github.com/mborgerson/xemu/issues/994
+,2022-5/29,Jet Set Radio Future: FPS drops on boost on SteamDeck,https://github.com/mborgerson/xemu/issues/995
+,2022-5/29,Midnight Club 3: DUB Edition Remix - Full bright white headlights,https://github.com/mborgerson/xemu/issues/996
+,2022-5/29,Prince of Persia: Warrior Within/The Two Thrones: Post-process effects issue on AMD & missing interface elements on Intel,https://github.com/mborgerson/xemu/issues/997
+,2022-5/30,Deus Ex: Graphic bugs on direct boot,https://github.com/mborgerson/xemu/issues/998
+,2022-5/31,Add render scale to about window (and compatibility reports),https://github.com/mborgerson/xemu/issues/1000
+2022-7/1,2022-5/31,Regression with games now showing distance based (mip mapping?) issues,https://github.com/mborgerson/xemu/issues/1002
+,2022-5/31,007: Everything or Nothing bad performance ,https://github.com/mborgerson/xemu/issues/1003
+,2022-6/1,"Handling of textures with borders is incorrect (i.e., not `NV_PGRAPH_TEXFMT0_BORDER_SOURCE_COLOR`) ",https://github.com/mborgerson/xemu/issues/1004
+,2022-6/1,Handling of textures with address mode CLAMP_OGL is incorrect,https://github.com/mborgerson/xemu/issues/1005
+,2022-6/1,New Legends: slowdowns,https://github.com/mborgerson/xemu/issues/1007
+,2022-6/1,America's Army: Rise of a Soldier: Floor texture Broken ,https://github.com/mborgerson/xemu/issues/1008
+,2022-6/1,007 From Russia with Love: Lighting effect issue,https://github.com/mborgerson/xemu/issues/1009
+,2022-6/1,Some Games Shadow are streched,https://github.com/mborgerson/xemu/issues/1010
+,2022-6/2,Frame caps on xemu does'nt work correctly,https://github.com/mborgerson/xemu/issues/1011
+,2022-6/2,RPM package,https://github.com/mborgerson/xemu/issues/1012
+,2022-6/2,Some titles don't have a frame cap,https://github.com/mborgerson/xemu/issues/1013
+,2022-6/2,Dino crisis 3: Graphical Issue,https://github.com/mborgerson/xemu/issues/1014
+,2022-6/3,Meta : Z ording issues,https://github.com/mborgerson/xemu/issues/1016
+,2022-6/3,TAS input Fonctionnality,https://github.com/mborgerson/xemu/issues/1017
+,2022-6/3,Allow for games with double buffer vsync to mantain 60 fps,https://github.com/mborgerson/xemu/issues/1018
+,2022-6/3,Meta : Z Fighting,https://github.com/mborgerson/xemu/issues/1020
+,2022-6/3,Frame Graph Inaccurate ,https://github.com/mborgerson/xemu/issues/1021
+,2022-6/4,Mechassault 2: Lone Wolf Intro Loop/ Fail to play,https://github.com/mborgerson/xemu/issues/1022
+,2022-6/4,[Feature Request] Game patch support,https://github.com/mborgerson/xemu/issues/1023
+,2022-6/4,Murakumo: Renegade Mech Pursuit | Graphical glitch: Yellow Lines,https://github.com/mborgerson/xemu/issues/1025
+,2022-6/4,Thousand Land | Not Rendering Correctly,https://github.com/mborgerson/xemu/issues/1026
+2022-7/8,2022-6/4,Regression: Arctic Thunder Doesn't go ingame anymore,https://github.com/mborgerson/xemu/issues/1027
+,2022-6/4,Some Games have Object artifacting,https://github.com/mborgerson/xemu/issues/1028
+,2022-6/4,XEMU resolution scaling prevents Metal Arms from booting,https://github.com/mborgerson/xemu/issues/1029
+,2022-6/4,WIP Meta : Games which suffer from laggy FMV's,https://github.com/mborgerson/xemu/issues/1030
+2022-6/5,2022-6/5,Blowout Lighting Broken,https://github.com/mborgerson/xemu/issues/1031
+,2022-6/5,Genma Onimusha:res scale does not work for 3D objects,https://github.com/mborgerson/xemu/issues/1032
+,2022-6/5,Sleep function on windows crashes the emulator,https://github.com/mborgerson/xemu/issues/1033
+2022-7/25,2022-6/5,Meta : Game with Texture Stretching,https://github.com/mborgerson/xemu/issues/1034
+,2022-6/6,Regression: Project Snowblind z-fighting,https://github.com/mborgerson/xemu/issues/1035
+,2022-6/6,DVD Authentication does not work,https://github.com/mborgerson/xemu/issues/1036
+2022-6/6,2022-6/6,NV2A_VERTEX_ATTR_* constants are misleading / incorrect,https://github.com/mborgerson/xemu/issues/1037
+,2022-6/6,Convolution texture filter (MAG interpolation) not implemented,https://github.com/mborgerson/xemu/issues/1038
+2022-6/6,2022-6/6,PSH register combiner V1R0_SUM flags are ignored,https://github.com/mborgerson/xemu/issues/1039
+,2022-6/7,Capcom Classics Collection Vol. 1 sprite misalignment,https://github.com/mborgerson/xemu/issues/1040
+,2022-6/7,Classified: The Sentinel Crisis Graphical bug,https://github.com/mborgerson/xemu/issues/1041
+,2022-6/7,Timesplitters: Future Perfect - FPS drop when using the gun,https://github.com/mborgerson/xemu/issues/1042
+,2022-6/8,CSI: Crime Scene Investigation Graphical bug,https://github.com/mborgerson/xemu/issues/1043
+,2022-6/8,Terminator Redemption Shadows Bug,https://github.com/mborgerson/xemu/issues/1044
+,2022-6/9,Silent Hill 2 Graphical issues,https://github.com/mborgerson/xemu/issues/1046
+,2022-6/9,Call of Cthulhu: Dark Corners of the Earth video playback issue,https://github.com/mborgerson/xemu/issues/1047
+,2022-6/9,Fallout: Brotherhood of Steel Graphical issues,https://github.com/mborgerson/xemu/issues/1048
+2022-7/18,2022-6/9,Some Games have FMV's Flickers,https://github.com/mborgerson/xemu/issues/1049
+,2022-6/9,Batman dark tommorrow graphical issues,https://github.com/mborgerson/xemu/issues/1050
+,2022-6/9,Upscaling in snowblind engine games breaks shadows,https://github.com/mborgerson/xemu/issues/1051
+,2022-6/10,Eggo Mania Graphical issues,https://github.com/mborgerson/xemu/issues/1052
+2022-6/10,2022-6/10,`surface_scale_factor` application to clipping region yields incorrect clipping rect,https://github.com/mborgerson/xemu/issues/1054
+,2022-6/11,Avatar the last Airbender Graphical issues,https://github.com/mborgerson/xemu/issues/1057
+,2022-6/11,Gun Valkyrie: Major Slowdown when boosting,https://github.com/mborgerson/xemu/issues/1058
+,2022-6/12,"UX: Make it more clear in the menu that ""Settings"" is a header and not a disabled entry",https://github.com/mborgerson/xemu/issues/1059
+,2022-6/12,Metal Arms: Glitch in the System Shadow Transparency/Fade Issue,https://github.com/mborgerson/xemu/issues/1060
+2022-6/15,2022-6/15,007: Everything or Nothing ,https://github.com/mborgerson/xemu/issues/1062
+,2022-6/15,007 From russia with love inconsistent framerate,https://github.com/mborgerson/xemu/issues/1063
+,2022-6/15,Lag spikes on Forza Motorsport,https://github.com/mborgerson/xemu/issues/1064
+,2022-6/15,Boxes around decals on Forza Motorsport,https://github.com/mborgerson/xemu/issues/1065
+,2022-6/16,The Warriors: Freezing in Rumble Mode on specific map,https://github.com/mborgerson/xemu/issues/1069
+,2022-6/16,Triangle Again 2 - Start Screen Bug,https://github.com/mborgerson/xemu/issues/1070
+,2022-6/17,"Conflict - Global Terror: Graphical issues. Characters and items rendering through walls, invisible weapons",https://github.com/mborgerson/xemu/issues/1071
+2022-6/25,2022-6/17,Spy-vs-Spy: Main menu geometry is corrupt,https://github.com/mborgerson/xemu/issues/1072
+2022-6/17,2022-6/17,emulation gamepad special STEEL BATTALION,https://github.com/mborgerson/xemu/issues/1073
+2022-6/25,2022-6/18,nv2a: 0x1e80 - 0x1e90 are unhandled (NV097_SET_TRANSFORM_DATA and NV097_LAUNCH_TRANSFORM_PROGRAM),https://github.com/mborgerson/xemu/issues/1074
+,2022-6/18,https://xemu.app/titles/4156000f/,https://github.com/mborgerson/xemu/issues/1076
+2022-6/20,2022-6/19,Instant crash with latest release on MacOS Ventura ,https://github.com/mborgerson/xemu/issues/1077
+2022-6/19,2022-6/19,"Consider renaming ""Boot ROM"" in the UI to ""MCPX Boot ROM"" to avoid confusion",https://github.com/mborgerson/xemu/issues/1078
+,2022-6/22,Dead or Alive 3: A layer of shadow covering the screen,https://github.com/mborgerson/xemu/issues/1085
+,2022-6/23,ESPN College Hoops - Menu Letters Turn Into Blocks,https://github.com/mborgerson/xemu/issues/1088
+,2022-6/24,"Rendering Scale for Tiger Woods PGA Tour 2004, 2005, 06 and 07 Is broken",https://github.com/mborgerson/xemu/issues/1089
+,2022-6/24,Cat in the hat Graphical Issues,https://github.com/mborgerson/xemu/issues/1090
+,2022-6/24,Using Snapshots when the emulator pause lock up xemu,https://github.com/mborgerson/xemu/issues/1091
+,2022-6/25,Consolidate xemu thirdparty imports,https://github.com/mborgerson/xemu/issues/1092
+,2022-6/25,"Build an opt-in telemetry system to report crashes, unimplemented/unhandled features, etc...",https://github.com/mborgerson/xemu/issues/1093
+,2022-6/25,Nba Jam graphical issue,https://github.com/mborgerson/xemu/issues/1095
+,2022-6/25,Brothers in Arms Seires Graphical issue,https://github.com/mborgerson/xemu/issues/1096
+,2022-6/25,Xyanide menu artifacts,https://github.com/mborgerson/xemu/issues/1097
+,2022-6/25,Meta: Performace Issues,https://github.com/mborgerson/xemu/issues/1098
+,2022-6/25,Meta: Timing Issues,https://github.com/mborgerson/xemu/issues/1099
+,2022-6/25,Cold war graphical issues,https://github.com/mborgerson/xemu/issues/1100
+,2022-6/25,Tenchu 3 shadow issue,https://github.com/mborgerson/xemu/issues/1101
+,2022-6/25,Links 2004 graphical issues,https://github.com/mborgerson/xemu/issues/1102
+,2022-6/25,Build AppImage releases,https://github.com/mborgerson/xemu/issues/1103
+,2022-6/25,MotorGP:Ultimate Racing Technology 3 Graphical Issues,https://github.com/mborgerson/xemu/issues/1104
+2022-6/25,2022-6/25,Burnout: Track arrows are flipped on Harbour Town,https://github.com/mborgerson/xemu/issues/1105
+,2022-6/25,Wallace & Gromit: The Curse of the Were-Rabbit Graphical issue,https://github.com/mborgerson/xemu/issues/1107
+,2022-6/25,Bionical Menu Issue,https://github.com/mborgerson/xemu/issues/1108
+,2022-6/26,FMV's don't render on nivida,https://github.com/mborgerson/xemu/issues/1109
+,2022-6/26,Crash 'n' Burn Graphical issues,https://github.com/mborgerson/xemu/issues/1110
+,2022-6/26,Double-S.T.E.A.L: The Second Clash Regression,https://github.com/mborgerson/xemu/issues/1113
+,2022-6/26,Break Nine: World Billiards Tournament CPU Issues,https://github.com/mborgerson/xemu/issues/1114
+,2022-6/26,Secret Weapons over Normandy Graphical Issues,https://github.com/mborgerson/xemu/issues/1115
+,2022-6/26,Double-S.T.E.A.L: The Second Clash Refection broken,https://github.com/mborgerson/xemu/issues/1116
+,2022-6/26,Blinx 2: Bomb in sweepers tutorial,https://github.com/mborgerson/xemu/issues/1117
+,2022-6/26,Blinx 2: Idle cutscene on start menu freezes and loops audio,https://github.com/mborgerson/xemu/issues/1118
+,2022-6/27,Assertion:  2428:tcg_out_op,https://github.com/mborgerson/xemu/issues/1119
+,2022-6/27,Lara Croft Tomb Raider: Legend Menu Issue,https://github.com/mborgerson/xemu/issues/1120
+,2022-6/27,Lara Croft Tomb Raider: Legend Camera Issue,https://github.com/mborgerson/xemu/issues/1121
+,2022-6/27,Debug trace-event brick windows,https://github.com/mborgerson/xemu/issues/1123
+,2022-6/27,Def Jam: Fight for NY Infine loading,https://github.com/mborgerson/xemu/issues/1124
+,2022-6/27,Knights of the Temple: Infernal Crusade Grapical Issue,https://github.com/mborgerson/xemu/issues/1125
+,2022-6/28,Add Xbox Live Communicator Support,https://github.com/mborgerson/xemu/issues/1126
+2022-7/18,2022-6/28,Creating a surface at a texture address with differing pitch leads to incorrect rendering,https://github.com/mborgerson/xemu/issues/1127
+,2022-6/28,"Add user interface for attaching XMU, XBLC",https://github.com/mborgerson/xemu/issues/1128
+,2022-6/28,Wreckless - The Yakuza Missions - SoftLock,https://github.com/mborgerson/xemu/issues/1129
+,2022-6/28,Motocross Mania 3 viewport issue,https://github.com/mborgerson/xemu/issues/1130
+,2022-6/28,Headhunter: Redemption - very slow in cutscenes and ingame/engine-based cutscenes graphics broken,https://github.com/mborgerson/xemu/issues/1131
+,2022-6/29,Monitor recalls typed commands after xemu is restarted.,https://github.com/mborgerson/xemu/issues/1132
+,2022-6/30,Torino 2006 Graphical Issues,https://github.com/mborgerson/xemu/issues/1133
+,2022-6/30,Syberia seires Graphical Issues,https://github.com/mborgerson/xemu/issues/1134
+,2022-6/30,Karaoke Revolution Graphical Issues,https://github.com/mborgerson/xemu/issues/1135
+,2022-6/30,American Chopper Series Tree Glitch,https://github.com/mborgerson/xemu/issues/1136
+,2022-6/30,Camera angle can tank performace,https://github.com/mborgerson/xemu/issues/1137
+2022-6/30,2022-6/30,Same color & zeta surface offset is not supported,https://github.com/mborgerson/xemu/issues/1138
+,2022-6/30,Crime Life: Gang Wars - Floor not rendering correctly,https://github.com/mborgerson/xemu/issues/1139
+,2022-6/30,Brian Lara International Cricket 2005 vertex explosions,https://github.com/mborgerson/xemu/issues/1140
+,2022-6/30,Jikkyou World Soccer 2002 Intro Issues,https://github.com/mborgerson/xemu/issues/1141
+,2022-6/30,ProStroke Golf: World Tour 2007 Graphical Issues,https://github.com/mborgerson/xemu/issues/1142
+,2022-6/30,The Chronicles of Riddick: Escape from Butcher Bay  Severe lighting issue,https://github.com/mborgerson/xemu/issues/1143
+2022-7/26,2022-6/30,Superman: The Man of Steel Menu Transition Issue,https://github.com/mborgerson/xemu/issues/1144
+,2022-7/1,Deus Ex Invisible War: Random checkerboard pattern on the textures ,https://github.com/mborgerson/xemu/issues/1147
+,2022-7/2,XBomberBox: crash at title screen,https://github.com/mborgerson/xemu/issues/1150
+,2022-7/2,Swizzled textures with `pitch < width * bpp` lead to buffer overrun and potential crash,https://github.com/mborgerson/xemu/issues/1152
+,2022-7/2,Dave Mirra Freestyle BMX 2 Sky flicker issue,https://github.com/mborgerson/xemu/issues/1154
+,2022-7/2,Big Bumpin' Menu FMV only render once you been In-game,https://github.com/mborgerson/xemu/issues/1155
+,2022-7/2,Big mutha trucker Graphical Issue,https://github.com/mborgerson/xemu/issues/1156
+2022-7/3,2022-7/3,FIFA Soccer 2003 stuck at intro after crashing in-game rendering scene,https://github.com/mborgerson/xemu/issues/1157
+,2022-7/3,BloodRayne 2 Pixel offset Issues,https://github.com/mborgerson/xemu/issues/1158
+,2022-7/3,VM states are not backward compatible ,https://github.com/mborgerson/xemu/issues/1159
+,2022-7/3,Burnout Graphical Issues,https://github.com/mborgerson/xemu/issues/1160
+,2022-7/3,Burnout 2 Graphical Issues,https://github.com/mborgerson/xemu/issues/1161
+,2022-7/4,Tenchu Return from Darkness - Wireframes Everywhere.,https://github.com/mborgerson/xemu/issues/1162
+,2022-7/4,Panzer Dragoon Orta: Performance regression,https://github.com/mborgerson/xemu/issues/1163
+,2022-7/4,Animaniacs: The Great Edgar Hunt: Water gets rendered as solid black,https://github.com/mborgerson/xemu/issues/1164
+,2022-7/5,Stake: Intro FMV blinks between uninitialized data and movie frames,https://github.com/mborgerson/xemu/issues/1165
+,2022-7/5,Phantom Dust: Random freezes,https://github.com/mborgerson/xemu/issues/1166
+,2022-7/5,Animaniacs: The Great Edgar Hunt: freeze in Once Upon a Time's minigame,https://github.com/mborgerson/xemu/issues/1167
+2022-7/6,2022-7/6,xemu immidiately terminates after start when generic usb dinput controller is connected,https://github.com/mborgerson/xemu/issues/1169
+2022-7/25,2022-7/8,Handling of 3d swizzled bordered textures is incorrect,https://github.com/mborgerson/xemu/issues/1171
+2022-7/8,2022-7/8,Regression: Handling of bordered cubemap textures is incorrect,https://github.com/mborgerson/xemu/issues/1172
+,2022-7/8,Full Spectrum Warrior Broken Upscaling,https://github.com/mborgerson/xemu/issues/1174
+,2022-7/8,Full Spectrum Warrior loading screen broken,https://github.com/mborgerson/xemu/issues/1175
+,2022-7/8,MagiDeathFight! Nivida rendering issue,https://github.com/mborgerson/xemu/issues/1176
+,2022-7/8,Blazing Angels: Squadrons of WWII Graphical Issues,https://github.com/mborgerson/xemu/issues/1177
+2022-7/13,2022-7/11,Blinx: Corrupt shadows due to incorrect qualifier on `vtx_inv_w` in flat shading mode,https://github.com/mborgerson/xemu/issues/1179
+,2022-7/11,Incorrect xemu SVG icon,https://github.com/mborgerson/xemu/issues/1181
+,2022-7/13,Disney's The Haunted Mansion FMV Flicker,https://github.com/mborgerson/xemu/issues/1183
+,2022-7/13,Broken Sword: The Sleeping Dragon FMV flicker,https://github.com/mborgerson/xemu/issues/1184
+,2022-7/14,Breakdown: FMV's have a color tint,https://github.com/mborgerson/xemu/issues/1185
+,2022-7/15,"Improve user experience when AV Pack is set to ""None""",https://github.com/mborgerson/xemu/issues/1186
+,2022-7/17,Assertion : NHL 2002 unimplemented writable const register,https://github.com/mborgerson/xemu/issues/1189
+,2022-7/17, Flight Academy Crashes with a shader compilation fail,https://github.com/mborgerson/xemu/issues/1190
+,2022-7/17,Phantom Dust: xemu hangs during cutscenes,https://github.com/mborgerson/xemu/issues/1191
+,2022-7/18,WWE Raw 2: slow emu speed and real-time DSP audio issue,https://github.com/mborgerson/xemu/issues/1192
+,2022-7/19,Pal region eeprone crashes when using the Pre formatted Hard Disk Image,https://github.com/mborgerson/xemu/issues/1194
+,2022-7/19,Assertion: 2446:tcg_out_op,https://github.com/mborgerson/xemu/issues/1195
+,2022-7/21,Hack treating PVIDEO `size_in` of `0xFFFFFFFF` as end of overlay does not match HW behavior,https://github.com/mborgerson/xemu/issues/1196

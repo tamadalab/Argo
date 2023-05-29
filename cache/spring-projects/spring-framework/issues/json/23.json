@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Programatically setting a transaction to rollBack results in UnexpectedRollbackException [SPR-2231]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6921",
+                        "createdAt": "2006-07-03T20:42:05Z",
+                        "closedAt": "2006-07-05T21:20:44Z"
+                    },
+                    {
+                        "title": "Properties Editor for ResourceBundle [SPR-2232]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6922",
+                        "createdAt": "2006-07-03T22:37:16Z",
+                        "closedAt": "2012-06-19T03:52:50Z"
+                    },
+                    {
+                        "title": "DispatcherServlet.noHandlerFound logging incorrect [SPR-2233]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6923",
+                        "createdAt": "2006-07-04T01:08:11Z",
+                        "closedAt": "2012-06-19T03:52:50Z"
+                    },
+                    {
+                        "title": "Cglib2AopProxy should have an HashCodeInterceptor [SPR-2234]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6924",
+                        "createdAt": "2006-07-04T04:00:51Z",
+                        "closedAt": "2012-06-19T03:52:38Z"
+                    },
+                    {
+                        "title": "form:select not working when in tag file [SPR-2235]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6925",
+                        "createdAt": "2006-07-04T04:51:03Z",
+                        "closedAt": "2012-06-19T03:52:38Z"
+                    },
+                    {
+                        "title": "JPA support with EJB 2.1 CMT [SPR-2236]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6926",
+                        "createdAt": "2006-07-04T05:18:25Z",
+                        "closedAt": "2009-11-13T08:37:47Z"
+                    },
+                    {
+                        "title": "Subclasses of ApplicatonObjectSupport can no longer be proxied via CGLIB [SPR-2237]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6927",
+                        "createdAt": "2006-07-04T08:06:28Z",
+                        "closedAt": "2012-06-19T03:52:30Z"
+                    },
+                    {
+                        "title": "<util:*/> collection documentation doesn't mention override of collection type [SPR-2238]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6928",
+                        "createdAt": "2006-07-05T06:32:03Z",
+                        "closedAt": "2012-06-19T03:52:48Z"
+                    },
+                    {
+                        "title": "Provide source code and maven2 poms at ibiblio [SPR-2239]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6929",
+                        "createdAt": "2006-07-05T17:57:49Z",
+                        "closedAt": "2006-10-11T08:56:35Z"
+                    },
+                    {
+                        "title": "Errors.rejectValue should accept empty field name to indicate the current object itself [SPR-2240]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6930",
+                        "createdAt": "2006-07-05T19:42:20Z",
+                        "closedAt": "2012-06-19T03:52:41Z"
+                    },
+                    {
+                        "title": "hidden input tag should not be printed if tag is disabled in CheckboxTag.java [SPR-2241]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6931",
+                        "createdAt": "2006-07-05T20:45:40Z",
+                        "closedAt": "2012-06-19T03:52:45Z"
+                    },
+                    {
+                        "title": "Visibility of execute methods in StoredProcedure is at odds with javadoc [SPR-2242]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6932",
+                        "createdAt": "2006-07-05T21:53:27Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "AbstractXsltView throws an IllegalArgumentException on Oracle IAS 10.1.2 [SPR-2243]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6933",
+                        "createdAt": "2006-07-06T02:00:11Z",
+                        "closedAt": "2012-06-19T03:52:49Z"
+                    },
+                    {
+                        "title": "Improve error message when URL is invalid [SPR-2244]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6934",
+                        "createdAt": "2006-07-06T02:44:23Z",
+                        "closedAt": "2012-06-19T09:37:37Z"
+                    },
+                    {
+                        "title": "Allow body content of <form:option> to specify label [SPR-2246]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6935",
+                        "createdAt": "2006-07-06T07:56:29Z",
+                        "closedAt": "2007-05-25T02:10:54Z"
+                    },
+                    {
+                        "title": "Errors.reject(...) should probably take the Errors.getNestedPath() in consideration [SPR-2247]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6936",
+                        "createdAt": "2006-07-06T08:33:42Z",
+                        "closedAt": "2012-06-19T03:52:45Z"
+                    },
+                    {
+                        "title": "Documentation for \"message\" attribute of <spring:message> misssing [SPR-2248]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6937",
+                        "createdAt": "2006-07-06T09:12:29Z",
+                        "closedAt": "2012-06-19T03:52:35Z"
+                    },
+                    {
+                        "title": "Label tag does not work with radio buttons [SPR-2249]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6938",
+                        "createdAt": "2006-07-06T10:40:03Z",
+                        "closedAt": "2006-07-10T02:10:53Z"
+                    },
+                    {
+                        "title": "Need new location for spring-beans.dtd for Spring 2.0 [SPR-2250]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6939",
+                        "createdAt": "2006-07-06T12:18:18Z",
+                        "closedAt": "2006-09-19T16:39:30Z"
+                    },
+                    {
+                        "title": "<form:form> generates invalid xhtml [SPR-2251]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6940",
+                        "createdAt": "2006-07-06T17:08:51Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "Support relative paths in file: URLs [SPR-2252]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6941",
+                        "createdAt": "2006-07-06T19:06:52Z",
+                        "closedAt": "2012-06-19T09:37:35Z"
+                    },
+                    {
+                        "title": "Expand the scope of magic beans and application context meta information [SPR-2253]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6942",
+                        "createdAt": "2006-07-06T19:14:35Z",
+                        "closedAt": "2012-06-19T09:37:40Z"
+                    },
+                    {
+                        "title": "CommonsPoolTargetSource throws NullPointerException on context initialization [SPR-2254]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6943",
+                        "createdAt": "2006-07-06T22:46:44Z",
+                        "closedAt": "2012-06-19T03:52:30Z"
+                    },
+                    {
+                        "title": "Impossible to run tests in transaction if autowire is disabled [SPR-2255]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6944",
+                        "createdAt": "2006-07-06T23:29:04Z",
+                        "closedAt": "2012-06-19T03:52:36Z"
+                    },
+                    {
+                        "title": "JavaDoc still refers to removed method createDomNode in AbstractXsltView [SPR-2256]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6945",
+                        "createdAt": "2006-07-07T00:11:44Z",
+                        "closedAt": "2012-06-19T03:52:29Z"
+                    },
+                    {
+                        "title": "Reference doc chapter numbers are off [SPR-2257]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6946",
+                        "createdAt": "2006-07-07T02:12:45Z",
+                        "closedAt": "2012-06-19T03:52:26Z"
+                    },
+                    {
+                        "title": "Use of InheritableThreadLocal creates leak for newly created background threads [SPR-2258]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6947",
+                        "createdAt": "2006-07-07T03:22:21Z",
+                        "closedAt": "2012-06-19T03:52:40Z"
+                    },
+                    {
+                        "title": "ActiveMQ 4.0.1 & SF 2.0RC2 throw: java.lang.IllegalArgumentException: ClassLoader must not be null [SPR-2259]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6948",
+                        "createdAt": "2006-07-08T05:17:35Z",
+                        "closedAt": "2012-06-19T03:52:33Z"
+                    },
+                    {
+                        "title": "Spring 2.0RC2 not backward compatible ? [SPR-2260]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6949",
+                        "createdAt": "2006-07-08T11:02:44Z",
+                        "closedAt": "2012-06-19T03:52:29Z"
+                    },
+                    {
+                        "title": "SchedulerFactoryBean will not use TaskExecutor if other properties not set [SPR-2261]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6950",
+                        "createdAt": "2006-07-08T13:25:27Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "problem with integrating JSF with Spring [SPR-2262]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6951",
+                        "createdAt": "2006-07-08T16:18:55Z",
+                        "closedAt": "2012-06-19T03:18:58Z"
+                    },
+                    {
+                        "title": "TaskExecutor is missing RejectedExecutionException [SPR-2263]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6952",
+                        "createdAt": "2006-07-09T04:29:00Z",
+                        "closedAt": "2012-06-19T03:52:27Z"
+                    },
+                    {
+                        "title": "update jmx remoting docs  [SPR-2264]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6953",
+                        "createdAt": "2006-07-09T05:28:57Z",
+                        "closedAt": "2006-07-12T01:55:15Z"
+                    },
+                    {
+                        "title": "<aop:aspectj-autoproxy/> doesn't care for abstract beans [SPR-2265]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6954",
+                        "createdAt": "2006-07-09T07:02:27Z",
+                        "closedAt": "2012-06-19T03:52:38Z"
+                    },
+                    {
+                        "title": "Documentation for advising transactional operations (section 9.5.5) doesn't include example for tx:annotation-driven [SPR-2266]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6955",
+                        "createdAt": "2006-07-09T10:00:32Z",
+                        "closedAt": "2012-06-19T03:52:30Z"
+                    },
+                    {
+                        "title": "form:select selects everything [SPR-2267]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6956",
+                        "createdAt": "2006-07-09T12:38:21Z",
+                        "closedAt": "2012-06-19T03:52:38Z"
+                    },
+                    {
+                        "title": "Add a <form:hasErrors/> tag [SPR-2268]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6957",
+                        "createdAt": "2006-07-09T20:27:23Z",
+                        "closedAt": "2012-06-19T03:52:36Z"
+                    },
+                    {
+                        "title": "MethodInvocation.getArguments() should not return null [SPR-2269]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6958",
+                        "createdAt": "2006-07-09T21:28:46Z",
+                        "closedAt": "2012-06-19T03:52:31Z"
+                    },
+                    {
+                        "title": "SessionFactoryUtils JtaSessionSynchronization.beforeCompletion swallowing exception [SPR-2270]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6959",
+                        "createdAt": "2006-07-09T23:36:01Z",
+                        "closedAt": "2012-06-19T03:52:47Z"
+                    },
+                    {
+                        "title": "ApplicationContext getApplicationContext() lost public access [SPR-2271]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6960",
+                        "createdAt": "2006-07-10T15:06:39Z",
+                        "closedAt": "2012-06-19T03:52:50Z"
+                    },
+                    {
+                        "title": "Can we stop moving the very useful class ControllerClassNameHandlerMapping [SPR-2272]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6961",
+                        "createdAt": "2006-07-10T20:49:37Z",
+                        "closedAt": "2006-07-23T00:47:32Z"
+                    },
+                    {
+                        "title": "HibernateTemplate requires overloaded Delete(String entityName, Object entity) and Delete(String entityName, Object entity, LockMode lockMode); [SPR-2273]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6962",
+                        "createdAt": "2006-07-10T22:17:42Z",
+                        "closedAt": "2012-06-19T03:52:36Z"
+                    },
+                    {
+                        "title": "Multicheckox as it is in struts [SPR-2274]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6963",
+                        "createdAt": "2006-07-10T23:34:28Z",
+                        "closedAt": "2012-06-19T09:37:39Z"
+                    },
+                    {
+                        "title": "Provide non-transactional onSetup* hook in AbstractTransactionalSpringContextTests [SPR-2275]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6964",
+                        "createdAt": "2006-07-11T01:45:03Z",
+                        "closedAt": "2012-06-19T03:52:40Z"
+                    },
+                    {
+                        "title": "PropertiesEditor may mangle encoding [SPR-2276]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6965",
+                        "createdAt": "2006-07-11T02:39:40Z",
+                        "closedAt": "2012-06-19T03:52:28Z"
+                    },
+                    {
+                        "title": "TransactionProxyFactoryBean not backwards compatible [SPR-2277]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6966",
+                        "createdAt": "2006-07-11T03:49:12Z",
+                        "closedAt": "2012-06-19T03:52:42Z"
+                    },
+                    {
+                        "title": "Change to AbstractAdvisorAutoProxyCreator causing NPE during context startup [SPR-2278]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6967",
+                        "createdAt": "2006-07-11T05:46:43Z",
+                        "closedAt": "2012-06-19T03:52:23Z"
+                    },
+                    {
+                        "title": "form:select tag should generate hidden input tag for multiple selection menu [SPR-2279]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6968",
+                        "createdAt": "2006-07-11T10:36:37Z",
+                        "closedAt": "2012-06-19T03:52:37Z"
+                    },
+                    {
+                        "title": "Add Spring lightweight plug-ins to core [SPR-2280]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6969",
+                        "createdAt": "2006-07-11T12:22:17Z",
+                        "closedAt": "2012-06-19T09:37:22Z"
+                    },
+                    {
+                        "title": "@Transactional annotation hodes @ManagedResource [SPR-2281]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6970",
+                        "createdAt": "2006-07-11T13:24:53Z",
+                        "closedAt": "2016-04-19T19:32:46Z"
+                    },
+                    {
+                        "title": "document logging [SPR-2282]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6971",
+                        "createdAt": "2006-07-11T17:34:48Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "NPE in AbstractAutoProxyCreator when using RC2 [SPR-2283]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6972",
+                        "createdAt": "2006-07-11T18:41:18Z",
+                        "closedAt": "2012-06-19T03:52:31Z"
+                    },
+                    {
+                        "title": "Alternative binding form tag [SPR-2284]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6973",
+                        "createdAt": "2006-07-12T00:10:27Z",
+                        "closedAt": "2012-06-19T03:52:37Z"
+                    },
+                    {
+                        "title": "Duplicate bean id allowed in same XML file by using name attribute [SPR-2285]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6974",
+                        "createdAt": "2006-07-12T01:40:12Z",
+                        "closedAt": "2012-06-19T03:52:36Z"
+                    },
+                    {
+                        "title": "Bad diagnostics if cannot set some properties (and wrapped in a standard JDK exception) [SPR-2286]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6975",
+                        "createdAt": "2006-07-12T02:41:18Z",
+                        "closedAt": "2012-06-19T03:52:29Z"
+                    },
+                    {
+                        "title": "Convention over configuration by bean name and class package [SPR-2287]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6976",
+                        "createdAt": "2006-07-12T04:25:14Z",
+                        "closedAt": "2012-06-19T09:37:37Z"
+                    },
+                    {
+                        "title": "ScopedObject.remove() needs to be renamed to avoid conflicts [SPR-2288]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6977",
+                        "createdAt": "2006-07-12T05:15:59Z",
+                        "closedAt": "2012-06-19T03:52:40Z"
+                    },
+                    {
+                        "title": "The <spring-form:form> tag does not bind to command objects set in a webflow FormAction [SPR-2289]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6978",
+                        "createdAt": "2006-07-12T07:24:11Z",
+                        "closedAt": "2012-06-19T03:52:24Z"
+                    },
+                    {
+                        "title": "oracle.xml.parser.schema.XSDException: Duplicated definition for: 'identifiedType' in spring-util.xsd. We are unable to start OC4j Server. [SPR-2290]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6979",
+                        "createdAt": "2006-07-12T08:37:09Z",
+                        "closedAt": "2012-06-19T03:52:31Z"
+                    },
+                    {
+                        "title": "@Required doesn't work with XyzAware interfaces [SPR-2291]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6980",
+                        "createdAt": "2006-07-12T08:50:27Z",
+                        "closedAt": "2012-06-19T03:52:33Z"
+                    },
+                    {
+                        "title": "Get better exception messages from Velocity when using Spring macros and exposeMacroHelpers is not set [SPR-2292]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6981",
+                        "createdAt": "2006-07-12T19:39:15Z",
+                        "closedAt": "2012-06-19T03:52:42Z"
+                    },
+                    {
+                        "title": "org.hibernate.type.BlobType fails on Oracle 9i [SPR-2293]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6982",
+                        "createdAt": "2006-07-12T22:32:00Z",
+                        "closedAt": "2006-12-31T06:31:21Z"
+                    },
+                    {
+                        "title": "Incorrect string parsing of mapped property names [SPR-2294]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6983",
+                        "createdAt": "2006-07-12T22:54:36Z",
+                        "closedAt": "2006-12-31T07:00:24Z"
+                    },
+                    {
+                        "title": "allow InterfaceBasedMBeanInfoAssembler to expose first implemented managed interface as class descriptor [SPR-2295]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6984",
+                        "createdAt": "2006-07-13T00:02:10Z",
+                        "closedAt": "2012-06-19T09:37:45Z"
+                    },
+                    {
+                        "title": "Cannot use hibernate to save/update session scoped beans [SPR-2296]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6985",
+                        "createdAt": "2006-07-13T02:06:21Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "MVC tutorial breaks, possibly because of bug in standard.jar:c.tld [SPR-2297]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6986",
+                        "createdAt": "2006-07-13T04:12:36Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "JPA used with annotations does not work together with beans configured with aop introductions [SPR-2298]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6987",
+                        "createdAt": "2006-07-13T08:31:06Z",
+                        "closedAt": "2012-06-19T03:24:26Z"
+                    },
+                    {
+                        "title": "provide form:transform tag [SPR-2299]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6988",
+                        "createdAt": "2006-07-13T12:49:56Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "Thread safe date format/parse API [SPR-2300]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6989",
+                        "createdAt": "2006-07-13T13:44:39Z",
+                        "closedAt": "2012-06-19T03:52:49Z"
+                    },
+                    {
+                        "title": "Allow for configurable PersistenceUnitReader in LocalContainEntityManagerFactoryBean [SPR-2301]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6990",
+                        "createdAt": "2006-07-14T04:01:40Z",
+                        "closedAt": "2012-06-19T03:52:29Z"
+                    },
+                    {
+                        "title": "Unable to inject null value from FactoryBean [SPR-2302]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6991",
+                        "createdAt": "2006-07-14T05:27:27Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "Typos in documentation [SPR-2303]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6992",
+                        "createdAt": "2006-07-14T07:26:37Z",
+                        "closedAt": "2012-06-19T03:52:40Z"
+                    },
+                    {
+                        "title": "<aop:aspectj-autoproxy/> doesn't care for new transaction configuration [SPR-2304]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6993",
+                        "createdAt": "2006-07-15T13:01:00Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "FilterDefinitions should be added to Hibernate LocalSessionFactoryBean before *.hbm.xml and *.cfg.xml [SPR-2305]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6994",
+                        "createdAt": "2006-07-15T23:13:42Z",
+                        "closedAt": "2012-06-19T03:52:24Z"
+                    },
+                    {
+                        "title": "ResourceBundleViewResolver.setDefaultParentView() javadoc wrong [SPR-2306]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6995",
+                        "createdAt": "2006-07-16T03:09:58Z",
+                        "closedAt": "2012-06-19T03:52:28Z"
+                    },
+                    {
+                        "title": "<form:option> selects all options [SPR-2307]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6996",
+                        "createdAt": "2006-07-16T08:03:17Z",
+                        "closedAt": "2012-06-19T03:52:45Z"
+                    },
+                    {
+                        "title": "Add crib-sheet summarising the Spring <bean/> elements [SPR-2308]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6997",
+                        "createdAt": "2006-07-16T20:32:18Z",
+                        "closedAt": "2007-01-13T03:43:21Z"
+                    },
+                    {
+                        "title": "Add (Request)ParameterHandlerMapping class to Spring MVC [SPR-2309]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6998",
+                        "createdAt": "2006-07-17T05:23:22Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "add proxyTargetClass to tx:annotation-driven [SPR-2310]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6999",
+                        "createdAt": "2006-07-17T06:39:27Z",
+                        "closedAt": "2006-08-16T18:59:45Z"
+                    },
+                    {
+                        "title": "DriverManagerDataSource does not get the url properly [SPR-2311]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7000",
+                        "createdAt": "2006-07-17T06:52:28Z",
+                        "closedAt": "2012-06-19T03:52:48Z"
+                    },
+                    {
+                        "title": "list of <idref bean=\"x\"/> in beanNames doesnt seem to validate [SPR-2312]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7001",
+                        "createdAt": "2006-07-17T07:36:18Z",
+                        "closedAt": "2012-06-19T03:52:50Z"
+                    },
+                    {
+                        "title": "Need the application context <beans> tag to have a \"package\" property that would store the default package name for all the bean classes. The <bean> tags class property can override this entry. [SPR-2313]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7002",
+                        "createdAt": "2006-07-17T07:52:38Z",
+                        "closedAt": "2012-06-19T09:37:38Z"
+                    },
+                    {
+                        "title": "Transaction synchronization error with PROPAGATION_REQUIRES_NEW and error obtaining new connection [SPR-2314]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7003",
+                        "createdAt": "2006-07-17T08:21:55Z",
+                        "closedAt": "2012-06-19T03:52:33Z"
+                    },
+                    {
+                        "title": "SqlParameter should support scale for double values [SPR-2315]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7004",
+                        "createdAt": "2006-07-17T20:22:03Z",
+                        "closedAt": "2012-06-19T03:52:47Z"
+                    },
+                    {
+                        "title": "The JDBCTempalte is logging at a WARN level for DB2 for SQLCode 100 (no rows returned) -- can this be moved to info? [SPR-2316]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7005",
+                        "createdAt": "2006-07-18T04:09:53Z",
+                        "closedAt": "2012-06-19T03:51:16Z"
+                    },
+                    {
+                        "title": "default-autowire-candidate attribute [SPR-2317]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7006",
+                        "createdAt": "2006-07-18T04:24:57Z",
+                        "closedAt": "2012-06-19T03:50:09Z"
+                    },
+                    {
+                        "title": "BlobByteArrayType/DefaultLobHandler breaks with Hibernate 3.1.3 and PostgreSQL  [SPR-2318]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7007",
+                        "createdAt": "2006-07-18T05:42:23Z",
+                        "closedAt": "2012-06-19T03:50:27Z"
+                    },
+                    {
+                        "title": "(Reloadable)ResourceBundleMessageSource should trim whitespaces from bundle basename [SPR-2319]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7008",
+                        "createdAt": "2006-07-18T07:54:47Z",
+                        "closedAt": "2012-06-19T03:51:18Z"
+                    },
+                    {
+                        "title": "setApplicationContext() is not called for ScriptFactory & scripted beans [SPR-2320]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7009",
+                        "createdAt": "2006-07-18T21:12:27Z",
+                        "closedAt": "2012-06-19T03:51:00Z"
+                    },
+                    {
+                        "title": "Reading Properties file with placeholders [SPR-2321]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7010",
+                        "createdAt": "2006-07-18T22:35:40Z",
+                        "closedAt": "2012-06-19T09:37:41Z"
+                    },
+                    {
+                        "title": "Child collection merging unable to resolve values as bean references [SPR-2322]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7011",
+                        "createdAt": "2006-07-19T04:37:14Z",
+                        "closedAt": "2012-06-19T03:50:13Z"
+                    },
+                    {
+                        "title": "<form:option> and null values [SPR-2323]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7012",
+                        "createdAt": "2006-07-19T06:34:38Z",
+                        "closedAt": "2012-06-19T03:50:54Z"
+                    },
+                    {
+                        "title": "Can one use Spring Framework with JSP 1.2 [SPR-2324]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7013",
+                        "createdAt": "2006-07-19T06:52:40Z",
+                        "closedAt": "2012-06-19T09:37:24Z"
+                    },
+                    {
+                        "title": "Treat start/stop Lifecycle of beans like the init/destroy events [SPR-2325]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7014",
+                        "createdAt": "2006-07-19T09:41:00Z",
+                        "closedAt": "2012-06-19T03:51:05Z"
+                    },
+                    {
+                        "title": "Treat start/stop Lifecycle of beans like the init/destroy events [SPR-2326]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7015",
+                        "createdAt": "2006-07-19T09:45:00Z",
+                        "closedAt": "2007-01-20T23:51:56Z"
+                    },
+                    {
+                        "title": "AbstractTemplateView and getContentType() method [SPR-2327]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7016",
+                        "createdAt": "2006-07-19T10:19:49Z",
+                        "closedAt": "2012-06-19T03:51:20Z"
+                    },
+                    {
+                        "title": "Exception when using several advice on Pointcut [SPR-2328]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7017",
+                        "createdAt": "2006-07-20T01:55:25Z",
+                        "closedAt": "2006-08-09T23:50:15Z"
+                    },
+                    {
+                        "title": "aop:scoped-proxy perhaps should be changed from decorator to Parser [SPR-2329]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7018",
+                        "createdAt": "2006-07-20T02:15:08Z",
+                        "closedAt": "2012-06-19T09:37:31Z"
+                    },
+                    {
+                        "title": "JSF EL FactoryBean to inject values obtained from a JSF expression [SPR-2330]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7019",
+                        "createdAt": "2006-07-20T02:33:01Z",
+                        "closedAt": "2009-08-02T23:28:47Z"
+                    },
+                    {
+                        "title": "IllegalAccessException thrown in ejb lifecycle [SPR-2331]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/7020",
+                        "createdAt": "2006-07-20T17:52:00Z",
+                        "closedAt": "2012-06-19T03:50:08Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7oLhA==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

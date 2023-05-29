@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fix flex egress itinerary generation to not fail with an NPE","2021-5/14","2021-5/14","2021-5/14",True,"2021-5/14",3,7,6
+"Otp2 transfers csv","2021-5/19","2021-5/19","2021-5/19",True,"2021-5/19",2,290,150
+"Otp2 fix back travel","2021-5/19","2021-5/19","2021-5/19",True,"2021-5/19",2,184,83
+"fix: Reduce log level for RT update","2021-5/20","2021-5/20","2021-5/20",True,"2021-5/20",3,3,3
+"Use A* costs within RAPTOR","2021-5/21","2021-6/21","2021-5/21",True,"2021-6/21",4,1516,1306
+"Hard Banned stops support within Raptor","2021-5/21","null","2021-5/21",False,"null",3,821,34
+"Merge two changelogs for LegacyGraphQLApi","2021-5/25","2021-5/25","2021-5/25",True,"2021-5/25",3,3,7
+"Flex v2 Updates","2021-5/26","null","2021-5/26",False,"null",6,477,387
+"Use duration limits instead of maxWalkDistance","2021-5/26","2021-6/26","2021-5/26",True,"2021-6/26",4,1370,5608
+"Implement and add new legacy GraphQL API parameters and fields","2021-5/27","2021-6/27","2021-5/27",True,"2021-6/27",3,94,12
+"Backward compatible handling of multiple on-street modes","2021-6/1","2021-6/1","2021-6/1",True,"2021-6/1",5,164,19
+"Adding back feature from OTP 1: ability to override FE UI files","2021-6/1","null","2021-6/1",False,"null",4,23,8
+"Change to make Flex additive to transit vs. either/or","2021-6/1","2021-6/1","2021-6/1",True,"2021-6/1",5,19,23
+"fix: debug client trip widget was broken due to missing data","2021-6/1","2021-6/1","2021-6/1",True,"2021-6/1",4,1,1
+"Filter P+R results with just driving and long walk","2021-6/2","2021-6/2","2021-6/2",True,"2021-6/2",3,207,57
+"Correct locale handling in resource bundles","2021-6/3","2021-6/3","2021-6/3",True,"2021-6/3",3,94,57
+"Add empty to line to correctly display list","2021-6/3","2021-6/3","2021-6/3",True,"2021-6/3",3,2,1
+"Fix NullPointerException when loading Baden-Wuerttemberg GTFS data","2021-6/3","2022-3/3","2021-6/3",False,"null",4,5,1
+"GitHub Actions: deploy to the actually used repository / fork","2021-6/3","2021-6/3","2021-6/3",True,"2021-6/3",2,3,2
+"Map GTFS BookingRules to BookingInfo for pickup and drop off","2021-6/4","2021-6/4","2021-6/4",True,"2021-6/4",4,408,51
+"Additional parameters in trip request in debug client","2021-6/4","2021-6/4","2021-6/4",True,"2021-6/4",4,53,2
+"Wheelchair surfaces","2021-6/5","null","2021-6/5",False,"null",5,170,27
+"Include stop_sequence in 1.x index API stop_times (#3528)","2021-6/7","2021-8/7","2021-6/7",True,"2021-8/7",5,10,8
+"Correct GTFS BookingRule message mapping","2021-6/8","2021-6/8","2021-6/8",True,"2021-6/8",2,2,2
+"Simplify no-thru traffic handling","2021-6/9","2021-6/9","2021-6/9",True,"2021-6/9",5,69,67
+"Add Geocoder API for debug client searches","2021-6/9","2022-4/9","2021-6/9",False,"null",4,565,20
+"Do not add alert patches to legs that are not transit legs","2021-6/10","2021-6/10","2021-6/10",True,"2021-6/10",3,45,45
+"Allow http headers to be configured for bike rental updaters","2021-6/11","2021-7/11","2021-6/11",True,"2021-7/11",4,168,50
+"Make maxAreaNodes limit configurable","2021-6/14","2021-6/14","2021-6/14",True,"2021-6/14",4,29,9
+"Flex: check pickup/dropoff restrictions before finding the closest stop","2021-6/16","2021-6/16","2021-6/16",True,"2021-6/16",3,28,3
+"Map NeTEx StopPlace and Quay descriptions","2021-6/16","2021-6/16","2021-6/16",True,"2021-6/16",3,2,2
+"Allow fetching notices on stop times","2021-6/17","2021-6/17","2021-6/17",True,"2021-6/17",3,8,6
+"Add per-mode reluctance parameters","2021-6/17","2021-6/17","2021-6/17",True,"2021-6/17",4,884,288
+"Bug Optimize Transfers - Refactor - Part 1","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",2,1427,1072
+"Store / Add GBFS rental URIs to the internal model / legacy API","2021-6/24","2021-7/24","2021-6/24",True,"2021-7/24",4,102,3
+"Adding support for including realtime-added trips in trip-requests","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",3,28,2
+"Fix NPE when checking for access/egress mode","2021-6/24","2021-6/24","2021-6/24",True,"2021-6/24",3,2,4
+"Add CarLegsGeneralizedCostFilter","2021-6/25","2021-7/25","2021-6/25",False,"null",1,119,0
+"Fix optimize transfers - Part 2","2021-6/25","2021-7/25","2021-6/25",True,"2021-7/25",2,2118,968
+"Support node-level OSM access restrictions","2021-6/28","2021-6/28","2021-6/28",True,"2021-6/28",5,291,6
+"Fix NPE when access/egress mode not specified","2021-6/28","2021-7/28","2021-6/28",True,"2021-7/28",3,41,27
+"Reduce log-level to warning on transfer colliding message","2021-7/2","2021-7/2","2021-7/2",True,"2021-7/2",3,2,2
+"Filter access/egress stops for modes that involve driving","2021-7/2","2022-3/2","2021-7/2",False,"null",5,184,2
+"Expand pull request template","2021-7/13","2021-9/13","2021-7/13",True,"2021-9/13",2,10,3
+"Parallel access / egress search","2021-7/13","2021-10/13","2021-7/13",True,"2021-10/13",5,508,263
+"Add maxAccessEgressDurationSecondsForMode to RoutingRequest","2021-7/14","2021-8/14","2021-7/14",True,"2021-8/14",3,34,3
+"Feature/add forbidden transfer by stops","2021-7/15","2022-2/15","2021-7/15",False,"null",2,725,121
+"Remove old, unmaintained bicycle rental updaters","2021-7/19","2021-9/19","2021-7/19",True,"2021-9/19",3,18,1279
+"Add bicycle safety report browser","2021-7/20","2021-7/20","2021-7/20",True,"2021-7/20",2,254,18
+"Update README with correct information about the v2.0.0 release.","2021-7/20","2021-7/20","2021-7/20",True,"2021-7/20",2,3,2
+"Add option to include cancellations in StopTimes call","2021-7/20","2021-8/20","2021-7/20",False,"null",1,153,66
+"Move SmooveBikeRentalUpdater a Sandbox extention","2021-7/20","2021-9/20","2021-7/20",True,"2021-9/20",2,81,51
+"feature(RoutingRequest):added functionality to handle with RENTED_BIK…","2021-7/22","2021-7/22","2021-7/22",False,"null",1,91,6
+"Refactor StopPattern/TripPattern/TripTimes","2021-7/26","2021-8/26","2021-7/26",True,"2021-8/26",3,890,1049
+"Log warnings on missing/invalid pathways","2021-7/28","2021-9/28","2021-7/28",True,"2021-9/28",2,18,36
+"Alerts tagged on trip for specific dates now rely on ServiceDate","2021-7/28","2021-9/28","2021-7/28",True,"2021-9/28",2,386,154
+"Don't allow A* loops for bicycles","2021-7/28","2021-7/28","2021-7/28",True,"2021-7/28",3,348,21
+"Cancel individual stop on StopPattern instead of TripTimes","2021-7/29","2021-8/29","2021-7/29",True,"2021-8/29",3,112,119
+"Changes to the StopTimes method used by the graphql APIs","2021-8/4","2021-8/4","2021-8/4",True,"2021-8/4",3,235,96
+"Tiny bugfix: Remove unused parameter to enable route on report API","2021-8/6","2021-8/6","2021-8/6",False,"null",1,1,1
+"Do not allow bicycle traversal on ways tagged with mtb:scale","2021-8/6","2021-8/6","2021-8/6",True,"2021-8/6",3,93,39
+"Improve bicycle safety report and documentation ","2021-8/11","2021-8/11","2021-8/11",True,"2021-8/11",3,30,8
+"Do not skip update just because there are no EstimatedCalls","2021-8/12","2021-9/12","2021-8/12",True,"2021-9/12",3,12,10
+"Add bicycle triangle factors to Transmodel API","2021-8/12","2021-9/12","2021-8/12",True,"2021-9/12",4,156,63
+"Use correct values for bikesAllowed in the Transmodel API","2021-8/16","2021-9/16","2021-8/16",True,"2021-9/16",3,6,3
+"Fix bug in optimize transfer service decorating path","2021-8/18","2021-8/18","2021-8/18",True,"2021-8/18",2,435,70
+"Remove stops if the stop or its parent station is not in use by a trip pattern","2021-8/18","null","2021-8/18",False,"null",1,208,7
+"Add basic version-support for importing tariffzones","2021-8/30","2021-9/30","2021-8/30",True,"2021-9/30",3,460,117
+"Map Station to correct Transmodel type","2021-8/30","2021-8/30","2021-8/30",True,"2021-8/30",2,11,2
+"Add new types of PurchaseWhenEnumeration in BookingInfoMapper","2021-8/31","2021-9/31","2021-8/31",True,"2021-9/31",2,20,0
+"Rename bike rental vehicle rental in internal classes","2021-9/1","2021-9/1","2021-9/1",True,"2021-9/1",3,1541,2954
+"Allow bicycles on ferries for Netex data","2021-9/1","2021-9/1","2021-9/1",True,"2021-9/1",2,145,15
+"improve: Use a fixed limit for grouping itineraries","2021-9/2","2021-9/2","2021-9/2",True,"2021-9/2",3,222,189
+"Make vehicle rental stations feed scoped","2021-9/3","2021-9/3","2021-9/3",True,"2021-9/3",4,366,493
+"Update documentation for bike/vehicle rental vector tiles","2021-9/7","2021-9/7","2021-9/7",True,"2021-9/7",3,2,1
+"Otp2 update dependencies","2021-9/7","2021-9/7","2021-9/7",True,"2021-9/7",2,279,289
+"Cleanup unused classes","2021-9/7","2021-9/7","2021-9/7",True,"2021-9/7",3,4,4131
+"Correct the handling of itinerary links in the debug client","2021-9/7","2021-9/7","2021-9/7",True,"2021-9/7",3,29,9
+"Show route names in the debug client","2021-9/7","2021-9/7","2021-9/7",True,"2021-9/7",4,9,5
+"Serialize nulls in Transmodel GraphQL API","2021-9/9","2021-9/9","2021-9/9",True,"2021-9/9",2,100,140
+"Extract GBFS loading logic into GbfsFeedLoader","2021-9/9","2021-9/9","2021-9/9",True,"2021-9/9",4,1151,200
+"Fix correct type for BookingArrangementType#latestBookingDay","2021-9/9","2021-9/9","2021-9/9",True,"2021-9/9",2,4,3
+"Load additional data from GBFS and expose it","2021-9/14","2021-9/14","2021-9/14",True,"2021-9/14",4,1895,488
+"New Norwegian way properties profile","2021-9/14","2021-11/14","2021-9/14",False,"null",2,777,47
+"Use Netex enums to check for ferries","2021-9/15","2021-9/15","2021-9/15",True,"2021-9/15",3,2,1
+"Remove null default values for Transmodel API","2021-9/15","2021-9/15","2021-9/15",True,"2021-9/15",2,1,5
+"Sort the input data for RAPTOR to avoid itineraries changing between requests","2021-9/16","2021-10/16","2021-9/16",True,"2021-10/16",5,4,2
+"Add reference to Stop in Place","2021-9/21","2021-9/21","2021-9/21",True,"2021-9/21",3,2452,779
+"CT2 - Cost on transfer in Raptor","2021-9/21","2021-9/21","2021-9/21",False,"null",3,4748,2993
+"Make plan data fetcher async for Legacy GraphQL API","2021-9/22","2021-11/22","2021-9/22",False,"null",4,10,0
+"CT1 - Cost on transfer in Raptor - refactorings","2021-9/22","2021-9/22","2021-9/22",True,"2021-9/22",3,2008,1581
+"Entur add infolinks to transmodel api","2021-9/22","2021-9/22","2021-9/22",True,"2021-9/22",3,7,1
+"Fix reverse raptor search with boarding/alighting restrictions","2021-9/22","2021-9/22","2021-9/22",True,"2021-9/22",2,182,3
+"Upgrade OBA gtfs to 1.3.101","2021-9/29","2021-9/29","2021-9/29",True,"2021-9/29",3,1,1
+"Itinerary list filter chain refactor","2021-9/29","2021-10/29","2021-9/29",True,"2021-10/29",3,2201,846
+"Add new routing errors for cases where all itineraries were filtered by post-processing","2021-9/29","2021-11/29","2021-9/29",True,"2021-11/29",5,309,97
+"Otp2 cost transfer","2021-9/30","2021-10/30","2021-9/30",True,"2021-10/30",4,4652,2726
+"doc: Fix board/light slack doc","2021-9/30","2021-9/30","2021-9/30",True,"2021-9/30",3,7,5
+"Vehicle rental updates","2021-10/5","2021-11/5","2021-10/5",True,"2021-11/5",4,3189,2136
+"bug: Fix NPE in NeTEx Booking Method mapping","2021-10/5","2021-10/5","2021-10/5",True,"2021-10/5",2,102,37

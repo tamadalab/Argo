@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 6769,
+                "nodes": [
+                    {
+                        "title": "[ERROR] Hint: Check that your module inherits 'com.google.gwt.core.Core' either directly or indirectly (most often by inheriting module 'com.google.gwt.user.User')",
+                        "url": "https://github.com/rstudio/rstudio/issues/6694",
+                        "createdAt": "2020-04-19T18:41:00Z",
+                        "closedAt": "2020-04-21T16:58:20Z"
+                    },
+                    {
+                        "title": "Add option to choose custom data separator when importing CSV dataset",
+                        "url": "https://github.com/rstudio/rstudio/issues/6695",
+                        "createdAt": "2020-04-19T20:33:43Z",
+                        "closedAt": "2020-04-21T18:56:39Z"
+                    },
+                    {
+                        "title": "[Windows] terminal tab crashes when msys2 is on the PATH",
+                        "url": "https://github.com/rstudio/rstudio/issues/6696",
+                        "createdAt": "2020-04-20T15:27:40Z",
+                        "closedAt": "2020-05-07T16:25:18Z"
+                    },
+                    {
+                        "title": "Console jumps when scrolling through old commands and a command is longer than the console width",
+                        "url": "https://github.com/rstudio/rstudio/issues/6697",
+                        "createdAt": "2020-04-20T17:53:14Z",
+                        "closedAt": "2021-02-19T09:32:38Z"
+                    },
+                    {
+                        "title": "Support Report style headers in document outline for R script",
+                        "url": "https://github.com/rstudio/rstudio/issues/6698",
+                        "createdAt": "2020-04-20T18:19:55Z",
+                        "closedAt": "2021-02-19T10:32:48Z"
+                    },
+                    {
+                        "title": "Sourcing an open script file as a job fails if the path contains non-ASCII characters on Windows",
+                        "url": "https://github.com/rstudio/rstudio/issues/6701",
+                        "createdAt": "2020-04-20T21:26:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "error: no member named 'get_io_service' in 'boost::asio::ip::basic_resolver<boost::asio::ip::tcp, boost::asio::executor>'          pConnectionTimer_.reset(new boost::asio::deadline_timer(resolver_.get_io_service(), timeout));",
+                        "url": "https://github.com/rstudio/rstudio/issues/6702",
+                        "createdAt": "2020-04-21T17:51:44Z",
+                        "closedAt": "2020-05-20T16:52:47Z"
+                    },
+                    {
+                        "title": "Console scrolls on paste",
+                        "url": "https://github.com/rstudio/rstudio/issues/6703",
+                        "createdAt": "2020-04-21T19:53:29Z",
+                        "closedAt": "2020-04-24T23:50:09Z"
+                    },
+                    {
+                        "title": "Two blinking coursors: in both console and editor",
+                        "url": "https://github.com/rstudio/rstudio/issues/6704",
+                        "createdAt": "2020-04-21T20:20:35Z",
+                        "closedAt": "2021-02-05T13:10:59Z"
+                    },
+                    {
+                        "title": "Database files stored in `/var/run`",
+                        "url": "https://github.com/rstudio/rstudio/issues/6706",
+                        "createdAt": "2020-04-22T00:06:46Z",
+                        "closedAt": "2020-04-22T19:49:33Z"
+                    },
+                    {
+                        "title": "AWS CLI permissions (via IAM) failing inside RStudio Server terminal",
+                        "url": "https://github.com/rstudio/rstudio/issues/6707",
+                        "createdAt": "2020-04-22T14:43:34Z",
+                        "closedAt": "2020-04-22T19:41:56Z"
+                    },
+                    {
+                        "title": "[BUG] Open non-UTF8 file on macOS causes RStudio broken",
+                        "url": "https://github.com/rstudio/rstudio/issues/6709",
+                        "createdAt": "2020-04-22T15:00:04Z",
+                        "closedAt": "2020-04-22T23:34:40Z"
+                    },
+                    {
+                        "title": "Publish button shows unsaved document error  message for saved/knitted doc",
+                        "url": "https://github.com/rstudio/rstudio/issues/6711",
+                        "createdAt": "2020-04-22T17:09:55Z",
+                        "closedAt": "2020-04-27T17:19:57Z"
+                    },
+                    {
+                        "title": "rstudio::r::options::getOption",
+                        "url": "https://github.com/rstudio/rstudio/issues/6713",
+                        "createdAt": "2020-04-22T18:58:49Z",
+                        "closedAt": "2020-09-14T23:40:31Z"
+                    },
+                    {
+                        "title": "Store system persistent state in XDG_DATA_DIRS instead of /var/lib",
+                        "url": "https://github.com/rstudio/rstudio/issues/6715",
+                        "createdAt": "2020-04-22T19:38:11Z",
+                        "closedAt": "2021-02-19T09:32:41Z"
+                    },
+                    {
+                        "title": "Theme does not apply to all panels in debian 9",
+                        "url": "https://github.com/rstudio/rstudio/issues/6717",
+                        "createdAt": "2020-04-23T09:09:18Z",
+                        "closedAt": "2020-04-23T15:29:03Z"
+                    },
+                    {
+                        "title": "RStudio panes do not auto-refresh after resizing",
+                        "url": "https://github.com/rstudio/rstudio/issues/6721",
+                        "createdAt": "2020-04-23T20:25:21Z",
+                        "closedAt": "2020-04-25T17:26:50Z"
+                    },
+                    {
+                        "title": "Support for Ubuntu/focal 20.04 (resolved: PEBKAC)",
+                        "url": "https://github.com/rstudio/rstudio/issues/6723",
+                        "createdAt": "2020-04-24T00:58:56Z",
+                        "closedAt": "2020-04-27T16:29:37Z"
+                    },
+                    {
+                        "title": "double-clicking window pane min/max buttons causes blank panes",
+                        "url": "https://github.com/rstudio/rstudio/issues/6724",
+                        "createdAt": "2020-04-24T03:06:51Z",
+                        "closedAt": "2020-04-27T17:47:54Z"
+                    },
+                    {
+                        "title": "Multi-line R expression not parsed correctly when run interactively (Ctrl+Enter)",
+                        "url": "https://github.com/rstudio/rstudio/issues/6726",
+                        "createdAt": "2020-04-24T11:45:57Z",
+                        "closedAt": "2021-02-19T10:33:01Z"
+                    },
+                    {
+                        "title": "RStudio crashes on Kubuntu 20.04",
+                        "url": "https://github.com/rstudio/rstudio/issues/6727",
+                        "createdAt": "2020-04-24T15:00:05Z",
+                        "closedAt": "2020-05-12T19:16:14Z"
+                    },
+                    {
+                        "title": "package installed and built for wrong version of R in some cases",
+                        "url": "https://github.com/rstudio/rstudio/issues/6728",
+                        "createdAt": "2020-04-24T17:11:39Z",
+                        "closedAt": "2021-02-19T10:32:51Z"
+                    },
+                    {
+                        "title": "Make Remote link clickable in git pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/6729",
+                        "createdAt": "2020-04-24T17:15:40Z",
+                        "closedAt": "2021-02-19T10:32:49Z"
+                    },
+                    {
+                        "title": "Windows builds soft-failing",
+                        "url": "https://github.com/rstudio/rstudio/issues/6730",
+                        "createdAt": "2020-04-24T19:02:49Z",
+                        "closedAt": "2020-04-29T20:51:37Z"
+                    },
+                    {
+                        "title": "path autocompletion from project directory",
+                        "url": "https://github.com/rstudio/rstudio/issues/6731",
+                        "createdAt": "2020-04-24T19:32:48Z",
+                        "closedAt": "2020-04-24T19:38:55Z"
+                    },
+                    {
+                        "title": "custom zoom value ",
+                        "url": "https://github.com/rstudio/rstudio/issues/6732",
+                        "createdAt": "2020-04-24T21:46:24Z",
+                        "closedAt": "2021-02-19T10:33:00Z"
+                    },
+                    {
+                        "title": "Windows builds take too long (3 hours)",
+                        "url": "https://github.com/rstudio/rstudio/issues/6734",
+                        "createdAt": "2020-04-24T23:49:48Z",
+                        "closedAt": "2021-01-19T20:15:00Z"
+                    },
+                    {
+                        "title": "Feature Request: Option for Increasing Virtual Memory from IDE",
+                        "url": "https://github.com/rstudio/rstudio/issues/6735",
+                        "createdAt": "2020-04-25T09:05:43Z",
+                        "closedAt": "2021-02-19T10:32:59Z"
+                    },
+                    {
+                        "title": "Allow project specific spell checking configuration",
+                        "url": "https://github.com/rstudio/rstudio/issues/6736",
+                        "createdAt": "2020-04-25T11:27:40Z",
+                        "closedAt": "2020-09-03T09:02:45Z"
+                    },
+                    {
+                        "title": "Viewer Pane not working",
+                        "url": "https://github.com/rstudio/rstudio/issues/6737",
+                        "createdAt": "2020-04-26T19:25:17Z",
+                        "closedAt": "2020-05-19T19:08:05Z"
+                    },
+                    {
+                        "title": "Javascript exception when file(s) are loaded in editor",
+                        "url": "https://github.com/rstudio/rstudio/issues/6739",
+                        "createdAt": "2020-04-27T04:54:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Turn off \"code browser\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/6740",
+                        "createdAt": "2020-04-27T07:11:35Z",
+                        "closedAt": "2021-02-19T10:32:58Z"
+                    },
+                    {
+                        "title": "Go to function definition doesn't work properly if the function was reassigned",
+                        "url": "https://github.com/rstudio/rstudio/issues/6741",
+                        "createdAt": "2020-04-27T15:30:24Z",
+                        "closedAt": "2021-02-19T09:32:43Z"
+                    },
+                    {
+                        "title": "Desktop and server share a source database",
+                        "url": "https://github.com/rstudio/rstudio/issues/6742",
+                        "createdAt": "2020-04-27T16:06:04Z",
+                        "closedAt": "2020-04-27T17:19:41Z"
+                    },
+                    {
+                        "title": "Themes unit tests broken",
+                        "url": "https://github.com/rstudio/rstudio/issues/6743",
+                        "createdAt": "2020-04-27T16:20:08Z",
+                        "closedAt": "2020-04-29T04:02:48Z"
+                    },
+                    {
+                        "title": "compilation of packages on Windows can fail if RTOOLS40_HOME unset",
+                        "url": "https://github.com/rstudio/rstudio/issues/6746",
+                        "createdAt": "2020-04-27T18:00:02Z",
+                        "closedAt": "2020-04-28T00:11:07Z"
+                    },
+                    {
+                        "title": "SessionFind unit tests broken on Windows",
+                        "url": "https://github.com/rstudio/rstudio/issues/6747",
+                        "createdAt": "2020-04-27T18:00:45Z",
+                        "closedAt": "2020-04-28T15:33:34Z"
+                    },
+                    {
+                        "title": "R diagnostics aren’t turned off when the file type switches",
+                        "url": "https://github.com/rstudio/rstudio/issues/6751",
+                        "createdAt": "2020-04-27T23:25:20Z",
+                        "closedAt": "2021-02-19T09:32:37Z"
+                    },
+                    {
+                        "title": "RStudio attempts to download Rtools even though already installed - can't use RTools as a result",
+                        "url": "https://github.com/rstudio/rstudio/issues/6754",
+                        "createdAt": "2020-04-28T12:49:44Z",
+                        "closedAt": "2020-04-28T18:03:31Z"
+                    },
+                    {
+                        "title": "rtools40 not found",
+                        "url": "https://github.com/rstudio/rstudio/issues/6755",
+                        "createdAt": "2020-04-28T14:51:24Z",
+                        "closedAt": "2020-04-28T17:46:28Z"
+                    },
+                    {
+                        "title": "Help Pane buttons (forward, back, home, refresh, etc.) become unresponsive after a user selects and loads a manual in a server environment.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6757",
+                        "createdAt": "2020-04-28T15:31:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unable to launch RStudio on ubuntu 20.04 under WSL2",
+                        "url": "https://github.com/rstudio/rstudio/issues/6760",
+                        "createdAt": "2020-04-28T18:21:27Z",
+                        "closedAt": "2020-04-28T18:23:25Z"
+                    },
+                    {
+                        "title": "Package installer pop-up doesn't install package",
+                        "url": "https://github.com/rstudio/rstudio/issues/6762",
+                        "createdAt": "2020-04-28T18:43:25Z",
+                        "closedAt": "2020-04-29T20:36:00Z"
+                    },
+                    {
+                        "title": "Syntactically invalid R code produced by View() inspector icon for objects with invalid names",
+                        "url": "https://github.com/rstudio/rstudio/issues/6763",
+                        "createdAt": "2020-04-28T19:27:27Z",
+                        "closedAt": "2020-05-05T15:52:47Z"
+                    },
+                    {
+                        "title": "Notebook Popout Behavior Inconsistency",
+                        "url": "https://github.com/rstudio/rstudio/issues/6767",
+                        "createdAt": "2020-04-29T05:05:20Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Paged Table Inline HTML",
+                        "url": "https://github.com/rstudio/rstudio/issues/6768",
+                        "createdAt": "2020-04-29T05:21:20Z",
+                        "closedAt": "2021-02-19T09:32:40Z"
+                    },
+                    {
+                        "title": "SQL preview in Rmd \"console\" mode",
+                        "url": "https://github.com/rstudio/rstudio/issues/6769",
+                        "createdAt": "2020-04-29T15:42:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Static URL for daily Linux builds?",
+                        "url": "https://github.com/rstudio/rstudio/issues/6770",
+                        "createdAt": "2020-04-29T15:51:45Z",
+                        "closedAt": "2020-05-28T17:49:38Z"
+                    },
+                    {
+                        "title": "Improvement to error output when generating SSH key",
+                        "url": "https://github.com/rstudio/rstudio/issues/6771",
+                        "createdAt": "2020-04-29T16:29:31Z",
+                        "closedAt": "2020-04-29T22:06:13Z"
+                    },
+                    {
+                        "title": "Data viewer pane shows unknown type for POSIXct POSIXt var types",
+                        "url": "https://github.com/rstudio/rstudio/issues/6772",
+                        "createdAt": "2020-04-29T16:52:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "codetools unit test failing",
+                        "url": "https://github.com/rstudio/rstudio/issues/6773",
+                        "createdAt": "2020-04-29T17:07:17Z",
+                        "closedAt": "2020-04-29T21:55:57Z"
+                    },
+                    {
+                        "title": "Request: git Review Changes window: ability to double-click on a line to jump to that file+line",
+                        "url": "https://github.com/rstudio/rstudio/issues/6779",
+                        "createdAt": "2020-04-30T00:50:31Z",
+                        "closedAt": "2021-02-19T09:32:39Z"
+                    },
+                    {
+                        "title": "Keyboard shortcut to paste to script pane with auto indenting temporarily disabled",
+                        "url": "https://github.com/rstudio/rstudio/issues/6780",
+                        "createdAt": "2020-04-30T03:46:41Z",
+                        "closedAt": "2021-02-19T08:32:20Z"
+                    },
+                    {
+                        "title": "Feature Request: \"Go to Source File Location\" shortcut in Files pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/6781",
+                        "createdAt": "2020-04-30T13:47:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "RStudio crashes on Ubuntu 20.04",
+                        "url": "https://github.com/rstudio/rstudio/issues/6782",
+                        "createdAt": "2020-04-30T14:28:06Z",
+                        "closedAt": "2020-05-11T16:53:33Z"
+                    },
+                    {
+                        "title": "set minimum width / height for windows",
+                        "url": "https://github.com/rstudio/rstudio/issues/6783",
+                        "createdAt": "2020-04-30T17:23:00Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Attempting to create a new R Package project in a directory containing a special character results in an 'Error Creating Project' failure.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6784",
+                        "createdAt": "2020-04-30T19:08:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Viewer no longer works for DT::datatable in Version 1.2.5042",
+                        "url": "https://github.com/rstudio/rstudio/issues/6786",
+                        "createdAt": "2020-04-30T23:35:05Z",
+                        "closedAt": "2020-04-30T23:47:13Z"
+                    },
+                    {
+                        "title": "Better code colouring with literal strings",
+                        "url": "https://github.com/rstudio/rstudio/issues/6788",
+                        "createdAt": "2020-05-01T07:27:55Z",
+                        "closedAt": "2020-09-17T21:30:29Z"
+                    },
+                    {
+                        "title": "Changing rendering engine doesn't persist through restart so can't be changed; Linux",
+                        "url": "https://github.com/rstudio/rstudio/issues/6789",
+                        "createdAt": "2020-05-01T15:52:22Z",
+                        "closedAt": "2020-05-05T15:45:23Z"
+                    },
+                    {
+                        "title": "Opening Rds files from file explorer spawns new RStudio instance per file",
+                        "url": "https://github.com/rstudio/rstudio/issues/6790",
+                        "createdAt": "2020-05-01T15:56:44Z",
+                        "closedAt": "2020-05-07T23:10:25Z"
+                    },
+                    {
+                        "title": "Apply eTag based caching in more places",
+                        "url": "https://github.com/rstudio/rstudio/issues/6791",
+                        "createdAt": "2020-05-01T18:23:33Z",
+                        "closedAt": "2020-06-22T22:41:57Z"
+                    },
+                    {
+                        "title": "RStudio console and R's normal console behave differently when returning CHARSXP objects",
+                        "url": "https://github.com/rstudio/rstudio/issues/6792",
+                        "createdAt": "2020-05-01T20:39:53Z",
+                        "closedAt": "2021-02-19T08:31:54Z"
+                    },
+                    {
+                        "title": "When I tried to install ggplot2 from rstudio getting so many errors",
+                        "url": "https://github.com/rstudio/rstudio/issues/6794",
+                        "createdAt": "2020-05-02T06:19:47Z",
+                        "closedAt": "2020-05-04T16:49:26Z"
+                    },
+                    {
+                        "title": "New project > New Package with devtools results in: \"Error: Internal error: use rlang's `is_interactive()` instead of `base::interactive()`\"",
+                        "url": "https://github.com/rstudio/rstudio/issues/6795",
+                        "createdAt": "2020-05-02T13:37:00Z",
+                        "closedAt": "2020-06-09T00:15:15Z"
+                    },
+                    {
+                        "title": "Show full commit message in Git history",
+                        "url": "https://github.com/rstudio/rstudio/issues/6796",
+                        "createdAt": "2020-05-02T16:51:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Show more info for large commits",
+                        "url": "https://github.com/rstudio/rstudio/issues/6797",
+                        "createdAt": "2020-05-02T16:54:48Z",
+                        "closedAt": "2021-02-19T08:31:53Z"
+                    },
+                    {
+                        "title": "Rendering graphics problems, htmlwidgets, plotly also not working in R 4.0.0",
+                        "url": "https://github.com/rstudio/rstudio/issues/6798",
+                        "createdAt": "2020-05-03T08:22:50Z",
+                        "closedAt": "2020-05-04T20:29:54Z"
+                    },
+                    {
+                        "title": "RStudio becomes unusable after tinkering with renv",
+                        "url": "https://github.com/rstudio/rstudio/issues/6799",
+                        "createdAt": "2020-05-03T19:47:55Z",
+                        "closedAt": "2020-05-04T17:05:09Z"
+                    },
+                    {
+                        "title": "get_artist_audio_features from spotifyr doesn't work",
+                        "url": "https://github.com/rstudio/rstudio/issues/6800",
+                        "createdAt": "2020-05-03T21:09:49Z",
+                        "closedAt": "2020-05-04T20:21:17Z"
+                    },
+                    {
+                        "title": "[Windows] shell with clobbered HOME environment variable",
+                        "url": "https://github.com/rstudio/rstudio/issues/6801",
+                        "createdAt": "2020-05-04T13:44:49Z",
+                        "closedAt": "2020-05-04T23:03:15Z"
+                    },
+                    {
+                        "title": "Updating RStudio's Stan Syntax Checking",
+                        "url": "https://github.com/rstudio/rstudio/issues/6802",
+                        "createdAt": "2020-05-04T14:09:12Z",
+                        "closedAt": "2020-07-31T15:45:32Z"
+                    },
+                    {
+                        "title": "routinely get this message Error: Unable to establish connection with R session",
+                        "url": "https://github.com/rstudio/rstudio/issues/6803",
+                        "createdAt": "2020-05-04T15:13:05Z",
+                        "closedAt": "2021-02-19T09:32:48Z"
+                    },
+                    {
+                        "title": "getActiveDocumentContext() does not treat console as \"active document\" in RStudio 1.3.944",
+                        "url": "https://github.com/rstudio/rstudio/issues/6805",
+                        "createdAt": "2020-04-20T20:43:17Z",
+                        "closedAt": "2020-05-04T21:00:45Z"
+                    },
+                    {
+                        "title": "[Website] On RStudio download website HTML code is visible",
+                        "url": "https://github.com/rstudio/rstudio/issues/6806",
+                        "createdAt": "2020-05-04T19:48:41Z",
+                        "closedAt": "2020-05-04T20:19:44Z"
+                    },
+                    {
+                        "title": "daily builds are missing pandoc",
+                        "url": "https://github.com/rstudio/rstudio/issues/6808",
+                        "createdAt": "2020-05-04T21:28:59Z",
+                        "closedAt": "2020-05-04T23:08:50Z"
+                    },
+                    {
+                        "title": "cygheap mismatch detected when running GNU tools in RStudio terminal",
+                        "url": "https://github.com/rstudio/rstudio/issues/6809",
+                        "createdAt": "2020-05-05T15:28:50Z",
+                        "closedAt": "2020-05-07T16:25:44Z"
+                    },
+                    {
+                        "title": "Allow for rtools bash in terminal tab",
+                        "url": "https://github.com/rstudio/rstudio/issues/6810",
+                        "createdAt": "2020-05-05T18:38:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "The 'Go To Function Definition' option within the IDE's Code menu works inconsistently depending on whether or not the operative function includes braces.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6811",
+                        "createdAt": "2020-05-05T22:00:43Z",
+                        "closedAt": "2021-02-19T06:30:36Z"
+                    },
+                    {
+                        "title": "Please provide a way to open a recent project in a new instance",
+                        "url": "https://github.com/rstudio/rstudio/issues/6812",
+                        "createdAt": "2020-05-06T05:09:29Z",
+                        "closedAt": "2020-05-06T22:32:05Z"
+                    },
+                    {
+                        "title": "Open recent project doesn't work with Windows shortcuts",
+                        "url": "https://github.com/rstudio/rstudio/issues/6813",
+                        "createdAt": "2020-05-06T05:20:04Z",
+                        "closedAt": "2020-05-20T16:28:54Z"
+                    },
+                    {
+                        "title": "Source pane with scripts and data separated",
+                        "url": "https://github.com/rstudio/rstudio/issues/6814",
+                        "createdAt": "2020-05-06T06:12:02Z",
+                        "closedAt": "2020-05-08T04:57:40Z"
+                    },
+                    {
+                        "title": "Console left, source right: staying 1/3 - 2/3",
+                        "url": "https://github.com/rstudio/rstudio/issues/6815",
+                        "createdAt": "2020-05-06T09:51:45Z",
+                        "closedAt": "2020-05-08T05:00:36Z"
+                    },
+                    {
+                        "title": "Show dataframe grouping in structure view",
+                        "url": "https://github.com/rstudio/rstudio/issues/6816",
+                        "createdAt": "2020-05-06T10:50:55Z",
+                        "closedAt": "2021-02-19T09:32:45Z"
+                    },
+                    {
+                        "title": "DOM selectors for source pane",
+                        "url": "https://github.com/rstudio/rstudio/issues/6817",
+                        "createdAt": "2020-05-06T14:55:44Z",
+                        "closedAt": "2020-05-08T17:22:08Z"
+                    },
+                    {
+                        "title": "Custom keyboard shortcut doesn't work",
+                        "url": "https://github.com/rstudio/rstudio/issues/6818",
+                        "createdAt": "2020-05-06T16:02:18Z",
+                        "closedAt": "2020-05-06T17:42:34Z"
+                    },
+                    {
+                        "title": "Global find and replace fails ",
+                        "url": "https://github.com/rstudio/rstudio/issues/6819",
+                        "createdAt": "2020-05-06T18:06:53Z",
+                        "closedAt": "2020-05-12T16:38:09Z"
+                    },
+                    {
+                        "title": "Tutorial tab: add search box",
+                        "url": "https://github.com/rstudio/rstudio/issues/6820",
+                        "createdAt": "2020-05-06T18:18:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "RStudio 1.3 responds slower than 1.2",
+                        "url": "https://github.com/rstudio/rstudio/issues/6821",
+                        "createdAt": "2020-05-06T18:56:37Z",
+                        "closedAt": "2020-07-23T20:39:31Z"
+                    },
+                    {
+                        "title": "Debian GNU/Linux 10 post install verification error on 1.3.957",
+                        "url": "https://github.com/rstudio/rstudio/issues/6822",
+                        "createdAt": "2020-05-06T20:13:11Z",
+                        "closedAt": "2020-05-28T16:37:48Z"
+                    },
+                    {
+                        "title": "An unsaved file will display as saved in the IDE if it is torn from the Source pane and then added back to the main IDE window.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6824",
+                        "createdAt": "2020-05-06T23:43:39Z",
+                        "closedAt": "2020-06-04T20:41:37Z"
+                    },
+                    {
+                        "title": "New file names repeat (Untitled1, Untitled1, etc.) when the 1st file is torn from the source pane of the main IDE window before the creation of the 2nd file.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6825",
+                        "createdAt": "2020-05-07T00:09:01Z",
+                        "closedAt": "2021-02-19T09:32:46Z"
+                    },
+                    {
+                        "title": "A dead space is created in the file name field of RStudio Source Editor if a new file is dragged over it and then dropped back in the source pane of the main IDE window.",
+                        "url": "https://github.com/rstudio/rstudio/issues/6826",
+                        "createdAt": "2020-05-07T01:15:23Z",
+                        "closedAt": "2021-02-19T09:32:47Z"
+                    },
+                    {
+                        "title": "Modifying the chunk options by mouse may delete chunk options",
+                        "url": "https://github.com/rstudio/rstudio/issues/6829",
+                        "createdAt": "2020-05-07T15:44:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Unable to upload files to directory with special characters in the name",
+                        "url": "https://github.com/rstudio/rstudio/issues/6830",
+                        "createdAt": "2020-05-07T17:17:30Z",
+                        "closedAt": "2021-02-19T04:30:56Z"
+                    },
+                    {
+                        "title": "Colors in Tools/Shell... and Tools/Terminal",
+                        "url": "https://github.com/rstudio/rstudio/issues/6833",
+                        "createdAt": "2020-05-07T20:10:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Auto trigger snippets",
+                        "url": "https://github.com/rstudio/rstudio/issues/6834",
+                        "createdAt": "2020-05-07T20:58:04Z",
+                        "closedAt": "2021-02-19T09:32:49Z"
+                    },
+                    {
+                        "title": "Editor incorrectly handles wide unicode characters",
+                        "url": "https://github.com/rstudio/rstudio/issues/6836",
+                        "createdAt": "2020-05-07T23:02:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "RStudio crashed if plot zoom window is closed with Alt+F4",
+                        "url": "https://github.com/rstudio/rstudio/issues/6837",
+                        "createdAt": "2020-05-08T05:13:13Z",
+                        "closedAt": "2021-02-05T03:52:54Z"
+                    },
+                    {
+                        "title": "Calling keras::load_model_tf in Shiny app makes RStudio close window",
+                        "url": "https://github.com/rstudio/rstudio/issues/6838",
+                        "createdAt": "2020-05-08T13:30:22Z",
+                        "closedAt": "2020-05-14T22:56:17Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOJKRB4w==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

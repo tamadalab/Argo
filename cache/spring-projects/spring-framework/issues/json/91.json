@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Synchronization issues occur on a form which heavily uses  [SPR-9084]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13722",
+                        "createdAt": "2012-02-01T07:32:34Z",
+                        "closedAt": "2012-06-19T03:39:32Z"
+                    },
+                    {
+                        "title": "Incorrect name in documentation for ByteArrayHttpMessageConverter class [SPR-9085]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13723",
+                        "createdAt": "2012-02-01T11:43:10Z",
+                        "closedAt": "2012-06-19T03:39:55Z"
+                    },
+                    {
+                        "title": "Query Validation Groups in BindingResult [SPR-9086]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13724",
+                        "createdAt": "2012-02-02T00:18:42Z",
+                        "closedAt": "2019-01-12T00:27:47Z"
+                    },
+                    {
+                        "title": "Provide transactional support for Infinispan 2nd level cache [SPR-9087]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13725",
+                        "createdAt": "2012-02-02T07:16:57Z",
+                        "closedAt": "2014-05-05T07:04:50Z"
+                    },
+                    {
+                        "title": "Each FreeMarkerView needlessly creates a TaglibFactory in initServletContext() [SPR-9088]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13726",
+                        "createdAt": "2012-02-02T19:01:53Z",
+                        "closedAt": "2012-02-07T01:53:24Z"
+                    },
+                    {
+                        "title": "API doc for the ForkJoinPoolFactoryBean contains a broken link  [SPR-9089]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13727",
+                        "createdAt": "2012-02-02T19:33:31Z",
+                        "closedAt": "2012-03-08T03:57:11Z"
+                    },
+                    {
+                        "title": "context:component-scan picks up test classes [SPR-9090]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13728",
+                        "createdAt": "2012-02-02T20:29:37Z",
+                        "closedAt": "2016-11-30T10:00:32Z"
+                    },
+                    {
+                        "title": "Add support for enhancing schema-based configuration with traditional beans XML [SPR-9091]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13729",
+                        "createdAt": "2012-02-03T12:50:18Z",
+                        "closedAt": "2012-08-15T13:04:09Z"
+                    },
+                    {
+                        "title": "Injecting / autowiring collection provider doen't work [SPR-9092]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13730",
+                        "createdAt": "2012-02-06T03:45:24Z",
+                        "closedAt": "2012-06-19T02:28:11Z"
+                    },
+                    {
+                        "title": "org.springframework.web.util.UriTemplate not throwing IllegalArgumentException when URIVariables map missing values [SPR-9093]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13731",
+                        "createdAt": "2012-02-06T07:35:45Z",
+                        "closedAt": "2012-06-19T03:39:42Z"
+                    },
+                    {
+                        "title": "Task Namespace Executor Element Does Not Set threadNamePrefix [SPR-9094]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13732",
+                        "createdAt": "2012-02-06T10:45:27Z",
+                        "closedAt": "2018-06-14T10:15:30Z"
+                    },
+                    {
+                        "title": "DestructionCallbackBindingListener is Serializable but contains non-serializable Runnable reference [SPR-9095]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13733",
+                        "createdAt": "2012-02-06T21:24:17Z",
+                        "closedAt": "2019-01-12T00:27:44Z"
+                    },
+                    {
+                        "title": "StringHttpMessageConverter should use HttpServletRequest encoding for POST body [SPR-9096]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13734",
+                        "createdAt": "2012-02-07T04:03:38Z",
+                        "closedAt": "2012-06-19T03:39:43Z"
+                    },
+                    {
+                        "title": "Encoding issue causes javadoc generation to fail [SPR-9097]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13735",
+                        "createdAt": "2012-02-07T16:00:43Z",
+                        "closedAt": "2012-06-19T03:39:05Z"
+                    },
+                    {
+                        "title": "Decode URI variable values when UrlPathHelper.setUrlDecode() is set to false  [SPR-9098]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13736",
+                        "createdAt": "2012-02-08T01:51:13Z",
+                        "closedAt": "2013-01-29T08:48:50Z"
+                    },
+                    {
+                        "title": "Change StringHttpMessageConverter.DEFAULT_CHARSET value to UTF-8 [SPR-9099]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13737",
+                        "createdAt": "2012-02-08T01:52:20Z",
+                        "closedAt": "2013-02-18T08:09:33Z"
+                    },
+                    {
+                        "title": "ClassPathBeanDefinitionScanner vs ClassPathBeanDefinitionScanner: difference in behavior when dealing with @ComponentScan excludeFilters [SPR-9100]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13738",
+                        "createdAt": "2012-02-08T06:03:30Z",
+                        "closedAt": "2012-05-06T12:29:37Z"
+                    },
+                    {
+                        "title": "OrderComparator.INSTANCE should be final [SPR-9101]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13739",
+                        "createdAt": "2012-02-09T01:51:52Z",
+                        "closedAt": "2012-02-09T02:55:31Z"
+                    },
+                    {
+                        "title": "Add \"Bundle-RequiredExecutionEnvironment: J2SE-1.5\" to org.springframework.context bundle [SPR-9102]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13740",
+                        "createdAt": "2012-02-09T06:24:05Z",
+                        "closedAt": "2012-08-13T07:56:42Z"
+                    },
+                    {
+                        "title": "Eliminate brittle timing-dependent tests [SPR-9103]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13741",
+                        "createdAt": "2012-02-09T14:45:56Z",
+                        "closedAt": "2015-09-22T19:33:06Z"
+                    },
+                    {
+                        "title": "requestMapping upload return 404 [SPR-9104]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13742",
+                        "createdAt": "2012-02-09T18:08:33Z",
+                        "closedAt": "2012-04-24T02:26:14Z"
+                    },
+                    {
+                        "title": "Add BeanWrapperImpl.getPropertyValue(String name, Class<?> type) [SPR-9105]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13743",
+                        "createdAt": "2012-02-10T02:10:42Z",
+                        "closedAt": "2018-12-27T12:16:21Z"
+                    },
+                    {
+                        "title": "(Reloadable)ResourceBundleMessageSource.setBasenames should use varargs [SPR-9106]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13744",
+                        "createdAt": "2012-02-10T08:20:28Z",
+                        "closedAt": "2012-02-11T09:22:10Z"
+                    },
+                    {
+                        "title": "Reading raw request body into String variable fails [SPR-9107]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13745",
+                        "createdAt": "2012-02-10T08:37:48Z",
+                        "closedAt": "2012-02-13T04:32:28Z"
+                    },
+                    {
+                        "title": "improve performance of javassist CtMethod.setBody [SPR-9108]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13746",
+                        "createdAt": "2012-02-10T10:27:49Z",
+                        "closedAt": "2012-08-06T06:42:08Z"
+                    },
+                    {
+                        "title": "Add hook to UrlResource to allow setting of URL. [SPR-9109]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13747",
+                        "createdAt": "2012-02-10T10:38:08Z",
+                        "closedAt": "2019-01-12T00:27:42Z"
+                    },
+                    {
+                        "title": "Spring 3.0 and 3.1 Docs do not mention the issue with LTW not working tomcat due to the way tomcat scans the class path to support Servlets 3.0 features [SPR-9110]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13748",
+                        "createdAt": "2012-02-10T10:42:05Z",
+                        "closedAt": "2018-12-26T14:08:56Z"
+                    },
+                    {
+                        "title": "3.1.x reference docs mentions RequestBodyNotValidException but should be MethodArgumentNotValidException [SPR-9111]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13749",
+                        "createdAt": "2012-02-11T01:56:24Z",
+                        "closedAt": "2012-10-31T11:33:59Z"
+                    },
+                    {
+                        "title": "Support @MVC methods that can apply to any @Controller [SPR-9112]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13750",
+                        "createdAt": "2012-02-12T06:23:39Z",
+                        "closedAt": "2012-08-14T14:43:11Z"
+                    },
+                    {
+                        "title": "Multiple javadoc issues [SPR-9113]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13751",
+                        "createdAt": "2012-02-12T09:59:18Z",
+                        "closedAt": "2012-06-19T03:39:51Z"
+                    },
+                    {
+                        "title": "Add receive-timeout option to <jms:listener-container> or <jms:listener> definition [SPR-9114]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13752",
+                        "createdAt": "2012-02-12T12:08:50Z",
+                        "closedAt": "2012-06-19T03:39:52Z"
+                    },
+                    {
+                        "title": "Spring beans in Tomcat Resource definitions [SPR-9115]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13753",
+                        "createdAt": "2012-02-12T12:50:01Z",
+                        "closedAt": "2012-08-06T06:41:31Z"
+                    },
+                    {
+                        "title": "Ambiguous session attribute causes IllegalArgumentException: argument type mismatch [SPR-9116]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13754",
+                        "createdAt": "2012-02-13T01:35:26Z",
+                        "closedAt": "2012-02-16T05:49:28Z"
+                    },
+                    {
+                        "title": "Creating of Spring beans takes a long time when the application is deployed through webstart / jnlp with Java 6 and above [SPR-9117]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13755",
+                        "createdAt": "2012-02-13T10:19:01Z",
+                        "closedAt": "2013-01-22T12:28:10Z"
+                    },
+                    {
+                        "title": "ResourceHttpRequestHandler OSGiBundleResource contentLength [cannot be resolved to absolute file path] [SPR-9118]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13756",
+                        "createdAt": "2012-02-13T15:04:58Z",
+                        "closedAt": "2012-06-19T03:39:27Z"
+                    },
+                    {
+                        "title": "Custom namespaces ignored inside bean profiles [SPR-9119]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13757",
+                        "createdAt": "2012-02-14T06:06:48Z",
+                        "closedAt": "2012-02-16T08:03:52Z"
+                    },
+                    {
+                        "title": "util:map Changes Keys [SPR-9120]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13758",
+                        "createdAt": "2012-02-14T13:36:36Z",
+                        "closedAt": "2014-10-26T16:50:15Z"
+                    },
+                    {
+                        "title": "org.springframework.beans.NullValueInNestedPathException [SPR-9121]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13759",
+                        "createdAt": "2012-02-14T23:33:30Z",
+                        "closedAt": "2012-03-08T04:02:28Z"
+                    },
+                    {
+                        "title": "Problem with SessionFactory [SPR-9122]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13760",
+                        "createdAt": "2012-02-14T23:49:28Z",
+                        "closedAt": "2012-08-06T02:53:12Z"
+                    },
+                    {
+                        "title": "[SpEL] Problem with uppercase property names [SPR-9123]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13761",
+                        "createdAt": "2012-02-15T02:54:25Z",
+                        "closedAt": "2013-10-18T15:59:05Z"
+                    },
+                    {
+                        "title": "BeanNameGenerator strategy provided to AnnotationConfig(Web)ApplicationContext does not apply to nested and imported @Configuration classes [SPR-9124]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13762",
+                        "createdAt": "2012-02-15T04:22:31Z",
+                        "closedAt": "2012-06-19T03:39:31Z"
+                    },
+                    {
+                        "title": "NullPointerException when attempting to use aws-maven with Sonatype Aether [SPR-9145]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13763",
+                        "createdAt": "2012-02-21T09:29:31Z",
+                        "closedAt": "2012-02-21T11:04:03Z"
+                    },
+                    {
+                        "title": "Provide bean factory to simplify the customization of Jackson ObjectMapper [SPR-9125]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13764",
+                        "createdAt": "2012-02-15T07:28:36Z",
+                        "closedAt": "2012-09-24T03:07:19Z"
+                    },
+                    {
+                        "title": "Methods that could use varargs [SPR-9126]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13765",
+                        "createdAt": "2012-02-16T00:28:52Z",
+                        "closedAt": "2015-09-22T19:34:10Z"
+                    },
+                    {
+                        "title": "@PropertySource annotation with multiple values and a name fails to register all property sources [SPR-9127]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13766",
+                        "createdAt": "2012-02-16T06:24:09Z",
+                        "closedAt": "2014-04-09T03:18:26Z"
+                    },
+                    {
+                        "title": "Override type's @Cacheable with an annotation on a method to disable caching [SPR-9128]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13767",
+                        "createdAt": "2012-02-16T14:26:06Z",
+                        "closedAt": "2014-04-01T00:29:13Z"
+                    },
+                    {
+                        "title": "DefaultMessageListenerContainer throws javax.jms.IllegalStateException [SPR-9129]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13768",
+                        "createdAt": "2012-02-17T01:47:48Z",
+                        "closedAt": "2014-06-10T01:27:27Z"
+                    },
+                    {
+                        "title": "Introduce FactoryBean to create mock beans with EasyMock [SPR-9130]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13769",
+                        "createdAt": "2012-02-17T07:37:27Z",
+                        "closedAt": "2013-06-08T13:01:19Z"
+                    },
+                    {
+                        "title": "Multiple PropertySource fails to use System property [SPR-9131]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13770",
+                        "createdAt": "2012-02-17T07:38:58Z",
+                        "closedAt": "2012-02-20T06:42:01Z"
+                    },
+                    {
+                        "title": "Allow autowiring of empty collection in @Bean method parameters using java.util.Optional [SPR-9132]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13771",
+                        "createdAt": "2012-02-18T13:23:33Z",
+                        "closedAt": "2014-10-31T07:04:39Z"
+                    },
+                    {
+                        "title": "Fix regression in @PropertySource placeholder resolution [SPR-9133]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13772",
+                        "createdAt": "2012-02-18T13:56:59Z",
+                        "closedAt": "2012-06-19T03:39:47Z"
+                    },
+                    {
+                        "title": "Custom condition in request mapping handler does not work as an exclusion filter [SPR-9134]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13773",
+                        "createdAt": "2012-02-19T17:59:18Z",
+                        "closedAt": "2012-06-19T17:27:47Z"
+                    },
+                    {
+                        "title": "failure of JSON serialization in  MVC  [SPR-9135]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13774",
+                        "createdAt": "2012-02-18T07:29:15Z",
+                        "closedAt": "2012-02-28T06:01:36Z"
+                    },
+                    {
+                        "title": "Backport \"Fix regression in @PropertySource placeholder resolution\" [SPR-9136]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13775",
+                        "createdAt": "2012-02-20T05:28:46Z",
+                        "closedAt": "2012-02-29T01:28:06Z"
+                    },
+                    {
+                        "title": "Unable to define Content-Type and Encoding when use @ResponseBody [SPR-9137]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13776",
+                        "createdAt": "2012-02-20T06:15:03Z",
+                        "closedAt": "2012-05-18T16:29:10Z"
+                    },
+                    {
+                        "title": "Race condition in AnnotationMethodHandlerExceptionResolver [SPR-9138]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13777",
+                        "createdAt": "2012-02-20T09:38:39Z",
+                        "closedAt": "2012-06-19T03:39:33Z"
+                    },
+                    {
+                        "title": "Support for JTA 1.2 transaction annotation [SPR-9139]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13778",
+                        "createdAt": "2012-02-20T11:48:51Z",
+                        "closedAt": "2015-02-12T05:21:13Z"
+                    },
+                    {
+                        "title": "Autowiring fails, when jars are loaded as per skinny war concept where classes involved have default accessors [SPR-9140]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13779",
+                        "createdAt": "2012-02-20T21:51:22Z",
+                        "closedAt": "2012-03-08T04:03:02Z"
+                    },
+                    {
+                        "title": "Map Oracle's ORA-30006 to Spring's CannotAcquireLockException [SPR-9141]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13780",
+                        "createdAt": "2012-02-20T22:58:50Z",
+                        "closedAt": "2012-06-19T03:39:38Z"
+                    },
+                    {
+                        "title": "Invalid MIME-type causes a 500 error [SPR-9142]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13781",
+                        "createdAt": "2012-02-21T01:44:34Z",
+                        "closedAt": "2013-01-28T06:07:24Z"
+                    },
+                    {
+                        "title": "Check original beanClass in #isFactoryBean calls for @Bean methods as well [SPR-9143]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13782",
+                        "createdAt": "2012-02-21T07:02:36Z",
+                        "closedAt": "2013-02-07T14:13:18Z"
+                    },
+                    {
+                        "title": "TransactionAspectSupport.currentTransactionStatus() can return null when from the exception signature we'd expect a NoTransactionException [SPR-9144]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13783",
+                        "createdAt": "2012-02-21T08:35:34Z",
+                        "closedAt": "2014-11-17T06:42:31Z"
+                    },
+                    {
+                        "title": "Backport \"Custom condition in request mapping handler does not work as an exclusion filter\" [SPR-9146]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13784",
+                        "createdAt": "2012-02-21T09:33:14Z",
+                        "closedAt": "2012-06-27T07:46:41Z"
+                    },
+                    {
+                        "title": "Backport \"Race condition in AnnotationMethodHandlerExceptionResolver\" [SPR-9147]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13785",
+                        "createdAt": "2012-02-21T12:36:08Z",
+                        "closedAt": "2012-06-26T16:04:31Z"
+                    },
+                    {
+                        "title": "Backport \"Invalid MIME-type causes a 500 error\" [SPR-9148]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13786",
+                        "createdAt": "2012-02-21T14:14:36Z",
+                        "closedAt": "2013-06-04T07:03:22Z"
+                    },
+                    {
+                        "title": "\"Content-Disposition\" in class StandardMultipartHttpServletRequest should be case insensitive [SPR-9149]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13787",
+                        "createdAt": "2012-02-22T06:48:03Z",
+                        "closedAt": "2012-06-19T03:39:31Z"
+                    },
+                    {
+                        "title": "simpleJdbcInsert cannot insert Timestamp field on Oracle [SPR-9150]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13788",
+                        "createdAt": "2012-02-22T07:35:14Z",
+                        "closedAt": "2012-02-28T05:57:13Z"
+                    },
+                    {
+                        "title": "Backport \"'Content-Disposition' in class StandardMultipartHttpServletRequest should be case insensitive\" [SPR-9151]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13789",
+                        "createdAt": "2012-02-22T08:08:31Z",
+                        "closedAt": "2012-06-28T09:03:09Z"
+                    },
+                    {
+                        "title": "Jaxb2Marshaller::supports() ignores classes found by packages scanning [SPR-9152]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13790",
+                        "createdAt": "2012-02-22T19:50:26Z",
+                        "closedAt": "2013-05-16T07:07:42Z"
+                    },
+                    {
+                        "title": "Add extension element to Spring Web MVC @RequestMapping annotation [SPR-9153]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13791",
+                        "createdAt": "2012-02-22T23:02:55Z",
+                        "closedAt": "2012-06-22T09:40:40Z"
+                    },
+                    {
+                        "title": "Type override registration when using LocalSessionFactoryBean [SPR-9154]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13792",
+                        "createdAt": "2012-02-23T03:25:47Z",
+                        "closedAt": "2019-01-12T00:27:39Z"
+                    },
+                    {
+                        "title": "@Autowired(required=false) does not work as documented for constructor injection of optional Collection dependencies [SPR-9155]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13793",
+                        "createdAt": "2012-02-23T06:46:53Z",
+                        "closedAt": "2019-01-12T00:27:37Z"
+                    },
+                    {
+                        "title": "Status.MARKED_AS_ROLLBACK is not supported by Transaction API [SPR-9156]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13794",
+                        "createdAt": "2012-02-23T06:58:47Z",
+                        "closedAt": "2013-01-16T04:53:41Z"
+                    },
+                    {
+                        "title": "Converters don't get picked up for MVC controllers in 3.0.7 [SPR-9157]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13795",
+                        "createdAt": "2012-02-23T08:03:00Z",
+                        "closedAt": "2012-05-18T13:19:53Z"
+                    },
+                    {
+                        "title": "MethodInterceptor causes integration test to commit changes to database [SPR-9158]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13796",
+                        "createdAt": "2012-02-23T12:10:50Z",
+                        "closedAt": "2012-07-31T07:10:10Z"
+                    },
+                    {
+                        "title": "@ResponseBody does not work with @ExceptionHandler when reason is set in @ResponseStatus [SPR-9159]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13797",
+                        "createdAt": "2012-02-23T20:08:59Z",
+                        "closedAt": "2012-09-10T12:04:42Z"
+                    },
+                    {
+                        "title": "AbstractMessageConverterMethodProcessor ignores quality parameter when selecting a MediaType [SPR-9160]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13798",
+                        "createdAt": "2012-02-23T23:47:25Z",
+                        "closedAt": "2012-06-19T03:39:04Z"
+                    },
+                    {
+                        "title": "Avoid infinite loop in AbstractResource#contentLength [SPR-9161]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13799",
+                        "createdAt": "2012-02-24T00:31:55Z",
+                        "closedAt": "2012-06-19T03:39:11Z"
+                    },
+                    {
+                        "title": "SpringContextResourceAdapter does not fulfill whole JCA 1.5 contract [SPR-9162]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13800",
+                        "createdAt": "2012-02-24T01:27:09Z",
+                        "closedAt": "2013-01-09T09:42:56Z"
+                    },
+                    {
+                        "title": "Backport \"Avoid infinite loop in AbstractResource#contentLength\" [SPR-9163]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13801",
+                        "createdAt": "2012-02-24T05:43:06Z",
+                        "closedAt": "2012-02-29T01:28:06Z"
+                    },
+                    {
+                        "title": "Support BigDecimals with SpEL [SPR-9164]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13802",
+                        "createdAt": "2012-02-24T06:17:21Z",
+                        "closedAt": "2014-10-02T11:53:52Z"
+                    },
+                    {
+                        "title": "Backport \"Make spring-test dependency on spring-aspects optional\" [SPR-9165]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13803",
+                        "createdAt": "2012-02-24T06:40:19Z",
+                        "closedAt": "2018-12-08T13:06:59Z"
+                    },
+                    {
+                        "title": "Cache and late resolve annotations on bean properties to improve performance [SPR-9166]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13804",
+                        "createdAt": "2012-02-24T07:06:22Z",
+                        "closedAt": "2016-11-30T16:40:37Z"
+                    },
+                    {
+                        "title": "Can't access messageResource from domain class when as @ModelAttribute [SPR-9167]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13805",
+                        "createdAt": "2012-02-24T07:09:33Z",
+                        "closedAt": "2012-03-08T03:56:14Z"
+                    },
+                    {
+                        "title": "Backport \"AbstractMessageConverterMethodProcessor ignores quality parameter when selecting a MediaType\" [SPR-9168]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13806",
+                        "createdAt": "2012-02-24T07:50:38Z",
+                        "closedAt": "2012-06-26T16:09:43Z"
+                    },
+                    {
+                        "title": "Apostrophe not being displayed correctly in MessageSource [SPR-9169]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13807",
+                        "createdAt": "2012-02-24T08:57:57Z",
+                        "closedAt": "2019-01-12T00:27:35Z"
+                    },
+                    {
+                        "title": "Consider moving Spring Batch Retry package into Spring Core [SPR-9170]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13808",
+                        "createdAt": "2012-02-26T18:49:22Z",
+                        "closedAt": "2012-02-28T04:39:22Z"
+                    },
+                    {
+                        "title": "EhCacheManagerFactoryBean should use net.sf.ehcache.config.ConfigurationFactory set the name of ehcache manager [SPR-9171]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13809",
+                        "createdAt": "2012-02-27T00:55:13Z",
+                        "closedAt": "2013-01-18T08:47:02Z"
+                    },
+                    {
+                        "title": "Problem using spring mvc, jpa and hibernate validator [SPR-9172]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13810",
+                        "createdAt": "2012-02-27T03:11:13Z",
+                        "closedAt": "2012-02-28T06:22:34Z"
+                    },
+                    {
+                        "title": "org.springframework.context misses Import-Package on javax.inject [SPR-9173]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13811",
+                        "createdAt": "2012-02-27T08:10:18Z",
+                        "closedAt": "2012-03-14T08:02:05Z"
+                    },
+                    {
+                        "title": "@Validated should allow ElementType.METHOD target [SPR-9174]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13812",
+                        "createdAt": "2012-02-27T08:32:55Z",
+                        "closedAt": "2014-12-09T02:49:16Z"
+                    },
+                    {
+                        "title": "Backport: \"Jaxb2Marshaller::supports() ignores classes found by packages scanning\" [SPR-9175]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13813",
+                        "createdAt": "2012-02-28T00:58:34Z",
+                        "closedAt": "2012-10-31T11:12:14Z"
+                    },
+                    {
+                        "title": "Scoped-proxy memory leak w/ @Resource injection [SPR-9176]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13814",
+                        "createdAt": "2012-02-28T04:09:05Z",
+                        "closedAt": "2012-08-14T04:33:20Z"
+                    },
+                    {
+                        "title": "BeanFactory does not return FactoryBeans by type when using type prediction and bean not yet created [SPR-9177]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13815",
+                        "createdAt": "2012-02-28T06:46:17Z",
+                        "closedAt": "2013-05-07T03:49:17Z"
+                    },
+                    {
+                        "title": "IllegalStateException when using JpaTransactionManager with spring-batch-admin [SPR-9178]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13816",
+                        "createdAt": "2012-02-28T07:08:53Z",
+                        "closedAt": "2012-02-29T04:47:36Z"
+                    },
+                    {
+                        "title": "MutablePropertySources#get throws when it should return null [SPR-9179]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13817",
+                        "createdAt": "2012-02-28T11:55:57Z",
+                        "closedAt": "2012-06-19T03:39:54Z"
+                    },
+                    {
+                        "title": "Provide boolean logic on bean profiles, i.e. NOT profile. [SPR-9180]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13818",
+                        "createdAt": "2012-02-28T12:14:00Z",
+                        "closedAt": "2012-02-29T06:08:47Z"
+                    },
+                    {
+                        "title": "@Inject Provider or @Autowired ObjectFactory issue with session scoped bean [SPR-9181]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13819",
+                        "createdAt": "2012-02-28T14:37:34Z",
+                        "closedAt": "2012-10-31T11:33:58Z"
+                    },
+                    {
+                        "title": "Caching mode=aspectj doesn't work [SPR-9182]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13820",
+                        "createdAt": "2012-02-29T00:00:19Z",
+                        "closedAt": "2014-05-19T05:24:20Z"
+                    },
+                    {
+                        "title": "Autowired field/setter dependency is not set after another bean of the same class had this property set through xml configuration [SPR-9183]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/13821",
+                        "createdAt": "2012-02-29T01:12:20Z",
+                        "closedAt": "2012-03-08T04:28:02Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7rLNA==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

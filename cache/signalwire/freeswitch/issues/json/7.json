@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 950,
+                "nodes": [
+                    {
+                        "title": "SIP session timeout will not work for inbound WebRTC calls with DTLS",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1196",
+                        "createdAt": "2021-05-14T13:49:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "record a call as OGG format",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1197",
+                        "createdAt": "2021-05-15T14:52:11Z",
+                        "closedAt": "2021-05-15T15:45:27Z"
+                    },
+                    {
+                        "title": "FS does not compile with GCC 11.1.x",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1198",
+                        "createdAt": "2021-05-16T21:46:45Z",
+                        "closedAt": "2021-05-17T13:54:32Z"
+                    },
+                    {
+                        "title": "Contact (contact name) required for Bandwidth.com DLR / E911",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1200",
+                        "createdAt": "2021-05-17T19:58:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "freeswitch doesn't run in realtime on Centos 7 without some tweaks",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1201",
+                        "createdAt": "2021-05-18T12:20:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "vid-mute-img  display blue stripes",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1202",
+                        "createdAt": "2021-05-19T08:32:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "CentOS 7 / RHEL 7 Yum repository (https://files.freeswitch.org) serving expired TLS certificate",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1203",
+                        "createdAt": "2021-05-19T10:10:37Z",
+                        "closedAt": "2021-05-19T11:49:07Z"
+                    },
+                    {
+                        "title": "freeswitch v1.10.6 debian build fail",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1205",
+                        "createdAt": "2021-05-20T08:47:05Z",
+                        "closedAt": "2021-05-20T13:37:58Z"
+                    },
+                    {
+                        "title": "[http] Conference play mp3 file from http resource causes crash",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1206",
+                        "createdAt": "2021-05-20T09:02:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeSWITCH sends blank video packets to conference members when no real video is sent into the conference",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1209",
+                        "createdAt": "2021-05-25T21:50:48Z",
+                        "closedAt": "2021-05-25T21:59:14Z"
+                    },
+                    {
+                        "title": "Calling apiExecute('system', ‘echo hello’) while being in an conference makes audio clip",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1210",
+                        "createdAt": "2021-05-26T07:34:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Insecure / Unsigned Repository",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1212",
+                        "createdAt": "2021-05-27T02:17:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_sofia: using To-header in From-header in ping-OPTIONS can lead to DOS for certain gateways",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1214",
+                        "createdAt": "2021-06-01T10:15:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_callcenter: If the last agent in \"top-down\" is unavailable, distribution will stop and not restart from the top",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1216",
+                        "createdAt": "2021-06-04T15:15:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "The reload message of distributor should be same as others",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1217",
+                        "createdAt": "2021-06-05T04:12:01Z",
+                        "closedAt": "2021-12-01T17:48:49Z"
+                    },
+                    {
+                        "title": "bridge_early_media=true cause something error after uuid_transfer",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1229",
+                        "createdAt": "2021-06-13T05:28:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_say_ru incorrect pronunciation of the clock",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1230",
+                        "createdAt": "2021-06-14T13:28:47Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_sofia: Segmentation fault when reloading module",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1231",
+                        "createdAt": "2021-06-14T13:30:15Z",
+                        "closedAt": "2021-06-17T16:24:52Z"
+                    },
+                    {
+                        "title": "Segmentation fault when creating a new mod_conference thread",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1232",
+                        "createdAt": "2021-06-16T13:38:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "switch_core_sqldb.c:2987 Invalid cdr data, call not recovered",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1235",
+                        "createdAt": "2021-06-17T01:16:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch 1.10.6 crashes randomly on CentOS 7.6 with kernel 5.8.0",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1236",
+                        "createdAt": "2021-06-17T07:11:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Documentation for using STIR/SHAKEN features needed",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1237",
+                        "createdAt": "2021-06-17T17:43:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeSWITCH segfaults on Debian 10.9",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1238",
+                        "createdAt": "2021-06-18T14:28:53Z",
+                        "closedAt": "2021-06-28T13:52:49Z"
+                    },
+                    {
+                        "title": "FS crashes occasionally on recording",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1240",
+                        "createdAt": "2021-06-22T07:05:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Dynamic PT switches on call legs",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1242",
+                        "createdAt": "2021-06-23T11:52:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeSWITCH not working in/outbound with GV",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1244",
+                        "createdAt": "2021-06-26T06:54:08Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Usage-of-uninitialized value ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1245",
+                        "createdAt": "2021-06-29T23:15:58Z",
+                        "closedAt": "2021-07-24T19:39:17Z"
+                    },
+                    {
+                        "title": "how to get RTCP voice quality？",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1247",
+                        "createdAt": "2021-06-30T06:02:56Z",
+                        "closedAt": "2021-07-01T03:27:45Z"
+                    },
+                    {
+                        "title": "Ringing Timeout",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1248",
+                        "createdAt": "2021-06-30T12:04:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "switch_rtp.c:3277 audio Handshake failure 1.",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1249",
+                        "createdAt": "2021-06-30T18:43:26Z",
+                        "closedAt": "2021-07-06T07:55:28Z"
+                    },
+                    {
+                        "title": "Freeswitch master on Debian 10.10 segfaults on libcrypto",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1250",
+                        "createdAt": "2021-07-01T10:21:23Z",
+                        "closedAt": "2021-08-13T11:03:06Z"
+                    },
+                    {
+                        "title": "crypto suites AES_CM_256_HMAC_SHA1_80 & AEAD_AES_256_GCM_8 is not being processed correctly ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1251",
+                        "createdAt": "2021-07-05T11:15:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Libvpx not generating sse modules for macOS upgrades due to missing checks ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1252",
+                        "createdAt": "2021-07-05T21:59:47Z",
+                        "closedAt": "2021-07-24T17:54:55Z"
+                    },
+                    {
+                        "title": "Full support OsRTP (rfc8643)",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1254",
+                        "createdAt": "2021-07-06T22:19:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Lost packets/jitter when using multiple play_and_get_digits",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1255",
+                        "createdAt": "2021-07-07T13:26:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch ignore sip_unhold_nosdp due to it not RFC 6337 compatible",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1257",
+                        "createdAt": "2021-07-09T16:47:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How to handle the Closed Outbound event socket?",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1258",
+                        "createdAt": "2021-07-09T17:34:17Z",
+                        "closedAt": "2021-07-31T05:06:55Z"
+                    },
+                    {
+                        "title": "Who is your CS programming teacher?",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1264",
+                        "createdAt": "2021-07-13T11:28:38Z",
+                        "closedAt": "2021-07-13T11:31:54Z"
+                    },
+                    {
+                        "title": "FreeSWITCH not creating schemas if auto-clear-sql param is false",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1265",
+                        "createdAt": "2021-07-13T12:10:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Compile ESL sample code \"clang: error: linker command failed with exit code 1\"",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1266",
+                        "createdAt": "2021-07-13T14:49:51Z",
+                        "closedAt": "2021-07-14T02:23:16Z"
+                    },
+                    {
+                        "title": "mod_sofia is processing the SIP BYE with delay of 5 seconds for a bridge call scenario",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1268",
+                        "createdAt": "2021-07-15T17:11:31Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeSWITCH unable to work with 127.0.0.0/8 (local loopback)",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1269",
+                        "createdAt": "2021-07-18T03:51:16Z",
+                        "closedAt": "2021-07-30T18:10:57Z"
+                    },
+                    {
+                        "title": "Make fails: test_mod_commands.so can't link with bundle (MH_BUNDLE) only dylibs (MH_DYLIB) file for architecture x86_64",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1271",
+                        "createdAt": "2021-07-18T17:36:00Z",
+                        "closedAt": "2021-07-19T15:57:37Z"
+                    },
+                    {
+                        "title": "Sofia not evaluating variables on profile?",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1273",
+                        "createdAt": "2021-07-20T00:23:09Z",
+                        "closedAt": "2021-07-20T06:04:25Z"
+                    },
+                    {
+                        "title": "mod_http_cache not including query string for HTTP PUT requests to s3",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1280",
+                        "createdAt": "2021-07-22T13:48:23Z",
+                        "closedAt": "2021-07-23T21:05:20Z"
+                    },
+                    {
+                        "title": "Freeswitch Version 1.10.1 Crashes with Segfault errors, running on CentOS 7",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1281",
+                        "createdAt": "2021-07-23T07:03:49Z",
+                        "closedAt": "2021-07-23T07:05:36Z"
+                    },
+                    {
+                        "title": "Erroneous libvpx make warnings starting with macOS 11.5.1",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1286",
+                        "createdAt": "2021-08-01T19:24:27Z",
+                        "closedAt": "2021-12-28T20:02:15Z"
+                    },
+                    {
+                        "title": "[BUG] The dial string without IP will cause FreeSWITCH to fall into an endless loop",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1291",
+                        "createdAt": "2021-08-03T07:27:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "\"Timer\" for recurring scheduled events ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1292",
+                        "createdAt": "2021-08-05T07:29:32Z",
+                        "closedAt": "2021-08-05T13:17:36Z"
+                    },
+                    {
+                        "title": "A leg not being closed down when B ends call",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1293",
+                        "createdAt": "2021-08-05T07:40:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch V1.10.1 and v1.10.7  Crashes with Segfault and out of memory errors.",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1295",
+                        "createdAt": "2021-08-05T10:26:21Z",
+                        "closedAt": "2021-08-18T16:31:13Z"
+                    },
+                    {
+                        "title": "Debian installation instructions need updating to reflect Debian best-practice",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1296",
+                        "createdAt": "2021-08-05T11:56:35Z",
+                        "closedAt": "2021-10-24T18:44:37Z"
+                    },
+                    {
+                        "title": "SIP INVITE with FAX Payload SDP",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1297",
+                        "createdAt": "2021-08-06T07:20:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Barge weird low and high frequency audio ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1301",
+                        "createdAt": "2021-08-10T18:15:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "configure fails using when mod_v8 on ubuntu 20.04 focal",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1302",
+                        "createdAt": "2021-08-11T11:38:48Z",
+                        "closedAt": "2021-08-11T15:26:40Z"
+                    },
+                    {
+                        "title": "FreeSWITCH is sending extra INVITE after Hold in cases of uuid_media_3p off",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1303",
+                        "createdAt": "2021-08-11T13:59:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Crash caused by lua",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1304",
+                        "createdAt": "2021-08-14T01:43:46Z",
+                        "closedAt": "2022-02-17T06:41:18Z"
+                    },
+                    {
+                        "title": "Cannot record early media when 183sdp is received",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1306",
+                        "createdAt": "2021-08-18T10:06:14Z",
+                        "closedAt": "2021-08-21T03:19:31Z"
+                    },
+                    {
+                        "title": "Seems freeswitch is sending \"RTP/SAVPF\" in DTLS calls instead of \"UDP/TLS/RTP/SAVP\"",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1310",
+                        "createdAt": "2021-08-19T07:52:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Memory Leak in 1.10.6 and master",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1311",
+                        "createdAt": "2021-08-19T12:33:30Z",
+                        "closedAt": "2022-08-05T06:13:17Z"
+                    },
+                    {
+                        "title": "Data retrieved by curl_xml is not merged and processed",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1313",
+                        "createdAt": "2021-08-20T17:13:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Cannot compile",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1314",
+                        "createdAt": "2021-08-21T01:23:40Z",
+                        "closedAt": "2021-08-23T11:14:26Z"
+                    },
+                    {
+                        "title": "mod_sofia: gateway wont register using register-proxy with ip address if the realm does not have a valid dns entry. ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1315",
+                        "createdAt": "2021-08-24T15:44:47Z",
+                        "closedAt": "2021-09-14T13:30:14Z"
+                    },
+                    {
+                        "title": "Get current playback position (without stopping playback)",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1316",
+                        "createdAt": "2021-08-25T10:15:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Debian 11 (bullseye) release",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1318",
+                        "createdAt": "2021-08-25T16:37:08Z",
+                        "closedAt": "2021-09-16T16:11:29Z"
+                    },
+                    {
+                        "title": "mod_verto not records audio when blind transfer",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1319",
+                        "createdAt": "2021-08-25T23:17:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_vosk ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1320",
+                        "createdAt": "2021-08-26T08:07:34Z",
+                        "closedAt": "2021-08-26T08:16:00Z"
+                    },
+                    {
+                        "title": "detect_speech",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1322",
+                        "createdAt": "2021-08-26T15:15:15Z",
+                        "closedAt": "2021-08-26T15:16:30Z"
+                    },
+                    {
+                        "title": "switch_ivr_play_file 放音的时候播放不完整",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1323",
+                        "createdAt": "2021-08-27T09:13:35Z",
+                        "closedAt": "2021-08-27T09:14:48Z"
+                    },
+                    {
+                        "title": "use switch_ivr_play_file,Incomplete playback of voice file",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1324",
+                        "createdAt": "2021-08-27T09:24:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_amqp command len limited to 1024 Bytes. Must be longer for originate",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1325",
+                        "createdAt": "2021-08-27T14:59:40Z",
+                        "closedAt": "2021-08-27T15:48:32Z"
+                    },
+                    {
+                        "title": "suspect source code issue in sofia.c",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1327",
+                        "createdAt": "2021-08-28T01:52:57Z",
+                        "closedAt": "2021-08-28T02:36:12Z"
+                    },
+                    {
+                        "title": "Config Fails - FS Sofia-Sip updated to 1.13.5 but Homebrew still has 1.13.4",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1329",
+                        "createdAt": "2021-08-28T22:29:18Z",
+                        "closedAt": "2021-08-30T16:46:17Z"
+                    },
+                    {
+                        "title": "Typo while reading the parameters for vad_test",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1332",
+                        "createdAt": "2021-08-31T14:17:06Z",
+                        "closedAt": "2021-09-01T14:48:59Z"
+                    },
+                    {
+                        "title": "FreeSWITCH destroys channel and posts CHANNEL_DESTROY event before 200 OK is received from far end",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1334",
+                        "createdAt": "2021-09-01T15:38:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make fails in SRTP - implicit declaration of function 'asm' is invalid in C99 [-Werror,-Wimplicit-function-declaration]",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1335",
+                        "createdAt": "2021-09-04T15:47:03Z",
+                        "closedAt": "2021-09-30T14:47:36Z"
+                    },
+                    {
+                        "title": "install fs error:  [Makefile:3567: install-fontsDATA] Error 1",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1336",
+                        "createdAt": "2021-09-07T11:31:27Z",
+                        "closedAt": "2021-09-07T12:29:16Z"
+                    },
+                    {
+                        "title": "Incoming calls are not transferred ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1337",
+                        "createdAt": "2021-09-08T11:09:45Z",
+                        "closedAt": "2021-09-16T16:10:52Z"
+                    },
+                    {
+                        "title": "[mod_kazoo] Incompatibility issue with Erlang/OTP-24 ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1339",
+                        "createdAt": "2021-09-10T14:12:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Late negotiation doesn't work when calls are bridged to a different profile",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1340",
+                        "createdAt": "2021-09-13T09:05:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_sofia does not respond to SIP OPTIONS after a couple of days or weeks",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1344",
+                        "createdAt": "2021-09-15T03:23:01Z",
+                        "closedAt": "2021-09-15T03:30:07Z"
+                    },
+                    {
+                        "title": "mod_sofia does not respond to SIP OPTIONS after a couple of days or weeks",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1345",
+                        "createdAt": "2021-09-15T03:24:31Z",
+                        "closedAt": "2021-09-15T03:25:35Z"
+                    },
+                    {
+                        "title": "uuid_broadcast  cannot play mp4 file",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1346",
+                        "createdAt": "2021-09-15T09:36:55Z",
+                        "closedAt": "2021-09-28T05:54:29Z"
+                    },
+                    {
+                        "title": "mod ssml doesn't support non-ascii characters",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1348",
+                        "createdAt": "2021-09-16T09:08:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "in_group returns false",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1349",
+                        "createdAt": "2021-09-16T10:04:07Z",
+                        "closedAt": "2021-09-17T01:00:09Z"
+                    },
+                    {
+                        "title": "arm64 support",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1351",
+                        "createdAt": "2021-09-21T12:58:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Audio played using Sched_Broadcast is not being recorded",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1352",
+                        "createdAt": "2021-09-23T11:16:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeSWITCH Segfault in 1.6 and 1.8",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1353",
+                        "createdAt": "2021-09-23T20:20:20Z",
+                        "closedAt": "2021-09-25T15:17:37Z"
+                    },
+                    {
+                        "title": "Quirk behaviour of mod_xml_curl",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1356",
+                        "createdAt": "2021-09-25T14:21:22Z",
+                        "closedAt": "2021-10-08T20:13:47Z"
+                    },
+                    {
+                        "title": "how to add header in the ”ACK“",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1357",
+                        "createdAt": "2021-09-27T03:10:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ext-sip-ip : stun.freeswitch.org , port of binding udp is wrong , the port is NAT port not 5080!!!",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1358",
+                        "createdAt": "2021-09-28T12:33:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch crashes regularly",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1359",
+                        "createdAt": "2021-09-30T06:24:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch Dockerfile broken by SKS keyserver shutdown since June of 2021",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1362",
+                        "createdAt": "2021-09-30T16:37:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Freeswitch unstable Dockerfile cannot build as based on Debian Jessie",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1364",
+                        "createdAt": "2021-09-30T17:06:54Z",
+                        "closedAt": "2022-03-20T21:35:19Z"
+                    },
+                    {
+                        "title": "Setting SHELL on Dockerfiles breaks any dockerfiles that source it",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1366",
+                        "createdAt": "2021-09-30T17:25:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make fails switch_core_cert.c:284:2: error: implicit declaration of function 'CRYPTO_mem_ctrl' is invalid with OpenSSL 3.0",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1367",
+                        "createdAt": "2021-09-30T17:34:26Z",
+                        "closedAt": "2021-12-28T18:46:48Z"
+                    },
+                    {
+                        "title": "Problem with mod_perl in master where crashes after any dialplan call (At least on Ubuntu)",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1369",
+                        "createdAt": "2021-09-30T18:41:10Z",
+                        "closedAt": "2022-03-17T10:04:10Z"
+                    },
+                    {
+                        "title": "Compilation failed with postgresql 14.0",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1371",
+                        "createdAt": "2021-10-04T13:59:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "mod_sofia: invalid dns result result when register gateway, fail with 503 dns error",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1374",
+                        "createdAt": "2021-10-05T14:57:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Using Authorization header with mod_curl ",
+                        "url": "https://github.com/signalwire/freeswitch/issues/1377",
+                        "createdAt": "2021-10-06T12:42:20Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOPLExXA==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

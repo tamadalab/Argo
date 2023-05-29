@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"INT-4299: Add AbstractMailReceiver.autoCloseFolder","2019-4/8","2019-4/8","2019-4/8",True,"2019-4/8",2,179,43
+"Fix race condition around `sharedJschSession`","2019-4/8","2019-4/8","2019-4/8",True,"2019-4/8",2,6,3
+"GH-2803: Deprecate legacy metrics","2019-4/8","2019-4/8","2019-4/8",True,"2019-4/8",2,660,279
+"GH-2890: Avoid unnecessary bridge [PoC Only]","2019-4/9","2019-4/9","2019-4/9",False,"null",2,70,0
+"Resolve new tangles","2019-4/10","2019-4/10","2019-4/10",True,"2019-4/10",2,146,71
+"GH-2792: HEnrichSpec: Add hooks for common headers","2019-4/11","2019-4/11","2019-4/11",True,"2019-4/11",2,443,2
+"Optimize DefaultSftpSessionFactory","2019-4/15","2019-4/15","2019-4/15",True,"2019-4/15",2,57,65
+"Add support for Kotlin JSR223 scripts","2019-4/18","2019-4/18","2019-4/18",True,"2019-4/18",2,272,135
+"Support non-Object types for WebFlux requests","2019-4/19","2019-4/19","2019-4/19",False,"null",2,279,89
+"Add caught exception as suppressed in SftpSession","2019-4/24","2019-4/24","2019-4/24",False,"null",2,6,2
+"Add initial support for RSockets","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,846,12
+"GH-2901: Add missed delegates into JmsInGateway","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,49,1
+"Add missed options into WebFluxMessageHandlerSpec","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,55,0
+"Fix Sonar complexity issues","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,108,170
+"Fix Sonar complexity issues","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,69,141
+"Convert Lambdas to Method References","2019-4/25","2019-4/25","2019-4/25",True,"2019-4/25",2,18,18
+"make sure the attribute  is taken into account in @Header annotation","2019-4/29","2019-4/29","2019-4/29",True,"2019-4/29",2,28,4
+"Sonar complexity issues","2019-4/29","2019-4/29","2019-4/29",True,"2019-4/29",2,371,255
+"Sonar fixes","2019-4/29","2019-4/29","2019-4/29",True,"2019-4/29",2,134,114
+"Make `RSocketOutboundGateway` for server side ","2019-4/30","2019-4/30","2019-4/30",False,"null",2,470,108
+"Sonar fixes","2019-4/30","2019-4/30","2019-4/30",True,"2019-4/30",2,269,224
+"Use MergedAnnotations in MethodAnnPublisher","2019-4/30","2019-5/30","2019-4/30",True,"2019-5/30",2,91,206
+"Synchronize RemoteFileUtils.makeDirectories()","2019-4/30","2019-4/30","2019-4/30",True,"2019-4/30",2,5,3
+"Sonar fixes","2019-4/30","2019-4/30","2019-4/30",True,"2019-4/30",2,98,87
+"Sonar fixes","2019-5/1","2019-5/1","2019-5/1",True,"2019-5/1",2,128,102
+"Sonar - protected fields","2019-5/1","2019-5/1","2019-5/1",True,"2019-5/1",2,254,237
+"Sonar: repeated literals","2019-5/1","2019-5/1","2019-5/1",True,"2019-5/1",2,382,281
+"Get an OS-assigned port in RmiOutboundGatewayTests","2019-5/1","2019-5/1","2019-5/1",True,"2019-5/1",2,59,71
+"Move SF dependencies to the latest BUILD-SNAPSHOT","2019-5/2","2019-5/2","2019-5/2",True,"2019-5/2",2,62,80
+"Sonar issues - complexity","2019-5/3","2019-5/3","2019-5/3",True,"2019-5/3",2,999,806
+"Add `RSocketInboundGateway`; refactoring","2019-5/8","2019-5/8","2019-5/8",True,"2019-5/8",2,1364,39
+"Add `AnnotationMetadataAdapter`","2019-5/8","2019-5/8","2019-5/8",True,"2019-5/8",2,121,24
+"Fix MessagingGatewaySupport implementors","2019-5/8","2019-5/8","2019-5/8",True,"2019-5/8",2,17,12
+"SFTP: Add channelConnectTimeout","2019-5/9","2019-5/9","2019-5/9",True,"2019-5/9",2,41,6
+"Fix package tangle in CacheRequestHandlerAdvice","2019-5/10","2019-5/10","2019-5/10",True,"2019-5/10",2,25,7
+"Polishing for RSocket channel adapter","2019-5/10","2019-5/10","2019-5/10",True,"2019-5/10",2,95,24
+"Encoding in AbstractHttpRequestExecutingMessageHandler.java is now done when flag is set","2019-5/14","2019-5/14","2019-5/14",True,"2019-5/14",3,51,1
+"GH-2931: AMQP De-Batching as List<?> Payload","2019-5/14","2019-5/14","2019-5/14",True,"2019-5/14",2,202,3
+"RSocket XML Config support","2019-5/16","2019-5/16","2019-5/16",True,"2019-5/16",2,537,12
+"fixed misaligned source code snippet in JMS documentation","2019-5/24","2019-5/24","2019-5/24",True,"2019-5/24",2,13,12
+"Fix TcpNioConnection timedOut set when close.","2019-5/25","2019-5/25","2019-5/25",True,"2019-5/25",3,1,1
+"Test for GH-2938","2019-5/28","2019-5/28","2019-5/28",True,"2019-5/28",2,4,0
+"GH-2880: Handle `Pausable` in Control Bus","2019-5/28","2019-5/28","2019-5/28",True,"2019-5/28",2,54,28
+"Fix Sonar vulnerabilities for varargs","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",2,186,166
+"Add Multi-Page HTML Reference","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",2,1112,1022
+"Enable nohttp Gradle plugin","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",2,73,58
+"GH-2936: Add custom converters for MongoDbMS","2019-5/29","2019-5/29","2019-5/29",True,"2019-5/29",2,104,17
+"Build: check external asciidoc links","2019-5/30","2019-5/30","2019-5/30",True,"2019-5/30",2,40,3
+"Make spring-ws-core optional for SI-xml","2019-5/30","2019-5/30","2019-5/30",True,"2019-5/30",2,26,7
+"Build: asciidoc link check improvement","2019-5/30","2019-5/30","2019-5/30",True,"2019-5/30",2,9,4
+"Fix Sonar smells for XML module","2019-5/31","2019-5/31","2019-5/31",True,"2019-5/31",2,13,17
+"Add RSocket Java DSL","2019-6/4","2019-6/4","2019-6/4",True,"2019-6/4",2,527,15
+"Reinstate DSL File Transformer Factory","2019-6/4","2019-6/4","2019-6/4",False,"null",2,47,2
+"TCP: Connect Timeout; Close Stream","2019-6/5","2019-6/5","2019-6/5",True,"2019-6/5",2,417,51
+"Reverse check/checkAsciidocLinks order","2019-6/5","2019-6/5","2019-6/5",True,"2019-6/5",2,2,2
+"INT-3073: Add FluxAggregatorMessageHandler","2019-6/6","2019-6/6","2019-6/6",False,"null",2,603,1
+"Polishing for nohttp plugin","2019-6/10","2019-6/10","2019-6/10",True,"2019-6/10",2,19,21
+"AMQP: Add bindSourceMessage property (inbound)","2019-6/10","2019-6/10","2019-6/10",True,"2019-6/10",2,73,7
+"Added getMetricsCaptor method to AbstractMessageHandler","2019-6/11","2019-6/11","2019-6/11",True,"2019-6/11",2,7,0
+"GH-2958: Also Add to Common Header in AMHEMS","2019-6/11","2019-6/11","2019-6/11",True,"2019-6/11",2,6,3
+"[2962] Mismatch between mechanism to check if nullChannel bean exists and mechanism to fetch that bean","2019-6/11","2019-6/11","2019-6/11",True,"2019-6/11",3,47,10
+"Fix SplitterMH for primitive arrays cast","2019-6/12","2019-6/12","2019-6/12",True,"2019-6/12",2,9,8
+"Fix new tangle introduced by Control Bus changes","2019-6/14","2019-6/14","2019-6/14",True,"2019-6/14",2,8,3
+"Add Docs for Flux Aggregator","2019-6/14","2019-6/14","2019-6/14",False,"null",2,77,6
+"GH-2967: Fix ScatterGatherH for headers copy","2019-6/19","2019-6/19","2019-6/19",True,"2019-6/19",2,79,56
+"[WIP] JmsMessageDrivenChannelAdapterDefaultListenerContainerSpec","2019-6/19","2019-6/19","2019-6/19",False,"null",2,21,2
+"Fix HttpHeaderMapper to support MimeType","2019-6/21","2019-6/21","2019-6/21",True,"2019-6/21",2,22,6
+"Fix `SmartLifecycle.stop(Runnable)` usage","2019-6/21","2019-6/21","2019-6/21",True,"2019-6/21",2,78,151
+"GH-2974: Fix race in TcpNetConnection.getPayload()","2019-6/25","2019-6/25","2019-6/25",True,"2019-6/25",2,69,7
+"GH-2974: Fix race in TcpNetConnection.getPayload() [51x]","2019-6/25","2019-6/25","2019-6/25",True,"2019-6/25",2,65,5
+"Add validation support into WebFlux Inbound","2019-6/26","2019-6/26","2019-6/26",True,"2019-6/26",2,231,46
+"Add Validation to HTTP Inbound","2019-6/26","2019-6/26","2019-6/26",True,"2019-6/26",2,293,130
+"Fix Redis components for JDK deserialization","2019-6/28","2019-6/28","2019-6/28",True,"2019-6/28",2,91,62
+"Fix race condition around Redis key","2019-7/1","2019-7/1","2019-7/1",True,"2019-7/1",2,46,27
+"INT-2480: Add aggregate headers strategy","2019-7/2","2019-7/2","2019-7/2",False,"null",2,535,219
+"Add simple Avro transformers","2019-7/8","2019-7/8","2019-7/8",True,"2019-7/8",2,1097,2
+"GH-2748: Add bean definition info into exceptions","2019-7/12","2019-7/12","2019-7/12",True,"2019-7/12",2,319,191
+"GH-2988: Use `@Config(proxyBeanMethods=false)`","2019-7/18","2019-7/18","2019-7/18",True,"2019-7/18",2,13,10
+"GH-2987: Add HTTPS entries into spring.schemas","2019-7/18","2019-7/18","2019-7/18",True,"2019-7/18",2,71,0
+"Add type mapping to SimpleToAvroTransformer","2019-7/18","2019-7/18","2019-7/18",True,"2019-7/18",2,167,18
+"GH-2993: Catch and log unsupported XML attributes","2019-7/19","2019-7/19","2019-7/19",True,"2019-7/19",2,101,5
+"Upgrade dependencies, including Gradle","2019-7/22","2019-7/22","2019-7/22",True,"2019-7/22",2,50,43
+"Clear lock cache in NioFileLocker","2019-7/22","2019-7/22","2019-7/22",True,"2019-7/22",2,15,6
+"Fix TimeoutCountSequenceSizeReleaseStrategy (#2999)","2019-7/23","2019-7/23","2019-7/23",True,"2019-7/23",3,17,3
+"GH-2748: More bean definitions into exceptions","2019-7/23","2019-7/23","2019-7/23",True,"2019-7/23",2,352,370
+"GH-3003: Fix pub/sub with dynamic DSL flows","2019-7/24","2019-7/24","2019-7/24",True,"2019-7/24",2,26,1
+"GH-3004: Fix MMIH argument resolution","2019-7/24","2019-7/24","2019-7/24",True,"2019-7/24",3,99,0
+"Add Apache MINA SftpEventListener","2019-7/26","2019-7/26","2019-7/26",True,"2019-7/26",2,1481,19
+"INT-1926: Option to disallow arbitrary routing","2019-7/29","2019-7/29","2019-7/29",True,"2019-7/29",2,125,13
+"Fix nullability issue in queuechannel","2019-7/29","2019-7/29","2019-7/29",True,"2019-7/29",3,2,1
+"fix JavaDoc code snippet on `PayloadMatcher`","2019-7/30","2019-7/30","2019-7/30",True,"2019-7/30",2,3,2
+"Usage clarification of the group-timeout property.","2019-8/7","2019-8/7","2019-8/7",True,"2019-8/7",3,5,2
+"GH-3018: Fix Http NPE when no application context","2019-8/8","2019-8/8","2019-8/8",True,"2019-8/8",2,4,1
+"GH-3020: QueueChannel doc polishing","2019-8/8","2019-8/8","2019-8/8",True,"2019-8/8",2,5,5
+"AMQP OB Adapter - option to wait for confirms","2019-8/8","2019-8/8","2019-8/8",True,"2019-8/8",2,241,14
+"JUnit 5 Log Level Adjuster","2019-8/12","2019-8/12","2019-8/12",True,"2019-8/12",2,290,70
+"Implement RotatingServerAdvice enhancements","2019-8/13","2019-8/13","2019-8/13",False,"null",3,246,151
+"Implement enhancements to RotatingServerAdvice","2019-8/13","2019-8/13","2019-8/13",False,"null",2,246,151
+"GH-3026 Support chmod with FTP","2019-8/13","2019-8/13","2019-8/13",True,"2019-8/13",2,99,10
+"Upgrade Jackson version and use BOM for deps","2019-8/14","2019-8/14","2019-8/14",True,"2019-8/14",2,93,66

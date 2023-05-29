@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Reduce access on user in SimpleBrokerMessageHandler.handleMessageInternal","2017-12/5","2017-12/5","2017-12/5",True,"2017-12/5",2,2,1
+"Fixed exception message","2017-12/5","2017-12/5","2017-12/5",False,"null",3,1,1
+"SPR-16265  - Fix Stomp Broker Relay ignoring destination prefixes in some cases","2017-12/5","2017-12/5","2017-12/5",True,"2017-12/5",2,2,1
+"Merge pull request #1 from spring-projects/master","2017-12/7","2017-12/7","2017-12/7",False,"null",2,0,0
+"Let Netty Webclient optionally follow redirects.","2017-12/7","2018-3/7","2017-12/7",False,"null",3,26,5
+"Merge pull request #1 from spring-projects/master","2017-12/7","2017-12/7","2017-12/7",False,"null",2,0,0
+"SPR-16282 Deprecate classes removed in 5","2017-12/9","2017-12/9","2017-12/9",False,"null",2,22,0
+"SPR-16291 - Declarative null checks","2017-12/12","2017-12/12","2017-12/12",False,"null",2,10,4
+"Improve performance of some string operations","2017-12/12","2017-12/12","2017-12/12",True,"2017-12/12",2,16,17
+"Fixes SPR-16295 - Programmatic creation of caching proxies using Cach…","2017-12/12","2017-12/12","2017-12/12",False,"null",1,300,5
+"SPR-16295 - Programmatic creation of caching proxies using CacheProxy…","2017-12/12","2018-1/12","2017-12/12",False,"null",2,300,5
+"Merge pull request #1 from spring-projects/master","2017-12/18","2017-12/18","2017-12/18",False,"null",3,0,0
+"SPR-16319 - limit the scope of the synchronized block","2017-12/21","2018-1/21","2017-12/21",False,"null",4,2,6
+"Fix a  obvious typo in javadoc","2017-12/22","2017-12/22","2017-12/22",False,"null",3,1,1
+"Refactor getMethodIfAvailable to not cause NoSuchMethodExceptions","2017-12/22","2017-12/22","2017-12/22",False,"null",2,24,18
+"Refactor getMethodIfAvailable to not cause NoSuchMethodExceptions","2017-12/22","2017-12/22","2017-12/22",False,"null",1,23,18
+"Refactor AnnotatedElementUtils to not cause NoSuchMethodExceptions","2017-12/22","2017-12/22","2017-12/22",False,"null",2,181,117
+"SPR-16322 - Use BeanInfoFactory when introspecting interfaces","2017-12/22","2018-1/22","2017-12/22",False,"null",2,30,14
+"SPR-16288","2017-12/23","2018-1/23","2017-12/23",False,"null",2,6,2
+"SPR-16316 — fix support of transaction timeout value greater than Integer.MAX","2017-12/24","2018-1/24","2017-12/24",True,"2018-1/24",2,1,1
+"SPR-16324 - Added overloading methods to addPathPatterns and excludePathPatterns","2017-12/24","2018-1/24","2017-12/24",False,"null",4,16,0
+"SPR-16326 - Add bean details for ImplicitlyAppearedSingletonException","2017-12/26","2018-11/26","2017-12/26",False,"null",2,0,0
+"Fix an exception message in ScheduledAnnotationBeanPostProcessor","2017-12/26","2018-1/26","2017-12/26",False,"null",2,1,1
+"SPR-16340 - Added a new param separator for NamedParameterUtils","2018-1/2","2018-1/2","2018-1/2",False,"null",3,32,6
+"4.3.x","2018-1/5","2018-1/5","2018-1/5",False,"null",34,36591,23337
+"SPR-16354 - Improve callbacks creation in CglibAopProxy","2018-1/6","2021-4/6","2018-1/6",False,"null",4,13,8
+"Fix source code in doc","2018-1/9","2018-1/9","2018-1/9",False,"null",2,1,1
+"SPR-16368 - jdbcTemplate in JdbcDaoSupport should have non-null 'dataSource'","2018-1/12","2018-1/12","2018-1/12",False,"null",3,1,1
+"Specify AbstractWebSocketMessageBrokerConfigurer as depricated","2018-1/13","2018-1/13","2018-1/13",False,"null",3,20,8
+"Use ArrayList instead of LinkedList for known size","2018-1/14","2018-1/14","2018-1/14",True,"2018-1/14",2,7,3
+"SPR-16383 - Log SQL parameters in EclipseLink when using showSql","2018-1/16","2018-1/16","2018-1/16",True,"2018-1/16",2,1,0
+"docs: ""will overrides"" -> ""overrides""","2018-1/17","2018-1/17","2018-1/17",False,"null",3,2,2
+"docs: ""does not forcing"" -> ""does not force""","2018-1/17","2018-1/17","2018-1/17",False,"null",2,1,1
+"Polish InterceptorRegistration","2018-1/20","2018-1/20","2018-1/20",False,"null",2,2,4
+"SPR-16404 - Removed unnecessary cast to int","2018-1/20","2018-1/20","2018-1/20",True,"2018-1/20",4,1,1
+"Matcher for asserting that header does exists","2018-1/22","2018-1/22","2018-1/22",False,"null",3,19,0
+"Remove an unnecessary intermediate variable","2018-1/24","2018-1/24","2018-1/24",False,"null",2,3,4
+"SPR-16417 - Support varargs for expectations in MockMvc","2018-1/25","2018-7/25","2018-1/25",False,"null",4,32,0
+"Fix `DelegatingServletInputStream#available`","2018-1/25","2018-1/25","2018-1/25",True,"2018-1/25",3,5,0
+"SPR-14818: Added MissingHeaderException type","2018-1/26","2018-7/26","2018-1/26",False,"null",7,71,2
+"SPR-16372 The FieldError class does not provide access to the exception that triggered the binding error.","2018-1/26","2018-2/26","2018-1/26",False,"null",2,33,3
+"SPR-16425 - Remove square brackets around stringified collections","2018-1/27","2021-1/27","2018-1/27",False,"null",5,15,9
+"Fixes typos - Obvious Fix","2018-1/31","2018-2/31","2018-1/31",False,"null",3,5,5
+"Polish SqlParameter.sqlTypesToAnonymousParameterList()","2018-2/1","2018-2/1","2018-2/1",False,"null",2,5,8
+"lambda","2018-2/1","2018-3/1","2018-2/1",False,"null",2,11,12
+"MockHttpServletRequestBuilder decodes pathInfo","2018-2/1","2018-2/1","2018-2/1",False,"null",2,12,1
+"SPR-16468 - Default to MySQL55Dialect based on InnoDB","2018-2/1","2019-3/1","2018-2/1",False,"null",3,2,2
+"SPR-16460 - Add SAP HANA to common database platforms","2018-2/2","2018-5/2","2018-2/2",False,"null",2,83,5
+"SPR-15083: Improve WebFlux exception logging","2018-2/5","2018-2/5","2018-2/5",False,"null",2,21,6
+"4.3.x","2018-2/5","2018-2/5","2018-2/5",False,"null",29,38834,24222
+"Make use of Stream API in AnnotationBeanUtils","2018-2/5","2018-2/5","2018-2/5",False,"null",3,16,9
+"Polish","2018-2/7","2018-2/7","2018-2/7",True,"2018-2/7",2,6,6
+"Expose publicly ServerSentEvent constructor","2018-2/7","2018-2/7","2018-2/7",False,"null",2,1,1
+"Add support to set visibility via Jackson2ObjectMapperBuilder","2018-2/8","2018-5/8","2018-2/8",False,"null",3,49,0
+"Set thread interrupt flag on InterruptedException","2018-2/8","2018-2/8","2018-2/8",False,"null",2,6,0
+"Polish: the diamond operator (""<>"") should be used","2018-2/8","2018-2/8","2018-2/8",False,"null",2,7,7
+"Polish: Collection.isEmpty() should be used to test for emptiness","2018-2/8","2018-2/8","2018-2/8",False,"null",2,17,17
+"Polish: change this ""try"" to a try-with-resources.","2018-2/8","2018-2/8","2018-2/8",False,"null",2,15,37
+"Polish: follow name convention - make immutable fields final","2018-2/9","2018-2/9","2018-2/9",True,"2018-2/9",2,32,32
+"Polish: Maps with keys that are enum values should be replaced with EnumMap","2018-2/9","2018-2/9","2018-2/9",True,"2018-2/9",2,7,6
+"Polish: Lambdas should be replaced with method references","2018-2/9","2018-2/9","2018-2/9",True,"2018-2/9",2,15,14
+"Polish: assertion arguments should be passed in the correct order","2018-2/10","2018-2/10","2018-2/10",True,"2018-2/10",2,142,142
+"[docs] Fix indentation in '1.4.3. Handler Methods'","2018-2/11","2018-2/11","2018-2/11",False,"null",2,1,1
+"Polish: replace the synchronized class ""Stack"" by an unsynchronized one such as ""Deque"".","2018-2/11","2018-2/11","2018-2/11",True,"2018-2/11",2,47,39
+"Supports ConversionService on SingleColumnRowMapper","2018-2/11","2018-2/11","2018-2/11",True,"2018-2/11",2,141,2
+"Polish: unused method parameters should be removed.","2018-2/12","2018-2/12","2018-2/12",False,"null",3,19,21
+"Avoid creating message arguments to Assert.isABC calls","2018-2/13","2018-2/13","2018-2/13",True,"2018-2/13",3,10,9
+"Added explicit anchor to discussion about constructor VS. setter injection.","2018-2/13","2018-2/13","2018-2/13",False,"null",2,1,0
+"Polish: remove unused private fields, remove empty operator","2018-2/13","2018-2/13","2018-2/13",True,"2018-2/13",2,5,32
+"Polish: lamdbas containing only one statement should not nest this statement in a block","2018-2/13","2018-2/13","2018-2/13",True,"2018-2/13",2,8,22
+"SPR-16496 - Exception handler class lookup fix","2018-2/14","2018-2/14","2018-2/14",False,"null",2,1,1
+"Align spring-webflux's Webjars Locator dependency with spring-webmvc","2018-2/14","2018-2/14","2018-2/14",True,"2018-2/14",5,1,1
+"MockHttpServletRequest.getReader vs. getInputStream","2018-2/14","2018-2/14","2018-2/14",False,"null",2,57,0
+"SPR-16501: add caching support for cache2k","2018-2/15","2018-7/15","2018-2/15",False,"null",2,480,1
+"SPR-16499 - MockHttpServletRequest.getReader vs. getInputStream","2018-2/15","2018-6/15","2018-2/15",False,"null",3,57,0
+"SPR-16505 - getReader/getInputStream retaining previous result","2018-2/15","2018-6/15","2018-2/15",False,"null",2,38,4
+"Polish: anonymous inner classes containing only one method should become lambdas,","2018-2/16","2018-2/16","2018-2/16",True,"2018-2/16",3,65,135
+"Corrected Javadoc in WebSocketMessageBrokerStats","2018-2/17","2018-2/17","2018-2/17",False,"null",2,2,2
+"Merge pull request #1 from spring-projects/master","2018-2/18","2018-2/18","2018-2/18",False,"null",3,0,0
+"Fix typo","2018-2/19","2018-2/19","2018-2/19",True,"2018-2/19",3,1,1
+"Return correct return type for Kotlin suspending functions in MethodParameter.","2018-2/19","2019-3/19","2018-2/19",False,"null",4,184,7
+"Tokenizer - removing unnecessary boxing","2018-2/20","2018-7/20","2018-2/20",False,"null",5,1,1
+"Handle end of stream when reading the request body","2018-2/20","2018-2/20","2018-2/20",False,"null",2,14,4
+" Merge pull request","2018-2/22","2018-2/22","2018-2/22",False,"null",2,0,0
+"Polish: Replace this ""Map.get()"" and condition with a call to ""Map.computeIfAbsent()""","2018-2/23","2018-4/23","2018-2/23",False,"null",2,75,277
+"Take brotli encoding into account for caching","2018-2/23","2018-5/23","2018-2/23",False,"null",2,3,0
+"Polish: redundant pairs of parentheses should be removed","2018-2/24","2018-2/24","2018-2/24",True,"2018-2/24",2,5,5
+"Polish: Array designators ""[]"" should be on the type, not the variable","2018-2/25","2018-2/25","2018-2/25",True,"2018-2/25",2,23,23
+"Fix typos in webmvc documentation","2018-2/25","2018-2/25","2018-2/25",True,"2018-2/25",2,3,3
+"Polish: String function use should be optimized for single characters","2018-2/25","2018-2/25","2018-2/25",True,"2018-2/25",2,42,42
+"Polish: String.valueOf() should not be appended to a String","2018-2/25","2018-2/25","2018-2/25",True,"2018-2/25",2,3,3
+"Polish: combine catches block with same body","2018-2/27","2018-2/27","2018-2/27",True,"2018-2/27",2,11,52
+"SPR-16519 - Adding new acknowledge method version","2018-2/27","2018-2/27","2018-2/27",False,"null",3,22,2
+"Polish: to get rid unnecessary array creation","2018-2/27","2018-2/27","2018-2/27",True,"2018-2/27",2,4,4
+"Polish: extract nested ternary operation into an independent statement","2018-2/28","2018-2/28","2018-2/28",False,"null",2,42,26
+"Polish: ""@Override"" should be used on overriding and implementing methods","2018-2/28","2018-2/28","2018-2/28",True,"2018-2/28",2,48,2
+"Polish: follow naming convention","2018-2/28","2018-2/28","2018-2/28",True,"2018-2/28",2,5,5
+"SPR-12756: Local visibility for writes to caches with transactional decorators","2018-3/1","null","2018-3/1",False,"null",5,1194,44
+"Polish: deprecated elements should have both the annotation and the Javadoc tag","2018-3/1","2018-3/1","2018-3/1",False,"null",2,6,1
+"Polish: Overriding methods should do more than simply call the same method in the super class","2018-3/1","2018-3/1","2018-3/1",True,"2018-3/1",3,0,53

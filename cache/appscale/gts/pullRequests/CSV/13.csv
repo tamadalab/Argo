@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Forcing the setting up of app directory for the AppDashboard.","2016-6/29","2016-7/29","2016-6/29",True,"2016-7/29",2,1,0
+"Delete RabbitMQ/Celery state upon appscale clean.","2016-6/29","2016-6/29","2016-6/29",True,"2016-6/29",3,139,151
+"Specify json gem","2016-7/1","2016-7/1","2016-7/1",True,"2016-7/1",2,1,1
+"Log composite index deletion","2016-7/6","2016-7/6","2016-7/6",True,"2016-7/6",2,2,1
+"Cassandra 2.1.15","2016-7/7","2016-7/7","2016-7/7",True,"2016-7/7",2,296,148
+"Allow retries while connecting to Cassandra","2016-7/7","2016-7/7","2016-7/7",True,"2016-7/7",2,66,12
+"Discard row key information during get_table","2016-7/7","2016-7/7","2016-7/7",True,"2016-7/7",2,11,1
+"Upgrade script changes to sleep until ZooKeeper and enough Cassandra nodes are up","2016-7/8","2016-7/8","2016-7/8",True,"2016-7/8",3,58,17
+"Fix reference errors in upgrade script","2016-7/8","2016-7/8","2016-7/8",True,"2016-7/8",2,30,23
+"Don't require user input during ssh","2016-7/8","2016-7/8","2016-7/8",True,"2016-7/8",2,2,1
+"Roles","2016-7/8","2016-8/8","2016-7/8",True,"2016-8/8",4,413,502
+"Initialize Cassandra config before DB upgrade","2016-7/8","2016-7/8","2016-7/8",True,"2016-7/8",2,68,134
+"Add functions needed for datastore changes","2016-7/12","2016-7/12","2016-7/12",True,"2016-7/12",2,650,173
+"Workaround for unsupported task URL hook prefix.","2016-7/14","2016-7/14","2016-7/14",True,"2016-7/14",2,132,143
+"Log monit service error","2016-7/19","2016-7/19","2016-7/19",True,"2016-7/19",2,1,1
+"Log the progress of the upgrade script","2016-7/20","2016-7/20","2016-7/20",True,"2016-7/20",2,133,247
+"Remove app archive when undeploying","2016-7/20","2016-7/20","2016-7/20",True,"2016-7/20",2,3,1
+"AppTaskQueue cleanup","2016-7/21","2016-7/21","2016-7/21",True,"2016-7/21",2,99,122
+"Fix exception name typo.","2016-7/21","2016-7/21","2016-7/21",True,"2016-7/21",2,1,1
+"Deleting a push task after completion/expiration/permanent failure.","2016-7/22","2016-7/22","2016-7/22",True,"2016-7/22",2,9,16
+"Check if state is for this deployment.","2016-7/22","2016-8/22","2016-7/22",False,"null",3,13,9
+"Update cron job on redeploy of applications","2016-7/22","2016-7/22","2016-7/22",True,"2016-7/22",2,1,1
+"Add datastore debug logging for results of operations","2016-7/22","2016-7/22","2016-7/22",True,"2016-7/22",2,18,146
+"Don't perform unsafe removal operations","2016-7/23","2016-7/23","2016-7/23",True,"2016-7/23",2,2,3
+"Wait until a quorum can be achieved for every token","2016-7/23","2016-7/23","2016-7/23",True,"2016-7/23",2,57,29
+"Wait for at most 30 seconds for monit.","2016-7/25","2016-7/25","2016-7/25",True,"2016-7/25",2,3,3
+"Removing bootstrap log redirect to non-existing dir.","2016-7/25","2016-7/25","2016-7/25",True,"2016-7/25",2,0,2
+"Use older version of httparty","2016-7/25","2016-7/25","2016-7/25",True,"2016-7/25",2,1,1
+"Bumping AppScale version to 3.0.0","2016-7/26","2016-7/26","2016-7/26",True,"2016-7/26",3,33,2
+"Continue upgrade if git is detached from HEAD","2016-7/27","2016-7/27","2016-7/27",True,"2016-7/27",3,3,2
+"Set num_tokens to 1","2016-7/28","2016-7/28","2016-7/28",True,"2016-7/28",2,34,18
+"Adding Datastore metadata table in view_all_records.","2016-7/28","2016-7/28","2016-7/28",True,"2016-7/28",2,5,0
+"Ensure monit is running during an upgrade","2016-7/29","2016-7/29","2016-7/29",True,"2016-7/29",2,43,18
+"Fix some minor warnings from LGTM","2016-7/29","2016-7/29","2016-7/29",True,"2016-7/29",2,92,269
+"Don't define initial token","2016-7/29","2016-7/29","2016-7/29",True,"2016-7/29",2,6,48
+"Version bump to 3.0.1","2016-7/29","2016-7/29","2016-7/29",True,"2016-7/29",2,7,1
+"Create Python package for AppTaskQueue","2016-7/31","2016-8/31","2016-7/31",True,"2016-8/31",3,130,165
+"Catch Queue name exception","2016-8/3","2016-8/3","2016-8/3",True,"2016-8/3",2,26,5
+"Restart workers for queues that change","2016-8/4","2016-8/4","2016-8/4",True,"2016-8/4",2,391,539
+"Returning error for pull task enqueuing in Java.","2016-8/5","2016-8/5","2016-8/5",False,"null",1,4,1
+"Handle cases when cache isn't initialized on reload","2016-8/5","2016-8/5","2016-8/5",True,"2016-8/5",2,58,19
+"Add DevPullQueue to send TaskQueue requests to AppTaskQueue","2016-8/9","2016-8/9","2016-8/9",True,"2016-8/9",3,571,961
+"Add preliminary support for pull queues REST API","2016-8/9","2016-8/9","2016-8/9",True,"2016-8/9",2,847,10
+"Use unless instead of if !","2016-8/9","2016-8/9","2016-8/9",True,"2016-8/9",2,91,119
+"Fixed some code analyzer warnings.","2016-8/10","2016-8/10","2016-8/10",True,"2016-8/10",2,48,70
+"Prevent tasks with existing IDs from being added","2016-8/10","2016-8/10","2016-8/10",True,"2016-8/10",2,15,2
+"Don't wait to detect a missing appserver.","2016-8/10","2016-8/10","2016-8/10",True,"2016-8/10",2,7,9
+"Add additional index to filter on tag existence","2016-8/11","2016-8/11","2016-8/11",True,"2016-8/11",2,20,6
+"Implement task list method","2016-8/11","2016-8/11","2016-8/11",True,"2016-8/11",2,259,85
+"Check if @@zk has been initialized.","2016-8/11","2016-8/11","2016-8/11",True,"2016-8/11",2,27,6
+"Remove routing if no appserver is running","2016-8/11","2016-8/11","2016-8/11",True,"2016-8/11",3,35,35
+"Implement method for updating task lease duration","2016-8/12","2016-8/12","2016-8/12",True,"2016-8/12",2,439,77
+"Removed unused variables.","2016-8/15","2016-8/15","2016-8/15",True,"2016-8/15",3,15,20
+"Repair Cassandra if prime fails too many times","2016-8/16","2016-8/16","2016-8/16",True,"2016-8/16",2,12,2
+"Create PushQueue and PullQueue classes","2016-8/16","2016-8/16","2016-8/16",True,"2016-8/16",2,394,378
+"Fix sensor unit tests","2016-8/16","2016-8/16","2016-8/16",True,"2016-8/16",2,1,1
+"Implement basic support for pull queue protocol buffer requests","2016-8/17","2016-8/17","2016-8/17",True,"2016-8/17",2,76,13
+"Don't start the dashbaord in a thread","2016-8/17","2016-8/17","2016-8/17",True,"2016-8/17",2,13,15
+"Check min max","2016-8/17","2016-8/17","2016-8/17",True,"2016-8/17",2,23,8
+"Avoid excessively large Cassandra batch statements","2016-8/18","2016-8/18","2016-8/18",True,"2016-8/18",2,898,1094
+"Fix upload_app client parameters","2016-8/18","2016-8/18","2016-8/18",True,"2016-8/18",2,4,2
+"Limit stats results to the appropriate queue","2016-8/19","2016-8/19","2016-8/19",True,"2016-8/19",2,12,2
+"Thread safe app info map","2016-8/19","2016-8/19","2016-8/19",True,"2016-8/19",2,383,374
+"Ensure we have string on variable we send via SOAP","2016-8/19","2016-8/19","2016-8/19",True,"2016-8/19",2,3,3
+"Check the return value from done_uploading","2016-8/19","2016-8/19","2016-8/19",True,"2016-8/19",2,9,2
+"Add purge support for pull queues","2016-8/19","2016-8/19","2016-8/19",True,"2016-8/19",2,70,20
+"Implement protobuf support for updating lease","2016-8/20","2016-8/20","2016-8/20",True,"2016-8/20",2,16,2
+"Start the dashboard as a normal application","2016-8/22","2016-8/22","2016-8/22",True,"2016-8/22",3,86,33
+"Autoscale Celery workers between 2 and 8 processes","2016-8/25","2016-8/25","2016-8/25",True,"2016-8/25",3,7,2
+"Unify NGINX_LOG_PATH usage in Nginx templates","2016-8/26","2016-8/26","2016-8/26",True,"2016-8/26",3,11,11
+"Handle optional 's~' app ID prefix in TaskQueue REST API...","2016-8/26","2016-8/26","2016-8/26",True,"2016-8/26",2,1,1
+"Handle gzipped TaskQueue requests in Tornado","2016-8/26","2016-8/26","2016-8/26",True,"2016-8/26",2,3,1
+"Expose TaskQueue REST API endpoints for a deployment","2016-8/26","2016-8/26","2016-8/26",True,"2016-8/26",2,106,20
+"Use https url to fetch gpg key","2016-8/27","2016-8/27","2016-8/27",True,"2016-8/27",2,1,1
+"Start the taskqueue with debug logging if verbose","2016-8/29","2016-8/29","2016-8/29",True,"2016-8/29",2,16,9
+"Remove SOAPpy library from codebase","2016-8/29","2016-8/29","2016-8/29",True,"2016-8/29",2,1,12673
+"Add Azure agent to Infrastructure Manager","2016-8/29","2016-9/29","2016-8/29",True,"2016-9/29",4,550,15
+"Ensure Cassandra seed node starts first","2016-8/29","2016-8/29","2016-8/29",True,"2016-8/29",3,144,58
+"Fix upgrade script issues","2016-8/29","2016-9/29","2016-8/29",True,"2016-9/29",2,23,8
+"Don't fetch index results from a different queue","2016-8/30","2016-8/30","2016-8/30",True,"2016-8/30",2,22,4
+"Return long queue form in leased tasks","2016-8/30","2016-8/30","2016-8/30",False,"null",2,21,4
+"Add SOAPpy to the dashboard during build","2016-8/30","2016-8/30","2016-8/30",True,"2016-8/30",2,10,0
+"Convert timestamps to str for TaskQueue responses","2016-8/30","2016-8/30","2016-8/30",True,"2016-8/30",2,4,1
+"Upgrade Cassandra to 2.2.7","2016-8/30","2016-9/30","2016-8/30",True,"2016-9/30",2,116,58
+"Return long form of a queue for lease task REST calls","2016-8/31","2016-8/31","2016-8/31",True,"2016-8/31",2,12,1
+"Estimate the number of entities with cfstats","2016-9/1","2016-9/1","2016-9/1",True,"2016-9/1",2,49,13
+"Don't use string value for setting new ETA","2016-9/2","2016-9/2","2016-9/2",True,"2016-9/2",2,3,1
+"Add Java stub for leasing pull tasks","2016-9/2","2016-9/2","2016-9/2",True,"2016-9/2",2,43,47
+"Let Cassandra clean up its own pidfile","2016-9/2","2016-9/2","2016-9/2",True,"2016-9/2",2,4,5
+"Search for potential queue config file locations.","2016-9/2","2016-9/2","2016-9/2",True,"2016-9/2",2,92,37
+"Re-vendor SOAPpy during every build","2016-9/3","2016-9/3","2016-9/3",True,"2016-9/3",2,1,0
+"Omit empty items field in TaskQueue REST API responses","2016-9/6","2016-9/6","2016-9/6",True,"2016-9/6",2,6,6
+"Fix codacy errors and add unit test","2016-9/7","2016-9/7","2016-9/7",True,"2016-9/7",2,91,10
+"Base64 encode Pull Queue protobuf requests at serverside","2016-9/7","2016-9/7","2016-9/7",True,"2016-9/7",2,4,2
+"Fix dashboard app upload functionality","2016-9/7","2016-9/7","2016-9/7",True,"2016-9/7",3,95,34
+"Install custom zk gem for other architectures","2016-9/8","2016-9/8","2016-9/8",True,"2016-9/8",2,8,2
+"Don't use celery 4 yet","2016-9/8","2016-9/8","2016-9/8",True,"2016-9/8",2,38,6
+"Remove old dashboard code at start.","2016-9/9","2016-9/9","2016-9/9",True,"2016-9/9",2,15,12
+"Support cron format: every N (hours|mins|minutes) from (time) to (time)","2016-9/9","2016-9/9","2016-9/9",True,"2016-9/9",3,360,14
+"Update the instance_class regex","2016-9/9","2016-9/9","2016-9/9",True,"2016-9/9",2,1,1

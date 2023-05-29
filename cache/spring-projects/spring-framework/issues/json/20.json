@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Document the TaskExecutor abstraction in the reference documentation [SPR-1928]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6621",
+                        "createdAt": "2006-04-18T01:30:52Z",
+                        "closedAt": "2012-06-19T03:52:27Z"
+                    },
+                    {
+                        "title": "Document the SimpleJdbcTemplate in the reference documentation [SPR-1929]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6622",
+                        "createdAt": "2006-04-18T01:31:28Z",
+                        "closedAt": "2012-06-19T03:25:15Z"
+                    },
+                    {
+                        "title": "Document the support for strongly typed collections in the reference documentation [SPR-1930]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6623",
+                        "createdAt": "2006-04-18T01:32:07Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "Links to bookmarks in the reference docs TOC go to top of page and not to bookmark location on Safari [SPR-1931]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6624",
+                        "createdAt": "2006-04-18T02:13:46Z",
+                        "closedAt": "2012-06-19T03:24:25Z"
+                    },
+                    {
+                        "title": "Document the new (<lang:language/>) schema-based tags in the reference documentation [SPR-1932]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6625",
+                        "createdAt": "2006-04-18T03:34:01Z",
+                        "closedAt": "2012-06-19T03:52:36Z"
+                    },
+                    {
+                        "title": "Add JavaScriptFactory [SPR-1933]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6626",
+                        "createdAt": "2006-04-19T12:47:26Z",
+                        "closedAt": "2015-04-01T11:48:15Z"
+                    },
+                    {
+                        "title": "Add better logging of SQLWarning in JdbcTemplate [SPR-1934]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6627",
+                        "createdAt": "2006-04-19T18:22:49Z",
+                        "closedAt": "2012-06-19T03:52:49Z"
+                    },
+                    {
+                        "title": "Example in Documentation 19.2.1 missing lazy-init=\"false\" [SPR-1935]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6628",
+                        "createdAt": "2006-04-19T19:10:52Z",
+                        "closedAt": "2012-06-19T03:52:48Z"
+                    },
+                    {
+                        "title": "support backport175 as an alternative to commons-attributes [SPR-1936]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6629",
+                        "createdAt": "2006-04-19T20:39:35Z",
+                        "closedAt": "2012-06-19T09:37:41Z"
+                    },
+                    {
+                        "title": "Update Spring 2.0 ref docs to use Spring 1.2. XML config style consistently [SPR-1937]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6630",
+                        "createdAt": "2006-04-20T00:12:35Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "Update ScriptFactoryPostProcessor class Javadocs to reflect the new <lang:language/> style. [SPR-1938]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6631",
+                        "createdAt": "2006-04-20T00:35:12Z",
+                        "closedAt": "2012-06-19T03:52:51Z"
+                    },
+                    {
+                        "title": "add a schema for scripted beans configuration [SPR-1939]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6632",
+                        "createdAt": "2006-04-20T01:42:40Z",
+                        "closedAt": "2012-06-19T03:18:56Z"
+                    },
+                    {
+                        "title": "Have a propertyEditor return Arrays.asList(new String[] {\"a\", \"b\"}) and a method expecting List<String> and binding breaks [SPR-1940]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6633",
+                        "createdAt": "2006-04-20T01:50:21Z",
+                        "closedAt": "2012-06-19T03:52:39Z"
+                    },
+                    {
+                        "title": "Generic DAO pattern with Java 5 and JPA [SPR-1941]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6634",
+                        "createdAt": "2006-04-20T02:06:12Z",
+                        "closedAt": "2012-06-18T05:27:21Z"
+                    },
+                    {
+                        "title": "Test [SPR-1942]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6635",
+                        "createdAt": "2006-04-20T19:54:50Z",
+                        "closedAt": "2006-04-20T22:09:52Z"
+                    },
+                    {
+                        "title": "Allow definition of Prototypes / factories with construction arguments [SPR-1943]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6636",
+                        "createdAt": "2006-04-20T20:26:52Z",
+                        "closedAt": "2012-06-19T09:37:45Z"
+                    },
+                    {
+                        "title": "DefaultMessageListenerContainer is not using 1 Session per Thread [SPR-1944]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6637",
+                        "createdAt": "2006-04-21T03:12:38Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "DataRetrievalFailureException constructor enhancement [SPR-1945]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6638",
+                        "createdAt": "2006-04-21T05:45:06Z",
+                        "closedAt": "2012-06-19T09:37:32Z"
+                    },
+                    {
+                        "title": "StoredProcedure.execute requires that the size of the params matches the number of input parameters [SPR-1946]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6639",
+                        "createdAt": "2006-04-21T05:53:45Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "Avoid UnexpectedRollbackException in AbstractTransactionalSpringContextTests [SPR-1947]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6640",
+                        "createdAt": "2006-04-21T08:05:35Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "CSS file for Spring Ref Docs not being put in correct place. [SPR-1948]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6641",
+                        "createdAt": "2006-04-23T20:46:21Z",
+                        "closedAt": "2012-06-19T03:52:23Z"
+                    },
+                    {
+                        "title": "MBeanProxyFactoryBean should depend on ObjectNamingStrategy [SPR-1949]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6642",
+                        "createdAt": "2006-04-23T23:02:32Z",
+                        "closedAt": "2012-06-19T03:18:56Z"
+                    },
+                    {
+                        "title": "TransactionAttributeSourceAdvisor changed from 2.0 M3 to 2.0 M4, preventing subclassing for specific use case [SPR-1950]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6643",
+                        "createdAt": "2006-04-24T01:56:49Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "NameMatchMethodPointcutAdvisor in CVS does not match M4 distribution [SPR-1951]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6644",
+                        "createdAt": "2006-04-24T04:38:03Z",
+                        "closedAt": "2012-06-19T03:52:34Z"
+                    },
+                    {
+                        "title": "UpdatableSqlQuery Error [SPR-1952]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6645",
+                        "createdAt": "2006-04-24T05:55:20Z",
+                        "closedAt": "2006-07-06T00:40:51Z"
+                    },
+                    {
+                        "title": "PropertyPlaceholderConfigurer indirectly instantiates FactoryBeans if it's autowire mode is anything but 'no' [SPR-1953]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6646",
+                        "createdAt": "2006-04-24T09:44:19Z",
+                        "closedAt": "2012-06-19T03:52:39Z"
+                    },
+                    {
+                        "title": "JPAInterceptor should bind EntityManager to thread [SPR-1954]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6647",
+                        "createdAt": "2006-04-24T11:09:10Z",
+                        "closedAt": "2012-06-19T03:52:34Z"
+                    },
+                    {
+                        "title": "Chapter 13 Documentation corrections [SPR-1955]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6648",
+                        "createdAt": "2006-04-25T04:10:09Z",
+                        "closedAt": "2012-06-19T03:52:28Z"
+                    },
+                    {
+                        "title": "Support beanFactory.getBean(Bar.class) signature to instantiate a bean. [SPR-1956]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6649",
+                        "createdAt": "2006-04-25T07:01:20Z",
+                        "closedAt": "2009-08-30T16:10:14Z"
+                    },
+                    {
+                        "title": "SimpleMappingExceptionResolver: Add functionality to find an exception by type [SPR-1957]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6650",
+                        "createdAt": "2006-04-25T10:53:01Z",
+                        "closedAt": "2012-06-13T08:19:53Z"
+                    },
+                    {
+                        "title": "Some documentation images not included in distribution [SPR-1958]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6651",
+                        "createdAt": "2006-04-25T22:04:48Z",
+                        "closedAt": "2006-11-03T05:33:48Z"
+                    },
+                    {
+                        "title": "Javadocs for StaticWebApplicationContext  method: void setConfigLocations(String[] configLocations) [SPR-1959]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6652",
+                        "createdAt": "2006-04-25T22:56:41Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "spring-form.tld not included in distribution [SPR-1960]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6653",
+                        "createdAt": "2006-04-26T03:59:34Z",
+                        "closedAt": "2006-11-03T05:33:03Z"
+                    },
+                    {
+                        "title": "NestedServletException root cause handling can cause stack overflow [SPR-1961]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6654",
+                        "createdAt": "2006-04-26T12:56:46Z",
+                        "closedAt": "2018-12-26T10:49:43Z"
+                    },
+                    {
+                        "title": "StopWatch should aggregate tasks [SPR-1962]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6655",
+                        "createdAt": "2006-04-26T18:04:04Z",
+                        "closedAt": "2012-06-19T09:37:23Z"
+                    },
+                    {
+                        "title": "proxyTargetClass or proxy-target-class [SPR-1963]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6656",
+                        "createdAt": "2006-04-26T19:00:04Z",
+                        "closedAt": "2012-06-19T03:52:32Z"
+                    },
+                    {
+                        "title": "SimpleJdbcDaoSupport.getSimpleJdbcTemplate() returns null [SPR-1964]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6657",
+                        "createdAt": "2006-04-27T08:25:55Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "Allow form tags to use different CSS class depending on whether there is an error or not [SPR-1965]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6658",
+                        "createdAt": "2006-04-28T02:37:45Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "Add functionality to inject a Hibernate CacheProvider into LocalSessionFactoryBean  [SPR-1966]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6659",
+                        "createdAt": "2006-04-28T08:39:52Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "SFSB support [SPR-1967]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6660",
+                        "createdAt": "2006-04-28T08:48:31Z",
+                        "closedAt": "2015-09-22T17:34:34Z"
+                    },
+                    {
+                        "title": "New hibernate session management technique [SPR-1968]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6661",
+                        "createdAt": "2006-04-28T10:09:24Z",
+                        "closedAt": "2008-01-08T03:19:12Z"
+                    },
+                    {
+                        "title": "Multiple instances of the same form - AbstractFormController and getFormSessionAttributeName [SPR-1969]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6662",
+                        "createdAt": "2006-04-29T05:31:07Z",
+                        "closedAt": "2012-06-18T12:44:59Z"
+                    },
+                    {
+                        "title": "Bring LdapTemplate functionality into Spring codebase from external SF project [SPR-1970]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6663",
+                        "createdAt": "2006-04-29T10:34:59Z",
+                        "closedAt": "2012-06-19T03:18:55Z"
+                    },
+                    {
+                        "title": "DefaultNamespaceHandlerResolver.initHandlerMappings() should take a ClassLoader parameter [SPR-1971]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6664",
+                        "createdAt": "2006-04-30T13:27:38Z",
+                        "closedAt": "2006-05-04T21:13:58Z"
+                    },
+                    {
+                        "title": "JdbcTemplate should have 2 extra methods: cancelQuery() and setQueryTimeout(int seconds). [SPR-1972]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6665",
+                        "createdAt": "2006-04-30T18:41:26Z",
+                        "closedAt": "2012-06-19T09:37:27Z"
+                    },
+                    {
+                        "title": "DB2 Error -911 and -913 should be added to deadlockLoserCodes in sql-eror-codes.xml [SPR-1973]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6666",
+                        "createdAt": "2006-05-01T07:07:55Z",
+                        "closedAt": "2012-06-19T03:52:32Z"
+                    },
+                    {
+                        "title": "DB2 Error -904 should be mapped to DataRetrievalFailureException in sql-error-codes.xml [SPR-1974]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6667",
+                        "createdAt": "2006-05-01T07:23:39Z",
+                        "closedAt": "2012-06-19T03:52:42Z"
+                    },
+                    {
+                        "title": "ClassUtil.isPresent() could use less logging [SPR-1975]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6668",
+                        "createdAt": "2006-05-02T13:38:31Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "Connection is not shared between HibernateTemplate and JdbcTemplate within a CMT JTA transaction [SPR-1976]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6669",
+                        "createdAt": "2006-05-03T03:52:05Z",
+                        "closedAt": "2012-06-19T09:37:24Z"
+                    },
+                    {
+                        "title": "Spring-form tags missing <form:label> option [SPR-1977]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6670",
+                        "createdAt": "2006-05-03T07:03:14Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "Overriding generic methods hides the annotations of the method in the super class [SPR-1978]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6671",
+                        "createdAt": "2006-05-03T12:48:14Z",
+                        "closedAt": "2012-06-19T03:52:35Z"
+                    },
+                    {
+                        "title": "Named parameters in SqlQuery lacks appropriate parameter declaration support [SPR-1979]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6672",
+                        "createdAt": "2006-05-03T14:39:28Z",
+                        "closedAt": "2012-06-19T03:52:21Z"
+                    },
+                    {
+                        "title": "Aspects can not have a proxied property [SPR-1980]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6673",
+                        "createdAt": "2006-05-03T19:43:36Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "RequiredBeanFactoryPostProcessor doesn't work with beans without a class attribute [SPR-1981]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6674",
+                        "createdAt": "2006-05-03T23:03:41Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "util:constant needs id [SPR-1982]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6675",
+                        "createdAt": "2006-05-04T00:24:09Z",
+                        "closedAt": "2006-05-04T22:33:00Z"
+                    },
+                    {
+                        "title": "after catching InterruptedException, re-interrupt current thread [SPR-1983]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6676",
+                        "createdAt": "2006-05-04T06:14:40Z",
+                        "closedAt": "2012-06-19T03:52:32Z"
+                    },
+                    {
+                        "title": "SimpleMappingExceptionResolver.findMatchingViewName() uses the instance exceptionMappings instead of the local exceptionMappings [SPR-1984]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6677",
+                        "createdAt": "2006-05-04T08:56:22Z",
+                        "closedAt": "2012-06-19T03:52:47Z"
+                    },
+                    {
+                        "title": "Problems with OpenSessionInViewFilter [SPR-1985]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6678",
+                        "createdAt": "2006-05-04T09:13:08Z",
+                        "closedAt": "2006-05-30T20:35:47Z"
+                    },
+                    {
+                        "title": "Cannot inject a map without a default constructor such as UnmodifiableMap into a bean. [SPR-1986]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6679",
+                        "createdAt": "2006-05-04T12:39:42Z",
+                        "closedAt": "2012-06-19T03:52:27Z"
+                    },
+                    {
+                        "title": "Enable the definition of beans in the application context using annotations instead of XML [SPR-1987]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6680",
+                        "createdAt": "2006-05-04T23:33:22Z",
+                        "closedAt": "2007-05-16T10:47:36Z"
+                    },
+                    {
+                        "title": "Eliminate ClassNotFoundException during script support discovery [SPR-1988]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6681",
+                        "createdAt": "2006-05-05T06:23:06Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "@Configurable mechanism does not allow for nested factories [SPR-1989]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6682",
+                        "createdAt": "2006-05-06T02:37:33Z",
+                        "closedAt": "2015-09-22T18:57:10Z"
+                    },
+                    {
+                        "title": "Allow custom initialization of bean with XML sub-element. [SPR-1990]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6683",
+                        "createdAt": "2006-05-06T18:29:31Z",
+                        "closedAt": "2012-06-19T09:37:37Z"
+                    },
+                    {
+                        "title": "ObjectUtils.nullSafeToString(Object obj) goes to a lot of trouble when obj instanceof String [SPR-1991]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6684",
+                        "createdAt": "2006-05-08T06:20:49Z",
+                        "closedAt": "2012-06-19T03:52:48Z"
+                    },
+                    {
+                        "title": "Another reason to implement custom XML initiation for beans. [SPR-1992]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6685",
+                        "createdAt": "2006-05-08T21:51:20Z",
+                        "closedAt": "2012-06-19T09:37:35Z"
+                    },
+                    {
+                        "title": "ServletRequestUtils.getStringParameters behaviour with *empty* (not null) Strings is unintuitive [SPR-1993]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6686",
+                        "createdAt": "2006-05-09T01:49:44Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "Explain final methods in the online spring docs [SPR-1994]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6687",
+                        "createdAt": "2006-05-09T11:25:37Z",
+                        "closedAt": "2012-06-19T03:52:39Z"
+                    },
+                    {
+                        "title": "Maven 2 buildproces halts since new pom files have been added in http://www.ibiblio.org/maven2/org/springframework/spring-full/1.2.7  [SPR-1995]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6688",
+                        "createdAt": "2006-05-09T18:41:36Z",
+                        "closedAt": "2006-06-19T09:35:11Z"
+                    },
+                    {
+                        "title": "Externalizing lifecycle from Spring-defined beans [SPR-1996]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6689",
+                        "createdAt": "2006-05-09T18:54:05Z",
+                        "closedAt": "2015-09-22T17:34:31Z"
+                    },
+                    {
+                        "title": "Factor out method resolving to ClassUtil [SPR-1997]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6690",
+                        "createdAt": "2006-05-09T23:46:06Z",
+                        "closedAt": "2012-06-19T09:37:32Z"
+                    },
+                    {
+                        "title": "Misc. bugs in spring.ftl - IDs not used correctly and 'options' not HTML-escaped [SPR-1998]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6691",
+                        "createdAt": "2006-05-10T02:59:20Z",
+                        "closedAt": "2012-06-19T03:52:25Z"
+                    },
+                    {
+                        "title": "PathMatchingResourcePatternResolver resolver Javadoc needs to be clarified, reference manual needs matching enhancements [SPR-1999]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6692",
+                        "createdAt": "2006-05-10T05:55:01Z",
+                        "closedAt": "2012-06-19T03:52:46Z"
+                    },
+                    {
+                        "title": "AbstractRefreshableApplicationContext.refreshBeanFactory() not thread-safe [SPR-2000]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6693",
+                        "createdAt": "2006-05-10T14:18:21Z",
+                        "closedAt": "2012-06-19T03:52:42Z"
+                    },
+                    {
+                        "title": "Stored Procedure hangs due to bug in JDBC driver [SPR-2001]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6694",
+                        "createdAt": "2006-05-10T19:42:15Z",
+                        "closedAt": "2012-06-19T03:52:34Z"
+                    },
+                    {
+                        "title": "Unexpected results from ServletRequestUtils.getStringParameters when parameter has empty String [SPR-2002]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6695",
+                        "createdAt": "2006-05-11T02:28:26Z",
+                        "closedAt": "2006-07-05T08:16:08Z"
+                    },
+                    {
+                        "title": "getBeansOfType() to provide singleton beans in registration order - AbstractBeanFactory.singletonCache to be Linked Map [SPR-2003]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6696",
+                        "createdAt": "2006-05-11T04:20:53Z",
+                        "closedAt": "2012-06-19T03:52:39Z"
+                    },
+                    {
+                        "title": "Update schema to allow custom XML configuration inside the constructor-arg tag [SPR-2004]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6697",
+                        "createdAt": "2006-05-12T03:13:54Z",
+                        "closedAt": "2012-06-19T03:52:45Z"
+                    },
+                    {
+                        "title": "Document XML schemas using XS3P schema doc tool [SPR-2005]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6698",
+                        "createdAt": "2006-05-12T03:21:49Z",
+                        "closedAt": "2012-06-19T09:37:39Z"
+                    },
+                    {
+                        "title": "Need a new project added to JIRA for website and documentation [SPR-2006]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6699",
+                        "createdAt": "2006-05-12T12:28:24Z",
+                        "closedAt": "2007-01-21T02:00:37Z"
+                    },
+                    {
+                        "title": "ANT does not call destroy-method after tests [SPR-2007]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6700",
+                        "createdAt": "2006-05-13T07:23:58Z",
+                        "closedAt": "2012-05-18T16:08:51Z"
+                    },
+                    {
+                        "title": "Unclear semantics for HandlerInterceptors in the Portlet variant of Spring MVC [SPR-2008]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6701",
+                        "createdAt": "2006-05-13T18:53:12Z",
+                        "closedAt": "2012-06-19T03:52:37Z"
+                    },
+                    {
+                        "title": "PropertyEditors registered in context not thread-safe for DataBinder [SPR-2009]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6702",
+                        "createdAt": "2006-05-14T13:20:41Z",
+                        "closedAt": "2012-06-19T03:52:27Z"
+                    },
+                    {
+                        "title": "org/springframework/core/Conventions introduces dependency from core to context [SPR-2010]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6703",
+                        "createdAt": "2006-05-14T17:33:10Z",
+                        "closedAt": "2012-06-19T03:52:42Z"
+                    },
+                    {
+                        "title": "Remove rebundling of aopalliance inside spring-aop.jar [SPR-2011]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6704",
+                        "createdAt": "2006-05-14T17:38:45Z",
+                        "closedAt": "2012-06-19T03:52:41Z"
+                    },
+                    {
+                        "title": "Upgrade to javamail 1.4 [SPR-2012]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6705",
+                        "createdAt": "2006-05-14T17:47:24Z",
+                        "closedAt": "2012-06-19T03:52:41Z"
+                    },
+                    {
+                        "title": "Wrong HTML hidden input field attribute in CheckboxTag.java [SPR-2013]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6706",
+                        "createdAt": "2006-05-15T00:47:00Z",
+                        "closedAt": "2012-06-19T03:52:34Z"
+                    },
+                    {
+                        "title": "XHTML compliance for RadtioButtonTag, CheckboxTag and OptionTag [SPR-2014]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6707",
+                        "createdAt": "2006-05-15T01:50:15Z",
+                        "closedAt": "2012-06-19T03:52:38Z"
+                    },
+                    {
+                        "title": "action parameter for spring-form taglib should be mandatory or a reasonable default should be written to output [SPR-2015]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6708",
+                        "createdAt": "2006-05-15T01:59:23Z",
+                        "closedAt": "2012-06-19T03:52:34Z"
+                    },
+                    {
+                        "title": "Tiny improvement for OptionTag - avoid double output for values [SPR-2016]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6709",
+                        "createdAt": "2006-05-15T02:15:32Z",
+                        "closedAt": "2012-06-19T03:52:44Z"
+                    },
+                    {
+                        "title": "OptionTag doesn't \"reselect\" the selected list item [SPR-2017]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6710",
+                        "createdAt": "2006-05-15T02:25:24Z",
+                        "closedAt": "2012-06-19T03:52:47Z"
+                    },
+                    {
+                        "title": "MailSender should use interface instead of class SimpleMailMessage [SPR-2018]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6711",
+                        "createdAt": "2006-05-15T03:07:38Z",
+                        "closedAt": "2015-09-22T17:34:37Z"
+                    },
+                    {
+                        "title": "Update website to let users know which CVS tag to use to download 2.0.x and 1.2.x versions. [SPR-2019]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6712",
+                        "createdAt": "2006-05-15T08:28:01Z",
+                        "closedAt": "2012-06-19T03:52:29Z"
+                    },
+                    {
+                        "title": "Changes to ValidationUtils class [SPR-2020]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6713",
+                        "createdAt": "2006-05-15T08:59:40Z",
+                        "closedAt": "2012-06-19T03:52:43Z"
+                    },
+                    {
+                        "title": "Scoped beans don't work with JDK dynamic proxies [SPR-2021]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6714",
+                        "createdAt": "2006-05-15T21:14:52Z",
+                        "closedAt": "2012-06-19T03:52:39Z"
+                    },
+                    {
+                        "title": "Hibernate 3.1 with connection.release_mode after_transaction  [SPR-2022]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6715",
+                        "createdAt": "2006-05-16T00:15:42Z",
+                        "closedAt": "2014-10-16T07:37:30Z"
+                    },
+                    {
+                        "title": "AbstractBeanFactory disposes Beans in wrong order [SPR-2023]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6716",
+                        "createdAt": "2006-05-16T05:26:13Z",
+                        "closedAt": "2012-06-19T03:52:22Z"
+                    },
+                    {
+                        "title": "Update ConfigBeanDefinitionParser to push custom state onto the ParseState [SPR-2024]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6717",
+                        "createdAt": "2006-05-16T12:10:55Z",
+                        "closedAt": "2012-06-19T03:52:35Z"
+                    },
+                    {
+                        "title": "Petclinic Sample Web App:  Add StringTrimmerEditor to edit fields [SPR-2025]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6718",
+                        "createdAt": "2006-05-16T15:08:24Z",
+                        "closedAt": "2012-06-19T03:52:32Z"
+                    },
+                    {
+                        "title": "MockFilterConfig javadoc problems in constructor description [SPR-2026]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6719",
+                        "createdAt": "2006-05-16T20:01:07Z",
+                        "closedAt": "2012-06-19T03:52:23Z"
+                    },
+                    {
+                        "title": "DataBinder.getBeanWrapper() has disappeared in Spring 2.0.x [SPR-2027]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/6720",
+                        "createdAt": "2006-05-16T21:04:04Z",
+                        "closedAt": "2012-06-19T09:37:45Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7oCIA==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Add Javadoc `@since` tag for `CannotGetJdbcConnectionException(String, IllegalStateException)`","2022-6/30","2022-7/30","2022-6/30",False,"null",3,1,0
+"Spring WebFlux - Provide LocaleContext for validation message interpolator","2022-7/1","null","2022-7/1",False,"null",3,28,7
+"Remove code duplication in AopUtils.isAopProxy() to improve readability","2022-7/1","2022-7/1","2022-7/1",False,"null",3,1,2
+"Polish","2022-7/2","2022-7/2","2022-7/2",True,"2022-7/2",3,24,21
+"Fix GenericApplicationContextTests on Microsoft Windows","2022-7/2","2022-7/2","2022-7/2",False,"null",4,5,2
+"Simplify @EneabledIfRuntimeHintsAgent support","2022-7/3","2022-7/3","2022-7/3",False,"null",2,4,52
+"Fix WebClientAdapter.createHttpServiceProxyFactory() example in ref docs","2022-7/3","2022-7/3","2022-7/3",True,"2022-7/3",3,2,1
+"Correctly identify MaxUploadSizeExceededException through keywords in message from Jetty 9.4.x","2022-7/5","2022-7/5","2022-7/5",False,"null",4,5,2
+"Use MediaType.APPLICATION_FORM_URLENCODED_VALUE constant","2022-7/7","2022-7/7","2022-7/7",False,"null",3,5,6
+"add support for record value injection","2022-7/8","null","2022-7/8",False,"null",2,18,0
+"@AliasFor may have a bug when dealing with repeated annotations","2022-7/8","2022-7/8","2022-7/8",False,"null",4,1,1
+"Revise `CookieLocaleResolver` to use `ResponseCookie`","2022-7/8","2022-9/8","2022-7/8",False,"null",3,200,105
+"ResponseCookie does not declare nullability annotations consistently for domain and path","2022-7/8","2022-7/8","2022-7/8",False,"null",3,6,6
+"Reduce synchronization scope in AbstractAspectJAdvice#calculateArgumentBindings","2022-7/11","2022-7/11","2022-7/11",False,"null",7,16,12
+"Make isConnected() in WebSocketConnectionManager public","2022-7/11","2022-9/11","2022-7/11",False,"null",4,1,1
+"Fix and improve Javadoc in spring-websocket","2022-7/11","2022-7/11","2022-7/11",False,"null",3,34,34
+"Fix and improve Javadoc in spring-webmvc","2022-7/11","2022-7/11","2022-7/11",False,"null",3,86,86
+"Fix and improve Javadoc in spring-webflux","2022-7/11","2022-7/11","2022-7/11",False,"null",3,44,44
+"Fix and improve Javadoc in spring-web","2022-7/11","2022-7/11","2022-7/11",False,"null",3,101,101
+"try","2022-7/12","2022-7/12","2022-7/12",False,"null",4,2,0
+"Fix and improve Javadoc in spring-tx","2022-7/12","2022-7/12","2022-7/12",False,"null",3,28,28
+"Fix and improve Javadoc in spring-test","2022-7/12","2022-7/12","2022-7/12",False,"null",3,63,63
+"Fix and improve Javadoc in spring-r2dbc, spring-oxm, spring-orm and spring-jdbc","2022-7/12","2022-7/12","2022-7/12",False,"null",3,88,88
+"Fix and improve Javadoc in spring-messaging, spring-jms and spring-expression","2022-7/12","2022-7/12","2022-7/12",False,"null",3,89,88
+"Fix and improve Javadoc in spring-core and spring-context","2022-7/12","2022-7/12","2022-7/12",False,"null",3,246,246
+"Fix and improve Javadoc in spring-beans and spring-aop","2022-7/12","2022-7/12","2022-7/12",False,"null",3,70,70
+"Support infix expression calculation in NumberUtils","2022-7/12","2022-7/12","2022-7/12",False,"null",4,156,2
+"Fix typos in reference docs and project documentation","2022-7/12","2022-7/12","2022-7/12",False,"null",3,32,32
+"Fix typos in test code","2022-7/12","2022-7/12","2022-7/12",False,"null",3,48,48
+"Fix broken link in rsocket documentation","2022-7/14","2022-7/14","2022-7/14",False,"null",3,2,2
+"Replace use of the <tt> HTML tag in Javadoc","2022-7/14","2022-9/14","2022-7/14",False,"null",3,20,20
+"Use `{@code}` instead of HTML entities in Javadoc","2022-7/14","2022-7/14","2022-7/14",False,"null",3,22,22
+"Fix typos in Javadoc, reference docs, and code","2022-7/14","2022-9/14","2022-7/14",False,"null",5,29,29
+"Make ResourcePatternHints.Builder.build public","2022-7/18","2022-7/18","2022-7/18",False,"null",3,1,1
+"Avoid IllegalArgumentException when setting WebSocket error status","2022-7/18","2022-7/18","2022-7/18",False,"null",4,7,1
+"Reintroduce Javadoc links to Apache HttpClient 5.1 APIs","2022-7/19","2022-7/19","2022-7/19",False,"null",3,1,2
+"Fix inferred methods code generation","2022-7/19","2022-7/19","2022-7/19",False,"null",4,22,6
+"Improve resource handling for empty files contained in jars","2022-7/21","2022-9/21","2022-7/21",False,"null",4,48,0
+"added missing @Nullable annotations to methods that may return null and are overridden by methods already using @Nullable","2022-7/21","2022-7/21","2022-7/21",False,"null",4,10,0
+"SockJsServiceRegistration#setSupressCors has a typo and should be deprecated","2022-7/21","2022-7/21","2022-7/21",False,"null",3,14,1
+"spring-orm mvp conversion to hibernate6","2022-7/22","2022-7/22","2022-7/22",False,"null",3,102,766
+"5.3.x","2022-7/23","2022-7/23","2022-7/23",False,"null",4,246,11
+"Remove clear() call to release method of WeakEntryReference and SoftEntryReference","2022-7/25","null","2022-7/25",False,"null",3,0,2
+"Add missing closing parenthesis in reference doc","2022-7/25","2022-7/25","2022-7/25",False,"null",4,1,1
+"Deprecate CookieGenerator","2022-7/25","2022-9/25","2022-7/25",False,"null",4,6,2
+"Fix links in Javadoc and reference docs","2022-7/26","2022-9/26","2022-7/26",False,"null",4,40,63
+"Fix typos in Javadoc of class AbstractEncoder","2022-7/29","2022-7/29","2022-7/29",False,"null",4,1,1
+"Fix memory leak with CglibAopProxy$ProxyCallbackFilter","2022-7/29","null","2022-7/29",False,"null",2,82,8
+"Fix typo in BasicJsonWriter.java","2022-7/30","2022-8/30","2022-7/30",False,"null",3,1,1
+"Make AnnotationsUtils::findAnnotation recognize annotations on anonymous classes again","2022-7/31","null","2022-7/31",False,"null",3,36,0
+"Use Jakarta EE XML namespaces instead of Java EE","2022-8/1","2022-8/1","2022-8/1",False,"null",3,12,12
+"Fix broken kdoc-api links in kotlin.adoc","2022-8/2","2022-8/2","2022-8/2",False,"null",3,8,8
+"Upgrade to Dokka Gradle plugin 1.7.10","2022-8/2","2022-8/2","2022-8/2",False,"null",3,1,1
+"Fix Javadoc since for new modules() and modulesToInstall()","2022-8/2","2022-8/2","2022-8/2",False,"null",3,2,2
+"day1","2022-8/3","2022-8/3","2022-8/3",False,"null",3,87,3
+"New stuff","2022-8/4","2022-8/4","2022-8/4",False,"null",2,33,0
+"New stuff","2022-8/4","2022-8/4","2022-8/4",False,"null",2,33,0
+"Add reflection runtime hints for OptionalValidatorFactoryBean.","2022-8/8","2022-8/8","2022-8/8",False,"null",4,3,0
+"Correct description of @RequestParam with WebFlux","2022-8/9","2022-8/9","2022-8/9",False,"null",3,2,2
+"Support TreeSet collection type in CollectionFactory.createCollection() without using reflection","2022-8/10","2022-8/10","2022-8/10",False,"null",4,1,1
+"URL and HTTP method in rest client exception message","2022-8/12","null","2022-8/12",False,"null",2,82,8
+"Dev","2022-8/13","2022-8/13","2022-8/13",False,"null",4,5921,85
+"Update StreamUtils drain and emptyInput to use JDK builtins","2022-8/13","2022-9/13","2022-8/13",False,"null",4,9,13
+"Adding JCStress support for ConcurrentLruCache","2022-8/15","2022-9/15","2022-8/15",False,"null",3,172,0
+"Increase StreamUtils.BUFFER_SIZE to 8192","2022-8/15","2022-9/15","2022-8/15",False,"null",3,3,3
+"Small polish of code of spring-aop","2022-8/21","null","2022-8/21",False,"null",3,149,167
+"change method to public and use quartz's default value to eanable transactionable","2022-8/21","2022-9/21","2022-8/21",False,"null",3,3,3
+"Introduce andPerformRequest() method in ResponseActions","2022-8/21","null","2022-8/21",False,"null",2,40,0
+"Improve so that KotlinSerialization can be applied before Jackson2","2022-8/24","2022-9/24","2022-8/24",False,"null",4,44,21
+"Update ClassUtils.java","2022-8/25","2022-8/25","2022-8/25",False,"null",4,0,2
+"Fix nesting of headings in RestTemplate section of integration.adoc","2022-8/25","2022-9/25","2022-8/25",False,"null",3,1,1
+"Refactor CodeFlow class. Replace if else with switch expression.","2022-8/26","null","2022-8/26",False,"null",4,150,248
+"5.0.x note","2022-8/27","2022-8/27","2022-8/27",False,"null",4,82,5
+"Stop implementing SynthesizedAnnotation in annotation proxies","2022-8/29","2022-9/29","2022-8/29",False,"null",1,90,55
+"Replace dependency management plugin with built-in platform support","2022-8/30","2022-8/30","2022-8/30",True,"2022-8/30",3,189,244
+"Fix typo in data-access section","2022-8/31","2022-9/31","2022-8/31",False,"null",3,7,7
+"Polish","2022-8/31","2022-8/31","2022-8/31",True,"2022-8/31",3,7,7
+"RelativeRedirectResponseWrapper does not commit response in sendRedirect","2022-8/31","2022-9/31","2022-8/31",False,"null",3,5,1
+"Update CacheAspectSupport.java","2022-9/2","2022-9/2","2022-9/2",False,"null",4,5,4
+"Fix Transaction already completed issue","2022-9/2","null","2022-9/2",False,"null",3,117,6
+"Make QDox an implementation detail of spring-core-test","2022-9/3","2022-9/3","2022-9/3",False,"null",3,1,1
+"Add `application/zip` mime type","2022-9/4","2022-9/4","2022-9/4",False,"null",4,22,0
+"Add examples to Javadoc for Throwing*.of factory methods","2022-9/5","2022-9/5","2022-9/5",False,"null",3,141,49
+"Introduce registerResource(Resource) in ResourceHints","2022-9/5","2022-9/5","2022-9/5",False,"null",2,50,26
+"Add support for providing JNI runtime hints","2022-9/6","2022-9/6","2022-9/6",False,"null",4,41,1
+"Restrict permissions for GitHub action","2022-9/8","2022-9/8","2022-9/8",False,"null",5,3,0
+"Add examples to Javadoc for Throwing*.of factory methods","2022-9/8","2022-9/8","2022-9/8",False,"null",4,24,0
+"Deprecate support for theme","2022-9/9","2022-9/9","2022-9/9",False,"null",3,120,50
+"Fix creation of new JMS connection","2022-9/9","null","2022-9/9",False,"null",4,94,2
+"update","2022-9/9","2022-9/9","2022-9/9",False,"null",3,0,0
+"Adapt FieldHint to recent GraalVM versions","2022-9/10","2022-9/10","2022-9/10",False,"null",3,7,173
+"Add TestSocketUtils to spring-test","2022-9/11","null","2022-9/11",False,"null",3,165,0
+"5.1.x","2022-9/12","2022-9/12","2022-9/12",False,"null",15,10321,3681
+"5.0.x","2022-9/12","2022-9/12","2022-9/12",False,"null",15,35253,27831
+"Add runtime hints for WebFlux's WebSocket upgrade strategies","2022-9/12","2022-9/12","2022-9/12",False,"null",3,49,0
+"Fix SimpleMailMessage nullability annotations","2022-9/13","null","2022-9/13",False,"null",3,244,10
+"Add missing @Nullable in SettableListenableFuture","2022-9/14","2022-9/14","2022-9/14",False,"null",3,1,1
+"Fix Javadoc since tag for AbstractGenericWebContextLoader.createContext()","2022-9/14","2022-9/14","2022-9/14",False,"null",2,1,1
+"Shutdown tasks annotated with @Scheduled when waitForTasksToCompleteOnShutdown is true","2022-9/14","null","2022-9/14",False,"null",2,5,7
+"Switch to spring-asciidoctor-backends","2022-9/15","2022-9/15","2022-9/15",False,"null",4,7,22

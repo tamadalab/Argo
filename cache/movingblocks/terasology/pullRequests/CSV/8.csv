@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Remove deprecated classes","2015-1/12","2015-1/12","2015-1/12",True,"2015-1/12",4,0,213
+"Mostly test fixes; It adjusts also EntityManager#create","2015-1/12","2015-1/12","2015-1/12",True,"2015-1/12",4,42,44
+"Add NotoSans font","2015-1/13","2015-1/13","2015-1/13",True,"2015-1/13",3,5973,1
+"BackdropProvider, BackdropRenderer","2015-1/13","2015-1/13","2015-1/13",True,"2015-1/13",4,183,79
+"Add purgeChunk command that re-generates a single chunk","2015-1/14","2015-1/14","2015-1/14",True,"2015-1/14",4,81,34
+"Fix an index out of bound exception during animation playback.","2015-1/15","2015-1/15","2015-1/15",True,"2015-1/15",4,58,41
+"Disable storing chunks on reload","2015-1/16","2015-1/16","2015-1/16",True,"2015-1/16",4,70,46
+"Print out command line args. on start and support disabling OpenAL","2015-1/18","2015-1/18","2015-1/18",True,"2015-1/18",4,16,2
+"Small documentation addition to PerformanceMonitorImpl","2015-1/18","2015-1/18","2015-1/18",True,"2015-1/18",3,5,0
+"Handle null EntityRefs in DelayedEntityRefCopyStrategy.","2015-1/20","2015-1/20","2015-1/20",True,"2015-1/20",4,5,1
+"Swimming fix","2015-1/20","2015-1/20","2015-1/20",True,"2015-1/20",3,16,10
+"Changes to WorldRendererLwjgl update() method, addressed part of issue #1536","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",5,78,74
+"Promote entity builder usage","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",3,24,9
+"Don't use the float suffix f in post_frag.glsl.","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",5,2,2
+"Fix for #1310","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",2,1,1
+"Cleanup for tree assets","2015-1/22","2015-1/22","2015-1/22",True,"2015-1/22",5,7,4
+"Fix for console suggestion throwing IOOBE","2015-1/23","2015-1/23","2015-1/23",True,"2015-1/23",3,12,7
+"Improved LwjglGraphics.checkOpenGL() output","2015-1/24","2015-1/24","2015-1/24",True,"2015-1/24",4,49,19
+"Fix SplashScreen race condition on close","2015-1/24","2015-1/24","2015-1/24",True,"2015-1/24",3,11,4
+"Stop the splash screen timer when the splash screen gets closed.","2015-1/24","2015-1/24","2015-1/24",False,"null",3,5,5
+"Add FastNoise (based on NoiseTable)","2015-1/24","2015-1/24","2015-1/24",True,"2015-1/24",5,186,38
+"Autosave fix and cleanup","2015-1/24","2015-1/24","2015-1/24",True,"2015-1/24",3,9,3
+"Extracted ChunkMath from TeraMath","2015-1/25","2015-1/25","2015-1/25",True,"2015-1/25",5,473,104
+"Don't track changes of non persistent entities for autosave","2015-1/25","2015-2/25","2015-1/25",True,"2015-2/25",4,71,66
+"Ignore test classes for reflection cache in modules","2015-1/27","2015-1/27","2015-1/27",True,"2015-1/27",3,5,3
+"WorldRendererLwjgl: continued refactoring","2015-1/27","2015-1/27","2015-1/27",True,"2015-1/27",5,119,144
+"Refactor tree and flora generation for improved extensibility","2015-1/27","2015-1/27","2015-1/27",True,"2015-1/27",5,1018,565
+"Further refined LwjglGraphics.checkOpenGL() method.","2015-1/30","2015-1/30","2015-1/30",False,"null",2,6,6
+"Further refined LwjglGraphics.checkOpenGL() method.","2015-1/30","2015-1/30","2015-1/30",True,"2015-1/30",3,6,6
+"Removed the notion of VerticalChunkMeshSegments from SystemConfig and everywhere else.","2015-1/31","2015-2/31","2015-1/31",True,"2015-2/31",4,55,119
+"Replace player color RGB sliders with CieCAM color hue","2015-2/5","2015-2/5","2015-2/5",True,"2015-2/5",3,241,29
+"Lock CrashReporter version to 2.0.0 and also report Errors","2015-2/5","2015-2/5","2015-2/5",True,"2015-2/5",3,12,9
+"Update junit to 4.12 and mockito to 1.10.19","2015-2/7","2015-2/7","2015-2/7",True,"2015-2/7",3,4,4
+"Cleanup noise interfaces and implementations","2015-2/7","2015-2/7","2015-2/7",True,"2015-2/7",4,883,243
+"Moved Terasology.jar to libs subfolder to avoid confusion.","2015-2/7","2015-2/7","2015-2/7",True,"2015-2/7",4,19,48
+"Auto-generate default player name and color","2015-2/10","2015-2/10","2015-2/10",True,"2015-2/10",3,28,63
+"Move environment and utilities classes to src/main in engine-test ","2015-2/12","2015-2/12","2015-2/12",True,"2015-2/12",4,3,24
+"Get rid off invalid component names and the useless miniaturizer prefab.","2015-2/12","2015-2/12","2015-2/12",False,"null",3,1,18
+"Log non RuntimeExceptions too.","2015-2/12","2015-2/12","2015-2/12",True,"2015-2/12",5,3,0
+"Prevent an index out of bounds exception due to negative noise.","2015-2/12","2015-2/12","2015-2/12",True,"2015-2/12",4,1,1
+"Add CoreSampleGameplay module","2015-2/12","2015-2/12","2015-2/12",True,"2015-2/12",3,346,6
+"Fix issues with too much vegetation being generated","2015-2/13","2015-2/13","2015-2/13",True,"2015-2/13",5,13,16
+"Updated with new launchers","2015-2/14","2015-2/14","2015-2/14",True,"2015-2/14",3,0,0
+"Brought alpha-blended mesh rendering in line with opaque mesh rendering.","2015-2/15","2015-2/15","2015-2/15",True,"2015-2/15",6,16,9
+"Moved all opengl commands from WorldRendererLwjgl to DefaultRenderingProcess","2015-2/15","2015-2/15","2015-2/15",True,"2015-2/15",5,165,201
+"Adds a nextGuassian function with mean and stdDev parameters","2015-2/15","2015-2/15","2015-2/15",True,"2015-2/15",3,13,0
+"Fix asset and behavior-tree unit tests","2015-2/20","2015-2/20","2015-2/20",True,"2015-2/20",3,45,15
+"Removed internal/CoreCommands and moved the commands into commands/CoreCommands.","2015-2/20","2015-2/20","2015-2/20",True,"2015-2/20",2,38,336
+"Added an option to change the server port via a command line argument.","2015-2/21","2015-3/21","2015-2/21",False,"null",4,47,9
+"Remove Slick2D dependencies","2015-2/21","2015-2/21","2015-2/21",True,"2015-2/21",3,47,28
+"Keep the client infos even if the players leave.","2015-2/21","2015-2/21","2015-2/21",True,"2015-2/21",5,42,18
+"Rework logging system","2015-2/23","2015-2/23","2015-2/23",True,"2015-2/23",4,290,86
+"Fix the headless server unable to find a world generator and other things","2015-2/26","2015-2/26","2015-2/26",True,"2015-2/26",4,40,41
+"Fine granular permissions","2015-2/26","2015-2/26","2015-2/26",True,"2015-2/26",5,305,94
+"Enforce unique player names.","2015-2/26","2015-2/26","2015-2/26",True,"2015-2/26",3,43,26
+"Fix NPE in getDefaultWorldGenerator()","2015-2/27","2015-2/27","2015-2/27",True,"2015-2/27",3,2,1
+"Add procedural noise textures","2015-2/27","2015-2/27","2015-2/27",True,"2015-2/27",3,228,7
+"Remove duplicate image converter util","2015-2/28","2015-3/28","2015-2/28",True,"2015-3/28",3,17,22
+"Fix various command-related issues","2015-2/28","2015-2/28","2015-2/28",True,"2015-2/28",3,40,56
+"Added an option to change the server port via a command line argument (updated)","2015-3/1","2015-3/1","2015-3/1",True,"2015-3/1",3,54,21
+"Changed ScreenshotSize and Format in RenderingConfig to Enum's","2015-3/2","2015-3/2","2015-3/2",False,"null",4,79,53
+"User player name & color settings even when a known player joins.","2015-3/3","2015-3/3","2015-3/3",True,"2015-3/3",3,44,17
+"Add BEACH and OCEAN biomes","2015-3/8","2015-3/8","2015-3/8",True,"2015-3/8",5,67,194
+"Added opengl 2.1 check.","2015-3/8","2015-3/8","2015-3/8",True,"2015-3/8",3,3,0
+"Improve screenshot options","2015-3/9","2015-3/9","2015-3/9",True,"2015-3/9",3,81,216
+"Use loading screen background image","2015-3/11","2015-3/11","2015-3/11",True,"2015-3/11",4,9,1
+"Download list of available game servers","2015-3/14","2015-3/14","2015-3/14",True,"2015-3/14",3,380,111
+"Vector3i usability improvements","2015-3/15","2015-3/15","2015-3/15",False,"null",2,849,1263
+"Vector3i usability improvements","2015-3/15","2015-3/15","2015-3/15",False,"null",5,754,1031
+"Moving FBO and PBO classes out of LwjglRenderingProcess","2015-3/15","2015-3/15","2015-3/15",False,"null",4,224,158
+"Online player list","2015-3/19","2015-3/19","2015-3/19",True,"2015-3/19",3,225,31
+"Remove the placeBlock command as it does not work in multiplayer.","2015-3/19","2015-3/19","2015-3/19",True,"2015-3/19",3,0,40
+"Moving fbo+pbo out of lwjgl rendering process (redux)","2015-3/19","2015-3/19","2015-3/19",True,"2015-3/19",4,203,158
+"Delete log files only after five days","2015-3/20","2015-3/20","2015-3/20",True,"2015-3/20",3,56,12
+"Pull in TeraMath compatibility, remove engine's Vector3i","2015-3/21","2015-3/21","2015-3/21",True,"2015-3/21",3,702,879
+"Request game server info without actually joining","2015-3/21","2015-3/21","2015-3/21",True,"2015-3/21",4,437,99
+"Use localhost as default server entry for new config files","2015-3/21","2015-3/21","2015-3/21",True,"2015-3/21",3,1,1
+"Tune-up for height-map based world generator","2015-3/23","2015-3/23","2015-3/23",True,"2015-3/23",3,66,57
+"Add WorldGenerator.getWorldSeed()","2015-3/26","2015-3/26","2015-3/26",True,"2015-3/26",3,12,0
+"Prepare Javadoc for Java8","2015-3/26","2015-3/26","2015-3/26",True,"2015-3/26",3,628,632
+"Fixed small bug in screenshot code.","2015-3/27","2015-3/27","2015-3/27",True,"2015-3/27",3,2,2
+"Extract interface from AssetManager","2015-3/29","2015-3/29","2015-3/29",True,"2015-3/29",3,764,622
+"Fix duplicate entwork ids at items get splitted that caused invisible items.","2015-3/29","2015-3/29","2015-3/29",True,"2015-3/29",3,1,3
+"Tune-Up for SubSampledNoise","2015-3/31","2015-4/31","2015-3/31",True,"2015-4/31",3,23,23
+"Switched to Java 8","2015-4/3","2015-4/3","2015-4/3",True,"2015-4/3",4,11,13
+"Refactor ModuleManager","2015-4/7","2015-4/7","2015-4/7",True,"2015-4/7",3,311,189
+"Added a StorageQualifier parameter to the Material methods where it is r...","2015-4/11","2015-4/11","2015-4/11",False,"null",2,796,475
+"Rendering Process Refactoring - FBO creation","2015-4/14","2015-4/14","2015-4/14",True,"2015-4/14",4,699,332
+"Fixing issue with being unable to start Terasology on new downloads due ...","2015-4/16","2015-4/16","2015-4/16",True,"2015-4/16",4,1,1
+"Block rendering update","2015-4/18","2015-4/18","2015-4/18",True,"2015-4/18",5,279,159
+"LwjglRenderingProcess no longer a singleton, Dimension instances used more extensively","2015-4/18","2015-4/18","2015-4/18",True,"2015-4/18",4,180,191
+"Adding needed permissions to run ModularComputers.","2015-4/18","2015-4/18","2015-4/18",True,"2015-4/18",3,6,1
+"Added component that specifies what slots are exposed for any automated ...","2015-4/19","2015-4/19","2015-4/19",True,"2015-4/19",3,418,0
+"When blocks are becoming items, they now copy the data from the block en...","2015-4/19","2015-4/19","2015-4/19",True,"2015-4/19",3,31,1
+"Delegating removal of item to InventoryManager.","2015-4/19","2015-4/19","2015-4/19",False,"null",3,5,6
+"Beefs up the railgun again","2015-4/20","2015-4/20","2015-4/20",True,"2015-4/20",3,14,8
+"Use code metric config files from Artifactory","2015-4/21","2015-4/21","2015-4/21",True,"2015-4/21",3,40,81
+"Warn on unresolvable modules in WorldGeneratorManager","2015-4/21","2015-4/21","2015-4/21",True,"2015-4/21",3,2,0
+"Support different height maps","2015-4/21","2015-4/21","2015-4/21",True,"2015-4/21",3,86,42
+"Card layout - allowing multiple different ""tabs"".","2015-4/22","2015-4/22","2015-4/22",True,"2015-4/22",3,137,4

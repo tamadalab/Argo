@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Fixed GoogleUniversalAnalyticsProcessor adding order items to javascript output 3.0.x","2014-7/9","2014-7/9","2014-7/9",True,"2014-7/9",2,2,2
+"Use UTF-8 instead of the default encoding","2014-8/4","2014-8/4","2014-8/4",True,"2014-8/4",2,3,3
+"Null check the result of readLine","2014-8/4","2014-8/4","2014-8/4",False,"null",1,5,3
+"Properly close streams","2014-8/4","2014-8/4","2014-8/4",False,"null",1,64,29
+"Properly close streams","2014-8/4","2014-8/4","2014-8/4",False,"null",1,49,14
+"Properly close input streams in the applicationContext merge process","2014-8/4","2014-8/4","2014-8/4",True,"2014-8/4",2,41,19
+"Ports are Integer not String","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,2,2
+"DecrementInventoryActivity could have incorrect results if it needs to roll back","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long have to be compared using equals","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long have to be compared using equals","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Search synonyms could be splitting the characters incorrectly","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Comparing related Skus when computing related products could yield incorrect results","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long have to be compared using equals","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Escape regular expression character in split","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long have to be compared using equals","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long have to be compared using equals","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Long can never be equals to a String","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,1,1
+"Correct equality check in EmailTrackingOpens","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,5,4
+"Remove unnecesary repeated conditional test in ExtensionManager","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,3,5
+"DateFormatter are not thread safe","2014-8/8","2014-11/8","2014-8/8",False,"null",4,10,10
+"Remove possible null pointer dereference","2014-8/8","2014-8/8","2014-8/8",True,"2014-8/8",3,3,2
+"A null pointer exception could occur when translating an order item","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,13,14
+"Remove possible null pointer dereference","2014-8/8","2016-5/8","2014-8/8",False,"null",2,6,6
+"Potential null pointer exception when using the CategoriesProcessor","2014-8/8","2014-10/8","2014-8/8",True,"2014-10/8",2,7,4
+"adding coordinate type for geolocation searches","2014-8/9","2014-8/9","2014-8/9",True,"2014-8/9",2,1,0
+"Remove reliance on default encoding","2014-8/11","2016-5/11","2014-8/11",False,"null",2,70,32
+"Use Solr's frange plugin for facet queries","2014-8/20","2014-8/20","2014-8/20",True,"2014-8/20",4,47,37
+"Update JMSEmailServiceProducerImpl.java","2014-9/26","2014-9/26","2014-9/26",True,"2014-9/26",2,2,1
+"#1140 - Can't Delete Product within Admin","2014-10/22","2014-10/22","2014-10/22",False,"null",3,48,1
+"Prevent NPE from Java 8 lambdas in ClassTransformers","2014-12/10","2014-12/10","2014-12/10",True,"2014-12/10",2,5,0
+"Add support for DefaultValues in AdminPresentation Annotation.","2014-12/10","2015-1/10","2014-12/10",True,"2015-1/10",2,115,2
+"Fix MergeManager overrides","2014-12/11","2015-1/11","2014-12/11",True,"2015-1/11",2,1,2
+"#1199 - Refactor the way product options are retrieved","2014-12/18","2016-5/18","2014-12/18",False,"null",3,274,133
+"Changed AND to OR while checking for OrderStatus value if Payment can be applied to Order","2015-1/5","2015-1/5","2015-1/5",False,"null",3,1,1
+"Remove redundant OnPropertyChanged when uploading an asset in the admin","2015-1/8","2015-1/8","2015-1/8",True,"2015-1/8",3,2,2
+"Allow deletes in the admin to respond to validation errors","2015-1/9","2015-2/9","2015-1/9",True,"2015-2/9",2,202,108
+"Remove Jersey and replace the REST services implementation with Spring MVC","2015-1/15","2015-2/15","2015-1/15",True,"2015-2/15",4,652,212
+"Admin session expiration event can lead to loss of data","2015-1/23","2015-2/23","2015-1/23",True,"2015-2/23",4,293,15
+"Make saving changes happen through an ajax post in the admin","2015-1/27","2015-1/27","2015-1/27",True,"2015-1/27",3,175,59
+"#1242 - Made billingAddress on CustomerPayment optional","2015-1/29","2015-1/29","2015-1/29",False,"null",1,1,1
+"Remove Address requirement from CustomerPayment","2015-1/29","2015-2/29","2015-1/29",True,"2015-2/29",2,1,1
+"Allow graceful session timeouts in the admin so that data is not inadvertently lost","2015-2/12","2015-2/12","2015-2/12",False,"null",2,328,15
+"Performance tweaks to CategoryXref","2015-2/16","2015-2/16","2015-2/16",False,"null",1,21,16
+"Make CategoryXref cacheable","2015-2/17","2015-6/17","2015-2/17",True,"2015-6/17",2,60,80
+"Allow graceful session timeouts in the admin so that data is not inadvertently lost","2015-2/17","2015-3/17","2015-2/17",True,"2015-3/17",2,330,15
+"No spinner icon is shown when searching from the main search on an entity page","2015-2/17","2015-2/17","2015-2/17",True,"2015-2/17",2,4,1
+"Give a notification when an expired offer code is added to an order or that the offer has already been retrieved for the order","2015-2/17","2015-5/17","2015-2/17",True,"2015-5/17",2,119,45
+"Fix copy-paste issue for ProductOptionsWrapper (API)","2015-2/23","2015-3/23","2015-2/23",False,"null",3,1,1
+"Feature breadcrumbs","2015-3/3","2015-9/3","2015-3/3",False,"null",3,767,18
+"Test to ensure that product options are correctly sorted by displayOrder","2015-3/23","2015-3/23","2015-3/23",True,"2015-3/23",3,135,1
+"Add Spock/Groovy Unit Tests for Activities within the Add Item Workflow","2015-3/24","2015-3/24","2015-3/24",True,"2015-3/24",3,1819,1
+" SiteImpl.java - Site Identifier Type and Site Identifier Value fields are changed as required fields. In order to force site creation with a Site Identifier to avoid exception while preview on site","2015-3/30","2015-3/30","2015-3/30",True,"2015-3/30",4,2,2
+"Revert "" SiteImpl.java - Site Identifier Type and Site Identifier Value ...","2015-4/2","2015-4/2","2015-4/2",True,"2015-4/2",1,2,2
+"Added support for new PasswordEncoder in Spring Security 3.2 and deprecate old style","2015-4/2","2015-4/2","2015-4/2",False,"null",2,0,0
+"Refactor ValidateAndConfirmPaymentsActivity for easier extension","2015-4/15","2015-4/15","2015-4/15",True,"2015-4/15",2,72,58
+"Added deproxy hibernate utility method and applied to lazy loaded fields","2015-4/15","2015-4/15","2015-4/15",True,"2015-4/15",2,56,6
+"Added logic to report source exception, should rollback routines themsel...","2015-4/20","2015-4/20","2015-4/20",False,"null",2,19,13
+"Deprecate the customized Broadleaf resource handling in favor of the new resource handlers and transformers in Spring MVC 4.1+","2015-5/6","2015-5/6","2015-5/6",False,"null",4,1764,960
+"Refactor resource handling to leverage Spring 4.1 resource resolvers.","2015-5/7","2015-5/7","2015-5/7",True,"2015-5/7",4,1764,960
+"If someone wants to register a CurrencyConversionService there is a exception beeing thrown into CurrencyConversionContext","2015-5/13","2015-5/13","2015-5/13",True,"2015-5/13",2,1,1
+"Add null response caching to CachingResourceResolver","2015-5/15","2015-5/15","2015-5/15",True,"2015-5/15",2,37,2
+"When creating a new Media value, make sure it's added to the parent","2015-5/21","2015-5/21","2015-5/21",False,"null",4,2,0
+"Merge pull request #2 from BroadleafCommerce/master","2015-6/2","2015-6/2","2015-6/2",False,"null",1,0,0
+"BroadleafCommerce/BroadleafCommerce - QA#649","2015-6/3","2015-6/3","2015-6/3",False,"null",4,9,8
+"BroadleafCommerce/BroadleafCommerce -- QA#649","2015-6/3","2015-6/3","2015-6/3",False,"null",2,11,0
+"#1383 - BroadleafCommerce/BroadleafCommerce#1383 - modified updated a…","2015-6/4","2015-6/4","2015-6/4",False,"null",1,0,0
+"#1386 - modified TranslatedEntity to include Site and modified SiteImpl to return a translated field","2015-6/4","2015-6/4","2015-6/4",True,"2015-6/4",2,4,2
+"Handler to remove the asset from Disk","2015-6/5","2015-6/5","2015-6/5",True,"2015-6/5",2,59,0
+"#1389 - updated robots.txt controller to include setting the site instance","2015-6/5","2015-6/5","2015-6/5",True,"2015-6/5",2,6,2
+"#1383 - updated BroadleafUpdateAccountController to create a new user/pass token","2015-6/5","2015-6/5","2015-6/5",True,"2015-6/5",3,29,10
+"#1400 - Basic start/end date validation logic needs to be added to admin","2015-6/5","2015-6/5","2015-6/5",True,"2015-6/5",2,121,4
+"Add compatibility with SolrCloud Replication","2015-6/9","2015-6/9","2015-6/9",True,"2015-6/9",3,15,2
+"#1408 - updated the content of the IllegalStateException","2015-6/11","2015-6/11","2015-6/11",False,"null",2,5,3
+"Allow for the primary media for a sku to be removed","2015-6/11","2015-7/11","2015-6/11",True,"2015-7/11",4,69,11
+"#1411 - `@AdminPresentation` the field name in 3.0.xsd needs to match…","2015-6/11","2015-6/11","2015-6/11",True,"2015-6/11",3,1,1
+"IsoCountryWrapper needs to be registered bean","2015-6/12","2015-6/12","2015-6/12",True,"2015-6/12",3,2,0
+"Qa 656 collisions","2015-6/12","2015-6/12","2015-6/12",False,"null",3,114,85
+"Qa 653 solr indexoutofbounds","2015-6/12","2015-6/12","2015-6/12",True,"2015-6/12",2,18,10
+"Boolean system property should be represented as a radio button in the admin.","2015-6/15","2015-6/15","2015-6/15",False,"null",3,90,2
+"Remove any credit card payment type restrictions on populating billing/shipping/customer information from the order onto a PaymentRequestDTO","2015-6/16","2015-6/16","2015-6/16",True,"2015-6/16",2,19,15
+"Add a helper service that converts the current user cart into a PaymentRequest","2015-6/16","2015-6/16","2015-6/16",True,"2015-6/16",1,94,0
+"#1427 - updated BasicFieldPersistenceProvider to treat null as false when populating values","2015-6/17","2015-6/17","2015-6/17",False,"null",3,1,8
+"issue 660 - exposing prices as price from default SKU","2015-6/17","2015-6/17","2015-6/17",True,"2015-6/17",2,181,146
+"qa 649 asset versioning","2015-6/18","2015-6/18","2015-6/18",True,"2015-6/18",2,10,60
+"#1435 - updated readonly.html to properly check media urls for empty strings before loading media","2015-6/19","2015-6/19","2015-6/19",True,"2015-6/19",2,2,2
+"Limit the url to one successUrl parameter on a failed login attempt","2015-6/22","2015-6/22","2015-6/22",True,"2015-6/22",2,18,4
+"Fixed ""View Approver Sandbox"" user so that they can view approvals","2015-6/22","2015-6/22","2015-6/22",False,"null",3,80,26
+"Admin configuration settings spill over similarly named properties","2015-6/22","2015-6/22","2015-6/22",False,"null",3,114,85
+"#1444 - updated SandBoxDaoImpl to fix bug in retrieveAllSandBoxes method","2015-6/23","2015-8/23","2015-6/23",False,"null",4,31,6
+"Updated dirty form fields immediately after submission ","2015-6/23","2015-6/23","2015-6/23",True,"2015-6/23",2,23,0
+"Bundles can return a 404 in BLC multi-tenant setup","2015-6/23","2015-6/23","2015-6/23",True,"2015-6/23",2,2,2
+"Populate totals and line items only for PaymentType.UNCONFIRMED","2015-6/23","2015-6/23","2015-6/23",True,"2015-6/23",2,7,3
+"Issues when serving static assets can occur because the system is unable to delete the temporary directory","2015-6/24","2015-6/24","2015-6/24",True,"2015-6/24",2,14,15
+"Qa 685 admin entity not found","2015-6/24","2015-6/24","2015-6/24",True,"2015-6/24",3,59,10
+"Add pricelist name to to admin's Search Facet Range","2015-6/24","2015-7/24","2015-6/24",False,"null",2,163,54
+"FulfillmentGroupItemImpl.getHasProratedOrderAdjustments() now returns correct value","2015-6/26","2015-6/26","2015-6/26",True,"2015-6/26",2,306,306
+"prevent unwanted translation permutations","2015-6/26","2015-7/26","2015-6/26",True,"2015-7/26",2,546,195
+"#1472 remove 6th value from test","2015-6/28","2015-6/28","2015-6/28",True,"2015-6/28",3,2,5
+"Site Map Generator Configurations set up to work with Multi-Tenant","2015-6/29","2015-7/29","2015-6/29",True,"2015-7/29",3,6,0
+"Introduce hooks into the SOLR index process to allow modules to optimize performance","2015-6/30","2015-6/30","2015-6/30",True,"2015-6/30",3,27,0

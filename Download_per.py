@@ -1,6 +1,5 @@
 from time import sleep
 from tqdm import tqdm
-import time
 
 elapsed = []
 

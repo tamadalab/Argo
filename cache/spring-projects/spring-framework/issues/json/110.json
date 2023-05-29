@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "util:map does not recognize the attribute of value-type [SPR-10994]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15622",
+                        "createdAt": "2013-10-16T18:37:26Z",
+                        "closedAt": "2014-11-01T15:33:08Z"
+                    },
+                    {
+                        "title": "Spring cannot find setter if subclass overrides getter narrowing return type [SPR-10995]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15623",
+                        "createdAt": "2013-10-16T20:50:30Z",
+                        "closedAt": "2013-10-31T12:27:59Z"
+                    },
+                    {
+                        "title": "TypeConverterDelegate standard conversion changes single element array to a class instance when trying to convert to Object [SPR-10996]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15624",
+                        "createdAt": "2013-10-16T23:22:18Z",
+                        "closedAt": "2013-10-31T12:27:51Z"
+                    },
+                    {
+                        "title": "Cannot override initializer of @ContextConfiguration when using @ContextHierarchy [SPR-10997]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15625",
+                        "createdAt": "2013-10-17T08:05:24Z",
+                        "closedAt": "2013-10-31T12:27:53Z"
+                    },
+                    {
+                        "title": "Add prettyPrint option to @ResponseBody Annotation [SPR-10998]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15626",
+                        "createdAt": "2013-10-17T13:51:10Z",
+                        "closedAt": "2013-10-18T06:53:58Z"
+                    },
+                    {
+                        "title": "mvc:resources should support multiple locations by placeholder [SPR-10999]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15627",
+                        "createdAt": "2013-10-18T02:25:29Z",
+                        "closedAt": "2019-01-12T00:21:54Z"
+                    },
+                    {
+                        "title": "Spring cannot be build without Java 8 because of 'MaxMetaspaceSize' VM option [SPR-11000]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15628",
+                        "createdAt": "2013-10-18T03:04:53Z",
+                        "closedAt": "2013-10-18T10:37:35Z"
+                    },
+                    {
+                        "title": "mvc:resources should support serlvet mapping by prefix and by extension [SPR-11001]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15629",
+                        "createdAt": "2013-10-18T03:41:49Z",
+                        "closedAt": "2013-10-22T11:25:40Z"
+                    },
+                    {
+                        "title": "MBeanExporter/MBeanRegistrationSupport lack synchronization [SPR-11002]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15630",
+                        "createdAt": "2013-10-18T05:16:23Z",
+                        "closedAt": "2013-12-11T23:57:22Z"
+                    },
+                    {
+                        "title": "Changes in JBoss AS 7 shutdown process causing problems during Spring's application context destruction [SPR-11003]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15631",
+                        "createdAt": "2013-10-18T07:07:24Z",
+                        "closedAt": "2018-12-11T15:42:58Z"
+                    },
+                    {
+                        "title": "Autowiring of types narrows with generics does not work [SPR-11004]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15632",
+                        "createdAt": "2013-10-18T07:51:45Z",
+                        "closedAt": "2013-10-31T12:28:03Z"
+                    },
+                    {
+                        "title": "Allow AOP advice to be added to JaxWsPortProxyFactoryBean [SPR-11005]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15633",
+                        "createdAt": "2013-10-18T09:47:00Z",
+                        "closedAt": "2019-01-12T00:21:51Z"
+                    },
+                    {
+                        "title": "TypeDescriptor can no longer be programatically created with null generics [SPR-11006]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15634",
+                        "createdAt": "2013-10-18T10:45:14Z",
+                        "closedAt": "2013-10-31T12:27:57Z"
+                    },
+                    {
+                        "title": "ScriptExecutor for JSR-223 [SPR-11007]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15635",
+                        "createdAt": "2013-10-18T14:32:24Z",
+                        "closedAt": "2016-08-17T09:28:40Z"
+                    },
+                    {
+                        "title": "Backport: Relax JavaBean rules for SpEL property access [SPR-11008]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15636",
+                        "createdAt": "2013-10-18T16:30:14Z",
+                        "closedAt": "2013-11-06T22:51:35Z"
+                    },
+                    {
+                        "title": "Backport:      Spring Framework     SPR-10996  TypeConverterDelegate standard conversion changes single element array to a class instance when trying to convert to Object  [SPR-11009]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15637",
+                        "createdAt": "2013-10-18T17:25:08Z",
+                        "closedAt": "2013-11-06T22:51:37Z"
+                    },
+                    {
+                        "title": "Backport: SpEL fails if class.name and name is evaluated in the same context [SPR-11010]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15638",
+                        "createdAt": "2013-10-21T11:03:26Z",
+                        "closedAt": "2013-11-06T22:51:35Z"
+                    },
+                    {
+                        "title": "Backport \"Cannot override initializer of @ContextConfiguration when using @ContextHierarchy\" [SPR-11011]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15639",
+                        "createdAt": "2013-10-21T11:21:13Z",
+                        "closedAt": "2013-11-06T22:51:35Z"
+                    },
+                    {
+                        "title": "Backport: AbstractApplicationEventMulticaster throws NPE when ApplicationEvent's source is null  [SPR-11012]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15640",
+                        "createdAt": "2013-10-21T12:01:12Z",
+                        "closedAt": "2013-11-06T22:51:34Z"
+                    },
+                    {
+                        "title": "Backport: Order of values in @PropertySource annotation depends on name attribute [SPR-11013]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15641",
+                        "createdAt": "2013-10-21T13:12:33Z",
+                        "closedAt": "2013-11-06T22:51:36Z"
+                    },
+                    {
+                        "title": "\"Illegal instant due to time zone offset transition\" when binding with LocalDate (joda) in Controller handler [SPR-11014]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15642",
+                        "createdAt": "2013-10-21T13:56:02Z",
+                        "closedAt": "2013-10-31T12:27:55Z"
+                    },
+                    {
+                        "title": "Allow declaration of initializers at the @ContextHierarchy level [SPR-11015]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15643",
+                        "createdAt": "2013-10-21T14:17:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Have ExceptionHandlerMethodResolver use most-specific ExceptionHandler method [SPR-11016]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15644",
+                        "createdAt": "2013-10-22T00:28:34Z",
+                        "closedAt": "2019-01-12T00:21:45Z"
+                    },
+                    {
+                        "title": "Unecessary logging about setNull with Oracle driver [SPR-11017]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15645",
+                        "createdAt": "2013-10-22T07:18:48Z",
+                        "closedAt": "2013-10-31T12:28:05Z"
+                    },
+                    {
+                        "title": "Spring cannot find bean aliased with placeholder [SPR-11018]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15646",
+                        "createdAt": "2013-10-22T08:08:04Z",
+                        "closedAt": "2019-01-12T00:21:42Z"
+                    },
+                    {
+                        "title": "Bean definitions using indexed constructor arguments are not usable for @Autowired resolution [SPR-11019]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15647",
+                        "createdAt": "2013-10-22T09:04:40Z",
+                        "closedAt": "2013-10-31T12:27:54Z"
+                    },
+                    {
+                        "title": "Random retry(?) behavior with <task:scheduled-tasks> [SPR-11020]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15648",
+                        "createdAt": "2013-10-22T09:43:35Z",
+                        "closedAt": "2019-01-12T00:21:39Z"
+                    },
+                    {
+                        "title": "SpEl can not parse Long [SPR-11021]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15649",
+                        "createdAt": "2013-10-23T06:27:02Z",
+                        "closedAt": "2019-01-12T00:21:36Z"
+                    },
+                    {
+                        "title": "Race condition in AutowiredAnnotationBeanPostProcessor [SPR-11022]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15650",
+                        "createdAt": "2013-10-23T07:18:39Z",
+                        "closedAt": "2013-10-23T14:27:01Z"
+                    },
+                    {
+                        "title": "Document how websocket server implementations should be configured by users to limit message size [SPR-11023]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15651",
+                        "createdAt": "2013-10-23T08:59:38Z",
+                        "closedAt": "2014-01-28T13:07:16Z"
+                    },
+                    {
+                        "title": "Support class-level mappings via @MessageMapping or @SubscribeEvent [SPR-11024]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15652",
+                        "createdAt": "2013-10-23T09:16:35Z",
+                        "closedAt": "2013-10-31T12:27:58Z"
+                    },
+                    {
+                        "title": "ConfigurationClass.validate() should allow for overloading in general or not at all [SPR-11025]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15653",
+                        "createdAt": "2013-10-23T12:33:57Z",
+                        "closedAt": "2014-04-24T06:46:27Z"
+                    },
+                    {
+                        "title": "ConcurrentModificationException in AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors [SPR-11026]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15654",
+                        "createdAt": "2013-10-23T14:22:52Z",
+                        "closedAt": "2018-12-24T17:27:00Z"
+                    },
+                    {
+                        "title": "@Autowired setter randomly called twice or not called at all when two beans of the same class [SPR-11027]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15655",
+                        "createdAt": "2013-10-24T04:27:10Z",
+                        "closedAt": "2013-11-06T07:01:55Z"
+                    },
+                    {
+                        "title": "groovy-all should not be a mandatory dependency [SPR-11028]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15656",
+                        "createdAt": "2013-10-25T06:47:28Z",
+                        "closedAt": "2013-10-31T12:28:03Z"
+                    },
+                    {
+                        "title": "ExtendedEntityManagerCreator and custom EntityManagerPlusOperations [SPR-11029]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15657",
+                        "createdAt": "2013-10-25T07:16:29Z",
+                        "closedAt": "2013-11-05T08:04:41Z"
+                    },
+                    {
+                        "title": "Potential NPE on result of GenericTypeResolver.resolveTypeArguments [SPR-11030]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15658",
+                        "createdAt": "2013-10-25T08:19:11Z",
+                        "closedAt": "2013-10-31T12:27:52Z"
+                    },
+                    {
+                        "title": "PropertyOrFieldReference suffers from potential NullPointerException [SPR-11031]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15659",
+                        "createdAt": "2013-10-25T11:39:02Z",
+                        "closedAt": "2014-01-28T01:01:50Z"
+                    },
+                    {
+                        "title": "Methods in AnnotationConfigUtils.processCommonDefinitionAnnotations(…) should be public [SPR-11032]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15660",
+                        "createdAt": "2013-10-25T14:23:34Z",
+                        "closedAt": "2013-10-31T12:27:58Z"
+                    },
+                    {
+                        "title": "JSR-250 annotations (@PostConstruct) not observed on @Configuration classes [SPR-11033]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15661",
+                        "createdAt": "2013-10-26T02:51:29Z",
+                        "closedAt": "2019-01-12T00:21:33Z"
+                    },
+                    {
+                        "title": "NPE in ResolvableType.hasUnresolvableGenerics [SPR-11034]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15662",
+                        "createdAt": "2013-10-26T08:50:07Z",
+                        "closedAt": "2013-10-31T12:27:52Z"
+                    },
+                    {
+                        "title": "Change default charset for StringHttpMessageConverter to UTF-8 [SPR-11035]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15663",
+                        "createdAt": "2013-10-28T03:22:04Z",
+                        "closedAt": "2014-10-31T15:04:53Z"
+                    },
+                    {
+                        "title": "MatrixVariables do not work [SPR-11036]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15664",
+                        "createdAt": "2013-10-28T04:11:43Z",
+                        "closedAt": "2014-01-21T01:23:17Z"
+                    },
+                    {
+                        "title": "Invalid JSF FacesContext and ExternalContext injected into non request scoped bean [SPR-11037]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15665",
+                        "createdAt": "2013-10-28T05:37:13Z",
+                        "closedAt": "2019-01-12T00:21:30Z"
+                    },
+                    {
+                        "title": "Support meta-annotation attribute overrides in the TestContext framework [SPR-11038]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15666",
+                        "createdAt": "2013-10-28T06:13:04Z",
+                        "closedAt": "2014-02-22T06:51:15Z"
+                    },
+                    {
+                        "title": "Spring doesn't parse jndi variables default values to match the expected-type [SPR-11039]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15667",
+                        "createdAt": "2013-10-28T07:52:06Z",
+                        "closedAt": "2013-11-06T22:51:36Z"
+                    },
+                    {
+                        "title": "Auto-registration of modules (in particular JSR-310 and Joda-Time support) in Jackson's ObjectMapper [SPR-11040]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15668",
+                        "createdAt": "2013-10-28T08:04:48Z",
+                        "closedAt": "2014-01-28T13:07:18Z"
+                    },
+                    {
+                        "title": "meet infinite loop when using async controller [SPR-11041]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15669",
+                        "createdAt": "2013-10-29T08:10:04Z",
+                        "closedAt": "2013-11-06T06:35:20Z"
+                    },
+                    {
+                        "title": "Avoid unnecessary char[] allocation in NamedParameterUtils [SPR-11042]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15670",
+                        "createdAt": "2013-10-29T14:23:00Z",
+                        "closedAt": "2013-11-06T22:51:35Z"
+                    },
+                    {
+                        "title": "MockHttpServletRequestBuilder not handling parameter without value [SPR-11043]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15671",
+                        "createdAt": "2013-10-30T01:29:19Z",
+                        "closedAt": "2013-11-06T22:51:34Z"
+                    },
+                    {
+                        "title": "ResolvableType can throw NPE when resolving Generic Arrays [SPR-11044]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15672",
+                        "createdAt": "2013-10-30T07:46:18Z",
+                        "closedAt": "2013-10-31T12:27:50Z"
+                    },
+                    {
+                        "title": "Unable to autowire concrete classes when java config methods return interface [SPR-11046]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15673",
+                        "createdAt": "2013-10-30T08:49:17Z",
+                        "closedAt": "2016-11-29T12:00:03Z"
+                    },
+                    {
+                        "title": "URLs not decoded properly [SPR-11047]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15674",
+                        "createdAt": "2013-10-30T09:20:17Z",
+                        "closedAt": "2018-05-22T14:28:29Z"
+                    },
+                    {
+                        "title": "NPE in MatchAlwaysTransactionAttributeSource [SPR-11048]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15675",
+                        "createdAt": "2013-10-30T22:14:29Z",
+                        "closedAt": "2013-10-31T12:27:51Z"
+                    },
+                    {
+                        "title": "Cannot create MockHttpSession with servlet 2.x [SPR-11049]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15676",
+                        "createdAt": "2013-10-31T01:54:57Z",
+                        "closedAt": "2014-01-07T10:43:35Z"
+                    },
+                    {
+                        "title": "Spring web depends on a beta release of Apache HTTP Client [SPR-11050]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15677",
+                        "createdAt": "2013-10-31T02:55:57Z",
+                        "closedAt": "2013-10-31T12:28:02Z"
+                    },
+                    {
+                        "title": "FactoryBean with constructor-arg placeholder in XML cannot be resolved if ApplicationContext is required for creating placeholder configuration [SPR-11051]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15678",
+                        "createdAt": "2013-10-31T05:28:31Z",
+                        "closedAt": "2019-01-12T00:21:27Z"
+                    },
+                    {
+                        "title": "GenericTypeResolver.resolveTypeArguments(…) returns Object for raw types [SPR-11052]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15679",
+                        "createdAt": "2013-10-31T06:13:10Z",
+                        "closedAt": "2014-05-06T08:39:49Z"
+                    },
+                    {
+                        "title": "HttpComponentsClientHttpRequestFactory method signature changes prevent user code from supporting Spring 3 and Spring 4 simultaneously [SPR-11053]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15680",
+                        "createdAt": "2013-10-31T07:43:48Z",
+                        "closedAt": "2013-10-31T12:28:06Z"
+                    },
+                    {
+                        "title": "Controller beans defined outside of dispatcher-servlet.xml don't get picked up [SPR-11054]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15681",
+                        "createdAt": "2013-10-31T11:23:30Z",
+                        "closedAt": "2013-11-01T07:04:41Z"
+                    },
+                    {
+                        "title": "Enable REST controller method parameter annotations on an interface [SPR-11055]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15682",
+                        "createdAt": "2013-10-31T23:41:04Z",
+                        "closedAt": "2019-01-07T17:25:39Z"
+                    },
+                    {
+                        "title": "Impossible to customise Hibernate RegionFactory [SPR-11056]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15683",
+                        "createdAt": "2013-11-01T08:19:50Z",
+                        "closedAt": "2018-07-15T21:23:29Z"
+                    },
+                    {
+                        "title": "SpEL Documentation Incorrectly Says +/- is Supported on Date [SPR-11057]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15684",
+                        "createdAt": "2013-11-02T07:53:26Z",
+                        "closedAt": "2013-12-03T15:15:30Z"
+                    },
+                    {
+                        "title": "Websocket connection fails with /websocket Stomp Endpoint [SPR-11058]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15685",
+                        "createdAt": "2013-11-02T19:44:16Z",
+                        "closedAt": "2013-12-03T15:15:34Z"
+                    },
+                    {
+                        "title": "Bad input type when calling processFieldValue for hiddens generated for checkboxes [SPR-11059]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15686",
+                        "createdAt": "2013-11-02T20:18:31Z",
+                        "closedAt": "2019-01-12T00:21:24Z"
+                    },
+                    {
+                        "title": "Converting non-String objects into models [SPR-11060]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15687",
+                        "createdAt": "2013-11-02T21:37:19Z",
+                        "closedAt": "2019-01-12T00:21:21Z"
+                    },
+                    {
+                        "title": "Add org.springframework.cache.Cache.get(key, type) [SPR-11061]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15688",
+                        "createdAt": "2013-11-04T04:10:52Z",
+                        "closedAt": "2014-03-21T05:16:15Z"
+                    },
+                    {
+                        "title": "Shared @Configuration exception with multi-threaded Tomcat deployment [SPR-11062]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15689",
+                        "createdAt": "2013-11-04T06:08:16Z",
+                        "closedAt": "2019-01-12T00:21:19Z"
+                    },
+                    {
+                        "title": "Provide XML Namespace for Configuring WebSocket and STOMP [SPR-11063]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15690",
+                        "createdAt": "2013-11-04T07:42:48Z",
+                        "closedAt": "2013-12-03T15:15:36Z"
+                    },
+                    {
+                        "title": "Fix remaining compiler warnings and fail build if they return [SPR-11064]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15691",
+                        "createdAt": "2013-11-04T08:14:55Z",
+                        "closedAt": "2016-09-11T19:01:04Z"
+                    },
+                    {
+                        "title": "Replace SubscribableChannel with AbstractSubscribableChannel in WebSocketMessageBrokerConfigurationSupport [SPR-11065]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15692",
+                        "createdAt": "2013-11-04T11:23:12Z",
+                        "closedAt": "2013-12-03T15:15:30Z"
+                    },
+                    {
+                        "title": "SpEL: Union operator [SPR-11066]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15693",
+                        "createdAt": "2013-11-04T12:26:09Z",
+                        "closedAt": "2019-01-12T00:21:16Z"
+                    },
+                    {
+                        "title": "Support JCA 1.7 [SPR-11067]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15694",
+                        "createdAt": "2013-11-04T14:12:42Z",
+                        "closedAt": "2013-12-03T15:15:36Z"
+                    },
+                    {
+                        "title": "ClasspathXmlApplicationContext does not inherit/merge parent context environment [SPR-11068]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15695",
+                        "createdAt": "2013-11-05T03:22:43Z",
+                        "closedAt": "2013-11-07T04:50:38Z"
+                    },
+                    {
+                        "title": "Add BeanFactory.getBeanNamesWithAnnotation(Class<?>, boolean, boolean) for parity with getBeansOfType(...) [SPR-11069]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15696",
+                        "createdAt": "2013-11-05T04:16:15Z",
+                        "closedAt": "2013-12-03T15:15:32Z"
+                    },
+                    {
+                        "title": "ExceptionHandlerExceptionResolver should loop over all @ControllerAdvice beans to find The @ExceptionHandler [SPR-11070]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15697",
+                        "createdAt": "2013-11-06T00:30:30Z",
+                        "closedAt": "2014-03-17T05:25:36Z"
+                    },
+                    {
+                        "title": "spring boot tests & logging overriding managed version [SPR-11071]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15698",
+                        "createdAt": "2013-11-06T03:08:31Z",
+                        "closedAt": "2013-11-07T15:36:04Z"
+                    },
+                    {
+                        "title": "In location attribute of <context:property-placeholder /> SpEL expressions are not evaulated [SPR-11072]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15699",
+                        "createdAt": "2013-11-06T04:19:59Z",
+                        "closedAt": "2019-01-12T00:21:13Z"
+                    },
+                    {
+                        "title": "Servlet 3 multipart parameter binding does not work on Weblogic12c (12.1.2.0) [SPR-11074]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15700",
+                        "createdAt": "2013-11-06T09:57:21Z",
+                        "closedAt": "2015-11-17T00:30:17Z"
+                    },
+                    {
+                        "title": "Unable to override non-JavaConfig beans in JavaConfig [SPR-11075]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15701",
+                        "createdAt": "2013-11-06T13:20:53Z",
+                        "closedAt": "2019-01-12T00:21:10Z"
+                    },
+                    {
+                        "title": "Use StoredProcedure to call sp, if not set the rowmapper for out parameter which type is cursor, will throw null pointer exception [SPR-11076]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15702",
+                        "createdAt": "2013-11-07T01:56:43Z",
+                        "closedAt": "2013-12-11T23:57:17Z"
+                    },
+                    {
+                        "title": "Improve process of subscribing to a user/session-specific STOMP destination [SPR-11077]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15703",
+                        "createdAt": "2013-11-07T06:58:14Z",
+                        "closedAt": "2013-12-03T15:15:35Z"
+                    },
+                    {
+                        "title": "Disable the processing of external entities in SourceHttpMessageConverter by default [SPR-11078]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15704",
+                        "createdAt": "2013-11-07T09:24:19Z",
+                        "closedAt": "2014-07-28T06:33:29Z"
+                    },
+                    {
+                        "title": "JavaConfig Bean overriding succeed unexpectedly with @Configuration overriding [SPR-11079]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15705",
+                        "createdAt": "2013-11-08T07:29:37Z",
+                        "closedAt": "2018-08-26T20:37:04Z"
+                    },
+                    {
+                        "title": "EhCacheFactoryBean fails when statistics are enabled [SPR-11080]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15706",
+                        "createdAt": "2013-11-10T23:30:48Z",
+                        "closedAt": "2013-12-03T15:15:35Z"
+                    },
+                    {
+                        "title": "HandlerInterceptor.postHandle() not called when handler throws exception [SPR-11081]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15707",
+                        "createdAt": "2013-11-11T03:06:13Z",
+                        "closedAt": "2018-12-05T14:49:54Z"
+                    },
+                    {
+                        "title": "@RequestMapping with URI Template can't match URL encoded non-ASCII characters. [SPR-11082]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15708",
+                        "createdAt": "2013-11-11T05:37:40Z",
+                        "closedAt": "2014-07-02T06:59:08Z"
+                    },
+                    {
+                        "title": "Allow InstrumentationSavingAgent for usage with Attach API [SPR-11083]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15709",
+                        "createdAt": "2013-11-11T06:56:29Z",
+                        "closedAt": "2013-12-03T15:15:36Z"
+                    },
+                    {
+                        "title": "Can't build project using gradlew on Windows 7 x64 [SPR-11084]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15710",
+                        "createdAt": "2013-11-11T10:37:30Z",
+                        "closedAt": "2018-12-05T14:44:57Z"
+                    },
+                    {
+                        "title": "Add support for default prefix in @SendTo and @SendToUser annotations [SPR-11085]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15711",
+                        "createdAt": "2013-11-11T13:34:44Z",
+                        "closedAt": "2013-12-03T15:15:36Z"
+                    },
+                    {
+                        "title": "@PropertySources fails on JDK 7 due to @Repeatable [SPR-11086]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15712",
+                        "createdAt": "2013-11-11T17:49:36Z",
+                        "closedAt": "2018-03-12T10:43:24Z"
+                    },
+                    {
+                        "title": "Fix broken javadoc links [SPR-11087]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15713",
+                        "createdAt": "2013-11-11T17:52:55Z",
+                        "closedAt": "2013-12-03T15:15:31Z"
+                    },
+                    {
+                        "title": "Connection to STOMP broker closed after a few successful messages are read [SPR-11088]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15714",
+                        "createdAt": "2013-11-12T17:32:48Z",
+                        "closedAt": "2013-12-03T15:15:34Z"
+                    },
+                    {
+                        "title": "Download docs for offline access [SPR-11089]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15715",
+                        "createdAt": "2013-11-12T17:46:00Z",
+                        "closedAt": "2013-12-08T16:38:04Z"
+                    },
+                    {
+                        "title": "Spring annotation/JavaConfig throws NullPointerException when cyclic dependency, should inform the cyclic condition [SPR-11090]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15716",
+                        "createdAt": "2013-11-13T01:37:01Z",
+                        "closedAt": "2018-12-26T08:56:44Z"
+                    },
+                    {
+                        "title": "ClassPathScanningCandidateComponentProvider.findCandidateComponents fails on private meta-attributes [SPR-11091]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15717",
+                        "createdAt": "2013-11-13T16:23:17Z",
+                        "closedAt": "2016-05-30T18:20:49Z"
+                    },
+                    {
+                        "title": "Set statistics enabled for EhCache [SPR-11092]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15718",
+                        "createdAt": "2013-11-14T02:28:23Z",
+                        "closedAt": "2013-12-03T15:15:32Z"
+                    },
+                    {
+                        "title": "If the !profile selector is used the other profiles can be ignored in <beans profile=\"!foo,bar\"/> [SPR-11093]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15719",
+                        "createdAt": "2013-11-14T02:41:26Z",
+                        "closedAt": "2013-12-11T23:57:19Z"
+                    },
+                    {
+                        "title": "Compatibility with GlassFish 4.1 and Tyrus 1.8 (WebSocket 1.1) [SPR-11094]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15720",
+                        "createdAt": "2013-11-15T09:12:46Z",
+                        "closedAt": "2014-08-19T12:53:48Z"
+                    },
+                    {
+                        "title": "spring 3.2.5 jmx exception when create MBeans [SPR-11095]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/15721",
+                        "createdAt": "2013-11-17T07:27:07Z",
+                        "closedAt": "2019-01-12T00:21:07Z"
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOF7t70A==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

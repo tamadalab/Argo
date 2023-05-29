@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Tax Changes","2012-4/12","2012-4/12","2012-4/12",True,"2012-4/12",2,834,362
+"Product Bundle Changes","2012-5/10","2012-5/10","2012-5/10",True,"2012-5/10",1,390,0
+"Catalog refactor","2012-6/18","2012-6/18","2012-6/18",False,"null",2,1104,1187
+"Promo code","2012-6/25","2012-6/25","2012-6/25",True,"2012-6/25",3,102,6
+"Added @Type annotation to string blobs, this fixes an issue with postgresql","2012-7/19","2012-7/19","2012-7/19",True,"2012-7/19",3,4,0
+"Updated TCS branch to Spring 3.1.","2012-7/26","2012-8/26","2012-7/26",True,"2012-8/26",2,600,144
+"Fix error in MediaImpl#equals when altText and title do not match","2012-8/21","2012-8/21","2012-8/21",False,"null",10,49115,59061
+"added names to resource annotations in core and admin that did not have them","2012-8/21","2012-8/21","2012-8/21",True,"2012-8/21",2,7,7
+"Fix error in MediaImpl#equals when altText and title do not match","2012-8/21","2012-8/21","2012-8/21",False,"null",2,2,2
+"A couple of small fixes to the categoriesProcessor","2012-8/21","2012-8/21","2012-8/21",True,"2012-8/21",2,9,4
+"updated entity configuration to load entity configurations in the proper order","2012-9/7","2012-9/7","2012-9/7",False,"null",2,7,6
+"added @Transactional to necessary methods in the customerPaymentService","2012-10/11","2012-10/11","2012-10/11",True,"2012-10/11",2,4,0
+"fixed issue where checking an existing password would fail when using a password encoder","2012-10/18","2012-10/18","2012-10/18",True,"2012-10/18",2,7,1
+"[BLC-701] fixed duplicate CacheManager instantiation","2012-10/19","2012-10/19","2012-10/19",True,"2012-10/19",2,36,22
+"Blc 2.1 patch 10 26 2012","2012-10/26","2012-10/26","2012-10/26",True,"2012-10/26",2,5,2
+"Blc 2.1 patch 2012 10 31","2012-10/31","2012-11/31","2012-10/31",True,"2012-11/31",2,63,22
+"fixed null pointer exception in view resolver when BroadleafRequestContext is null","2012-11/6","2012-11/6","2012-11/6",True,"2012-11/6",2,11,5
+"cherry picked commit e81943508dfb1bb8a856bea5e5ff3a84a1fda9bd from 2.2 b...","2012-11/14","2012-11/14","2012-11/14",True,"2012-11/14",2,279,24
+"remove page parameter instead of setting it to 1","2012-11/28","2012-11/28","2012-11/28",True,"2012-11/28",2,3,3
+"Blc 2.1 patch 2012 12 03","2012-12/3","2012-12/3","2012-12/3",False,"null",2,6,17
+"Unit Tests For DateUtil","2012-12/18","2013-9/18","2012-12/18",False,"null",3,169,0
+"Precision And Rounding Unit Tests For Money Class","2012-12/21","2013-9/21","2012-12/21",False,"null",2,376,0
+"Add README To Project","2012-12/24","2013-6/24","2012-12/24",False,"null",3,17,0
+"Money Arithmetic Unit Tests","2012-12/24","2013-9/24","2012-12/24",False,"null",2,305,0
+"modify members (ratingSummaryDao and reviewDetailDao) from private to pr...","2013-1/10","2013-1/10","2013-1/10",True,"2013-1/10",2,2,2
+"extended serializable interface on amount item interface, this fixes an ...","2013-1/17","2013-1/17","2013-1/17",True,"2013-1/17",2,2,1
+"Fix admin issue when you select an order item","2013-1/18","2013-1/18","2013-1/18",True,"2013-1/18",2,3,1
+"Adding more PaymentInfoAddtionalFieldTypes for use with third party paym...","2013-1/22","2013-1/22","2013-1/22",True,"2013-1/22",2,4,0
+"Added some PaymentInfoAdditionalFieldTypes that can be used for multiple...","2013-1/28","2013-1/28","2013-1/28",True,"2013-1/28",2,7,1
+"Refactor the servlet filter logic to more generic web processors","2013-1/29","2013-2/29","2013-1/29",False,"null",10,27251,7428
+"Take quantity into account when calculating banded fulfillment option pricing","2013-1/30","2013-1/30","2013-1/30",False,"null",2,1,1
+"removed cascading when persisting CustomerRole","2013-3/8","2013-3/8","2013-3/8",True,"2013-3/8",2,2,2
+"added ability to override default thymleaf layout via request attribute","2013-3/13","2013-3/13","2013-3/13",False,"null",3,9,4
+"Making Workflows Better","2013-3/26","2013-4/26","2013-3/26",True,"2013-4/26",1,1175,569
+"Provide ability to server Static Assets from the File System","2013-3/29","2013-4/29","2013-3/29",True,"2013-4/29",1,776,177
+"Fix JIRA BLC-864 Wrong friendlyType in FulfillmentType","2013-4/3","2013-4/3","2013-4/3",True,"2013-4/3",2,1,1
+"Delete SandBoxConnection","2013-4/4","2013-4/4","2013-4/4",False,"null",3,0,274
+"Delete unnecessary m2e lifecycle-mapping","2013-4/4","2013-4/4","2013-4/4",True,"2013-4/4",4,0,41
+"Fixed bug that prevented users from saving media to categories when you ...","2013-4/10","2013-4/10","2013-4/10",False,"null",2,17,6
+"BLC-867 use springframework utility to get all inherited interfaces when...","2013-4/15","2013-4/15","2013-4/15",True,"2013-4/15",2,11,9
+"changed static getters and setters in controllers to be non-static gette...","2013-4/16","2013-4/16","2013-4/16",True,"2013-4/16",2,15,40
+"Removed cascading of the delete operation to billing address. Billing ad...","2013-4/17","2013-4/17","2013-4/17",True,"2013-4/17",2,19,2
+"Updated login service to allow customer logout and to reprocess the Cust...","2013-4/18","2013-4/18","2013-4/18",True,"2013-4/18",3,32,6
+"updated implementation of SandboxConnection to be compliant with java 6 ...","2013-4/19","2013-4/19","2013-4/19",True,"2013-4/19",4,167,5
+"Fix timezone JS parsing that worked only on Chrome","2013-5/1","2013-6/1","2013-5/1",False,"null",2,3,3
+"README File","2013-6/21","2013-6/21","2013-6/21",True,"2013-6/21",2,162,0
+"Remove non-existent class references from tld","2013-6/26","2013-7/26","2013-6/26",True,"2013-7/26",2,1,97
+"Fix issue #135 SkuBundleItem getDynamicSalePrice throw a ClassCastExcept...","2013-6/27","2013-6/27","2013-6/27",True,"2013-6/27",2,4,2
+"Provide a friendly redirect in the event of POST with a session reset in admin rather than a stack trace","2013-7/3","2013-7/3","2013-7/3",True,"2013-7/3",3,75,13
+"FixedPriceFulfillmentPricingProvider fixes","2013-7/3","2013-7/3","2013-7/3",False,"null",2,1,2
+"FixedPriceFulfillmentPricingProvider fixes - BroadleafCommerce-3.0.X branch","2013-7/3","2013-9/3","2013-7/3",False,"null",3,1,2
+"Adding NPE check in Translation Service Impl","2013-7/5","2013-7/5","2013-7/5",False,"null",2,7,5
+"Add ability to contribute field metadata in the admin after cache lookup","2013-7/8","2013-7/8","2013-7/8",True,"2013-7/8",2,119,2
+"New Attribute in ProductOptionValue For Image Path","2013-7/13","2013-7/13","2013-7/13",False,"null",3,32,0
+"Adding Image ProductOption Type","2013-7/14","2013-7/14","2013-7/14",False,"null",2,32,0
+"Added Data Driven Enumerations to Admin","2013-7/22","2013-7/22","2013-7/22",True,"2013-7/22",2,90,6
+"Allow to translate the delete confirmation message of an entity on admin","2013-8/2","2013-8/2","2013-8/2",True,"2013-8/2",2,2,1
+"Cascade the paymentResponseItems field","2013-8/15","2013-9/15","2013-8/15",True,"2013-9/15",4,1,1
+"Anonymous Customers can be persisted but are not resolved from the database","2013-9/12","2013-9/12","2013-9/12",True,"2013-9/12",4,298,25
+"Change to correct cache region.","2013-9/24","2013-9/24","2013-9/24",False,"null",2,1,1
+"Fixed entity cache region","2013-9/25","2013-9/25","2013-9/25",True,"2013-9/25",2,1,1
+"#427 - OrderItemQualifiers are not saved to the database","2013-10/11","2013-10/11","2013-10/11",True,"2013-10/11",2,14,0
+"Refactor to allow BLC to run without the CMS module","2013-10/14","2013-10/14","2013-10/14",True,"2013-10/14",2,509,650
+"Fix incorrect comparison causing verify fulfillment groups to fail unexp...","2013-10/17","2013-10/17","2013-10/17",True,"2013-10/17",2,1,1
+"Add CartStateRefresher and OrderEntityListener to update the current cart whenever it is saved within a single request","2013-10/18","2013-10/18","2013-10/18",True,"2013-10/18",2,187,7
+"When uploading an asset, if a filename collision is detected, the new generated name is not correct","2013-10/20","2013-10/20","2013-10/20",True,"2013-10/20",3,31,2
+"Default Parent Category is not added to All Parent Categories","2013-10/20","2014-1/20","2013-10/20",False,"null",3,76,21
+"Product is not added to All Parent Categories when the default category is associated","2013-10/20","2014-1/20","2013-10/20",False,"null",3,55,11
+"Removed task:annotation-driven element from bl-framework-applicationCont...","2013-10/22","2013-10/22","2013-10/22",True,"2013-10/22",2,0,2
+"Broadleaf commerce 3.0.x","2013-10/25","2013-10/25","2013-10/25",False,"null",4,1172,788
+"Add support for SiteMaps to framework","2013-11/1","2013-12/1","2013-11/1",False,"null",3,3792,17
+"Create a CONTRIBUTING.md for Broadleaf","2013-11/5","2013-11/5","2013-11/5",True,"2013-11/5",2,134,20
+"#436 - Use some special code to handle IE-upload scenario.","2013-11/5","2013-11/5","2013-11/5",False,"null",4,40,12
+"Upgrade Thymeleaf to latest 2.1.RELEASE Version","2013-11/5","2013-12/5","2013-11/5",True,"2013-12/5",3,58,65
+"Fix set sku on discrete order item so it doesn't through an exception in...","2013-11/14","2013-11/14","2013-11/14",True,"2013-11/14",4,2,2
+"OfferCode provides a field for max uses.  However, that field is never honored.","2013-11/18","2013-11/18","2013-11/18",True,"2013-11/18",3,853,310
+"Fix calculate subtotal without adjustments to use promotable item pricin...","2013-11/21","2013-11/21","2013-11/21",False,"null",1,3,3
+"Update setOrderSubtotalToPriceWithoutAdjustments to call calculateSubtot...","2013-11/21","2013-12/21","2013-11/21",True,"2013-12/21",2,1,9
+"Fix password encoded 2 times when updating admin user without modifying ...","2013-11/22","2013-11/22","2013-11/22",True,"2013-11/22",2,9,4
+"Fixed TODO for getter rename","2013-12/8","2013-12/8","2013-12/8",False,"null",2,3,4
+"Refactor Payment Domain and Unify Paradigms","2013-12/12","2014-1/12","2013-12/12",True,"2014-1/12",2,8755,6640
+"tested","2013-12/20","2013-12/20","2013-12/20",False,"null",2,2,0
+"Fix bug parsing out expressions for enumeration types","2014-1/10","2014-1/10","2014-1/10",True,"2014-1/10",4,10,2
+"Update GoogleAnalyticsProcessor.java","2014-2/13","2014-2/13","2014-2/13",False,"null",3,4,1
+"Update GoogleAnalyticsProcessor.java","2014-2/13","2014-2/13","2014-2/13",False,"null",3,4,1
+"Add mechanism to cache Thymeleaf templates ","2014-3/6","2014-3/6","2014-3/6",True,"2014-3/6",2,514,0
+"Closing file stream before moving file to destination","2014-3/13","2014-3/13","2014-3/13",True,"2014-3/13",4,7,19
+"Address #773 : introduces BLCSystemProperty.isWindows to determine the","2014-3/16","2014-3/16","2014-3/16",False,"null",2,58,11
+"Need ability to search / browse by Sku rather than by product","2014-4/17","2014-5/17","2014-4/17",True,"2014-5/17",4,1819,300
+"spring 4 migration","2014-4/24","2014-5/24","2014-4/24",False,"null",3,128,220
+"Introduce Row Level Security API in the Admin","2014-4/24","2014-4/24","2014-4/24",True,"2014-4/24",2,956,181
+"Replaces Google CDN with cdnjs","2014-4/26","2014-4/26","2014-4/26",True,"2014-4/26",2,1,1
+"Replaces cdnjs with jsdelivr","2014-4/30","2014-7/30","2014-4/30",False,"null",2,1,1
+"Patch to support Hibernate's @Formula - prevent ClassCastExceptions in the admin","2014-5/8","2014-5/8","2014-5/8",True,"2014-5/8",2,4,1
+"Upgrade to Spring 4.0","2014-5/22","2014-8/22","2014-5/22",True,"2014-8/22",1,773,873
+"Broadleaf commerce 3.1.x","2014-5/26","2014-5/26","2014-5/26",False,"null",8,2968,949
+"Create a Database-backed Message Source to handle Resource Bundles","2014-6/11","2014-6/11","2014-6/11",True,"2014-6/11",2,8,1
+"Made offer optional in each of the adjustment types - item, fulfillment group and order.","2014-6/16","2014-6/16","2014-6/16",True,"2014-6/16",2,40,41
+"Ensure that StructuredContent entities are properly cached","2014-6/17","2014-6/17","2014-6/17",True,"2014-6/17",3,34,15
+"Fixed GoogleUniversalAnalyticsProcessor adding order items to javascript output","2014-7/9","2014-7/9","2014-7/9",False,"null",2,2,2

@@ -1,0 +1,1315 @@
+{
+    "data": {
+        "repository": {
+            "pullRequests": {
+                "totalCount": 3927,
+                "pageInfo": {
+                    "hasNextPage": true,
+                    "endCursor": "Y3Vyc29yOnYyOpHODbsKJw=="
+                },
+                "nodes": [
+                    {
+                        "title": "SPR-17074 Replace pointless wrapping with Arrays.asList with iteration over array",
+                        "closedAt": "2018-08-02T10:07:01Z",
+                        "createdAt": "2018-08-02T09:57:05Z",
+                        "publishedAt": "2018-08-02T09:57:05Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-02T10:07:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 10,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "[DOC] Delete MockServer when using RestTemplate with MockMvc",
+                        "closedAt": "2018-08-03T07:07:05Z",
+                        "createdAt": "2018-08-02T15:37:01Z",
+                        "publishedAt": "2018-08-02T15:37:01Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-03T07:07:05Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 0,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "5.0.x",
+                        "closedAt": "2018-08-03T08:51:05Z",
+                        "createdAt": "2018-08-03T08:47:48Z",
+                        "publishedAt": "2018-08-03T08:47:48Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 24
+                        },
+                        "additions": 12464,
+                        "deletions": 9515
+                    },
+                    {
+                        "title": "SPR-17123 - Revise StringUitls.collectionToCommaDelimitedString",
+                        "closedAt": "2018-08-06T12:12:38Z",
+                        "createdAt": "2018-08-06T09:55:16Z",
+                        "publishedAt": "2018-08-06T09:55:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Polish build script",
+                        "closedAt": "2018-08-10T06:49:15Z",
+                        "createdAt": "2018-08-06T18:25:21Z",
+                        "publishedAt": "2018-08-06T18:25:21Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Add backslash escape support to containsSqlScriptDelimiters",
+                        "closedAt": "2018-08-13T12:57:58Z",
+                        "createdAt": "2018-08-06T19:56:27Z",
+                        "publishedAt": "2018-08-06T19:56:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 15,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "SPR-17133: Fix content negotiation",
+                        "closedAt": "2018-08-16T13:40:50Z",
+                        "createdAt": "2018-08-06T21:12:27Z",
+                        "publishedAt": "2018-08-06T21:12:27Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 57,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "SPR-17144 - Fix ContextPathCompositeHandler response completion",
+                        "closedAt": "2018-08-08T13:47:29Z",
+                        "createdAt": "2018-08-08T10:26:32Z",
+                        "publishedAt": "2018-08-08T10:26:32Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix typos detected by github.com/client9/misspell",
+                        "closedAt": "2018-08-08T10:50:48Z",
+                        "createdAt": "2018-08-08T10:28:41Z",
+                        "publishedAt": "2018-08-08T10:28:41Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-08T10:50:48Z",
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 42,
+                        "deletions": 42
+                    },
+                    {
+                        "title": "Polishing javadocs: IllegalStateException no longer thrown",
+                        "closedAt": "2018-08-08T13:51:06Z",
+                        "createdAt": "2018-08-08T13:48:59Z",
+                        "publishedAt": "2018-08-08T13:48:59Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-08T13:51:06Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 0,
+                        "deletions": 12
+                    },
+                    {
+                        "title": "SPR-17140 - Add method flushMessageBuffer to ConcurrentWebSocketSessionDecorator",
+                        "closedAt": "2018-08-10T13:19:13Z",
+                        "createdAt": "2018-08-10T09:08:01Z",
+                        "publishedAt": "2018-08-10T09:08:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 26,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "SPR-17170 - ObjectProvider offers ifAvailable/ifUnique variants with Function",
+                        "closedAt": "2020-05-07T09:44:47Z",
+                        "createdAt": "2018-08-13T04:11:36Z",
+                        "publishedAt": "2018-08-13T04:11:36Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 54,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Use an import instead of FQCN",
+                        "closedAt": "2018-08-13T08:23:01Z",
+                        "createdAt": "2018-08-13T08:18:19Z",
+                        "publishedAt": "2018-08-13T08:18:19Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-13T08:23:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 9,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Use an import instead of FQCN in StaxStreamXMLReader",
+                        "closedAt": "2018-08-13T08:38:24Z",
+                        "createdAt": "2018-08-13T08:36:57Z",
+                        "publishedAt": "2018-08-13T08:36:57Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-13T08:38:24Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Proxy support for Netty4ClientHttpRequestFactory",
+                        "closedAt": "2020-04-02T15:18:25Z",
+                        "createdAt": "2018-08-14T15:00:52Z",
+                        "publishedAt": "2018-08-14T15:00:52Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 17,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "SPR-17188 - Declare SmartLifecycle with default methods",
+                        "closedAt": "2018-08-16T10:09:18Z",
+                        "createdAt": "2018-08-16T01:06:48Z",
+                        "publishedAt": "2018-08-16T01:06:48Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 7,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Editing pass for the Spring Framework Reference Guide",
+                        "closedAt": "2018-08-23T08:58:32Z",
+                        "createdAt": "2018-08-16T20:49:28Z",
+                        "publishedAt": "2018-08-16T20:49:28Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2601,
+                        "deletions": 2072
+                    },
+                    {
+                        "title": "SPR-17194 - Change the type of parameters for expires and lastModified to long",
+                        "closedAt": "2018-09-05T21:30:55Z",
+                        "createdAt": "2018-08-17T16:23:43Z",
+                        "publishedAt": "2018-08-17T16:23:43Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 37,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "WIP: CaffeineCacheManager: Allow configuration of custom caches ",
+                        "closedAt": "2019-01-07T08:18:26Z",
+                        "createdAt": "2018-08-18T13:45:55Z",
+                        "publishedAt": "2018-08-18T13:45:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 58,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "SPR-17195 Fix unusable assertions in HeaderAssertions",
+                        "closedAt": "2018-08-19T13:52:39Z",
+                        "createdAt": "2018-08-19T08:17:50Z",
+                        "publishedAt": "2018-08-19T08:17:50Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 34,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix usage of deprecated functionality in docs",
+                        "closedAt": "2018-08-20T07:44:54Z",
+                        "createdAt": "2018-08-20T03:32:42Z",
+                        "publishedAt": "2018-08-20T03:32:42Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "4.3.x",
+                        "closedAt": "2018-08-21T07:07:47Z",
+                        "createdAt": "2018-08-21T04:37:06Z",
+                        "publishedAt": "2018-08-21T04:37:06Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 15
+                        },
+                        "additions": 51529,
+                        "deletions": 32914
+                    },
+                    {
+                        "title": "More defensive about bad URLs",
+                        "closedAt": "2018-08-23T07:32:42Z",
+                        "createdAt": "2018-08-22T09:44:13Z",
+                        "publishedAt": "2018-08-22T09:44:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update CONTRIBUTING.md",
+                        "closedAt": "2018-08-22T11:04:07Z",
+                        "createdAt": "2018-08-22T10:34:21Z",
+                        "publishedAt": "2018-08-22T10:34:21Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-22T11:04:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Polish",
+                        "closedAt": "2018-08-23T07:49:20Z",
+                        "createdAt": "2018-08-22T15:41:09Z",
+                        "publishedAt": "2018-08-22T15:41:09Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "SPR-17130 details in exception message",
+                        "closedAt": "2018-08-22T20:59:52Z",
+                        "createdAt": "2018-08-22T20:58:01Z",
+                        "publishedAt": "2018-08-22T20:58:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 1
+                        },
+                        "additions": 405,
+                        "deletions": 61
+                    },
+                    {
+                        "title": "Support both view and filters for Jackson 2",
+                        "closedAt": "2018-08-24T10:03:51Z",
+                        "createdAt": "2018-08-23T14:17:52Z",
+                        "publishedAt": "2018-08-23T14:17:52Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Spr-17211 - async tests refactoring",
+                        "closedAt": "2018-09-04T12:53:37Z",
+                        "createdAt": "2018-08-24T06:36:37Z",
+                        "publishedAt": "2018-08-24T06:36:37Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 143,
+                        "deletions": 62
+                    },
+                    {
+                        "title": "Editing pass for the core content",
+                        "closedAt": "2018-09-18T09:40:06Z",
+                        "createdAt": "2018-08-24T21:23:26Z",
+                        "publishedAt": "2018-08-24T21:23:26Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 12768,
+                        "deletions": 10221
+                    },
+                    {
+                        "title": "SPR-17215 - prevent instantiation of utility classes",
+                        "closedAt": "2018-08-27T13:35:01Z",
+                        "createdAt": "2018-08-26T14:42:07Z",
+                        "publishedAt": "2018-08-26T14:42:07Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-27T13:35:01Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Use String::isEmpty instead of \"\".equals(arg) when arg is not null",
+                        "closedAt": "2018-08-26T20:48:22Z",
+                        "createdAt": "2018-08-26T19:55:11Z",
+                        "publishedAt": "2018-08-26T19:55:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-08-26T20:48:22Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 13,
+                        "deletions": 13
+                    },
+                    {
+                        "title": "SPR-17219 - Use completionService to replace of ExecutorService",
+                        "closedAt": "2021-11-24T14:44:08Z",
+                        "createdAt": "2018-08-27T06:18:35Z",
+                        "publishedAt": "2018-08-27T06:18:35Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 5,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "5.0.x",
+                        "closedAt": "2018-08-29T05:05:09Z",
+                        "createdAt": "2018-08-28T17:39:07Z",
+                        "publishedAt": "2018-08-28T17:39:07Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 22
+                        },
+                        "additions": 14375,
+                        "deletions": 11294
+                    },
+                    {
+                        "title": "4.3.x",
+                        "closedAt": "2018-08-31T08:21:04Z",
+                        "createdAt": "2018-08-31T08:05:29Z",
+                        "publishedAt": "2018-08-31T08:05:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 15
+                        },
+                        "additions": 51744,
+                        "deletions": 33129
+                    },
+                    {
+                        "title": "SPR-17233 - Fix `ListBasedXMLEventReader.getElementText()`",
+                        "closedAt": "2018-09-07T10:17:03Z",
+                        "createdAt": "2018-09-01T14:36:29Z",
+                        "publishedAt": "2018-09-01T14:36:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 66,
+                        "deletions": 6
+                    },
+                    {
+                        "title": "SPR-17248 - Add API to retrieve the body of a request as a flux",
+                        "closedAt": "2019-11-08T18:27:21Z",
+                        "createdAt": "2018-09-05T17:48:35Z",
+                        "publishedAt": "2018-09-05T17:48:35Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 33,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "SPR-17223 - Support for methods that are declared in interfaces and implemented in super class",
+                        "closedAt": "2021-12-03T11:23:02Z",
+                        "createdAt": "2018-09-06T03:26:31Z",
+                        "publishedAt": "2018-09-06T03:26:31Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 17,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Add Kotlin DSL for working with MockMvc",
+                        "closedAt": "2019-03-04T17:02:16Z",
+                        "createdAt": "2018-09-06T13:06:24Z",
+                        "publishedAt": "2018-09-06T13:06:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 538,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "4.3.x",
+                        "closedAt": "2018-09-07T07:48:23Z",
+                        "createdAt": "2018-09-07T03:30:03Z",
+                        "publishedAt": "2018-09-07T03:30:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 15
+                        },
+                        "additions": 51787,
+                        "deletions": 33175
+                    },
+                    {
+                        "title": "SPR-17255 - Fix typo on javadoc",
+                        "closedAt": "2018-09-07T16:00:08Z",
+                        "createdAt": "2018-09-07T15:51:34Z",
+                        "publishedAt": "2018-09-07T15:51:34Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-07T16:00:07Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 4,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Option to create Exception response to MockRestResponseCreators",
+                        "closedAt": "2019-11-08T18:11:06Z",
+                        "createdAt": "2018-09-09T21:09:13Z",
+                        "publishedAt": "2018-09-09T21:09:13Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 6
+                        },
+                        "additions": 20,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Remove duplicate assertions in AsyncExecutionTests",
+                        "closedAt": "2018-09-11T15:19:34Z",
+                        "createdAt": "2018-09-11T14:43:58Z",
+                        "publishedAt": "2018-09-11T14:43:58Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-11T15:19:34Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 0,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Error details in RestTemplate client and server exceptions",
+                        "closedAt": "2019-11-13T14:25:04Z",
+                        "createdAt": "2018-09-11T20:31:23Z",
+                        "publishedAt": "2018-09-11T20:31:23Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 511,
+                        "deletions": 65
+                    },
+                    {
+                        "title": "Remove duplicate blank in log message of  ExecutorConfigurationSuppor…",
+                        "closedAt": "2018-09-12T19:32:44Z",
+                        "createdAt": "2018-09-12T19:17:55Z",
+                        "publishedAt": "2018-09-12T19:17:55Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-12T19:32:44Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Refactor String#replaceAll",
+                        "closedAt": "2018-09-17T11:06:36Z",
+                        "createdAt": "2018-09-16T04:57:25Z",
+                        "publishedAt": "2018-09-16T04:57:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 31,
+                        "deletions": 8
+                    },
+                    {
+                        "title": "4.0.x",
+                        "closedAt": "2018-09-18T16:48:17Z",
+                        "createdAt": "2018-09-16T10:06:39Z",
+                        "publishedAt": "2018-09-16T10:06:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 9
+                        },
+                        "additions": 17062,
+                        "deletions": 10359
+                    },
+                    {
+                        "title": "Fix DefaultHandlerExceptionResolver Javadoc comments to match behaviour",
+                        "closedAt": "2018-09-17T10:25:40Z",
+                        "createdAt": "2018-09-17T10:15:53Z",
+                        "publishedAt": "2018-09-17T10:15:53Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-17T10:25:40Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fix jdbc template error messages generation",
+                        "closedAt": "2018-09-18T15:17:49Z",
+                        "createdAt": "2018-09-18T15:10:47Z",
+                        "publishedAt": "2018-09-18T15:10:47Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-18T15:17:49Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "#SPR-17286 fix proposal",
+                        "closedAt": "2018-09-18T19:17:01Z",
+                        "createdAt": "2018-09-18T17:32:16Z",
+                        "publishedAt": "2018-09-18T17:32:16Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 114,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "Allow configuration of Jetty WebSocket's max receive packet size",
+                        "closedAt": "2018-09-20T00:20:58Z",
+                        "createdAt": "2018-09-19T13:11:58Z",
+                        "publishedAt": "2018-09-19T13:11:58Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 9,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "Editing pass for the integration and languages chapters.",
+                        "closedAt": "2018-09-21T21:27:04Z",
+                        "createdAt": "2018-09-21T21:17:11Z",
+                        "publishedAt": "2018-09-21T21:17:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-21T21:27:04Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 3348,
+                        "deletions": 2746
+                    },
+                    {
+                        "title": "Polish Aware Javadoc",
+                        "closedAt": "2018-09-29T14:34:10Z",
+                        "createdAt": "2018-09-22T06:58:22Z",
+                        "publishedAt": "2018-09-22T06:58:22Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "SPR-17299 - Fix javadoc error",
+                        "closedAt": "2018-09-29T14:32:06Z",
+                        "createdAt": "2018-09-23T17:52:45Z",
+                        "publishedAt": "2018-09-23T17:52:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 10,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Fix trivial errors in core-beans documentation",
+                        "closedAt": "2018-09-25T18:22:45Z",
+                        "createdAt": "2018-09-25T16:56:48Z",
+                        "publishedAt": "2018-09-25T16:56:48Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Fix trivial errors in data-access and core-aop docs",
+                        "closedAt": "2018-09-30T18:29:13Z",
+                        "createdAt": "2018-09-30T18:24:40Z",
+                        "publishedAt": "2018-09-30T18:24:40Z",
+                        "merged": true,
+                        "mergedAt": "2018-09-30T18:29:13Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 22,
+                        "deletions": 21
+                    },
+                    {
+                        "title": "fixed ContentNegotiationConfigurer",
+                        "closedAt": "2018-10-01T19:47:48Z",
+                        "createdAt": "2018-10-01T16:23:11Z",
+                        "publishedAt": "2018-10-01T16:23:11Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T19:47:47Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 3,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "do you mean 'compose'?",
+                        "closedAt": "2018-10-01T19:48:03Z",
+                        "createdAt": "2018-10-01T19:28:54Z",
+                        "publishedAt": "2018-10-01T19:28:54Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T19:48:03Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "fixed further typo",
+                        "closedAt": "2018-10-01T19:48:50Z",
+                        "createdAt": "2018-10-01T19:29:39Z",
+                        "publishedAt": "2018-10-01T19:29:39Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-01T19:48:50Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "SPR-17321",
+                        "closedAt": "2018-10-02T10:18:45Z",
+                        "createdAt": "2018-10-01T20:48:55Z",
+                        "publishedAt": "2018-10-01T20:48:55Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-02T10:18:45Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 24,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Updated referenced dependency on project reactor to working version",
+                        "closedAt": "2018-10-02T08:17:41Z",
+                        "createdAt": "2018-10-02T05:11:52Z",
+                        "publishedAt": "2018-10-02T05:11:52Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Leverage ObjectProvider instead of autowired containers",
+                        "closedAt": "2018-10-03T12:17:05Z",
+                        "createdAt": "2018-10-03T09:24:48Z",
+                        "publishedAt": "2018-10-03T09:24:48Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 16,
+                        "deletions": 50
+                    },
+                    {
+                        "title": "Optimize HTTP headers parsing",
+                        "closedAt": "2018-10-11T11:06:31Z",
+                        "createdAt": "2018-10-03T19:32:25Z",
+                        "publishedAt": "2018-10-03T19:32:25Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-11T11:06:31Z",
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1238,
+                        "deletions": 87
+                    },
+                    {
+                        "title": "SPR-17338. Do not throw ServerWebInputException when mandatory request parameter is present",
+                        "closedAt": "2018-10-05T18:01:29Z",
+                        "createdAt": "2018-10-04T16:27:44Z",
+                        "publishedAt": "2018-10-04T16:27:44Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 5,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Fix formatting",
+                        "closedAt": "2018-10-05T07:22:12Z",
+                        "createdAt": "2018-10-04T17:52:49Z",
+                        "publishedAt": "2018-10-04T17:52:49Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 24,
+                        "deletions": 24
+                    },
+                    {
+                        "title": "Use custom set of beans rather than all beans for EventListener candidates",
+                        "closedAt": "2021-11-24T14:41:20Z",
+                        "createdAt": "2018-10-05T01:52:45Z",
+                        "publishedAt": "2018-10-05T01:52:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 12,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Memoized implementation of PathMatchingResourcePatternResolver",
+                        "closedAt": "2021-11-16T12:19:04Z",
+                        "createdAt": "2018-10-05T03:15:03Z",
+                        "publishedAt": "2018-10-05T03:15:03Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 239,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Fix construction of NullSafeComparator in nullsLow",
+                        "closedAt": "2018-10-05T11:20:29Z",
+                        "createdAt": "2018-10-05T11:16:34Z",
+                        "publishedAt": "2018-10-05T11:16:34Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-05T11:20:29Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Update core-beans.adoc: fix bullet list layout",
+                        "closedAt": "2018-10-07T11:47:45Z",
+                        "createdAt": "2018-10-06T18:56:02Z",
+                        "publishedAt": "2018-10-06T18:56:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "分析spring-jdbc和spring-tx事务原理",
+                        "closedAt": "2018-10-09T01:35:38Z",
+                        "createdAt": "2018-10-08T15:30:04Z",
+                        "publishedAt": "2018-10-08T15:30:04Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1684,
+                        "deletions": 1648
+                    },
+                    {
+                        "title": "SPR-16931: Unable to use Kotlin enums with @Validated beans",
+                        "closedAt": "2018-10-16T15:10:48Z",
+                        "createdAt": "2018-10-09T15:28:30Z",
+                        "publishedAt": "2018-10-09T15:28:30Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Refactor the handleNullValue method",
+                        "closedAt": "2018-10-10T08:52:18Z",
+                        "createdAt": "2018-10-09T20:55:45Z",
+                        "publishedAt": "2018-10-09T20:55:45Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 7,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "Refactor the handle null value method",
+                        "closedAt": "2018-10-11T15:53:19Z",
+                        "createdAt": "2018-10-10T13:45:05Z",
+                        "publishedAt": "2018-10-10T13:45:05Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 12,
+                        "deletions": 10
+                    },
+                    {
+                        "title": "SPR-17364 - Give timeout result supplier in DeferredResult",
+                        "closedAt": "2018-10-12T01:01:15Z",
+                        "createdAt": "2018-10-11T06:03:09Z",
+                        "publishedAt": "2018-10-11T06:03:09Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 19,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "Updated Javadoc: date format patterns SPR-17366",
+                        "closedAt": "2018-10-11T08:52:33Z",
+                        "createdAt": "2018-10-11T08:43:28Z",
+                        "publishedAt": "2018-10-11T08:43:28Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-11T08:52:33Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "Replace nested conditional with guard clauses",
+                        "closedAt": "2018-10-26T08:25:36Z",
+                        "createdAt": "2018-10-11T15:51:24Z",
+                        "publishedAt": "2018-10-11T15:51:24Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 5,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "Fix deprecated property in MBeanExporter documentation",
+                        "closedAt": "2018-10-12T14:15:58Z",
+                        "createdAt": "2018-10-12T14:05:14Z",
+                        "publishedAt": "2018-10-12T14:05:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 8,
+                        "deletions": 9
+                    },
+                    {
+                        "title": "Punctuation",
+                        "closedAt": "2018-10-13T08:44:50Z",
+                        "createdAt": "2018-10-13T07:28:26Z",
+                        "publishedAt": "2018-10-13T07:28:26Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-13T08:44:50Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Increase the preprocessing when executing asynchronous calls.",
+                        "closedAt": "2018-10-16T11:14:25Z",
+                        "createdAt": "2018-10-16T09:19:23Z",
+                        "publishedAt": "2018-10-16T09:19:23Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 46,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "SPR-17390  - Increase the preprocessing when executing asynchronous calls",
+                        "closedAt": "2018-10-18T07:23:07Z",
+                        "createdAt": "2018-10-16T11:14:46Z",
+                        "publishedAt": "2018-10-16T11:14:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 147,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "Update InvocableHandlerMethod.java",
+                        "closedAt": "2018-10-18T14:13:44Z",
+                        "createdAt": "2018-10-18T02:37:31Z",
+                        "publishedAt": "2018-10-18T02:37:31Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Adds isNotEmpty to StringUtils",
+                        "closedAt": "2018-10-19T10:02:52Z",
+                        "createdAt": "2018-10-19T09:48:54Z",
+                        "publishedAt": "2018-10-19T09:48:54Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 16,
+                        "deletions": 0
+                    },
+                    {
+                        "title": "SPR-17402: Support list in IN clause in NamedParameterJdbcTemplate.batchUpdate",
+                        "closedAt": "2018-11-20T20:58:12Z",
+                        "createdAt": "2018-10-21T14:29:39Z",
+                        "publishedAt": "2018-10-21T14:29:39Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 60,
+                        "deletions": 14
+                    },
+                    {
+                        "title": "5.0.x",
+                        "closedAt": "2018-10-25T11:30:16Z",
+                        "createdAt": "2018-10-25T11:29:25Z",
+                        "publishedAt": "2018-10-25T11:29:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 24
+                        },
+                        "additions": 16665,
+                        "deletions": 12344
+                    },
+                    {
+                        "title": "fix exception chain loss",
+                        "closedAt": "2018-10-25T12:51:00Z",
+                        "createdAt": "2018-10-25T12:29:29Z",
+                        "publishedAt": "2018-10-25T12:29:29Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "Remove unnecessary null check",
+                        "closedAt": "2018-10-26T08:17:05Z",
+                        "createdAt": "2018-10-26T01:34:18Z",
+                        "publishedAt": "2018-10-26T01:34:18Z",
+                        "merged": true,
+                        "mergedAt": "2018-10-26T08:17:05Z",
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "readme writing changes to improve readability",
+                        "closedAt": "2018-10-29T13:29:02Z",
+                        "createdAt": "2018-10-27T02:27:46Z",
+                        "publishedAt": "2018-10-27T02:27:46Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 9,
+                        "deletions": 27
+                    },
+                    {
+                        "title": "3.2.x ----build success but no xsd schema file in jar",
+                        "closedAt": "2018-10-30T08:21:22Z",
+                        "createdAt": "2018-10-30T08:18:55Z",
+                        "publishedAt": "2018-10-30T08:18:55Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 9
+                        },
+                        "additions": 30882,
+                        "deletions": 20996
+                    },
+                    {
+                        "title": "SPR-16198: Support @ModelAttribute dependencies",
+                        "closedAt": "2019-01-29T17:59:25Z",
+                        "createdAt": "2018-10-30T21:33:25Z",
+                        "publishedAt": "2018-10-30T21:33:25Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 421,
+                        "deletions": 5
+                    },
+                    {
+                        "title": "Fixes error in reference documentation",
+                        "closedAt": "2018-11-01T01:23:37Z",
+                        "createdAt": "2018-10-31T23:16:01Z",
+                        "publishedAt": "2018-10-31T23:16:01Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 2,
+                        "deletions": 2
+                    },
+                    {
+                        "title": "SPR-17456 ApplicationListenerMethodAdapter can't be removed after targetBean destroy",
+                        "closedAt": "2018-11-02T09:10:20Z",
+                        "createdAt": "2018-11-02T08:37:32Z",
+                        "publishedAt": "2018-11-02T08:37:32Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 27,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "SPR-17456 ApplicationListenerMethodAdapter can't be removed after targetBean destroy",
+                        "closedAt": null,
+                        "createdAt": "2018-11-02T09:32:38Z",
+                        "publishedAt": "2018-11-02T09:32:38Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 4
+                        },
+                        "additions": 26,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "3.2.x",
+                        "closedAt": "2018-11-03T14:17:40Z",
+                        "createdAt": "2018-11-03T14:08:14Z",
+                        "publishedAt": "2018-11-03T14:08:14Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 9
+                        },
+                        "additions": 30882,
+                        "deletions": 20996
+                    },
+                    {
+                        "title": "Optimize resource url resolving",
+                        "closedAt": "2018-12-11T11:13:12Z",
+                        "createdAt": "2018-11-04T16:40:02Z",
+                        "publishedAt": "2018-11-04T16:40:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 1,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "SPR-17458 Documentation explicit Executor usage on @Async section",
+                        "closedAt": "2018-11-06T07:33:25Z",
+                        "createdAt": "2018-11-04T21:24:19Z",
+                        "publishedAt": "2018-11-04T21:24:19Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 2
+                        },
+                        "additions": 30,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "SPR-17459 Catering for comma being part of the media/mime type as double quoted",
+                        "closedAt": "2018-11-14T04:10:28Z",
+                        "createdAt": "2018-11-06T23:07:35Z",
+                        "publishedAt": "2018-11-06T23:07:35Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 139,
+                        "deletions": 11
+                    },
+                    {
+                        "title": "Fix typo",
+                        "closedAt": "2018-11-07T06:49:21Z",
+                        "createdAt": "2018-11-07T06:43:08Z",
+                        "publishedAt": "2018-11-07T06:43:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 1
+                    },
+                    {
+                        "title": "《Spring 源码深度解析》02-容器基本实现",
+                        "closedAt": "2018-11-08T13:43:49Z",
+                        "createdAt": "2018-11-08T13:43:08Z",
+                        "publishedAt": "2018-11-08T13:43:08Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 34,
+                        "deletions": 4
+                    },
+                    {
+                        "title": "Remove implementation of serializable class",
+                        "closedAt": "2018-11-12T11:09:56Z",
+                        "createdAt": "2018-11-09T13:48:02Z",
+                        "publishedAt": "2018-11-09T13:48:02Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 3
+                    },
+                    {
+                        "title": "SPR-17486 Fix NPE in ClientRequest",
+                        "closedAt": "2018-11-12T11:07:00Z",
+                        "createdAt": "2018-11-12T11:03:42Z",
+                        "publishedAt": "2018-11-12T11:03:42Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 3
+                        },
+                        "additions": 1,
+                        "deletions": 7
+                    },
+                    {
+                        "title": "5.0.x",
+                        "closedAt": "2018-11-13T07:09:28Z",
+                        "createdAt": "2018-11-13T06:27:57Z",
+                        "publishedAt": "2018-11-13T06:27:57Z",
+                        "merged": false,
+                        "mergedAt": null,
+                        "participants": {
+                            "totalCount": 20
+                        },
+                        "additions": 17316,
+                        "deletions": 12619
+                    }
+                ]
+            }
+        }
+    }
+}

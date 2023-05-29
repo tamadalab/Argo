@@ -1,0 +1,615 @@
+{
+    "data": {
+        "repository": {
+            "issues": {
+                "totalCount": 22443,
+                "nodes": [
+                    {
+                        "title": "Invalid JSON in requests now causes 500 instead of 400",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24630",
+                        "createdAt": "2020-03-02T20:54:09Z",
+                        "closedAt": "2020-03-11T13:57:23Z"
+                    },
+                    {
+                        "title": "Revisit DataAccessException translation API",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24634",
+                        "createdAt": "2020-03-03T18:41:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ShallowETagHeaderFilter (still) overwrites ETag and Content-Length",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24635",
+                        "createdAt": "2020-03-03T20:02:44Z",
+                        "closedAt": "2020-03-04T19:29:40Z"
+                    },
+                    {
+                        "title": "addCandidateComponentsFromIndex should create ScannedGenericBeanDefinitions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24638",
+                        "createdAt": "2020-03-04T11:55:38Z",
+                        "closedAt": "2020-03-11T13:57:25Z"
+                    },
+                    {
+                        "title": "addCandidateComponentsFromIndex should create ScannedGenericBeanDefinitions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24639",
+                        "createdAt": "2020-03-04T12:06:32Z",
+                        "closedAt": "2020-03-13T22:43:30Z"
+                    },
+                    {
+                        "title": "addCandidateComponentsFromIndex should create ScannedGenericBeanDefinitions",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24640",
+                        "createdAt": "2020-03-04T12:06:59Z",
+                        "closedAt": "2020-03-13T22:52:08Z"
+                    },
+                    {
+                        "title": "Inconsistent Behaviour for @RequestParam MultiValueMap<T, T> and @RequestParam Collection<T> with Delimiter String",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24641",
+                        "createdAt": "2020-03-04T12:36:46Z",
+                        "closedAt": "2020-03-06T16:14:05Z"
+                    },
+                    {
+                        "title": "Clarify how to avoid favoring path extensions as well as deprecation warnings",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24642",
+                        "createdAt": "2020-03-04T20:06:28Z",
+                        "closedAt": "2020-04-20T13:43:39Z"
+                    },
+                    {
+                        "title": "Name of scanned @Configuration class affects @Import to work or fail",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24643",
+                        "createdAt": "2020-03-04T21:17:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "CodecException (from JSON conversion) in RestController is not mapped to 400 but 500 (SB 2.2.5 & Kotlin)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24646",
+                        "createdAt": "2020-03-03T16:27:29Z",
+                        "closedAt": "2020-03-11T13:57:24Z"
+                    },
+                    {
+                        "title": "Spring generates huge callstack for async requests",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24652",
+                        "createdAt": "2020-03-06T11:29:29Z",
+                        "closedAt": "2020-03-13T15:27:29Z"
+                    },
+                    {
+                        "title": "Experiment with aggregateJavadoc task in Spring Javadoc plugin",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24653",
+                        "createdAt": "2020-03-06T17:22:05Z",
+                        "closedAt": "2020-03-18T17:48:51Z"
+                    },
+                    {
+                        "title": "RSocket MetadataEncoder expands the routes incorrect",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24656",
+                        "createdAt": "2020-03-07T12:34:02Z",
+                        "closedAt": "2020-03-12T12:23:35Z"
+                    },
+                    {
+                        "title": "Illegal reflective access warning for interface-based lookup method injection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24657",
+                        "createdAt": "2020-03-07T18:33:11Z",
+                        "closedAt": "2020-03-26T16:30:58Z"
+                    },
+                    {
+                        "title": "spring Interceptor failure",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24659",
+                        "createdAt": "2020-03-08T10:36:13Z",
+                        "closedAt": "2020-03-10T15:47:07Z"
+                    },
+                    {
+                        "title": "How to write accesslog using RollingFileAppender in springboot embed tomcat ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24660",
+                        "createdAt": "2020-03-08T12:51:02Z",
+                        "closedAt": "2020-03-08T14:55:40Z"
+                    },
+                    {
+                        "title": "Spring JDBC Slice doesn't work",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24662",
+                        "createdAt": "2020-03-09T12:12:23Z",
+                        "closedAt": "2020-03-09T14:33:25Z"
+                    },
+                    {
+                        "title": "Ignore empty domain string in ResponseCookie",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24663",
+                        "createdAt": "2020-03-09T12:36:34Z",
+                        "closedAt": "2020-03-12T12:23:35Z"
+                    },
+                    {
+                        "title": "Short circuit check in SynthesizedMergedAnnotationInvocationHandler.isVisible()",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24664",
+                        "createdAt": "2020-03-09T14:07:28Z",
+                        "closedAt": "2020-03-11T13:57:25Z"
+                    },
+                    {
+                        "title": "HttpClientErrorException returns statuscode 500 instead of status from exception",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24665",
+                        "createdAt": "2020-03-09T14:55:38Z",
+                        "closedAt": "2020-03-11T13:54:46Z"
+                    },
+                    {
+                        "title": "@RestController exceptional response body missing for MediaTypes != json",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24670",
+                        "createdAt": "2020-03-10T10:32:14Z",
+                        "closedAt": "2020-03-10T16:27:43Z"
+                    },
+                    {
+                        "title": "MimeTypeUtils performance degradation",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24671",
+                        "createdAt": "2020-03-10T10:23:59Z",
+                        "closedAt": "2020-03-22T20:56:58Z"
+                    },
+                    {
+                        "title": "Improve efficiency of mutating of ClientHttpResponse and ServerHttpRequest ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24680",
+                        "createdAt": "2020-03-11T18:45:33Z",
+                        "closedAt": "2020-05-11T07:52:21Z"
+                    },
+                    {
+                        "title": "@DirtiesContext not honored in TestNG test suite",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24685",
+                        "createdAt": "2020-03-12T11:57:23Z",
+                        "closedAt": "2020-03-12T17:51:33Z"
+                    },
+                    {
+                        "title": "Deserializing @RequestBody with invalid datatype of json payload ends with HTTP status 500 instead of HTTP status 400 (changed behaviour observed since spring-web:5.2.4.RELEASE)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24689",
+                        "createdAt": "2020-03-13T12:47:04Z",
+                        "closedAt": "2020-03-13T15:05:10Z"
+                    },
+                    {
+                        "title": "loadtimeweaver  not work",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24690",
+                        "createdAt": "2020-03-13T13:01:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spring generates huge callstack for async requests",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24692",
+                        "createdAt": "2020-03-13T15:10:06Z",
+                        "closedAt": "2020-03-13T15:30:16Z"
+                    },
+                    {
+                        "title": "Unable to provide a custom LocaleContextResolver",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24693",
+                        "createdAt": "2020-03-13T15:17:43Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support a `RowMapper<T>` for Java record classes",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24695",
+                        "createdAt": "2020-03-14T01:42:47Z",
+                        "closedAt": "2020-08-28T16:54:22Z"
+                    },
+                    {
+                        "title": "spring-mvc:chunked responses with status 500 are damaged",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24699",
+                        "createdAt": "2020-03-14T17:22:43Z",
+                        "closedAt": "2020-03-17T21:22:53Z"
+                    },
+                    {
+                        "title": "Unable to proxy-upload large file",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24706",
+                        "createdAt": "2020-03-16T15:24:15Z",
+                        "closedAt": "2020-03-16T16:06:38Z"
+                    },
+                    {
+                        "title": "MimeTypeUtils over-occupy the cpu ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24710",
+                        "createdAt": "2020-03-17T09:41:33Z",
+                        "closedAt": "2020-03-17T15:10:14Z"
+                    },
+                    {
+                        "title": "Enhance Spring Core documentation, section 1.9.2. Using @Autowired",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24711",
+                        "createdAt": "2020-03-17T11:59:22Z",
+                        "closedAt": "2020-03-23T17:03:30Z"
+                    },
+                    {
+                        "title": "Storing JVM system properties in the Spring Environment as Properties can degrade performance due to synchronization",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24716",
+                        "createdAt": "2020-03-18T03:34:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Upgrade to Groovy 2.5.10 (for JDK 14 compatibility)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24719",
+                        "createdAt": "2020-03-18T11:11:48Z",
+                        "closedAt": "2020-03-18T11:33:10Z"
+                    },
+                    {
+                        "title": "Usage of java 14 record throws java.lang.UnsupportedOperationException: This feature requires ASM8_EXPERIMENTAL",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24722",
+                        "createdAt": "2020-03-18T13:42:47Z",
+                        "closedAt": "2020-03-23T17:03:29Z"
+                    },
+                    {
+                        "title": "Support for X-Forwarded-Prefix in Spring HATEOAS",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24723",
+                        "createdAt": "2020-03-18T14:35:17Z",
+                        "closedAt": "2020-03-19T13:29:44Z"
+                    },
+                    {
+                        "title": "Mockito cannot mock @Async method",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24724",
+                        "createdAt": "2019-07-20T09:56:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Upgrade to Reactor Dysprosium SR6",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24725",
+                        "createdAt": "2020-03-18T17:09:44Z",
+                        "closedAt": "2020-03-23T17:38:18Z"
+                    },
+                    {
+                        "title": "Upgrade to Reactor Californium SR17",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24726",
+                        "createdAt": "2020-03-18T17:10:38Z",
+                        "closedAt": "2020-03-23T15:49:00Z"
+                    },
+                    {
+                        "title": "Add toString hook for GenericMessage to let end-users obfuscate non-public information in logs",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24727",
+                        "createdAt": "2020-03-18T19:13:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Improper @AliasFor configuration now results in an exception",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24732",
+                        "createdAt": "2020-03-19T01:54:30Z",
+                        "closedAt": "2020-03-20T02:40:28Z"
+                    },
+                    {
+                        "title": "UrI path error on websphere liberty(runtimes-wlp-javaee8)",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24733",
+                        "createdAt": "2020-03-19T07:13:34Z",
+                        "closedAt": "2020-03-25T10:13:10Z"
+                    },
+                    {
+                        "title": "WebClient decodes string array as one string",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24734",
+                        "createdAt": "2020-03-19T07:50:42Z",
+                        "closedAt": "2020-03-19T11:59:23Z"
+                    },
+                    {
+                        "title": "@Spybean cannot mock apsectj @Cacheable method",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24735",
+                        "createdAt": "2020-03-08T22:19:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Clarify behavior for WebClient statusHandlers",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24736",
+                        "createdAt": "2020-03-06T11:53:06Z",
+                        "closedAt": "2020-03-20T18:03:33Z"
+                    },
+                    {
+                        "title": "[Spring-messaging] Spring Websocket incorrect message handling",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24737",
+                        "createdAt": "2020-03-19T16:13:18Z",
+                        "closedAt": "2020-03-25T17:14:44Z"
+                    },
+                    {
+                        "title": "Polish implementation of BeanDefinitionReaderUtils.generateBeanName()",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24739",
+                        "createdAt": "2020-03-20T06:36:54Z",
+                        "closedAt": "2020-03-20T18:13:56Z"
+                    },
+                    {
+                        "title": "MessagingRSocket incorrectly tries to release entire input stream on channel interaction ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24741",
+                        "createdAt": "2020-03-20T09:55:38Z",
+                        "closedAt": "2020-03-20T10:04:57Z"
+                    },
+                    {
+                        "title": "Add javadoc for ManagedAttribute elements",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24742",
+                        "createdAt": "2020-03-20T12:04:42Z",
+                        "closedAt": "2020-03-20T21:52:31Z"
+                    },
+                    {
+                        "title": "MediaTypeNotSupportedStatusException seems unused",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24743",
+                        "createdAt": "2020-03-20T13:11:17Z",
+                        "closedAt": "2020-03-23T17:03:28Z"
+                    },
+                    {
+                        "title": "Specify custom Boundary in Multipart Form request using WebClient",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24747",
+                        "createdAt": "2020-03-20T17:58:12Z",
+                        "closedAt": "2020-04-01T19:37:19Z"
+                    },
+                    {
+                        "title": "MediaTypeNotSupportedStatusException seems unused",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24748",
+                        "createdAt": "2020-03-20T22:44:52Z",
+                        "closedAt": "2020-03-24T00:06:03Z"
+                    },
+                    {
+                        "title": "MediaTypeNotSupportedStatusException seems unused",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24749",
+                        "createdAt": "2020-03-20T22:45:00Z",
+                        "closedAt": "2020-03-24T00:23:37Z"
+                    },
+                    {
+                        "title": "Missing nullability declarations for package web.socket.server.jetty",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24750",
+                        "createdAt": "2020-03-20T22:46:36Z",
+                        "closedAt": "2020-03-24T00:06:03Z"
+                    },
+                    {
+                        "title": "Missing nullability declarations for package web.socket.server.jetty",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24751",
+                        "createdAt": "2020-03-20T22:46:49Z",
+                        "closedAt": "2020-03-24T00:23:37Z"
+                    },
+                    {
+                        "title": "Implementing interface in abstract class does not expose parameter annotations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24754",
+                        "createdAt": "2020-03-21T14:31:40Z",
+                        "closedAt": "2020-03-24T00:06:03Z"
+                    },
+                    {
+                        "title": "No qualifying bean of type 'Resource' available while building in Docker",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24755",
+                        "createdAt": "2020-03-21T16:42:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Clarify name generation responsibility for PropertySourceFactory implementations",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24757",
+                        "createdAt": "2020-03-22T01:22:56Z",
+                        "closedAt": "2020-03-23T17:03:30Z"
+                    },
+                    {
+                        "title": "@Conditional bean called multiple times ",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24759",
+                        "createdAt": "2020-03-22T14:22:16Z",
+                        "closedAt": "2020-04-05T19:01:00Z"
+                    },
+                    {
+                        "title": "Provide a plaintext/data ProtocolResolver by default",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24760",
+                        "createdAt": "2020-03-22T16:46:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Prepare for Postgres JDBC driver backward incompatible change",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24761",
+                        "createdAt": "2020-03-22T16:54:28Z",
+                        "closedAt": "2020-07-19T14:19:45Z"
+                    },
+                    {
+                        "title": "Upgrade to JUnit 5.6.1",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24762",
+                        "createdAt": "2020-03-22T19:46:39Z",
+                        "closedAt": "2020-03-22T19:57:52Z"
+                    },
+                    {
+                        "title": "CorsConfiguration based on pattern matching",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24763",
+                        "createdAt": "2020-03-22T22:44:47Z",
+                        "closedAt": "2020-07-06T14:07:39Z"
+                    },
+                    {
+                        "title": "Upgrade to Dokka 0.10.1",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24764",
+                        "createdAt": "2020-03-23T11:57:20Z",
+                        "closedAt": "2020-03-23T12:03:04Z"
+                    },
+                    {
+                        "title": "CronSequenceGenerator doNext method optimization",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24765",
+                        "createdAt": "2020-03-23T12:22:39Z",
+                        "closedAt": "2020-08-04T06:55:57Z"
+                    },
+                    {
+                        "title": "Do not cache multipart mime types in MimeTypeUtils LRU cache",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24767",
+                        "createdAt": "2020-03-24T03:40:00Z",
+                        "closedAt": "2020-03-24T09:59:42Z"
+                    },
+                    {
+                        "title": "Improve MediaType parsing performance",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24769",
+                        "createdAt": "2020-03-24T10:32:07Z",
+                        "closedAt": "2020-05-13T19:42:39Z"
+                    },
+                    {
+                        "title": "@RepositoryRestResource loses pagination when entities are nested",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24770",
+                        "createdAt": "2020-03-24T14:54:58Z",
+                        "closedAt": "2020-03-24T17:21:17Z"
+                    },
+                    {
+                        "title": "Add support for using colon as a separator for custom methods",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24771",
+                        "createdAt": "2020-03-24T15:19:18Z",
+                        "closedAt": "2020-03-26T14:06:24Z"
+                    },
+                    {
+                        "title": "Using UriComponentsBuilder.cloneBuilder does not copy uriVariables",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24772",
+                        "createdAt": "2020-03-25T02:32:46Z",
+                        "closedAt": "2020-03-26T16:11:24Z"
+                    },
+                    {
+                        "title": "TransactionalTestExecutionListener Hotspot",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24775",
+                        "createdAt": "2020-03-25T07:07:44Z",
+                        "closedAt": "2020-03-26T15:32:16Z"
+                    },
+                    {
+                        "title": "Optimize sortPostProcessors() in PostProcessorRegistrationDelegate",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24776",
+                        "createdAt": "2020-03-25T08:33:52Z",
+                        "closedAt": "2020-03-26T16:34:02Z"
+                    },
+                    {
+                        "title": "Document role of views within Spring application",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24777",
+                        "createdAt": "2020-03-25T13:57:37Z",
+                        "closedAt": "2020-03-25T14:07:36Z"
+                    },
+                    {
+                        "title": "Wrap XMLStreamException in DecodingException",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24778",
+                        "createdAt": "2020-03-25T14:37:14Z",
+                        "closedAt": "2020-06-10T13:59:32Z"
+                    },
+                    {
+                        "title": "Using UriComponentsBuilder.cloneBuilder does not copy uriVariables",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24779",
+                        "createdAt": "2020-03-25T18:02:23Z",
+                        "closedAt": "2020-03-26T16:41:48Z"
+                    },
+                    {
+                        "title": "Using UriComponentsBuilder.cloneBuilder does not copy uriVariables",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24780",
+                        "createdAt": "2020-03-25T18:02:32Z",
+                        "closedAt": "2020-03-26T16:46:58Z"
+                    },
+                    {
+                        "title": "i need to know which version of gradle you are using",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24783",
+                        "createdAt": "2020-03-26T07:21:51Z",
+                        "closedAt": "2020-03-26T08:54:06Z"
+                    },
+                    {
+                        "title": "How to get the actual type when using generic injection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24784",
+                        "createdAt": "2020-03-26T08:44:00Z",
+                        "closedAt": "2020-03-26T08:54:43Z"
+                    },
+                    {
+                        "title": " webClient build url wrong when using UriBuilder [probably a bug]",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24787",
+                        "createdAt": "2020-03-26T09:57:50Z",
+                        "closedAt": "2020-03-26T10:31:39Z"
+                    },
+                    {
+                        "title": "Connection leak with WebClient retrieve().toBodilessEntity()",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24788",
+                        "createdAt": "2020-03-26T10:41:07Z",
+                        "closedAt": "2020-03-26T16:00:53Z"
+                    },
+                    {
+                        "title": "Illegal reflective access warning for interface-based lookup method injection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24791",
+                        "createdAt": "2020-03-26T13:43:41Z",
+                        "closedAt": "2020-03-26T16:34:01Z"
+                    },
+                    {
+                        "title": "AspectJ, multi-context, @Lock: no transaction is in progress",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24794",
+                        "createdAt": "2020-03-26T01:08:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": " What is the use of resolvableDependencies collection",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24797",
+                        "createdAt": "2020-03-27T04:06:24Z",
+                        "closedAt": "2020-03-27T14:22:11Z"
+                    },
+                    {
+                        "title": "Support conversion from multiple source objects to a single target object in Converter API",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24798",
+                        "createdAt": "2020-03-27T09:09:54Z",
+                        "closedAt": "2020-03-27T12:31:58Z"
+                    },
+                    {
+                        "title": "EclipseLinkJpaDialect applies per-transaction isolation level to shared DatabasePlatform",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24802",
+                        "createdAt": "2020-03-27T17:22:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Recompile spring-web with Maven",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24806",
+                        "createdAt": "2020-03-29T03:06:11Z",
+                        "closedAt": "2020-03-29T07:56:20Z"
+                    },
+                    {
+                        "title": "entityManager.createQuery() taking lot of time to build query and bind the parameters. Performance affected",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24809",
+                        "createdAt": "2020-03-29T08:22:42Z",
+                        "closedAt": "2020-03-30T09:56:56Z"
+                    },
+                    {
+                        "title": "When using \"UriComponentsBuilder\", there is a bug, is it a known issue?",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24810",
+                        "createdAt": "2020-03-29T10:59:09Z",
+                        "closedAt": "2020-03-29T17:14:43Z"
+                    },
+                    {
+                        "title": "Add support for customization of property names in validation",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24811",
+                        "createdAt": "2020-03-29T14:31:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "ImportAware",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24812",
+                        "createdAt": "2020-03-29T14:48:47Z",
+                        "closedAt": "2020-03-30T02:01:57Z"
+                    },
+                    {
+                        "title": "RestController returning JSON String producing incorrect Content-Type charset",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24813",
+                        "createdAt": "2020-03-30T08:14:56Z",
+                        "closedAt": "2020-03-30T14:13:41Z"
+                    },
+                    {
+                        "title": "Documentation: AbstractBeanDefinition.getBeanClass() vs BeanFactory.getType",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24816",
+                        "createdAt": "2020-03-30T15:02:00Z",
+                        "closedAt": "2020-04-03T19:15:31Z"
+                    },
+                    {
+                        "title": "spring-beans:compileGroovy FAILED。 Spring5.1.x",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24817",
+                        "createdAt": "2020-03-30T16:06:35Z",
+                        "closedAt": "2020-03-31T17:30:23Z"
+                    },
+                    {
+                        "title": "WebClient with reactor-netty fails to send multiple request cookies",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24819",
+                        "createdAt": "2020-03-30T20:35:10Z",
+                        "closedAt": "2020-03-31T08:31:30Z"
+                    },
+                    {
+                        "title": "Allow handling of HTTP CONNECT in WebFlux",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24820",
+                        "createdAt": "2020-03-30T21:12:54Z",
+                        "closedAt": "2020-05-11T08:42:33Z"
+                    },
+                    {
+                        "title": "spring.io can support more language for User of The world",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24821",
+                        "createdAt": "2020-03-31T06:00:53Z",
+                        "closedAt": "2020-03-31T10:47:19Z"
+                    },
+                    {
+                        "title": "ObjectProvider.ifAvailable throws exception for scoped bean without an active scope",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24822",
+                        "createdAt": "2020-03-31T09:24:20Z",
+                        "closedAt": "2020-05-13T17:26:49Z"
+                    },
+                    {
+                        "title": "Allow setting SerializationInclusion with JsonInclude.Value",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24824",
+                        "createdAt": "2020-03-31T11:37:21Z",
+                        "closedAt": "2020-05-13T11:31:43Z"
+                    },
+                    {
+                        "title": "Allow @DynamicPropertySource on non-static fields",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/24825",
+                        "createdAt": "2020-03-31T12:21:03Z",
+                        "closedAt": null
+                    }
+                ],
+                "pageInfo": {
+                    "endCursor": "Y3Vyc29yOnYyOpHOIzsFDw==",
+                    "hasNextPage": true
+                }
+            }
+        }
+    }
+}

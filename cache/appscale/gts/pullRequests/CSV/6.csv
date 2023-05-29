@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"AppScale 1.10.0 Release","2013-8/28","2013-8/28","2013-8/28",True,"2013-8/28",3,11556,378521
+"zig zag queries","2013-8/28","2013-8/28","2013-8/28",True,"2013-8/28",2,249,11
+"Changing system environment variable for Java apps","2013-8/28","2013-8/28","2013-8/28",True,"2013-8/28",2,107,0
+"Fixing nginx config writing for static files","2013-8/29","2013-8/29","2013-8/29",True,"2013-8/29",2,2,2
+"fixed typo in name of appcontroller state file","2013-8/29","2013-8/29","2013-8/29",True,"2013-8/29",2,1,1
+"always displaying text on how to upload apps, not just when help button is clicked","2013-9/3","2013-9/3","2013-9/3",True,"2013-9/3",2,8,11
+"Enable users to indicate what ports their app should run on","2013-9/3","2013-9/3","2013-9/3",True,"2013-9/3",2,388,95
+"Write same style of nginx configuration regardless of # of nodes","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,540,220
+"not displaying unknown roles on status page","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,0,2
+"allowing cloud admins to see the appconsole page for all apps, not just apps they own","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,11,5
+"Namespace queries","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,17,2
+"Fixing hash issue in zigzag queries","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,9,3
+"Port apichecker to use python27","2013-9/5","2013-9/5","2013-9/5",True,"2013-9/5",2,14,19
+"Fixing login and logout redirects now that dashboard runs on a different...","2013-9/11","2013-9/11","2013-9/11",True,"2013-9/11",2,9,8
+"using urlfetch on updated dashboard port","2013-9/12","2013-9/12","2013-9/12",True,"2013-9/12",2,1,1
+"increasing stack size for thrift to work better on ec2","2013-9/12","2013-9/12","2013-9/12",True,"2013-9/12",2,1,1
+"Apache 2.0 license","2013-9/16","2013-9/16","2013-9/16",True,"2013-9/16",2,10,31
+"removed times ten build file","2013-9/16","2013-9/16","2013-9/16",True,"2013-9/16",2,0,25
+"Multithreaded dev appserver","2013-9/16","2013-9/16","2013-9/16",True,"2013-9/16",2,1019,3609
+"updated ports that the bulkloader tries to reach the dashboard at","2013-9/17","2013-9/17","2013-9/17",True,"2013-9/17",2,3,2
+"Memcache tck fixes","2013-9/17","2013-9/17","2013-9/17",True,"2013-9/17",2,271,484
+"Removing some extra logging","2013-9/22","2013-9/22","2013-9/22",True,"2013-9/22",2,1,1
+"fixes for new memcache tck tests","2013-9/23","2013-9/23","2013-9/23",True,"2013-9/23",2,11,4
+"not letting users relocate apps to ports that the firewall has closed","2013-9/23","2013-9/23","2013-9/23",True,"2013-9/23",2,11,1
+"fixed how we do polling with samuel's patch","2013-9/23","2013-9/23","2013-9/23",True,"2013-9/23",2,2,2
+"removing nginx config at login node when we remove an app","2013-9/25","2013-9/25","2013-9/25",True,"2013-9/25",2,5,2
+"updated relocate unit tests","2013-9/25","2013-9/25","2013-9/25",True,"2013-9/25",2,6,6
+"fixed logging for python 2.7 apps, so that they get sent to the dashboard","2013-9/26","2013-9/26","2013-9/26",True,"2013-9/26",2,33,4
+"waiting 60 seconds for ssh keys to get injected on gce","2013-9/27","2013-9/27","2013-9/27",True,"2013-9/27",2,6,0
+"including lxml in search path","2013-9/27","2013-9/27","2013-9/27",True,"2013-9/27",2,3,1
+"bumped version number to 1.11.0","2013-9/28","2013-9/28","2013-9/28",True,"2013-9/28",2,52,6
+"deleting app info at the login node when we remove an app","2013-9/30","2013-9/30","2013-9/30",True,"2013-9/30",2,6,8
+"shortening down instance names to 62 characters, to please GCE","2013-9/30","2013-9/30","2013-9/30",True,"2013-9/30",2,3,1
+"AppScale 1.11.0 Release","2013-10/1","2013-10/1","2013-10/1",True,"2013-10/1",2,2654,4511
+"Using monit for system monitoring instead of god","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",2,706,374
+"Update README.md","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",1,1,1
+"fixed lxml import","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",2,1,1
+"removed link to admin console on dashboard, since only py2.5 apps have it","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",2,0,7
+"removed protobuf copy to google folder which causes path issues with two...","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",2,0,19
+"Precise upgrade","2013-10/2","2013-10/2","2013-10/2",True,"2013-10/2",3,73,133
+"Cassandra2.0.1 and Pycassa 1.9.1","2013-10/4","2013-10/4","2013-10/4",True,"2013-10/4",3,492,203
+"Connection errors","2013-10/4","2013-10/4","2013-10/4",True,"2013-10/4",3,580,253
+"Python location","2013-10/8","2013-10/8","2013-10/8",True,"2013-10/8",3,583,256
+"Blobstore fix, setting the correct redirect path","2013-10/8","2013-10/8","2013-10/8",True,"2013-10/8",3,493,215
+"Remove python25","2013-10/8","2013-10/8","2013-10/8",False,"null",1,611,426
+"Remove python25","2013-10/8","2013-10/8","2013-10/8",True,"2013-10/8",2,28,165
+"Devappserver2 blobstore implementation using datastore as the backend.","2013-10/10","2013-10/10","2013-10/10",True,"2013-10/10",2,259,170
+"added auth to flower","2013-10/10","2013-10/10","2013-10/10",True,"2013-10/10",2,1,1
+"not specifying x86_64 in glob for lxml, since that breaks on i686","2013-10/11","2013-10/11","2013-10/11",True,"2013-10/11",2,2,2
+"taking in user-specified commands to run from the tools and execing them","2013-10/13","2013-10/13","2013-10/13",True,"2013-10/13",2,42,3
+"Fixed progenitor to not use god","2013-10/14","2013-10/14","2013-10/14",True,"2013-10/14",2,8,54
+"fixed issue with using app_id wrong","2013-10/14","2013-10/14","2013-10/14",True,"2013-10/14",2,1,1
+"Reuse appserver ports","2013-10/15","2013-10/15","2013-10/15",True,"2013-10/15",2,60,16
+"refactored upload app to be asynchronous, and changed appdashboard to poll","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,151,104
+"No retry logic on dashboard helper","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,32,87
+"Automatically reviving cassandra if it fails","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,13,10
+"Revive zookeeper with monit","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,14,10
+"Nginx port file","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,42,1
+"Allow users to upload zipped App Engine apps to the AppDashboard","2013-10/16","2013-10/16","2013-10/16",True,"2013-10/16",2,37,26
+"having haproxy be started and controlled by monit","2013-10/17","2013-10/17","2013-10/17",True,"2013-10/17",2,14,3
+"using monit to monitor ejabberd","2013-10/17","2013-10/17","2013-10/17",True,"2013-10/17",2,7,2
+"Revive rabbitmq with monit","2013-10/17","2013-10/17","2013-10/17",True,"2013-10/17",2,33,22
+"Revive nginx with monit","2013-10/17","2013-10/17","2013-10/17",True,"2013-10/17",2,20,8
+"Ifconfig on non english locales","2013-10/18","2013-10/18","2013-10/18",True,"2013-10/18",2,12,8
+"shortening keys because of xmemcached max length of 250","2013-10/18","2013-10/18","2013-10/18",True,"2013-10/18",2,16,4
+"properly mocking out if nginx is running","2013-10/18","2013-10/18","2013-10/18",True,"2013-10/18",2,3,2
+"Only running haproxy on login node","2013-10/21","2013-11/21","2013-10/21",True,"2013-11/21",2,432,225
+"passing region parameter from AppController to IaasManager","2013-10/23","2013-10/23","2013-10/23",True,"2013-10/23",2,58,66
+"using morris.js to make request per second graph","2013-10/28","2013-12/28","2013-10/28",True,"2013-12/28",2,14,10
+"Nginx / haproxy port reuse","2013-10/28","2013-11/28","2013-10/28",True,"2013-11/28",2,10,88
+"Docker support","2013-10/29","2015-12/29","2013-10/29",False,"null",3,22,70
+"Monitoring app engine apps when we start them","2013-10/29","2013-10/29","2013-10/29",True,"2013-10/29",2,1,0
+"not printing users AWS secret keys when running on ec2 or euca","2013-10/30","2013-10/30","2013-10/30",True,"2013-10/30",2,0,1
+"deleting apps by keys, instead of with the actual model","2013-10/30","2013-10/30","2013-10/30",True,"2013-10/30",2,1,1
+"having dashboard update links to relocated apps","2013-10/30","2013-10/30","2013-10/30",True,"2013-10/30",2,7,0
+"Composite indexes for python","2013-10/30","2013-12/30","2013-10/30",False,"null",2,941,280
+"Properly setting nginx_https port","2013-11/1","2013-11/1","2013-11/1",True,"2013-11/1",2,2,0
+"removing whitespace that is present in config files on aws","2013-11/4","2013-11/4","2013-11/4",True,"2013-11/4",2,2,2
+"bumping log level by one in python apps to be consistent with java","2013-11/4","2013-11/4","2013-11/4",True,"2013-11/4",2,4,1
+"allowing modprobe to fail since GCE does not support it","2013-11/4","2013-11/4","2013-11/4",True,"2013-11/4",2,5,0
+"Fixed XMPP for relocated apps","2013-11/4","2013-11/4","2013-11/4",True,"2013-11/4",2,32,27
+"bumped version number to 1.12.0","2013-11/4","2013-11/4","2013-11/4",True,"2013-11/4",2,56,6
+"correctly sending over port file to all nodes","2013-11/5","2013-11/5","2013-11/5",True,"2013-11/5",2,24,3
+"removing port files when taking down appscale","2013-11/5","2013-11/5","2013-11/5",True,"2013-11/5",2,1,0
+"correctly starting nginx in cases where it is not initially running","2013-11/6","2013-11/6","2013-11/6",True,"2013-11/6",2,3,8
+"Generating kind stats now works in advanced deployments","2013-11/8","2013-11/8","2013-11/8",True,"2013-11/8",2,1,1
+"Updating GCE to use v1beta16, since v1beta15 is now deprecated","2013-11/8","2013-11/8","2013-11/8",True,"2013-11/8",2,1,1
+"Avoiding race condition on assigning to @nodes","2013-11/8","2013-11/8","2013-11/8",True,"2013-11/8",2,16,5
+"AppController no longer crashes if local IP has changed since last execution","2013-11/12","2013-12/12","2013-11/12",True,"2013-12/12",2,141,6
+"correctly detecting the EBS mount point when running on Xen PV hardware","2013-11/12","2013-11/12","2013-11/12",True,"2013-11/12",2,14,4
+"allowing root connections on celery workers","2013-11/12","2013-11/12","2013-11/12",True,"2013-11/12",2,5,1
+"Add X-Forwarded-Ssl and X-Forwarded-Proto for better SSL support","2013-11/13","2013-11/13","2013-11/13",True,"2013-11/13",2,2,0
+"Prevent malicious overwriting of x-forwarded-proto and ssl","2013-11/13","2013-11/13","2013-11/13",True,"2013-11/13",2,9,2
+"always erasing local appcontroller state when tearing appscale down","2013-11/13","2013-11/13","2013-11/13",True,"2013-11/13",2,2,2
+"Enable users to query and set AppController instance variables","2013-11/13","2013-12/13","2013-11/13",True,"2013-12/13",2,129,0
+"No longer infinitely retrying timed out SOAP calls","2013-11/14","2013-11/14","2013-11/14",True,"2013-11/14",2,29,30
+"Allowing user commands to have >> characters in them","2013-11/14","2013-12/14","2013-11/14",True,"2013-12/14",2,27,6
+"using all database peers when connecting to pycassa, instead of just localhost","2013-11/14","2013-11/14","2013-11/14",True,"2013-11/14",2,11,5
+"Making sure that zookeeper owns all folders in the zookeeper directory","2013-11/14","2013-11/14","2013-11/14",True,"2013-11/14",2,1,1
+"Use stable celery version","2013-11/18","2013-11/18","2013-11/18",True,"2013-11/18",2,2,2

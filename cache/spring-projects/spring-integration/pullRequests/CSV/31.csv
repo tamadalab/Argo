@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Update local maven install in Readme.md","2020-8/8","2020-8/8","2020-8/8",True,"2020-8/8",2,1,1
+"Addition of test that consumes message with Consumer Group.","2020-8/11","2020-8/11","2020-8/11",True,"2020-8/11",2,29,4
+"Fix JavaDoc of JmsInboundGatewaySpec","2020-8/15","2020-8/15","2020-8/15",True,"2020-8/15",3,6,6
+"GH-3367: Separate timeouts for BarrierMessageHandler","2020-8/21","2020-8/21","2020-8/21",False,"null",2,64,9
+"Fix typo in ftp.adoc","2020-8/25","2020-8/25","2020-8/25",True,"2020-8/25",2,1,1
+"GH-3376: Remove gauges on application ctx close","2020-9/9","2020-9/9","2020-9/9",True,"2020-9/9",3,143,52
+"GH-3374: Fix scan for BF propagation","2020-9/9","2020-9/9","2020-9/9",True,"2020-9/9",2,51,31
+"Fix naming in Inbound Gateway code sample","2020-9/10","2020-9/10","2020-9/10",True,"2020-9/10",3,1,1
+"GH-3370: Remove synchronized from RemoteFileUtils","2020-9/10","2020-9/10","2020-9/10",True,"2020-9/10",2,23,12
+"GH-3366: Return null from HTTP handleNoMatch","2020-9/10","2020-9/10","2020-9/10",True,"2020-9/10",2,50,16
+"GH-3366: Document HTTP request mapping limitation","2020-9/11","2020-9/11","2020-9/11",True,"2020-9/11",2,12,0
+"GH-3373: Support IPV6 in AbstractInboundFileSynch","2020-9/14","2020-9/14","2020-9/14",True,"2020-9/14",2,21,5
+"GH-3372: Expose (S)FTP remoteComparator for DSL","2020-9/14","2020-9/14","2020-9/14",True,"2020-9/14",2,18,3
+"GH-3336: Change MongoDb Store sequence to long","2020-9/14","2020-9/14","2020-9/14",True,"2020-9/14",2,38,27
+"GH-3386: Add method signature for gateway proxy","2020-9/18","2020-9/18","2020-9/18",True,"2020-9/18",2,74,62
+"INT-3045: Add in & out ZeroMq channel adapters","2020-9/22","2020-9/22","2020-9/22",True,"2020-9/22",2,1864,53
+"Fix `IntegrationReactiveUtils`","2020-9/23","2020-9/23","2020-9/23",True,"2020-9/23",2,10,2
+"GH-3306: Remove setters from registration object","2020-9/25","2020-9/25","2020-9/25",True,"2020-9/25",2,31,56
+"GH-3194: Add generics to Amqp and Jms channel impls","2020-9/25","2020-9/25","2020-9/25",True,"2020-9/25",2,51,30
+"""no"" to ""not"" typo fix","2020-9/27","2020-9/27","2020-9/27",True,"2020-9/27",2,1,1
+"GH-3395: Fix XML expression default for ARFOGateway","2020-10/2","2020-10/2","2020-10/2",True,"2020-10/2",2,52,13
+"GH-3396: Add Docs for Micrometer MeterFilters","2020-10/2","2020-10/2","2020-10/2",True,"2020-10/2",2,56,3
+"ReactiveRedisMessageProducer autoacknowledgment when set to false does not work. ","2020-10/7","2020-10/7","2020-10/7",False,"null",2,115,3
+"GH-3356: Add the way to not load mail message","2020-10/12","2020-10/12","2020-10/12",True,"2020-10/12",2,24,10
+"Add Error Handling to ReactiveRedisStreamMessageProducer","2020-10/13","2020-10/13","2020-10/13",False,"null",2,136,26
+"Fix MeterRegistry eager load","2020-10/15","2020-10/15","2020-10/15",True,"2020-10/15",2,38,24
+"Kafka Outbound Endpoints - Add futuresChannel","2020-10/15","2020-10/15","2020-10/15",True,"2020-10/15",2,194,4
+"Further Improve Kafka Test Run Time","2020-10/16","2020-10/16","2020-10/16",True,"2020-10/16",2,25,8
+"Gateway: Propagate Error to the errorChannel","2020-10/21","2020-10/21","2020-10/21",True,"2020-10/21",2,11,11
+"Get correct next execution date from the trigger","2020-10/21","2020-10/21","2020-10/21",True,"2020-10/21",2,49,4
+"Fix `@InChAdapter` for several supplier beans","2020-10/22","2020-10/22","2020-10/22",True,"2020-10/22",2,13,4
+"GH-3410: Add UDP SocketCustomizer","2020-10/22","2020-10/22","2020-10/22",True,"2020-10/22",2,192,45
+"GH-3394: Fix Redis (and some other) docs","2020-10/23","2020-10/23","2020-10/23",True,"2020-10/23",2,40,24
+"Add Java DSL for R2DBC module","2020-10/23","2020-10/23","2020-10/23",True,"2020-10/23",2,590,15
+"Redis Stream Inbound and Outbound Channel adapter documentation","2020-10/25","2020-10/25","2020-10/25",False,"null",2,695,27
+"GH-3301: Improve JMS receiveTimeout docs","2020-10/26","2020-10/26","2020-10/26",True,"2020-10/26",2,11,0
+"GH-3418: Fix Poller Undeclared Checked Exceptions","2020-10/30","2020-11/30","2020-10/30",True,"2020-11/30",2,119,2
+"Fix subscribers race condition in FluxChannel","2020-11/5","2020-11/5","2020-11/5",False,"null",1,141,159
+"Rely on `MProducerSupport.active` for `Flux`","2020-11/6","2020-11/6","2020-11/6",True,"2020-11/6",2,202,267
+"GH-3425: Remove mngmt gauges from CtxClosedEvent","2020-11/10","2020-11/10","2020-11/10",True,"2020-11/10",2,8,6
+"Fix mngmt dependency for MetricsCaptor","2020-11/10","2020-11/10","2020-11/10",True,"2020-11/10",2,18,4
+"GH-3434: Optimize `unlinkAvailable` in Redis","2020-12/1","2020-12/1","2020-12/1",True,"2020-12/1",2,35,25
+"GH-3438: Add Build from Source into CONTRIBUTING","2020-12/7","2020-12/7","2020-12/7",True,"2020-12/7",3,73,8
+"More GH Actions goodies","2020-12/8","2020-12/8","2020-12/8",True,"2020-12/8",2,70,67
+"spring-projects#3445 IllegalMonitorStateException during JdbcLock.unlock","2020-12/21","2020-12/21","2020-12/21",False,"null",2,138,13
+"Subscribe to Publisher in the NullChannel","2020-12/21","2020-12/21","2020-12/21",True,"2020-12/21",2,50,5
+"Special handle for void in the RSocketOutGateway","2020-12/22","2020-12/22","2020-12/22",True,"2020-12/22",2,47,2
+"GH-3452: Warn Publisher.onError in NullChannel","2021-1/5","2021-1/5","2021-1/5",True,"2021-1/5",2,21,15
+"GH-3454: From MQTT conversion error - to error ch","2021-1/7","2021-1/7","2021-1/7",True,"2021-1/7",2,99,23
+"GH-3455: default MqttMessageConverter.toMessage","2021-1/8","2021-1/8","2021-1/8",True,"2021-1/8",2,25,23
+"GH-3455: default MqttMessConv.toMessageBuilder()","2021-1/8","2021-1/8","2021-1/8",True,"2021-1/8",2,22,14
+"GH-3450: Expose PubSub requireSubscribers option","2021-1/11","2021-1/11","2021-1/11",True,"2021-1/11",2,181,76
+"Upgrade to spring-amqp 2.3.4","2021-1/13","2021-1/13","2021-1/13",True,"2021-1/13",2,21,12
+"GH-3437: Add `MessageRecoverer` to AMQP Inbounds","2021-1/19","2021-1/19","2021-1/19",True,"2021-1/19",2,271,16
+"GH-3446: Stream support in the MessageGroupStore","2021-1/19","2021-1/19","2021-1/19",True,"2021-1/19",2,157,72
+"GH-3439: Revise error handling in RedisStreamMP","2021-1/20","2021-1/20","2021-1/20",False,"null",2,141,22
+"GH-3470: Resolve JDK8 Runtime Problem","2021-1/22","2021-1/22","2021-1/22",True,"2021-1/22",2,4,1
+"GH-3461: Readme Polishing, eclipse and build","2021-1/22","2021-1/22","2021-1/22",True,"2021-1/22",3,25,7
+"GH-3474: LambdaMPP: rethrow runtime ex as is","2021-1/25","2021-1/25","2021-1/25",True,"2021-1/25",2,43,69
+"Copy request headers when reply is not a Message","2021-1/26","2021-1/26","2021-1/26",True,"2021-1/26",2,58,25
+"GH-3477: Add DSL Docs for TCP Components","2021-1/26","2021-1/26","2021-1/26",True,"2021-1/26",2,78,0
+"GH-3473: Fix dead lock around lifecycleLock","2021-1/27","2021-1/27","2021-1/27",True,"2021-1/27",2,4,10
+"Expose `error.ignoreFailures` global property","2021-1/28","2021-1/28","2021-1/28",True,"2021-1/28",2,26,8
+"Fix maxMessagesPerPoll for reactive poll endpoint","2021-2/1","2021-2/1","2021-2/1",True,"2021-2/1",2,36,31
+"GH-3483: Fallback to RestTemplate.converters","2021-2/1","2021-2/1","2021-2/1",True,"2021-2/1",2,66,27
+"GH-3482: (S)FTP: Fix Recursive LS (ARFOG)","2021-2/1","2021-2/1","2021-2/1",True,"2021-2/1",2,116,9
+"GH-3464: Treat 0 as special for polling endpoint","2021-2/2","2021-2/2","2021-2/2",True,"2021-2/2",2,101,12
+"GH-3488: Fix Persisent Filters with Recursion","2021-2/5","2021-2/5","2021-2/5",False,"null",2,213,27
+"GH-3490: Initial Commit for block-switch Doc Plugin","2021-2/5","2021-2/5","2021-2/5",False,"null",2,331,448
+"Add MongoDbMessageSource UPDATE option","2021-2/16","2021-2/16","2021-2/16",True,"2021-2/16",2,840,449
+"JMS-in-gateway: destination to requestDestination","2021-2/16","2021-2/16","2021-2/16",True,"2021-2/16",2,169,28
+"FileInbound DSL: Add `recursive` for convenience","2021-2/16","2021-2/16","2021-2/16",True,"2021-2/16",2,64,47
+"Deprecate Properties as bean for int global props","2021-2/17","2021-2/17","2021-2/17",True,"2021-2/17",2,314,85
+"GH-3497: `ReplyProducerCleaner`: check only MPs","2021-2/22","2021-2/22","2021-2/22",True,"2021-2/22",2,6,3
+"INT-3585: JsonPropertyAccessor: skip failed parse","2021-2/24","2021-2/24","2021-2/24",True,"2021-2/24",2,35,11
+"Miscellaneous improvement for end-user experience","2021-3/3","2021-3/3","2021-3/3",True,"2021-3/3",2,47,65
+"INT-4444: Introduce `@Reactive` & `reactive()`","2021-3/5","2021-3/5","2021-3/5",True,"2021-3/5",2,448,98
+"INT-4377: aggregator groupTimeout as Date","2021-3/8","2021-3/8","2021-3/8",True,"2021-3/8",2,58,24
+"GH-3507: Fix OSDelegatingFileTailingMessageProducer filename handling issue","2021-3/11","2021-3/11","2021-3/11",False,"null",2,44,4
+"GH-3509: Register TcpSenders on wrapped connection","2021-3/12","2021-3/12","2021-3/12",False,"null",3,53,4
+"INT-4116: Introduce FileAggregator","2021-3/12","2021-3/12","2021-3/12",True,"2021-3/12",2,719,75
+"GH-3512: Update PostgreSQL priority index to match code implementation","2021-3/15","2021-3/15","2021-3/15",True,"2021-3/15",2,1,1
+"Register TcpSenders on delegated TcpConnection with interceptor instance","2021-3/16","2021-3/16","2021-3/16",False,"null",3,43,3
+"Add Publish Unit Test Results to GH Actions","2021-3/16","2021-3/16","2021-3/16",True,"2021-3/16",2,36,27
+"Introduce a `MessageGroup.condition`","2021-3/16","2021-3/16","2021-3/16",True,"2021-3/16",2,532,150
+"GH-3509: Fix Memory Leak with Intercepted TCP Conn","2021-3/17","2021-3/17","2021-3/17",True,"2021-3/17",2,135,30
+"GH-3509: Fix if test in previous commit","2021-3/17","2021-3/17","2021-3/17",True,"2021-3/17",2,5,6
+"GH-3523: TcpConnectionEvent Fixes","2021-3/23","2021-3/23","2021-3/23",True,"2021-3/23",2,159,26
+"GH-3521: Delayer: schedule release task with TX","2021-3/23","2021-3/23","2021-3/23",True,"2021-3/23",2,186,150
+"GH-3526: Fix Infinite Loop in FailoverCConnFactory","2021-3/25","2021-3/25","2021-3/25",True,"2021-3/25",2,66,17
+"GH-3529: Add HTTP & WebFlux extractResponseBody","2021-3/29","2021-3/29","2021-3/29",True,"2021-3/29",2,283,299
+"GH-3502: Make the framework compatible with Native","2021-3/30","2021-3/30","2021-3/30",True,"2021-3/30",2,266,277
+"GH-3502: More refactoring to avoid reflection","2021-4/1","2021-4/1","2021-4/1",True,"2021-4/1",2,370,306
+"Update Smack to 4.4.2","2021-4/4","2022-3/4","2021-4/4",False,"null",2,170,118
+"fixes a race condition preventing idle() to return as expected","2021-4/4","2021-4/4","2021-4/4",False,"null",2,5,31
+"GH-3520 Make TcpConnectionInterceptorSupport.getConnectionId() final","2021-4/6","2021-4/6","2021-4/6",False,"null",3,2,2
+"Get rid of `master` word","2021-4/7","2021-4/7","2021-4/7",False,"null",2,51,52
+"Rename master branch to main","2021-4/7","2021-4/7","2021-4/7",True,"2021-4/7",2,51,52
+"Properly mention Apache Kafka trademark in docs","2021-4/7","2021-4/7","2021-4/7",True,"2021-4/7",2,78,97
+"GH-3541: Properly guard when no json-path in CP","2021-4/9","2021-4/9","2021-4/9",True,"2021-4/9",2,29,17

@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Solve problems with timezones in Siri Updater module [changelog skip]","2022-5/24","2022-6/24","2022-5/24",True,"2022-6/24",6,33,9
+"Add support filterByInUse in nearest query in Transmodel API [changelog skip]","2022-5/25","2022-5/25","2022-5/25",True,"2022-5/25",3,22,4
+"Add rental networks to REST API [changelog skip]","2022-5/25","2022-5/25","2022-5/25",True,"2022-5/25",4,152,0
+"Transit model - Part 3","2022-5/25","2022-5/25","2022-5/25",True,"2022-5/25",4,1165,868
+"Added Bay Area OTP instance [changelog skip]","2022-5/26","2022-5/26","2022-5/26",True,"2022-5/26",3,1,0
+"Solve problems with via head signs [changelog skip]","2022-5/27","2022-5/27","2022-5/27",True,"2022-5/27",5,31,26
+"Refactor transit model to use enums for submodes instead of strings","2022-5/27","2022-6/27","2022-5/27",False,"null",2,271,106
+"Add Siri realtime occupancy info","2022-5/27","2022-5/27","2022-5/27",True,"2022-5/27",4,141,0
+"Return null when deserializing empty page cursor [changelog skip]","2022-5/28","2022-5/28","2022-5/28",True,"2022-5/28",4,9,1
+"Correctly clone itinerary filters of default request [changelog skip]","2022-5/30","2022-5/30","2022-5/30",True,"2022-5/30",4,43,11
+"Link boarding location centroids to platform edges only [changelog skip]","2022-5/30","2022-6/30","2022-5/30",True,"2022-6/30",5,280,159
+"Replaced TripPatterns leave unwanted Timetables [changelog skip]","2022-5/30","2022-6/30","2022-5/30",True,"2022-6/30",4,4,1
+"Include waiting time at beginning and end in TransitGeneralizedCostFilter","2022-5/31","2022-7/31","2022-5/31",True,"2022-7/31",5,215,77
+"Simplify allowed transit modes [changelog skip]","2022-5/31","2022-6/31","2022-5/31",True,"2022-6/31",5,1626,564
+"Handle new GTFS route types","2022-5/31","null","2022-5/31",False,"null",2,29,23
+"Correct English translation of 'Car Only' in debug client [changelog skip]","2022-6/1","2022-6/1","2022-6/1",True,"2022-6/1",4,729,602
+"Remove remaining traces of maxWalkDistance [changelog skip]","2022-6/1","2022-6/1","2022-6/1",True,"2022-6/1",4,3,29
+"Upgrade graphql-java to version 18","2022-6/1","2022-6/1","2022-6/1",True,"2022-6/1",3,14,13
+"Add option to discard min transfer times","2022-6/1","2022-6/1","2022-6/1",True,"2022-6/1",4,50,21
+"Refactoring SIRI StopConditions from TransitAlert to EntitySelector","2022-6/1","null","2022-6/1",False,"null",3,293,65
+"Remove barely used commons-math3 dependency and use internal java alternative [changelog skip]","2022-6/2","2022-6/2","2022-6/2",True,"2022-6/2",5,2152,1611
+"Add possibility to filter dated service journeys by replacementFor in the Transmodel API [changelog skip]","2022-6/3","2022-6/3","2022-6/3",True,"2022-6/3",5,23,0
+"Fix npe in null stop description translation [changelog skip]","2022-6/3","2022-6/3","2022-6/3",True,"2022-6/3",4,31,33
+"Update developers guide","2022-6/6","2022-6/6","2022-6/6",True,"2022-6/6",5,11,18
+"OTP2 no longer crashes on invalid GTFS stop time sequences","2022-6/8","2022-6/8","2022-6/8",True,"2022-6/8",4,3,4
+"Improve HTML message for a stop linked to an island [changelog skip]","2022-6/8","2022-6/8","2022-6/8",True,"2022-6/8",3,26,2
+"Take short transit legs into account when applying the similar legs filter [changelog skip]","2022-6/9","2022-7/9","2022-6/9",False,"null",4,863,941
+"Migrate Stop and Station entities to new transit model [changelog skip]","2022-6/10","2022-6/10","2022-6/10",True,"2022-6/10",5,3734,2358
+"Solve bug in SameFirstOrLastTripFilter [changelog skip]","2022-6/10","2022-7/10","2022-6/10",False,"null",3,24,0
+"Add debug layer just for pathways","2022-6/10","2022-7/10","2022-6/10",True,"2022-7/10",4,244,54
+"Fix geometries for frequency-based trips [changelog skip]","2022-6/13","2022-6/13","2022-6/13",True,"2022-6/13",5,52,5
+"Fix TransmodelGraphQLSchema after GraphQL lib update [changelog skip]","2022-6/13","2022-6/13","2022-6/13",True,"2022-6/13",3,33,9
+"Expose SIRI ET PredictionInaccurate in Transmodel-API","2022-6/14","2022-6/14","2022-6/14",True,"2022-6/14",4,7,3
+"Fix similar legs filter for frequency-based trips [changelog skip]","2022-6/14","2022-6/14","2022-6/14",True,"2022-6/14",4,87,16
+"Fix: NPE in PlaceAtDistanceType [changelog skip]","2022-6/14","2022-6/14","2022-6/14",True,"2022-6/14",2,3,0
+"refactor: Remove `transitFactorIndex` and `wheelchairBoarding` from RaptorTripSchedule[changelog skip]","2022-6/14","2022-6/14","2022-6/14",True,"2022-6/14",4,189,190
+"IBI accessibility score for street legs [changelog skip]","2022-6/15","2022-6/15","2022-6/15",True,"2022-6/15",4,531,220
+"Introduce TransitService [changelog skip]","2022-6/15","2022-6/15","2022-6/15",True,"2022-6/15",4,1268,798
+"refactor: Migrate JUnit 4 to JUnit 5 [changelog skip]","2022-6/16","2022-6/16","2022-6/16",True,"2022-6/16",3,696,715
+"Remove JUnit 4 [changelog skip]","2022-6/16","2022-6/16","2022-6/16",True,"2022-6/16",4,9,20
+"Do not apply walkable area processing to open platform geometries","2022-6/20","2022-6/20","2022-6/20",True,"2022-6/20",5,31,10
+"When restoring debug UI from URL, zoom to route bounds and keep selected map layer [changelog skip]","2022-6/20","2022-6/20","2022-6/20",True,"2022-6/20",3,31,16
+"Vehicle parking opening hours part 1","2022-6/21","2022-7/21","2022-6/21",True,"2022-7/21",3,1855,33
+"Fix IBI's P+R API [changelog skip]","2022-6/21","2022-6/21","2022-6/21",True,"2022-6/21",4,35,39
+"Automatically bump serialization version id","2022-6/21","2022-6/21","2022-6/21",True,"2022-6/21",5,43,8
+"Add support for groupOfLines in top level Transmodel API [changelog skip]","2022-6/22","2022-6/22","2022-6/22",True,"2022-6/22",5,85,1
+"Add support for adding alerts from multimodal parent stations","2022-6/22","2022-7/22","2022-6/22",True,"2022-7/22",5,115,190
+"Update test snapshots [changelog skip]","2022-6/22","2022-6/22","2022-6/22",True,"2022-6/22",5,3,3
+"Otp2 raptor cleanup + API for stop arrival times [changelog skip]","2022-6/22","2022-6/22","2022-6/22",True,"2022-6/22",4,1179,747
+"Implement fallback for flex place names","2022-6/23","2022-7/23","2022-6/23",True,"2022-7/23",5,174,27
+"Use label instead of title for changelog skip","2022-6/23","2022-6/23","2022-6/23",True,"2022-6/23",5,14,20
+"Add support to unprefer certain routes","2022-6/23","2022-7/23","2022-6/23",True,"2022-7/23",5,649,157
+"Reactivate snapshot test","2022-6/24","2022-6/24","2022-6/24",True,"2022-6/24",3,2734,1
+"Feature/fix belgium","2022-6/24","2022-6/24","2022-6/24",False,"null",2,42,0
+"Move fare calculation into sandbox module","2022-6/27","2022-7/27","2022-6/27",True,"2022-7/27",4,301,224
+"Add mapping layer between REST API and internal fare model","2022-6/28","2022-7/28","2022-6/28",True,"2022-7/28",3,386,70
+"Remove Ride class from DefaultFareService implementations","2022-6/28","2022-7/28","2022-6/28",True,"2022-7/28",3,205,220
+"Fix name and label for OsmBoardingLocationVertex","2022-6/30","2022-7/30","2022-6/30",True,"2022-7/30",4,10,10
+"Introduce TransitModel and StopModel","2022-6/30","2022-7/30","2022-6/30",True,"2022-7/30",4,3174,2155
+"Migrate from java.util time/date classes to java.time classes","2022-6/30","2022-7/30","2022-6/30",True,"2022-7/30",3,447,804
+"Fix filtering for frequency-based trips","2022-7/1","2022-7/1","2022-7/1",True,"2022-7/1",4,65,2
+"Fix if condition when bumping serialization id","2022-7/4","2022-7/4","2022-7/4",True,"2022-7/4",1,4,1
+"Add field 'routingErrors' to LegacyGraphQLAPI","2022-7/5","2022-7/5","2022-7/5",True,"2022-7/5",4,153,2
+"Support real-time updated wheelchair accessibility for trips","2022-7/6","2022-7/6","2022-7/6",True,"2022-7/6",4,132,7
+"Remove unused files","2022-7/6","2022-7/6","2022-7/6",True,"2022-7/6",3,0,12726
+"Remove ServiceDate and ServiceDay in favour of java.time.LocalDate","2022-7/6","2022-7/6","2022-7/6",True,"2022-7/6",4,1036,1734
+"Report better issues from shape geometry errors","2022-7/6","2022-7/6","2022-7/6",True,"2022-7/6",4,49,2
+"Move transit alert mapping to itinerary filter chain","2022-7/7","2022-7/7","2022-7/7",True,"2022-7/7",4,191,93
+"Use full seconds for A-star state","2022-7/8","2022-7/8","2022-7/8",True,"2022-7/8",3,8,12
+"Read in NeTEx geometries directly","2022-7/11","2022-7/11","2022-7/11",True,"2022-7/11",3,453,412
+"Re-add block-based interlining","2022-7/11","2022-7/11","2022-7/11",True,"2022-7/11",5,493,495
+"Encapsulate access to TransitModel/StopModel properties","2022-7/12","2022-7/12","2022-7/12",True,"2022-7/12",5,315,158
+"Add Houston fare calculator","2022-7/13","2022-7/13","2022-7/13",True,"2022-7/13",4,564,38
+"Configure idempotent upload to Google Cloud Storage","2022-7/13","2022-7/13","2022-7/13",True,"2022-7/13",5,3,2
+"Change log level of a debug log line","2022-7/14","2022-7/14","2022-7/14",True,"2022-7/14",4,2,2
+"Change log level from info to debug for RaptorRoutingRequestTransitDataCreator","2022-7/14","2022-7/14","2022-7/14",False,"null",2,2,2
+"Remove unmaintained custom fare calculators for NYC, Seattle, SF Bay Area, Netherlands","2022-7/15","2022-8/15","2022-7/15",True,"2022-8/15",5,15,520
+"Remove WrappedCurrency","2022-7/15","2022-7/15","2022-7/15",True,"2022-7/15",4,30,89
+"Fix param names in docs","2022-7/15","2022-7/15","2022-7/15",True,"2022-7/15",4,4,4
+"Make Money a record","2022-7/18","2022-7/18","2022-7/18",True,"2022-7/18",4,50,89
+"Take locale into account when serializing currency symbol","2022-7/18","2022-7/18","2022-7/18",True,"2022-7/18",4,33,36
+"Vehicle rental network whitelisting and banning for legacy API","2022-7/18","2022-7/18","2022-7/18",True,"2022-7/18",4,54,6
+"Take street legs into account when applying the similar legs filter","2022-7/19","2022-7/19","2022-7/19",True,"2022-7/19",4,1248,1090
+"Make graph time zone configurable","2022-7/19","2022-7/19","2022-7/19",True,"2022-7/19",4,333,176
+"Fix inconsistent mapping of NeTEx quay publicCode","2022-7/19","2022-7/19","2022-7/19",True,"2022-7/19",4,4,4
+"Remove ""ilegal"" dependencies in transit model","2022-7/19","2022-7/19","2022-7/19",False,"null",2,174,27
+"Remove ""ilegal"" dependencies in transit model","2022-7/19","2022-7/19","2022-7/19",True,"2022-7/19",3,447,447
+"Remove usage of gtfsCode from internal enum values","2022-7/20","2022-7/20","2022-7/20",True,"2022-7/20",3,343,259
+"refactor: Cleanup TransitModel","2022-7/20","2022-7/20","2022-7/20",True,"2022-7/20",4,98,305
+"Update Jackson to 2.13.3, fix security vulnerability","2022-7/21","2022-7/21","2022-7/21",True,"2022-7/21",4,1,1
+"Introduce a dependency injection framework - Dagger2","2022-7/21","2022-7/21","2022-7/21",True,"2022-7/21",4,678,607
+"Use correct context for type resolution","2022-7/21","2022-7/21","2022-7/21",True,"2022-7/21",5,1,1
+"Fix npe when no services for a date","2022-7/21","2022-7/21","2022-7/21",True,"2022-7/21",5,4,1
+"Use Locale.forLanguageTag for locale parsing","2022-7/21","2022-7/21","2022-7/21",True,"2022-7/21",3,20,51
+"Re-implement unpreferred agencies","2022-7/22","2022-8/22","2022-7/22",False,"null",5,207,80
+"Filter out parks with no bike/car spaces for legacy type","2022-7/25","2022-7/25","2022-7/25",True,"2022-7/25",4,27,2
+"Make it explicit when an itinerary's deletion flags are removed","2022-7/25","2022-7/25","2022-7/25",True,"2022-7/25",3,13,8
+"Allow filtering out of timeshifted itineraries with same routes and stops","2022-7/25","2022-8/25","2022-7/25",True,"2022-8/25",4,248,31
+"Include trips with skipped stops in stopTimesForPattern query","2022-7/25","2022-7/25","2022-7/25",True,"2022-7/25",4,107,1
+"Upgrade Geotools, cleanup pom","2022-7/25","2022-7/25","2022-7/25",True,"2022-7/25",4,4,9

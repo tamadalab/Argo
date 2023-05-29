@@ -1,0 +1,101 @@
+"['title']","['createdAt']","['closedAt']","['publishedAt']","['merged']","['mergedAt']","['paticipants']","['additions']","['deletions']"
+"Make `DefaultHttpHeaderMapper` Easier to Subclass","2017-5/3","2017-5/3","2017-5/3",False,"null",2,20,2
+"INT-4270: Make MessageChannels CGLib-Compatible","2017-5/4","2017-5/4","2017-5/4",False,"null",2,24,24
+"Fix `FluxMessageChannel` for multi sources","2017-5/4","2017-5/4","2017-5/4",False,"null",2,128,189
+"INT-4270: CGLib Compatibility","2017-5/4","2017-5/4","2017-5/4",True,"2017-5/4",2,251,11
+"Fix race condition in the AMQP ChannelTests","2017-5/8","2017-5/8","2017-5/8",True,"2017-5/8",2,14,9
+"Fix Race condition in the TxSyncQueueChannelTests","2017-5/8","2017-5/8","2017-5/8",False,"null",2,24,34
+"Add `MockMessageHandler` for testing framework","2017-5/8","2017-5/8","2017-5/8",False,"null",3,578,126
+"Remove Jackson imports from JacksonJsonUtils","2017-5/11","2017-5/11","2017-5/11",False,"null",2,88,42
+"INT-4272: Read Only Header Improvements","2017-5/12","2017-5/12","2017-5/12",False,"null",2,100,5
+"Test Mail Server Add CC: and BCC: Headers","2017-5/13","2017-5/13","2017-5/13",False,"null",2,49,21
+"INT-4274: Improve IntegrationFlow Lifecycle","2017-5/16","2017-5/16","2017-5/16",False,"null",2,50,22
+"INT-4275: Add IntegrationFlowContext.getRegistry","2017-5/16","2017-5/16","2017-5/16",True,"2017-5/16",2,10,0
+"INT-4252 IntegrationFlow: allow custom bean names","2017-5/16","2017-5/16","2017-5/16",False,"null",2,397,268
+"Add Bridge Java Config","2017-5/17","2017-5/17","2017-5/17",True,"2017-5/17",2,62,1
+"INT-4245: Improve ReplyProducingMHWrapper","2017-5/17","2017-5/17","2017-5/17",True,"2017-5/17",2,96,76
+"INT-4060: FTP Gateway: Add `NLST` and `workDir`","2017-5/17","2017-5/17","2017-5/17",False,"null",2,533,40
+"INT-4278: DSL: AMQP DirectMessageListenerContainer","2017-5/18","2017-5/18","2017-5/18",False,"null",2,664,477
+"INT-4255: JSON Embedded Headers Message Mapper","2017-5/21","2017-9/21","2017-5/21",False,"null",3,600,19
+"INT-4276: Selective Header Propagation","2017-5/21","2017-5/21","2017-5/21",False,"null",2,78,11
+"INT-4256: AMQP: Conversion Errors to ErrorChannel","2017-5/22","2017-5/22","2017-5/22",False,"null",2,206,72
+"INT-4166: ThreadAffinityClientConnectionFactory","2017-5/22","2017-5/22","2017-5/22",False,"null",2,831,7
+"INT-4164: TCP Support Pushback and Subclassing","2017-5/22","2017-5/22","2017-5/22",False,"null",2,911,35
+"INT-4117: File Outbound Set File Permissions","2017-5/23","2017-5/23","2017-5/23",False,"null",2,233,17
+"Improvements for `MockIntegration`","2017-5/23","2017-5/23","2017-5/23",True,"2017-5/23",2,32,24
+"INT-4002: JDBC MS Doc: DB init in the beginning","2017-5/24","2017-5/24","2017-5/24",False,"null",3,11,10
+"INT-4269: Add Stream & Flux support for Splitter","2017-5/25","2017-5/25","2017-5/25",False,"null",2,369,69
+"INT-4283: Restore Registration of Missing Comps","2017-5/29","2017-5/29","2017-5/29",True,"2017-5/29",2,57,2
+"INT-4283: MarkerFilePresentFileListFilters","2017-5/30","2017-6/30","2017-5/30",True,"2017-6/30",2,719,22
+"INT-4284: INFO about overriding readOnly headers","2017-6/2","2017-6/2","2017-6/2",True,"2017-6/2",2,67,2
+"INT-4033: Support SpEL in Gateway Timeouts","2017-6/2","2017-6/2","2017-6/2",False,"null",2,348,53
+"INT-4285: TCP: Add Elastic Raw Deserializer","2017-6/2","2017-6/2","2017-6/2",True,"2017-6/2",2,85,0
+"AMQP: Add Support for SCSt Error Handling","2017-6/3","2017-6/3","2017-6/3",False,"null",2,529,50
+"AMQP: Use ErrorMessageStrategy","2017-6/3","2017-6/3","2017-6/3",False,"null",2,2,4
+"INT-4284: Exception to overwrite id or timestamp","2017-6/6","2017-6/6","2017-6/6",False,"null",2,353,49
+"SCSt-913: Fix AMQP Inbound Retry logic","2017-6/6","2017-6/6","2017-6/6",True,"2017-6/6",2,20,9
+"INT-4288: Additional header blacklisting options for AbstractMessageProducingHandler","2017-6/6","2017-6/6","2017-6/6",False,"null",3,75,11
+"INT-4290: JacksonJsonUtils: Add trusted packages","2017-6/8","2017-6/8","2017-6/8",False,"null",2,245,5
+"INT-4284: Remove info about readOnly headers","2017-6/15","2017-6/15","2017-6/15",True,"2017-6/15",2,4,6
+"INT-4296: Fix APPEND_NO_FLUSH Timing Problem","2017-6/19","2017-6/19","2017-6/19",True,"2017-6/19",2,3,6
+"INT-4271: FWMH: Fix Race Condition with stop()","2017-6/19","2017-6/19","2017-6/19",True,"2017-6/19",2,12,6
+"INT-4295: XML Schema (Legacy) Documentation","2017-6/19","2017-6/19","2017-6/19",True,"2017-6/19",2,35,0
+"INT-4298: Add Interface HeaderPropagationAware","2017-6/19","2017-6/19","2017-6/19",False,"null",3,78,6
+"INT-4303: (S)FTP MGET with FileExistsMode.IGNORE","2017-6/23","2017-6/23","2017-6/23",False,"null",2,33,9
+"INT-4302: Add `fileExistsMode()` to Java DSL","2017-6/23","2017-6/23","2017-6/23",False,"null",2,16,1
+"INT-4304: (S)FTP Outbound Gateway Delete After GET","2017-6/23","2017-6/23","2017-6/23",False,"null",2,80,28
+"Added support for JdbcMetadataStore","2017-6/24","2017-6/24","2017-6/24",False,"null",2,505,11
+"composite filter bugfix","2017-6/26","2017-6/26","2017-6/26",False,"null",2,2,1
+"Persistent committable filter","2017-6/26","2017-6/26","2017-6/26",False,"null",1,950,11
+"Added transactional support in FileList filter","2017-6/26","2017-6/26","2017-6/26",False,"null",2,551,0
+"INT-4297: Add FileSplitter.setFirstLineAsHeader()","2017-6/26","2017-6/26","2017-6/26",False,"null",2,224,49
+"INT-4305: (S)FTP: remove localFile before rename","2017-6/27","2017-6/27","2017-6/27",False,"null",2,100,39
+"INT-4280: Add `taskScheduler()` to Java DSL","2017-6/27","2017-6/27","2017-6/27",False,"null",2,70,1
+"(S)FTP MaxFetchSize Doc Polishing and DSL","2017-6/27","2017-6/27","2017-6/27",False,"null",2,101,19
+"INT-4308: Document `JdbcMetadataStore`","2017-6/29","2017-7/29","2017-6/29",False,"null",3,122,70
+"INT-4300: Add WebFlux server support","2017-7/1","2017-7/1","2017-7/1",False,"null",4,2264,742
+"INT-4309: Http Header Mapper VarArgs Instead of []","2017-7/4","2017-7/4","2017-7/4",False,"null",2,9,4
+"GH-2197: Rely on the Document creation for Source","2017-7/5","2017-7/5","2017-7/5",False,"null",2,67,30
+"Update index on gh-pages","2017-7/10","2017-7/10","2017-7/10",True,"2017-7/10",2,6,6
+"INT-4311: JdbcLockRegistry retry on QueryTimeoutException","2017-7/11","2017-7/11","2017-7/11",False,"null",2,10,0
+"INT-4301: Make CircuitBreakerOpenException as ME","2017-7/12","2017-7/12","2017-7/12",False,"null",2,14,9
+"Int 4316","2017-7/22","2017-7/22","2017-7/22",False,"null",2,143,10
+"Update MqttMessageDeliveredEvent.java","2017-8/3","2017-8/3","2017-8/3",True,"2017-8/3",3,1,1
+"INT-4324: File Outbound: parse preserve-timestamp","2017-8/7","2017-8/7","2017-8/7",True,"2017-8/7",2,27,15
+"INT-4318: Register Jackson modules if available","2017-8/7","2017-8/7","2017-8/7",True,"2017-8/7",2,82,14
+"INT-4327: Performance optimization for SI Bean Post Processors","2017-8/11","2017-8/11","2017-8/11",False,"null",2,26,0
+"INT-4315: Add WebFlux module","2017-8/11","2017-8/11","2017-8/11",False,"null",2,1657,1003
+"INT-4326: Add endpoints.noAutoStartup property","2017-8/11","2017-9/11","2017-8/11",False,"null",3,64,9
+"Polished ErrorMessageSendingRecoverer","2017-8/12","2017-8/12","2017-8/12",False,"null",2,6,3
+"INT-4328: AMQP: Returns/Nacks: Create ErrorMessage","2017-8/15","2017-8/15","2017-8/15",True,"2017-8/15",2,339,82
+"INT-4330 added support for Supplier-based MessageSource","2017-8/16","2017-8/16","2017-8/16",True,"2017-8/16",2,53,12
+"GH-2217: JSON: Populated actual ID & TIMESTAMP","2017-8/17","2017-8/17","2017-8/17",True,"2017-8/17",2,40,9
+"INT-4332 updated DSL with Supplier support","2017-8/19","2017-8/19","2017-8/19",False,"null",2,94,0
+"INT-4333: Don't Override Explicit Management Props","2017-9/1","2017-9/1","2017-9/1",False,"null",2,153,16
+"INT-4336: Fix NPE in IntegrationGraphServer","2017-9/1","2017-9/1","2017-9/1",True,"2017-9/1",2,47,14
+"Honor the FluxSink state in the PollChPublisherAd","2017-9/1","2017-9/1","2017-9/1",False,"null",2,74,49
+"INT-4123: Add prefix to the key-value MSs","2017-9/5","2017-9/5","2017-9/5",False,"null",2,176,111
+"RedisQueue* classes can now have a receive timeout of 0 and block indefinitely","2017-9/6","2017-9/6","2017-9/6",False,"null",2,75,35
+"INT-4340: Roster is still not fully disabled if subscription mode is…","2017-9/6","2017-9/6","2017-9/6",False,"null",2,65,8
+"INT-4320: Fix AMQP channels to declare on demand","2017-9/8","2017-9/8","2017-9/8",True,"2017-9/8",2,210,162
+"INT-4342: White List for Payload Deserializer","2017-9/8","2017-9/8","2017-9/8",False,"null",2,389,38
+"INT-778 Add test case to test behavior for BroadCastingDispatcher when no handlers are subscribed","2017-9/11","2017-9/11","2017-9/11",False,"null",2,51,0
+"INT-3936 Add support to negation for GlobalChannelInterceptor and use common utility method for IntegrationManagementConfigurer and IntegrationMBeanExporter","2017-9/12","2017-9/12","2017-9/12",False,"null",2,286,113
+"INT-4289: Fix JMS DSL generic arguments coercion","2017-9/13","2017-9/13","2017-9/13",True,"2017-9/13",2,11,7
+"INT-4312: MessagingMethodInvokerHelper Convert","2017-9/14","2017-9/14","2017-9/14",True,"2017-9/14",2,96,2
+"Add option for MutableMB do not generate headers","2017-9/15","2017-10/15","2017-9/15",False,"null",2,83,30
+"INT-4343 - Enables custom task executor setting in RedisInboundChannelAdapter","2017-9/18","2017-9/18","2017-9/18",False,"null",2,50,4
+"INT-4334 - Adds a DirectoryScanner setter in AbstractInboundFileSynchronizingMessageSource","2017-9/18","2017-9/18","2017-9/18",False,"null",2,123,14
+"INT-4313 - Adds ListenableMetadataStore implementation in GemfireMetadataStore","2017-9/18","2017-9/18","2017-9/18",False,"null",2,218,1
+"INT-4344: AbstRemoteFileOutGw: Add assert for NPE","2017-9/20","2017-10/20","2017-9/20",False,"null",2,37,17
+"Use Explicit Module Exclusions","2017-9/25","2017-9/25","2017-9/25",True,"2017-9/25",2,34,6
+"INT-4346: Add Module Name to Manifest","2017-9/26","2017-9/26","2017-9/26",True,"2017-9/26",2,1,0
+"INT-4350: Handle ResponseEntity in HTTP Inbounds","2017-9/26","2017-10/26","2017-9/26",True,"2017-10/26",2,95,11
+"Fix AmqpChannParserTests to use connFactory mock","2017-9/27","2017-9/27","2017-9/27",True,"2017-9/27",2,12,629
+"INT-4345: ServerWebSocketContainer: Fix Lifecycle","2017-9/27","2017-10/27","2017-9/27",True,"2017-10/27",2,102,3
+"Allow a user to set the id of the DefaultLockRepository via ctor","2017-9/28","2017-9/28","2017-9/28",False,"null",2,34,3
+"INT-4349: Allow Number type for int headers","2017-9/28","2017-10/28","2017-9/28",True,"2017-10/28",2,176,209
+"INT-3876 Identify misconfigured Aggregator","2017-10/1","2017-11/1","2017-10/1",False,"null",3,62,6
+"GH-2253: Revert (S)FTP Source to DefaultDirScann","2017-10/3","2017-10/3","2017-10/3",True,"2017-10/3",2,12,6
+"INT-4354: Add beanClassLoader support to RedisMS","2017-10/5","2017-10/5","2017-10/5",True,"2017-10/5",2,12,1
+"GH-2071: Upgrade to S-WS-3.0 and Smack-4.2.1","2017-10/6","2017-10/6","2017-10/6",False,"null",3,160,133
