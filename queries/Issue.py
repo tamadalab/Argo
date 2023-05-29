@@ -109,13 +109,14 @@ def export(file_name, dir_path):
         temp_n = [createdt, closedt, title, url]
         nodes.append(temp_n)
 
-    #
+    # Sort nodes based on createdAt
+    nodes_sorted = sorted(nodes, key=lambda x: datetime.datetime.strptime(x[0], "%Y-%m/%d"))
+
     # Write CSV
-    #
     with open(os.path.join(dir_path, "csv", csv_filename), "w", newline="") as csvFile:
         csvwriter = csv.writer(csvFile, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC)
         csvwriter.writerow(["createdAt", "closedAt", "title", "url"])
-        for value in nodes:
+        for value in nodes_sorted:
             csvwriter.writerow(value)
 
 
@@ -139,6 +140,9 @@ def main(repository, make_path, dir_stored):
         file_num = FileMake.csvPrep(dir_path)
         export(file_num + 1, dir_path)  # csvファイルに変換
         FileMake.merge(dir_path)
+
+        # Sort total.csv
+        FileMake.sort_csvfile(os.path.join(dir_path, "CSV", "total.csv"))
 
         # Delete cache
         if dir_stored == True:

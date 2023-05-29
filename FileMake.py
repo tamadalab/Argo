@@ -98,9 +98,35 @@ def merge(dir_path):
         writer.writerow(df.columns)  # 列のヘッダーを書き込む
         for row in df.values:
             writer.writerow(row)
+
 def output_data(repository,metrics, plotdata):
     fig_process.makedir("cache/" + repository +"/"+ metrics)
     file = os.path.join("cache", repository, metrics, "/plot_data.csv")
     with open(file, "a") as f:
         writer = csv.writer(f)
         writer.writerow(plotdata)
+
+def reverse_csv_rows(csv_file):
+    with open(csv_file, 'r') as f:
+        rows = list(csv.reader(f))
+
+    reversed_rows = list(zip(*rows[::-1]))
+
+    with open(csv_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(reversed_rows)
+
+def sort_csvfile(csv_file):
+
+    # データを読み込む
+    data = pd.read_csv(csv_file)
+
+    # createdAt列を年月のデータとして解釈し、ソートする
+    data['createdAt'] = pd.to_datetime(data['createdAt'], format='%Y-%m/%d')
+    data_sorted = data.sort_values('createdAt')
+
+    # createdAt列の形式を元に戻す
+    data_sorted['createdAt'] = data_sorted['createdAt'].dt.strftime('%Y-%m/%d')
+
+    # ソート結果を元のCSVファイルに上書きする
+    data_sorted.to_csv(csv_file, index=False)
