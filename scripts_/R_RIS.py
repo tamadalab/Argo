@@ -23,11 +23,11 @@ def Prep(file):
 
 
     for i in range(0, len(csv_input.index)):
-        create_list.append(re.findall("(.*)/", csv_input.iat[i,1]))
-        if isinstance(csv_input.iat[i,0], float): # closeされていないときは現在時刻(YYYY-MM)を格納
+        create_list.append(re.findall("(.*)/", csv_input.iat[i,0]))
+        if isinstance(csv_input.iat[i,1], float): # closeされていないときは現在時刻(YYYY-MM)を格納
             close_list.append(now_date)
         else:
-            close_month = re.findall("(.*)/", csv_input.iat[i,0])
+            close_month = re.findall("(.*)/", csv_input.iat[i,1])
             close_list.append(close_month)
     create_list = list(itertools.chain.from_iterable(create_list)) # itertoolsでcreate_listを平坦化する．
     close_list = list(itertools.chain.from_iterable(close_list)) # itertoolsでcreate_listを平坦化する．
