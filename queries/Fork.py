@@ -15,11 +15,11 @@ import Download_per
 # Create payload for retrieving Star data
 def make_payload(owner, repository):
     payload_1 = (
-        "{\"query\":\"query stargazers {\\n  repository(owner: \\\""
+        "{\"query\":\"query forks {\\n  repository(owner: \\\""
         + owner
         + "\\\", name: \\\""
         + repository
-        + "\\\") {\\n    stargazers(first: 100"
+        + "\\\") {\\n    forks(first: 100"
     )
     return payload_1
 
@@ -31,7 +31,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
     data_cpl = False
     url = "https://api.github.com/graphql"
     payload_2 = (
-        "){\\n      totalCount\\n      nodes{\\n        name\\n        login\\n      }\\n      edges{\\n        cursor\\n        starredAt\\n      }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"stargazers\"}"
+        "){\\n      totalCount\\n      nodes{\\n        url\\n        }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"forks\"}"
     )
     if has_next_page == 1:
         if end_cursor != None:
@@ -83,9 +83,9 @@ def find(json_data, file_name, dir_path, data_cpl):
         FileMake.jsonMake(json_data, file_nextnum, dir_path)
         f = open(os.path.join(dir_path, "json", file_nextnum + ".json"), "r")
     json_dict = json.load(f)
-    totalCount = json_dict["data"]["repository"]["stargazers"]["totalCount"]
-    end_cursor = json_dict["data"]["repository"]["stargazers"]["pageInfo"]["endCursor"]
-    has_next_page = json_dict["data"]["repository"]["stargazers"]["pageInfo"]["hasNextPage"]
+    totalCount = json_dict["data"]["repository"]["forks"]["totalCount"]
+    end_cursor = json_dict["data"]["repository"]["forks"]["pageInfo"]["endCursor"]
+    has_next_page = json_dict["data"]["repository"]["forks"]["pageInfo"]["hasNextPage"]
     return file_nextnum, end_cursor, has_next_page, totalCount
 
 
@@ -100,34 +100,19 @@ def export(file_name, dir_path):
     # Set nodes Dictionary
     nodes = []
     temp_n = []
-    for node in data["data"]["repository"]["stargazers"]["nodes"]:
-        login = node["login"]
-        nodes.append([login])
-
-    # Set edges Dictionary
-    edges = []
-    temp_e = []
-    date = []
-    for edge in data["data"]["repository"]["stargazers"]["edges"]:
-        cursor = edge["cursor"]
-        starredAt = edge["starredAt"]
-        dt_utc = starredAt.replace("Z", "")
-        d = datetime.datetime.fromisoformat(dt_utc).date()
-        date = str(d.year) + "-" + str(d.month)
-        temp_e = [cursor, date]
-        edges.append(temp_e)
+    for node in data["data"]["repository"]["forks"]["nodes"]:
+        url = node["url"]
+        nodes.append([url])
 
     # Get value
     values = nodes
-    for i in range(len(nodes)):
-        values[i].extend(edges[i])  # Combine matrices
 
     # Write CSV
     with open(os.path.join(dir_path, "csv", csv_filename), "w", newline="") as csvFile:
         csvwriter = csv.writer(
             csvFile, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
-        csvwriter.writerow(["login", "cursor", "starredAt"])
+        csvwriter.writerow(["url"])
         csvwriter.writerows(values)
 
 
@@ -139,13 +124,13 @@ def main(repository, make_path, dir_stored):
         print("Download repository: " + repository[i])
         repo_data = FileMake.input(repository[i])  # owner, repository
         if make_path:
-            dir_path = FileMake.makedir(repo_data[0], repo_data[1], "Star")
+            dir_path = FileMake.makedir(repo_data[0], repo_data[1], "Fork")
         else:
             dir_path = FileMake.newmakedir(make_path)
         payload = make_payload(repo_data[0], repo_data[1])
 
         # Get json_data
-        json_data = FileMake.findCursor(dir_path, "stargazers")  # endCursor, hasNextPage, file_num
+        json_data = FileMake.findCursor(dir_path, "forks")  # endCursor, hasNextPage, file_num
         request(
             repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2]
         )  # Retrieve stargazers
