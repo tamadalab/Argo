@@ -58,6 +58,12 @@ ARGS
     specify GitHub repository by owner/name format.
 ```
 
+#### メトリクス追加手順
+-  queriesディレクトリにプログラム作成
+-  cli/cli1.pyにメトリクス追加
+-  FileMake.pyのfindCursorメソッドにメトリクス追加
+　- メトリクスメソッドの作成 
+
 ### `argo draw`
 
 ```sh
