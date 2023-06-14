@@ -1,5 +1,5 @@
 import click
-from queries import Star, Issue, PullRequest
+from queries import Star, Issue, PullRequest, Fork
 
 cli1 = click.Group()
 
@@ -7,7 +7,7 @@ cli1 = click.Group()
 @click.option('-q','--query', 'query',
                 help = 'specify the query. This option is mandatory.', 
                 required = True, 
-                type = click.Choice(['Star', 'Issue', 'PullRequest']))
+                type = click.Choice(['Star', 'Issue', 'PullRequest','Fork']))
 @click.option('-c', '--cache_dir','cache_dir',
                 help = 'specify the cache directory path.',
                 default = True)
@@ -22,6 +22,7 @@ def fetch(query, args, cache_dir, no_cache):
         Star.main(args, cache_dir, no_cache)
     elif query == 'Issue':
         Issue.main(args, cache_dir, no_cache)
-    else:
+    elif query == 'PullRequest':
         PullRequest.main(args, cache_dir, no_cache)
-    
+    elif query == 'Fork':
+        Fork.main(args, cache_dir, no_cache)
