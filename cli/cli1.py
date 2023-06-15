@@ -1,5 +1,5 @@
 import click
-from queries import Star, Issue, PullRequest
+from queries import Star, Issue, PullRequest, Fork
 
 cli1 = click.Group()
 
@@ -22,6 +22,8 @@ def fetch(query, args, cache_dir, no_cache):
         Star.main(args, cache_dir, no_cache)
     elif query == 'Issue':
         Issue.main(args, cache_dir, no_cache)
-    else:
+    elif query == 'PullRequest':
         PullRequest.main(args, cache_dir, no_cache)
+    elif query == 'Fork':
+        Fork.main(args, cache_dir, no_cache)   
     
