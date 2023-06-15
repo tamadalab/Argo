@@ -37,7 +37,7 @@ def parse_args(args):
     for arg in args:
         if is_csv_file(arg):
             df = pd.read_csv(arg)
-            names.extend(df['name'].tolist())
+            names.extend(df["name"].tolist())
         elif os.path.isdir(arg):
             for filename in os.listdir(arg):
                 filepath = os.path.join(arg, filename)
