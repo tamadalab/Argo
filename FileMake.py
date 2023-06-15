@@ -48,6 +48,8 @@ def findCursor(dir_path, metrics):
             json_data = Pullrequests(json_dict)
         elif metrics == "issues":
             json_data = Issue(json_dict)
+        elif metrics == "forks":
+            json_data = Fork(json_dict)
         endCursor = json_data[0]
         hasNextPage = json_data[1]
     return endCursor, hasNextPage, file_num
@@ -65,6 +67,11 @@ def Pullrequests(json_dict):
 def Issue(json_dict):
         endCursor = json_dict["data"]["repository"]["issues"]["pageInfo"]["endCursor"]
         hasNextPage = json_dict["data"]["repository"]["issues"]["pageInfo"]["hasNextPage"]
+        return endCursor, hasNextPage
+
+def Fork(json_dict):
+        endCursor = json_dict["data"]["repository"]["forks"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["forks"]["pageInfo"]["hasNextPage"]
         return endCursor, hasNextPage
 
 def jsonMake(json_data,file_name,dir_path):
