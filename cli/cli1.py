@@ -7,7 +7,7 @@ cli1 = click.Group()
 @click.option('-q','--query', 'query',
                 help = 'specify the query. This option is mandatory.', 
                 required = True, 
-                type = click.Choice(['Star', 'Issue', 'PullRequest']))
+                type = click.Choice(['Star', 'Issue', 'PullRequest', 'Fork']))
 @click.option('-c', '--cache_dir','cache_dir',
                 help = 'specify the cache directory path.',
                 default = True)
