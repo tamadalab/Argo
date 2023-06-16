@@ -47,7 +47,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
             payload = payload_1 + payload_2
             data_cpl = True
         headers = {
-            "Authorization": "bearer  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",
+            "Authorization": "bearer  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",
             "Content-Type": "application/json",
         }
         response = requests.request("POST", url, data=payload, headers=headers)
