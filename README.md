@@ -55,7 +55,8 @@ OPTIONS
         --no-cache                no cache the fetched data.
     -Q, --queries-dir <DIR>       specify the directory contains GraphQL queries.
 ARGS
-    specify GitHub repository by owner/name format.
+    specify GitHub repository by <ARGS...> format. [possible values: <owner/name>, "csv-files", <csv-file>]
+    When specifying a "csv-files" directory, csv files must be placed in this directory.
 ```
 
 #### メトリクス追加手順
