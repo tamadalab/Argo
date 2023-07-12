@@ -46,8 +46,13 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
         else:
             payload = payload_1 + payload_2
             data_cpl = True
+        
+        api_key = os.getenv('GITHUB_API_KEY')
+        if api_key is None:
+            raise Exception("Couldn't find the GitHub API key. Please set it as an environment variable.")
+
         headers = {
-            "Authorization": "bearer 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",
+            "Authorization": "bearer " + api_key,
             "Content-Type": "application/json",
         }
         response = requests.request("POST", url, data=payload, headers=headers)
