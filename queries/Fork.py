@@ -31,7 +31,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
     data_cpl = False
     url = "https://api.github.com/graphql"
     payload_2 = (
-        "){\\n      totalCount\\n      nodes{\\n        nameWithOwner\\n        createdAt\\n        url\\n        }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"forks\"}"
+        ") {\\n\\t\\t\\ttotalCount\\n\\t\\t\\tnodes {\\n\\t\\t\\t\\tnameWithOwner\\n\\t\\t\\t\\turl\\n\\t\\t\\t\\tcreatedAt\\n\\t\\t\\t\\tdefaultBranchRef {\\n\\t\\t\\t\\t\\ttarget {\\n\\t\\t\\t\\t\\t\\t... on Commit {\\n\\t\\t\\t\\t\\t\\t\\tcommittedDate\\n\\t\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t\\tpageInfo{\\n\\t\\t\\t\\tendCursor\\n\\t\\t\\t\\thasNextPage\\n\\t\\t\\t}\\n\\t\\t}\\n\\t}\\n}\",\"operationName\":\"forks\"}"
     )
     if has_next_page == 1:
         if end_cursor != None:
@@ -107,14 +107,19 @@ def export(file_name, dir_path):
     temp_n = []
     for node in data["data"]["repository"]["forks"]["nodes"]:
         nameWithOwner = node["nameWithOwner"]
-        createdAt = node["createdAt"]
         url = node["url"]
+        createdAt = node["createdAt"]
+        committedDate = node["defaultBranchRef"]["target"]["committedDate"]
         
         created_utc = createdAt.replace("Z", "")
-        d = datetime.datetime.fromisoformat(created_utc).date()
-        createdt = str(d.year) + "-" + str(d.month) + "/" + str(d.day)
+        d = datetime.datetime.fromisoformat(created_utc)
+        createdt = d.strftime("%Y-%m/%d %H:%M:%S")
 
-        temp_n = [nameWithOwner, createdt, url]
+        committed_utc = committedDate.replace("Z", "")
+        d = datetime.datetime.fromisoformat(committed_utc)
+        committedt = d.strftime("%Y-%m/%d %H:%M:%S")
+
+        temp_n = [nameWithOwner, url, createdt, committedt]
         nodes.append(temp_n)
 
     # Write CSV
@@ -122,7 +127,7 @@ def export(file_name, dir_path):
         csvwriter = csv.writer(
             csvFile, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
-        csvwriter.writerow(["nameWithOwner", "createdAt", "url"])
+        csvwriter.writerow(["nameWithOwner", "url", "createdAt", "committedDate"])
         for value in nodes:
             csvwriter.writerow(value)
 
