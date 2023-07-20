@@ -11,7 +11,7 @@ def input(repository):
     d = re.search(pattern, repository)
     owner = d.group(1)
     repository = d.group(2)
-    return owner, repository 
+    return owner, repository
 
 def makedir(owner, repository, metrics):
     dir_path = "cache/" + owner + "/"+ repository + "/" + metrics 
@@ -48,6 +48,8 @@ def findCursor(dir_path, metrics):
             json_data = Pullrequests(json_dict)
         elif metrics == "issues":
             json_data = Issue(json_dict)
+        elif metrics == "commits":
+            json_data = Commit(json_dict)
         endCursor = json_data[0]
         hasNextPage = json_data[1]
     return endCursor, hasNextPage, file_num
@@ -65,6 +67,11 @@ def Pullrequests(json_dict):
 def Issue(json_dict):
         endCursor = json_dict["data"]["repository"]["issues"]["pageInfo"]["endCursor"]
         hasNextPage = json_dict["data"]["repository"]["issues"]["pageInfo"]["hasNextPage"]
+        return endCursor, hasNextPage
+
+def Commit(json_dict):
+        endCursor = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["hasNextPage"]
         return endCursor, hasNextPage
 
 def jsonMake(json_data,file_name,dir_path):
