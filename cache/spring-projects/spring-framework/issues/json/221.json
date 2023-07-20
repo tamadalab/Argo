@@ -2,13 +2,19 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 22443,
+                "totalCount": 23484,
                 "nodes": [
+                    {
+                        "title": "Which version of JBoss eap is the minimum requirement of Spring framework upgrade from 3 to 5 please?",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28537",
+                        "createdAt": "2022-05-29T04:29:41Z",
+                        "closedAt": "2022-05-29T05:53:01Z"
+                    },
                     {
                         "title": "The value of method parameter may be reversed",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28539",
                         "createdAt": "2022-05-29T13:15:16Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T12:25:09Z"
                     },
                     {
                         "title": "Spring WebFlux doesn't support generic type serialization using kotlin serialization. ",
@@ -122,7 +128,7 @@
                         "title": "JsonView regression",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28564",
                         "createdAt": "2022-06-03T16:51:44Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-23T10:28:00Z"
                     },
                     {
                         "title": "Allow ApplicationContextAotGenerator to generated better class names",
@@ -176,7 +182,7 @@
                         "title": "Provide a way to request a WebSession without creating one",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28575",
                         "createdAt": "2022-06-06T21:35:07Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-07T11:53:33Z"
                     },
                     {
                         "title": "Support JSON Pointer in @HttpExchange interface",
@@ -266,7 +272,7 @@
                         "title": "Webflux support for decoding/parsing of \"multipart/related\" requests",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28591",
                         "createdAt": "2022-06-09T07:56:54Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-06T17:57:15Z"
                     },
                     {
                         "title": "About register \"BeanPostProcessor\" use\"BeanFactoryPostProcessor\"",
@@ -323,10 +329,10 @@
                         "closedAt": "2022-06-09T12:54:59Z"
                     },
                     {
-                        "title": "WebFlux: ServerWebExchange.getRequest().getURI() returns wrong scheme if forwarding-header-strategy is set or cloud platform is detected",
+                        "title": "ReactorServerHttpRequest does not reflect forwarded host and port when `forwarding-header-strategy=native` or cloud platform detected",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28601",
                         "createdAt": "2022-06-09T13:55:56Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-15T10:27:03Z"
                     },
                     {
                         "title": "ComponentScan scanbase packages not working in gradle multi-module build",
@@ -344,7 +350,7 @@
                         "title": "Document need for `kotlin-spring` plugin regarding `open` keyword",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28604",
                         "createdAt": "2022-06-10T10:19:36Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-06T16:23:19Z"
                     },
                     {
                         "title": "nested exception is java.lang.ArrayIndexOutOfBoundsException: 23309",
@@ -506,10 +512,10 @@
                         "title": "Inject @PathVariable variables in argument DTO",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28637",
                         "createdAt": "2022-06-16T06:03:59Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-07T12:48:02Z"
                     },
                     {
-                        "title": "BeanUtils cannot instantiate a Kotlin data class that uses a value class as a constructor parameter",
+                        "title": "Add support for Kotlin inline/value classes in `BeanUtils`",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28638",
                         "createdAt": "2022-06-15T20:40:16Z",
                         "closedAt": null
@@ -575,10 +581,10 @@
                         "closedAt": null
                     },
                     {
-                        "title": "WebClient doesn't handle errors related to connectivity without cluttering the logs with the stacktrace",
+                        "title": "Cannot handle connection error with WebClient without getting a stacktrace in the logs",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28654",
                         "createdAt": "2022-06-18T21:07:04Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-14T10:08:24Z"
                     },
                     {
                         "title": "Add automatic hint for autowired field support",
@@ -597,16 +603,10 @@
                         "url": "https://github.com/spring-projects/spring-framework/issues/28657",
                         "createdAt": "2022-06-19T11:12:11Z",
                         "closedAt": "2022-06-19T12:09:53Z"
-                    },
-                    {
-                        "title": "Move Mock duplicates to test fixtures",
-                        "url": "https://github.com/spring-projects/spring-framework/issues/28659",
-                        "createdAt": "2022-06-20T06:12:19Z",
-                        "closedAt": "2022-06-20T06:57:51Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOTBSUog==",
+                    "endCursor": "Y3Vyc29yOnYyOpHOTA6hRg==",
                     "hasNextPage": true
                 }
             }

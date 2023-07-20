@@ -2,13 +2,19 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 22443,
+                "totalCount": 23484,
                 "nodes": [
                     {
-                        "title": "Add support in MockRestServiceServer to verify header values with an Iterable Matcher",
+                        "title": "Move Mock duplicates to test fixtures",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28659",
+                        "createdAt": "2022-06-20T06:12:19Z",
+                        "closedAt": "2022-06-20T06:57:51Z"
+                    },
+                    {
+                        "title": "Add support in `MockRestServiceServer` to assert ALL `header` and `queryParam` values with a single `Matcher`",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28660",
                         "createdAt": "2022-06-20T07:49:05Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T16:41:00Z"
                     },
                     {
                         "title": "Wrong reflection hints for arrays of inner types",
@@ -44,7 +50,7 @@
                         "title": "NullPointerException in UrlPathHelper.getSanitizedPath",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28671",
                         "createdAt": "2022-06-21T11:06:40Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-13T09:46:06Z"
                     },
                     {
                         "title": "Revise internals of LoggingCacheErrorHandler",
@@ -53,10 +59,10 @@
                         "closedAt": "2022-06-21T14:22:35Z"
                     },
                     {
-                        "title": "AcceptHeaderLocaleContextResolver Resolution Error",
+                        "title": "Improve documentation on support for a language-only Locale requested via \"Accept-Language\"",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28673",
                         "createdAt": "2022-06-21T17:52:21Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-13T18:40:17Z"
                     },
                     {
                         "title": "DefaultWebFilterChain is called twice by a long http request",
@@ -110,7 +116,7 @@
                         "title": "Platform Transaction Manager / error on afterCommit should NOT trigger afterCompletion with success code",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28685",
                         "createdAt": "2022-06-23T11:54:45Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-01T09:10:57Z"
                     },
                     {
                         "title": "Async can't be used in EndpointInterceptor",
@@ -170,7 +176,7 @@
                         "title": "When I use exchangeToMono I get \"Only one connection receive subscriber allowed.\" An error occurs.",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28698",
                         "createdAt": "2022-06-24T09:22:24Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T15:19:07Z"
                     },
                     {
                         "title": "Support for CGLIB BeanCopier utility on JDK 17 still error",
@@ -239,7 +245,7 @@
                         "closedAt": "2022-08-12T14:41:03Z"
                     },
                     {
-                        "title": "Aspects don't work in native-image",
+                        "title": "Infer hints required for aspects",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28711",
                         "createdAt": "2022-06-27T13:41:39Z",
                         "closedAt": null
@@ -311,10 +317,10 @@
                         "closedAt": "2022-08-11T13:44:35Z"
                     },
                     {
-                        "title": "Missing documentation for spring.spel.ignore and spring.xml.ignore ",
+                        "title": "Missing documentation for `spring.spel.ignore` and `spring.xml.ignore`",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28726",
                         "createdAt": "2022-06-29T09:41:05Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-07T14:38:29Z"
                     },
                     {
                         "title": "AOT generated code leads to exception on startup: Object of class [java.lang.Boolean] must be an instance of boolean",
@@ -407,7 +413,7 @@
                         "closedAt": "2022-07-03T15:00:28Z"
                     },
                     {
-                        "title": "Upgrade to JUnit 5.9",
+                        "title": "Upgrade to JUnit 5.9.0",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28752",
                         "createdAt": "2022-07-03T19:18:04Z",
                         "closedAt": "2022-07-27T08:03:26Z"
@@ -437,7 +443,7 @@
                         "closedAt": "2022-07-04T17:37:14Z"
                     },
                     {
-                        "title": "Consider adding an example of buffering WebClient body in the filter in the reference documentation",
+                        "title": "Add example of buffering with WebClient to the reference documentation",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28758",
                         "createdAt": "2022-07-05T11:37:28Z",
                         "closedAt": null
@@ -458,7 +464,7 @@
                         "title": "Missing destroy-method warning intentional?",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28762",
                         "createdAt": "2022-07-05T15:19:50Z",
-                        "closedAt": null
+                        "closedAt": "2023-05-11T14:25:27Z"
                     },
                     {
                         "title": "Documentation mentions password but should be personal access token",
@@ -494,7 +500,7 @@
                         "title": "spring-modules-jbpm31 0.8 version compatible with Spring 5.3.20",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28768",
                         "createdAt": "2022-07-06T13:08:54Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-08T10:40:03Z"
                     },
                     {
                         "title": "Avoid proxy hint generation for annotations that are never synthesized",
@@ -503,10 +509,10 @@
                         "closedAt": "2022-08-17T10:56:38Z"
                     },
                     {
-                        "title": "Support @Value on records.",
+                        "title": "Support `@Value` on records",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28770",
                         "createdAt": "2022-07-07T09:43:24Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-28T11:45:32Z"
                     },
                     {
                         "title": "Provide SerializationHintsPredicates in RuntimeHintsPredicates",
@@ -597,16 +603,10 @@
                         "url": "https://github.com/spring-projects/spring-framework/issues/28801",
                         "createdAt": "2022-07-12T14:14:56Z",
                         "closedAt": "2022-07-12T16:33:50Z"
-                    },
-                    {
-                        "title": "Typo in `SockJsServiceRegistration#setSupressCors`",
-                        "url": "https://github.com/spring-projects/spring-framework/issues/28806",
-                        "createdAt": "2022-07-12T18:09:43Z",
-                        "closedAt": "2022-07-22T07:44:56Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOTaHOtw==",
+                    "endCursor": "Y3Vyc29yOnYyOpHOTZzm4g==",
                     "hasNextPage": true
                 }
             }

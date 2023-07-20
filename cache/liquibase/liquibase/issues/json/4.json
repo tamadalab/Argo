@@ -2,13 +2,13 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 1031,
+                "totalCount": 1315,
                 "nodes": [
                     {
                         "title": "Log Warnings due to FileSystemNotFoundException",
                         "url": "https://github.com/liquibase/liquibase/issues/1555",
                         "createdAt": "2020-11-23T12:52:06Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-17T14:35:56Z"
                     },
                     {
                         "title": "Add option/envvar to disable banner",
@@ -62,7 +62,7 @@
                         "title": "dropAllForeignKeyConstraints performance/errors in liquibase 3.10.3, works perfect in liquibase 3.4.2",
                         "url": "https://github.com/liquibase/liquibase/issues/1571",
                         "createdAt": "2020-12-04T15:03:00Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-18T21:29:44Z"
                     },
                     {
                         "title": "java.lang.StringIndexOutOfBoundsException: String index out of range",
@@ -86,7 +86,7 @@
                         "title": "Fix XML example and documentation for onFail preconditions",
                         "url": "https://github.com/liquibase/liquibase/issues/1578",
                         "createdAt": "2020-12-09T12:19:39Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-13T17:41:28Z"
                     },
                     {
                         "title": "ChangeLogHistoryService upgradeChecksums doesnt work as it appears to be intended",
@@ -98,7 +98,7 @@
                         "title": "LoadUpdateData doesn't update blob from csv data file",
                         "url": "https://github.com/liquibase/liquibase/issues/1581",
                         "createdAt": "2020-12-10T00:03:34Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-07T12:57:32Z"
                     },
                     {
                         "title": "NullPointerException - referenceUrl=hibernate:spring (mvn liquibase:diff)",
@@ -110,7 +110,7 @@
                         "title": "Race condition and possible lock bypass if two nodes run on clean schema",
                         "url": "https://github.com/liquibase/liquibase/issues/1584",
                         "createdAt": "2020-12-11T12:11:23Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-26T20:58:34Z"
                     },
                     {
                         "title": "Maven Plugin Displays \"[project, pluginDescriptor]\"",
@@ -122,13 +122,13 @@
                         "title": "Liquibase Maven Plugin throws an error with a diff goal requiring a changelogFile referenced",
                         "url": "https://github.com/liquibase/liquibase/issues/1586",
                         "createdAt": "2020-12-11T14:45:32Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T12:43:10Z"
                     },
                     {
                         "title": "Postgres 11.10 Liquibase Initialization databasechangeloglock Race Condition",
                         "url": "https://github.com/liquibase/liquibase/issues/1588",
                         "createdAt": "2020-12-15T16:04:28Z",
-                        "closedAt": null
+                        "closedAt": "2023-05-15T13:00:45Z"
                     },
                     {
                         "title": "No validation errors when customChange param has no \"name\" attribute",
@@ -182,7 +182,7 @@
                         "title": "Filename + Id + Author is not being treated as unique in ValidatingVisitor.findChangeSet  method",
                         "url": "https://github.com/liquibase/liquibase/issues/1603",
                         "createdAt": "2020-12-24T21:10:44Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-09T13:36:45Z"
                     },
                     {
                         "title": "Underscore in schemaName causes error relation \"databasechangelog\" already exists",
@@ -194,7 +194,7 @@
                         "title": "Liquibase rollback by tag can work unexpectedly when more than one changelog files are used",
                         "url": "https://github.com/liquibase/liquibase/issues/1605",
                         "createdAt": "2020-12-29T17:16:35Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-15T14:00:07Z"
                     },
                     {
                         "title": "Owasp-Dependency-Checker list finding CVE-2017-18640 for snakeyaml-1.2.4",
@@ -212,10 +212,10 @@
                         "title": "diffChangelog command is not respecting the changeSetAuthor option",
                         "url": "https://github.com/liquibase/liquibase/issues/1610",
                         "createdAt": "2020-12-30T16:49:14Z",
-                        "closedAt": null
+                        "closedAt": "2023-05-17T12:36:29Z"
                     },
                     {
-                        "title": "BatchInsert is translated wrongly for Oracle custom changes",
+                        "title": "BatchInsert is translated incorrectly for Oracle custom changes",
                         "url": "https://github.com/liquibase/liquibase/issues/1613",
                         "createdAt": "2021-01-04T12:04:31Z",
                         "closedAt": null
@@ -224,7 +224,7 @@
                         "title": "Addition of liquibase.update()",
                         "url": "https://github.com/liquibase/liquibase/issues/1614",
                         "createdAt": "2021-01-04T16:05:57Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-28T20:11:32Z"
                     },
                     {
                         "title": "API inconsistency - Liquibase creation file vs. DatabaseChangeLog",
@@ -278,7 +278,7 @@
                         "title": "Liquibase CLI \"validation\" command returns success status on a validation errors",
                         "url": "https://github.com/liquibase/liquibase/issues/1630",
                         "createdAt": "2021-01-15T11:14:55Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-23T19:06:32Z"
                     },
                     {
                         "title": "java.lang.NullPointerException during DIFF operation",
@@ -290,7 +290,7 @@
                         "title": "setColumnRemarks Mysql  execute sql : ALTER TABLE [tabeName]  COMMENT = 'your comment';",
                         "url": "https://github.com/liquibase/liquibase/issues/1632",
                         "createdAt": "2021-01-18T02:52:49Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-13T17:23:49Z"
                     },
                     {
                         "title": "addColumn remarks change table remarks  mysql",
@@ -308,7 +308,7 @@
                         "title": "Error reading changelog files from classpath",
                         "url": "https://github.com/liquibase/liquibase/issues/1635",
                         "createdAt": "2021-01-18T07:17:13Z",
-                        "closedAt": null
+                        "closedAt": "2023-04-10T14:49:00Z"
                     },
                     {
                         "title": "Liquibase potentially not applying changesets in order",
@@ -320,7 +320,7 @@
                         "title": "Wrong checksum validation for included sql changelog",
                         "url": "https://github.com/liquibase/liquibase/issues/1637",
                         "createdAt": "2021-01-19T22:59:18Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-22T14:59:46Z"
                     },
                     {
                         "title": "ClassCastException on moving to mysql-connector-java version 8.0.23",
@@ -386,7 +386,7 @@
                         "title": "Update (or any other command) with label also include changelogs without labels.",
                         "url": "https://github.com/liquibase/liquibase/issues/1660",
                         "createdAt": "2021-01-28T13:59:13Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-06T13:22:04Z"
                     },
                     {
                         "title": "futureRollbackSQL command throws an unexpected command parameter.",
@@ -404,7 +404,7 @@
                         "title": "read configuration file variables",
                         "url": "https://github.com/liquibase/liquibase/issues/1666",
                         "createdAt": "2021-02-05T09:57:55Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-06T13:20:25Z"
                     },
                     {
                         "title": "Insert UUID from CSV into Oracle",
@@ -434,7 +434,7 @@
                         "title": "ClassLoaderResourceAccessor non-functional in Maven-like SetUp",
                         "url": "https://github.com/liquibase/liquibase/issues/1673",
                         "createdAt": "2021-02-06T16:43:25Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-08T12:52:18Z"
                     },
                     {
                         "title": "Executed SQL not logged in 4.x versions of Liquibase",
@@ -446,13 +446,13 @@
                         "title": "Liquibase doesn't validate bad formatted SQL changesets",
                         "url": "https://github.com/liquibase/liquibase/issues/1675",
                         "createdAt": "2021-02-08T14:45:37Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-05T17:05:29Z"
                     },
                     {
                         "title": "Increase minimum java version from 8 to 11",
                         "url": "https://github.com/liquibase/liquibase/issues/1677",
                         "createdAt": "2021-02-08T22:59:53Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-07T21:21:26Z"
                     },
                     {
                         "title": "Command fails if this is the first time running updateSQL",
@@ -464,7 +464,7 @@
                         "title": "-D command line option doesn't override parameters in properties file",
                         "url": "https://github.com/liquibase/liquibase/issues/1680",
                         "createdAt": "2021-02-10T12:02:54Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-13T13:55:25Z"
                     },
                     {
                         "title": "Checksums change between 2 liquibase versions: moving from 3.6.3 to 3.8.9",
@@ -482,7 +482,7 @@
                         "title": " issues with postgres 12",
                         "url": "https://github.com/liquibase/liquibase/issues/1683",
                         "createdAt": "2021-02-11T13:54:19Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-04T12:46:05Z"
                     },
                     {
                         "title": "Require JSON library in Liquibase",
@@ -494,7 +494,7 @@
                         "title": "loadData - NullPointerException when type not provided and column name invalid",
                         "url": "https://github.com/liquibase/liquibase/issues/1687",
                         "createdAt": "2021-02-11T18:31:19Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-08T12:41:46Z"
                     },
                     {
                         "title": "Default ConsoleUIService.allowPrompt to false",
@@ -602,7 +602,7 @@
                         "title": "Filenames are stored differently CLI <> Maven",
                         "url": "https://github.com/liquibase/liquibase/issues/1709",
                         "createdAt": "2021-02-19T10:13:31Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-20T15:52:45Z"
                     }
                 ],
                 "pageInfo": {

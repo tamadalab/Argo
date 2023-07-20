@@ -19,7 +19,7 @@ def make_payload(owner, repository):
         + owner
         + "\\\", name: \\\""
         + repository
-        + "\\\") {\\n    ref(qualifiedName: \\\"main\\\") {\\n      target {\\n        ... on Commit {\\n          history(first: 100"
+        + "\\\") {\\n    ref(qualifiedName: \\\"master\\\") {\\n      target {\\n        ... on Commit {\\n          history(first: 100"
     )
     return payload_1
 
@@ -47,7 +47,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
             payload = payload_1 + payload_2
             data_cpl = True
         headers = {
-            "Authorization": "bearer  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",
+            "Authorization": "bearer  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",
             "Content-Type": "application/json",
         }
         response = requests.request("POST", url, data=payload, headers=headers)

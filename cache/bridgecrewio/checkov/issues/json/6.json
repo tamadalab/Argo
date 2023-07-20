@@ -2,7 +2,7 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 968,
+                "totalCount": 1339,
                 "nodes": [
                     {
                         "title": "Checkov no longer analyses local modules on windows",
@@ -50,7 +50,7 @@
                         "title": "EIP is associated with NAT gateway generated with Terraform vpc module 2.70.0 but still it throws CKV2_AWS_19  as failed check",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1567",
                         "createdAt": "2021-09-02T12:55:37Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-12T00:13:03Z"
                     },
                     {
                         "title": "CKV2_AWS_1 is failing, the NACLs already attached",
@@ -140,7 +140,7 @@
                         "title": "Access to Terraform Plan `resource_changes`",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1605",
                         "createdAt": "2021-09-13T06:21:01Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-14T07:46:27Z"
                     },
                     {
                         "title": "--no-guide not working. Checkov still tries to access www.bridgecrew.io",
@@ -212,7 +212,7 @@
                         "title": "False positive for `CKV_SECRET_6` for `google_secret_manager_secret_version` resources",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1660",
                         "createdAt": "2021-09-27T17:02:34Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-22T17:46:22Z"
                     },
                     {
                         "title": "Since 2.0.438, Error parsing all files",
@@ -230,7 +230,7 @@
                         "title": "checkov -f plan.json does not download external terraform modules for enrichment",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1665",
                         "createdAt": "2021-09-28T02:07:58Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-28T08:13:32Z"
                     },
                     {
                         "title": "checkov GCP container cluster checks do not take node_pool into account",
@@ -338,7 +338,7 @@
                         "title": "Possibility of Parsing a variable while creating custom policies",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1750",
                         "createdAt": "2021-10-12T15:57:48Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-18T03:52:31Z"
                     },
                     {
                         "title": "All releases above 2.0.459 stop working on checking terraform plan outputs.",
@@ -374,13 +374,13 @@
                         "title": "Checkov parsing error on TF plan that uses encrypted_secret and pgp_key in a aws_iam_access_key resource",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1768",
                         "createdAt": "2021-10-17T01:04:09Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-22T06:03:21Z"
                     },
                     {
                         "title": "Increase the usage of augmented assignment statements",
                         "url": "https://github.com/bridgecrewio/checkov/issues/1771",
                         "createdAt": "2021-10-17T13:08:23Z",
-                        "closedAt": null
+                        "closedAt": "2023-05-21T08:12:09Z"
                     },
                     {
                         "title": "`CKV_GCP_69` needs to be updated to be compliant with the new provider changes around `workload_metadata_config` configuration block",

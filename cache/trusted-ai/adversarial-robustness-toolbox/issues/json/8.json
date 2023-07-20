@@ -2,19 +2,19 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 711,
+                "totalCount": 802,
                 "nodes": [
                     {
                         "title": "random_sphere() samples points in the ball (not on the sphere)",
                         "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1799",
                         "createdAt": "2022-07-29T11:20:50Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-24T00:25:12Z"
                     },
                     {
                         "title": "Implementation of Certified Training based on IBP Methods",
                         "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1806",
                         "createdAt": "2022-08-03T13:51:15Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-17T19:42:11Z"
                     },
                     {
                         "title": "Bug in Activation Defence for PyTorch",
@@ -26,7 +26,7 @@
                         "title": "Autoregressive Perturbations for Data Poisoning",
                         "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1816",
                         "createdAt": "2022-08-10T01:37:34Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-18T22:53:32Z"
                     },
                     {
                         "title": "Issue using PyTorchYolo",
@@ -56,7 +56,7 @@
                         "title": "Implementation of DP-InstaHide and Data Augmentation Defenses",
                         "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1827",
                         "createdAt": "2022-08-24T18:28:06Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-18T22:53:30Z"
                     },
                     {
                         "title": "ElasticNet attack uses quadratic learning rate decay instead of square root",
@@ -69,11 +69,545 @@
                         "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1838",
                         "createdAt": "2022-09-01T15:10:03Z",
                         "closedAt": "2022-09-01T21:30:06Z"
+                    },
+                    {
+                        "title": "Input data type for the ImperceptibleASR attack",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1852",
+                        "createdAt": "2022-09-19T17:48:15Z",
+                        "closedAt": "2022-09-24T00:33:08Z"
+                    },
+                    {
+                        "title": "PyTorchYolo estimator affects model parameters during loss/gradient calculation",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1859",
+                        "createdAt": "2022-09-27T21:58:25Z",
+                        "closedAt": "2022-09-30T21:16:09Z"
+                    },
+                    {
+                        "title": "Sleeper Agent Attack - issues with nan",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1865",
+                        "createdAt": "2022-09-30T17:59:08Z",
+                        "closedAt": "2022-11-15T15:33:54Z"
+                    },
+                    {
+                        "title": "Remove max version constraint from scikit-learn",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1874",
+                        "createdAt": "2022-10-13T18:08:32Z",
+                        "closedAt": "2022-10-19T16:06:41Z"
+                    },
+                    {
+                        "title": "Make numba an optional dependency",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1875",
+                        "createdAt": "2022-10-13T18:13:21Z",
+                        "closedAt": "2022-11-15T15:34:49Z"
+                    },
+                    {
+                        "title": "Miscalculation on accuracy of poisoned datasets in clean labels",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1876",
+                        "createdAt": "2022-10-14T01:43:43Z",
+                        "closedAt": "2022-10-21T15:51:28Z"
+                    },
+                    {
+                        "title": "RobustnessVerificationTreeModelsCliqueMethod doesn't work for a Single Decision Tree ",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1877",
+                        "createdAt": "2022-10-17T16:27:37Z",
+                        "closedAt": "2022-10-17T16:48:08Z"
+                    },
+                    {
+                        "title": "Chaining framework independent preprocessing defences",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1888",
+                        "createdAt": "2022-10-20T10:25:38Z",
+                        "closedAt": "2022-10-20T12:05:41Z"
+                    },
+                    {
+                        "title": "How to set the distillation temperature - Defensive Distillation",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1894",
+                        "createdAt": "2022-10-28T17:31:49Z",
+                        "closedAt": "2022-11-07T20:30:59Z"
+                    },
+                    {
+                        "title": "attack_params such as verbose and batch_size not passed in Universal Perturbation.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1895",
+                        "createdAt": "2022-10-31T05:32:06Z",
+                        "closedAt": "2022-11-07T20:29:40Z"
+                    },
+                    {
+                        "title": "How to load .model and .optimizer file for load pytorch model?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1898",
+                        "createdAt": "2022-11-04T21:26:27Z",
+                        "closedAt": "2022-11-07T20:25:50Z"
+                    },
+                    {
+                        "title": "Can ART use defense on object detector or just can be used on classifier ?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1901",
+                        "createdAt": "2022-11-09T00:03:17Z",
+                        "closedAt": "2022-11-09T11:47:58Z"
+                    },
+                    {
+                        "title": "Can ART show accuracy while using \"classifier.fit()\" on pytorch",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1902",
+                        "createdAt": "2022-11-09T10:15:20Z",
+                        "closedAt": "2022-11-09T11:48:25Z"
+                    },
+                    {
+                        "title": "Why even in the era of TF2.x does ART not like eager execution enabled? Why stick to TF1.x style code?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1905",
+                        "createdAt": "2022-11-09T20:29:59Z",
+                        "closedAt": "2022-11-10T11:37:45Z"
+                    },
+                    {
+                        "title": "Implementing more realistic transforms in Robust DPatch EoT",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1907",
+                        "createdAt": "2022-11-10T19:05:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "import torch.autograd.gradcheck import zero_gradients is unsuccessful",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1911",
+                        "createdAt": "2022-11-12T07:10:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Refactor Evasion Detectors",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1913",
+                        "createdAt": "2022-11-14T21:27:25Z",
+                        "closedAt": "2023-03-21T16:26:32Z"
+                    },
+                    {
+                        "title": "Update Activation Clustering Poison Defense Notebook",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1914",
+                        "createdAt": "2022-11-14T21:41:24Z",
+                        "closedAt": "2022-12-08T15:09:47Z"
+                    },
+                    {
+                        "title": "PixelCNN for PixelDefend",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1920",
+                        "createdAt": "2022-11-16T13:41:37Z",
+                        "closedAt": "2022-11-16T16:40:59Z"
+                    },
+                    {
+                        "title": "NumpyDataGenerator for avoiding OOM GPU errors",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1926",
+                        "createdAt": "2022-11-18T21:20:39Z",
+                        "closedAt": "2022-12-18T22:54:51Z"
+                    },
+                    {
+                        "title": "Code modifications in \"pytorch_object_detector.py\"",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1943",
+                        "createdAt": "2022-11-30T05:01:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "I can't get good qulity of adversarial examples by DeepFool.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1944",
+                        "createdAt": "2022-11-30T15:57:21Z",
+                        "closedAt": "2022-12-01T13:03:55Z"
+                    },
+                    {
+                        "title": "Sleeper Agent get_poison_indices() may return stale array",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1952",
+                        "createdAt": "2022-12-05T17:16:43Z",
+                        "closedAt": "2022-12-18T22:54:45Z"
+                    },
+                    {
+                        "title": "Update version of scikit-learn in setup.py and CI yml files",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1953",
+                        "createdAt": "2022-12-06T12:09:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Feature Collision Example(Notebook) does not perform as expected",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1957",
+                        "createdAt": "2022-12-08T12:38:35Z",
+                        "closedAt": "2022-12-08T12:54:31Z"
+                    },
+                    {
+                        "title": "TensorFlowV2Classifier and KerasClassifier do not validate labels when computing loss",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1959",
+                        "createdAt": "2022-12-08T20:03:52Z",
+                        "closedAt": "2023-02-21T17:07:34Z"
+                    },
+                    {
+                        "title": "Incorrect shape when loading raw CIFAR-10 data",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1961",
+                        "createdAt": "2022-12-08T22:42:13Z",
+                        "closedAt": "2022-12-18T22:54:42Z"
+                    },
+                    {
+                        "title": "Support Probability Distribution Labels in PyTorchClassifier",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1966",
+                        "createdAt": "2022-12-13T01:08:17Z",
+                        "closedAt": "2023-02-21T17:08:01Z"
+                    },
+                    {
+                        "title": "PyTorchClassifier for a pre-trained model (trained with normal pytorch) does not work properly (low accuracy)",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1969",
+                        "createdAt": "2022-12-14T04:41:58Z",
+                        "closedAt": "2022-12-14T11:30:10Z"
+                    },
+                    {
+                        "title": "`art.attack.evasion.LowProFool` encounter bugs when using L_1-norm (or 0<p<2)",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1970",
+                        "createdAt": "2022-12-14T06:28:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "DeepZ Certification: No default value for reshape_op_num ",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1973",
+                        "createdAt": "2022-12-14T15:56:35Z",
+                        "closedAt": "2022-12-18T22:54:38Z"
+                    },
+                    {
+                        "title": "Issue with using KerasClassifier: Following Poison Frogs Example in Tensorflow(Keras)",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1977",
+                        "createdAt": "2022-12-21T15:17:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support categorical (string) features in attribute inference attacks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1983",
+                        "createdAt": "2023-01-10T13:45:18Z",
+                        "closedAt": "2023-03-17T19:27:21Z"
+                    },
+                    {
+                        "title": "DP-InstaHide DoubleTensor Type Error for PyTorch",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1985",
+                        "createdAt": "2023-01-10T16:59:37Z",
+                        "closedAt": "2023-02-16T13:14:09Z"
+                    },
+                    {
+                        "title": "Data Augmentation Defenses `apply_fit` and `apply_predict` Default Parameters are Swapped.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1986",
+                        "createdAt": "2023-01-10T17:14:54Z",
+                        "closedAt": "2023-02-16T13:14:12Z"
+                    },
+                    {
+                        "title": "YOLO Object Detection Estimator for TensorFlow",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1996",
+                        "createdAt": "2023-01-19T00:29:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Missing Object Detection Estimator Types",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/1998",
+                        "createdAt": "2023-01-19T19:46:40Z",
+                        "closedAt": "2023-02-16T13:14:15Z"
+                    },
+                    {
+                        "title": "Audio perturbations go out of range ",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2002",
+                        "createdAt": "2023-01-24T20:07:29Z",
+                        "closedAt": "2023-02-16T13:14:24Z"
+                    },
+                    {
+                        "title": "Implement  Adversarial Attacks in ART Library against \"Wavelet Integrated CNNs for Noise-Robust Image Classification\" models ",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2008",
+                        "createdAt": "2023-01-27T15:28:10Z",
+                        "closedAt": "2023-01-28T00:28:53Z"
+                    },
+                    {
+                        "title": "Missing transfer to device in FeatureAdversariesPyTorch",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2009",
+                        "createdAt": "2023-01-28T00:23:39Z",
+                        "closedAt": "2023-02-16T13:14:31Z"
+                    },
+                    {
+                        "title": "adversarial_training_FBF.py example Error. ",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2014",
+                        "createdAt": "2023-01-31T20:21:02Z",
+                        "closedAt": "2023-02-16T13:14:40Z"
+                    },
+                    {
+                        "title": "Misspelled Method in art.defences.trainer.certified_adversarial_trainer_pytorch.py",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2023",
+                        "createdAt": "2023-02-12T16:57:31Z",
+                        "closedAt": "2023-02-15T20:07:02Z"
+                    },
+                    {
+                        "title": "TRADES adversarial training implementation",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2031",
+                        "createdAt": "2023-02-15T15:05:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implementation of certified training via IBP",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2037",
+                        "createdAt": "2023-02-20T09:44:40Z",
+                        "closedAt": "2023-03-17T19:27:17Z"
+                    },
+                    {
+                        "title": "Implementation of BadDet Poisoning Attack on Object Detectors",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2038",
+                        "createdAt": "2023-02-21T19:55:06Z",
+                        "closedAt": "2023-03-17T19:27:19Z"
+                    },
+                    {
+                        "title": "apply MIFace attack on different datasets",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2042",
+                        "createdAt": "2023-02-25T11:57:35Z",
+                        "closedAt": "2023-03-07T16:28:44Z"
+                    },
+                    {
+                        "title": "bug in pytorch_deep_speech",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2043",
+                        "createdAt": "2023-02-27T07:32:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Incorrect Dimension Order for Image Poisoning Perturbations",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2045",
+                        "createdAt": "2023-02-28T23:55:43Z",
+                        "closedAt": "2023-03-17T19:27:24Z"
+                    },
+                    {
+                        "title": "Adversarial attack on decision trees?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2048",
+                        "createdAt": "2023-03-02T21:06:02Z",
+                        "closedAt": "2023-03-09T11:23:59Z"
+                    },
+                    {
+                        "title": "Audio perturbation code should cache the trigger",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2052",
+                        "createdAt": "2023-03-06T18:58:59Z",
+                        "closedAt": "2023-03-17T19:27:28Z"
+                    },
+                    {
+                        "title": "PytorchClassifier is not trained from examples/get_started/pytorch.py",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2055",
+                        "createdAt": "2023-03-07T06:54:51Z",
+                        "closedAt": "2023-03-07T11:15:13Z"
+                    },
+                    {
+                        "title": "Implementation of Training Object Detector Models",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2058",
+                        "createdAt": "2023-03-07T21:29:36Z",
+                        "closedAt": "2023-03-20T23:06:02Z"
+                    },
+                    {
+                        "title": "Evasion Attack Capability for Multi-Label Classification",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2064",
+                        "createdAt": "2023-03-10T22:42:51Z",
+                        "closedAt": "2023-03-11T00:04:16Z"
+                    },
+                    {
+                        "title": "Evasion Attack Capability for Multi-Label Classification",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2066",
+                        "createdAt": "2023-03-11T00:05:57Z",
+                        "closedAt": "2023-03-11T00:10:03Z"
+                    },
+                    {
+                        "title": "Update Zonotope Certification tools with extra checks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2068",
+                        "createdAt": "2023-03-13T15:06:44Z",
+                        "closedAt": "2023-03-17T19:27:26Z"
+                    },
+                    {
+                        "title": "Misspelled Method in art.defences.trainer.certified_adversarial_trainer_pytorch.py",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2071",
+                        "createdAt": "2023-03-15T15:54:20Z",
+                        "closedAt": "2023-03-17T19:27:30Z"
+                    },
+                    {
+                        "title": "Allow for Arbitrarily Sized Images for the BadDet Attacks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2081",
+                        "createdAt": "2023-03-24T00:07:57Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implementation of a Resizing Preprocessor for Object Detector Inputs",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2082",
+                        "createdAt": "2023-03-24T00:15:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Default `train_step` for `TensorFlowV2Classifier` and Variations",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2083",
+                        "createdAt": "2023-03-24T02:03:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implementation of the Dirty Label Backdoor Attack",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2084",
+                        "createdAt": "2023-03-24T02:16:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Consider Renaming `GradientMatchingAttack` to `WitchesBrewAttack`",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2085",
+                        "createdAt": "2023-03-24T02:40:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Error in pytorch_yolo.py",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2086",
+                        "createdAt": "2023-03-24T17:34:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Questions for robust decision tree.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2087",
+                        "createdAt": "2023-03-27T22:09:04Z",
+                        "closedAt": "2023-03-28T13:11:19Z"
+                    },
+                    {
+                        "title": "Incorrect YOLO Bounding Box Input Format",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2088",
+                        "createdAt": "2023-03-29T17:58:41Z",
+                        "closedAt": "2023-04-21T19:54:15Z"
+                    },
+                    {
+                        "title": "ZooAttack issues",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2094",
+                        "createdAt": "2023-04-07T09:45:09Z",
+                        "closedAt": "2023-04-10T06:42:48Z"
+                    },
+                    {
+                        "title": "AdversarialPatchPyTorch does not work with pytorch 2.0.0",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2095",
+                        "createdAt": "2023-04-09T13:32:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Zoo Attack. Hi I am trying to generate 1000 of zoo adversarial samples using cifar10. Estimatatedly it will take 1000 hours to generate it in a server with GPU. I wonder if anyone has an idea on how to do it quicker. Thanks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2096",
+                        "createdAt": "2023-04-11T17:51:32Z",
+                        "closedAt": "2023-04-12T21:31:08Z"
+                    },
+                    {
+                        "title": "Incorrect image format for default test subsets",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2101",
+                        "createdAt": "2023-04-14T15:33:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Loss Weighting Overridden in IBP Training",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2102",
+                        "createdAt": "2023-04-16T14:52:27Z",
+                        "closedAt": "2023-04-21T19:54:17Z"
+                    },
+                    {
+                        "title": "Bug art.exceptions.EstimatorError",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2105",
+                        "createdAt": "2023-04-18T02:53:21Z",
+                        "closedAt": "2023-04-18T13:58:31Z"
+                    },
+                    {
+                        "title": "Bugs in AutoAttack implementation",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2107",
+                        "createdAt": "2023-04-18T10:28:07Z",
+                        "closedAt": "2023-04-18T14:02:17Z"
+                    },
+                    {
+                        "title": "Missing Feature for BadDet Regional Misclassification Attack",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2111",
+                        "createdAt": "2023-04-18T17:52:45Z",
+                        "closedAt": "2023-04-21T19:54:19Z"
+                    },
+                    {
+                        "title": "Bugs in AutoProjectedGradientDescent for cross_entropy loss",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2116",
+                        "createdAt": "2023-04-19T23:54:43Z",
+                        "closedAt": "2023-04-21T19:55:09Z"
+                    },
+                    {
+                        "title": "Tensor Device Inconsistencies in Projected Gradient Descent Algorithm.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2123",
+                        "createdAt": "2023-04-24T16:53:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implement semantic adversarial attacks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2126",
+                        "createdAt": "2023-04-28T19:26:19Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "paper for implementation of blackbox attribute inference attack",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2127",
+                        "createdAt": "2023-04-30T12:06:46Z",
+                        "closedAt": "2023-05-08T19:05:28Z"
+                    },
+                    {
+                        "title": "Implementation of a Square Padding Preprocessor for Object Detector Inputs",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2130",
+                        "createdAt": "2023-05-02T22:12:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Trigger Placement Bugs for Image Poisoning Perturbations",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2141",
+                        "createdAt": "2023-05-08T18:39:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Implementation of a \"Segment Anything\" SAM Estimator",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2145",
+                        "createdAt": "2023-05-09T18:37:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Use targeted carlini in UniversalPerturbation to generate noise but fail.",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2147",
+                        "createdAt": "2023-05-11T22:29:07Z",
+                        "closedAt": "2023-05-15T12:54:50Z"
+                    },
+                    {
+                        "title": "Error in **attack_adversarial_patch_pytorch_yolo.ipynb**",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2148",
+                        "createdAt": "2023-05-15T03:56:01Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "How can i train a pixelcnn with pytorch framwork?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2151",
+                        "createdAt": "2023-05-17T02:40:40Z",
+                        "closedAt": "2023-05-22T14:59:34Z"
+                    },
+                    {
+                        "title": "Support feature scaling in membership black-box attack",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2152",
+                        "createdAt": "2023-05-17T08:38:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for additional attack model types in inference attacks",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2153",
+                        "createdAt": "2023-05-17T08:41:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for blackbox membership inference attack without true labels",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2154",
+                        "createdAt": "2023-05-17T08:43:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support class-based membership inference",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2155",
+                        "createdAt": "2023-05-17T08:45:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Is there support for evasion attacks for regression problems?",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2156",
+                        "createdAt": "2023-05-18T13:17:56Z",
+                        "closedAt": "2023-05-22T15:16:12Z"
+                    },
+                    {
+                        "title": "Optimize `fit` and `predict` loops for PyTorch Estimators",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2157",
+                        "createdAt": "2023-05-19T15:33:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Adversarial Weight Perturbation based adversarial Training",
+                        "url": "https://github.com/Trusted-AI/adversarial-robustness-toolbox/issues/2164",
+                        "createdAt": "2023-05-24T13:11:36Z",
+                        "closedAt": null
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOUQDM4w==",
-                    "hasNextPage": false
+                    "endCursor": "Y3Vyc29yOnYyOpHOZsGVKw==",
+                    "hasNextPage": true
                 }
             }
         }

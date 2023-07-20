@@ -2,7 +2,7 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 2625,
+                "totalCount": 2781,
                 "nodes": [
                     {
                         "title": "Wrong mode used for car pickup legs with walking",
@@ -26,7 +26,7 @@
                         "title": "otp-2.2.0-SNAPSHOT-shaded-latest.jar does not load graph due to java.lang.OutOfMemoryError: Java heap space error",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4339",
                         "createdAt": "2022-08-02T08:11:18Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-11T07:34:20Z"
                     },
                     {
                         "title": "Realtime data missing on a trip-search",
@@ -38,7 +38,7 @@
                         "title": "SIRI module: make it is possible to switch off matching trips on stops",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4346",
                         "createdAt": "2022-08-04T09:57:33Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-20T20:58:32Z"
                     },
                     {
                         "title": "NullPointerException while doing processing realtime data.",
@@ -80,13 +80,13 @@
                         "title": "Improve logging",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4396",
                         "createdAt": "2022-08-22T10:32:09Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-02T07:34:52Z"
                     },
                     {
                         "title": "Configurable cost and slack for non-scheduled trips",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4400",
                         "createdAt": "2022-08-22T15:21:17Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-02T07:34:54Z"
                     },
                     {
                         "title": "Constrained transfers between non-scheduled and scheduled trips",
@@ -110,19 +110,19 @@
                         "title": "Ability to set OpenStreetMap import configuration per feed",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4418",
                         "createdAt": "2022-08-29T08:19:37Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-16T10:41:44Z"
                     },
                     {
                         "title": "Ability to set elevation data import configuration per feed",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4422",
                         "createdAt": "2022-08-29T13:49:34Z",
-                        "closedAt": null
+                        "closedAt": "2022-12-16T10:41:55Z"
                     },
                     {
                         "title": "Optimize and cleanup RaptorTransfer",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4425",
                         "createdAt": "2022-08-30T12:41:16Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-21T08:55:47Z"
                     },
                     {
                         "title": "Ability to set timezone per ParkAPIUpdater",
@@ -134,7 +134,7 @@
                         "title": "Allow setting different defaults for bicycle/walk safety based on permissions",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4431",
                         "createdAt": "2022-09-05T11:31:22Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-27T08:42:21Z"
                     },
                     {
                         "title": "Extended support for PredictionInaccurate flag",
@@ -146,18 +146,468 @@
                         "title": "OTP fails to start when a GBFS feed autoconfiguration file can't be loaded",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4436",
                         "createdAt": "2022-09-08T10:50:01Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-17T08:14:53Z"
                     },
                     {
                         "title": "Filter on branding",
                         "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4437",
                         "createdAt": "2022-09-08T12:56:27Z",
+                        "closedAt": "2022-11-23T14:46:17Z"
+                    },
+                    {
+                        "title": "Valid trips discarded for latest-departure-time-limit",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4439",
+                        "createdAt": "2022-09-09T12:41:46Z",
+                        "closedAt": "2023-03-02T07:34:56Z"
+                    },
+                    {
+                        "title": "FeedId-specific filters",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4440",
+                        "createdAt": "2022-09-09T12:45:41Z",
+                        "closedAt": "2023-01-18T15:45:24Z"
+                    },
+                    {
+                        "title": "Safety value normalization could potentially be removed",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4442",
+                        "createdAt": "2022-09-12T07:12:17Z",
+                        "closedAt": "2023-03-02T07:34:58Z"
+                    },
+                    {
+                        "title": "Wrong routing error code is sometimes returned when no connection is found in a search window",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4448",
+                        "createdAt": "2022-09-13T11:24:45Z",
+                        "closedAt": "2023-03-02T07:35:00Z"
+                    },
+                    {
+                        "title": "Vehicle parking groups",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4452",
+                        "createdAt": "2022-09-15T12:51:56Z",
+                        "closedAt": "2022-10-27T19:43:09Z"
+                    },
+                    {
+                        "title": "`unpreferredCost` vs `unpreferredRouteCost`",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4455",
+                        "createdAt": "2022-09-20T11:19:10Z",
+                        "closedAt": "2022-10-26T09:36:04Z"
+                    },
+                    {
+                        "title": "Retry initialization of a GBFS feed after start up",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4457",
+                        "createdAt": "2022-09-20T14:05:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Ability to force url in GBFS updater ",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4462",
+                        "createdAt": "2022-09-22T07:28:50Z",
+                        "closedAt": "2022-09-26T13:31:42Z"
+                    },
+                    {
+                        "title": "Block-based interlining leads to an excessive number of stay-seated transfers",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4467",
+                        "createdAt": "2022-09-23T11:16:15Z",
+                        "closedAt": "2022-09-27T09:20:24Z"
+                    },
+                    {
+                        "title": "Add Etags and If-None-Match handling to vector tiles",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4469",
+                        "createdAt": "2022-09-26T09:35:33Z",
+                        "closedAt": "2022-11-01T17:33:42Z"
+                    },
+                    {
+                        "title": "frequencySec setting issue",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4470",
+                        "createdAt": "2022-09-26T16:58:07Z",
+                        "closedAt": "2023-03-02T07:35:02Z"
+                    },
+                    {
+                        "title": "Generate Configuration Documentation",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4477",
+                        "createdAt": "2022-09-28T16:57:45Z",
+                        "closedAt": "2022-11-01T14:19:00Z"
+                    },
+                    {
+                        "title": "Add support for HTTPS datasource",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4481",
+                        "createdAt": "2022-09-29T10:50:48Z",
+                        "closedAt": "2022-10-21T08:55:23Z"
+                    },
+                    {
+                        "title": "Walk and bicycle safety defaults should be adjustable based on car speed limit on a way",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4483",
+                        "createdAt": "2022-09-29T10:54:24Z",
+                        "closedAt": "2022-10-05T16:42:47Z"
+                    },
+                    {
+                        "title": "Part D - Via search, implement feature. (Depend on: A)",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4494",
+                        "createdAt": "2022-10-03T12:15:24Z",
+                        "closedAt": "2023-02-09T20:05:32Z"
+                    },
+                    {
+                        "title": "Batch plan requests get request parameters mixed up",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4496",
+                        "createdAt": "2022-10-04T09:10:26Z",
+                        "closedAt": "2022-12-08T09:22:09Z"
+                    },
+                    {
+                        "title": "OSM specifiers with many key/value pairs lead to suprising matches",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4500",
+                        "createdAt": "2022-10-05T11:16:20Z",
+                        "closedAt": "2022-10-14T12:39:19Z"
+                    },
+                    {
+                        "title": "Error when importing zip file datasets containing entries largen than 2GB",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4507",
+                        "createdAt": "2022-10-10T12:01:19Z",
+                        "closedAt": "2022-10-12T21:09:44Z"
+                    },
+                    {
+                        "title": "Null pointer exception in safety values",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4527",
+                        "createdAt": "2022-10-18T07:03:15Z",
+                        "closedAt": "2022-10-21T08:52:35Z"
+                    },
+                    {
+                        "title": "OtherThanSameLegsMaxGeneralizedCostFilter filters out all legs if egress leg has a negative cost",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4546",
+                        "createdAt": "2022-10-26T08:20:21Z",
+                        "closedAt": "2022-11-08T11:12:37Z"
+                    },
+                    {
+                        "title": "Read timeout while downloading HTTPS datasources",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4552",
+                        "createdAt": "2022-10-27T11:12:59Z",
+                        "closedAt": "2022-10-27T13:49:26Z"
+                    },
+                    {
+                        "title": "Speed test configuration do not support more than one feedId",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4556",
+                        "createdAt": "2022-10-28T12:10:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Problem with time parameter for SandboxAPITravelTime",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4564",
+                        "createdAt": "2022-11-02T14:15:36Z",
+                        "closedAt": "2022-11-25T11:12:01Z"
+                    },
+                    {
+                        "title": "Problem with interchanges that start and stop on the same StopPoint",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4572",
+                        "createdAt": "2022-11-04T12:24:14Z",
+                        "closedAt": "2022-12-06T09:18:58Z"
+                    },
+                    {
+                        "title": "Use crossing=traffic_signals tag",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4573",
+                        "createdAt": "2022-11-04T12:30:01Z",
+                        "closedAt": "2022-12-15T15:30:32Z"
+                    },
+                    {
+                        "title": "Improve Raptor Heuristics performance - number of transfers",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4577",
+                        "createdAt": "2022-11-05T19:43:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Error when filtering identical consecutive stops",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4585",
+                        "createdAt": "2022-11-08T08:57:50Z",
+                        "closedAt": "2022-11-15T09:30:15Z"
+                    },
+                    {
+                        "title": "Graph building fails when an Operator's name is not defined",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4587",
+                        "createdAt": "2022-11-09T11:06:39Z",
+                        "closedAt": "2022-11-09T12:58:55Z"
+                    },
+                    {
+                        "title": "Optimize routing data filtering",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4590",
+                        "createdAt": "2022-11-09T20:33:55Z",
+                        "closedAt": "2022-11-15T11:54:04Z"
+                    },
+                    {
+                        "title": "Option to prefer stations for transfers",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4598",
+                        "createdAt": "2022-11-15T08:35:59Z",
+                        "closedAt": "2022-11-21T09:54:34Z"
+                    },
+                    {
+                        "title": "Bicycles are allowed to traverse stairs",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4613",
+                        "createdAt": "2022-11-18T13:59:23Z",
+                        "closedAt": "2022-12-05T13:07:09Z"
+                    },
+                    {
+                        "title": "Improve support for replacement servicejourneys in Siri",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4619",
+                        "createdAt": "2022-11-22T07:39:24Z",
+                        "closedAt": "2022-12-20T09:42:34Z"
+                    },
+                    {
+                        "title": "Add gtfsDefaults",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4621",
+                        "createdAt": "2022-11-22T09:08:06Z",
+                        "closedAt": "2022-12-06T09:27:16Z"
+                    },
+                    {
+                        "title": "Cleanup usage of SIRI DatedServiceJourneyId vs. ServiceJourneyId",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4625",
+                        "createdAt": "2022-11-22T15:30:13Z",
+                        "closedAt": "2023-01-25T13:09:29Z"
+                    },
+                    {
+                        "title": "Filter on group of lines",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4628",
+                        "createdAt": "2022-11-23T14:49:10Z",
+                        "closedAt": "2023-02-21T09:41:34Z"
+                    },
+                    {
+                        "title": "Cannot plan route when no transit data is added to graph",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4632",
+                        "createdAt": "2022-11-24T11:00:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "osmDefaults not used to set missing values from osm sources",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4634",
+                        "createdAt": "2022-11-24T17:15:21Z",
+                        "closedAt": "2022-11-28T11:13:18Z"
+                    },
+                    {
+                        "title": "Add demDefaults",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4636",
+                        "createdAt": "2022-11-24T18:18:42Z",
+                        "closedAt": "2022-11-29T08:27:09Z"
+                    },
+                    {
+                        "title": "Arriveby pagination retains itineraries from previous pages",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4644",
+                        "createdAt": "2022-11-29T08:26:47Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Error while querying empty line ID through the GraphQL API",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4646",
+                        "createdAt": "2022-11-29T14:28:31Z",
+                        "closedAt": "2022-11-30T08:53:36Z"
+                    },
+                    {
+                        "title": "Include/implement support for listing EntitySelector.Stop",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4650",
+                        "createdAt": "2022-12-01T12:31:20Z",
+                        "closedAt": "2023-03-07T18:52:46Z"
+                    },
+                    {
+                        "title": "Pagination returns same next page and no itineraries",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4651",
+                        "createdAt": "2022-12-01T13:37:01Z",
+                        "closedAt": "2022-12-01T14:15:50Z"
+                    },
+                    {
+                        "title": "Add customizable tags to realtime-metrics?",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4656",
+                        "createdAt": "2022-12-05T13:30:52Z",
+                        "closedAt": "2023-04-14T07:34:07Z"
+                    },
+                    {
+                        "title": "Actuators Prometheus endpoint refusing all Accept header values resulting in 406 Not Acceptable",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4673",
+                        "createdAt": "2022-12-13T16:42:01Z",
+                        "closedAt": "2022-12-14T10:24:58Z"
+                    },
+                    {
+                        "title": "Unknown NeTEx submode is different instance in cache and constant",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4675",
+                        "createdAt": "2022-12-15T09:37:22Z",
+                        "closedAt": "2023-04-16T07:33:44Z"
+                    },
+                    {
+                        "title": "OTP crashes when using `vehicleRentalServiceDirectory`",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4681",
+                        "createdAt": "2022-12-20T08:56:10Z",
+                        "closedAt": "2022-12-21T13:29:35Z"
+                    },
+                    {
+                        "title": "Enable Prettier on Windows",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4682",
+                        "createdAt": "2022-12-20T09:54:17Z",
+                        "closedAt": "2023-02-15T16:06:11Z"
+                    },
+                    {
+                        "title": "Negative travel time",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4690",
+                        "createdAt": "2023-01-05T13:03:11Z",
+                        "closedAt": "2023-02-15T11:07:51Z"
+                    },
+                    {
+                        "title": "Safety mixin are applied to the wrong side",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4695",
+                        "createdAt": "2023-01-09T14:41:57Z",
+                        "closedAt": "2023-01-19T19:30:35Z"
+                    },
+                    {
+                        "title": "Migration to Jakarta EE 9",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4697",
+                        "createdAt": "2023-01-11T14:30:38Z",
+                        "closedAt": "2023-01-13T14:28:43Z"
+                    },
+                    {
+                        "title": "OTP gives \"INVALID_STOP_SEQUENCE\" error for \"overcomplete\" GTFS-RT data",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4702",
+                        "createdAt": "2023-01-12T21:57:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Dependency Dashboard",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4709",
+                        "createdAt": "2023-01-17T10:39:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "locally created turn restrictions not observed",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4720",
+                        "createdAt": "2023-01-18T03:34:08Z",
+                        "closedAt": "2023-01-19T11:32:53Z"
+                    },
+                    {
+                        "title": "Linear cost function for modes",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4736",
+                        "createdAt": "2023-01-19T13:08:38Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "REST API throws exception when planning routes",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4748",
+                        "createdAt": "2023-01-20T08:15:41Z",
+                        "closedAt": "2023-01-23T14:04:27Z"
+                    },
+                    {
+                        "title": "tile URLs of non-existent tile layers give 200 instead of 404",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4760",
+                        "createdAt": "2023-01-24T08:57:09Z",
+                        "closedAt": "2023-03-03T07:37:26Z"
+                    },
+                    {
+                        "title": "Remove stop-alight-cost in the right palce",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4762",
+                        "createdAt": "2023-01-25T10:25:39Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Graph Builder fails when importing invalid NeTEx flex area",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4764",
+                        "createdAt": "2023-01-25T14:28:45Z",
+                        "closedAt": "2023-01-25T15:18:30Z"
+                    },
+                    {
+                        "title": "ORCA / Puget Sound fare module in OTP2 with Fare by Leg Support",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4778",
+                        "createdAt": "2023-01-27T22:34:40Z",
+                        "closedAt": "2023-02-03T13:43:31Z"
+                    },
+                    {
+                        "title": "Support loading several GTFS feeds with the same feed id",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4788",
+                        "createdAt": "2023-01-31T15:18:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Plan query that follows the relay connection specification",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4803",
+                        "createdAt": "2023-02-07T08:20:17Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "project fails to build when using default maven-resources-plugin ",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4808",
+                        "createdAt": "2023-02-08T02:00:22Z",
+                        "closedAt": "2023-02-10T23:23:21Z"
+                    },
+                    {
+                        "title": "Support for intermediate place in routing search",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4811",
+                        "createdAt": "2023-02-08T14:50:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Migrate to GraphQL",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4814",
+                        "createdAt": "2023-02-09T07:21:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "\"other\" operator as a multi-criteria factor (to accommodate for neutral journey-planning)",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4815",
+                        "createdAt": "2023-02-09T07:24:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Transit model refactor for easier integration with (real-time) updaters and simpler maintenance",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4816",
+                        "createdAt": "2023-02-09T07:31:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for multi access/egress modes requests (today OTP2 only support explicit modes)",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4817",
+                        "createdAt": "2023-02-09T07:35:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Micro-mobility (including geofencing for scooters)",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4818",
+                        "createdAt": "2023-02-09T07:36:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Two-way pedestrian accessibility problem",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4823",
+                        "createdAt": "2023-02-09T16:30:21Z",
+                        "closedAt": "2023-02-10T08:57:16Z"
+                    },
+                    {
+                        "title": "Preferring/unpreferring vehicle parking tags",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4827",
+                        "createdAt": "2023-02-10T09:51:19Z",
+                        "closedAt": "2023-03-02T10:31:03Z"
+                    },
+                    {
+                        "title": "Deprecating the REST API and making the HSL (legacy) GraphQL API the default one",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4828",
+                        "createdAt": "2023-02-10T10:06:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for ride sharing/car hailing/taxi services",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4832",
+                        "createdAt": "2023-02-13T12:44:34Z",
+                        "closedAt": "2023-04-17T14:39:58Z"
+                    },
+                    {
+                        "title": "Upstream release scripts from Entur",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4844",
+                        "createdAt": "2023-02-16T14:37:08Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Scooter rental leg is errouneously returned as bike rental",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4847",
+                        "createdAt": "2023-02-17T15:48:12Z",
+                        "closedAt": "2023-02-22T10:20:03Z"
+                    },
+                    {
+                        "title": "Feature request: Option to extract GTFS to match OSM data",
+                        "url": "https://github.com/opentripplanner/OpenTripPlanner/issues/4850",
+                        "createdAt": "2023-02-19T19:24:12Z",
                         "closedAt": null
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOUW-oWQ==",
-                    "hasNextPage": false
+                    "endCursor": "Y3Vyc29yOnYyOpHOXtIAiA==",
+                    "hasNextPage": true
                 }
             }
         }

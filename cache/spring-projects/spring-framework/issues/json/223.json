@@ -2,13 +2,19 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 22443,
+                "totalCount": 23484,
                 "nodes": [
+                    {
+                        "title": "Typo in `SockJsServiceRegistration#setSupressCors`",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28806",
+                        "createdAt": "2022-07-12T18:09:43Z",
+                        "closedAt": "2022-07-22T07:44:56Z"
+                    },
                     {
                         "title": "SimpleEvaluationContext should disable array allocation",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28808",
                         "createdAt": "2022-07-13T00:50:10Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-18T17:00:01Z"
                     },
                     {
                         "title": "AOT generated code should consider visibility of FactoryBean target type",
@@ -41,10 +47,10 @@
                         "closedAt": "2022-07-13T16:11:16Z"
                     },
                     {
-                        "title": "Provide options for external control over `ProblemDetail` properties for Spring web exceptions ",
+                        "title": "Allow for external customization and i8n of the \"detail\" of an RFC 7807 response",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28814",
                         "createdAt": "2022-07-13T15:54:11Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-11T14:10:58Z"
                     },
                     {
                         "title": "Improve regex \".\" matching for URL paths",
@@ -92,7 +98,7 @@
                         "title": "Introduce SPI for processing ApplicationContext failures in the TestContext framework",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28826",
                         "createdAt": "2022-07-15T08:29:51Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-18T12:44:57Z"
                     },
                     {
                         "title": "Exception when trying to use HTTP/2 with two different Spring versions",
@@ -152,7 +158,7 @@
                         "title": "Prevent beans to be instantiated at build-time unless it has been flagged",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28838",
                         "createdAt": "2022-07-18T16:04:40Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-26T12:34:50Z"
                     },
                     {
                         "title": "RenderingResponse does not set status code on redirect views",
@@ -182,7 +188,7 @@
                         "title": "NPE when a bean has generic inline-class as a public property",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28845",
                         "createdAt": "2022-07-20T10:22:10Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-17T09:32:52Z"
                     },
                     {
                         "title": "Inconsistent application of BeanPostProcessors to proxied self-referential beans",
@@ -194,7 +200,7 @@
                         "title": "Support for Netty 5",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28847",
                         "createdAt": "2022-07-21T14:32:34Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T08:37:24Z"
                     },
                     {
                         "title": "REST endpoint resolution changed (broke?) from spring-boot v3.0.0-M3",
@@ -260,7 +266,7 @@
                         "title": "Revisit BeanRegistrationAotContribution#ofBeanRegistrationCodeFragmentsCustomizer",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28865",
                         "createdAt": "2022-07-25T08:10:06Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-22T13:35:55Z"
                     },
                     {
                         "title": "Clarify which AOT components can be instantiated at build-time",
@@ -272,7 +278,7 @@
                         "title": "Deprecate support for themes",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28868",
                         "createdAt": "2022-07-25T11:08:04Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-09T09:20:21Z"
                     },
                     {
                         "title": "Add annotation support for registering reflection hints",
@@ -308,7 +314,7 @@
                         "title": "Try to remove generic on BeanInstanceSupplier",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28875",
                         "createdAt": "2022-07-26T12:59:51Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-06T07:08:45Z"
                     },
                     {
                         "title": "Introduce TestGenerationContext",
@@ -332,19 +338,19 @@
                         "title": "Instrument MVC and WebFlux for Observability",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28880",
                         "createdAt": "2022-07-27T14:37:46Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-13T19:32:48Z"
                     },
                     {
                         "title": "Unnamed module issue when using FailureAnalyzer with JPMS",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28881",
                         "createdAt": "2022-07-27T15:34:31Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-07T10:38:33Z"
                     },
                     {
                         "title": "About the change in the advice order in Spring AOP",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28882",
                         "createdAt": "2022-07-28T08:13:24Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-06T12:29:37Z"
                     },
                     {
                         "title": "Deleting Sensitive Information from the Memory",
@@ -374,7 +380,7 @@
                         "title": "Document compatibility with Servlet and Jakarta EE versions",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28889",
                         "createdAt": "2022-07-29T20:37:21Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-01T09:05:37Z"
                     },
                     {
                         "title": "Make BootstrapUtils.resolveTestContextBootstrapper() public",
@@ -440,7 +446,7 @@
                         "title": "WebClientIntegrationTests are failing if port 80 is in use",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28902",
                         "createdAt": "2022-08-01T10:02:43Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-20T13:00:49Z"
                     },
                     {
                         "title": "GenericTypeResolver resolves to an incorrect type if a class implements multiple generic interfaces depending on the order of definition of the interfaces.",
@@ -512,13 +518,13 @@
                         "title": "Access recorded ApplicationEvents across all threads in the TestContext framework",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28919",
                         "createdAt": "2022-08-03T09:23:28Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-31T15:52:04Z"
                     },
                     {
                         "title": "Add native-image support for reactive websockets",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28920",
                         "createdAt": "2022-08-03T14:16:04Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T09:46:17Z"
                     },
                     {
                         "title": "JdbcTemplate: Missing support for VALUES list in SELECT statements",
@@ -533,10 +539,10 @@
                         "closedAt": null
                     },
                     {
-                        "title": "RequestFactory Support for httpclient5 in spring-web",
+                        "title": "Upgrade RestTemplate to HttpClient 5",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28925",
                         "createdAt": "2022-08-04T14:19:39Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-20T10:10:31Z"
                     },
                     {
                         "title": "Restore GeneratedTypeReference",
@@ -566,7 +572,7 @@
                         "title": "Document when RequestEntity.getUrl() throws an UnsupportedOperationException",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28930",
                         "createdAt": "2022-08-05T08:48:07Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-14T18:29:14Z"
                     },
                     {
                         "title": "Cannot build another project using --include-build on Spring Framework sources",
@@ -578,7 +584,7 @@
                         "title": "Stream Closed appears when uploading files using MultipartFile",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28932",
                         "createdAt": "2022-08-05T09:46:25Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-08T15:10:59Z"
                     },
                     {
                         "title": "DataBufferUtils.write(Publisher, Path) loses context",
@@ -597,16 +603,10 @@
                         "url": "https://github.com/spring-projects/spring-framework/issues/28935",
                         "createdAt": "2022-08-08T07:23:15Z",
                         "closedAt": "2022-08-08T07:35:37Z"
-                    },
-                    {
-                        "title": "Allow RegisteredBean to access the original bean definition",
-                        "url": "https://github.com/spring-projects/spring-framework/issues/28936",
-                        "createdAt": "2022-08-08T09:30:34Z",
-                        "closedAt": "2022-08-08T11:51:59Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOT157eg==",
+                    "endCursor": "Y3Vyc29yOnYyOpHOT1xCiA==",
                     "hasNextPage": true
                 }
             }

@@ -2,7 +2,7 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 741,
+                "totalCount": 862,
                 "nodes": [
                     {
                         "title": "The function flags lost in disassembly widget",
@@ -212,25 +212,25 @@
                         "title": "Add rz-bindgen-based linter CI job",
                         "url": "https://github.com/rizinorg/rizin/issues/2981",
                         "createdAt": "2022-08-24T14:16:22Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-11T05:06:23Z"
                     },
                     {
                         "title": "Hotkey to show/hide the legend in `Vv` mode",
                         "url": "https://github.com/rizinorg/rizin/issues/2983",
                         "createdAt": "2022-08-26T09:24:52Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-08T22:52:31Z"
                     },
                     {
                         "title": "Do not insert mouse codes as characters in `~...` mode",
                         "url": "https://github.com/rizinorg/rizin/issues/2987",
                         "createdAt": "2022-08-29T03:52:27Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-07T09:07:37Z"
                     },
                     {
                         "title": "Fix Android CI builds",
                         "url": "https://github.com/rizinorg/rizin/issues/2991",
                         "createdAt": "2022-08-31T00:16:27Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-08T04:00:32Z"
                     },
                     {
                         "title": "rz-asm: cannot assemble xtensa",
@@ -248,12 +248,366 @@
                         "title": "Build `stable` rz-ghidra for `stable` rizin Docker",
                         "url": "https://github.com/rizinorg/rizin/issues/2995",
                         "createdAt": "2022-09-01T00:33:08Z",
+                        "closedAt": "2022-09-08T01:05:11Z"
+                    },
+                    {
+                        "title": "Support Zstd-compressed ELF debug information sections",
+                        "url": "https://github.com/rizinorg/rizin/issues/3019",
+                        "createdAt": "2022-09-11T02:20:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix Hexagon bindgen linter warnings",
+                        "url": "https://github.com/rizinorg/rizin/issues/3020",
+                        "createdAt": "2022-09-11T05:04:28Z",
+                        "closedAt": "2022-09-12T20:09:02Z"
+                    },
+                    {
+                        "title": "When using `j` and `k` in  `Vv` mode, don't change right pane view mode.",
+                        "url": "https://github.com/rizinorg/rizin/issues/3021",
+                        "createdAt": "2022-09-11T14:44:03Z",
+                        "closedAt": "2023-02-07T01:13:45Z"
+                    },
+                    {
+                        "title": "Support for C-SKY in native and GDB remote debugger",
+                        "url": "https://github.com/rizinorg/rizin/issues/3023",
+                        "createdAt": "2022-09-13T13:18:23Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Fix `float_t` incompatibility with RzFloat merged in RzUtil in Rizin",
+                        "url": "https://github.com/rizinorg/rizin/issues/3028",
+                        "createdAt": "2022-09-14T14:41:54Z",
+                        "closedAt": "2022-09-16T13:55:59Z"
+                    },
+                    {
+                        "title": "Division by zero in dyldcache_rebase.c",
+                        "url": "https://github.com/rizinorg/rizin/issues/3031",
+                        "createdAt": "2022-09-17T12:59:36Z",
+                        "closedAt": "2022-09-17T16:37:56Z"
+                    },
+                    {
+                        "title": "Nullptr read in dwarf_process.c",
+                        "url": "https://github.com/rizinorg/rizin/issues/3032",
+                        "createdAt": "2022-09-17T12:59:47Z",
+                        "closedAt": "2022-09-17T16:37:56Z"
+                    },
+                    {
+                        "title": "Diffing algorithms comparable to BinDiff and Diaphora",
+                        "url": "https://github.com/rizinorg/rizin/issues/3034",
+                        "createdAt": "2022-09-18T03:26:55Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Expose floating arithmetics in RzNum/`rz-ax` tool",
+                        "url": "https://github.com/rizinorg/rizin/issues/3035",
+                        "createdAt": "2022-09-18T03:42:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "OS/2 PE: WARNING: Compressed page not handled: obj.1.page.0",
+                        "url": "https://github.com/rizinorg/rizin/issues/3045",
+                        "createdAt": "2022-09-23T13:57:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "test/unit/test_float failures on big-endian systems (System Z)",
+                        "url": "https://github.com/rizinorg/rizin/issues/3050",
+                        "createdAt": "2022-09-29T00:51:30Z",
+                        "closedAt": "2022-10-09T00:05:21Z"
+                    },
+                    {
+                        "title": "glibc 2.35 heap ",
+                        "url": "https://github.com/rizinorg/rizin/issues/3052",
+                        "createdAt": "2022-09-29T13:38:44Z",
+                        "closedAt": "2022-09-29T13:39:20Z"
+                    },
+                    {
+                        "title": "Heap commands do not work well when using glibc 2.35",
+                        "url": "https://github.com/rizinorg/rizin/issues/3053",
+                        "createdAt": "2022-09-29T13:50:04Z",
+                        "closedAt": "2023-02-11T06:08:09Z"
+                    },
+                    {
+                        "title": "Core file generation doesn't work on macOS 12.6 ARM64",
+                        "url": "https://github.com/rizinorg/rizin/issues/3054",
+                        "createdAt": "2022-09-30T08:20:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Use Unicode and \"curvy\" symbols in the `RZ_CMD_OUTPUT_TABLE`",
+                        "url": "https://github.com/rizinorg/rizin/issues/3064",
+                        "createdAt": "2022-10-05T01:52:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Make Python3 optional for the building process",
+                        "url": "https://github.com/rizinorg/rizin/issues/3067",
+                        "createdAt": "2022-10-05T14:34:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add debug tests for FreeBSD, OpenBSD, NetBSD",
+                        "url": "https://github.com/rizinorg/rizin/issues/3072",
+                        "createdAt": "2022-10-07T16:40:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Consider using `scdoc` for generating man pages",
+                        "url": "https://github.com/rizinorg/rizin/issues/3085",
+                        "createdAt": "2022-10-10T00:38:28Z",
+                        "closedAt": "2023-02-02T14:53:40Z"
+                    },
+                    {
+                        "title": "Rework disassembly API",
+                        "url": "https://github.com/rizinorg/rizin/issues/3086",
+                        "createdAt": "2022-10-11T05:03:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support MachO chained fixups (binaries compiled with XCode >= 13)",
+                        "url": "https://github.com/rizinorg/rizin/issues/3091",
+                        "createdAt": "2022-10-12T03:28:22Z",
+                        "closedAt": "2022-10-14T17:59:30Z"
+                    },
+                    {
+                        "title": "Wrong switch-case analysis on MacOS M1 ARM",
+                        "url": "https://github.com/rizinorg/rizin/issues/3093",
+                        "createdAt": "2022-10-13T08:23:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Complete MiniDump Bin Plugin",
+                        "url": "https://github.com/rizinorg/rizin/issues/3125",
+                        "createdAt": "2022-10-24T09:54:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Nullptr read in dyldcache_rebase.c",
+                        "url": "https://github.com/rizinorg/rizin/issues/3128",
+                        "createdAt": "2022-10-25T14:07:45Z",
+                        "closedAt": "2023-01-20T04:01:37Z"
+                    },
+                    {
+                        "title": "Python  3.10, 3.11, and 3.12 versions bytecode support",
+                        "url": "https://github.com/rizinorg/rizin/issues/3130",
+                        "createdAt": "2022-10-26T06:40:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "FreeBSD debugger: ld-elf.so.1: /usr/local/lib/librz_debug.so.0.5: Undefined symbol \"kinfo_getproc\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/3131",
+                        "createdAt": "2022-10-26T13:47:16Z",
+                        "closedAt": "2023-01-08T03:13:15Z"
+                    },
+                    {
+                        "title": "Quotes escaping in `agf dot` string literals",
+                        "url": "https://github.com/rizinorg/rizin/issues/3132",
+                        "createdAt": "2022-10-26T18:08:20Z",
+                        "closedAt": "2022-10-28T00:34:31Z"
+                    },
+                    {
+                        "title": "linux-i386 docker: FAILED: subprojects/blake3/libblake3.a.p/c_blake3_avx2_x86-64_unix.S.o ",
+                        "url": "https://github.com/rizinorg/rizin/issues/3134",
+                        "createdAt": "2022-10-27T02:20:32Z",
+                        "closedAt": "2022-10-27T13:14:05Z"
+                    },
+                    {
+                        "title": "RZIL public API for core plugins",
+                        "url": "https://github.com/rizinorg/rizin/issues/3145",
+                        "createdAt": "2022-10-31T10:03:41Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support for CDEX (Compact DEX) and VEX (Verified DEX)",
+                        "url": "https://github.com/rizinorg/rizin/issues/3156",
+                        "createdAt": "2022-11-04T03:40:08Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Create rz-shell like subsystem for visual modes (handling hotkeys)",
+                        "url": "https://github.com/rizinorg/rizin/issues/3164",
+                        "createdAt": "2022-11-06T06:45:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Move Banned keyword feature from cutter to Rizin",
+                        "url": "https://github.com/rizinorg/rizin/issues/3170",
+                        "createdAt": "2022-11-07T17:29:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add a scroll (navigation) line in `V` and `Vv` modes",
+                        "url": "https://github.com/rizinorg/rizin/issues/3174",
+                        "createdAt": "2022-11-09T00:00:26Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Pointer authentication-related instructions parsed as \"invalid\"",
+                        "url": "https://github.com/rizinorg/rizin/issues/3175",
+                        "createdAt": "2022-11-09T07:00:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "8051 plugin corrupts mapping",
+                        "url": "https://github.com/rizinorg/rizin/issues/3182",
+                        "createdAt": "2022-11-12T11:36:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Wrong order of operations emulating X86_INSTR_POP",
+                        "url": "https://github.com/rizinorg/rizin/issues/3191",
+                        "createdAt": "2022-11-17T13:45:36Z",
+                        "closedAt": "2022-12-09T19:18:05Z"
+                    },
+                    {
+                        "title": "[Hexagon] Add v71, v71t, and v73  instructions",
+                        "url": "https://github.com/rizinorg/rizin/issues/3192",
+                        "createdAt": "2022-11-18T00:37:08Z",
+                        "closedAt": "2022-12-22T13:49:25Z"
+                    },
+                    {
+                        "title": "Support loading Unicode and emoji variable, constants, and function names from DWARF, PDB debug information.",
+                        "url": "https://github.com/rizinorg/rizin/issues/3196",
+                        "createdAt": "2022-11-21T06:14:56Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Failure to compile using Capstone 3",
+                        "url": "https://github.com/rizinorg/rizin/issues/3209",
+                        "createdAt": "2022-11-28T01:39:07Z",
+                        "closedAt": "2022-11-28T06:59:45Z"
+                    },
+                    {
+                        "title": "Drop Capstone 3 support",
+                        "url": "https://github.com/rizinorg/rizin/issues/3210",
+                        "createdAt": "2022-11-28T02:43:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add support for `forkpty` in RzSubprocess",
+                        "url": "https://github.com/rizinorg/rizin/issues/3212",
+                        "createdAt": "2022-11-28T08:41:17Z",
+                        "closedAt": "2022-12-29T12:38:41Z"
+                    },
+                    {
+                        "title": "FLIRT and `rz-diff` errors in static build on Alpine Musl",
+                        "url": "https://github.com/rizinorg/rizin/issues/3220",
+                        "createdAt": "2022-12-04T03:56:11Z",
+                        "closedAt": "2022-12-05T01:51:38Z"
+                    },
+                    {
+                        "title": "Support debugger mode[s] on Linux System Z platforms",
+                        "url": "https://github.com/rizinorg/rizin/issues/3229",
+                        "createdAt": "2022-12-06T13:37:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add debugger tests for Linux ARM64",
+                        "url": "https://github.com/rizinorg/rizin/issues/3230",
+                        "createdAt": "2022-12-06T13:39:16Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add debugger tests for Linux PowerPC (LE)",
+                        "url": "https://github.com/rizinorg/rizin/issues/3231",
+                        "createdAt": "2022-12-06T13:52:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "PLT Trampoline functions are not renamed with a name containing the target function name",
+                        "url": "https://github.com/rizinorg/rizin/issues/3233",
+                        "createdAt": "2022-12-07T11:26:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Rizin's grep should be case-insensitive by default",
+                        "url": "https://github.com/rizinorg/rizin/issues/3240",
+                        "createdAt": "2022-12-10T23:35:03Z",
+                        "closedAt": "2022-12-28T01:38:34Z"
+                    },
+                    {
+                        "title": "rz-bin -zz does not  extract strings of corrupt executable files",
+                        "url": "https://github.com/rizinorg/rizin/issues/3244",
+                        "createdAt": "2022-12-14T16:13:50Z",
+                        "closedAt": "2022-12-15T15:08:49Z"
+                    },
+                    {
+                        "title": "Add more metainformation for color themes",
+                        "url": "https://github.com/rizinorg/rizin/issues/3249",
+                        "createdAt": "2022-12-16T03:11:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Hexdump output title string isn't colorthemed",
+                        "url": "https://github.com/rizinorg/rizin/issues/3251",
+                        "createdAt": "2022-12-16T05:25:24Z",
+                        "closedAt": "2023-02-04T13:00:48Z"
+                    },
+                    {
+                        "title": "The return-void instructions are parsed as invalid.",
+                        "url": "https://github.com/rizinorg/rizin/issues/3254",
+                        "createdAt": "2022-12-19T15:50:09Z",
+                        "closedAt": "2022-12-20T17:06:57Z"
+                    },
+                    {
+                        "title": "assemblers should advertise supported syntaxes",
+                        "url": "https://github.com/rizinorg/rizin/issues/3256",
+                        "createdAt": "2022-12-21T10:45:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Smart case grep does not work when multiple greps are used",
+                        "url": "https://github.com/rizinorg/rizin/issues/3262",
+                        "createdAt": "2023-01-03T11:04:22Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Speed up project saving",
+                        "url": "https://github.com/rizinorg/rizin/issues/3271",
+                        "createdAt": "2023-01-07T21:32:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Debugging on NetBSD 9.3 x86_64 starts from 0x000000 address",
+                        "url": "https://github.com/rizinorg/rizin/issues/3274",
+                        "createdAt": "2023-01-08T05:57:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Remove duplicated code in `librz/core/canalysis.c` for string detection",
+                        "url": "https://github.com/rizinorg/rizin/issues/3276",
+                        "createdAt": "2023-01-09T02:54:45Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Add bi-weekly rz-bindgen full generation GitHub Action",
+                        "url": "https://github.com/rizinorg/rizin/issues/3279",
+                        "createdAt": "2023-01-09T14:44:13Z",
+                        "closedAt": "2023-01-17T15:04:45Z"
+                    },
+                    {
+                        "title": "Uncolored command line after using rizin HTTP web server via `Rh`",
+                        "url": "https://github.com/rizinorg/rizin/issues/3280",
+                        "createdAt": "2023-01-10T01:32:58Z",
+                        "closedAt": "2023-01-30T13:38:38Z"
+                    },
+                    {
+                        "title": "python rzpipe: rap session splits when `Po` is used to open a rizin project",
+                        "url": "https://github.com/rizinorg/rizin/issues/3281",
+                        "createdAt": "2023-01-10T02:08:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support of the basic ARMv8 NEON instructions with RZIL ",
+                        "url": "https://github.com/rizinorg/rizin/issues/3282",
+                        "createdAt": "2023-01-10T05:50:36Z",
                         "closedAt": null
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOUPKwbg==",
-                    "hasNextPage": false
+                    "endCursor": "Y3Vyc29yOnYyOpHOWwEuGQ==",
+                    "hasNextPage": true
                 }
             }
         }
