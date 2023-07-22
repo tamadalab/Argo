@@ -88,7 +88,26 @@ def find(json_data, file_name, dir_path, data_cpl):
         FileMake.jsonMake(json_data, file_nextnum, dir_path)
         f = open(os.path.join(dir_path, "json", file_nextnum + ".json"), "r")
     json_dict = json.load(f)
-    totalCount = json_dict["data"]["repository"]["forks"]["totalCount"]
+    
+    json_file_path = os.path.join(dir_path, "json",str(file_name)+".json")
+    retry_limit = 5
+    retry_count = 0
+
+    while retry_count < retry_limit:
+        try:
+            # エラーが起きうる可能性のあるコード
+            totalCount = json_dict["data"]["repository"]["forks"]["totalCount"]
+            break
+        except TypeError:
+            if os.path.isfile(json_file_path):
+                os.remove(json_file_path)
+            retry_count += 1
+            print(f"Error occurred, retrying... ({retry_count}/{retry_limit})")
+            # 待機時間を設ける
+            time.sleep(1)  # 1秒待機
+    else:
+        print(f"Error occurred {retry_limit} times. Stop retrying.")
+
     end_cursor = json_dict["data"]["repository"]["forks"]["pageInfo"]["endCursor"]
     has_next_page = json_dict["data"]["repository"]["forks"]["pageInfo"]["hasNextPage"]
     return file_nextnum, end_cursor, has_next_page, totalCount
@@ -109,7 +128,25 @@ def export(file_name, dir_path):
         nameWithOwner = node["nameWithOwner"]
         url = node["url"]
         createdAt = node["createdAt"]
-        committedDate = node["defaultBranchRef"]["target"]["committedDate"]
+            
+        json_file_path = os.path.join(dir_path, "json",str(file_name)+".json")
+        retry_limit = 5
+        retry_count = 0
+
+        while retry_count < retry_limit:
+            try:
+                # エラーが起きうる可能性のあるコード
+                committedDate = node["defaultBranchRef"]["target"]["committedDate"]
+                break
+            except TypeError:
+                if os.path.isfile(json_file_path):
+                    os.remove(json_file_path)
+                retry_count += 1
+                print(f"Error occurred, retrying... ({retry_count}/{retry_limit})")
+                # 待機時間を設ける
+                time.sleep(1)  # 1秒待機
+        else:
+            print(f"Error occurred {retry_limit} times. Stop retrying.")
         
         created_utc = createdAt.replace("Z", "")
         d = datetime.datetime.fromisoformat(created_utc)
