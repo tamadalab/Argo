@@ -128,6 +128,9 @@ def export(file_name, dir_path):
         nameWithOwner = node["nameWithOwner"]
         url = node["url"]
         createdAt = node["createdAt"]
+
+        commitCountAfterFork = countCommit(nameWithOwner, createdAt)
+        node["commitCountAfterFork"] = commitCountAfterFork
             
         json_file_path = os.path.join(dir_path, "json",str(file_name)+".json")
         retry_limit = 5
@@ -156,7 +159,7 @@ def export(file_name, dir_path):
         d = datetime.datetime.fromisoformat(committed_utc)
         committedt = d.strftime("%Y-%m/%d %H:%M:%S")
 
-        temp_n = [nameWithOwner, url, createdt, committedt]
+        temp_n = [nameWithOwner, url, createdt, committedt, commitCountAfterFork]
         nodes.append(temp_n)
 
     # Write CSV
@@ -164,10 +167,33 @@ def export(file_name, dir_path):
         csvwriter = csv.writer(
             csvFile, delimiter=",", quotechar='"', quoting=csv.QUOTE_NONNUMERIC
         )
-        csvwriter.writerow(["nameWithOwner", "url", "createdAt", "committedDate"])
+        csvwriter.writerow(["nameWithOwner", "url", "createdAt", "committedDate", "commitCountAfterFork"])
         for value in nodes:
             csvwriter.writerow(value)
 
+# Get the number of commits after "fork" was created.
+def countCommit(nameWithOwner, createdAt):
+    url = "https://api.github.com/graphql"
+    onwer_repository = FileMake.input(nameWithOwner)
+
+    payload = ("{\"query\":\"query commit{\\n\\trepository(owner:\\\""
+               + onwer_repository[0]
+               + "\\\", name:\\\""
+               + onwer_repository[1]
+               + "\\\") {\\n\\t\\tdefaultBranchRef {\\n\\t\\t\\ttarget {\\n\\t\\t\\t\\t... on Commit {\\n\\t\\t\\t\\t\\thistory(since: \\\""
+               + createdAt
+               + "\\\"){\\n\\t\\t\\t\\t\\t\\ttotalCount\\n\\t\\t\\t\\t\\t}\\n\\t\\t\\t\\t}\\n\\t\\t\\t}\\n\\t\\t}\\n\\t}\\n}\",\"operationName\":\"commit\"}")
+
+    api_key = os.getenv('GITHUB_API_KEY')
+    if api_key is None:
+        raise Exception("Couldn't find the GitHub API key. Please set it as an environment variable.")
+    headers = {
+        "Authorization": "bearer " + api_key,
+        "Content-Type": "application/json",
+    }
+    response = requests.request("POST", url, data=payload, headers=headers)
+    json_data = response.json()
+    return json_data["data"]["repository"]["defaultBranchRef"]["target"]["history"]["totalCount"]
 
 def main(repository, make_path, dir_stored):
     start_time = time.perf_counter()
