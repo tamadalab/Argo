@@ -2,8 +2,14 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 22443,
+                "totalCount": 23484,
                 "nodes": [
+                    {
+                        "title": "Fix Kotlin example for static factory method",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28399",
+                        "createdAt": "2022-04-29T22:30:09Z",
+                        "closedAt": "2022-05-11T15:34:06Z"
+                    },
                     {
                         "title": "Support for Jakarta Concurrency 3.0",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28400",
@@ -200,7 +206,7 @@
                         "title": "Reference PDF containing full docs not available",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28451",
                         "createdAt": "2022-05-12T07:01:45Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-06T13:58:48Z"
                     },
                     {
                         "title": "SPEL: In the map, variables are used as keys to obtain value, and unexpected results occur",
@@ -227,16 +233,16 @@
                         "closedAt": "2022-05-23T10:25:50Z"
                     },
                     {
-                        "title": "Reduce visibility of methods from ExitCodeGenerators to package private",
+                        "title": "Reduce visibility of methods from Spring Boot's `ExitCodeGenerator` to package private",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28460",
                         "createdAt": "2022-05-14T13:14:03Z",
                         "closedAt": "2022-05-14T13:24:55Z"
                     },
                     {
-                        "title": "Spring rsocket not works properly in request Channel mode after version 2.5 of the spring framework",
+                        "title": "Spring rsocket doesn't work properly in request Channel mode after version 2.5 of the spring framework",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28462",
                         "createdAt": "2022-05-15T10:20:51Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-04T12:57:28Z"
                     },
                     {
                         "title": "Circular bean reference error in Spring Boot v2.6.0 and above",
@@ -296,7 +302,7 @@
                         "title": "AOT contribution for @EventListener",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28475",
                         "createdAt": "2022-05-18T13:25:07Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-09T07:36:32Z"
                     },
                     {
                         "title": "Allow changes to `org.springframework.web` log category at runtime",
@@ -314,7 +320,7 @@
                         "title": "The problem that field must be all capitalized when use Constants",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28483",
                         "createdAt": "2022-05-19T08:07:14Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-14T11:46:14Z"
                     },
                     {
                         "title": "Is it possible to use @Autowired like annotations instead of getBeansWithAnnotation",
@@ -509,10 +515,10 @@
                         "closedAt": "2022-05-25T09:33:17Z"
                     },
                     {
-                        "title": "Creating relative resource for URL resource does not create relative Resource if relative path has URL in it",
+                        "title": "Creating relative resource for URL resource should create relative Resource even if relative path has URL in it",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28522",
                         "createdAt": "2022-05-25T10:21:22Z",
-                        "closedAt": null
+                        "closedAt": "2023-04-30T21:10:48Z"
                     },
                     {
                         "title": "When initializing DispatcherServlet multiple times, its internal states like handlerAdapters etc. will be cleared first and then set",
@@ -521,10 +527,10 @@
                         "closedAt": null
                     },
                     {
-                        "title": "ConnectionManagerSupport must also provide a ctor for the URI which will be created and encoded respectively by end-user upfront.",
+                        "title": "WebSocketConnectionManager constructor with prepared URI",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28524",
                         "createdAt": "2022-05-25T14:45:50Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-13T18:40:16Z"
                     },
                     {
                         "title": "ApplicationContextAotGenerator should return the initializer class name",
@@ -542,7 +548,7 @@
                         "title": "Made BeanPropertySqlParameterSource.beanWrapper protected",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28527",
                         "createdAt": "2022-05-26T11:05:01Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-15T16:37:01Z"
                     },
                     {
                         "title": "Proxy hint missing when `AliasFor` is used on the annotation itself",
@@ -554,7 +560,7 @@
                         "title": "Pageable request query column name mismatch in sortBy section",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28529",
                         "createdAt": "2022-05-27T00:37:30Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T12:38:54Z"
                     },
                     {
                         "title": "Support for CGLIB BeanCopier utility on JDK 17",
@@ -566,7 +572,7 @@
                         "title": "WS: SimpMessagingTemplate.convertAndSend*(...) should allow for null payloads",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28531",
                         "createdAt": "2022-05-27T01:49:26Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-09T12:34:23Z"
                     },
                     {
                         "title": ".",
@@ -597,16 +603,10 @@
                         "url": "https://github.com/spring-projects/spring-framework/issues/28536",
                         "createdAt": "2022-05-29T04:28:07Z",
                         "closedAt": "2022-05-29T05:55:12Z"
-                    },
-                    {
-                        "title": "Which version of JBoss eap is the minimum requirement of Spring framework upgrade from 3 to 5 please?",
-                        "url": "https://github.com/spring-projects/spring-framework/issues/28537",
-                        "createdAt": "2022-05-29T04:29:41Z",
-                        "closedAt": "2022-05-29T05:53:01Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOSpy4HQ==",
+                    "endCursor": "Y3Vyc29yOnYyOpHOSpy3bA==",
                     "hasNextPage": true
                 }
             }

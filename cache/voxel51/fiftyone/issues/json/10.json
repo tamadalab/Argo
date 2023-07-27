@@ -2,7 +2,7 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 902,
+                "totalCount": 1211,
                 "nodes": [
                     {
                         "title": "[BUG] SyntaxError: Unexpected token 'U', \"Unsupporte\"... is not valid JSON",
@@ -14,12 +14,600 @@
                         "title": "Downgrade from 0.16.6 to e.g. 0.16.5 not working as expected",
                         "url": "https://github.com/voxel51/fiftyone/issues/2065",
                         "createdAt": "2022-09-07T12:00:47Z",
+                        "closedAt": "2022-09-07T14:47:27Z"
+                    },
+                    {
+                        "title": "Quotation marks needed for fiftyone[desktop]",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2067",
+                        "createdAt": "2022-09-07T15:38:52Z",
+                        "closedAt": "2022-09-07T15:57:07Z"
+                    },
+                    {
+                        "title": "How to add custom labels which can be accessible in UI?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2077",
+                        "createdAt": "2022-09-09T06:43:40Z",
                         "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] App  cannot handle large integers",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2078",
+                        "createdAt": "2022-09-09T09:26:42Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] ServerSelectionTimeoutError and Connection refused",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2080",
+                        "createdAt": "2022-09-09T16:11:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Export with `export_media=False` overwrites original data directory",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2084",
+                        "createdAt": "2022-09-13T16:23:57Z",
+                        "closedAt": "2022-09-15T14:42:12Z"
+                    },
+                    {
+                        "title": "[FR] Add support for object-level attribute annotation in Labelstudio",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2090",
+                        "createdAt": "2022-09-15T21:09:35Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] View multiple media fields at the same time with transparency",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2091",
+                        "createdAt": "2022-09-16T15:36:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add keypoint evaluation",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2092",
+                        "createdAt": "2022-09-16T17:42:29Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Runaway recursion in _sample_dict_to_doc",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2094",
+                        "createdAt": "2022-09-19T12:52:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Optimize Apps' label tagging implementation",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2095",
+                        "createdAt": "2022-09-19T13:02:21Z",
+                        "closedAt": "2022-10-28T19:30:37Z"
+                    },
+                    {
+                        "title": "[BUG] Dataset creation is not multiprocessing-safe",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2096",
+                        "createdAt": "2022-09-19T15:18:03Z",
+                        "closedAt": "2022-09-19T18:34:15Z"
+                    },
+                    {
+                        "title": "[FR] Add support for Vertex Workbench notebooks",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2098",
+                        "createdAt": "2022-09-19T18:32:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Fix Windows Tests",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2101",
+                        "createdAt": "2022-09-20T16:29:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[DOCUMENTATION] How to access fiftyone by different clients in different dataset pages",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2105",
+                        "createdAt": "2022-09-21T07:33:23Z",
+                        "closedAt": "2022-09-21T15:00:36Z"
+                    },
+                    {
+                        "title": "[FR] YOLOv5DatasetExporter : Add optional to add path to dataset.yaml",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2106",
+                        "createdAt": "2022-09-21T09:21:27Z",
+                        "closedAt": "2022-09-22T14:21:09Z"
+                    },
+                    {
+                        "title": "[BUG] Shift selecting samples not working in App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2110",
+                        "createdAt": "2022-09-22T13:23:05Z",
+                        "closedAt": "2022-10-28T03:49:12Z"
+                    },
+                    {
+                        "title": "[BUG] App timezone issues",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2111",
+                        "createdAt": "2022-09-22T14:06:49Z",
+                        "closedAt": "2022-10-28T03:49:13Z"
+                    },
+                    {
+                        "title": "[BUG] Range sliders format datetime values incorrectly",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2112",
+                        "createdAt": "2022-09-22T14:09:36Z",
+                        "closedAt": "2022-10-28T03:49:12Z"
+                    },
+                    {
+                        "title": "[BUG] Label tags from patches view not saved in dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2113",
+                        "createdAt": "2022-09-22T14:10:29Z",
+                        "closedAt": "2022-10-27T19:11:01Z"
+                    },
+                    {
+                        "title": "[FR] Add a Groups list field type",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2117",
+                        "createdAt": "2022-09-22T21:04:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add a shortcut key for selection in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2120",
+                        "createdAt": "2022-09-23T17:48:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Unselecting a field in the sidebar doesn't prevent tagging",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2121",
+                        "createdAt": "2022-09-23T20:31:50Z",
+                        "closedAt": "2022-10-28T03:49:13Z"
+                    },
+                    {
+                        "title": "[BUG] Error when trying to launch Open Images dataset in Jupyter notebook",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2124",
+                        "createdAt": "2022-09-29T06:31:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add a `sample_frames` equivalent to to_clips() and to_patches()",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2126",
+                        "createdAt": "2022-09-29T20:13:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Rotate media in App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2127",
+                        "createdAt": "2022-09-29T20:15:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] missing embeddings when trying to load embeddings directly per sample",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2130",
+                        "createdAt": "2022-10-02T07:44:26Z",
+                        "closedAt": "2022-10-03T13:24:05Z"
+                    },
+                    {
+                        "title": "[FR] Change the index and names of classes in .txt and .yaml files",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2133",
+                        "createdAt": "2022-10-03T07:26:44Z",
+                        "closedAt": "2022-10-26T16:23:27Z"
+                    },
+                    {
+                        "title": "[?] Is there a tutorial for loading a custom Torch model?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2134",
+                        "createdAt": "2022-10-03T13:30:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] View bar stops responding after session refresh",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2142",
+                        "createdAt": "2022-10-06T22:35:47Z",
+                        "closedAt": "2023-01-19T01:54:27Z"
+                    },
+                    {
+                        "title": "[FR] Support deleting patches via patch views",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2143",
+                        "createdAt": "2022-10-06T23:16:30Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] SyntaxError: Unexpected token 'I', \"Internal S\"... is not valid JSON",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2146",
+                        "createdAt": "2022-10-10T13:11:13Z",
+                        "closedAt": "2022-10-10T13:11:37Z"
+                    },
+                    {
+                        "title": "[BUG] Error trying to install custom plugin",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2147",
+                        "createdAt": "2022-10-10T15:09:17Z",
+                        "closedAt": "2022-11-30T08:58:53Z"
+                    },
+                    {
+                        "title": "[?] What would be the dataset_type for image captioning dataset?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2149",
+                        "createdAt": "2022-10-11T04:56:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add fiftyone-db wheel for M1 macs",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2151",
+                        "createdAt": "2022-10-11T19:50:23Z",
+                        "closedAt": "2022-10-26T16:21:24Z"
+                    },
+                    {
+                        "title": "[BUG] Refreshing App in Jupyter notebook",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2153",
+                        "createdAt": "2022-10-11T21:38:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] AttributeError: module 'fiftyone' has no attribute 'config'",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2154",
+                        "createdAt": "2022-10-11T23:44:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Improve visibility of keypoints",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2155",
+                        "createdAt": "2022-10-12T07:49:06Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Overlap Size not supported by CVATBackendConfig parameters",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2158",
+                        "createdAt": "2022-10-13T05:33:46Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Interactive Plots: open fifty open gui in separate jupyter lab tab?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2161",
+                        "createdAt": "2022-10-14T12:32:11Z",
+                        "closedAt": "2022-10-14T13:14:00Z"
+                    },
+                    {
+                        "title": "[FR] Persist zoom and pan in expanded view",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2162",
+                        "createdAt": "2022-10-14T13:19:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Store and visualize custom field-level information",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2163",
+                        "createdAt": "2022-10-14T15:43:23Z",
+                        "closedAt": "2022-11-07T13:18:50Z"
+                    },
+                    {
+                        "title": "[BUG] Error when loading a group dataset with alternate media fields in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2164",
+                        "createdAt": "2022-10-14T16:41:15Z",
+                        "closedAt": "2022-11-02T17:09:17Z"
+                    },
+                    {
+                        "title": "[FR] Add a 2d plot visualizer plugin",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2166",
+                        "createdAt": "2022-10-14T21:32:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add horizontal scroll bar to JSON viewer",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2167",
+                        "createdAt": "2022-10-14T21:43:46Z",
+                        "closedAt": "2023-03-17T23:17:30Z"
+                    },
+                    {
+                        "title": "[DOCUMENTATION] Add a guide mapping common pandas dataframe operations to FiftyOne view expressions",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2168",
+                        "createdAt": "2022-10-14T21:59:36Z",
+                        "closedAt": "2023-03-17T23:16:32Z"
+                    },
+                    {
+                        "title": "[FR] Have Mapbox token configuration error link to token generation docs",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2169",
+                        "createdAt": "2022-10-14T22:18:31Z",
+                        "closedAt": "2023-02-24T22:41:11Z"
+                    },
+                    {
+                        "title": "[FR] Support rotating images in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2170",
+                        "createdAt": "2022-10-14T22:22:10Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Verify latitude and longitude values at creation time",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2171",
+                        "createdAt": "2022-10-14T22:28:02Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Visualize meshes in Looker3D",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2172",
+                        "createdAt": "2022-10-14T22:31:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Support visualizing nested GeoLocations in the Map plugin",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2173",
+                        "createdAt": "2022-10-14T22:37:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add option to filter dataset listing",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2174",
+                        "createdAt": "2022-10-14T22:47:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Visualize dataset info in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2175",
+                        "createdAt": "2022-10-14T23:19:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] file_hash lost precision in the fiftyone app",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2176",
+                        "createdAt": "2022-10-15T08:59:32Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Support Azure Cosmos DB API for MongoDB",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2178",
+                        "createdAt": "2022-10-15T14:38:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Ability to remove progressbars",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2180",
+                        "createdAt": "2022-10-17T19:22:20Z",
+                        "closedAt": "2022-10-18T15:48:00Z"
+                    },
+                    {
+                        "title": "[DOCUMENTATION] How to have a developer installation in windows ? ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2184",
+                        "createdAt": "2022-10-20T04:26:47Z",
+                        "closedAt": "2022-10-20T04:41:01Z"
+                    },
+                    {
+                        "title": "[BUG] Can't change image with key when hovering over select button",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2185",
+                        "createdAt": "2022-10-20T15:51:15Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add dynamic fields based on view contents",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2186",
+                        "createdAt": "2022-10-20T21:39:05Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Datasets cannot have 'pk' fields",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2192",
+                        "createdAt": "2022-10-24T23:19:27Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add support for keypoint skeleton annotation in CVAT",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2194",
+                        "createdAt": "2022-10-25T15:47:53Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Add support for cuboid annotation in CVAT",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2195",
+                        "createdAt": "2022-10-25T15:50:21Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Include additional attributes in Cityscapes Dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2196",
+                        "createdAt": "2022-10-26T13:27:40Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Databricks notebook visualization is no longer working",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2197",
+                        "createdAt": "2022-10-26T14:17:10Z",
+                        "closedAt": "2023-01-16T22:59:07Z"
+                    },
+                    {
+                        "title": "[BUG] Can't access alternate media fields in patches views?",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2204",
+                        "createdAt": "2022-10-28T09:35:14Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] fiftyone forces starlette=0.16.0 and it breaks integrations with applications that use FastAPI in newer versions.",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2210",
+                        "createdAt": "2022-10-31T17:43:50Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Allow Labelstudio uploads to existing projects",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2219",
+                        "createdAt": "2022-11-01T20:12:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Make field toggling more robust to small mouse movements while clicking in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2220",
+                        "createdAt": "2022-11-02T04:21:19Z",
+                        "closedAt": "2022-11-10T05:39:19Z"
+                    },
+                    {
+                        "title": "[FR] Interpolate detections in videos",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2222",
+                        "createdAt": "2022-11-02T19:56:07Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] View bars swallows first new stage I try to create",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2229",
+                        "createdAt": "2022-11-03T19:43:04Z",
+                        "closedAt": "2022-11-07T05:59:24Z"
+                    },
+                    {
+                        "title": "[BUG] Video API: accessing non-existing frames creates ghost frames",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2238",
+                        "createdAt": "2022-11-04T14:20:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Error when navigating away from a grouped dataset in group stats mode",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2244",
+                        "createdAt": "2022-11-05T02:14:59Z",
+                        "closedAt": "2022-11-08T23:55:29Z"
+                    },
+                    {
+                        "title": "[BUG] Prevent password suggester from appearing in dataset selector",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2245",
+                        "createdAt": "2022-11-05T02:21:50Z",
+                        "closedAt": "2023-02-28T13:27:29Z"
+                    },
+                    {
+                        "title": "[DOCUMENTATION] Environments page still mentions Teams is for early adopters",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2246",
+                        "createdAt": "2022-11-05T20:03:33Z",
+                        "closedAt": "2022-11-05T20:28:39Z"
+                    },
+                    {
+                        "title": "Loading custom dataset with multilabel lst file",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2248",
+                        "createdAt": "2022-11-06T09:13:09Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Cannot Load detectron2 inference json as predictions into a custom coco format dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2249",
+                        "createdAt": "2022-11-07T05:56:50Z",
+                        "closedAt": "2022-11-09T17:58:31Z"
+                    },
+                    {
+                        "title": "[FR] Default to Open Street Map tiles if no mapbox token given",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2250",
+                        "createdAt": "2022-11-07T14:32:12Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Cannot hide selected samples ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2255",
+                        "createdAt": "2022-11-08T16:03:49Z",
+                        "closedAt": "2022-11-08T23:55:29Z"
+                    },
+                    {
+                        "title": "[BUG] Increase selection modal width to avoid line wrap",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2256",
+                        "createdAt": "2022-11-08T16:06:42Z",
+                        "closedAt": "2022-11-17T18:23:22Z"
+                    },
+                    {
+                        "title": "[BUG] Select visible option ignores active sample in grouped contexts",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2257",
+                        "createdAt": "2022-11-08T16:27:55Z",
+                        "closedAt": "2023-03-18T00:44:41Z"
+                    },
+                    {
+                        "title": "[DOCUMENTATION] [QUESTION] Exporting fiftyone dataset as fiftyone dataset",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2260",
+                        "createdAt": "2022-11-08T19:07:03Z",
+                        "closedAt": "2022-11-08T19:13:22Z"
+                    },
+                    {
+                        "title": "[BUG] Jupyter notebook App screenshots need some cleanup",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2264",
+                        "createdAt": "2022-11-08T23:35:42Z",
+                        "closedAt": "2022-12-12T18:08:04Z"
+                    },
+                    {
+                        "title": "[BUG] Remove redundant field heading in App sidebar",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2272",
+                        "createdAt": "2022-11-09T17:19:58Z",
+                        "closedAt": "2022-11-09T19:05:09Z"
+                    },
+                    {
+                        "title": "[FR] Bring back the \"other\" section of the App sidebar",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2273",
+                        "createdAt": "2022-11-09T17:42:23Z",
+                        "closedAt": "2022-11-10T05:00:30Z"
+                    },
+                    {
+                        "title": "[BUG] Only include supported eval keys in App's patches UI",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2275",
+                        "createdAt": "2022-11-09T20:23:57Z",
+                        "closedAt": "2022-12-21T18:58:18Z"
+                    },
+                    {
+                        "title": "[BUG] Improve None-handling when filtering list fields in the App",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2277",
+                        "createdAt": "2022-11-09T22:22:25Z",
+                        "closedAt": "2022-12-15T23:46:28Z"
+                    },
+                    {
+                        "title": "[FR] Compute sample and label tags counts separately in tag UI",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2278",
+                        "createdAt": "2022-11-09T23:24:36Z",
+                        "closedAt": "2022-12-06T18:11:42Z"
+                    },
+                    {
+                        "title": "[FR] Show all attributes during label filter widget's loading state",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2279",
+                        "createdAt": "2022-11-09T23:34:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[FR] Show animated dots while sample and field counts are loading",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2280",
+                        "createdAt": "2022-11-09T23:36:40Z",
+                        "closedAt": "2022-12-06T18:03:15Z"
+                    },
+                    {
+                        "title": "[FR] Hide bookmark icon when no filters are applied",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2281",
+                        "createdAt": "2022-11-10T00:20:35Z",
+                        "closedAt": "2022-11-14T20:04:49Z"
+                    },
+                    {
+                        "title": "[BUG] Use same default expansion logic when sidebar groups are defined",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2284",
+                        "createdAt": "2022-11-10T05:34:56Z",
+                        "closedAt": "2023-01-14T03:22:24Z"
+                    },
+                    {
+                        "title": "[BUG] Github and docs icons should match theme",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2285",
+                        "createdAt": "2022-11-10T06:26:51Z",
+                        "closedAt": "2022-11-14T15:49:42Z"
+                    },
+                    {
+                        "title": "[BUG] Remove excluded media fields from App selector ",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2286",
+                        "createdAt": "2022-11-10T06:33:12Z",
+                        "closedAt": "2022-12-01T17:22:08Z"
+                    },
+                    {
+                        "title": "[BUG] State consistency issues when loading/unloading views that change media type/schema via session object",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2290",
+                        "createdAt": "2022-11-11T03:46:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] OpenImagesV6Dataset doesn't work for custom id numbers",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2291",
+                        "createdAt": "2022-11-11T10:14:58Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] dataset.export() errors if label_cls is a list and label_fields is empty",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2292",
+                        "createdAt": "2022-11-11T12:36:26Z",
+                        "closedAt": "2022-11-21T14:51:35Z"
+                    },
+                    {
+                        "title": "[FR] Support for using lmdb format files in fiftyone",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2293",
+                        "createdAt": "2022-11-11T13:15:24Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Exporting detections with a `category_id` attribute in COCODetectionDataset format",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2294",
+                        "createdAt": "2022-11-11T14:59:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[BUG] Unexpected keyword argument 'dynamic' in labeled image parser",
+                        "url": "https://github.com/voxel51/fiftyone/issues/2302",
+                        "createdAt": "2022-11-14T15:20:15Z",
+                        "closedAt": "2022-11-14T20:52:39Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOUVV-OQ==",
-                    "hasNextPage": false
+                    "endCursor": "Y3Vyc29yOnYyOpHOVlKyfQ==",
+                    "hasNextPage": true
                 }
             }
         }

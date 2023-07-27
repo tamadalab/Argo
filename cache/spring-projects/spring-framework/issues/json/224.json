@@ -2,8 +2,14 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 22443,
+                "totalCount": 23484,
                 "nodes": [
+                    {
+                        "title": "Allow RegisteredBean to access the original bean definition",
+                        "url": "https://github.com/spring-projects/spring-framework/issues/28936",
+                        "createdAt": "2022-08-08T09:30:34Z",
+                        "closedAt": "2022-08-08T11:51:59Z"
+                    },
                     {
                         "title": "Deadlock in @PostConstruct block",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28938",
@@ -20,7 +26,7 @@
                         "title": "rsocket : resume not supported",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28940",
                         "createdAt": "2022-08-08T23:47:49Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-06T13:51:13Z"
                     },
                     {
                         "title": "refreshForAotProcessing should freeze the configuration before invoking MBDPP",
@@ -29,10 +35,10 @@
                         "closedAt": "2022-08-09T11:30:13Z"
                     },
                     {
-                        "title": "Error receiving file array check",
+                        "title": "@RequestPart with array of MultipartFile doesn't raise exception when no file part is received",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28942",
                         "createdAt": "2022-08-09T10:27:11Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-13T14:38:00Z"
                     },
                     {
                         "title": "Add support for @Cacheable in native-image",
@@ -41,16 +47,16 @@
                         "closedAt": "2022-08-17T09:40:41Z"
                     },
                     {
-                        "title": "Improve org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver for better end-user experience",
+                        "title": "Support `Optional` in `PayloadMethodArgumentResolver`",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28945",
                         "createdAt": "2022-08-09T19:44:30Z",
-                        "closedAt": null
+                        "closedAt": "2023-02-13T18:40:15Z"
                     },
                     {
                         "title": "spring-jcl in SpringApplicationShutdownHook Unreliable logging during execution, resulting in missing exception messages",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28946",
                         "createdAt": "2022-08-10T11:56:38Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-30T14:25:33Z"
                     },
                     {
                         "title": "Allow null argument for `ResponseEntity.DefaultBuilder.eTag(String etag)`",
@@ -74,7 +80,7 @@
                         "title": "Required access ConnectionFactoryConfigurations",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28951",
                         "createdAt": "2022-08-11T16:18:47Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-30T14:47:15Z"
                     },
                     {
                         "title": "RuntimeHintsUtils.registerAnnotation should not register SynthesizedAnnotation proxy for @AliasFor",
@@ -98,7 +104,7 @@
                         "title": "resttemplate customized charset",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28956",
                         "createdAt": "2022-08-12T09:45:46Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-27T16:18:32Z"
                     },
                     {
                         "title": "Allow `@Reflective` to automatically register the annotation that triggers the creation of the hint",
@@ -140,13 +146,13 @@
                         "title": "Duplicate (un-intended) commit with Spring Data R2dbc, causing \"Async resource cleanup failed after onComplete\" and \"Transaction is already completed - do not call commit or rollback more than once per transaction\" exceptions",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28968",
                         "createdAt": "2022-08-16T11:46:56Z",
-                        "closedAt": null
+                        "closedAt": "2023-03-10T11:22:40Z"
                     },
                     {
                         "title": "Add examples to Javadoc for Throwing*.of factory methods",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28969",
                         "createdAt": "2022-08-16T13:52:14Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-09T16:34:18Z"
                     },
                     {
                         "title": "BeanDefinitionOverrideException not thrown as expected",
@@ -182,19 +188,19 @@
                         "title": "Contribute @PropertySource declarations in AOT optimized contexts",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28976",
                         "createdAt": "2022-08-17T15:00:16Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T08:10:52Z"
                     },
                     {
                         "title": "Consider alternative RuntimeHints API",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28977",
                         "createdAt": "2022-08-18T01:00:21Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-06T07:18:51Z"
                     },
                     {
                         "title": "Ability to mark @Component to be ignored by component scan",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28978",
                         "createdAt": "2022-08-18T14:34:28Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-30T13:46:00Z"
                     },
                     {
                         "title": "Provide better DevXP for missing reflection hints where inference is not possible",
@@ -227,10 +233,10 @@
                         "closedAt": "2022-08-21T13:26:01Z"
                     },
                     {
-                        "title": "please make  public method for AbstractHandlerMapping.getMappedInterceptors ",
+                        "title": "Provide access to all configured interceptors in AbstractHandlerMapping",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28985",
                         "createdAt": "2022-08-21T16:14:06Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-30T17:46:45Z"
                     },
                     {
                         "title": "@Order is not available in native image",
@@ -284,7 +290,7 @@
                         "title": "Improve Javadoc of GeneratedMethods#add to describe naming conventions",
                         "url": "https://github.com/spring-projects/spring-framework/issues/28997",
                         "createdAt": "2022-08-23T06:02:48Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-07T10:08:04Z"
                     },
                     {
                         "title": "Remove `AopProxyUtils#completeJdkProxyInterfaces`",
@@ -299,7 +305,7 @@
                         "closedAt": null
                     },
                     {
-                        "title": "Add hint for use of Qualifier in meta-annotations",
+                        "title": "Add hint for use of @Qualifier as a meta-annotation",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29000",
                         "createdAt": "2022-08-23T09:22:52Z",
                         "closedAt": "2022-08-23T12:35:14Z"
@@ -311,10 +317,10 @@
                         "closedAt": "2022-08-23T10:56:14Z"
                     },
                     {
-                        "title": "Async request complete issue in Spring RequestMappingHandlerAdapter",
+                        "title": "Remove call to requestCompleted in RequestMappingHandlerAdapter",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29002",
                         "createdAt": "2022-08-23T17:52:32Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-27T10:50:06Z"
                     },
                     {
                         "title": "Compiled JAR of Spring Context still contains javax imports even though the source code has been migrated to Jakarta",
@@ -326,13 +332,13 @@
                         "title": "How does rsocket get the RSocketRequester according to the key in the context",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29004",
                         "createdAt": "2022-08-24T02:58:49Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-30T15:41:04Z"
                     },
                     {
-                        "title": "Review MethodReference to support more scenarios",
+                        "title": "Allow MethodReference to support a more flexible signature",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29005",
                         "createdAt": "2022-08-24T04:25:17Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T08:10:51Z"
                     },
                     {
                         "title": "Support jni-config.json generation",
@@ -350,7 +356,7 @@
                         "title": "Revisit resource cleanup in RestTemplate and ClientHttpRequestFactory",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29010",
                         "createdAt": "2022-08-24T16:55:13Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-13T14:19:59Z"
                     },
                     {
                         "title": "Harmonize registration of reflection hints",
@@ -392,7 +398,7 @@
                         "title": "AOT mode with signed JARs fails",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29019",
                         "createdAt": "2022-08-26T08:44:42Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-05T15:20:39Z"
                     },
                     {
                         "title": "Register runtime hints for @ContextConfiguration attributes",
@@ -446,7 +452,7 @@
                         "title": "Implement GraalVM native image support in the TestContext framework",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29029",
                         "createdAt": "2022-08-26T14:59:27Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T18:46:37Z"
                     },
                     {
                         "title": "Consider providing AOT testing support for @ContextHierarchy",
@@ -455,7 +461,7 @@
                         "closedAt": null
                     },
                     {
-                        "title": "Unexpected `304 Not Modified` when combining `If-Modified-Since` and `If-None-Match`",
+                        "title": "Support ETag generation on ResourceHttpRequestHandler",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29031",
                         "createdAt": "2022-08-26T16:33:10Z",
                         "closedAt": null
@@ -491,10 +497,10 @@
                         "closedAt": "2022-08-28T16:50:50Z"
                     },
                     {
-                        "title": "Error handling no longer working for web controllers returning Flux<Object> under 6.0.0-M5",
+                        "title": "Error handling no longer works for JSON controller method returning Flux under 6.0.0-M5",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29038",
                         "createdAt": "2022-08-28T22:32:55Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-14T11:01:50Z"
                     },
                     {
                         "title": "Injecting ConversionService causes springmvc initialization failure",
@@ -536,7 +542,7 @@
                         "title": "Remove allowWrite and allowUnsafeAccess from FieldHints",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29047",
                         "createdAt": "2022-08-31T12:53:02Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-10T13:55:25Z"
                     },
                     {
                         "title": "Use methods from JDK to implement array hash methods in ObjectUtils",
@@ -572,7 +578,7 @@
                         "title": "Integrate the Micrometer Context Propagation library",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29056",
                         "createdAt": "2022-09-02T06:41:13Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-06T11:44:13Z"
                     },
                     {
                         "title": "Remove obsolete RuntimeHintsUtils",
@@ -596,17 +602,11 @@
                         "title": "Remove support for setting default CacheAwareContextLoaderDelegate via system property",
                         "url": "https://github.com/spring-projects/spring-framework/issues/29061",
                         "createdAt": "2022-09-02T14:54:39Z",
-                        "closedAt": null
-                    },
-                    {
-                        "title": "Reinstate RuntimeHints agent tests",
-                        "url": "https://github.com/spring-projects/spring-framework/issues/29062",
-                        "createdAt": "2022-09-02T15:25:35Z",
-                        "closedAt": "2022-09-02T16:34:59Z"
+                        "closedAt": "2022-09-13T09:30:37Z"
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOURUjAQ==",
+                    "endCursor": "Y3Vyc29yOnYyOpHOURSamg==",
                     "hasNextPage": true
                 }
             }

@@ -2,7 +2,7 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 1031,
+                "totalCount": 1315,
                 "nodes": [
                     {
                         "title": "handling of changeset filenames with special characters (e.g. german umlauts) fails in (at least) command line since v4",
@@ -32,7 +32,7 @@
                         "title": "ReNameView does not produce correct rollback if using a non-default schema.",
                         "url": "https://github.com/liquibase/liquibase/issues/2626",
                         "createdAt": "2022-03-10T01:43:11Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-09T19:35:35Z"
                     },
                     {
                         "title": "Unexpected datatype NULL with mariadb-java-client 3.0.3",
@@ -92,7 +92,7 @@
                         "title": "SQLite regression bug after Liquibase 4.8.0 release. Generated sql syntax errors for addAutoIncrement, addDefaultValue, dropColumn, mergeColumns",
                         "url": "https://github.com/liquibase/liquibase/issues/2644",
                         "createdAt": "2022-03-16T11:31:51Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T17:52:15Z"
                     },
                     {
                         "title": "Multi Line incompatibility between versions 3 and 4",
@@ -140,7 +140,7 @@
                         "title": "Precondition tableExists crashes on H2 with objectQuotingStrategy=LEGACY, if a camelCaseView already exists.",
                         "url": "https://github.com/liquibase/liquibase/issues/2659",
                         "createdAt": "2022-03-21T14:01:29Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-17T12:28:39Z"
                     },
                     {
                         "title": "Cassandra Liquibase DB Migration",
@@ -164,13 +164,13 @@
                         "title": "Default schema is not recognized on latest version",
                         "url": "https://github.com/liquibase/liquibase/issues/2665",
                         "createdAt": "2022-03-22T17:11:51Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-31T12:51:25Z"
                     },
                     {
                         "title": "SpringResourceAccessor.getCompletePath resolves sql resources incorrectly when changelog is in root",
                         "url": "https://github.com/liquibase/liquibase/issues/2668",
                         "createdAt": "2022-03-23T17:37:59Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-29T14:57:39Z"
                     },
                     {
                         "title": "A long issue title goes here. It goes on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on and on to 250+",
@@ -320,7 +320,7 @@
                         "title": "Need to suppress extra space generated in resulting scripts of changelog after we ran the changelog against MS SQL Server",
                         "url": "https://github.com/liquibase/liquibase/issues/2713",
                         "createdAt": "2022-04-04T08:08:05Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-24T13:38:11Z"
                     },
                     {
                         "title": "After upgrade from 4.3.5 to 4.9.1, change sets have different checksums.",
@@ -386,7 +386,7 @@
                         "title": "Change max value of @Size generates an empty changelog",
                         "url": "https://github.com/liquibase/liquibase/issues/2736",
                         "createdAt": "2022-04-08T08:34:33Z",
-                        "closedAt": null
+                        "closedAt": "2023-01-11T13:34:21Z"
                     },
                     {
                         "title": "CVE-2022-0839 downport fix to 3.x versions of liquibase",
@@ -434,13 +434,13 @@
                         "title": "logical-file-path not working with Liquibase Community 4.8.0",
                         "url": "https://github.com/liquibase/liquibase/issues/2775",
                         "createdAt": "2022-04-20T07:45:17Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-25T21:10:45Z"
                     },
                     {
                         "title": "Postgres generateChangeLog includeSchema",
                         "url": "https://github.com/liquibase/liquibase/issues/2776",
                         "createdAt": "2022-04-20T18:18:15Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-30T17:42:07Z"
                     },
                     {
                         "title": "AddColumnChange with schema and NOT NULL constraint fails",
@@ -470,19 +470,19 @@
                         "title": "\"includeAll\" Adds changeSet Two Times in updateSQL Mode",
                         "url": "https://github.com/liquibase/liquibase/issues/2792",
                         "createdAt": "2022-04-25T10:51:04Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-15T11:43:37Z"
                     },
                     {
                         "title": "[PostgreSQL] generateChangeLog command generates prefixed schema name with includeSchema flag set to false for Formatted SQL",
                         "url": "https://github.com/liquibase/liquibase/issues/2794",
                         "createdAt": "2022-04-25T19:42:44Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-12T17:05:22Z"
                     },
                     {
                         "title": "Change set always failed with `preConditions` contained `- foreignKeyConstraintExists` check",
                         "url": "https://github.com/liquibase/liquibase/issues/2796",
                         "createdAt": "2022-04-26T09:13:46Z",
-                        "closedAt": null
+                        "closedAt": "2022-10-14T17:19:43Z"
                     },
                     {
                         "title": "LoadData with Dates Failed while Column Type is From Property",
@@ -494,7 +494,7 @@
                         "title": "addColumn for a table with underscore is broken in SQLite",
                         "url": "https://github.com/liquibase/liquibase/issues/2806",
                         "createdAt": "2022-04-29T10:18:26Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-12T15:50:10Z"
                     },
                     {
                         "title": "Condition or not null columns for unique index ",
@@ -512,13 +512,13 @@
                         "title": "Upgrade lock not working correctly due to cache of `ranChangeSetList`",
                         "url": "https://github.com/liquibase/liquibase/issues/2816",
                         "createdAt": "2022-05-03T13:14:09Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-08T07:03:46Z"
                     },
                     {
                         "title": "Load XSD files under OSGI",
                         "url": "https://github.com/liquibase/liquibase/issues/2817",
                         "createdAt": "2022-05-03T17:49:36Z",
-                        "closedAt": "2022-06-21T05:28:00Z"
+                        "closedAt": "2023-03-24T20:34:40Z"
                     },
                     {
                         "title": "changelog is found twice in classpath",
@@ -593,10 +593,10 @@
                         "closedAt": null
                     },
                     {
-                        "title": "autoIncrementInformation in snapshot is not correct",
+                        "title": "Postgres autoIncrementInformation in snapshot is not correct",
                         "url": "https://github.com/liquibase/liquibase/issues/2867",
                         "createdAt": "2022-05-23T12:48:09Z",
-                        "closedAt": null
+                        "closedAt": "2022-11-18T13:33:32Z"
                     },
                     {
                         "title": "Including a Dockerfile in your change log directory causes StackOverflowException",

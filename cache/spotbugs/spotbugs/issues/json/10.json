@@ -2,10 +2,10 @@
     "data": {
         "repository": {
             "issues": {
-                "totalCount": 960,
+                "totalCount": 1046,
                 "nodes": [
                     {
-                        "title": "False negative for RANGE_ARRAY_INDEX",
+                        "title": "False negative about FI_EXPLICIT_INVOCATION",
                         "url": "https://github.com/spotbugs/spotbugs/issues/2029",
                         "createdAt": "2022-04-25T12:34:00Z",
                         "closedAt": null
@@ -242,7 +242,7 @@
                         "title": "False positive EI_EXPOSE_REP when using List.copyOf",
                         "url": "https://github.com/spotbugs/spotbugs/issues/2117",
                         "createdAt": "2022-07-19T08:07:08Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-09T11:23:48Z"
                     },
                     {
                         "title": "False negative about the rule NP_STORE_INTO_NONNULL_FIELD",
@@ -272,7 +272,7 @@
                         "title": "False positive for FL_FLOATS_AS_LOOP_COUNTERS",
                         "url": "https://github.com/spotbugs/spotbugs/issues/2126",
                         "createdAt": "2022-07-30T11:55:00Z",
-                        "closedAt": null
+                        "closedAt": "2022-09-10T11:25:16Z"
                     },
                     {
                         "title": "False positive: THROWS_METHOD_THROWS_CLAUSE_BASIC_EXCEPTION",
@@ -363,11 +363,251 @@
                         "url": "https://github.com/spotbugs/spotbugs/issues/2164",
                         "createdAt": "2022-09-02T07:17:44Z",
                         "closedAt": null
+                    },
+                    {
+                        "title": "False positive NP_NONNULL_RETURN_VIOLATION with type annotations",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2171",
+                        "createdAt": "2022-09-10T10:08:36Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: C:\\Users\\LukeChiL5400\\Documents\\Work\\YB_CashMPS\\codebase_git\\trunk_develop\\CPS-develop\\target\\classes\\com\\nv\\module\\backendapi\\cache\\BeaPlayerCache.class at edu.umd.cs.findbugs.classfile.impl.SingleFileCodeBase.getClassDescriptor(SingleFileCodeBase.java:279)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2173",
+                        "createdAt": "2022-09-12T07:15:31Z",
+                        "closedAt": "2022-09-13T14:35:43Z"
+                    },
+                    {
+                        "title": "False positive URF_UNREAD_FIELD with spotbugs 4.7.2",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2174",
+                        "createdAt": "2022-09-12T12:06:03Z",
+                        "closedAt": "2022-09-19T16:09:31Z"
+                    },
+                    {
+                        "title": "Running spotbugs 4.7.2 with -textui flag results in `org.apache.logging.slf4j.SLF4JServiceProvider` exception",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2176",
+                        "createdAt": "2022-09-14T08:07:06Z",
+                        "closedAt": "2022-10-07T03:24:01Z"
+                    },
+                    {
+                        "title": "False positive in nullity with generic containers (`NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE`)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2179",
+                        "createdAt": "2022-09-15T09:22:11Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "False negative SBSC_USE_STRINGBUFFER_CONCATENATION for Java 11 and higher",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2182",
+                        "createdAt": "2022-09-19T08:23:10Z",
+                        "closedAt": "2022-10-17T05:15:01Z"
+                    },
+                    {
+                        "title": "False negative SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE for Java 11 and higher",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2183",
+                        "createdAt": "2022-09-20T11:29:07Z",
+                        "closedAt": "2022-10-17T05:14:37Z"
+                    },
+                    {
+                        "title": "False negative PT_RELATIVE_PATH_TRAVERSAL for Java 11 and higher",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2184",
+                        "createdAt": "2022-09-20T11:51:34Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Incompatibility with later version of jdk (>= 13) in SourceFinder.java:361",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2188",
+                        "createdAt": "2022-09-24T17:11:51Z",
+                        "closedAt": "2022-10-20T15:46:00Z"
+                    },
+                    {
+                        "title": "False positive NP_LOAD_OF_KNOWN_NULL_VALUE and RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE with try-with-resources",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2191",
+                        "createdAt": "2022-09-25T17:18:28Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: java/lang/Object.class at edu.umd.cs.findbugs.classfile.impl.ClassPathImpl.lookupResource(ClassPathImpl.java:162)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2193",
+                        "createdAt": "2022-09-26T17:30:43Z",
+                        "closedAt": "2022-09-26T23:27:13Z"
+                    },
+                    {
+                        "title": "Cannot download relasese",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2194",
+                        "createdAt": "2022-09-27T12:32:13Z",
+                        "closedAt": "2022-09-27T15:45:59Z"
+                    },
+                    {
+                        "title": "Spot bugs report is not matching with spotbugs eclipse plugin vs command line",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2196",
+                        "createdAt": "2022-09-27T22:19:51Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: java/lang/Object.class at edu.umd.cs.findbugs.classfile.impl.ClassPathImpl.lookupResource(ClassPathImpl.java:162)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2198",
+                        "createdAt": "2022-09-30T07:06:08Z",
+                        "closedAt": "2022-09-30T07:16:38Z"
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: java/lang/Object.class at edu.umd.cs.findbugs.classfile.impl.ClassPathImpl.lookupResource(ClassPathImpl.java:162)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2199",
+                        "createdAt": "2022-09-30T16:27:01Z",
+                        "closedAt": "2022-09-30T16:27:18Z"
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: java/lang/Object.class at edu.umd.cs.findbugs.classfile.impl.ClassPathImpl.lookupResource(ClassPathImpl.java:162)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2204",
+                        "createdAt": "2022-10-06T11:07:28Z",
+                        "closedAt": "2022-10-10T00:24:46Z"
+                    },
+                    {
+                        "title": "spotbugs 4.7.2 (via gradle plugin 5.0.12) causes regression in Java 11",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2206",
+                        "createdAt": "2022-10-07T09:02:57Z",
+                        "closedAt": "2022-10-24T09:17:21Z"
+                    },
+                    {
+                        "title": "SpotBugs build fails on Windows",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2209",
+                        "createdAt": "2022-10-11T16:28:01Z",
+                        "closedAt": "2022-10-17T05:16:40Z"
+                    },
+                    {
+                        "title": "Dependency Dashboard",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2222",
+                        "createdAt": "2022-10-17T05:41:00Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Reporting possible null pointer dereference when this is not the case",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2231",
+                        "createdAt": "2022-10-19T11:55:37Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "False negative for FL_FLOATS_AS_LOOP_COUNTERS",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2241",
+                        "createdAt": "2022-10-31T10:59:04Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "EI_EXPOSE_REP2 for Kotlin Collection",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2246",
+                        "createdAt": "2022-11-03T09:01:13Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Attempting to add spot bugs to Apache Cassandra but fails with “Resource not found: java/lang/Object.class” on Java 8",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2247",
+                        "createdAt": "2022-11-04T18:15:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Doc for running SpotBugs gui is wrong",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2248",
+                        "createdAt": "2022-11-07T21:38:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "edu.umd.cs.findbugs.classfile.ResourceNotFoundException: Resource not found: java/lang/Object.class at edu.umd.cs.findbugs.classfile.impl.ClassPathImpl.lookupResource(ClassPathImpl.java:162)",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2253",
+                        "createdAt": "2022-11-13T12:51:25Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "spotbugs-annotations artifact depends on and exports junit-bom",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2255",
+                        "createdAt": "2022-11-14T17:41:35Z",
+                        "closedAt": "2023-01-05T00:59:18Z"
+                    },
+                    {
+                        "title": "[false-positive] SA_FIELD_SELF_ASSIGNMENT reported when value changed",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2258",
+                        "createdAt": "2022-11-15T06:49:18Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "QR code ERROR",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2262",
+                        "createdAt": "2022-11-16T16:15:28Z",
+                        "closedAt": "2022-11-16T23:14:04Z"
+                    },
+                    {
+                        "title": "test",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2263",
+                        "createdAt": "2022-11-16T16:23:57Z",
+                        "closedAt": "2022-11-16T18:40:58Z"
+                    },
+                    {
+                        "title": "Test",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2264",
+                        "createdAt": "2022-11-16T17:25:14Z",
+                        "closedAt": "2022-11-16T17:29:26Z"
+                    },
+                    {
+                        "title": "The maven plugin fails with multiple exceptions \"java.lang.ArrayIndexOutOfBoundsException: NN\"",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2269",
+                        "createdAt": "2022-11-29T09:32:49Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Failed to build documentation",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2270",
+                        "createdAt": "2022-11-29T17:31:33Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[false-positive] UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD reported when field used",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2271",
+                        "createdAt": "2022-11-30T18:05:54Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "[Security] bcel 6.5.0 has a critical vulnerability",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2276",
+                        "createdAt": "2022-12-06T21:26:32Z",
+                        "closedAt": "2022-12-06T21:35:21Z"
+                    },
+                    {
+                        "title": "A false negative about the rule NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2277",
+                        "createdAt": "2022-12-08T05:34:44Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Spring endpoint with Lombok annotation causes a finding with a start line greater than the end line",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2279",
+                        "createdAt": "2022-12-13T09:35:52Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Code failed to build on Mac M1",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2280",
+                        "createdAt": "2022-12-15T08:45:59Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Doesn't spot forgotten or wrong-type arguments to String.format() and similar functions",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2284",
+                        "createdAt": "2022-12-17T13:22:03Z",
+                        "closedAt": null
+                    },
+                    {
+                        "title": "Support jakarta namespace",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2289",
+                        "createdAt": "2022-12-22T03:31:28Z",
+                        "closedAt": "2023-01-06T23:02:29Z"
+                    },
+                    {
+                        "title": "False negative for RC_REF_COMPARISON",
+                        "url": "https://github.com/spotbugs/spotbugs/issues/2297",
+                        "createdAt": "2023-01-04T13:22:29Z",
+                        "closedAt": null
                     }
                 ],
                 "pageInfo": {
-                    "endCursor": "Y3Vyc29yOnYyOpHOUQztzg==",
-                    "hasNextPage": false
+                    "endCursor": "Y3Vyc29yOnYyOpHOWom0tA==",
+                    "hasNextPage": true
                 }
             }
         }

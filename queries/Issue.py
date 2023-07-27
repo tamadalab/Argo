@@ -36,7 +36,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
             payload = payload_1 + payload_2
             data_cpl = True
         headers = {
-            "Authorization": "bearer  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",
+            "Authorization": "bearer  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",
             "Content-Type": "application/json",
         }
         response = requests.request("POST", url, data=payload, headers=headers)
@@ -134,7 +134,7 @@ def main(repository, make_path, dir_stored):
 
         # Get json_data
         json_data = FileMake.findCursor(dir_path, "issues")  # endCursor, hasNextPage, file_num
-        request(repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2])  # stargazers取得
+        request(repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2])  # issues取得
 
         # Export csv_data
         file_num = FileMake.csvPrep(dir_path)
