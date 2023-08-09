@@ -7,6 +7,7 @@ import os
 import glob
 import time
 import json
+from tqdm import tqdm
 
 import FileMake
 import Download_per
@@ -19,7 +20,7 @@ def make_payload(owner, repository):
         + owner
         + "\\\", name: \\\""
         + repository
-        + "\\\") {\\n    ref(qualifiedName: \\\"master\\\") {\\n      target {\\n        ... on Commit {\\n          history(first: 100"
+        + "\\\") {\\n     defaultBranchRef  {\\n      target {\\n        ... on Commit {\\n          history(first: 100"
     )
     return payload_1
 
@@ -27,40 +28,46 @@ def make_payload(owner, repository):
 # Request data from GitHub GraphQL API
 def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num):
     print()
-    sys.setrecursionlimit(10 ** 9)  ## Change recursion limit (10^9)
-    data_cpl = False
+    sys.setrecursionlimit(10**9)
     url = "https://api.github.com/graphql"
     payload_2 = (
         ") {\\n            totalCount\\n            edges {\\n              node {\\n               commitUrl\\n  committedDate\\n              }\\t\\n            }\\n\\t\\t\\t\\t\\t\\tpageInfo{\\n\\t\\t\\t\\t\\t\\t\\tendCursor\\n\\t\\t\\t\\t\\t\\t\\thasNextPage\\n            }\\n          }\\n        }\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"commit\"}"
     )
-    if has_next_page == 1:
-        if end_cursor != None:
-            payload = (
-                payload_1
-                + ",after:"
-                + "\\\""
-                + end_cursor
-                + "\\\""
-                + payload_2
-            )
+
+    pbar = None
+
+    while has_next_page:
+        data_cpl = False
+        if end_cursor is not None:
+            payload = payload_1 + ",after:" + "\\\"" + end_cursor + "\\\"" + payload_2
         else:
             payload = payload_1 + payload_2
             data_cpl = True
+
         headers = {
-            "Authorization": "bearer  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",
+            "Authorization": "bearer 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",
             "Content-Type": "application/json",
         }
+
         response = requests.request("POST", url, data=payload, headers=headers)
         res = requests.get(url)
-        # print("status code : "+str(res.status_code)) ## Output status code
         json_data = response.json()
         data = find(json_data, str(file_num), dir_path, data_cpl)
         file_nextnum = data[0]
-        Download_per.download_per(data[3], int(file_nextnum))
-        export(file_nextnum, dir_path)  # Convert to CSV file
-        return request(repository, dir_path, payload_1, data[1], data[2], file_num)
-    else:
-        return
+
+        if pbar is None and data[3] > 0:
+            pbar = tqdm(total=data[3], desc=repository)
+
+        Download_per.download_per(pbar, repository, data[3], int(file_nextnum))
+
+        export(file_nextnum, dir_path)
+
+        end_cursor = data[1]
+        has_next_page = data[2]
+
+    if pbar is not None:
+        pbar.close()
+
 
 
 # Check if existing files exist
@@ -83,9 +90,9 @@ def find(json_data, file_name, dir_path, data_cpl):
         FileMake.jsonMake(json_data, file_nextnum, dir_path)
         f = open(os.path.join(dir_path, "json", file_nextnum + ".json"), "r")
     json_dict = json.load(f)
-    totalCount = json_dict["data"]["repository"]["ref"]["target"]["history"]["totalCount"]
-    end_cursor = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["endCursor"]
-    has_next_page = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["hasNextPage"]
+    totalCount = json_dict["data"]["repository"]["defaultBranchRef"]["target"]["history"]["totalCount"]
+    end_cursor = json_dict["data"]["repository"]["defaultBranchRef"]["target"]["history"]["pageInfo"]["endCursor"]
+    has_next_page = json_dict["data"]["repository"]["defaultBranchRef"]["target"]["history"]["pageInfo"]["hasNextPage"]
     return file_nextnum, end_cursor, has_next_page, totalCount
 
 
@@ -102,7 +109,7 @@ def export(file_name, dir_path):
     #
     nodes = []
     temp_n = []
-    for egde in data["data"]["repository"]["ref"]["target"]["history"]["edges"]:
+    for egde in data["data"]["repository"]["defaultBranchRef"]["target"]["history"]["edges"]:
         committedDate = egde["node"]["committedDate"]
         commitUrl = egde["node"]["commitUrl"]
 
@@ -142,7 +149,7 @@ def main(repository, make_path, dir_stored):
         # Get json_data
         json_data = FileMake.findCursor(dir_path, "commits")  # endCursor, hasNextPage, file_num
         request(
-            repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2]
+            repo_data[0] +"/"+ repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2]
         )  # Retrieve stargazers
 
         # Export csv_data

@@ -56,7 +56,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
         json_data = response.json()
         data = find(json_data, str(file_num), dir_path, data_cpl)
         file_nextnum = data[0]
-        Download_per.download_per(data[3], int(file_nextnum))
+        Download_per.download_per(repository, data[3], int(file_nextnum))
         export(file_nextnum, dir_path)  # Convert to CSV file
         return request(repository, dir_path, payload_1, data[1], data[2], file_num)
     else:
@@ -147,7 +147,7 @@ def main(repository, make_path, dir_stored):
         # Get json_data
         json_data = FileMake.findCursor(dir_path, "stargazers")  # endCursor, hasNextPage, file_num
         request(
-            repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2]
+            repo_data[0] +"/"+ repo_data[1], dir_path, payload, json_data[0], json_data[1], json_data[2]
         )  # Retrieve stargazers
 
         # Export csv_data

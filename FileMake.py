@@ -70,8 +70,8 @@ def Issue(json_dict):
         return endCursor, hasNextPage
 
 def Commit(json_dict):
-        endCursor = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["endCursor"]
-        hasNextPage = json_dict["data"]["repository"]["ref"]["target"]["history"]["pageInfo"]["hasNextPage"]
+        endCursor = json_dict["data"]["repository"]["defaultBranchRef"]["target"]["history"]["pageInfo"]["endCursor"]
+        hasNextPage = json_dict["data"]["repository"]["defaultBranchRef"]["target"]["history"]["pageInfo"]["hasNextPage"]
         return endCursor, hasNextPage
 
 def jsonMake(json_data,file_name,dir_path):
