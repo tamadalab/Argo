@@ -9,6 +9,7 @@ import csv
 import sys
 import os
 import glob
+from tqdm import tqdm
 import FileMake
 import Download_per
 import time
@@ -24,8 +25,8 @@ def request(repository, dir_path, payload_1, endCursor, hasNextPage,file_num): #
     data_cpl = False
     url = "https://api.github.com/graphql"
     payload_2 = ("){\\n      totalCount\\n      pageInfo{\\n        hasNextPage,\\n        endCursor\\n      }\\n        nodes{\\n          title,\\n          closedAt,\\n          createdAt,\\n          publishedAt,\\n          merged,\\n          mergedAt,\\n        participants{ totalCount },\\n      additions,\\n     deletions,\\n }\\n      \\n    }\\n  }\\n}\",\"operationName\":\"PullRequests\"}")
-    if (hasNextPage == 1):
-        if endCursor != None:
+    while hasNextPage:
+        if endCursor is not None:
             payload = (payload_1 + ",after:"+"\\\""+ endCursor +"\\\""+ payload_2)
         else:
             payload = payload_1 + payload_2
@@ -40,11 +41,18 @@ def request(repository, dir_path, payload_1, endCursor, hasNextPage,file_num): #
         json_data = response.json()
         data = find(json_data, str(file_num), dir_path, data_cpl)
         file_nextnum = data[0]
-        Download_per.download_per(repository, data[3], int(file_nextnum))
+
+        if pbar is None and data[3] > 0:
+            pbar = tqdm(total=data[3], desc=repository)
+        Download_per.download_per(pbar, repository, data[3], int(file_nextnum))
         export(file_nextnum, dir_path) #csvファイルに変換
-        return request(repository, dir_path, payload_1, data[1],data[2],file_num)
-    else: 
-        return
+
+        end_cursor = data[1]
+        has_next_page = data[2]
+
+    if pbar is not None:
+        pbar.close()
+
 
     
 def find(json_data, file_name, dir_path, data_cpl):

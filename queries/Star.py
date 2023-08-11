@@ -7,6 +7,7 @@ import os
 import glob
 import time
 import json
+from tqdm import tqdm
 
 import FileMake
 import Download_per
@@ -33,7 +34,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
     payload_2 = (
         "){\\n      totalCount\\n      nodes{\\n        name\\n        login\\n      }\\n      edges{\\n        cursor\\n        starredAt\\n      }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"stargazers\"}"
     )
-    if has_next_page == 1:
+    while has_next_page :
         if end_cursor != None:
             payload = (
                 payload_1
@@ -56,11 +57,20 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
         json_data = response.json()
         data = find(json_data, str(file_num), dir_path, data_cpl)
         file_nextnum = data[0]
-        Download_per.download_per(repository, data[3], int(file_nextnum))
+        Download_per.download_per(pbar, repository, data[3], int(file_nextnum))
         export(file_nextnum, dir_path)  # Convert to CSV file
-        return request(repository, dir_path, payload_1, data[1], data[2], file_num)
-    else:
-        return
+        if pbar is None and data[3] > 0:
+            pbar = tqdm(total=data[3], desc=repository)
+
+        Download_per.download_per(pbar, repository, data[3], int(file_nextnum))
+
+        export(file_nextnum, dir_path)  # csvファイルに変換
+
+        end_cursor = data[1]
+        has_next_page = data[2]
+
+    if pbar is not None:
+        pbar.close()
 
 
 # Check if existing files exist
