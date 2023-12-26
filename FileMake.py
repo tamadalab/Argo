@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import glob
 import json
 import pandas as pd
@@ -29,18 +30,38 @@ def newmakedir(dir_path):
 def deletedir(dir_path):
     os.rmdir(dir_path)
 
+def get_latest_file(directory):
+    list_of_files = glob.glob(os.path.join(directory, "*"))  # ディレクトリ内の全てのファイルを取得
+    if not list_of_files:
+        return None  # ファイルが存在しない場合は None を返す
+
+    # ファイル名から数字の部分を抽出し、数字の降順でソート
+    sorted_files = sorted(list_of_files, key=lambda x: int(re.search(r'\d+', x).group()), reverse=True)
+    
+    # 最新のファイルを削除する．（endCursor=Trueになっている可能性があるため）
+    delete_latest_file(sorted_files[0])
+    
+    return sorted_files[1]  # 一番大きい数字のファイルを返す
+
+def delete_latest_file(json_file):
+    os.remove(json_file)
+    csv_file = json_file.replace("/json/", "/csv/").replace(".json", ".csv")
+    os.remove(csv_file)
+
+
 def findCursor(dir_path, metrics):
-    list_of_files = glob.glob(os.path.join(dir_path, "json","*.json")) #list型 指定したフォルダからファイル一覧を取得
-    if len(list_of_files) == 0 : ## 初回参照時 (フォルダにjsonファイルがない時)
+    latest_file = get_latest_file(os.path.join(dir_path, "json"))
+    if latest_file is None:
+        # 初回参照時 (フォルダにjsonファイルがない時)
         endCursor = None
         hasNextPage = True
         file_num = 1
         print("First Survey")
-    else: ## 保存しているキャッシュディレクトリから，最新のファイルを参照する．
-        file_list = max(list_of_files, key = os.path.getctime)
-        file_num, fileext = os.path.splitext(os.path.basename(file_list)) #最新のファイルのNoのみ取得
+    else:
+        # 保存しているキャッシュディレクトリから，最新のファイルを参照する．
+        file_num, fileext = os.path.splitext(os.path.basename(latest_file))
         file_num = int(file_num)
-        f = open(file_list, "r")
+        f = open(latest_file, "r")
         json_dict = json.load(f)
         if metrics == "stargazers":
             json_data = Star(json_dict)
@@ -52,6 +73,8 @@ def findCursor(dir_path, metrics):
             json_data = Commit(json_dict)
         endCursor = json_data[0]
         hasNextPage = json_data[1]
+        print(endCursor, hasNextPage)
+    
     return endCursor, hasNextPage, file_num
 
 def Star(json_dict):
@@ -100,9 +123,12 @@ def merge(dir_path):
         if os.path.exists(path + "/" + str(i) + ".csv"):
             data_list.append(pd.read_csv(path + "/" + str(i) + ".csv"))
     df = pd.concat(data_list, axis=0, sort = False)
-    with open(os.path.join(path, "total.csv"), mode='w', newline='') as file:
+    # 既存のtotal.csvファイルがあれば上書き，なければ新規作成する
+    mode = 'w' if not os.path.exists(os.path.join(path, "total.csv")) else 'a'
+    with open(os.path.join(path, "total.csv"), mode=mode, newline='') as file:
         writer = csv.writer(file)
-        writer.writerow(df.columns)  # 列のヘッダーを書き込む
+        if mode == 'w':
+            writer.writerow(df.columns)  # 列のヘッダーを書き込む
         for row in df.values:
             writer.writerow(row)
 

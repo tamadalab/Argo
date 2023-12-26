@@ -30,8 +30,11 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
     data_cpl = False
     url = "https://api.github.com/graphql"
     payload_2 = (
-        "){\\n      totalCount\\n      nodes{\\n        title\\n        url\\n      createdAt\\n        closedAt\\n            }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"issues\"}"
+        "){\\n      totalCount\\n      nodes{\\n        author{\\n      login\\n  }\\n  title\\n        url\\n      createdAt\\n        closedAt\\n            }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"issues\"}"
     )
+
+    pbar = None
+
     while has_next_page:
         if end_cursor != None:
             payload = payload_1 + ",after:" + "\\\"" + end_cursor + "\\\"" + payload_2
@@ -39,7 +42,7 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
             payload = payload_1 + payload_2
             data_cpl = True
         headers = {
-            "Authorization": "bearer  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",
+            "Authorization": "bearer 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",
             "Content-Type": "application/json",
         }
         response = requests.request("POST", url, data=payload, headers=headers)
@@ -102,6 +105,11 @@ def export(file_name, dir_path):
     nodes = []
     temp_n = []
     for node in data["data"]["repository"]["issues"]["nodes"]:
+        author = node.get("author")
+        #if author is not None:
+        #    login = author["login"]
+        #else:
+        #    login = None  # Or set to a default value if necessary
         title = node["title"]
         url = node["url"]
         createdAt = node["createdAt"]

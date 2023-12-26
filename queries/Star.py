@@ -34,6 +34,9 @@ def request(repository, dir_path, payload_1, end_cursor, has_next_page, file_num
     payload_2 = (
         "){\\n      totalCount\\n      nodes{\\n        name\\n        login\\n      }\\n      edges{\\n        cursor\\n        starredAt\\n      }\\n      pageInfo{\\n        endCursor\\n        hasNextPage\\n      }\\n    }\\n  }\\n}\\n\",\"operationName\":\"stargazers\"}"
     )
+    
+    pbar = None
+    
     while has_next_page :
         if end_cursor != None:
             payload = (

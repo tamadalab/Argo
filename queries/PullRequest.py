@@ -25,6 +25,9 @@ def request(repository, dir_path, payload_1, endCursor, hasNextPage,file_num): #
     data_cpl = False
     url = "https://api.github.com/graphql"
     payload_2 = ("){\\n      totalCount\\n      pageInfo{\\n        hasNextPage,\\n        endCursor\\n      }\\n        nodes{\\n          title,\\n          closedAt,\\n          createdAt,\\n          publishedAt,\\n          merged,\\n          mergedAt,\\n        participants{ totalCount },\\n      additions,\\n     deletions,\\n }\\n      \\n    }\\n  }\\n}\",\"operationName\":\"PullRequests\"}")
+    
+    pbar = None
+    
     while hasNextPage:
         if endCursor is not None:
             payload = (payload_1 + ",after:"+"\\\""+ endCursor +"\\\""+ payload_2)

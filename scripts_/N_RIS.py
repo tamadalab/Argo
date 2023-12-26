@@ -20,7 +20,7 @@ def Prep(file):
     csv_input = pd.read_csv(filepath_or_buffer = file, encoding="UTF-8", sep=",")
     create_list = []
     close_list = []
-    dt_now = datetime.datetime.now()
+    dt_now = datetime.datetime.now(datetime.timezone.utc)
     dt_YearMonth = str(dt_now.year) + "-" + str(dt_now.month)
     now_date = []
     now_date.append(dt_YearMonth)
@@ -108,11 +108,11 @@ def Diff(now_create, first_create):
     Year = int(now_create[:4]) - int(first_create[:4])
     # Month_difference
     idx_now = now_create.find(target)
-    now = now_create[idx_now+1:]
+    now = int(now_create[idx_now+1:])
     idx_first = first_create.find(target)
-    first = first_create[idx_first+1:]
-    Month = int(now) - int(first)
-    diff = 12 * Year + Month
+    first = int(first_create[idx_first+1:])
+    Month = (12*Year +now) - first
+    diff = max(0,Month)
     return diff
 
 def Com_Plot(file, keys, values):
